@@ -12,7 +12,7 @@ from tf.convert.walker import CV
 BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
-VERSION = '0.1'
+VERSION = '0.2'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -33,8 +33,8 @@ clusterChars = {
 clusterCharsInv = {ce: cb for (cb, ce) in clusterChars.items()}
 
 markChars = {
-    '+': 'plus',
-    '*': 'star',
+    '+': 'combined',
+    '*': 'collated',
     '!': 'exclamation',
     '?': 'uncertain',
     '#': 'damage',
@@ -81,13 +81,19 @@ featureMeta = {
         'description': 'ATF line number',
     },
     'type': {
-        'description': 'name of a face of a tablet or type of cluster',
+        'description': 'name of a face of a tablet or type of cluster or sign',
     },
     'subtype': {
         'description': 'additional qualification of a face of a tablet',
     },
     'atf': {
         'description': 'full atf of a sign',
+    },
+    'repeat': {
+        'description': 'repeat of a numeral',
+    },
+    'fraction': {
+        'description': 'fraction of a numeral',
     },
     'reading': {
         'description': 'reading of a sign',
@@ -113,14 +119,17 @@ featureMeta = {
     'exclamation': {
         'description': 'whether a sign has a lonely exclamation mark',
     },
-    'star': {
-        'description': 'whether a sign has a lonely star',
+    'collated': {
+        'description': 'whether a sign is collated',
     },
-    'plus': {
-        'description': 'whether a sign has a lonely plus',
+    'combined': {
+        'description': 'whether a sign is combined',
     },
     'givengrapheme': {
         'description': 'grapheme given in transcription by !()',
+    },
+    'comment': {
+        'description': 'comment to line: material between ($ and $) ',
     },
 }
 
@@ -128,12 +137,14 @@ featureMeta = {
 # ATF PATTERNS
 
 transRe = re.compile(r'''^([0-9a-zA-Z'.])+\s+(.*)$''')
-numeralRe = re.compile(r'''[0-9]+\(([^)]+)\)''')
-graphemeRe = re.compile(r'''!\(([^)]+)\)''')
-splitRe = re.compile(r'''[ \t{}<>\[\].]+''')
-stickyNumeralRe = re.compile(r'''([0-9]+\([^)]+\){2,})''')
+commentRe = re.compile(r'\(\$(.*?)\$\)''')
+numeralRe = re.compile(r'''([0-9]+(?:/[0-9]+)?)\(([^)]+)\)''')
+graphemeRe = re.compile(r'''([a-z]+[0-9]*)(!?)\(([^)]+)\)''')
+graphemexRe = re.compile(r'''\(([^)]+)\)''')
+hyphRe = re.compile(r'''-+''')
 numeral2Re = re.compile(r'''([0-9]+\([^)]+\))''')
 stickyNumeralRe = re.compile(r'''((?:[0-9]+\([^)]+\)){2,})''')
+clusterTermRe = re.compile(f'^[{re.escape("".join(clusterChars.values()))}]*$')
 
 
 def stickyNumeralRepl(match):
@@ -187,7 +198,10 @@ def director(cv):
   curFace = None
   curLine = None
   curCluster = collections.defaultdict(list)
+  i = 0
   pNum = None
+
+  pNums = {}
 
   errors = collections.defaultdict(lambda: collections.defaultdict(set))
 
@@ -215,6 +229,18 @@ def director(cv):
     nonlocal pNum
 
     pNum = line[1:].split()[0]
+
+    other = pNums.get(pNum, None)
+    if other is not None:
+      (otherSrc, otherI) = other
+      rep = f'{pNum} also in {otherSrc}:{otherI}'
+      errors[f'duplicate pnums'][src].add((i, line, rep))
+
+      cv.terminate(curTablet)
+      return
+
+    pNums[pNum] = (src, i)
+
     sys.stderr.write(f'{src:<15} : {i:>4} : {pNum:<20}\r')
 
     cv.feature(
@@ -268,7 +294,7 @@ def director(cv):
 
   # sub director: setting up a line node
 
-  def lineStart(ln, trans):
+  def lineStart(ln, trans, comment):
     nonlocal curLine
 
     cv.terminate(curLine)
@@ -280,6 +306,10 @@ def director(cv):
         srcln=i,
         srcline=line,
     )
+    if comment is not None:
+      cv.feature(
+          comment=comment,
+      )
 
     for (cb, ce) in clusterChars.items():
       if cb == ce:
@@ -330,6 +360,9 @@ def director(cv):
       nonlocal part
       nonlocal inAlt
 
+      if part == '':
+        return
+
       for ce in clusterChars.values():
         if ce in part:
           part = part.replace(ce, '')
@@ -364,20 +397,24 @@ def director(cv):
           atf=part,
       )
 
-      if part == '':
-        errors['empty part'][src].add((i, line, word))
-        return
-
       if part and part[0] == '{' and part[-1] == '}':
         part = part[1:-1]
         cv.feature(super=1)
 
       match = graphemeRe.search(part)
       if match:
+        excl = match.group(2)
+        if not excl:
+          errors['missing ! in front of ()'][src].add((i, line, part))
+
+        part = match.group(1)
+        grapheme = match.group(3)
+
         cv.feature(
-            givengrapheme=match.group(1)
+            type='reading',
+            reading=part,
+            givengrapheme=grapheme,
         )
-        part = graphemeRe.sub('', part)
 
       for (mc, mf) in markChars.items():
         if mc in part:
@@ -386,16 +423,91 @@ def director(cv):
 
       if part == '':
         errors['empty part'][src].add((i, line, word))
-      elif part.islower():
         cv.feature(
-            reading=part,
+            type='empty',
         )
-      elif part.isupper():
+        return
+
+      match = numeralRe.match(part)
+      if match:
+        quantity = match.group(1)
+        rest = match.group(2)
         cv.feature(
+            type='numeral',
+        )
+        if '/' in quantity:
+          cv.feature(
+              fraction=quantity,
+          )
+        else:
+          cv.feature(
+              repeat=quantity,
+          )
+        if rest.islower():
+          cv.feature(
+              reading=rest,
+          )
+        else:
+          cv.feature(
+              grapheme=rest,
+          )
+        return
+
+      match = graphemexRe.search(part)
+      if match:
+        part = match.group(1)
+        cv.feature(
+            uncertain=1,
+        )
+        if part == 'x' or part == '...':
+          cv.feature(
+              type='empty' if part == '...' else 'unknown',
+              grapheme=part,
+          )
+        elif part.isupper():
+          cv.feature(
+              type='grapheme',
+              grapheme=part,
+          )
+        elif part.islower():
+          cv.feature(
+              type='reading',
+              reading=part,
+          )
+        else:
+          cv.feature(
+              type='other',
+              grapheme=part,
+          )
+        return
+
+      if part == 'x' or part == 'X' or part == '...':
+        cv.feature(
+            type='empty' if part == '...' else 'unknown',
             grapheme=part,
         )
-      else:
-        errors['mixed case'][src].add((i, line, part))
+        return
+
+      if part.islower():
+        cv.feature(
+            type='reading',
+            reading=part,
+        )
+        return
+
+      if part.isupper():
+        cv.feature(
+            type='grapheme',
+            grapheme=part,
+        )
+        return
+
+      cv.feature(
+          type='other',
+          grapheme=part,
+      )
+      msg = 'mixed case' if part.isalnum() else 'strange grapheme'
+      errors[msg][src].add((i, line, part))
 
     # the outer loop of the lineData sub generator
 
@@ -404,18 +516,27 @@ def director(cv):
       curWord = cv.node('word')
 
       word = word.replace('{', '-{').replace('}', '}-')
+      word = word.replace('[', '-[').replace(']', ']-')
+      word = word.replace('<', '-<').replace('>', '>-')
       word = word.strip('-')
 
-      parts = word.split('-')
+      parts = hyphRe.split(word)
       lParts = len(parts)
 
       for p in range(len(parts)):
         part = parts[p]
+        if part == '':
+          continue
 
         clusterStart()
-        signStart()
+
+        noMaterial = clusterTermRe.match(part)
+
+        if not noMaterial:
+          signStart()
         clusterEnd()
-        signData()
+        if not noMaterial:
+          signData()
 
       cv.terminate(curWord)
       curWord = None
@@ -438,6 +559,7 @@ def director(cv):
       i = 0
       for line in fh:
         i += 1
+
         if line.startswith('Transliteration:'):
           inTrans = True
           tabletStart()
@@ -466,11 +588,17 @@ def director(cv):
 
         ln = match.group(1)
         trans = match.group(2)
+        comment = None
+
+        match = commentRe.match(trans)
+        if match:
+          comment = match.group(1).strip()
+          trans = commentRe.sub('', trans).strip()
 
         if curFace is None:
           faceInsert('obverse')
 
-        lineStart(ln, trans)
+        lineStart(ln, trans, comment)
         lineData(trans)
 
       tabletEnd()
