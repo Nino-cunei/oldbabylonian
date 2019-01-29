@@ -6,9 +6,9 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-01-29T02:16:09Z
+@dateWritten=2019-01-29T09:47:34Z
 
-192292	[
+194959	[
 _
 [
 [
@@ -14381,2559 +14381,1369 @@ _
 <
 <
 <
+209333	obverse
+209335	obverse
+209337	obverse
+209339	obverse
+209343	obverse
+209345	obverse
 obverse
+209348	obverse
+209350	obverse
+209352	obverse
 obverse
+209623	obverse
+209625	obverse
+209627	obverse
+209629	obverse
+209631	obverse
+209633	obverse
+209635	obverse
+209637	obverse
+209639	obverse
 obverse
+209642	obverse
+209644	obverse
+209647	obverse
+209649	obverse
+209651	obverse
+209653	obverse
+209655	obverse
+209657	obverse
+209659	obverse
+209661	obverse
+209663	obverse
+209665	obverse
+209667	obverse
+209669	obverse
+209671	obverse
+209673	obverse
+209675	obverse
+209677	obverse
+209679	obverse
+209681	obverse
+209683	obverse
+209685	obverse
 obverse
+209688	obverse
+209690	obverse
+209692	obverse
+209694	obverse
+209696	obverse
+209698	obverse
+209700	obverse
 obverse
+209703	obverse
+209705	obverse
+209707	obverse
+209709	obverse
+209711	obverse
+209714	obverse
+209716	obverse
+209718	obverse
+209720	obverse
+209722	obverse
 obverse
+209725	obverse
 obverse
 obverse
+209729	obverse
 obverse
 obverse
 obverse
+209734	obverse
 obverse
+209737	obverse
+209739	obverse
 obverse
+209742	obverse
 obverse
+209745	obverse
 obverse
 obverse
+209749	obverse
 obverse
 obverse
+209753	obverse
+209755	obverse
 obverse
+209760	obverse
+209762	obverse
 obverse
 obverse
+209766	obverse
+209768	obverse
+209770	obverse
 obverse
 obverse
+209774	obverse
+209776	obverse
 obverse
 obverse
+209780	obverse
+209782	obverse
+209784	obverse
 obverse
+209788	obverse
+209790	obverse
+209792	obverse
+209795	obverse
 obverse
 obverse
+209799	obverse
+209801	obverse
 obverse
 obverse
+209805	obverse
+209807	obverse
+209810	obverse
+209812	obverse
+209814	obverse
 obverse
+209817	obverse
+209819	obverse
 obverse
+209822	obverse
 obverse
 obverse
+209826	obverse
+209828	obverse
+209830	obverse
 obverse
+209833	obverse
+209835	obverse
+209837	obverse
+209840	obverse
+209842	obverse
+209844	obverse
+209846	obverse
 obverse
+209849	obverse
+209851	obverse
+209853	obverse
+209855	obverse
+209858	obverse
 obverse
 obverse
+209862	obverse
+209864	obverse
+209866	obverse
 obverse
+209869	obverse
 obverse
 obverse
+209873	obverse
+209875	obverse
 obverse
+209878	obverse
 obverse
+209882	obverse
 obverse
+209885	obverse
 obverse
+209888	obverse
+209890	obverse
+209892	obverse
+209894	obverse
+209896	obverse
+209898	obverse
 obverse
+209901	obverse
+209903	obverse
 obverse
+209906	obverse
 obverse
+209909	obverse
+209911	obverse
+209913	obverse
+209915	obverse
+209917	obverse
 obverse
+209920	obverse
+209922	obverse
+209924	obverse
 obverse
+209928	obverse
 obverse
+209931	obverse
 obverse
 obverse
+209935	obverse
+209937	obverse
 obverse
+209940	obverse
+209942	obverse
+209945	obverse
 obverse
+209948	obverse
+209950	obverse
+209952	obverse
+209956	obverse
 obverse
+209959	obverse
+209963	obverse
+209965	obverse
+209968	obverse
+209970	obverse
+209972	obverse
+209975	obverse
+209977	obverse
+209980	obverse
+209982	obverse
+209984	obverse
 obverse
+209987	obverse
+209989	obverse
+209991	obverse
+209993	obverse
+209995	obverse
+209997	obverse
+209999	obverse
 obverse
+210002	obverse
 obverse
+210005	obverse
+210007	obverse
+210010	obverse
 obverse
+210013	obverse
+210015	obverse
+210017	obverse
 obverse
+210020	obverse
+210022	obverse
+210024	obverse
+210026	obverse
+210028	obverse
 obverse
+210031	obverse
+210033	obverse
+210035	obverse
 obverse
+210038	obverse
+210040	obverse
+210044	obverse
+210046	obverse
+210048	obverse
+210050	obverse
 obverse
 obverse
+210055	obverse
+210057	obverse
+210059	obverse
 obverse
+210065	obverse
+210067	obverse
+210069	obverse
+210071	obverse
+210074	obverse
+210076	obverse
+210078	obverse
+210080	obverse
+210082	obverse
+210084	obverse
+210086	obverse
+210088	obverse
+210090	obverse
+210092	obverse
+210094	obverse
+210096	obverse
+210098	obverse
+210100	obverse
+210102	obverse
+210104	obverse
+210106	obverse
+210110	obverse
+210112	obverse
+210115	obverse
+210117	obverse
+210119	obverse
+210121	obverse
 obverse
+210124	obverse
+210127	obverse
 obverse
 obverse
+210131	obverse
+210135	obverse
+210138	obverse
+210140	obverse
+210142	obverse
+210144	obverse
+210146	obverse
+210148	obverse
+210151	obverse
+210153	obverse
+210155	obverse
+210157	obverse
+210159	obverse
+210161	obverse
+210163	obverse
+210165	obverse
+210167	obverse
 obverse
 obverse
+210171	obverse
+210173	obverse
+210175	obverse
 obverse
 obverse
+210179	obverse
+210181	obverse
+210183	obverse
+210185	obverse
+210187	obverse
+210190	obverse
+210192	obverse
+210194	obverse
 obverse
+210197	obverse
+210199	obverse
+210201	obverse
+210204	obverse
+210206	obverse
+210208	obverse
+210210	obverse
+210212	obverse
+210214	obverse
 obverse
+210217	obverse
+210219	obverse
+210221	obverse
+210223	obverse
+210225	obverse
+210227	obverse
+210229	obverse
+210231	obverse
+210233	obverse
+210235	obverse
+210237	obverse
+210239	obverse
+210241	obverse
+210243	obverse
+210245	obverse
+210247	obverse
 obverse
+210250	obverse
 obverse
+210253	obverse
+210257	obverse
+210259	obverse
+210261	obverse
+210263	obverse
 obverse
+210266	obverse
 obverse
+210270	obverse
+210272	obverse
+210274	obverse
 obverse
 obverse
+210278	obverse
 obverse
+210281	obverse
 obverse
+210284	obverse
+210286	obverse
 obverse
+210289	obverse
 obverse
+210292	obverse
+210294	obverse
+210296	obverse
+210298	obverse
+210300	obverse
+210302	obverse
 obverse
+210305	obverse
+210307	obverse
+210309	obverse
 obverse
+210312	obverse
+210314	obverse
+210316	obverse
+210318	obverse
+210320	obverse
+210322	obverse
+210324	obverse
+210326	obverse
+210328	obverse
+210330	obverse
+210332	obverse
+210334	obverse
+210336	obverse
+210338	obverse
+210340	obverse
+210342	obverse
+210344	obverse
+210347	obverse
+210350	obverse
+210352	obverse
+210355	obverse
+210357	obverse
+210359	obverse
 obverse
+210362	obverse
+210364	obverse
+210366	obverse
+210368	obverse
+210370	obverse
+210372	obverse
+210374	obverse
+210376	obverse
+210380	obverse
+210382	obverse
+210385	obverse
+210387	obverse
+210389	obverse
+210392	obverse
+210394	obverse
+210396	obverse
 obverse
+210399	obverse
+210401	obverse
+210403	obverse
+210405	obverse
+210407	obverse
+210409	obverse
+210411	obverse
+210413	obverse
+210415	obverse
 obverse
 obverse
+210419	obverse
 obverse
 obverse
+210423	obverse
 obverse
 obverse
+210427	obverse
+210429	obverse
+210431	obverse
+210433	obverse
+210435	obverse
+210437	obverse
+210439	obverse
+210441	obverse
+210443	obverse
+210445	obverse
 obverse
+210448	obverse
 obverse
+210452	obverse
+210454	obverse
+210458	obverse
 obverse
+210461	obverse
 obverse
+210464	obverse
+210466	obverse
+210468	obverse
+210470	obverse
+210472	obverse
+210474	obverse
+210476	obverse
+210479	obverse
+210481	obverse
+210483	obverse
+210486	obverse
+210488	obverse
+210491	obverse
 obverse
+210494	obverse
 obverse
+210497	obverse
+210499	obverse
+210501	obverse
+210529	obverse
+210531	obverse
+210533	obverse
+210535	obverse
+210537	obverse
+210539	obverse
+210541	obverse
+210544	obverse
+210546	obverse
+210548	obverse
+210550	obverse
+210552	obverse
+210554	obverse
+210556	obverse
 obverse
+210559	obverse
+210561	obverse
+210563	obverse
+210565	obverse
 obverse
+210568	obverse
+210570	obverse
 obverse
 obverse
+210574	obverse
+210576	obverse
 obverse
 obverse
+210580	obverse
+210582	obverse
 obverse
+210585	obverse
+210587	obverse
+210589	obverse
 obverse
+210592	obverse
 obverse
 obverse
+210596	obverse
+210598	obverse
 obverse
+210601	obverse
 obverse
+210604	obverse
+210606	obverse
+210608	obverse
+210610	obverse
 obverse
 obverse
+210614	obverse
+210616	obverse
 obverse
 obverse
+210620	obverse
 obverse
 obverse
+210624	obverse
+210626	obverse
+210628	obverse
 obverse
+210631	obverse
 obverse
+210634	obverse
+210636	obverse
+210638	obverse
+210640	obverse
 obverse
+210643	obverse
+210645	obverse
+210647	obverse
+210649	obverse
+210651	obverse
+210653	obverse
+210655	obverse
+210657	obverse
+210659	obverse
+210661	obverse
+210663	obverse
+210665	obverse
+210667	obverse
 obverse
+210672	obverse
+210674	obverse
 obverse
+210677	obverse
 obverse
+210680	obverse
 obverse
 obverse
+210684	obverse
+210686	obverse
 obverse
+210689	obverse
+210691	obverse
 obverse
+210694	obverse
 obverse
 obverse
+210698	obverse
 obverse
+210701	obverse
 obverse
 obverse
+210705	obverse
+210707	obverse
+210709	obverse
 obverse
+210712	obverse
+210714	obverse
+210716	obverse
+210718	obverse
+210720	obverse
+210722	obverse
+210724	obverse
+210726	obverse
 obverse
+210729	obverse
 obverse
+210732	obverse
+210734	obverse
 obverse
+210737	obverse
+210739	obverse
+210741	obverse
+210743	obverse
 obverse
+210746	obverse
+210748	obverse
+210750	obverse
+210752	obverse
+210754	obverse
+210756	obverse
+210758	obverse
+210760	obverse
 obverse
+210763	obverse
+210765	obverse
+210767	obverse
+210769	obverse
+210771	obverse
+210773	obverse
+210775	obverse
 obverse
+210778	obverse
 obverse
+210781	obverse
 obverse
+210784	obverse
+210786	obverse
+210788	obverse
+210790	obverse
 obverse
+210793	obverse
 obverse
+210796	obverse
+210798	obverse
+210800	obverse
+210802	obverse
+210804	obverse
+210806	obverse
+210808	obverse
+210811	obverse
+210814	obverse
+210816	obverse
+210818	obverse
 obverse
 obverse
+210822	obverse
 obverse
+210825	obverse
 obverse
+210828	obverse
 obverse
+210831	obverse
+210833	obverse
+210835	obverse
+210837	obverse
+210839	obverse
+210841	obverse
+210843	obverse
 obverse
+210846	obverse
+210848	obverse
+210850	obverse
+210852	obverse
+210854	obverse
+210856	obverse
+210858	obverse
+210860	obverse
 obverse
+210863	obverse
 obverse
 obverse
+210867	obverse
 obverse
+210870	obverse
+210872	obverse
 obverse
+210877	obverse
+210880	obverse
 obverse
 obverse
+210884	obverse
 obverse
+210887	obverse
+210889	obverse
+210891	obverse
+210894	obverse
+210896	obverse
+210898	obverse
+210900	obverse
+210902	obverse
+210904	obverse
+210906	obverse
+210908	obverse
 obverse
 obverse
+210912	obverse
+210914	obverse
+210916	obverse
+210918	obverse
+210920	obverse
+210922	obverse
+210924	obverse
+210926	obverse
+210928	obverse
+210930	obverse
+210932	obverse
+210934	obverse
+210936	obverse
+210938	obverse
 obverse
+210941	obverse
+210943	obverse
 obverse
+210946	obverse
 obverse
+210949	obverse
+210951	obverse
+210953	obverse
+210955	obverse
+210957	obverse
+210960	obverse
+210962	obverse
+210964	obverse
+210966	obverse
+210968	obverse
+210970	obverse
+210972	obverse
+210974	obverse
+210977	obverse
+210979	obverse
+210981	obverse
+210983	obverse
+210985	obverse
+210987	obverse
+210989	obverse
+210991	obverse
+210993	obverse
+210995	obverse
+210997	obverse
+211000	obverse
+211002	obverse
 obverse
+211005	obverse
+211007	obverse
+211009	obverse
+211011	obverse
+211013	obverse
+211015	obverse
+211017	obverse
+211019	obverse
+211021	obverse
+211023	obverse
+211026	obverse
+211028	obverse
+211030	obverse
+211033	obverse
+211035	obverse
+211037	obverse
 obverse
 obverse
+211041	obverse
+211043	obverse
+211045	obverse
+211047	obverse
+211050	obverse
+211054	obverse
+211056	obverse
+211058	obverse
 obverse
+211061	obverse
+211063	obverse
 obverse
+211066	obverse
 obverse
+211069	obverse
+211071	obverse
 obverse
+211074	obverse
+211076	obverse
+211078	obverse
+211080	obverse
+211082	obverse
 obverse
+211086	obverse
+211088	obverse
+211090	obverse
+211092	obverse
+211094	obverse
 obverse
+211099	obverse
 obverse
+211124	obverse
+211126	obverse
+211128	obverse
+211130	obverse
 obverse
 obverse
+211134	obverse
+211136	obverse
+211138	obverse
+211140	obverse
 obverse
+211143	obverse
+211145	obverse
 obverse
+211148	obverse
+211150	obverse
+211152	obverse
 obverse
+211155	obverse
 obverse
+211158	obverse
 obverse
+211162	obverse
 obverse
+211165	obverse
 obverse
+211168	obverse
+211170	obverse
+211200	obverse
 obverse
+211308	obverse
+211365	obverse
 obverse
 obverse
+211374	obverse
+211379	obverse
+211382	obverse
+211384	obverse
+211386	obverse
+211388	obverse
+211390	obverse
+211392	obverse
+211395	obverse
+211397	obverse
+211399	obverse
+211401	obverse
 obverse
+211404	obverse
+211406	obverse
+211409	obverse
+211412	obverse
+211414	obverse
+211416	obverse
+211420	obverse
+211422	obverse
+211424	obverse
+211426	obverse
+211428	obverse
+211430	obverse
+211432	obverse
+211434	obverse
+211436	obverse
+211440	obverse
 obverse
+211443	obverse
+211445	obverse
+211447	obverse
+211449	obverse
+211451	obverse
+211453	obverse
+211455	obverse
+211457	obverse
+211459	obverse
+211461	obverse
+211464	obverse
+211467	obverse
+211469	obverse
+211473	obverse
+211475	obverse
+211478	obverse
+211480	obverse
+211482	obverse
+211484	obverse
+211486	obverse
+211488	obverse
+211490	obverse
+211493	obverse
+211495	obverse
+211497	obverse
+211499	obverse
+211501	obverse
+211503	obverse
+211505	obverse
+211507	obverse
+211509	obverse
+211511	obverse
+211513	obverse
+211515	obverse
+211517	obverse
+211519	obverse
+211521	obverse
+211524	obverse
+211655	obverse
+211883	obverse
+211897	obverse
+211899	obverse
+211902	obverse
+211904	obverse
+211906	obverse
+211908	obverse
+211911	obverse
+211913	obverse
+211916	obverse
+211919	obverse
+211921	obverse
 obverse
+211924	obverse
+211926	obverse
 obverse
+211929	obverse
 obverse
+211932	obverse
 obverse
 obverse
+211936	obverse
+211938	obverse
+211940	obverse
 obverse
 obverse
+211944	obverse
+211946	obverse
 obverse
 obverse
+211950	obverse
+211952	obverse
 obverse
 obverse
+211957	obverse
 obverse
 obverse
+211961	obverse
 obverse
 obverse
+211965	obverse
+211967	obverse
+211969	obverse
+211971	obverse
+211973	obverse
+211975	obverse
+211977	obverse
+211979	obverse
+211981	obverse
+211983	obverse
+211985	obverse
 obverse
+211988	obverse
 obverse
 obverse
+211992	obverse
+211994	obverse
+211996	obverse
+211998	obverse
 obverse
+212001	obverse
+212003	obverse
+212005	obverse
 obverse
+212008	obverse
+212010	obverse
+212012	obverse
+212014	obverse
+212016	obverse
+212018	obverse
+212020	obverse
+212027	obverse
+212029	obverse
+212032	obverse
+212034	obverse
+212036	obverse
+212038	obverse
+212040	obverse
+212042	obverse
+212044	obverse
+212046	obverse
+212048	obverse
+212050	obverse
+212052	obverse
+212110	obverse
+212112	obverse
+212114	obverse
+212116	obverse
+212118	obverse
+212122	obverse
+212125	obverse
+212127	obverse
+212129	obverse
+212131	obverse
+212133	obverse
+212135	obverse
+212137	obverse
 obverse
+212140	obverse
+212142	obverse
+212144	obverse
+212146	obverse
+212148	obverse
+212150	obverse
+212152	obverse
+212154	obverse
+212156	obverse
+212158	obverse
 obverse
+212161	obverse
+212163	obverse
 obverse
+212166	obverse
+212245	obverse
+212250	obverse
 obverse
 obverse
+212287	obverse
+212447	obverse
+212449	obverse
 obverse
 obverse
+212453	obverse
+212455	obverse
+212593	obverse
 obverse
+212596	obverse
+212598	obverse
 obverse
+212601	obverse
+212603	obverse
+212605	obverse
+212607	obverse
 obverse
+212610	obverse
+212612	obverse
+212614	obverse
+212616	obverse
+212618	obverse
+212620	obverse
+212622	obverse
+212624	obverse
+212626	obverse
+212628	obverse
+212630	obverse
+212632	obverse
 obverse
 obverse
+212636	obverse
+212638	obverse
 obverse
 obverse
+212642	obverse
 obverse
+212645	obverse
 obverse
 obverse
+212649	obverse
+212651	obverse
+212653	obverse
+212655	obverse
 obverse
 obverse
+212659	obverse
+212661	obverse
+212663	obverse
+212665	obverse
+212667	obverse
 obverse
+212670	obverse
 obverse
+212673	obverse
+212676	obverse
+212678	obverse
+212680	obverse
+212682	obverse
+212684	obverse
 obverse
 obverse
+212688	obverse
+212690	obverse
+212694	obverse
+212696	obverse
+212698	obverse
+212700	obverse
+212702	obverse
+212704	obverse
+212706	obverse
+212710	obverse
 obverse
+212713	obverse
+212716	obverse
+212719	obverse
+212721	obverse
+212723	obverse
+212725	obverse
+212727	obverse
+212729	obverse
+212731	obverse
+212733	obverse
+212735	obverse
 obverse
 obverse
+212740	obverse
+212742	obverse
+212744	obverse
+212746	obverse
 obverse
+212749	obverse
 obverse
+212752	obverse
 obverse
 obverse
+212756	obverse
+212759	obverse
+212762	obverse
 obverse
 obverse
+212766	obverse
 obverse
 obverse
+212770	obverse
+212772	obverse
+212774	obverse
+212776	obverse
+212778	obverse
 obverse
+212781	obverse
+212783	obverse
 obverse
+212787	obverse
 obverse
+212790	obverse
 obverse
+212793	obverse
+212795	obverse
+212797	obverse
+212800	obverse
+212802	obverse
 obverse
+212805	obverse
+212807	obverse
+212809	obverse
+212812	obverse
+212814	obverse
+212816	obverse
+212818	obverse
+212820	obverse
+212822	obverse
+212824	obverse
+212826	obverse
+212828	obverse
+212830	obverse
 obverse
 obverse
+212834	obverse
+212836	obverse
+212838	obverse
+212841	obverse
+212843	obverse
+212845	obverse
+212847	obverse
+212849	obverse
 obverse
+212852	obverse
+212854	obverse
+212856	obverse
+212858	obverse
+212862	obverse
+212864	obverse
+212866	obverse
+212868	obverse
+212870	obverse
+212872	obverse
+212874	obverse
+212876	obverse
+212879	obverse
+212881	obverse
+212883	obverse
 obverse
+212888	obverse
+212890	obverse
+212892	obverse
 obverse
+212895	obverse
 obverse
 obverse
+212899	obverse
+212901	obverse
+212903	obverse
+212905	obverse
 obverse
+212908	obverse
 obverse
+212911	obverse
+212913	obverse
+212915	obverse
 obverse
+212918	obverse
 obverse
+212921	obverse
 obverse
+212924	obverse
+212926	obverse
+212928	obverse
+212930	obverse
+212932	obverse
+212934	obverse
+212936	obverse
+212938	obverse
+212940	obverse
+212942	obverse
 obverse
 obverse
+212946	obverse
+212948	obverse
 obverse
+212951	obverse
+212953	obverse
+212955	obverse
+212957	obverse
+212959	obverse
 obverse
 obverse
+212963	obverse
 obverse
 obverse
+212967	obverse
 obverse
+212970	obverse
+212972	obverse
+212974	obverse
+212976	obverse
 obverse
+212979	obverse
 obverse
+212982	obverse
+212984	obverse
+212986	obverse
+212988	obverse
+212990	obverse
+212992	obverse
 obverse
+212995	obverse
+212997	obverse
 obverse
 obverse
+213001	obverse
+213003	obverse
+213005	obverse
+213007	obverse
 obverse
+213010	obverse
+213012	obverse
+213014	obverse
+213016	obverse
 obverse
 obverse
+213020	obverse
+213022	obverse
 obverse
 obverse
+213026	obverse
+213028	obverse
+213030	obverse
+213033	obverse
 obverse
+213036	obverse
+213038	obverse
+213040	obverse
+213042	obverse
 obverse
 obverse
+213046	obverse
 obverse
 obverse
+213050	obverse
+213053	obverse
+213055	obverse
 obverse
+213058	obverse
+213060	obverse
 obverse
 obverse
+213064	obverse
 obverse
+213067	obverse
+213069	obverse
+213071	obverse
+213073	obverse
 obverse
+213076	obverse
 obverse
+213079	obverse
+213081	obverse
+213084	obverse
+213086	obverse
+213088	obverse
 obverse
 obverse
+213092	obverse
 obverse
+213095	obverse
+213097	obverse
+213099	obverse
+213101	obverse
+213104	obverse
+213106	obverse
 obverse
 obverse
+213110	obverse
 obverse
 obverse
+213114	obverse
 obverse
 obverse
+213118	obverse
 obverse
+213121	obverse
+213123	obverse
+213125	obverse
+213127	obverse
+213129	obverse
 obverse
+213132	obverse
+213157	obverse
+213159	obverse
+213162	obverse
+213164	obverse
 obverse
 obverse
+213168	obverse
+213170	obverse
+213173	obverse
+213175	obverse
+213178	obverse
+213180	obverse
+213182	obverse
+213184	obverse
+213186	obverse
+213188	obverse
+213190	obverse
 obverse
+213193	obverse
+213196	obverse
+213198	obverse
+213201	obverse
 obverse
+213204	obverse
+213233	obverse
 obverse
+213238	obverse
+213240	obverse
 obverse
 obverse
+213244	obverse
+213246	obverse
 obverse
+213249	obverse
+213251	obverse
+213253	obverse
+213255	obverse
+213257	obverse
+213260	obverse
+213262	obverse
 obverse
+213265	obverse
+213267	obverse
+213269	obverse
+213272	obverse
+213275	obverse
+213289	obverse
 obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
-obverse
+213306	obverse
+213363	obverse
 obverse

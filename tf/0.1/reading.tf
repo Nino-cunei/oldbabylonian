@@ -6,11 +6,11 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-01-29T02:16:08Z
+@dateWritten=2019-01-29T09:47:33Z
 
-a
+2	a
 na
-4	d
+5	d
 en
 zu
 i
@@ -21,7 +21,7 @@ bi2
 ma
 um
 ma
-16	d
+17	d
 en
 lil2
 sza
@@ -29,10 +29,10 @@ du
 u2
 ni
 ma
-25	d
+26	d
 utu
 u3
-29	d
+30	d
 amar
 utu
 a
@@ -51,7 +51,7 @@ ka
 disz
 sze
 ep
-49	d
+50	d
 en
 zu
 a2
@@ -114,7 +114,7 @@ x
 x
 ki
 sza
-113	d
+114	d
 utu
 ha
 zi
@@ -165,20 +165,20 @@ ra
 bu
 um
 x
-165	x
+166	x
 x
 x
 x
 x
 x
-172	x
+173	x
 x
 x
 x
-177	x
+178	x
 x
 x
-181	x
+182	x
 x
 x
 s,i
@@ -263,7 +263,7 @@ e2
 gal
 lim
 sza
-267	d
+268	d
 utu
 ha
 zi
@@ -314,7 +314,7 @@ sza
 ab
 ba
 x
-319	x
+320	x
 ti
 u2
 ul
@@ -322,13 +322,13 @@ a
 ga
 am
 ma
-328	u2
+329	u2
 ul
 a
 sza
 ap
 pa
-335	at
+336	at
 ta
 ki
 ma
@@ -345,7 +345,7 @@ ru
 us
 x
 x
-353	a
+355	a
 na
 i3
 li2
@@ -362,11 +362,11 @@ dingir
 x
 zi
 x
-371	ma
-373	d
+373	ma
+375	d
 utu
 u3
-377	d
+379	d
 amar
 utu
 da
@@ -374,7 +374,7 @@ ri
 isz
 u4
 mi
-386	li
+388	li
 ba
 al
 li
@@ -388,7 +388,7 @@ ta
 lu
 ba
 al
-401	dub
+403	dub
 pi2
 a
 na
@@ -496,7 +496,7 @@ li
 qi2
 a
 am
-a
+512	a
 na
 da
 da
@@ -559,7 +559,7 @@ tam
 szu
 bi
 lam
-isz
+576	isz
 tu
 iti
 sig4
@@ -624,7 +624,7 @@ am
 disz
 na
 bi
-638	d
+642	d
 suen
 a
 na
@@ -654,7 +654,7 @@ an
 na
 na
 bi
-669	d
+673	d
 suen
 a
 na
@@ -757,13 +757,13 @@ la
 ku
 a
 na
-773	d
+777	d
 marduk
 it
 ti
 na
 bi
-780	d
+784	d
 suen
 a
 na
@@ -772,7 +772,7 @@ ki
 t,u2
 ur
 dam
-a
+795	a
 na
 ra
 bi
@@ -815,7 +815,7 @@ ia
 t,u2
 ur
 dam
-a
+839	a
 na
 im
 me
@@ -874,7 +874,7 @@ gi4
 a
 pu
 tum
-a
+899	a
 wi
 lam
 sza
@@ -972,12 +972,12 @@ ep
 sza
 x
 x
-990	dumu
+998	dumu
 lu2
-994	d
-997	x
+1002	d
+1006	x
 x
-1001	x
+1010	x
 lu
 ba
 al
@@ -1029,20 +1029,20 @@ a
 hi
 at
 ta
-1054	ta
-1058	a
+1063	ta
+1067	a
 na
 pa
 ni
 ka
-1064	a
+1073	a
 sza3
 u2
 ul
 e
 ri
 isz
-1072	in
+1081	in
 nu
 u2
 ul
@@ -1074,7 +1074,7 @@ i
 mu
 ut
 ta
-1105	x
+1114	x
 tup
 pu
 x
@@ -1100,15 +1100,15 @@ a
 wi
 le
 e
-1132	disz
+1141	disz
 i
 bi
-1136	d
+1145	d
 en
 lil2
 disz
 pi4
-1142	d
+1151	d
 utu
 ra
 bi
@@ -1183,7 +1183,7 @@ un
 ku3
 babbar
 disz
-1218	d
+1227	d
 suen
 na
 di
@@ -1253,7 +1253,7 @@ asz
 pu
 ra
 am
-1289	x
+1298	x
 x
 x
 x
@@ -1263,16 +1263,16 @@ am
 t,a
 ba
 am
-1300	x
-1302	x
-1304	x
-1306	x
-1308	x
+1310	x
+1312	x
+1314	x
+1316	x
+1318	x
 a
 na
 x
 x
-1314	a
+1324	a
 al
 la
 ak
@@ -1304,9 +1304,9 @@ li
 it
 ru
 nim
-1347	x
+1358	x
 x
-1350	e
+1361	e
 pe
 szum
 sza
@@ -1321,21 +1321,21 @@ uz
 ni
 ia
 li
-1366	a
+1377	a
 na
 ku
 i
-1371	x[...
+1382	x[...
 x[...
 x[...
-1375	x
+1386	x
 sa3
 bi
 ti
-1381	i
+1392	i
 di
 in
-1385	a
+1665	a
 na
 dingir
 szu
@@ -1347,7 +1347,7 @@ ma
 um
 ma
 geme2
-1398	d
+1678	d
 utu
 ma
 be
@@ -1426,7 +1426,7 @@ x
 u2
 ul
 x
-1478	e2
+1758	e2
 a
 na
 dingir
@@ -1456,7 +1456,7 @@ la
 i
 ma
 at
-a
+1789	a
 na
 dingir
 szu
@@ -1563,7 +1563,7 @@ a
 na
 ip
 qu2
-1616	d
+1897	d
 na
 bi
 um
@@ -1735,7 +1735,7 @@ ad
 asz
 szum
 sze
-1789	sza
+2070	sza
 ta
 asz
 pu
@@ -1746,7 +1746,7 @@ pi2
 e
 tel
 pi4
-1801	d
+2082	d
 na
 bi
 um
@@ -1788,12 +1788,12 @@ lum
 dilmun
 na
 u3
-1844	gesz
+2125	gesz
 nu
 ur2
 ma
 disz
-1850	d
+2131	d
 nin
 urta
 ni
@@ -1808,7 +1808,7 @@ usz
 ta
 bi
 lam
-a
+2147	a
 na
 dingir
 szu
@@ -1857,7 +1857,7 @@ na
 a
 li
 im
-1915	disz
+2197	disz
 ip
 qu2
 i3
@@ -1872,7 +1872,7 @@ it
 ta
 al
 kam
-1931	disz
+2213	disz
 ip
 qu2
 i3
@@ -1881,12 +1881,12 @@ szu
 szu
 a
 tu
-1941	x
+2223	x
 x
 x
 x
 ra
-1947	tup
+2229	tup
 pi2
 im
 lu
@@ -1900,7 +1900,7 @@ x
 al
 li
 x
-1962	a
+2244	a
 sza3
 am
 szu
@@ -1908,7 +1908,7 @@ ta
 ak
 szi
 id
-a
+2253	a
 na
 a
 wi
@@ -1953,7 +1953,7 @@ al
 ma
 ta
 disz
-2016	d
+2299	d
 tu
 tu
 na
@@ -2045,7 +2045,7 @@ tu
 sza
 ar
 sza
-a
+2392	a
 na
 dingir
 szu
@@ -2074,7 +2074,7 @@ du3
 e
 ka
 disz
-2138	d
+2422	d
 x
 ra
 bi
@@ -2188,7 +2188,7 @@ sza
 pir
 zimbir[
 ki
-2253	um
+2537	um
 ma
 szu
 ma
@@ -2295,7 +2295,7 @@ dingir
 szu
 ib
 ni
-2361	ka
+2645	ka
 gu4
 ki
 ma
@@ -2314,7 +2314,7 @@ tim
 nu
 usz
 te
-2381	zi
+2665	zi
 ib
 gu4
 sza
@@ -2367,7 +2367,7 @@ mi
 iq
 n
 n
-2435	a
+2719	a
 sza3
 la
 te
@@ -2420,10 +2420,10 @@ ap
 ta
 qi2
 id
-2489	x
+2773	x
 ti
 ka
-2495	d
+2779	d
 ul
 masz
 szi
@@ -2465,7 +2465,7 @@ i
 na
 qa2
 ti
-2539	d
+2823	d
 ul
 masz
 szi
@@ -2485,7 +2485,7 @@ am
 i
 nu
 ma
-2561	d
+2845	d
 ul
 masz
 szi
@@ -2524,7 +2524,7 @@ sza
 li
 mu
 ka
-a
+2885	a
 na
 dingir
 szu
@@ -2564,7 +2564,7 @@ a
 na
 ip
 qu2
-2641	d
+2926	d
 na
 bi
 um
@@ -2595,14 +2595,14 @@ usz
 ta
 bi
 lam
-2673	disz
-2675	d
+2958	disz
+2960	d
 suen
 i
 din
 nam
 disz
-2682	d
+2967	d
 suen
 mu
 sza
@@ -2713,7 +2713,7 @@ le
 eq
 qu2
 nim
-a
+3079	a
 na
 dingir
 szu
@@ -2860,7 +2860,7 @@ si
 in
 qa2
 am
-a
+3227	a
 na
 dingir
 szu
@@ -2924,7 +2924,7 @@ ku5
 u3
 ib
 ni
-3005	d
+3292	d
 mar
 tu
 ugula
@@ -2981,7 +2981,7 @@ ta
 ra
 asz
 szi
-a
+3350	a
 na
 be
 li2
@@ -3017,7 +3017,7 @@ u2
 disz
 u
 bar
-3099	d
+3387	d
 na
 bi
 um
@@ -3055,14 +3055,14 @@ qu2
 i
 nu
 ma
-3138	gesz
+3426	gesz
 apin
 hi
 a
 sza
 iri
 ki
-3146	(x)
+3434	(x)
 (x)
 u2
 sza
@@ -3076,21 +3076,21 @@ x
 x
 x
 u2
-3161	disz
+3449	disz
 u
 bar
 rum
-3166	d
+3454	d
 na
 bi
 um
 ma
 u2
 mi
-3174	disz
+3462	disz
 u
 bar
-3178	d
+3466	d
 na
 bi
 um
@@ -3098,7 +3098,7 @@ szu
 u2
 1(disz)
 sag
-3187	a
+3475	a
 ta
 ar
 tam
@@ -3136,7 +3136,7 @@ i
 na
 babila2[
 ki
-3226	ma
+3514	ma
 har
 a
 wi
@@ -3173,7 +3173,7 @@ na
 u
 bar
 rum
-3264	d
+3552	d
 na
 bi
 um
@@ -3246,7 +3246,7 @@ gin2
 ku3
 babbar
 li
-3338	be
+3626	be
 li2
 a
 wi
@@ -3254,11 +3254,11 @@ lam
 a
 bi
 erin2
-3347	li
+3635	li
 isz
 i
 x
-3352	li
+3640	li
 il
 qe2
 szu
@@ -3287,7 +3287,7 @@ at
 ta
 al
 kam
-a
+3670	a
 na
 d
 na
@@ -3393,7 +3393,7 @@ am
 a
 na
 dumu
-3488	d
+3777	d
 utu
 asz
 tap
@@ -3406,7 +3406,7 @@ di
 na
 ak
 kum
-a
+3791	a
 na
 d
 na
@@ -3430,7 +3430,7 @@ um
 ma
 ig
 mil
-3526	d
+3816	d
 suen
 ma
 d
@@ -3473,7 +3473,7 @@ pur
 am
 tup
 pi2
-3570	i3
+3860	i3
 li2
 szu
 is3
@@ -3513,7 +3513,7 @@ ki
 ma
 tup
 pi2
-3611	i3
+3901	i3
 li2
 szu
 is3
@@ -3599,7 +3599,7 @@ ul
 i
 le
 a
-a
+3988	a
 na
 d
 na
@@ -3635,7 +3635,7 @@ ka
 x
 x
 (x)
-3734	sar
+4025	sar
 sza
 qa2
 ti
@@ -3670,14 +3670,14 @@ qi2
 bi
 i
 ma
-3770	sar
-3772	szu
+4061	sar
+4063	szu
 la
 i
 ka
 al
 la
-a
+4070	a
 na
 d
 na
@@ -3855,7 +3855,7 @@ usz
 ta
 ha
 szum
-a
+4249	a
 na
 d
 na
@@ -3883,7 +3883,7 @@ ub
 bu
 tum
 ma
-3985	d
+4278	d
 utu
 u3
 d
@@ -3972,7 +3972,7 @@ szu
 bi
 la
 am
-a
+4368	a
 na
 d
 na
@@ -4044,7 +4044,7 @@ szu
 up
 ra
 am
-a
+4441	a
 na
 d
 na
@@ -4068,14 +4068,14 @@ asz
 szum
 1(bur3)
 1(esze3)
-4171	a
+4466	a
 sza3
 gibil
 sza
 isz
 ku
 un
-4179	d
+4474	d
 suen
 ki
 ki
@@ -4122,7 +4122,7 @@ szi
 id
 1(bur3)
 1(esze3)
-4227	a
+4522	a
 sza3
 sza
 dumu
@@ -4131,7 +4131,7 @@ ni
 id
 na
 at
-4237	d
+4532	d
 suen
 li
 id
@@ -4169,7 +4169,7 @@ e
 ka
 1(bur3)
 1(esze3)
-4276	a
+4571	a
 sza3
 szu
 a
@@ -4194,14 +4194,14 @@ x
 x
 x
 x
-4304	a
+4599	a
 sza3
 sza
 qa2
 ti
 ia
 x
-4312	sze
+4607	sze
 um
 li
 in
@@ -4221,7 +4221,7 @@ ka
 ma
 1(bur3)
 1(esze3)
-4333	a
+4628	a
 sza3
 szu
 u2
@@ -4266,7 +4266,7 @@ na
 an
 na
 disz
-4379	d
+4674	d
 da
 gan
 ra
@@ -4299,7 +4299,7 @@ am
 isz
 pur
 am
-4413	gu4
+4708	gu4
 u4
 ma
 am
@@ -4318,7 +4318,7 @@ gu4
 hi
 a
 disz
-4433	d
+4728	d
 da
 gan
 ra
@@ -4393,7 +4393,7 @@ szu
 i3
 li2
 u3
-4509	d
+4804	d
 utu
 i
 na
@@ -4410,7 +4410,7 @@ nim
 gu4
 x
 sza
-4527	x
+4822	x
 wa
 ar
 ka
@@ -4424,7 +4424,7 @@ am
 isz
 pur
 am
-a
+4837	a
 na
 d
 na
@@ -4562,7 +4562,7 @@ tim
 se
 e
 ra
-a
+4976	a
 na
 d
 na
@@ -4777,7 +4777,7 @@ ki
 a
 am
 disz
-4895	d
+5192	d
 na
 bi
 um
@@ -4794,7 +4794,7 @@ ia
 szu
 bi
 lam
-a
+5210	a
 na
 d
 na
@@ -4833,14 +4833,14 @@ x
 ni
 su2
 uq
-4952	x
-4954	x
+5250	x
+5252	x
 an
 da
 ah
 szum
 sar
-4961	x
+5259	x
 x
 x
 sar
@@ -4854,7 +4854,7 @@ ba
 lam
 x
 ma
-4976	sza
+5274	sza
 be
 li2
 ia
@@ -4893,7 +4893,7 @@ an
 na
 disz
 x
-5016	1(gesz2)
+5314	1(gesz2)
 3(u)
 an
 da
@@ -4922,10 +4922,10 @@ sza
 bi
 la
 kum
-5049	szu
+5347	szu
 bi
 lam
-a
+5351	a
 na
 d
 na
@@ -4954,7 +4954,7 @@ szu
 ut
 sipa
 ki
-5082	mesz
+5381	mesz
 t,e4
 em
 szu
@@ -5010,7 +5010,7 @@ iti
 szu
 numun
 a
-5139	x
+5438	x
 (x)
 ki
 a
@@ -5068,7 +5068,7 @@ ap
 la
 an
 ni
-a
+5497	a
 na
 d
 na
@@ -5088,7 +5088,7 @@ mu
 sza
 lim
 ma
-5218	gesz
+5518	gesz
 sze
 du10
 hi
@@ -5156,7 +5156,7 @@ di
 na
 ak
 kum
-5287	gesz
+5587	gesz
 sze
 du10
 hi
@@ -5177,7 +5177,7 @@ ib
 lu
 nim
 u3
-5309	gesz
+5609	gesz
 sze
 du10
 hi
@@ -5195,7 +5195,7 @@ ku
 ut
 tu
 mu
-a
+5628	a
 na
 d
 na
@@ -5218,7 +5218,7 @@ ma
 asz
 szum
 disz
-5351	d
+5652	d
 inanna
 e
 pi2
@@ -5229,7 +5229,7 @@ asz
 pur
 am
 disz
-5363	d
+5664	d
 inanna
 e
 pi2
@@ -5267,7 +5267,7 @@ ab
 ba
 ab
 szu
-a
+5703	a
 na
 d
 na
@@ -5382,7 +5382,7 @@ ut,
 ru
 da
 kum
-a
+5819	a
 na
 d
 na
@@ -5416,8 +5416,8 @@ pa
 ra
 si
 im
-5551	disz
-5553	d
+5854	disz
+5856	d
 marduk
 re
 me
@@ -5470,7 +5470,7 @@ ri
 is
 ma
 disz
-5607	d
+5910	d
 iszkur
 ba
 ni
@@ -5482,7 +5482,7 @@ i
 ra
 asz
 szi
-a
+5923	a
 na
 d
 na
@@ -5509,7 +5509,7 @@ za
 nu
 um
 sar
-5647	a
+5951	a
 di
 la
 ba
@@ -5534,7 +5534,7 @@ za
 nu
 um
 sar
-5673	la
+5977	la
 ba
 asz
 lu
@@ -5551,7 +5551,7 @@ za
 nu
 um
 sar
-5691	i
+5995	i
 ka
 am
 x
@@ -5581,7 +5581,7 @@ za
 nu
 um
 sar
-5722	la
+6026	la
 ba
 asz
 lu
@@ -5671,7 +5671,7 @@ szu
 ze2
 eb
 szu
-a
+6117	a
 na
 d
 na
@@ -5827,7 +5827,7 @@ a
 ti
 in
 disz
-5969	d
+6274	d
 na
 bi
 um
@@ -5849,7 +5849,7 @@ bi
 la
 asz
 szum
-a
+6297	a
 na
 d
 na
@@ -5915,7 +5915,7 @@ tim
 i
 di
 in
-a
+6364	a
 na
 d
 na
@@ -5967,9 +5967,9 @@ dingir
 ha
 bil2
 iri
-6110	bi
-6112	d
-6114	sza
+6417	bi
+6419	d
+6421	sza
 qe2
 er
 bu
@@ -6017,9 +6017,9 @@ ka
 li
 pu
 usz
-a
+6470	a
 na
-6165	qi2
+6473	qi2
 bi2
 ma
 um
@@ -6034,7 +6034,7 @@ lam
 disz
 isz
 me
-6181	d
+6489	d
 suen
 ki
 a
@@ -6079,7 +6079,7 @@ na
 pu
 us2
 ki
-6227	ma
+6535	ma
 li
 id
 di
@@ -6091,7 +6091,7 @@ am
 disz
 isz
 me
-6240	d
+6548	d
 suen
 isz
 pur
@@ -6115,7 +6115,7 @@ na
 pu
 us2
 ki
-6265	ma
+6573	ma
 id
 na
 szu
@@ -6129,7 +6129,7 @@ i
 na
 gu2
 un
-6280	1(disz)
+6588	1(disz)
 sila3
 sze
 la
@@ -6137,7 +6137,7 @@ i
 ka
 al
 la
-a
+6597	a
 na
 be
 el
@@ -6287,7 +6287,7 @@ la
 ta
 ra
 szi
-a
+6748	a
 na
 be
 li2
@@ -6304,7 +6304,7 @@ um
 at
 pa
 lam
-6456	ka
+6766	ka
 ma
 asz
 szum
@@ -6343,7 +6343,7 @@ is
 sze
 e
 iri
-6496	d
+6806	d
 gu
 la
 ki
@@ -6362,7 +6362,7 @@ u4
 kam
 sza
 iti
-6517	gar
+6827	gar
 a
 na
 sze
@@ -6395,7 +6395,7 @@ sza
 isz
 ku
 un
-6551	d
+6861	d
 en
 lil2
 ki
@@ -6437,13 +6437,13 @@ nim
 disz
 a
 pil2
-6594	d
+6904	d
 ki
 it
 tum
 dumu
 hi
-6603	5(disz)
+6913	5(disz)
 szu
 szi
 sze
@@ -6461,13 +6461,13 @@ zu
 mur
 iri
 ki
-6622	2(disz)
+6932	2(disz)
 szu
 szi
 x
-6627	iri
+6937	iri
 ki
-6630	ka
+6940	ka
 lu
 szu
 a
@@ -6478,7 +6478,7 @@ szi
 im
 ma
 x
-6642	isz
+6952	isz
 tu
 sze
 um
@@ -6550,7 +6550,7 @@ x
 (x)
 x
 x
-6715	x
+7025	x
 x
 x
 x
@@ -6560,14 +6560,14 @@ x
 x
 ni
 isz
-6726	a
+7036	a
 di
 i
 na
 an
 na
 x
-6734	sze
+7044	sze
 e
 be
 li2
@@ -6575,17 +6575,17 @@ ia
 ki
 ma
 x
-6743	sze
+7053	sze
 um
 sza
 i
 na
 iri
-6750	d
+7060	d
 gu
 la[
 ki
-6755	ib
+7065	ib
 ba
 szu
 u2
@@ -6634,7 +6634,7 @@ sze
 gur
 gesz
 ban2
-6805	gesz
+7115	gesz
 me
 sze
 qum
@@ -6642,7 +6642,7 @@ sza
 i
 na
 iri
-6814	d
+7124	d
 gu
 la
 ki
@@ -6650,7 +6650,7 @@ ib
 ba
 szu
 u2
-6823	asz
+7133	asz
 szum
 tup
 pi2
@@ -6659,9 +6659,9 @@ a
 na
 ig
 mil
-6833	d
+7143	d
 suen
-6836	szu
+7146	szu
 bu
 lim
 sza
@@ -6690,9 +6690,9 @@ a
 na
 ig
 mil
-6866	d
+7176	d
 suen
-6869	usz
+7179	usz
 ta
 bi
 lam
@@ -6708,7 +6708,7 @@ a
 na
 ig
 mil
-6886	d
+7196	d
 suen
 u2
 ul
@@ -6724,7 +6724,7 @@ a
 na
 ig
 mil
-6903	d
+7213	d
 suen
 ar
 hi
@@ -6740,7 +6740,7 @@ lu
 ut
 ba
 lam
-a
+7230	a
 na
 d
 nanna
@@ -6760,7 +6760,7 @@ hu
 ka
 a
 ma
-6940	d
+7251	d
 utu
 u3
 d
@@ -6821,7 +6821,7 @@ ik
 si2
 im
 disz
-7002	d
+7313	d
 suen
 i
 ta
@@ -6830,7 +6830,7 @@ li
 re
 di
 disz
-7012	d
+7323	d
 suen
 i
 din
@@ -6912,7 +6912,7 @@ e
 i
 szu
 u2
-a
+7406	a
 na
 d
 nanna
@@ -6928,7 +6928,7 @@ iszkur
 na
 s,ir
 ma
-7111	d
+7423	d
 utu
 li
 ba
@@ -6985,7 +6985,7 @@ ib
 szi
 na
 ti
-a
+7481	a
 na
 d
 nanna
@@ -6999,7 +6999,7 @@ ma
 a
 wi
 il
-7183	d
+7496	d
 mar
 tu
 ma
@@ -7028,7 +7028,7 @@ nu
 um
 ma
 disz
-7213	d
+7526	d
 iszkur
 ha
 ze2
@@ -7084,7 +7084,7 @@ um
 qe2
 ru
 ub
-a
+7583	a
 na
 d
 nanna
@@ -7153,7 +7153,7 @@ la
 szi
 na
 ti
-a
+7653	a
 na
 d
 nanna
@@ -7174,7 +7174,7 @@ i
 szar
 ki
 di
-7360	u3
+7675	u3
 d
 ma
 mi
@@ -7357,7 +7357,7 @@ na
 ki
 a
 x
-7544	a
+7860	a
 na
 d
 nanna
@@ -7381,7 +7381,7 @@ i
 szar
 ki
 di
-7569	li
+7885	li
 ba
 al
 li
@@ -7391,7 +7391,7 @@ a
 na
 nam
 ra
-7580	d
+7896	d
 sze
 rum
 s,u2
@@ -7444,7 +7444,7 @@ ni
 ki
 ki
 il
-a
+7950	a
 na
 d
 nanna
@@ -7668,7 +7668,7 @@ ma
 sza
 li
 im
-7858	dingir
+8175	dingir
 lam
 sza
 al
@@ -7711,7 +7711,7 @@ mi
 de
 disz
 dumu
-7902	d
+8219	d
 utu
 i
 la
@@ -7736,10 +7736,10 @@ a
 ma
 i
 na
-7928	gesz
+8245	gesz
 ma2
 ma
-a
+8249	a
 na
 d
 nanna
@@ -7798,7 +7798,7 @@ tim
 sza
 i
 din
-7991	d
+8309	d
 nu
 musz
 da
@@ -7865,7 +7865,7 @@ szu
 mi
 ia
 disz
-8059	d
+8377	d
 da
 gan
 zi
@@ -7890,7 +7890,7 @@ sin
 u3
 s,il2
 li2
-8085	d
+8403	d
 be
 el
 szinig
@@ -7971,7 +7971,7 @@ isz
 s,i2
 ri
 im
-a
+8485	a
 na
 d
 nanna
@@ -8080,7 +8080,7 @@ a
 sza
 ar
 disz
-8276	munus
+8595	munus
 ta
 ri
 ib
@@ -8093,7 +8093,7 @@ um
 i
 di
 in
-a
+8609	a
 na
 d
 nanna
@@ -8125,7 +8125,7 @@ ka
 asz
 szum
 disz
-8322	d
+8642	d
 da
 gan
 zi
@@ -8143,11 +8143,11 @@ nu
 um
 ma
 zi
-8341	(x)
+8661	(x)
 x
 el
 da
-8346	a
+8666	a
 na
 e
 ri
@@ -8161,7 +8161,7 @@ a
 wi
 lam
 disz
-8361	d
+8681	d
 da
 gan
 zi
@@ -8197,7 +8197,7 @@ li
 i
 li
 qe2
-a
+8718	a
 na
 d
 nanna
@@ -8212,7 +8212,7 @@ ib
 ba
 tum
 ma
-8413	d
+8734	d
 utu
 u3
 d
@@ -8245,7 +8245,7 @@ bi
 lam
 ma
 x
-8447	ta
+8768	ta
 tu
 ur
 ma
@@ -8336,12 +8336,12 @@ szu
 u3
 ri
 isz
-8539	d
+8860	d
 utu
 szu
 bi
 lam
-a
+8866	a
 na
 d
 nanna
@@ -8416,15 +8416,15 @@ x
 x
 x
 ni
-8622	x
+8944	x
 al
 li
 a
 am
-8628	ia
+8950	ia
 sag
 us2
-8632	i
+8954	i
 in
 ka
 x
@@ -8440,7 +8440,7 @@ sza
 ar
 ra
 am
-8649	x
+8971	x
 e
 bu
 ri
@@ -8471,7 +8471,7 @@ ka
 szu
 up
 ra
-a
+9003	a
 na
 d
 nanna
@@ -8486,7 +8486,7 @@ um
 ma
 ip
 qu2
-8696	d
+9019	d
 sza
 la
 ma
@@ -8606,7 +8606,7 @@ ia
 szu
 bi
 lam
-a
+9140	a
 na
 a
 hi
@@ -8627,7 +8627,7 @@ um
 ma
 ip
 qu2
-8838	d
+9162	d
 sza
 la
 ma
@@ -8713,7 +8713,7 @@ na
 iri
 zimbir
 ki
-8925	ma
+9249	ma
 u2
 x
 x
@@ -8802,7 +8802,7 @@ x
 tim
 x
 ma
-9015	ma
+9339	ma
 (x)
 (x)
 szu
@@ -8830,7 +8830,7 @@ iz
 u3
 a
 sza3
-9044	sza
+9368	sza
 ta
 mi
 ir/ni
@@ -8863,7 +8863,7 @@ ia
 szu
 bi
 lam
-a
+9402	a
 na
 d
 nanna
@@ -8917,7 +8917,7 @@ a
 na
 zimbir[
 ki
-9132	ub
+9457	ub
 lu
 nim
 1(barig)
@@ -9002,7 +9002,7 @@ x
 u4
 2(disz)
 kam
-9218	x
+9543	x
 hi
 a
 i
@@ -9021,7 +9021,7 @@ szu
 nu
 szi
 im
-a
+9563	a
 na
 d
 nanna
@@ -9111,7 +9111,7 @@ bu
 ut
 iri
 ki
-9328	ka
+9654	ka
 ni
 kam
 li
@@ -9195,7 +9195,7 @@ ka
 lu
 mu
 ur
-a
+9739	a
 na
 a
 wi
@@ -9251,7 +9251,7 @@ numun
 szum2
 sikil
 sar
-9469	sza
+9796	sza
 aq
 bu
 ku
@@ -9291,7 +9291,7 @@ um
 ma
 isz
 me
-9510	d
+9837	d
 suen
 na
 asz
@@ -9307,7 +9307,7 @@ numun
 szum2
 sikil
 sar
-9527	szu
+9854	szu
 bi
 lam
 re
@@ -9335,7 +9335,7 @@ kam
 aq
 bi
 kum
-a
+9883	a
 na
 d
 nanna
@@ -9429,7 +9429,7 @@ tim
 szu
 bi
 lam
-a
+9978	a
 na
 in
 ba
@@ -9490,7 +9490,7 @@ ma
 ri
 im
 disz
-9711	d
+10040	d
 iszkur
 na
 s,i
@@ -9613,7 +9613,7 @@ szum
 ma
 nu
 ur2
-9835	d
+10164	d
 mar
 tu
 it
@@ -9671,7 +9671,7 @@ ni
 a
 am
 disz
-9894	d
+10223	d
 iszkur
 na
 s,ir
@@ -9680,7 +9680,7 @@ ib
 la
 am
 (x)
-a
+10233	a
 na
 d
 suen
@@ -9722,7 +9722,7 @@ tug2
 hi
 a
 ka
-9946	i
+10276	i
 ma
 tug2
 hi
@@ -9798,7 +9798,7 @@ hu
 ru
 ri
 isz
-10023	d
+10353	d
 utu
 usz
 ta
@@ -9830,7 +9830,7 @@ a
 na
 i
 bi
-10056	d
+10386	d
 nin
 szubur
 disz
@@ -9880,7 +9880,7 @@ ra
 na
 szi
 im
-a
+10437	a
 na
 d
 suen
@@ -10035,7 +10035,7 @@ a
 wi
 lum
 disz
-10262	munus
+10593	munus
 ba
 ka
 tum
@@ -10133,7 +10133,7 @@ disz
 i3
 li2
 u3
-10361	d
+10692	d
 utu
 a
 di
@@ -10146,7 +10146,7 @@ im
 szi
 na
 sza
-10376	u2
+10707	u2
 ku3
 babbar
 am
@@ -10158,7 +10158,7 @@ im
 li
 ih
 ru
-10389	ma
+10720	ma
 sza
 pi2
 il
@@ -10182,7 +10182,7 @@ mi
 ka
 hu
 ru
-10414	a
+10746	a
 na
 d
 suen
@@ -10383,7 +10383,7 @@ kam
 disz
 i
 lu
-10616	d
+10948	d
 utu
 szi
 ma
@@ -10457,7 +10457,7 @@ s,a
 ab
 ta
 ku
-a
+11023	a
 na
 d
 suen
@@ -10513,10 +10513,10 @@ ki
 at
 ta
 s,i2
-10747	gesz
+11080	gesz
 ma2
 sza
-10751	na4
+11084	na4
 ur5
 disz
 a
@@ -10531,7 +10531,7 @@ ki
 ib
 i
 na
-10767	gesz
+11100	gesz
 ma2
 szi
 a
@@ -10555,7 +10555,7 @@ ri
 ka
 am
 ma
-10792	na4
+11125	na4
 ur5
 hi
 a
@@ -10589,7 +10589,7 @@ u2
 lu2
 at
 ta
-10827	na4
+11160	na4
 ur5
 isz
 te
@@ -10607,7 +10607,7 @@ e2
 i
 di
 in
-a
+11179	a
 na
 d
 suen
@@ -10683,7 +10683,7 @@ sza
 disz
 i
 lu
-10922	d
+11256	d
 utu
 u2
 sza
@@ -10695,7 +10695,7 @@ e2
 disz
 s,il2
 li2
-10935	d
+11269	d
 be
 el
 szinig
@@ -10741,7 +10741,7 @@ wi
 lum
 at
 ta
-a
+11316	a
 na
 d
 suen
@@ -10805,7 +10805,7 @@ uq
 asz
 szum
 sag
-11046	sza
+11381	sza
 a
 na
 disz
@@ -10817,7 +10817,7 @@ ad
 di
 nu
 sag
-11059	sza
+11394	sza
 a
 tu
 it
@@ -10937,7 +10937,7 @@ gu
 mu
 ur
 sag
-11180	a
+11515	a
 na
 1(u)
 9(disz)
@@ -10953,7 +10953,7 @@ ki
 id
 di
 nam
-a
+11532	a
 na
 d
 suen
@@ -11069,8 +11069,8 @@ ga
 am
 ri
 szu
-11313	ru
-11315	ma
+11649	ru
+11651	ma
 4(disz)
 gin2
 ku3
@@ -11085,7 +11085,7 @@ ni
 a
 am
 disz
-11331	d
+11667	d
 suen
 na
 ap
@@ -11112,7 +11112,7 @@ szi
 li
 ki
 il
-a
+11695	a
 na
 d
 suen
@@ -11179,10 +11179,10 @@ at
 ta
 la
 kam
-11426	gesz
+11763	gesz
 ma2
 sza
-11430	na4
+11767	na4
 ur5
 hi
 a
@@ -11217,7 +11217,7 @@ wi
 lum
 at
 ta
-11466	na4
+11803	na4
 ur5
 hi
 a
@@ -11268,9 +11268,9 @@ at
 ta
 la
 kam
-a
+11855	a
 na
-11521	d
+11859	d
 suen
 qi2
 bi2
@@ -11394,7 +11394,7 @@ ti
 sza
 i
 bi
-11646	d
+11984	d
 utu
 u2
 sza
@@ -11402,7 +11402,7 @@ bi
 la
 kum
 disz
-11655	d
+11993	d
 suen
 i
 din
@@ -11523,7 +11523,7 @@ e
 szu
 bi
 lam
-a
+12115	a
 na
 ta
 tu
@@ -11636,14 +11636,14 @@ ti
 sza
 i
 bi
-11890	d
+12229	d
 utu
 u2
 sza
 bi
 lam
 disz
-11898	d
+12237	d
 suen
 i
 din
@@ -11770,7 +11770,7 @@ sa
 am
 sza
 lu2
-12026	d
+12365	d
 iszkur
 u3
 wa
@@ -11789,7 +11789,7 @@ szu
 bi
 la
 nim
-a
+12385	a
 na
 d
 suen
@@ -11808,14 +11808,14 @@ ki
 disz
 ip
 qu2
-12065	d
+12405	d
 na
 bi
 um
 u3
 ib
 ni
-12073	d
+12413	d
 utu
 qi2
 bi2
@@ -11846,7 +11846,7 @@ ar
 disz
 ip
 qu2
-12105	d
+12445	d
 na
 bi
 um
@@ -11856,7 +11856,7 @@ a
 na
 zimbir
 ki
-12116	ia
+12456	ia
 ah
 ru
 rum
@@ -11875,7 +11875,7 @@ dub
 sar
 (x)
 u3
-12137	d
+12477	d
 marduk
 szu
 i
@@ -11915,7 +11915,7 @@ li
 tu
 ra
 am
-a
+12518	a
 na
 a
 bi
@@ -11995,7 +11995,7 @@ marduk
 lu
 da
 ri
-12258	disz
+12599	disz
 i
 na
 e2
@@ -12100,7 +12100,7 @@ u2
 ma
 la
 tu
-12364	bi
+12705	bi
 lam
 szum
 ma
@@ -12179,7 +12179,7 @@ ia
 szu
 bi
 lam
-a
+12785	a
 na
 e
 li
@@ -12220,7 +12220,7 @@ disz
 a
 ma
 at
-12485	d
+12827	d
 suen
 isz
 tu
@@ -12285,7 +12285,7 @@ na
 a
 ma
 at
-12551	d
+12893	d
 suen
 id
 di
@@ -12471,7 +12471,7 @@ li
 il
 li
 kam
-a
+13080	a
 na
 dingir
 szu
@@ -12491,7 +12491,7 @@ i
 nu
 ma
 disz
-12758	d
+13101	d
 iszkur
 ra
 bi
@@ -12502,7 +12502,7 @@ lu
 uh
 ti
 d
-12770	u3
+13113	u3
 nin
 gar3
 sa6
@@ -12563,7 +12563,7 @@ i
 su
 uh
 la
-12832	li
+13175	li
 ku
 la
 mi
@@ -12589,7 +12589,7 @@ na
 asz2
 szi
 1(iku)
-12859	a
+13202	a
 sza3
 u2
 ul
@@ -12597,11 +12597,11 @@ i
 zi
 ib
 2(iku)
-12868	u2
+13211	u2
 s,i2
 ib
 3(iku)
-12873	u2
+13216	u2
 ul
 zi
 ib
@@ -12723,7 +12723,7 @@ x
 x
 (x)
 x
-12997	x
+13340	x
 x
 x
 x
@@ -12741,7 +12741,7 @@ x
 x
 asz
 szi
-13016	x
+13359	x
 x
 x
 x
@@ -12784,8 +12784,8 @@ szi
 ma
 x
 x
-13060	a
-13062	um
+13403	a
+13405	um
 ma
 d
 utu
@@ -12811,7 +12811,7 @@ ta
 na
 di
 ma
-13089	ti
+13432	ti
 ka
 a
 sza
@@ -12823,7 +12823,7 @@ szu
 i
 de
 ma
-13102	x
+13445	x
 nim
 x
 x
@@ -12842,7 +12842,7 @@ ib
 li
 tu
 x
-asz
+13465	asz
 szum
 sza
 geme2
@@ -12866,7 +12866,7 @@ a
 na
 ku
 ma
-13146	lu2
+13490	lu2
 na
 asz
 bar
@@ -12897,7 +12897,7 @@ tup
 pi2
 sza
 sza
-13178	d
+13522	d
 x
 x
 x
@@ -12976,14 +12976,14 @@ u4
 2(disz)
 kam
 disz
-13258	d
+13602	d
 suen
 na
 s,i
 ir
 ugula
 e2
-13266	sze
+13610	sze
 er
 tam
 ma
@@ -12991,14 +12991,14 @@ isz
 tu
 zimbir
 ki
-13275	am
+13619	am
 na
 num
 a
 na
 zimbir
 ki
-13283	ia
+13627	ia
 ah
 ru
 rum
@@ -13008,7 +13008,7 @@ abul
 nun
 na
 u2
-13294	iq
+13638	iq
 bu
 nim
 ma
@@ -13021,18 +13021,18 @@ s,i
 ir
 ugula
 e2
-13308	x
+13652	x
 x
 x
 (x)
-13313	d
+13657	d
 na
 bi
 um
 x
 x
 x
-13321	x
+13665	x
 (x)
 d
 utu
@@ -13051,7 +13051,7 @@ asz
 pu
 ur
 ma
-13341	ki
+13685	ki
 a
 am
 iq
@@ -13063,7 +13063,7 @@ szu
 nu
 ma
 disz
-13354	d
+13698	d
 suen
 na
 din
@@ -13135,7 +13135,7 @@ si
 sa2
 x
 x
-13427	an
+13771	an
 ni
 tam
 ni
@@ -13156,7 +13156,7 @@ na
 x
 (x)
 x
-13449	ia
+13793	ia
 e
 ru
 ub
@@ -13169,7 +13169,7 @@ i
 na
 zimbir
 ki
-13463	am
+13807	am
 na
 num
 a
@@ -13228,7 +13228,7 @@ e
 ep
 pu
 usz
-13523	lu2
+13867	lu2
 na
 asz
 bar
@@ -13255,9 +13255,9 @@ ar
 ra
 ha
 am
-13551	x
+13896	x
 x
-13554	asz
+13899	asz
 szum
 da
 ba
@@ -13295,7 +13295,7 @@ wi
 lim
 ri
 isz
-13593	d
+13938	d
 marduk
 ad
 da
@@ -13308,7 +13308,7 @@ wi
 lum
 ri
 isz
-13607	d
+13952	d
 marduk
 sza
 ap
@@ -13326,7 +13326,7 @@ wi
 lim
 ib
 ni
-13626	d
+13971	d
 utu
 a
 bi
@@ -13342,7 +13342,7 @@ wi
 lum
 ib
 ni
-13643	d
+13988	d
 utu
 a
 bi
@@ -13435,7 +13435,7 @@ li
 szu
 u2
 x
-13737	u3
+14082	u3
 a
 wi
 lum
@@ -13454,14 +13454,14 @@ na
 e2
 ur
 x
-13757	x
+14102	x
 x
 x
 x
 x
 x
 x
-13766	x
+14111	x
 x
 x
 x
@@ -13473,7 +13473,7 @@ x
 (x)
 x
 x
-a
+14124	a
 na
 a
 bi
@@ -13500,7 +13500,7 @@ in
 szu
 mi
 ma
-13806	d
+14152	d
 utu
 u3
 d
@@ -13622,7 +13622,7 @@ a
 u3
 ri
 isz
-13929	d
+14275	d
 utu
 u3
 be
@@ -13694,7 +13694,7 @@ na
 ku
 ma
 disz
-14002	munus
+14348	munus
 du
 uh
 szi
@@ -13713,9 +13713,9 @@ li
 iq
 bi
 ma
-14022	x
+14368	x
 x
-14025	x
+14371	x
 u3
 x
 x
@@ -13727,7 +13727,7 @@ na
 ma
 har
 x
-14038	ta
+14384	ta
 at,
 ru
 dam
@@ -13783,9 +13783,9 @@ x
 sza
 5(disz)
 gin2
-14095	na
+14441	na
 x
-14098	u2
+14444	u2
 ul
 e
 x
@@ -13818,7 +13818,7 @@ da
 ab
 bu
 ub
-a
+14478	a
 na
 a
 wi
@@ -13965,12 +13965,12 @@ ab
 ba
 al
 (x)
-14280	x
-14282	ma
+14627	x
+14629	ma
 x
 x
 x
-14287	x
+14634	x
 ni
 tim
 5(asz)
@@ -14067,7 +14067,7 @@ u2
 ka
 al
 lu
-a
+14732	a
 na
 a
 wi
@@ -14090,7 +14090,7 @@ su
 mu
 akszak
 ki
-14408	ma
+14756	ma
 d
 utu
 u3
@@ -14111,7 +14111,7 @@ asz
 szum
 i
 bi
-14430	d
+14778	d
 iszkur
 dam
 gar3
@@ -14158,7 +14158,7 @@ asz
 szum
 i
 bi
-14478	d
+14826	d
 iszkur
 szu
 a
@@ -14228,7 +14228,7 @@ an
 na
 i
 bi
-14549	d
+14897	d
 iszkur
 an
 nu
@@ -14239,7 +14239,7 @@ ir
 i
 ki
 szu
-14561	x
+14909	x
 x
 x
 x
@@ -14253,7 +14253,7 @@ na
 a
 wi
 lim
-14576	a
+14924	a
 sza3
 lam
 szu
@@ -14268,7 +14268,7 @@ te
 er
 szu
 ma
-14592	pa
+14940	pa
 ar
 tam
 sza
@@ -14317,7 +14317,7 @@ an
 na
 i
 bi
-14642	d
+14990	d
 iszkur
 szu
 u2
@@ -14406,7 +14406,7 @@ szu
 u2
 ma
 disz
-14733	d
+15081	d
 da
 gan
 ma
@@ -14426,7 +14426,7 @@ u2
 na
 az
 zi
-14754	(x)
+15102	(x)
 ki
 a
 am
@@ -14452,11 +14452,11 @@ pu
 ru
 us2
 (x)
-um
+15129	um
 ma
 x
 x
-14785	asz
+15134	asz
 szum
 sze
 im
@@ -14474,7 +14474,7 @@ szum
 ma
 i
 na
-14804	gesz
+15153	gesz
 ban2
 d
 ki
@@ -14487,7 +14487,7 @@ di
 in
 i
 na
-14818	gesz
+15167	gesz
 ban2
 d
 ki
@@ -14502,7 +14502,7 @@ szum
 ma
 i
 na
-14834	gesz
+15183	gesz
 ban2
 d
 utu
@@ -14525,7 +14525,7 @@ szum
 ma
 i
 na
-14858	gesz
+15207	gesz
 ban2
 d
 ki
@@ -14574,7 +14574,7 @@ x
 x
 x
 x
-i
+15257	i
 ba
 asz
 szi
@@ -14636,7 +14636,7 @@ ta
 bi
 lam
 disz
-14970	d
+15320	d
 marduk
 ha
 si
@@ -14667,7 +14667,7 @@ ma
 ah
 ri
 ia
-a
+15352	a
 na
 a
 wi
@@ -14685,7 +14685,7 @@ na
 s,i
 ir
 ma
-15020	d
+15371	d
 utu
 u3
 d
@@ -14787,7 +14787,7 @@ a
 wa
 tum
 ma
-15123	disz
+15474	disz
 ip
 qu2
 i3
@@ -15037,7 +15037,7 @@ x
 x
 a
 na
-15374	a
+15725	a
 na
 dingir
 szu
@@ -15085,14 +15085,14 @@ sza3
 szu
 a
 ti
-15423	a
+15774	a
 wi
 li
-15427	a
+15779	a
 na
-15430	sza
+15782	sza
 d
-15433	u2
+15785	u2
 ba
 al
 la
@@ -15104,12 +15104,12 @@ ma
 um
 ma
 d
-15446	mu
+15798	mu
 sza
 lim
 ma
-15451	d
-15453	li
+15803	d
+15805	li
 ba
 al
 li
@@ -15120,7 +15120,7 @@ sza
 al
 ma
 ta
-15465	disz
+15817	disz
 si
 in
 na
@@ -15136,7 +15136,7 @@ t,ar
 dam
 x
 (x)
-15484	kam
+15836	kam
 x
 (x)
 x
@@ -15149,14 +15149,14 @@ a
 na
 babila2[
 ki
-15499	x
+15851	x
 x
 ba
 am
 t,u2
 ur
 dam
-15507	ni
+15860	ni
 a
 tum
 ha
@@ -15164,7 +15164,7 @@ sza
 a
 am
 szu
-15516	x
+15869	x
 (x)
 a
 na
@@ -15175,7 +15175,7 @@ ap
 ru
 sa
 am
-15528	ni
+15881	ni
 a
 tum
 ha
@@ -15183,7 +15183,7 @@ sza
 a
 am
 szu
-15537	x
+15890	x
 (x)
 szu
 ut,
@@ -15225,11 +15225,11 @@ lu
 di
 na
 kum
-a
+15933	a
 na
 szum
 ma
-15584	d
+15938	d
 utu
 qi2
 bi2
@@ -15248,7 +15248,7 @@ i
 szar
 ki
 di
-15604	u3
+15958	u3
 d
 ma
 mi
@@ -15336,7 +15336,7 @@ ka
 ra
 ba
 kum
-a
+16047	a
 na
 a
 wi
@@ -15447,7 +15447,7 @@ al
 disz
 ib
 ni
-15804	d
+16159	d
 suen
 ma
 ra
@@ -15514,7 +15514,7 @@ ru
 ba
 ak
 kum
-a
+16227	a
 na
 a
 wi
@@ -15647,7 +15647,7 @@ as
 si2
 iq
 ma
-16005	erin2
+16361	erin2
 tu
 ub
 ba
@@ -15656,7 +15656,7 @@ szu
 nu
 szi
 x
-16015	sze
+16371	sze
 am
 u3
 ku3
@@ -15734,7 +15734,7 @@ kam
 li
 li
 kam
-a
+16450	a
 na
 da
 da
@@ -15752,7 +15752,7 @@ um
 ma
 sze20
 ep
-16112	d
+16469	d
 suen
 ma
 d
@@ -15817,7 +15817,7 @@ u2
 a
 wi
 il
-16178	x
+16535	x
 x
 lu
 u2
@@ -15827,13 +15827,13 @@ szu
 szi
 im[
 ki
-16189	ta
+16546	ta
 ak
 la
 sza
 su
 x
-16196	ti
+16553	ti
 di
 a
 i
@@ -15913,8 +15913,8 @@ u3
 ma
 t,i
 i
-16277	x
-16280	u3
+16634	x
+16637	u3
 i
 na
 ma
@@ -15954,13 +15954,13 @@ ma
 disz
 a
 na
-16321	d
+16678	d
 utu
 tak
 la
 ku
 u3
-16329	d
+16686	d
 utu
 pa
 ni
@@ -16072,7 +16072,7 @@ nu
 lu
 mu
 ur
-a
+16799	a
 na
 ka
 lu
@@ -16092,7 +16092,7 @@ ma
 d
 utu
 u3
-16462	d
+16820	d
 marduk
 da
 ri
@@ -16160,7 +16160,7 @@ im
 tup
 pi2
 x
-16531	asz
+16889	asz
 szu
 mi
 ia
@@ -16179,7 +16179,7 @@ ta
 ha
 a
 am
-a
+16909	a
 na
 a
 bi
@@ -16300,7 +16300,7 @@ x
 x
 x
 x
-16672	a
+17031	a
 na
 x
 x
@@ -16329,20 +16329,20 @@ ba
 ni
 i
 dumu
-16703	ra
+17062	ra
 tum
-16706	d
+17065	d
 suen
 u3
 d
 x
 x
-a
+17072	a
 na
 sza
 mu
 uh
-16718	d
+17078	d
 iszkur
 qi2
 bi2
@@ -16353,7 +16353,7 @@ e
 ri
 isz
 ti
-16730	d
+17090	d
 x
 x
 be
@@ -16368,7 +16368,7 @@ mi
 ia
 asz
 szum
-16746	ra
+17106	ra
 im
 ki
 u3
@@ -16401,7 +16401,7 @@ li
 ma
 an
 ni
-16780	ki
+17140	ki
 te4
 mi
 x
@@ -16448,7 +16448,7 @@ am
 pa
 ri
 is
-16828	u2
+17188	u2
 ul
 i
 szu
@@ -16460,7 +16460,7 @@ ab
 ba
 a
 iq
-16841	a
+17201	a
 na
 ra
 i
@@ -16470,7 +16470,7 @@ qi2
 bi
 i
 ma
-16852	a
+17212	a
 na
 a
 wa
@@ -16482,7 +16482,7 @@ ta
 a
 (x)
 (x)
-a
+17225	a
 na
 a
 bi
@@ -16582,7 +16582,7 @@ ka
 ta
 ma
 har
-16965	d
+17326	d
 utu
 lu
 da
@@ -16595,19 +16595,19 @@ a
 bi
 at
 ta
-16980	x
-16982	x
+17341	x
+17343	x
 x
 x
 (x)
 a
 bi
 ia
-16990	u2
+17351	u2
 sza
 bi
 lam
-16995	2(disz)
+17356	2(disz)
 gu2
 un
 la
@@ -16615,7 +16615,7 @@ ap
 ta
 am
 sar
-17004	szum2
+17365	szum2
 sar
 szum2
 sikil
@@ -16700,7 +16700,7 @@ u2
 szu
 bi
 lam
-a
+17451	a
 na
 d
 suen
@@ -16720,7 +16720,7 @@ esz18
 dar
 ma
 disz
-17110	d
+17472	d
 na
 bi
 um
@@ -16773,7 +16773,7 @@ lim
 li
 szi
 ib
-a
+17526	a
 na
 ugula
 gidri
@@ -16819,7 +16819,7 @@ qa2
 ti
 ib
 ni
-17210	d
+17573	d
 mar
 tu
 ugula
@@ -16891,7 +16891,7 @@ ki
 lu
 ul
 qe2
-a
+17646	a
 na
 a
 bi
@@ -16906,7 +16906,7 @@ el
 szu
 nu
 ma
-17298	d
+17662	d
 utu
 u3
 d
@@ -16987,7 +16987,7 @@ di
 in
 i
 na
-17380	na4
+17744	na4
 kiszib3
 ia
 ak
@@ -17033,7 +17033,7 @@ qa2
 tam
 a
 na
-17427	lu2
+17791	lu2
 simug
 sza
 e
@@ -17061,67 +17061,67 @@ ia
 szu
 bi
 lam
-a
+17820	a
 na
-17458	qi2
+17823	qi2
 bi2
 ma
 um
 ma
-17464	x
-17466	a
+17829	x
+17831	a
 na
-17469	ma
+17834	ma
 x
 x
 x
 x
-17475	gu4
+17840	gu4
 hi
 a
 x
 x
-17481	in
+17846	in
 nu
 a
 na
 x
-17487	usz
+17852	usz
 te
 ri
 bu
-17492	a
+17857	a
 na
 tab
 ba
 x
-17498	disz
+17863	disz
 u
 bar
 rum
 x
-17504	u2
+17869	u2
 nu
 tam
 sza
 x
 x
-17511	li
+17876	li
 sza
 bi
-17515	1(asz)
+17880	1(asz)
 sze
 a
 na
 szuku
-17521	u3
+17886	u3
 x
 x
-17525	i
+17890	i
 na
 sze
 x
-17530	i
+17895	i
 na
 ru
 ug
@@ -17140,7 +17140,7 @@ ra
 am
 ma
 szuku
-17550	in
+17915	in
 na
 am
 ma
@@ -17153,7 +17153,7 @@ sza
 x
 x
 x
-17564	lu
+17929	lu
 us,
 ba
 at
@@ -17166,7 +17166,7 @@ hi
 3(barig)
 li
 x
-17578	x
+17943	x
 ab
 ku
 um
@@ -17174,7 +17174,7 @@ ma
 x
 x
 x
-17587	sza
+17952	sza
 a
 na
 ku
@@ -17184,7 +17184,7 @@ d
 utu
 x
 x
-17598	tab
+17963	tab
 ba
 a
 x
@@ -17192,7 +17192,7 @@ disz
 hu
 um
 mu
-17607	ki
+17972	ki
 a
 am
 iq
@@ -17210,14 +17210,14 @@ x
 u3
 x
 an
-17626	x
+17991	x
 x
 x
 x
 szu
 li
 szu
-17634	um
+17999	um
 ma
 szi
 ma
@@ -17227,7 +17227,7 @@ li
 ib
 bi
 x
-17645	sze
+18010	sze
 um
 a
 na
@@ -17236,16 +17236,16 @@ ur
 ra
 dam
 x
-17655	tap
+18020	tap
 ap
-17658	pu
+18023	pu
 ut
 ka
 a
 na
 mi
 nim
-17666	an
+18031	an
 ni
 tam
 a
@@ -17265,25 +17265,25 @@ am
 ma
 x
 ka
-17687	u3
+18052	u3
 nin
 dingir
 x
 x
-17693	u3
+18058	u3
 s,e
 he
 er
 be
 li2
-17700	be
+18065	be
 li2
 li
 isz
 pu
 ra
 am
-17708	szuku
+18073	szuku
 lu
 ud
 di
@@ -17315,7 +17315,7 @@ li
 it,
 ru
 dam
-a
+18106	a
 na
 a
 ha
@@ -17375,7 +17375,7 @@ ku
 asz
 szum
 sag
-17801	it
+18167	it
 ti
 d
 x
@@ -17424,7 +17424,7 @@ ki
 il
 dam
 gar3
-17852	as,
+18218	as,
 ba
 at
 a
@@ -17458,7 +17458,7 @@ ik
 ta
 ra
 ba
-a
+18253	a
 na
 a
 bi
@@ -17572,7 +17572,7 @@ lim
 disz
 i
 din
-18001	d
+18368	d
 suen
 la
 wa
@@ -17747,12 +17747,12 @@ li
 ma
 an
 ni
-a
+18544	a
 na
 e
 ri
 ib
-18182	d
+18550	d
 suen
 qi2
 bi2
@@ -17855,7 +17855,7 @@ ba
 disz
 i
 bi
-18286	d
+18654	d
 utu
 u3
 ib
@@ -17949,7 +17949,7 @@ ka
 a
 ta
 ha
-18381	al
+18749	al
 ka
 am
 ma
@@ -18011,7 +18011,7 @@ x
 a
 ma
 at
-a
+18812	a
 na
 d
 suen
@@ -18024,7 +18024,7 @@ um
 ma
 gi
 mil
-18457	d
+18826	d
 marduk
 ma
 d
@@ -18054,7 +18054,7 @@ szu
 bi
 lam
 ma
-18489	a
+18858	a
 ha
 asz
 szi
@@ -18081,8 +18081,8 @@ pa
 ra
 ma
 disz
-18517	ku
-18519	i
+18886	ku
+18888	i
 na
 zimbir
 ki
@@ -18107,7 +18107,7 @@ la
 ku
 a
 na
-18545	d
+18914	d
 marduk
 li
 li
@@ -18166,11 +18166,11 @@ da
 ak
 ku
 x
-18605	x
-18607	x
-a
+18974	x
+18976	x
+18978	a
 na
-18611	sza
+18981	sza
 d
 marduk
 u2
@@ -18192,7 +18192,7 @@ na
 s,i
 ir
 ma
-18634	d
+19004	d
 utu
 u3
 d
@@ -18333,7 +18333,7 @@ am
 1(disz)
 gu4
 sza
-18777	ka
+19147	ka
 asz
 du
 szu
@@ -18354,7 +18354,7 @@ ep
 sza
 ak
 ku
-a
+19169	a
 na
 sza
 pi2
@@ -18368,7 +18368,7 @@ ma
 be
 el
 numun
-18813	ka
+19184	ka
 ma
 sza
 pi2
@@ -18378,18 +18378,18 @@ ta
 it
 ti
 ia
-18824	ki
+19195	ki
 nu
 ni
 dumu
 sze20
 ep
-18831	d
+19202	d
 suen
 a
 na
 dumu
-18838	a
+19209	a
 wi
 li
 de
@@ -18484,7 +18484,7 @@ gin2
 ku3
 babbar
 x
-18934	ma
+19305	ma
 x
 x
 x
@@ -18522,7 +18522,7 @@ x
 x
 (x)
 x
-18973	a
+19344	a
 na
 ma
 har
@@ -18616,7 +18616,7 @@ de
 e
 u3
 x
-19070	sza
+19441	sza
 ninda
 u3
 kasz
@@ -18655,15 +18655,15 @@ a
 al
 la
 kam
-19110	x
+19481	x
 x
 mi
 a
 gi
-19116	da
+19487	da
 an
 ni
-19120	ze2
+19491	ze2
 eh
 pi2
 sza
@@ -18673,7 +18673,7 @@ ia
 li
 li
 kam
-a
+19502	a
 na
 be
 li2
@@ -18764,7 +18764,7 @@ pi2
 be
 li2
 ia
-19222	li
+19594	li
 il
 li
 kam
@@ -18786,7 +18786,7 @@ at
 disz
 a
 pil
-19245	d
+19617	d
 suen
 dingir
 a
@@ -18799,7 +18799,7 @@ ni
 im
 la
 e
-19259	ir
+19631	ir
 ki
 nu
 ni
@@ -18809,7 +18809,7 @@ da
 ab
 ba
 ab
-a
+19642	a
 na
 a
 hi
@@ -18880,8 +18880,8 @@ sila3
 gar3
 szum
 sar
-19341	sza
-19343	esz
+19714	sza
+19716	esz
 sze
 szi
 a
@@ -18941,11 +18941,11 @@ an
 na
 5(disz)
 sila3
-19404	ra
+19777	ra
 x
 (x)
 disz
-19409	esz
+19782	esz
 sze
 szi
 usz
@@ -19045,12 +19045,12 @@ ka
 pa
 s,i
 a
-19510	tug2
+19883	tug2
 bar
 si
 ig
 ta
-19516	ti
+19889	ti
 i
 ma
 a
@@ -19064,7 +19064,7 @@ ma
 szu
 bi
 lam
-a
+19904	a
 na
 be
 li
@@ -19239,7 +19239,7 @@ ta
 bi
 lam
 u3
-19706	gesz
+20080	gesz
 ma2
 sza
 be
@@ -19296,7 +19296,7 @@ i
 ba
 asz
 szi
-asz
+20139	asz
 szum
 8(asz)
 sze
@@ -19304,7 +19304,7 @@ gur
 gu2
 un
 1(bur3)
-19772	a
+20148	a
 sza3
 u3
 4(asz)
@@ -19412,18 +19412,18 @@ i
 il
 ma
 disz
-19881	d
+20257	d
 na
 bi
 um
 na
 s,i
 ir
-19889	i3
+20265	i3
 li2
 szu
 u3
-19894	x
+20270	x
 nu
 it
 ti
@@ -19455,7 +19455,7 @@ sza
 na
 me
 e
-19927	la
+20303	la
 i
 sza
 ak
@@ -19468,7 +19468,7 @@ i
 mu
 ut
 tu
-a
+20317	a
 na
 dingir
 i3
@@ -19587,7 +19587,7 @@ um
 ma
 disz
 sig
-20060	d
+20437	d
 suen
 at,
 t,ar
@@ -19634,7 +19634,7 @@ isz
 t,u2
 ur
 da
-a
+20485	a
 na
 be
 el
@@ -19666,7 +19666,7 @@ ar
 du
 um
 sag
-20140	ka
+20518	ka
 ma
 it
 ti
@@ -19747,7 +19747,7 @@ ru
 ni
 szum
 ma
-20222	ka
+20600	ka
 ra
 bi
 tum
@@ -19794,10 +19794,10 @@ ak
 ku
 da
 mu
-20270	szi
-20272	il
+20648	szi
+20650	il
 ma
-20275	la
+20653	la
 ma
 x
 ma
@@ -19826,7 +19826,7 @@ sza
 aq
 ri
 ib
-a
+20683	a
 na
 i3
 li2
@@ -19840,7 +19840,7 @@ um
 ma
 ip
 qu2
-20319	d
+20698	d
 sza
 la
 ma
@@ -19889,7 +19889,7 @@ ul
 tu
 sza
 x
-20369	tup
+20748	tup
 pa
 ti
 ia
@@ -19955,7 +19955,7 @@ szi
 a
 (x)
 disz
-20436	d
+20815	d
 ia
 ab
 li
@@ -19964,7 +19964,7 @@ isz
 ta
 mar
 x
-20446	ki
+20825	ki
 ma
 u2
 de
@@ -19985,7 +19985,7 @@ ir
 ri
 im
 ma
-20468	asz
+20847	asz
 szu
 ki
 a
@@ -19998,7 +19998,7 @@ da
 ku
 iti
 kin
-20482	d
+20861	d
 inanna
 u4
 3(u)
@@ -20024,7 +20024,7 @@ asz
 ki
 il
 li
-20509	na4
+20888	na4
 ku
 nu
 kam
@@ -20068,21 +20068,21 @@ i
 di
 in
 ma
-20554	gi
+20933	gi
 x
 x
 na
 hi
 a
 u3
-20562	gi
+20941	gi
 x
 hi
 a
 szu
 pi2
 isz
-a
+20949	a
 na
 a
 wi
@@ -20092,7 +20092,7 @@ bi2
 ma
 um
 ma
-20581	d
+20961	d
 la
 ah
 mi
@@ -20200,7 +20200,7 @@ x
 x
 x
 x
-20690	x
+21070	x
 x
 a
 na
@@ -20215,7 +20215,7 @@ a
 al
 la
 kam
-a
+21086	a
 na
 a
 bi
@@ -20225,7 +20225,7 @@ bi2
 ma
 um
 ma
-20716	ku
+21097	ku
 bi
 ma
 d
@@ -20299,7 +20299,7 @@ szum
 da
 ba
 ab
-20792	d
+21173	d
 tasz
 me
 tum
@@ -20388,7 +20388,7 @@ ma
 szu
 u2
 ma
-20883	d
+21264	d
 tasz
 me
 tum
@@ -20397,8 +20397,8 @@ u2
 i
 na
 x
-20895	x
-20898	ki
+21276	x
+21279	ki
 il
 szu
 ma
@@ -20415,7 +20415,7 @@ iq
 bi
 a
 am
-20917	d
+21298	d
 tasz
 me
 tum
@@ -20471,9 +20471,9 @@ at
 ta
 di
 in
-a
+21355	a
 na
-20976	ku
+21358	ku
 bi
 qi2
 bi2
@@ -20485,7 +20485,7 @@ din
 x
 x
 x
-20990	d
+21372	d
 utu
 u3
 d
@@ -20569,8 +20569,8 @@ tu
 sza
 bi
 lam
-21075	disz
-21077	d
+21457	disz
+21459	d
 ia
 ab
 li
@@ -20650,7 +20650,7 @@ zi
 ba
 an
 ni
-asz
+21540	asz
 szum
 a
 sza3
@@ -20659,7 +20659,7 @@ za
 nu
 um
 sar
-21167	a
+21550	a
 ma
 ri
 im
@@ -20689,14 +20689,14 @@ pu
 ra
 nim
 1(iku)
-21198	a
+21581	a
 sza3
 ha
 za
 nu
 um
 sar
-21206	x
+21589	x
 (x)
 szi
 ip
@@ -20726,7 +20726,7 @@ za
 nu
 um
 sar
-21237	ma
+21620	ma
 t,e
 e
 la
@@ -20749,10 +20749,10 @@ za
 nu
 um
 sar
-21261	li
+21644	li
 qe2
 a
-a
+21648	a
 na
 be
 el
@@ -20790,7 +20790,7 @@ dam
 1(disz)
 gu2
 un
-21305	sar
+21689	sar
 5(disz)
 pu
 u2
@@ -20800,7 +20800,7 @@ szum2
 el
 lum
 sar
-21316	5(disz)
+21700	5(disz)
 ri
 ik
 si
@@ -20808,7 +20808,7 @@ sza
 sze
 lu2
 sar
-21325	5(disz)
+21709	5(disz)
 x
 x
 x
@@ -20816,14 +20816,14 @@ sza
 ga
 rasz
 sar
-21334	x
+21718	x
 x
 x
 ma
 szu
 bi
 lam
-a
+21726	a
 na
 a
 wi
@@ -20955,7 +20955,7 @@ u2
 it
 ti
 disz
-21474	d
+21859	d
 na
 bi
 um
@@ -20988,14 +20988,14 @@ tum
 t,u2
 ur
 dam
-a
+21893	a
 na
 be
 ia
 u3
 szum
 ma
-21515	d
+21901	d
 utu
 qi2
 bi2
@@ -21004,7 +21004,7 @@ um
 ma
 i
 bi
-21525	d
+21911	d
 nin
 szubur
 ma
@@ -21037,7 +21037,7 @@ qa3
 x
 x
 x
-21559	am
+21945	am
 e
 te
 ti
@@ -21071,7 +21071,7 @@ i
 di
 isz
 szum
-a
+21980	a
 na
 i3
 li2
@@ -21086,7 +21086,7 @@ ma
 e
 tel
 pi4
-21609	d
+21996	d
 marduk
 ma
 asz
@@ -21101,7 +21101,7 @@ bi
 a
 am
 disz
-21625	d
+22012	d
 utu
 ra
 bi
@@ -21120,19 +21120,19 @@ ti
 sza
 szum2
 sar
-21645	u2
+22032	u2
 pu
 ul
 ma
 disz
-21651	d
+22038	d
 utu
 ra
 bi
 szu
 bi
 lam
-a
+22046	a
 na
 d
 suen
@@ -21146,7 +21146,7 @@ um
 ma
 i
 din
-21673	d
+22061	d
 iszkur
 ma
 d
@@ -21172,7 +21172,7 @@ x
 la
 hu
 un
-21700	d
+22088	d
 da
 gan
 um
@@ -21247,7 +21247,7 @@ ki
 la
 hu
 un
-21776	d
+22164	d
 da
 gan
 li
@@ -21255,15 +21255,15 @@ qe2
 a
 am
 x
-21785	ku3
+22173	ku3
 babbar
 pi2
 u3
 x
-21791	szu
+22179	szu
 bi
 lam
-a
+22183	a
 na
 a
 ha
@@ -21324,7 +21324,7 @@ qa2
 ti
 szum
 ma
-21856	d
+22245	d
 utu
 tug2
 hi
@@ -21357,7 +21357,7 @@ ka
 sa3
 ki
 disz
-21890	d
+22279	d
 nanna
 in
 du8
@@ -21397,8 +21397,8 @@ du
 tup
 pa
 ki
-21931	disz
-21933	d
+22320	disz
+22322	d
 nanna
 in
 du8
@@ -21406,10 +21406,10 @@ li
 sza
 bi
 lam
-a
+22331	a
 na
 a
-21945	su
+22335	su
 nu
 qi2
 bi2
@@ -21418,7 +21418,7 @@ um
 ma
 iq
 bi
-21955	d
+22345	d
 suen
 ma
 a
@@ -21463,7 +21463,7 @@ tu
 sza
 bi
 lim
-a
+22391	a
 na
 a
 da
@@ -21478,7 +21478,7 @@ ma
 i3
 li2
 u3
-22016	d
+22407	d
 utu
 ma
 d
@@ -21556,7 +21556,7 @@ i
 di
 in
 szi
-a
+22486	a
 na
 be
 li2
@@ -21572,7 +21572,7 @@ isz
 me
 a
 ni
-22111	ka
+22503	ka
 ma
 disz
 i
@@ -21626,7 +21626,7 @@ ia
 x
 x
 x
-22166	la
+22558	la
 i
 le
 eq
@@ -21696,17 +21696,17 @@ ma
 szu
 u2
 ma
-22237	asz
+22629	asz
 pu
 ur
 ma
-22242	u2
+22634	u2
 sza
 ba
 lu
 ni
 kum
-22249	x
+22641	x
 nam
 a
 na
@@ -21740,7 +21740,7 @@ tup
 pa
 am
 disz
-22284	d
+22676	d
 nin
 urta
 ni
@@ -21774,7 +21774,7 @@ na
 pa
 ni
 disz
-22319	d
+22711	d
 nin
 urta
 ni
@@ -21791,7 +21791,7 @@ qa2
 ab
 bi
 disz
-22337	d
+22729	d
 nanna
 tum
 ugula
@@ -21810,13 +21810,13 @@ ha
 ad
 ma
 sag
-22357	sza
+22749	sza
 be
 li2
 at
 ta
 x
-22364	li
+22756	li
 sza
 bi
 lu
@@ -21850,7 +21850,7 @@ ar
 ta
 szu
 li
-22399	x
+22792	x
 x
 x
 (x)
@@ -21881,15 +21881,15 @@ ku3
 babbar
 szum2
 sar
-22431	u3
+22824	u3
 szum2
 el
 lum
 sar
-22437	szu
+22830	szu
 bi
 lam
-asz
+22834	asz
 szum
 sza
 ta
@@ -21919,7 +21919,7 @@ ni
 ik
 ku
 disz
-22471	d
+22865	d
 nanna
 ma
 an
@@ -21964,7 +21964,7 @@ szi
 ib
 x
 x
-22517	d
+22911	d
 marduk
 nimgir
 i
@@ -22029,7 +22029,7 @@ x
 x
 x
 x
-22583	a
+22978	a
 na
 sza
 pi2
@@ -22148,28 +22148,28 @@ x
 iz
 zi
 zu
-22703	x
+23098	x
 x
-22706	x
+23101	x
 mi
 a
 na
 ad
 di
 in
-22714	x
+23109	x
 i
 na
 an
 na
-22720	usz
-22722	a
+23115	usz
+23117	a
 na
 zimbir[
 ki
-22727	u2
-22729	x
-22731	x
+23122	u2
+23124	x
+23126	x
 x
 x
 x
@@ -22183,7 +22183,7 @@ ia
 i
 zi
 iz
-a
+23141	a
 na
 ni
 szi
@@ -22255,7 +22255,7 @@ al
 kam
 szum
 ma
-22820	ab
+23216	ab
 bu
 ta
 ni
@@ -22310,7 +22310,7 @@ szu
 ri
 ig
 mi
-22876	szum
+23272	szum
 ma
 i
 sza
@@ -22326,13 +22326,13 @@ usz
 li
 ma
 am
-a
+23289	a
 na
 e
 te
 el
 pi2
-22899	d
+23296	d
 iszkur
 qi2
 bi2
@@ -22341,7 +22341,7 @@ um
 ma
 sza
 at
-22909	d
+23306	d
 a
 a
 ma
@@ -22362,7 +22362,7 @@ gi
 ki
 tam
 1(disz)
-22931	gi
+23328	gi
 pisan
 ha
 al
@@ -22371,7 +22371,7 @@ im
 szu
 bi
 lam
-a
+23338	a
 na
 a
 da
@@ -22440,7 +22440,7 @@ szu
 nu
 szi
 ma
-23010	x
+23408	x
 nim
 x
 x
@@ -22465,7 +22465,7 @@ x
 x
 ta
 ka
-23036	la
+23434	la
 i
 si2
 ik
@@ -22510,13 +22510,13 @@ szu
 t,i
 ir
 szu
+23480	x
 x
 x
 x
 x
 x
-x
-23088	szu
+23487	szu
 bi
 la
 am
@@ -22640,7 +22640,7 @@ szu
 bi
 lam
 ma
-a
+23612	a
 na
 s,il2
 li2
@@ -22729,7 +22729,7 @@ e
 le
 eq
 qe2
-a
+23702	a
 na
 i
 din
@@ -22776,7 +22776,7 @@ x
 x
 x
 x
-23349	asz
+23750	asz
 ku
 nu
 x
@@ -22784,7 +22784,7 @@ x
 x
 x
 x
-23358	u2
+23759	u2
 ul
 ti
 de
@@ -22819,9 +22819,9 @@ ad
 di
 na
 ku
-23394	a
+23795	a
 na
-23397	esz3
+23798	esz3
 esz3
 la
 tu
@@ -22848,10 +22848,10 @@ le
 eq
 qe2
 disz
-23425	esz3
+23826	esz3
 esz3
-23429	x
-23431	dumu
+23830	x
+23832	dumu
 d
 suen
 na
@@ -22859,7 +22859,7 @@ s,ir
 la
 ti
 gi
-i
+23841	i
 na
 sze
 e
@@ -22910,9 +22910,9 @@ ma
 szu
 bi
 lam
-a
+23893	a
 na
-23493	si
+23896	si
 gar
 qi2
 bi2
@@ -22921,7 +22921,7 @@ um
 ma
 gi
 mil
-23503	d
+23906	d
 marduk
 ma
 ki
@@ -23120,7 +23120,7 @@ ra
 szi
 a
 am
-a
+24106	a
 na
 be
 li2
@@ -23138,7 +23138,7 @@ sza
 el
 me
 szum
-23721	ka
+24125	ka
 i
 pu
 sza
@@ -23231,7 +23231,7 @@ bi
 lam
 it
 ti
-23815	gesz
+24219	gesz
 ma2
 hi
 a
@@ -23253,7 +23253,7 @@ sza
 al
 lu
 rum
-23838	ka
+24242	ka
 li
 il
 qe2
@@ -23293,7 +23293,7 @@ li
 ik
 ru
 bu
-a
+24283	a
 na
 a
 wi
@@ -23357,7 +23357,7 @@ usz
 ta
 ar
 szi
-a
+24348	a
 na
 sza
 pi2
@@ -23448,7 +23448,7 @@ sza
 bi
 la
 kum
-a
+24440	a
 na
 d
 suen
@@ -23477,7 +23477,7 @@ tum
 i
 di
 in
-a
+24470	a
 na
 a
 ia
@@ -23490,7 +23490,7 @@ ma
 i3
 li2
 u3
-24076	d
+24484	d
 utu
 ma
 d
@@ -23541,7 +23541,7 @@ gesz
 e
 li
 disz
-24128	d
+24536	d
 nanna
 in
 du8
@@ -23662,7 +23662,7 @@ li
 szu
 nu
 ti
-a
+24658	a
 na
 ugula
 gidri
@@ -23714,7 +23714,7 @@ ku3
 babbar
 a
 na
-24302	ku
+24711	ku
 bi
 i
 di
@@ -23760,9 +23760,9 @@ du
 lu
 qum
 dumu
-24350	d
+24759	d
 marduk
-a
+24762	a
 na
 d
 suen
@@ -23775,7 +23775,7 @@ um
 ma
 i3
 li2
-24366	d
+24776	d
 utu
 ma
 d
@@ -23830,7 +23830,7 @@ na
 zi3
 ta
 bi
-24422	a
+24833	a
 na
 lu
 u2
@@ -23843,7 +23843,7 @@ ma
 a
 wi
 il
-24436	d
+24847	d
 iszkur
 disz
 ar
@@ -23868,7 +23868,7 @@ li
 sza
 szum2
 sar
-24462	u3
+24873	u3
 1(u)
 gi
 id
@@ -23878,7 +23878,7 @@ el
 lu
 tum
 sar
-24473	sza
+24884	sza
 igi
 6(disz)
 gal2
@@ -23896,13 +23896,13 @@ ta
 ra
 asz
 szi
-a
+24903	a
 na
 ka
-24495	d
+24907	d
 utu
 disz
-24499	d
+24911	d
 nin
 urta
 e
@@ -23911,7 +23911,7 @@ isz
 u3
 im
 gur
-24509	d
+24921	d
 suen
 qi2
 bi2
@@ -23943,7 +23943,7 @@ ha
 ar
 ri
 isz
-24542	d
+24954	d
 utu
 gi
 im
@@ -24043,7 +24043,7 @@ u4
 mi
 sza
 tu
-24643	bu
+25055	bu
 3(disz)
 pa
 ar
@@ -24076,10 +24076,10 @@ mil
 a
 na
 ka
-24677	d
+25089	d
 utu
 disz
-24681	d
+25093	d
 nin
 gal
 e
@@ -24088,9 +24088,9 @@ isz
 u3
 im
 gur
-24691	d
+25103	d
 suen
-tup
+25106	tup
 pi
 a
 hi
@@ -24101,9 +24101,9 @@ a
 na
 szar
 rum
-24705	d
+25118	d
 iszkur
-a
+25121	a
 na
 sza
 pi2
@@ -24185,7 +24185,7 @@ an
 asz
 szum
 4(iku)
-24790	a
+25204	a
 sza3
 sza
 x
@@ -24225,30 +24225,30 @@ x
 x
 x
 x
-24831	x
+25245	x
 x
 x
 x
 x
 x
-24838	isz
+25252	isz
 tu
 mu
 4(disz)
 kam
-24844	x
+25258	x
 x
 x
 x
 x
 x
-24853	x
+25267	x
 x
 (x)
-24857	x
+25271	x
 szu
-24860	1(iku)
-24863	x
+25274	1(iku)
+25277	x
 u3
 ba
 x
@@ -24276,7 +24276,7 @@ i
 szum
 ma
 2(iku)
-24892	a
+25306	a
 sza3
 i
 ri
@@ -24297,7 +24297,7 @@ ha
 al
 li
 qu2
-24914	i3
+25328	i3
 li2
 szu
 szu
@@ -24317,7 +24317,7 @@ ab
 bu
 bu
 2(esze3)
-24935	a
+25349	a
 sza3
 szu
 i
@@ -24330,7 +24330,7 @@ na
 an
 u3
 1(esze3)
-24949	a
+25363	a
 sza3
 i
 na
@@ -24375,7 +24375,7 @@ ma
 dumu
 ri
 isz
-24995	d
+25409	d
 utu
 u3
 ma
@@ -24400,11 +24400,11 @@ ur
 szu
 nu
 ti
-25021	disz
+25435	disz
 dam
 ri
 isz
-25026	d
+25440	d
 utu
 it
 ta
@@ -24423,11 +24423,11 @@ x
 x
 x
 x
-25047	disz
+25461	disz
 dam
 ri
 isz
-25052	d
+25466	d
 utu
 x
 x
@@ -24437,8 +24437,8 @@ x
 x
 x
 x
-25063	x
-25065	a
+25478	x
+25480	a
 na
 szu
 ul
@@ -24483,10 +24483,10 @@ na
 qa2
 be2
 e
-25111	udu
+25526	udu
 nita2
 mesz
-25115	an
+25530	an
 ni
 tam
 asz
@@ -24508,7 +24508,7 @@ x
 x
 x
 (x)
-25138	am
+25553	am
 a
 sza
 am
@@ -24600,9 +24600,9 @@ ur
 x
 x
 x
-25232	x
+25647	x
 ma
-25235	e
+25650	e
 pe2
 szum
 a
@@ -24619,7 +24619,7 @@ tu
 usz
 ta
 a
-a
+25668	a
 na
 a
 sza3
@@ -24637,7 +24637,7 @@ su
 disz
 na
 bi
-25271	d
+25687	d
 en
 lil2
 u3
@@ -24802,7 +24802,7 @@ szu
 up
 ra
 am
-a
+25853	a
 na
 a
 hi
@@ -24974,7 +24974,7 @@ duru5
 disz
 ib
 ni
-25609	d
+26026	d
 marduk
 a
 na
@@ -25006,7 +25006,7 @@ ma
 3(barig)
 1(ban2)
 numun
-25643	tu
+26060	tu
 x
 x
 x
@@ -25016,7 +25016,7 @@ u2
 ul
 im
 gur
-szi
+26071	szi
 pi2
 ir
 tum
@@ -25052,7 +25052,7 @@ al
 li
 ku
 ma
-25696	an
+26114	an
 ni
 a
 am
@@ -25121,7 +25121,7 @@ hi
 e
 te
 di
-25766	3(disz)
+26184	3(disz)
 gin2
 ku3
 babbar
@@ -25136,7 +25136,7 @@ be
 li2
 ia
 ma
-a
+26200	a
 na
 x
 x
@@ -25146,12 +25146,12 @@ bi2
 ma
 um
 ma
-25792	x
+26211	x
 ma
 d
 utu
 u3
-25798	d
+26217	d
 marduk
 da
 ri
@@ -25237,7 +25237,7 @@ x
 x
 (x)
 x
-25885	d
+26304	d
 utu
 x
 x
@@ -25269,7 +25269,7 @@ pi2
 ki
 (i)
 il
-a
+26337	a
 na
 d
 suen
@@ -25287,7 +25287,7 @@ a
 bu
 szu
 ma
-25936	d
+26356	d
 utu
 u3
 d
@@ -25323,7 +25323,7 @@ x
 tu
 ni
 szu
-disz
+26393	disz
 i
 lu
 la
@@ -25347,7 +25347,7 @@ sila3
 i3
 gesz
 sza
-25997	gesz
+26418	gesz
 ban2
 d
 marduk
@@ -25384,7 +25384,7 @@ i3
 gesz
 a
 na
-26035	hu
+26456	hu
 ur
 ri
 x
@@ -25516,7 +25516,7 @@ szu
 up
 ra
 am
-a
+26589	a
 na
 a
 wi
@@ -25644,14 +25644,14 @@ en
 lil2
 la2[
 ki
-26296	li
+26718	li
 il
 li
 ik
 ma
 x
 x
-26304	li
+26726	li
 id
 du
 ma
@@ -25666,7 +25666,7 @@ x
 i
 x
 x
-26320	im
+26742	im
 ma
 la
 (x)
@@ -25674,7 +25674,7 @@ x
 x
 x
 ru
-a
+26751	a
 na
 a
 wi
@@ -25700,7 +25700,7 @@ qi2
 sza
 am
 ma
-26355	d
+26778	d
 utu
 u3
 d
@@ -25765,7 +25765,7 @@ u2
 da
 ri
 disz
-26421	d
+26844	d
 suen
 a
 bu
@@ -25913,7 +25913,7 @@ szar
 x
 ru
 x
-26570	usz
+26993	usz
 x
 szar
 ri
@@ -25946,7 +25946,7 @@ ta
 ad
 di
 nu
-26604	disz
+27027	disz
 ia
 ku
 un
@@ -25955,11 +25955,11 @@ szar
 szu
 a
 ti
-26614	x
+27037	x
 x
-26619	x
+27042	x
 x
-26622	a
+27046	a
 na
 be
 li2
@@ -25975,7 +25975,7 @@ mu
 sza
 lim
 ma
-26639	d
+27063	d
 utu
 u3
 d
@@ -26047,7 +26047,7 @@ e
 gu
 u2
 x
-26712	x
+27136	x
 x
 x
 x
@@ -26096,22 +26096,22 @@ x
 x
 szu
 x
-26763	x
-26765	disz
+27187	x
+27189	disz
 a
 bu
 um
 wa
 qar
 u3
-26773	a
+27197	a
 na
 t,e4
 mi
 tu
 ur
 ri
-26781	8(disz)
+27205	8(disz)
 u4
 mi
 ki
@@ -26186,7 +26186,7 @@ u2
 ki
 il
 x
-26857	la
+27281	la
 il
 li
 ku
@@ -26212,9 +26212,9 @@ ma
 be
 li2
 x
-26884	u2
+27308	u2
 ne
-26887	hu
+27311	hu
 li
 iq
 bu
@@ -26225,7 +26225,7 @@ mi
 id
 de
 sig
-26899	d
+27323	d
 sza
 la
 i
@@ -26249,18 +26249,18 @@ x
 x
 x
 li
-26925	x
+27352	x
 x
-26928	x
-26931	x
-26933	dumu
+27355	x
+27358	x
+27360	dumu
 x
 x
-26937	u2
-26939	x
-26941	x
+27364	u2
+27366	x
+27368	x
 sza
-26947	it
+27374	it
 ta
 la
 ak
@@ -26273,18 +26273,18 @@ x
 x
 x
 (x)
-26961	x
-26963	i
+27388	x
+27390	i
 na
-26966	x
+27393	x
 x
-26970	x
+27397	x
 x
 x
 ma
 an
 x
-26977	x
+27404	x
 x
 x
 ip
@@ -26302,8 +26302,8 @@ at
 a
 bi
 ia
-26996	disz
-26998	i3
+27423	disz
+27425	i3
 li2
 szu
 im
@@ -26337,11 +26337,11 @@ al
 szu
 x
 ka
-27033	di
+27460	di
 qa
 (x)
 x
-27040	a
+27468	a
 na
 szu
 ul
@@ -26471,12 +26471,12 @@ x
 x
 x
 x
-27171	gesz
+27599	gesz
 gu
 za
 sza
 tu
-27177	x
+27605	x
 x
 x
 (x)
@@ -26556,7 +26556,7 @@ ki
 ku3
 babbar
 x
-27258	1(u)
+27686	1(u)
 sar
 x
 x
@@ -26613,10 +26613,10 @@ ku
 x
 x
 x
-27316	x
+27744	x
 x
 x
-27320	gesz
+27748	gesz
 gu
 za
 x
@@ -26625,11 +26625,11 @@ x
 (x)
 x
 x
-27330	a
+27759	a
 na
 ib
 ni
-27335	d
+27764	d
 mar
 tu
 qi2
@@ -26685,16 +26685,16 @@ am
 ma
 ma
 an
+27821	x
 x
 x
 x
-x
-27396	e
+27826	e
 iq
 bi
 a
 am
-27402	be
+27832	be
 el
 pi2
 ha
@@ -26715,14 +26715,14 @@ up
 li
 is
 su2
-27424	i
+27854	i
 na
 babila2
 ki
 la
 i
 ra
-27434	an
+27864	an
 ni
 um
 ma
@@ -26764,13 +26764,13 @@ te
 er
 ra
 am
-27477	x
+27907	x
 x
 szu
 bi
 la
 am
-a
+27914	a
 na
 tug2
 hi
@@ -26778,7 +26778,7 @@ a
 ma
 u2
 x
-27492	it
+27923	it
 ti
 ak
 ka
@@ -26811,7 +26811,7 @@ ak
 ki
 im
 ma
-27526	gi
+27957	gi
 kid
 ku
 tu
@@ -26836,7 +26836,7 @@ la
 ki
 u3
 munus
-27552	d
+27983	d
 utu
 la
 ma
@@ -26849,25 +26849,25 @@ x
 x
 (x)
 x
-ma
+27997	ma
 ha
 ar
 d
 utu
-27571	u3
+28003	u3
 ku
 ru
 up
 pu
 x
-27578	iz
+28010	iz
 ku
 ra
 am
 ma
-27584	sza
+28016	sza
 ki
-27587	um
+28019	um
 ma
 szi
 i
@@ -26996,10 +26996,10 @@ x
 x
 (x)
 x
-27717	x
+28149	x
 x
-27720	x
-bu
+28152	x
+28154	bu
 qu
 mu
 i
@@ -27051,7 +27051,7 @@ udu
 hi
 a
 x
-27774	sza
+28207	sza
 a
 na
 s,i
@@ -27070,7 +27070,7 @@ a
 na
 babila2[
 ki
-27794	al
+28227	al
 ka
 a
 nim
@@ -27081,9 +27081,9 @@ ap
 pa
 ta
 nim
-a
+28239	a
 na
-27808	qi2
+28242	qi2
 bi2
 ma
 um
@@ -27091,7 +27091,7 @@ ma
 d
 marduk
 x
-27817	tup
+28251	tup
 pi2
 an
 ni
@@ -27107,7 +27107,7 @@ lu
 ti
 de
 disz
-27834	d
+28268	d
 suen
 i
 din
@@ -27138,7 +27138,7 @@ im
 a
 na
 kar
-27866	d
+28300	d
 utu
 ki
 si
@@ -27177,7 +27177,7 @@ kam
 ep
 sza
 am
-d
+28340	d
 marduk
 ra
 i
@@ -27202,14 +27202,14 @@ isz
 tu
 ib
 ni
-27931	d
+28366	d
 marduk
 u3
 mu
 ba
 li2
 it,
-27939	d
+28374	d
 marduk
 1(disz)
 gu4
@@ -27229,14 +27229,14 @@ a
 na
 ib
 ni
-27960	d
+28395	d
 marduk
 u3
 mu
 ba
 li2
 it,
-27968	d
+28403	d
 marduk
 at
 ta
@@ -27270,9 +27270,9 @@ ka
 asz
 szi
 a
-28003	x
+28438	x
 ka
-28006	x
+28441	x
 x
 x
 udu
@@ -27286,14 +27286,14 @@ it
 ti
 ib
 ni
-28021	d
+28456	d
 marduk
 u3
 mu
 ba
 li2
 it,
-28029	d
+28464	d
 marduk
 a
 na
@@ -27308,11 +27308,11 @@ isz
 li
 li
 kam
-x
-28046	id
+28480	x
+28482	id
 dam
 x
-28050	x
+28486	x
 ki
 im
 ma
@@ -27320,7 +27320,7 @@ sza
 tup
 pu
 um
-28059	ki
+28495	ki
 a
 am
 ta
@@ -27370,7 +27370,7 @@ id
 ni
 szi
 im
-a
+28546	a
 na
 a
 wi
@@ -27423,7 +27423,7 @@ sza3
 sza
 kaskal
 kar
-28163	d
+28600	d
 utu
 sza
 e
@@ -27431,12 +27431,12 @@ bara2
 d
 inanna
 nin
-28172	x
+28609	x
 ki
 sza
 ib
 ni
-28178	d
+28615	d
 suen
 a
 bu
@@ -27458,7 +27458,7 @@ disz
 ib
 na
 tum
-28201	lu2
+28638	lu2
 engar
 ku
 ul
@@ -27470,7 +27470,7 @@ szu
 li
 te
 er
-a
+28651	a
 na
 ugula
 dam
@@ -27530,13 +27530,13 @@ a
 nu
 um
 ma
-28274	x
-28276	im
+28712	x
+28714	im
 x
 x
 x
 x
-28282	ta
+28720	ta
 qa2
 ab
 bu
@@ -27572,7 +27572,7 @@ i
 ni
 mu
 ur
-lu
+28757	lu
 u2
 it
 tu
@@ -27582,7 +27582,7 @@ na
 siki
 nu
 ur2
-28329	d
+28768	d
 isz
 ha
 ra
@@ -27596,7 +27596,7 @@ udu
 hi
 a
 disz
-28344	d
+28783	d
 sze
 rum
 ba
@@ -27662,7 +27662,7 @@ lu
 ul
 li
 ka
-a
+28850	a
 na
 a
 wi
@@ -27711,10 +27711,10 @@ na
 e2
 zimbir[
 ki
-28460	x
+28900	x
 x
 x
-28464	a
+28905	a
 na
 a
 ta
@@ -27726,7 +27726,7 @@ um
 ma
 nu
 ur2
-28477	d
+28918	d
 utu
 ma
 a
@@ -27754,7 +27754,7 @@ ku
 li
 te
 eq
-be
+28947	be
 li2
 d
 na
@@ -27798,7 +27798,7 @@ e
 u3
 a
 na
-28550	ku
+28992	ku
 bi
 mu
 ti
@@ -27976,12 +27976,12 @@ di
 na
 ak
 kum
-a
+29171	a
 na
 a
 zi
 ir
-28734	d
+29177	d
 da
 gan
 qi2
@@ -28028,7 +28028,7 @@ ti
 i
 di
 nu
-28782	ku
+29225	ku
 kum
 t,a
 ab
@@ -28076,7 +28076,7 @@ na
 sza
 iri
 ki
-28831	a
+29274	a
 ha
 nu
 ta
@@ -28088,11 +28088,11 @@ ne2
 e
 ku
 ma
-28844	gesz
+29287	gesz
 ma2
 usz
 ta
-28849	la
+29292	la
 an
 ni
 um
@@ -28143,7 +28143,7 @@ u2
 ba
 al
 x
-28901	ik
+29344	ik
 lu
 ni
 in
@@ -28170,7 +28170,7 @@ pu
 szu
 ni
 ni
-a
+29372	a
 na
 be
 el
@@ -28344,7 +28344,7 @@ am
 disz
 a
 pil2
-29103	d
+29547	d
 mar
 tu
 dumu
@@ -28402,10 +28402,10 @@ ul
 na
 di
 i
-a
+29606	a
 na
 puzur4
-29165	d
+29610	d
 a
 szur4
 qi2
@@ -28436,7 +28436,7 @@ zu
 u2
 ma
 nu
-29197	gesz
+29642	gesz
 kiri6
 ia
 i
@@ -28446,7 +28446,7 @@ a
 sza3
 u2
 sal
-29208	ka
+29653	ka
 lu
 szi
 na
@@ -28547,16 +28547,16 @@ x
 szi
 pi
 ir
-29310	i
+29755	i
 pu
 szu
-29314	u2
+29759	u2
 ul
-29317	x
+29762	x
 x
-29321	i
+29766	i
 x
-29324	x
+29769	x
 x
 x
 x
@@ -28626,11 +28626,11 @@ x
 dug
 mesz
 ka
-29395	ri
+29840	ri
 ia
-29398	x
-29400	mesz
-29403	x
+29843	x
+29845	mesz
+29848	x
 x
 x
 (x)
@@ -28640,7 +28640,7 @@ at
 ta
 di
 in
-a
+29859	a
 na
 d
 suen
@@ -28663,20 +28663,20 @@ a
 nu
 um
 ma
-29437	disz
-29440	x
+29883	disz
+29886	x
 (x)
-29443	qa2
+29889	qa2
 du
 um
-29447	x
+29893	x
 szu
 uh
-29451	x
+29897	x
 i
 na
 iri
-29457	d
+29903	d
 la
 ga
 ma
@@ -28698,7 +28698,7 @@ ma
 ri
 i
 ka
-29480	gesz
+29926	gesz
 ma2
 hi
 a
@@ -28740,9 +28740,9 @@ te
 zi
 ba
 am
-a
+29969	a
 na
-29525	x
+29972	x
 x
 (x)
 qi2
@@ -28753,7 +28753,7 @@ ma
 si
 im
 me
-29537	ma
+29984	ma
 d
 utu
 u3
@@ -28784,9 +28784,9 @@ i3
 gu
 la
 1(disz)
-29569	x
+30016	x
 x
-29572	szu
+30019	szu
 bi
 lam
 a
@@ -28801,7 +28801,7 @@ x
 li
 ib
 ba
-29588	ah
+30035	ah
 hu
 tam
 bu
@@ -28844,7 +28844,7 @@ kum
 szu
 bi
 lam
-a
+30079	a
 na
 d
 suen
@@ -28894,7 +28894,7 @@ sze
 gur
 sza
 nu
-29682	gesz
+30130	gesz
 kiri6
 sza
 ka
@@ -28906,7 +28906,7 @@ ud
 ma
 x
 ka
-29695	u3
+30143	u3
 a
 na
 ka
@@ -28971,11 +28971,11 @@ lu
 usz
 ma
 at
-a
+30209	a
 na
 x
 x
-29765	d
+30214	d
 suen
 qi2
 bi2
@@ -29043,7 +29043,7 @@ un
 ka
 asz
 szu
-a
+30283	a
 na
 d
 suen
@@ -29056,7 +29056,7 @@ um
 ma
 an
 pi4
-29847	d
+30297	d
 a
 a
 ma
@@ -29086,7 +29086,7 @@ pu
 ru
 x
 x
-29878	u2
+30328	u2
 ul
 ta
 al
@@ -29104,7 +29104,7 @@ lu
 usz
 ta
 mar
-29897	d
+30347	d
 iszkur
 sza
 a
@@ -29120,24 +29120,24 @@ x
 x
 x
 x
-29914	sza
+30364	sza
 te
 pu
 szu
 ma
 ah
-29921	x
+30371	x
 x
 x
 i
 na
-29927	asz
+30377	asz
 pu
 ra
-29931	a
+30381	a
 wi
 lam
-29935	la
+30385	la
 tu
 da
 ba
@@ -29191,7 +29191,7 @@ hi
 disz
 szar
 rum
-29990	d
+30440	d
 iszkur
 ki
 ma
@@ -29201,11 +29201,11 @@ u2
 e
 pu
 usz
-x
-30002	u3
+30451	x
+30453	u3
 be
 li2
-30006	ma
+30457	ma
 har
 d
 utu
@@ -29214,21 +29214,21 @@ na
 be
 li2
 ia
-30016	a
+30467	a
 na
 be
 li2
 ia
 x
-30023	u3
+30474	u3
 a
 na
 ku
-30028	ka
+30479	ka
 u2
 ul
 x
-30033	isz
+30484	isz
 ri
 qa2
 am
@@ -29236,10 +29236,10 @@ ku
 nu
 uk
 lu2
-30042	d
+30493	d
 iszkur
 ra
-30046	a
+30497	a
 na
 as,
 s,a
@@ -29310,7 +29310,7 @@ sin
 i
 din
 nam
-30118	ka
+30569	ka
 la
 i
 ba
@@ -29351,20 +29351,20 @@ na
 tup
 pa
 tim
-30160	sza
+30611	sza
 1(gesz2)
 sze
 gur
 i
 na
 sze
-30168	a
+30619	a
 na
 kar
-30172	d
+30623	d
 utu
 x
-30176	ka
+30627	ka
 ni
 ka
 at
@@ -29374,7 +29374,7 @@ gur
 sza
 u2
 x
-30187	sza
+30638	sza
 be
 li2
 ia
@@ -29438,7 +29438,7 @@ disz
 a
 wi
 il
-30252	d
+30703	d
 suen
 gal
 ukken
@@ -29452,7 +29452,7 @@ na
 szuku
 erin2
 ug3
-30267	sza
+30718	sza
 qa2
 ti
 szu
@@ -29483,13 +29483,13 @@ sin
 i
 din
 nam
-30299	szuku
+30750	szuku
 ug3
-30302	x
-30304	a
+30753	x
+30755	a
 na
 lu2
-30308	d
+30759	d
 iszkur
 ra
 u3
@@ -29501,7 +29501,7 @@ li
 kam
 ma
 du
-30321	be
+30772	be
 li2
 ki
 ma
@@ -29518,7 +29518,7 @@ bi
 ma
 ki
 ma
-30339	a
+30791	a
 na
 re
 s,u2
@@ -29592,20 +29592,20 @@ x
 s,i2
 bu
 tim
-30414	s,i2
+30866	s,i2
 bu
 tim
-30419	i
+30871	i
 di
 im
 ma
-30424	im
-30426	ar
+30876	im
+30878	ar
 x
 x
 x
 (x)
-a
+30884	a
 na
 li
 pi2
@@ -29617,7 +29617,7 @@ bi2
 ma
 um
 ma
-30445	x
+30898	x
 (x)
 sze
 mi
@@ -29625,7 +29625,7 @@ ma
 disz
 i
 din
-30454	i
+30907	i
 li
 kam
 ma
@@ -29710,7 +29710,7 @@ lu
 sza
 re
 kum
-a
+30993	a
 na
 be
 li2
@@ -29721,7 +29721,7 @@ ma
 um
 ma
 d
-30551	d
+31005	d
 utu
 li
 ba
@@ -29764,7 +29764,7 @@ u3
 a
 na
 sza
-30595	ru
+31049	ru
 ut
 x
 x
@@ -29821,13 +29821,13 @@ ku
 ap
 pu
 tum
-a
+31107	a
 na
 i3
 li2
 x
 x
-30659	qi2
+31114	qi2
 bi2
 ma
 um
@@ -29846,9 +29846,9 @@ tu
 uk
 la
 ti
-30680	al
+31135	al
 ma
-30683	gesz
+31138	gesz
 mar
 gid2
 da
@@ -29911,7 +29911,7 @@ la
 ta
 ka
 la
-a
+31202	a
 na
 sza
 pi2
@@ -30059,7 +30059,7 @@ ar
 u3
 ri
 im
-30895	d
+31351	d
 iszkur
 li
 isz
@@ -30090,7 +30090,7 @@ te
 er
 ru
 nim
-a
+31383	a
 na
 hu
 usz
@@ -30160,7 +30160,7 @@ ab
 bi
 su2
 u3
-30997	bu
+31454	bu
 ki
 a
 na
@@ -30214,9 +30214,9 @@ isz
 szi
 szu
 ma
-31052	x
+31509	x
 x
-31055	it
+31512	it
 ta
 al
 ka
@@ -30257,7 +30257,7 @@ at
 ti
 ni
 ma
-a
+31554	a
 na
 sin
 tu
@@ -30266,7 +30266,7 @@ la
 um
 ma
 lu2
-31106	d
+31564	d
 ha
 ia3
 a
@@ -30388,7 +30388,7 @@ ha
 ba
 la
 ni
-a
+31687	a
 na
 d
 suen
@@ -30400,7 +30400,7 @@ ma
 um
 ma
 lu2
-31241	d
+31700	d
 ha
 ia3
 ma
@@ -30479,7 +30479,7 @@ i
 ba
 szu
 u2
-a
+31780	a
 na
 a
 na
@@ -30490,7 +30490,7 @@ ku
 um
 ma
 lu2
-31332	d
+31792	d
 ha
 ia3
 d
@@ -30510,7 +30510,7 @@ x
 (x)
 x
 x
-31353	ma
+31813	ma
 ri
 la
 iq
@@ -30536,8 +30536,8 @@ ma
 x
 x
 x
-31380	ba
-31382	u3
+31840	ba
+31842	u3
 a
 pi2
 il
@@ -30563,7 +30563,7 @@ lu
 it
 ma
 am
-31409	i
+31869	i
 s,u2
 ru
 um
@@ -30572,7 +30572,7 @@ la
 i
 ka
 lu
-31419	d
+31879	d
 nin
 gesz
 zi
@@ -30585,19 +30585,19 @@ um
 x
 x
 a
-31433	u3
-31436	x
-31438	x
+31893	u3
+31896	x
+31898	x
 x
 x
 szi
 il
 x
-31445	x
+31906	x
 x
-31448	x
+31909	x
 x
-31451	disz
+31912	disz
 be
 el
 szu
@@ -30616,7 +30616,7 @@ e
 zi
 iz
 za
-31471	sze
+31932	sze
 am
 u3
 ku3
@@ -30625,7 +30625,7 @@ isz
 tu
 u4
 mi
-31481	ni
+31942	ni
 le
 eq
 qe2
@@ -30640,13 +30640,13 @@ u3
 ka
 ni
 kam
-31497	u2
+31958	u2
 ul
 ni
 sza
 al
 li
-31504	x
+31965	x
 x
 be
 le
@@ -30658,38 +30658,38 @@ ta
 da
 bu
 bu
-31517	x
+31978	x
 szu
 nu
-31521	ma
+31982	ma
 am
 x
 x
-31527	x
+31988	x
 x
 x
-31532	szu
+31993	szu
 nu
 ti
 ma
-31537	be
+31998	be
 le
 e
 ia
-31543	ni
+32004	ni
 isz
 szu
 nu
 ti
 disz
 x
-31551	me
+32012	me
 e
 be
 le
 e
 ia
-x
+32019	x
 x
 x
 hu
@@ -30699,17 +30699,17 @@ x
 li
 szu
 x
-31568	sza
+32030	sza
 a
 na
 bala
 ri
 kar
-31575	d
+32037	d
 utu
 ki
 ni
-31580	u2
+32042	u2
 sze
 bi
 ru
@@ -30723,18 +30723,18 @@ ab2
 gu4
 hi
 a
-31595	a
+32057	a
 na
 bala
 ri
 kar
-31601	d
+32063	d
 utu
 ki
 il
 li
 ku
-31608	sza
+32070	sza
 ta
 asz
 pu
@@ -30761,18 +30761,18 @@ ab2
 gu4
 hi
 a
-31636	a
+32098	a
 na
 bala
 ri
 x
-31642	la
+32104	la
 u2
 sze
 eb
 be2
 ru
-31649	a
+32112	a
 na
 sin
 isz
@@ -30793,17 +30793,17 @@ ni
 ma
 szi
 ip
-31671	d
+32134	d
 iszkur
 ga
 mil
 x
-31677	disz
+32140	disz
 ib
 ni
-31681	d
+32144	d
 suen
-31684	il
+32147	il
 li
 kam
 ma
@@ -30818,34 +30818,34 @@ at
 u2
 ul
 x
-31700	a
+32163	a
 na
 x
 x
-31705	il
+32168	il
 li
 ik
 ma
-31710	u3
+32173	u3
 x
-31713	ma
+32176	ma
 am
 ma
-31717	a
+32180	a
 na
 x
-31721	a
+32184	a
 na
 x
-31725	ga
+32188	ga
 ma
 x
-31729	1(asz)
+32192	1(asz)
 sze
 gur
 a
 na
-31735	i
+32198	i
 na
 di
 in
@@ -30855,7 +30855,7 @@ ku3
 babbar
 1(u)
 sze
-31746	a
+32209	a
 na
 ka
 lu
@@ -30865,7 +30865,7 @@ i
 (na)
 di
 in
-a
+32220	a
 na
 be
 li2
@@ -30969,7 +30969,7 @@ szu
 up
 ra
 am
-a
+32325	a
 na
 a
 bi
@@ -31034,7 +31034,7 @@ x
 x
 x
 disz
-31926	ku
+32391	ku
 bi
 usz
 ta
@@ -31049,7 +31049,7 @@ am
 sza
 1(disz)
 x
-31942	x
+32407	x
 a
 na
 di
@@ -31062,15 +31062,15 @@ x
 x
 x
 x
-1(disz)
+32421	1(disz)
 x
-31958	1(disz)
+32424	1(disz)
 2/3(disz)
 gin2
-31962	a
+32428	a
 na
 hu
-31966	dumu
+32432	dumu
 sin
 ga
 mi
@@ -31099,7 +31099,7 @@ ka
 disz
 nu
 ur2
-31996	d
+32462	d
 x
 x
 disz
@@ -31110,8 +31110,8 @@ ni
 disz
 nu
 ur2
-32008	x
-32010	x
+32474	x
+32476	x
 x
 a
 x
@@ -31121,31 +31121,31 @@ x
 x
 x
 ni
+32487	x
 x
 x
 x
-x
-32025	x
+32492	x
 x
 da
 ak
 x
-32031	tu
+32498	tu
 sza
 bi
 lam
-32036	sza
-32038	x
-32041	szum
+32503	sza
+32505	x
+32508	szum
 ma
 la
 ta
-32047	li
+32514	li
 a
 ma
 ha
 ar
-32053	a
+32521	a
 na
 sin
 re
@@ -31156,10 +31156,10 @@ bi2
 ma
 um
 ma
-32066	d
+32534	d
 utu
 ma
-32070	d
+32538	d
 utu
 u3
 d
@@ -31224,7 +31224,7 @@ u3
 li
 pi2
 it
-32136	d
+32604	d
 suen
 x
 am
@@ -31249,7 +31249,7 @@ x
 bi
 um
 ma
-32162	ma
+32630	ma
 pa
 szu
 szi
@@ -31257,7 +31257,7 @@ ia
 i
 na
 x
-32171	li
+32639	li
 ib
 ti
 ru
@@ -31343,7 +31343,7 @@ szu
 up
 ra
 am
-32258	x
+32726	x
 il
 qe2
 a
@@ -31382,13 +31382,13 @@ it
 ba
 al
 (x)
-a
+32766	a
 na
 be
 el
 ti
 ia
-a
+32773	a
 na
 be
 el
@@ -31437,13 +31437,13 @@ szu
 qu2
 ul
 ma
-32354	am
+32824	am
 x
 x
 x
 szum
-32360	x
-d
+32830	x
+32832	d
 utu
 u3
 d
@@ -31490,7 +31490,7 @@ ku
 un
 1(disz)
 gi
-32409	sig4
+32880	sig4
 hi
 a
 1(disz)
@@ -31499,7 +31499,7 @@ un
 x
 a
 ta
-32419	u3
+32890	u3
 dug
 hu
 bu
@@ -31515,7 +31515,7 @@ ka
 disz
 ri
 isz
-32436	d
+32907	d
 utu
 szu
 bi
@@ -31542,7 +31542,7 @@ pa
 ra
 ak
 kum
-isz
+32935	isz
 tu
 iti
 2(disz)
@@ -31554,7 +31554,7 @@ di
 na
 ak
 kum
-32476	gesz
+32948	gesz
 ma
 nu
 ma
@@ -31593,7 +31593,7 @@ i
 na
 an
 na
-32516	gesz
+32988	gesz
 ma
 nu
 na
@@ -31606,7 +31606,7 @@ in
 ar
 hi
 isz
-32530	gesz
+33002	gesz
 ma2
 hi
 a
@@ -31677,13 +31677,13 @@ ia
 ki
 i
 il
-disz
-32603	munus
+33074	disz
+33076	munus
 ra
 bi
 a
 at
-32609	d
+33082	d
 nin
 tu
 asz
@@ -31704,7 +31704,7 @@ ak
 sze
 er
 disz
-32631	munus
+33104	munus
 du10
 at
 a
@@ -31718,7 +31718,7 @@ ra
 bi
 tum
 disz
-32646	d
+33119	d
 isztaran
 ki
 nam
@@ -31776,7 +31776,7 @@ na
 qa2
 ti
 disz
-32706	d
+33179	d
 marduk
 dam
 gar3
@@ -31793,9 +31793,9 @@ ta
 x
 x
 (x)
-a
+33197	a
 na
-32726	i3
+33200	i3
 li2
 szu
 qi2
@@ -31907,17 +31907,17 @@ up
 ra
 am
 ma
-32839	al
+33313	al
 kam
-32842	x
-32844	x
-32846	i
+33316	x
+33318	x
+33320	i
 na
 ku
 us,
 s,i2
 ma
-32853	ia
+33327	ia
 a
 sza
 al
@@ -31971,8 +31971,8 @@ ta
 al
 la
 kam
-32908	erased
-32910	a
+33382	erased
+33385	a
 na
 x
 x
@@ -32020,7 +32020,7 @@ tim
 i
 di
 in
-d
+33434	d
 marduk
 ra
 i
@@ -32104,40 +32104,40 @@ x
 x
 ra
 x
-33043	x
+33519	x
 x
-33046	a
+33522	a
 na
 x
-33050	li
-33052	a
+33526	li
+33528	a
 na
 x
-33056	x
+33532	x
 x
 a
 na
 ma
 ah
 ri
-33064	x
+33540	x
 x
 x
 ti
 x
 x
 a
-33072	x
+33548	x
 x
 x
-33076	x
+33552	x
 x
 x
 x
 x
-a
+33558	a
 na
-33084	ku
+33561	ku
 bi
 qi2
 bi2
@@ -32164,7 +32164,7 @@ a
 ga
 ri
 ni
-33112	sza
+33589	sza
 ta
 asz
 ku
@@ -32181,11 +32181,11 @@ ba
 asz
 sza
 a
-33131	i
+33608	i
 na
 x
 x
-33136	a
+33614	a
 na
 bi
 ti
@@ -32270,8 +32270,8 @@ ni
 ka
 sza
 disz
-33223	ra
-33225	x
+33701	ra
+33703	x
 li
 we
 di
@@ -32375,18 +32375,18 @@ li
 ik
 nu
 uk
-a
+33808	a
 na
-33332	qi2
+33811	qi2
 bi2
 ma
 um
 ma
-33338	ti
+33817	ti
 a
-33342	x
+33821	x
 x
-33345	x
+33824	x
 x
 x
 x
@@ -32403,15 +32403,15 @@ x
 x
 x
 x
-33363	x
+33842	x
 (x)
 x
-33367	x
-33369	u2
+33846	x
+33848	u2
 ul
 x
 x
-33375	x
+33854	x
 x
 x
 x
@@ -32441,7 +32441,7 @@ x
 na
 x
 a
-33406	(x)
+33885	(x)
 i
 ba
 asz
@@ -32468,7 +32468,7 @@ hu
 ru
 x
 x
-33434	u2
+33913	u2
 ka
 lu
 a
@@ -32482,19 +32482,19 @@ x
 x
 x
 x
-33449	la
+33928	la
 a
 ta
 sa3
 la
 ah
-a
+33935	a
 na
 d
 pa4
 nigar
 gar
-33462	ra
+33942	ra
 lugal
 x
 x
@@ -32510,7 +32510,7 @@ ma
 d
 ri
 im
-33479	d
+33959	d
 suen
 be2
 e
@@ -32525,7 +32525,7 @@ sza3
 lim
 sza
 disz
-33495	d
+33975	d
 suen
 gi
 im
@@ -32557,7 +32557,7 @@ ka
 a
 sza3
 disz
-33528	d
+34008	d
 suen
 gi
 im
@@ -32586,7 +32586,7 @@ tim
 i
 di
 in
-a
+34038	a
 na
 i3
 li2
@@ -32620,7 +32620,7 @@ nu
 um
 ma
 disz
-33592	d
+34073	d
 utu
 ba
 ni
@@ -32687,7 +32687,7 @@ ti
 ap
 pu
 tum
-a
+34141	a
 na
 be
 li2
@@ -32699,10 +32699,10 @@ um
 ma
 ib
 ni
-33672	d
+34154	d
 mar
 tu
-33676	ka
+34158	ka
 ma
 i
 nu
@@ -32725,7 +32725,7 @@ ni
 4(bur3)
 1(esze3)
 3(iku)
-33700	a
+34182	a
 sza3
 szuku
 sza
@@ -32740,7 +32740,7 @@ ba
 lu
 1(bur'u)
 5(bur3)
-33716	a
+34198	a
 sza3
 i
 na
@@ -32805,7 +32805,7 @@ sa3
 ni
 iq
 pi4
-33782	d
+34264	d
 utu
 dumu
 x
@@ -32816,7 +32816,7 @@ dub
 sar
 sza
 5(bur3)
-33794	a
+34276	a
 sza3
 i
 ik
@@ -32841,7 +32841,7 @@ a
 nu
 um
 pi2
-33820	d
+34302	d
 marduk
 x
 (x)
@@ -32934,21 +32934,21 @@ ne2
 ep
 sza
 am
-33914	x
+34396	x
 am
 al
 x
-33919	a
+34401	a
 sza3
 na
 da
 nu
 um
-33926	isz
+34408	isz
 tu
 x
 li
-33931	i
+34413	i
 na
 x
 x
@@ -32963,11 +32963,11 @@ in
 na
 s,a
 ar
-33947	disz
+34429	disz
 e
 tel
 pi4
-33952	d
+34434	d
 marduk
 ma
 as,
@@ -33024,7 +33024,7 @@ na
 e
 tel
 pi4
-34010	d
+34492	d
 marduk
 la
 id
@@ -33072,7 +33072,7 @@ na
 e
 tel
 pi4
-34059	d
+34541	d
 marduk
 isz
 pur
@@ -33179,7 +33179,7 @@ na
 4(bur3)
 1(esze3)
 3(iku)
-34167	4(u)
+34649	4(u)
 sar
 a
 sza3
@@ -33304,7 +33304,7 @@ ul
 i
 szu
 u2
-a
+34775	a
 na
 d
 suen
@@ -33392,7 +33392,7 @@ u2
 x
 x
 a
-34381	ba
+34864	ba
 ma
 szu
 ur
@@ -33455,14 +33455,14 @@ ul
 li
 i
 im
-34445	ta
+34928	ta
 asz
 ku
 nu
-34450	x
+34933	x
 larsa[
 ki
-34454	x
+34937	x
 x
 sza
 a
@@ -33527,7 +33527,7 @@ szu
 up
 ra
 am
-a
+35003	a
 na
 be
 li2
@@ -33547,7 +33547,7 @@ marduk
 x
 x
 (x)
-34540	d
+35024	d
 utu
 u3
 d
@@ -33589,7 +33589,7 @@ it
 ti
 sze
 ep
-34583	d
+35067	d
 suen
 ki
 ma
@@ -33659,7 +33659,7 @@ gur
 disz
 sze
 ep
-34654	d
+35138	d
 suen
 id
 di
@@ -33734,11 +33734,11 @@ ma
 1(disz)
 ma2
 u2
-34730	ha
-34732	sze
+35214	ha
+35216	sze
 am
 ni
-34737	disz
+35221	disz
 a
 bu
 wa
@@ -33817,7 +33817,7 @@ it,
 bu
 u2
 ma2
-34818	sza
+35302	sza
 be
 el
 ni
@@ -33834,7 +33834,7 @@ suen
 i
 din
 nam
-34836	be
+35320	be
 li
 ni
 aga
@@ -33903,17 +33903,17 @@ ti
 ma
 sze
 am
-34906	nu
+35390	nu
 sza
 ba
 lam
 x
 x
 x
-34914	a
+35398	a
 na
-34917	x
-a
+35401	x
+35403	a
 na
 d
 suen
@@ -33946,14 +33946,14 @@ szi
 ip
 ri
 im
-34952	disz
+35437	disz
 pa
 ia
 kum
 szu
 ku6
 disz
-34960	d
+35445	d
 mar
 tu
 illat
@@ -34024,7 +34024,7 @@ ma
 ha
 li
 iq
-35032	x
+35517	x
 x
 (x)
 x
@@ -34121,7 +34121,7 @@ in
 na
 di
 in
-a
+35615	a
 na
 d
 suen
@@ -34206,7 +34206,7 @@ li
 sze
 lu
 nim
-a
+35701	a
 na
 d
 suen
@@ -34289,7 +34289,7 @@ sza
 ad
 di
 nu
-a
+35785	a
 na
 d
 suen
@@ -34313,7 +34313,7 @@ um
 ma
 e
 ri
-35322	qa2
+35810	qa2
 du
 um
 lu2
@@ -34416,7 +34416,7 @@ er
 szu
 nu
 ti
-a
+35914	a
 na
 d
 suen
@@ -34493,7 +34493,7 @@ ar
 ki
 bu
 nim
-a
+35992	a
 na
 d
 suen
@@ -34511,7 +34511,7 @@ mu
 ra
 bi
 ma
-35521	disz
+36011	disz
 dumu
 ip
 qu2
@@ -34670,7 +34670,7 @@ sza
 t,u2
 ur
 dam
-a
+36171	a
 na
 d
 suen
@@ -34689,13 +34689,13 @@ ra
 bi
 ma
 disz
-35700	d
+36191	d
 utu
 tukul
 ta
 szu
 x
-35707	ki
+36198	ki
 a
 am
 u2
@@ -34710,7 +34710,7 @@ szu
 u2
 ma
 disz
-35723	d
+36214	d
 nanna
 tum
 a
@@ -34721,7 +34721,7 @@ x
 x
 x
 x
-35735	a
+36226	a
 am
 d
 suen
@@ -34824,7 +34824,7 @@ me
 er
 ma
 5(bur3)
-35839	ma
+36330	ma
 a
 sza3
 i
@@ -34866,7 +34866,7 @@ x
 x
 (x)
 disz
-35882	d
+36373	d
 nanna
 tum
 a
@@ -34875,7 +34875,7 @@ am
 sza
 i
 na
-35892	sza
+36383	sza
 x
 x
 x
@@ -34884,7 +34884,7 @@ x
 x
 (x)
 li
-35902	a
+36394	a
 na
 d
 suen
@@ -34904,7 +34904,7 @@ bi
 ma
 disz
 dumu
-35923	d
+36415	d
 suen
 ki
 a
@@ -34921,7 +34921,7 @@ ma
 disz
 a
 pil
-35941	d
+36433	d
 mar
 tu
 x
@@ -34946,7 +34946,7 @@ ba
 ti
 szu
 disz
-35967	d
+36459	d
 suen
 sza
 mu
@@ -35004,7 +35004,7 @@ at
 disz
 a
 pil
-36026	d
+36518	d
 mar
 tu
 a
@@ -35080,7 +35080,7 @@ ab2
 gu4
 hi
 a
-36103	a
+36596	a
 na
 d
 suen
@@ -35114,7 +35114,7 @@ szu
 nu
 sza
 gu2
-36139	s,u2
+36632	s,u2
 up
 ri
 u2
@@ -35148,7 +35148,7 @@ sza3
 szu
 nu
 sza
-36174	x
+36667	x
 x
 x
 x
@@ -35157,27 +35157,27 @@ mu
 s,i2
 u2
 sza
-36184	x
+36677	x
 (x)
 szu
 nu
 ti
 disz
-36193	x
+36686	x
 x
-36197	a
+36690	a
 sza3
 am
-36201	a
+36694	a
 na
 ni
-36205	sze
+36698	sze
 am
-36208	a
+36701	a
 sza3
 x
 x
-36213	te
+36706	te
 e
 er
 szum
@@ -35231,7 +35231,7 @@ nam
 e
 mi
 id
-a
+36761	a
 na
 d
 suen
@@ -35310,7 +35310,7 @@ qa2
 ti
 ia
 disz
-36347	d
+36841	d
 suen
 im
 gur
@@ -35327,7 +35327,7 @@ el
 ap
 lim
 dumu
-36365	is,
+36859	is,
 ba
 tu
 szu
@@ -35344,7 +35344,7 @@ sza
 na
 ri
 im
-36383	sza
+36877	sza
 ih
 he
 er
@@ -35416,7 +35416,7 @@ wu
 usz
 sze
 er
-a
+36950	a
 na
 d
 suen
@@ -35495,7 +35495,7 @@ bi
 la
 ak
 kum
-a
+37030	a
 na
 d
 suen
@@ -35560,7 +35560,7 @@ i3
 li2
 ma
 x
-36600	i
+37096	i
 na
 bad3
 tibira
@@ -35677,7 +35677,7 @@ tum
 te
 e
 er
-a
+37214	a
 na
 d
 suen
@@ -35881,7 +35881,7 @@ ia
 szu
 bi
 lam
-a
+37419	a
 na
 d
 suen
@@ -35914,7 +35914,7 @@ im
 disz
 a
 na
-36955	d
+37453	d
 suen
 tak2
 la
@@ -35922,13 +35922,13 @@ ku
 dumu
 ip
 qu2
-36964	d
+37462	d
 na
 na
 a
 disz
 lu2
-36971	d
+37469	d
 nin
 szubur
 kam
@@ -35955,7 +35955,7 @@ szesz
 mesz
 a
 na
-36999	d
+37497	d
 suen
 tak2
 la
@@ -35963,7 +35963,7 @@ ku
 disz
 ib
 ni
-37008	d
+37506	d
 iszkur
 disz
 qa2
@@ -35987,7 +35987,7 @@ dumu
 mesz
 a
 na
-37033	d
+37531	d
 suen
 tak2
 la
@@ -35998,7 +35998,7 @@ ra
 ha
 bi
 ki
-37045	mesz
+37543	mesz
 a
 na
 babila2
@@ -36006,7 +36006,7 @@ ki
 t,u2
 ur
 dam
-a
+37552	a
 na
 d
 suen
@@ -36025,7 +36025,7 @@ ra
 bi
 ma
 disz
-37073	d
+37572	d
 suen
 u2
 se
@@ -36113,7 +36113,7 @@ dim2
 dumu
 s,il2
 li2
-37162	d
+37661	d
 utu
 wa
 asz
@@ -36274,7 +36274,7 @@ szu
 ri
 a
 am
-a
+37823	a
 na
 d
 suen
@@ -36309,7 +36309,7 @@ ma
 szu
 ma
 disz
-37359	d
+37859	d
 suen
 sze
 mi
@@ -36342,7 +36342,7 @@ di
 in
 ma
 disz
-37393	d
+37893	d
 suen
 u2
 se
@@ -36451,7 +36451,7 @@ u2
 li
 pu
 ul
-a
+38003	a
 na
 d
 suen
@@ -36476,7 +36476,7 @@ ma
 ka
 ni
 ik
-37528	gesz
+38029	gesz
 eme
 sig
 hi
@@ -36550,7 +36550,7 @@ buranun
 e
 li
 tim
-37603	gesz
+38104	gesz
 eme
 sig
 hi
@@ -36575,7 +36575,7 @@ nu
 li
 pu
 szu
-a
+38130	a
 na
 d
 suen
@@ -36634,7 +36634,7 @@ x
 x
 x
 x
-37688	e2
+38190	e2
 ka
 x
 x
@@ -36644,7 +36644,7 @@ li
 iq
 ni
 szu
-a
+38201	a
 na
 d
 suen
@@ -36662,8 +36662,8 @@ mu
 ra
 bi
 ma
-37717	disz
-37719	d
+38220	disz
+38222	d
 suen
 i
 din
@@ -36773,7 +36773,7 @@ ki
 li
 szi
 ib
-a
+38333	a
 na
 d
 suen
@@ -36841,7 +36841,7 @@ geme2
 te
 er
 szu
-a
+38402	a
 na
 d
 suen
@@ -36860,7 +36860,7 @@ ra
 bi
 ma
 disz
-37917	d
+38422	d
 suen
 gim
 la
@@ -36886,7 +36886,7 @@ a
 na
 im
 gur
-37944	d
+38449	d
 suen
 dam
 gar3
@@ -36940,7 +36940,7 @@ szu
 pur
 im
 gur
-37999	d
+38504	d
 suen
 dam
 gar3
@@ -36975,7 +36975,7 @@ is
 su2
 nu
 ti
-a
+38540	a
 na
 d
 suen
@@ -37058,7 +37058,7 @@ is
 ni
 qu2
 nim
-a
+38624	a
 na
 d
 suen
@@ -37132,7 +37132,7 @@ is
 ni
 qu2
 nim
-a
+38699	a
 na
 d
 suen
@@ -37231,7 +37231,7 @@ la
 ap
 pi2
 tu
-a
+38799	a
 na
 d
 suen
@@ -37259,7 +37259,7 @@ tim
 sza
 sze
 ep
-38319	d
+38828	d
 suen
 ugula
 dam
@@ -37287,7 +37287,7 @@ um
 ma
 sze
 ep
-38348	d
+38857	d
 suen
 ma
 sza
@@ -37369,9 +37369,9 @@ li
 ib
 lu
 nim
-a
+38940	a
 na
-38433	d
+38943	d
 suen
 i
 din
@@ -37486,7 +37486,7 @@ is
 ni
 qa2
 am
-a
+39059	a
 na
 d
 suen
@@ -37566,7 +37566,7 @@ mesz
 sza
 a
 na
-38629	la
+39140	la
 tim
 il
 li
@@ -37777,7 +37777,7 @@ szu
 up
 ra
 am
-d
+39352	d
 utu
 u3
 d
@@ -37821,7 +37821,7 @@ um
 u3
 a
 pil
-38885	d
+39397	d
 szakkan2
 sza
 pi2
@@ -37926,11 +37926,11 @@ ri
 isz
 ku
 nu
-38991	5(disz)
+39503	5(disz)
 sila3
 i3
 gesz
-38996	a
+39508	a
 na
 tap
 pu
@@ -37949,7 +37949,7 @@ um
 u3
 a
 pil
-39016	d
+39528	d
 szakkan2
 asz
 ku
@@ -38024,8 +38024,8 @@ u2
 na
 pa
 szu
-39092	x
-39095	a
+39604	x
+39607	a
 na
 s,e
 er
@@ -38033,12 +38033,12 @@ sza
 pi2
 ri
 ia
-39104	x
+39616	x
 a
 la
 ki
 im
-a
+39622	a
 na
 d
 suen
@@ -38103,7 +38103,7 @@ ed
 disz
 gi
 mil
-39175	d
+39688	d
 suen
 dumu
 d
@@ -38132,8 +38132,8 @@ la
 ga
 asz
 ki
-39205	mesz
-39207	x
+39718	mesz
+39720	x
 gu4
 hi
 a
@@ -38147,7 +38147,7 @@ szu
 ri
 a
 am
-a
+39735	a
 na
 d
 suen
@@ -38169,7 +38169,7 @@ ki
 ma
 qa2
 tim
-39245	gesz
+39759	gesz
 ma2
 hi
 a
@@ -38210,7 +38210,7 @@ li
 sze
 lu
 nim
-a
+39801	a
 na
 sza
 pi2
@@ -38423,7 +38423,7 @@ x
 x
 x
 x
-39500	x
+40015	x
 im
 a
 na
@@ -38535,7 +38535,7 @@ u2
 (x)
 (x)
 (x)
-a
+40128	a
 na
 d
 suen
@@ -38584,7 +38584,7 @@ dumu
 mesz
 s,il2
 li2
-39662	d
+40178	d
 utu
 ugula
 mar
@@ -38608,12 +38608,12 @@ x
 x
 ri
 x
-39687	x
+40203	x
 x
 x
 (x)
 x
-39693	a
+40209	a
 wa
 ti
 szu
@@ -38636,7 +38636,7 @@ is
 su2
 nu
 ti
-a
+40233	a
 na
 d
 suen
@@ -38709,7 +38709,7 @@ si2
 in
 qa2
 am
-a
+40307	a
 na
 d
 suen
@@ -38773,7 +38773,7 @@ ru
 ni
 isz
 szu
-a
+40372	a
 na
 d
 suen
@@ -38796,7 +38796,7 @@ szum
 disz
 a
 pil
-39877	d
+40396	d
 mar
 tu
 ka
@@ -38816,7 +38816,7 @@ hi
 a
 sza
 e2
-39898	d
+40417	d
 utu
 a
 na
@@ -38831,7 +38831,7 @@ u3
 lu2
 bad3
 ki
-39914	mesz
+40433	mesz
 sza
 6(disz)
 ab2
@@ -38890,7 +38890,7 @@ ki
 lu2
 bad3
 ki
-39974	mesz)
+40493	mesz)
 la
 u2
 sza
@@ -38903,7 +38903,7 @@ pu
 ra
 ak
 kum
-39988	disz
+40507	disz
 su2
 la
 mu
@@ -38986,7 +38986,7 @@ szu
 ri
 a
 am
-a
+40591	a
 na
 d
 suen
@@ -39026,7 +39026,7 @@ ma
 t,u2
 ur
 dam
-a
+40632	a
 na
 d
 suen
@@ -39084,7 +39084,7 @@ ka
 am
 dumu
 lu2
-40170	d
+40691	d
 asar
 lu2
 hi
@@ -39100,12 +39100,12 @@ it
 ba
 al
 u3
-40187	gesz
+40708	gesz
 kiri6
 e
 tel
 pi4
-40193	d
+40714	d
 marduk
 ib
 qu2
@@ -39172,7 +39172,7 @@ a
 sza3
 szu
 u3
-40261	gesz
+40782	gesz
 kiri6
 szu
 ha
@@ -39185,7 +39185,7 @@ u3
 sze
 a
 szu
-40275	gesz
+40796	gesz
 kiri6
 am
 u3
@@ -39196,7 +39196,7 @@ te
 e
 er
 szum
-a
+40808	a
 na
 sza
 pi2
@@ -39271,7 +39271,7 @@ id
 di
 nu
 disz
-40362	d
+40884	d
 utu
 mu
 sza
@@ -39366,7 +39366,7 @@ a
 na
 ri
 im
-40458	d
+40980	d
 iszkur
 te
 er
@@ -39374,21 +39374,21 @@ ra
 disz
 x
 x
-40467	d
+40989	d
 iszkur
 x
 x
 u3
 ri
 im
-40475	d
+40997	d
 iszkur
 x
 (x)
-40480	x
+41002	x
 x
 szu
-40484	a
+41006	a
 na
 pi2
 ha
@@ -39405,7 +39405,7 @@ ba
 ta
 an
 ni
-d
+41024	d
 e2
 a
 d
@@ -39414,7 +39414,7 @@ d
 marduk
 u3
 d
-40511	li
+41034	li
 ba
 al
 li
@@ -39425,7 +39425,7 @@ szum
 disz
 an
 pi2
-40523	d
+41046	d
 nin
 szubur
 u3
@@ -39536,7 +39536,7 @@ ma
 disz
 sze
 ep
-40635	d
+41158	d
 suen
 a
 na
@@ -39556,7 +39556,7 @@ is
 su2
 nu
 ti
-a
+41179	a
 na
 d
 suen
@@ -39598,10 +39598,10 @@ um
 ma
 szu
 ma
-40698	disz
+41222	disz
 dumu
 dumu
-40702	d
+41226	d
 mar
 tu
 lu2
@@ -39623,7 +39623,7 @@ szum
 ma
 an
 la
-40725	d
+41249	d
 utu
 en
 nu
@@ -39631,7 +39631,7 @@ e2
 gal
 a
 na
-40734	kusz
+41258	kusz
 usan3
 is,
 ba
@@ -39676,7 +39676,7 @@ li
 ia
 a
 na
-40780	kusz
+41304	kusz
 usan3
 u2
 ul
@@ -39691,7 +39691,7 @@ szum
 ma
 an
 la
-40796	d
+41320	d
 utu
 ma
 sza
@@ -39704,7 +39704,7 @@ nim
 ma
 ri
 dumu
-40810	d
+41334	d
 mar
 tu
 a
@@ -39740,12 +39740,12 @@ ia
 sza
 dumu
 dumu
-40847	d
+41371	d
 mar
 tu
 a
 na
-40853	kusz
+41377	kusz
 usan3
 is,
 ba
@@ -39754,7 +39754,7 @@ wu
 usz
 sze
 er
-a
+41387	a
 na
 d
 suen
@@ -39772,8 +39772,8 @@ mu
 ra
 bi
 ma
-40881	disz
-40883	d
+41406	disz
+41408	d
 suen
 sze
 me
@@ -39781,7 +39781,7 @@ e
 dumu
 d
 suen
-40892	ki
+41417	ki
 a
 am
 u2
@@ -39803,28 +39803,28 @@ im
 i
 na
 ki
-40915	x
+41440	x
 x
 x
 d
 utu
 dingir
-40922	x
+41447	x
 x
 x
 sze
 id
 di
 nam
-40931	x
-40934	x
+41456	x
+41459	x
 x
 x
-40939	d
+41464	d
 utu
 dingir
 x
-40944	isz
+41469	isz
 pu
 ru
 ni
@@ -39853,9 +39853,9 @@ da
 tim
 (x)
 (x)
-40974	x
+41499	x
 x
-40977	a
+41503	a
 na
 d
 suen
@@ -39879,11 +39879,11 @@ um
 ma
 ig
 mil
-41002	d
+41528	d
 suen
 dumu
 puzur4
-41007	d
+41533	d
 utu
 u3
 na
@@ -39947,7 +39947,7 @@ ki
 ma
 x
 x
-41072	ap
+41598	ap
 la
 szu
 nu
@@ -40006,7 +40006,7 @@ szu
 bi
 la
 nim
-a
+41658	a
 na
 ha
 ia
@@ -40014,7 +40014,7 @@ ab
 ni
 dingir
 disz
-41140	d
+41667	d
 marduk
 na
 s,i
@@ -40025,7 +40025,7 @@ ub
 bu
 tum
 u3
-41153	d
+41680	d
 utu
 qi2
 bi2
@@ -40080,7 +40080,7 @@ li
 sze
 ri
 bu
-a
+41736	a
 na
 d
 suen
@@ -40090,13 +40090,13 @@ nam
 kar
 zimbir[
 ki
-41219	u3
+41747	u3
 di
 ku5
 mesz
 zimbir[
 ki
-41226	qi2
+41754	qi2
 bi2
 ma
 um
@@ -40110,14 +40110,14 @@ ma
 x
 x
 x
-41241	dumu
+41769	dumu
 e2
 dub
 ba
 a
 x
 x
-41249	aga
+41777	aga
 us2
 x
 x
@@ -40125,7 +40125,7 @@ x
 (x)
 x
 3(esze3)
-41258	e
+41786	e
 li
 zimbir
 ki
@@ -40168,7 +40168,7 @@ mu
 ur
 a
 na
-41302	x
+41830	x
 x
 x
 x
@@ -40210,14 +40210,14 @@ szu
 up
 ra
 nim
-a
+41873	a
 na
 ib
 ni
-41349	d
+41878	d
 marduk
 disz
-41353	d
+41882	d
 suen
 i
 din
@@ -40245,7 +40245,7 @@ ma
 disz
 na
 bi
-41382	d
+41911	d
 utu
 sza13
 dub
@@ -40294,8 +40294,8 @@ di
 disz
 na
 bi
-41432	d
-41434	u3
+41961	d
+41963	u3
 d
 na
 bi
@@ -40305,7 +40305,7 @@ s,i
 ir
 x
 x
-41445	u2
+41974	u2
 nu
 tim
 u2
@@ -40358,7 +40358,7 @@ szu
 up
 ra
 nim
-a
+42028	a
 na
 d
 suen
@@ -40573,7 +40573,7 @@ u4
 4(disz)
 n
 kam
-41714	dusu2
+42244	dusu2
 hi
 a
 x
@@ -40600,7 +40600,7 @@ lu
 ku
 nu
 ti
-a
+42272	a
 na
 d
 mar
@@ -40615,7 +40615,7 @@ ma
 d
 ri
 im
-41757	d
+42288	d
 suen
 ma
 a
@@ -40657,7 +40657,7 @@ ke
 esz
 iri
 ki
-41800	ba
+42331	ba
 ni
 ti
 ia
@@ -40739,7 +40739,7 @@ za
 ka
 ar
 disz
-41883	d
+42414	d
 x
 x
 (x)
@@ -40764,7 +40764,7 @@ szu
 t,u2
 ur
 dam
-a
+42440	a
 na
 li
 pi2
@@ -40773,7 +40773,7 @@ esz18
 dar
 u3
 lu2
-41918	d
+42450	d
 ba
 ba6
 qi2
@@ -40791,7 +40791,7 @@ ka
 ab
 ra
 am
-41938	ri
+42470	ri
 am
 6(asz)
 gur
@@ -40825,7 +40825,7 @@ am
 lu
 mu
 ur
-a
+42505	a
 na
 li
 pi2
@@ -40834,13 +40834,13 @@ esz18
 dar
 disz
 lu2
-41982	d
+42515	d
 ba
 ba6
 u3
 qi2
 isz
-41989	d
+42522	d
 ma
 ma
 qi2
@@ -40852,7 +40852,7 @@ a
 hu
 um
 ma
-42002	disz
+42535	disz
 dumu
 ki
 ir
@@ -40962,9 +40962,9 @@ ta
 di
 nu
 u2
+42646	x
 x
-x
-42115	li
+42649	li
 ki
 in
 szum
@@ -41062,16 +41062,16 @@ x
 x
 i
 szum
-a
+42748	a
 na
 lu2
-42217	d
+42752	d
 ba
 ba6
 disz
 qi2
 isz
-42224	d
+42759	d
 ma
 ma
 (x)
@@ -41082,7 +41082,7 @@ qi2
 sza
 am
 u3
-42236	ra
+42771	ra
 qi2
 qi2
 bi2
@@ -41155,7 +41155,7 @@ ia
 li
 ib
 lam
-a
+42845	a
 na
 li
 pi2
@@ -41164,7 +41164,7 @@ esz18
 dar
 u3
 lu2
-42319	d
+42855	d
 ba
 ba6
 qi2
@@ -41185,7 +41185,7 @@ wi
 lam
 sza
 disz
-42341	d
+42877	d
 suen
 i
 qi2
@@ -41230,7 +41230,7 @@ iq
 da
 szu
 5(bur3)
-42387	a
+42923	a
 sza3
 i
 na
@@ -41308,10 +41308,10 @@ szu
 t,i3
 ib
 ba
-a
+43002	a
 na
 lu2
-42469	d
+43006	d
 ba
 ba6
 qi2
@@ -41339,11 +41339,11 @@ ki
 u3
 sza
 x
-42498	d
+43035	d
 suen
 ki
 x
-42503	tum
+43040	tum
 sza
 ki
 in
@@ -41387,17 +41387,17 @@ szar
 ru
 um
 u2
-42548	x
-42550	u2
+43085	x
+43087	u2
 x
-42554	x
-42556	x
+43091	x
+43093	x
 ti
-42559	i
+43096	i
 na
-42562	x
-42564	u2
-42566	(x)
+43099	x
+43101	u2
+43103	(x)
 x
 sza
 al
@@ -41449,7 +41449,7 @@ ri
 u2
 ul
 x
-42619	i
+43156	i
 ma
 x
 x
@@ -41478,7 +41478,7 @@ i
 sza
 al
 ka
-asz
+43186	asz
 szum
 1/3(disz)
 gin2
@@ -41517,7 +41517,7 @@ ta
 ri
 ba
 at
-42688	d
+43226	d
 suen
 a
 na
@@ -41583,11 +41583,11 @@ ar
 ra
 asz
 szu
-a
+43293	a
 na
 ib
 ni
-42759	d
+43298	d
 iszkur
 qi2
 bi2
@@ -41709,7 +41709,7 @@ im
 mu
 ul
 lu
-a
+43421	a
 na
 a
 wi
@@ -41820,7 +41820,7 @@ i3
 li2
 szu
 u3
-42993	ku
+43533	ku
 bi
 szitim
 mesz
@@ -41878,7 +41878,7 @@ i3
 li2
 szu
 u3
-43052	ku
+43592	ku
 bi
 szitim
 mesz
@@ -41901,7 +41901,7 @@ us
 su2
 nu
 ti
-d
+43616	d
 marduk
 ra
 i
@@ -42012,7 +42012,7 @@ na
 d
 suen
 x
-43187	disz
+43728	disz
 a
 pil2
 i3
@@ -42023,7 +42023,7 @@ x
 u3
 ib
 ni
-43199	d
+43740	d
 marduk
 x
 x
@@ -42090,7 +42090,7 @@ ku
 i
 na
 iti
-43268	gar
+43809	gar
 u4
 2(u)
 kam
@@ -42132,7 +42132,7 @@ iri
 gu2
 du3
 a
-43312	usz
+43853	usz
 te
 sze
 er
@@ -42171,7 +42171,7 @@ ri
 ta
 asz
 szi
-a
+43893	a
 na
 d
 nanna
@@ -42181,7 +42181,7 @@ bi2
 ma
 um
 ma
-43363	d
+43905	d
 utu
 ma
 d
@@ -42289,7 +42289,7 @@ la
 tu
 ta
 ar
-a
+44014	a
 na
 a
 bi
@@ -42310,7 +42310,7 @@ um
 ma
 ib
 ni
-43493	d
+44036	d
 marduk
 ma
 d
@@ -42333,7 +42333,7 @@ sza
 mi
 ri
 sza
-43517	sza
+44060	sza
 a
 bi
 at
@@ -42598,10 +42598,10 @@ szu
 up
 ra
 am
-a
+44326	a
 na
 d
-43786	re
+44330	re
 me
 ni
 qi2
@@ -42655,13 +42655,13 @@ ta
 a
 ma
 2(bur3)
-43841	a
+44385	a
 sza3
 e
 ri
 isz
 2(bur3)
-43848	a
+44392	a
 sza3
 e
 te
@@ -42682,9 +42682,9 @@ im
 lu
 re
 di
-a
+44414	a
 na
-43872	sza
+44417	sza
 d
 marduk
 u2
@@ -42699,11 +42699,11 @@ ma
 um
 ma
 d
-43888	i
+44433	i
 din
 nam
 ma
-43893	d
+44438	d
 utu
 u3
 d
@@ -42751,7 +42751,7 @@ za
 nu
 um
 sar
-43942	sza
+44487	sza
 2(disz)
 gin2
 ku3
@@ -42759,7 +42759,7 @@ babbar
 gar3
 szum
 sar
-43951	ki
+44496	ki
 ma
 i
 na
@@ -42787,9 +42787,9 @@ ma
 szu
 bi
 lam
-a
+44525	a
 na
-43983	d
+44529	d
 suen
 qi2
 bi2
@@ -42799,7 +42799,7 @@ ma
 a
 wi
 il
-43994	d
+44540	d
 na
 bi
 um
@@ -42834,7 +42834,7 @@ tum
 i
 di
 in
-d
+44576	d
 marduk
 ra
 im
@@ -42900,13 +42900,13 @@ ni
 ia
 la
 ta
-44096	a
+44643	a
 na
 mu
 x
 x
 x
-44103	asz
+44650	asz
 szu
 a
 hi
@@ -42928,7 +42928,7 @@ x
 i
 la
 x
-44126	x
+44673	x
 ru
 x
 iq
@@ -42937,10 +42937,10 @@ nim
 x
 x
 x
-44136	x
+44683	x
 x
 (x)
-be
+44687	be
 li2
 d
 na
@@ -43158,17 +43158,17 @@ tug2
 hi
 a
 x
-44358	x
-44360	x
+44906	x
+44908	x
 x
 x
-44364	x
+44912	x
 x
 x
 x
 x
-disz
-44371	d
+44918	disz
+44920	d
 suen
 i
 din
@@ -43279,7 +43279,7 @@ nu
 uk
 asz
 szum
-44483	gesz
+45032	gesz
 ma2
 gur8
 sza
@@ -43315,7 +43315,7 @@ lu
 usz
 qa2
 a
-i
+45069	i
 nu
 ma
 i
@@ -43362,7 +43362,7 @@ ki
 a
 na
 ezem
-44568	a
+45118	a
 al
 li
 a
@@ -43422,7 +43422,7 @@ ka
 szu
 bi
 lam
-a
+45179	a
 na
 um
 mi
@@ -43445,7 +43445,7 @@ ma
 ru
 ki
 ma
-44652	d
+45203	d
 utu
 u3
 d
@@ -43534,7 +43534,7 @@ isz
 te
 mu
 u2
-a
+45293	a
 na
 d
 marduk
@@ -43661,7 +43661,7 @@ ra
 da
 ak
 kum
-a
+45421	a
 na
 a
 wi
@@ -43750,7 +43750,7 @@ asz
 szum
 zimbir
 ki
-44958	li
+45511	li
 wi
 ir
 sza
@@ -43776,7 +43776,7 @@ ma
 disz
 zimbir
 ki
-44985	li
+45538	li
 wi
 ir
 szu
@@ -43827,7 +43827,7 @@ ar
 ra
 ba
 ku
-asz
+45590	asz
 szum
 gu2
 un
@@ -43853,7 +43853,7 @@ ka
 i7
 zimbir
 ki
-45063	sza
+45617	sza
 i
 na
 qa2
@@ -43919,7 +43919,7 @@ e
 ri
 ba
 am
-45130	d
+45684	d
 na
 na
 a
@@ -44043,7 +44043,7 @@ pa
 ra
 am
 e
-45255	ub
+45809	ub
 la
 ia
 a
@@ -44072,9 +44072,9 @@ il
 te
 qe2
 e
-i
+45839	i
 na
-45287	hi
+45842	hi
 tim
 isz
 me
@@ -44143,7 +44143,7 @@ i3
 li
 ip
 pu
-45357	u3
+45912	u3
 a
 na
 ku
@@ -44171,7 +44171,7 @@ szu
 lu
 te
 er
-a
+45941	a
 na
 gi
 mil
@@ -44214,7 +44214,7 @@ an
 du
 4(disz)
 nu
-45429	gesz
+45985	gesz
 kiri6
 mesz
 nig2
@@ -44225,7 +44225,7 @@ i3
 li2
 szu
 nu
-45441	gesz
+45997	gesz
 kiri6
 disz
 pir
@@ -44261,7 +44261,7 @@ al
 li
 ku
 nu
-45478	gesz
+46034	gesz
 kiri6
 mesz
 szu
@@ -44306,7 +44306,7 @@ a
 na
 szum2
 sar
-45524	sza
+46080	sza
 i
 na
 x
@@ -44327,7 +44327,7 @@ ti
 ma
 2(disz)
 nu
-45546	gesz
+46102	gesz
 kiri6
 lu2
 didli
@@ -44351,7 +44351,7 @@ am
 szum
 ma
 nu
-45571	gesz
+46127	gesz
 kiri6
 szu
 nu
@@ -44408,10 +44408,10 @@ ia
 szu
 bi
 lam
-disz
+46185	disz
 ib
 ni
-45632	d
+46189	d
 suen
 d
 suen
@@ -44427,7 +44427,7 @@ a
 disz
 i
 din
-45649	d
+46206	d
 er3
 ra
 i3
@@ -44438,7 +44438,7 @@ ti
 u3
 gi
 mil
-45661	d
+46218	d
 na
 na
 a
@@ -44454,7 +44454,7 @@ gur
 sza
 ib
 ni
-45678	d
+46235	d
 suen
 u3
 at
@@ -44467,10 +44467,10 @@ a
 na
 ib
 ni
-45692	d
+46249	d
 suen
 disz
-45696	d
+46253	d
 suen
 i
 din
@@ -44478,7 +44478,7 @@ nam
 disz
 i
 din
-45705	d
+46262	d
 er3
 ra
 i3
@@ -44489,7 +44489,7 @@ ti
 u3
 gi
 mil
-45717	d
+46274	d
 na
 na
 a
@@ -44523,17 +44523,17 @@ ta
 u3
 ib
 ni
-45752	d
+46309	d
 marduk
 dumu
 ib
 ni
-45758	d
+46315	d
 suen
 ku
 un
 ka
-a
+46321	a
 na
 nu
 ni
@@ -44567,7 +44567,7 @@ disz
 a
 wi
 il
-45798	d
+46356	d
 iszkur
 ni
 za
@@ -44591,9 +44591,9 @@ im
 u3
 i
 sa
-45823	i
+46381	i
 na
-45826	szum
+46384	szum
 ma
 sza
 pa
@@ -44635,9 +44635,9 @@ n
 sila3
 sze
 gur
-45869	gesz
+46427	gesz
 ban2
-45872	d
+46430	d
 utu
 nig2
 szu
@@ -44673,9 +44673,9 @@ ri
 bi
 u3
 ge6
-45909	d
+46467	d
 isztaran
-a
+46470	a
 na
 szu
 mu
@@ -44691,7 +44691,7 @@ um
 ma
 ri
 isz
-45928	d
+46487	d
 marduk
 ma
 d
@@ -44713,7 +44713,7 @@ hi
 a
 a
 di
-45951	(x)
+46510	(x)
 (x)
 ki
 a
@@ -44772,7 +44772,7 @@ ta
 lu
 u2
 disz
-46011	d
+46570	d
 suen
 im
 gur
@@ -44807,7 +44807,7 @@ i
 na
 babila2[
 ki
-46047	sze
+46606	sze
 ra
 i
 ka
@@ -44825,9 +44825,9 @@ a
 t,u2
 ur
 dam
-a
+46625	a
 na
-46068	qi2
+46628	qi2
 bi2
 ma
 um
@@ -44835,12 +44835,12 @@ ma
 a
 wi
 il
-46077	d
+46637	d
 na
 bi
 um
 ma
-46083	d
+46643	d
 utu
 u3
 d
@@ -44950,7 +44950,7 @@ x
 x
 x
 x
-a
+46754	a
 na
 dumu
 munus
@@ -44967,7 +44967,7 @@ up
 pa
 ia
 ma
-46211	d
+46772	d
 utu
 u3
 d
@@ -44978,7 +44978,7 @@ al
 li
 t,u2
 ki
-46223	disz
+46784	disz
 i3
 li2
 e
@@ -45003,7 +45003,7 @@ kam
 a
 na
 puzur4
-46249	d
+46810	d
 nin
 tu
 a
@@ -45047,7 +45047,7 @@ ia
 a
 na
 kar
-46294	d
+46855	d
 na
 bi
 um
@@ -45163,15 +45163,15 @@ isz
 szum
 x
 x
-46411	sza
+46972	sza
 pa
 x
-46415	szi
+46976	szi
 ka
 ra
 am
 x
-46421	a
+46983	a
 na
 a
 bi
@@ -45181,7 +45181,7 @@ bi2
 ma
 um
 ma
-46432	ma
+46994	ma
 lu
 sza
 al
@@ -45192,15 +45192,15 @@ ba
 al
 t,a
 ta
-46447	am
-46455	x
+47009	am
+47017	x
 su
 ti
 i
-46460	x
+47022	x
 x
-46464	ma
-46466	i
+47026	ma
+47028	i
 na
 ma
 har
@@ -45359,7 +45359,7 @@ la
 usz
 ta
 a
-a
+47188	a
 na
 a
 bi
@@ -45509,7 +45509,7 @@ in
 asz
 tap
 ap
-46776	ra
+47339	ra
 ku
 a
 bi
@@ -45550,12 +45550,12 @@ la
 i
 ri
 qu2
-a
+47381	a
 na
 be
 el
 x
-46823	qi2
+47387	qi2
 bi2
 ma
 um
@@ -45631,12 +45631,12 @@ im
 x
 x
 x
-46900	mi
+47464	mi
 im
 ma
-46905	ba
+47469	ba
 x
-46908	a
+47472	a
 wi
 lum
 u2
@@ -45687,7 +45687,7 @@ ar
 ru
 ri
 szu
-a
+47524	a
 na
 a
 bi
@@ -45721,7 +45721,7 @@ li
 t,u2
 asz
 szum
-46994	gesz
+47559	gesz
 taskarin
 hi
 a
@@ -45739,7 +45739,7 @@ ma
 3(disz)
 szu
 szi
-47013	gesz
+47578	gesz
 taskarin
 hi
 a
@@ -45755,7 +45755,7 @@ asz
 pur
 ra
 am
-47030	x
+47595	x
 x
 ki
 ma
@@ -45775,7 +45775,7 @@ x
 3(disz)
 szu
 szi
-47051	gesz
+47616	gesz
 taskarin
 hi
 a
@@ -45797,7 +45797,7 @@ ma
 1(disz)
 szu
 szi
-47074	gesz
+47639	gesz
 taskarin
 hi
 a
@@ -45823,7 +45823,7 @@ qu2
 ni
 ik
 kum
-a
+47666	a
 na
 a
 bi
@@ -45921,8 +45921,8 @@ bi
 i
 du
 u2
-47199	disz
-47201	d
+47765	disz
+47767	d
 tu
 tu
 na
@@ -45982,7 +45982,7 @@ zimbir
 ki
 a
 li
-47262	szu
+47828	szu
 it
 tu
 ra
@@ -45990,7 +45990,7 @@ am
 disz
 i
 din
-47271	d
+47837	d
 suen
 ensi2
 a
@@ -46019,7 +46019,7 @@ isz
 pu
 ur
 ma
-47301	tug2
+47867	tug2
 bar
 si
 hi
@@ -46038,7 +46038,7 @@ ri
 szu
 x
 te
-47321	e
+47887	e
 i
 na
 an
@@ -46059,7 +46059,7 @@ ka
 am
 ma
 disz
-47343	d
+47909	d
 tu
 tu
 na
@@ -46072,7 +46072,7 @@ u2
 ka
 al
 disz
-47357	d
+47923	d
 tu
 tu
 na
@@ -46120,7 +46120,7 @@ ap
 ti
 i
 din
-47406	d
+47972	d
 suen
 szu
 a
@@ -46202,7 +46202,7 @@ ib
 ba
 at
 sag
-47489	sza
+48055	sza
 a
 bi
 isz
@@ -46239,7 +46239,7 @@ ul
 li
 ka
 am
-a
+48093	a
 na
 me
 er
@@ -46324,7 +46324,7 @@ am
 ti
 ia
 disz
-47612	d
+48179	d
 a
 a
 mu
@@ -46332,13 +46332,13 @@ ba
 li2
 t,a
 at
-47622	im
+48189	im
 i
 x
 x
 ni
 szu
-a
+48196	a
 na
 d
 suen
@@ -46356,7 +46356,7 @@ ni
 ma
 disz
 geme2
-47647	d
+48215	d
 ma
 mu
 dumu
@@ -46403,7 +46403,7 @@ x
 (x)
 x
 na
-47695	x
+48263	x
 x
 x
 x
@@ -46495,14 +46495,14 @@ bi
 la
 asz
 szi
-1(u)
+48356	1(u)
 sze
 gur
-47791	a
+48360	a
 na
-47794	it
+48363	it
 ti
-47797	x
+48366	x
 e
 x
 ra
@@ -46514,7 +46514,7 @@ it
 ti
 i
 din
-47810	d
+48379	d
 er3
 ra
 dam
@@ -46547,7 +46547,7 @@ ma2
 i3
 dub
 x
-47844	a
+48414	a
 na
 a
 wi
@@ -46635,7 +46635,7 @@ har
 d
 utu
 u3
-47933	d
+48503	d
 marduk
 lu
 da
@@ -46646,21 +46646,21 @@ d
 suen
 sze
 mi
-47945	asz
+48515	asz
 szum
 sze
 e
 szu
 a
 na
-47953	x
+48523	x
 x
-47958	la
+48528	la
 pi2
 it
 (x)
-47963	x
-47965	a
+48533	x
+48536	a
 na
 a
 wi
@@ -46742,7 +46742,7 @@ har
 d
 utu
 u3
-48048	d
+48619	d
 marduk
 lu
 da
@@ -46765,13 +46765,13 @@ il
 li
 kam
 ma
-48072	i
+48643	i
 na
 ma
 ah
 ri
 ia
-48079	1(u)
+48650	1(u)
 gin2
 ku3
 babbar
@@ -46860,7 +46860,7 @@ szu
 nu
 szi
 im
-a
+48740	a
 na
 a
 wi
@@ -46877,7 +46877,7 @@ ba
 li2
 it,
 ma
-48186	d
+48758	d
 utu
 u3
 d
@@ -46943,7 +46943,7 @@ u3
 be
 li2
 ia
-48253	lu
+48825	lu
 da
 ri
 i
@@ -47002,7 +47002,7 @@ a
 na
 babila2[
 ki
-48313	ta
+48885	ta
 al
 li
 ku
@@ -47019,7 +47019,7 @@ s,i
 bu
 ut
 ka
-48331	u2
+48903	u2
 ul
 ta
 asz
@@ -47043,7 +47043,7 @@ na
 disz
 x
 x
-48356	a
+48928	a
 na
 ma
 ah
@@ -47073,9 +47073,9 @@ bu
 u2
 x
 x
-48387	a
+48959	a
 na
-48391	d
+48963	d
 e2
 ul
 masz
@@ -47090,17 +47090,17 @@ pu
 ra
 am
 ma
-48408	u3
-48410	a
+48980	u3
+48982	a
 x
-48413	szum2
+48985	szum2
 sar
 szum2
 el
 lum
 sar
-48420	x
-48422	ap
+48992	x
+48994	ap
 pu
 tum
 ar
@@ -47134,7 +47134,7 @@ ka
 e
 re
 x
-48457	a
+49030	a
 na
 a
 hi
@@ -47225,7 +47225,7 @@ kum
 asz
 szum
 disz
-48549	d
+49122	d
 suen
 i
 din
@@ -47360,12 +47360,12 @@ ku3
 babbar
 sza
 x
-48685	ta
+49258	ta
 na
-48688	u2
+49261	u2
 ma
 la
-48692	a
+49265	a
 na
 ku
 a
@@ -47426,7 +47426,7 @@ am
 lu
 pu
 usz
-dingir
+49327	dingir
 na
 s,i
 ir
@@ -47474,7 +47474,7 @@ bi
 sza
 dumu
 ki
-48802	d
+49376	d
 en
 lil2
 qi2
@@ -47524,7 +47524,7 @@ at
 dumu
 mesz
 ki
-48853	d
+49427	d
 en
 lil2
 qi2
@@ -47541,7 +47541,7 @@ a
 hi
 at
 ta
-48871	x
+49445	x
 da
 ba
 bu
@@ -47601,7 +47601,7 @@ lim
 a
 na
 iri
-48932	x
+49506	x
 x
 x
 (x)
@@ -47634,10 +47634,10 @@ x
 (x)
 ub
 ma
-48966	szu
-48968	x
+49540	szu
+49542	x
 i
-48971	be
+49545	be
 li2
 ia
 e
@@ -47648,7 +47648,7 @@ ul
 e
 le
 e
-a
+49557	a
 na
 ba
 la
@@ -47663,7 +47663,7 @@ disz
 i3
 li2
 u3
-48998	d
+49573	d
 suen
 aga
 us2
@@ -47702,7 +47702,7 @@ szu
 a
 sza3
 i
-49038	gesz
+49613	gesz
 kiri6
 i
 (x)
@@ -47734,7 +47734,7 @@ er
 re
 szi
 im
-49071	gesz
+49646	gesz
 kiri6
 i
 a
@@ -47757,7 +47757,7 @@ disz
 e
 tel
 pi4
-49095	d
+49670	d
 na
 bi
 um
@@ -47770,15 +47770,15 @@ x
 la
 an
 ni
-49109	x
+49684	x
 na
 ma
 szar
 ra
 am
-49116	ha
+49691	ha
 ar
-a
+49694	a
 na
 a
 wi
@@ -47806,7 +47806,7 @@ na
 s,i
 ir
 ma
-49147	d
+49723	d
 utu
 u3
 d
@@ -47873,20 +47873,20 @@ lu
 da
 ri
 x
-49215	x
+49791	x
 x
-49218	pi2
+49794	pi2
 qi2
 id
 ma
-49223	siki
+49799	siki
 u8
 udu
 hi
 a
 x
 x
-49231	u3
+49807	u3
 ma
 la
 tu
@@ -47898,16 +47898,16 @@ am
 szu
 bi
 lam
-a
+49820	a
 na
 szum
 ma
-49248	d
+49825	d
 utu
-49251	x
+49830	x
 x
 x
-49256	disz
+49835	disz
 ni
 szu
 i
@@ -47920,11 +47920,11 @@ mu
 ba
 li2
 it,
-49270	d
+49849	d
 x
-49273	x
+49853	x
 x
-49276	asz
+49856	asz
 szum
 a
 na
@@ -47957,7 +47957,7 @@ asz
 ku
 nu
 u2
-49311	ad
+49891	ad
 di
 i
 ma
@@ -48027,7 +48027,7 @@ x
 x
 (x)
 x
-49382	x
+49962	x
 x
 x
 (x)
@@ -48039,14 +48039,14 @@ x
 (x)
 x
 x
-49395	x
+49975	x
 x
 x
 x
 x
 (x)
-49402	x
-49404	x
+49982	x
+49984	x
 x
 x
 x
@@ -48054,17 +48054,17 @@ x
 (x)
 ma
 x
-49413	x
+49994	x
 x
 x
 (x)
 x
 x
-49420	x
-49422	x
+50001	x
+50003	x
 x
 x
-49426	ki
+50007	ki
 a
 nu
 um
@@ -48241,7 +48241,7 @@ ma
 ma
 ha
 ar
-49604	mesz
+50185	mesz
 lugal
 e
 zu
@@ -48325,21 +48325,21 @@ ra
 asz
 szi
 i
-49689	x
+50270	x
 x
 x
 x
-49694	asz
+50276	asz
 szum
 ka
 ni
 ki
-49700	mi
+50282	mi
 nu
 u2
 i
 du
-49706	ka
+50288	ka
 ni
 kam
 szu
@@ -48347,7 +48347,7 @@ a
 ti
 x
 x
-49715	isz
+50297	isz
 tu
 a
 wa
@@ -48382,7 +48382,7 @@ ta
 ba
 lim
 disz
-49751	d
+50333	d
 suen
 im
 gur
@@ -48534,7 +48534,7 @@ lu
 usz
 ku
 un
-a
+50486	a
 na
 a
 bi
@@ -48556,7 +48556,7 @@ ma
 e
 tel
 pi4
-49926	d
+50509	d
 na
 bi
 um
@@ -48605,7 +48605,7 @@ re
 esz
 e2
 ka
-49976	li
+50559	li
 ki
 il
 a
@@ -48669,13 +48669,13 @@ ba
 asz
 szi
 n(bur3)
-50041	a
+50624	a
 sza3
 x
 x
 x
 4(bur3)
-50048	a
+50631	a
 sza3
 x
 x
@@ -48694,8 +48694,8 @@ x
 (x)
 x
 x
-50068	x
-50070	x
+50651	x
+50653	x
 x
 x
 x
@@ -48709,12 +48709,12 @@ am
 x
 x
 x
-50085	x
-50087	x
-50089	x
+50668	x
+50670	x
+50672	x
 x
 x
-50093	x
+50676	x
 x
 x
 (x)
@@ -48724,7 +48724,7 @@ i
 na
 tu
 x
-50104	x
+50687	x
 (x)
 ir
 ri
@@ -48742,7 +48742,7 @@ x
 x
 x
 x
-50123	i
+50706	i
 na
 er
 s,e
@@ -48763,7 +48763,7 @@ x
 x
 x
 x
-50145	a
+50728	a
 sza3
 am
 ma
@@ -48794,7 +48794,7 @@ a
 na
 e2
 x
-50177	x
+50760	x
 x
 x
 ka
@@ -48882,16 +48882,16 @@ a
 ka
 szuku
 li
-50266	x
+50849	x
 x
 x
-50270	x
+50853	x
 x
 ru
 ma
 x
-50276	x
-50278	x
+50859	x
+50861	x
 x
 (x)
 x
@@ -48899,7 +48899,7 @@ a
 mu
 ur
 x
-50288	a
+50872	a
 na
 sza
 pi2
@@ -48917,7 +48917,7 @@ hi
 ri
 tum[
 ki
-50307	ma
+50891	ma
 d
 utu
 u3
@@ -48948,7 +48948,7 @@ la
 ba
 x
 x
-50339	sze
+50923	sze
 a
 am
 a
@@ -48957,27 +48957,27 @@ ansze
 hi
 a
 x
-50349	a
+50933	a
 na
 x
 x
 x
-50355	x
+50939	x
 x
 x
 x
 x
-50361	x
+50945	x
 x
 x
 x
-50368	x
+50952	x
 x
 x
 x
 i
 x
-50375	a
+50960	a
 na
 e2
 nam
@@ -49121,7 +49121,7 @@ ma
 szu
 bi
 lam
-a
+51105	a
 na
 ra
 bi
@@ -49200,7 +49200,7 @@ li
 qe2
 a
 am
-a
+51185	a
 na
 ka
 lu
@@ -49386,7 +49386,7 @@ it
 ri
 i
 im
-50785	e
+51372	e
 li
 ia
 i
@@ -49414,7 +49414,7 @@ sza
 am
 disz
 dumu
-50814	d
+51401	d
 il
 tum
 u3
@@ -49653,7 +49653,7 @@ ak
 szum
 x
 (x)
-a
+51641	a
 na
 ka
 lu
@@ -49758,11 +49758,11 @@ x
 x
 x
 (x)
-51159	x
+51747	x
 ha
 a
-51164	x
-51166	x
+51752	x
+51754	x
 x
 x
 ki
@@ -49916,7 +49916,7 @@ szuku
 erin2
 u3
 2(disz)
-51321	uruda
+51909	uruda
 mar
 a
 za
@@ -49928,7 +49928,7 @@ sza
 ba
 la
 ku
-a
+51922	a
 na
 be
 ia
@@ -49943,7 +49943,7 @@ il
 esz18
 dar
 ma
-51349	d
+51938	d
 utu
 u3
 d
@@ -50077,7 +50077,7 @@ dingir
 i
 di
 in
-a
+52073	a
 na
 i3
 li2
@@ -50093,7 +50093,7 @@ um
 ma
 a
 pil
-51500	d
+52090	d
 iszkur
 ma
 d
@@ -50109,7 +50109,7 @@ li
 t,u2
 ka
 disz
-51517	d
+52107	d
 utu
 ma
 gir
@@ -50129,17 +50129,17 @@ am
 x
 x
 x
-51538	la
+52128	la
 ta
 ka
 al
 la
 szum
-a
+52135	a
 na
 i
 pa
-51549	qi2
+52140	qi2
 bi2
 ma
 um
@@ -50163,7 +50163,7 @@ na
 bu
 um
 x
-51574	usz
+52165	usz
 ta
 bi
 lam
@@ -50308,7 +50308,7 @@ nam
 dumu
 dingir
 x
-51720	sza
+52311	sza
 ta
 asz
 pu
@@ -50343,16 +50343,16 @@ la
 ta
 ma
 t,i3
+52347	x
 x
-x
-51758	tup
+52350	tup
 pi2
 a
 na
 disz
 x
 x
-51766	usz
+52358	usz
 ta
 bi
 lam
@@ -50400,7 +50400,7 @@ ni
 im
 disz
 dumu
-51815	d
+52407	d
 il
 tim
 i
@@ -50488,7 +50488,7 @@ ku
 tim
 i
 na
-51904	gesz
+52496	gesz
 tukul
 sza
 d
@@ -50509,7 +50509,7 @@ ma
 ka
 li
 am
-51926	x
+52518	x
 sahar
 hi
 a
@@ -50518,20 +50518,20 @@ tu
 u2
 sza
 li
-51936	mi
+52528	mi
 szi
 il
 erin2
 sahar
 hi
 a
-51944	x
+52536	x
 u2
 sza
 ar
 ka
 ab
-a
+52543	a
 na
 be2
 li
@@ -50608,15 +50608,15 @@ kam
 ki
 ma
 x
-52028	x
+52621	x
 x
 x
-52032	a
+52625	a
 na
 e2
 d
 marduk
-52039	al
+52632	al
 li
 kam
 ma
@@ -50630,7 +50630,7 @@ a
 na
 larsa
 ki
-52054	ma
+52647	ma
 lu
 ul
 li
@@ -50652,12 +50652,12 @@ as,
 ma
 x
 x
-52077	x
+52670	x
 ti
-52080	illegible
-52083	illegible
-52086	illegible
-52088	x
+52673	illegible
+52676	illegible
+52679	illegible
+52681	x
 x
 x
 x
@@ -50682,14 +50682,14 @@ x
 x
 du
 ma
-52114	id
+52707	id
 di
 nu
 kum
-52119	illegible
-52122	illegible
-52125	illegible
-52127	x
+52712	illegible
+52715	illegible
+52718	illegible
+52720	x
 am
 x
 x
@@ -50717,7 +50717,7 @@ i
 ba
 asz
 szi
-a
+52749	a
 na
 e2
 ra
@@ -50793,7 +50793,7 @@ aq
 bi
 x
 x
-52232	a
+52827	a
 na
 d
 utu
@@ -50880,8 +50880,8 @@ sza
 disz
 gi
 mil
-52320	d
-52322	i
+52915	d
+52917	i
 zi
 ba
 ak
@@ -50965,7 +50965,7 @@ na
 ni
 isz
 szu
-a
+53002	a
 na
 sza
 pi2
@@ -51023,7 +51023,7 @@ ni
 zu
 zu
 disz
-52465	d
+53061	d
 na
 bi
 um
@@ -51048,7 +51048,7 @@ ni
 ma
 u3
 disz
-52491	d
+53087	d
 suen
 i
 din
@@ -51070,13 +51070,13 @@ x
 x
 x
 x
-52515	x
+53111	x
 ma
 a
 na
 ma
 har
-52522	it
+53118	it
 ta
 al
 kam
@@ -51124,7 +51124,7 @@ ru
 da
 asz
 szu
-a
+53167	a
 na
 d
 suen
@@ -51253,12 +51253,12 @@ am
 sza
 x
 x
-52700	lu
+53297	lu
 sza
 bi
 la
 kum
-a
+53303	a
 na
 be
 li2
@@ -51294,7 +51294,7 @@ wi
 li
 im
 hu
-52742	x
+53340	x
 a
 sza3
 im
@@ -51325,7 +51325,7 @@ ab
 tu
 u2
 u3
-52776	s,u2
+53374	s,u2
 ha
 ra
 am
@@ -51350,7 +51350,7 @@ szi
 ri
 im
 sza
-52804	(x)
+53402	(x)
 wa
 asz
 bu
@@ -51369,7 +51369,7 @@ ma
 am
 x
 (x)
-a
+53422	a
 na
 d
 marduk
@@ -51386,7 +51386,7 @@ ku5
 mesz
 zimbir
 ki
-52841	am
+53440	am
 na
 nu
 um
@@ -51413,7 +51413,7 @@ a
 wi
 lum
 x
-52869	ki
+53468	ki
 a
 am
 iq
@@ -51424,8 +51424,8 @@ um
 ma
 szu
 ma
-52881	disz
-52883	d
+53480	disz
+53482	d
 marduk
 na
 s,i
@@ -51441,12 +51441,12 @@ ku5
 mesz
 zimbir
 ki
-52900	am
+53499	am
 na
 nu
 dub
 d
-52906	na
+53505	na
 di
 in
 szu
@@ -51458,7 +51458,7 @@ hi
 a
 u3
 dub
-52919	nu
+53518	nu
 sipa
 u8
 udu
@@ -51481,33 +51481,33 @@ ma
 ah
 ru
 tim
-52943	x
+53542	x
 x
 ra2
 gaba
 ki
 ma
 u2
-52952	x
+53551	x
 it
 te
 x
-52957	ki
+53556	ki
 a
 am
 iq
 bi
 a
 am
-52965	a
+53564	a
 na
 be
 li2
 ia
 u2
 ul
-52973	x
-52975	a
+53572	x
+53574	a
 wa
 tum
 szi
@@ -51537,7 +51537,7 @@ ia
 lu
 uq
 bi
-53006	x
+53606	x
 ki
 a
 am
@@ -51640,7 +51640,7 @@ bi
 a
 am
 disz
-53110	d
+53710	d
 suen
 la
 ma
@@ -51711,10 +51711,10 @@ isz
 szu
 nu
 ti
-d
+53782	d
 utu
 u3
-53185	d
+53786	d
 marduk
 asz
 szu
@@ -51792,13 +51792,13 @@ da
 ri
 asz
 szum
-53264	x
+53865	x
 x
-53267	sza
+53868	sza
 i
 na
 e2
-53272	x
+53873	x
 asz
 pu
 ra
@@ -51826,8 +51826,8 @@ sze
 s,i
 i
 u3
-53302	x
-53304	a
+53903	x
+53905	a
 na
 erin2
 mesz
@@ -51843,7 +51843,7 @@ ru
 du
 x
 x
-53321	x
+53922	x
 at
 e2
 gal
@@ -51852,10 +51852,10 @@ szum
 gu4
 hi
 a
-53331	x
-53333	x
+53932	x
+53934	x
 x
-53336	x
+53937	x
 x
 x
 x
@@ -51912,7 +51912,7 @@ usz
 x
 x
 x
-53394	x
+53995	x
 ra
 ma
 ah
@@ -52016,16 +52016,16 @@ ma
 ga
 ar
 x
-53500	ni
+54101	ni
 lu
 da
 ri
 x
-53507	isz
-53509	u2
+54108	isz
+54110	u2
 sza
 x
-53513	a
+54115	a
 na
 i3
 li2
@@ -52041,7 +52041,7 @@ ma
 li
 pi2
 it
-53530	d
+54132	d
 mar
 tu
 ma
@@ -52152,7 +52152,7 @@ ri
 a
 asz
 szu
-a
+54244	a
 na
 i3
 li2
@@ -52174,7 +52174,7 @@ ma
 li
 pi2
 it
-53664	d
+54267	d
 mar
 tu
 ma
@@ -52220,7 +52220,7 @@ in
 li
 pi2
 it
-53711	d
+54314	d
 mar
 tu
 dumu
@@ -52230,10 +52230,10 @@ isz
 me
 an
 ni
-53722	d
+54325	d
 mar
 tu
-a
+54329	a
 na
 dingir
 szu
@@ -52267,9 +52267,9 @@ bi
 la
 nu
 dumu
-53760	esz18
+54364	esz18
 dar
-53763	a
+54367	a
 na
 s,u2
 ha
@@ -52277,7 +52277,7 @@ ar
 disz
 sze
 ep
-53772	d
+54376	d
 suen
 sza
 i
@@ -52295,12 +52295,12 @@ gim
 la
 an
 ni
-53791	sza
+54395	sza
 d
 utu
 ha
 x
-53797	um
+54401	um
 ma
 be
 el
@@ -52309,9 +52309,9 @@ szu
 ma
 (x)
 (x)
-53807	i
+54411	i
 x
-53810	1(disz)
+54414	1(disz)
 ma
 na
 ku3
@@ -52321,13 +52321,13 @@ x
 x
 (x)
 asz
-53822	x
+54426	x
 x
 x
 x
 (x)
-53828	x
-53830	a
+54432	x
+54435	a
 na
 a
 wi
@@ -52342,10 +52342,10 @@ suen
 re
 me
 ni
-53846	d
+54451	d
 e2
 a
-a
+54455	a
 na
 a
 bi
@@ -52361,7 +52361,7 @@ na
 s,i
 ir
 ma
-53866	d
+54472	d
 utu
 u3
 d
@@ -52415,7 +52415,7 @@ tim
 li
 ki
 il
-53921	x
+54527	x
 x
 x
 x
@@ -52453,18 +52453,18 @@ pa
 ra
 am
 ma
-53960	x
+54566	x
 x
 szu
 a
 ti
-53966	x
+54572	x
 x
 tum
-be
+54576	be
 li2
 d
-53973	asz
+54580	asz
 szu
 mi
 ia
@@ -52489,7 +52489,7 @@ szi
 ib
 babila2[
 ki
-53999	a
+54606	a
 lik
 i
 di
@@ -52594,7 +52594,7 @@ x
 (x)
 it
 x
-54105	a
+54713	a
 na
 d
 suen
@@ -52659,7 +52659,7 @@ er
 sza
 an
 ni
-a
+54779	a
 na
 d
 suen
@@ -52738,9 +52738,9 @@ szu
 bi
 la
 am
-a
+54859	a
 na
-54252	qi2
+54862	qi2
 bi2
 ma
 um
@@ -52811,9 +52811,9 @@ a
 am
 iq
 bi
-54324	x
+54934	x
 x
-a
+54937	a
 na
 a
 bi
@@ -52901,8 +52901,8 @@ x
 (x)
 (x)
 x
-54415	x
-54417	al
+55026	x
+55028	al
 pa
 am
 li
@@ -52911,7 +52911,7 @@ x
 x
 (x)
 (x)
-a
+55038	a
 na
 i3
 li2
@@ -52973,19 +52973,19 @@ x
 x
 (x)
 ba
-54490	x
+55102	x
 x
 x
-54494	x
-54496	ni
+55106	x
+55108	ni
 im
-54499	x
+55111	x
 ba
 bu
 tu
 te
 er
-a
+55118	a
 na
 d
 suen
@@ -53019,7 +53019,7 @@ ma
 disz
 szar
 rum
-54540	d
+55153	d
 iszkur
 at,
 t,ar
@@ -53058,10 +53058,10 @@ na
 sza3
 gu4
 ki
-54580	a
+55193	a
 la
 ak
-a
+55197	a
 na
 s,a
 ab
@@ -53106,10 +53106,10 @@ na
 x
 x
 x
-54630	sza
-54632	x
+55244	sza
+55246	x
 x
-54635	id
+55249	id
 na
 asz
 szum
@@ -53128,7 +53128,7 @@ la
 i
 ma
 ar
-a
+55269	a
 na
 d
 suen
@@ -53146,7 +53146,7 @@ nu
 um
 ba
 lum
-54673	d
+55288	d
 utu
 ma
 d
@@ -53174,7 +53174,7 @@ ma
 disz
 na
 bi
-54702	d
+55317	d
 utu
 1(asz)
 gur
@@ -53183,11 +53183,11 @@ a
 am
 i
 na
-54712	gesz
+55327	gesz
 ma2
 x
 x
-54717	lum
+55332	lum
 i
 ka
 na
@@ -53209,7 +53209,7 @@ ma
 ki
 su2
 szu
-a
+55355	a
 na
 d
 marduk
@@ -53227,10 +53227,10 @@ e
 szu
 uh
 ma
-54758	disz
+55374	disz
 ib
 ni
-54762	d
+55378	d
 x
 x
 x
@@ -53375,7 +53375,7 @@ ki
 szu
 bi
 lam
-a
+55524	a
 na
 a
 wi
@@ -53396,7 +53396,7 @@ um
 ma
 pir
 hi
-54929	d
+55546	d
 mar
 tu
 ma
@@ -53482,7 +53482,7 @@ wi
 lim
 isz
 me
-55016	d
+55633	d
 suen
 a
 hi
@@ -53500,7 +53500,7 @@ sza
 la
 ma
 x
-55035	i
+55652	i
 na
 szu
 ul
@@ -53550,7 +53550,7 @@ lu
 mu
 ur
 ka
-a
+55703	a
 na
 a
 wi
@@ -53646,21 +53646,21 @@ at
 ta
 ma
 x
-55182	hu
+55800	hu
 x
-55185	x
+55803	x
 x
 x
-55189	sza
+55807	sza
 x
-55192	la
+55810	la
 ta
 x
-55196	u3
+55814	u3
 a
 na
 szuku
-55201	ni
+55819	ni
 di
 a
 hi
@@ -53670,7 +53670,7 @@ ta
 ra
 (asz)
 szi
-a
+55830	a
 na
 a
 bi
@@ -53682,7 +53682,7 @@ um
 ma
 ib
 ni
-55224	d
+55843	d
 mar
 tu
 ma
@@ -53713,7 +53713,7 @@ szum
 dumu
 mesz
 e2
-55256	d
+55875	d
 suen
 sza
 ia
@@ -53749,7 +53749,7 @@ ru
 uk
 li
 im
-55293	disz
+55912	disz
 a
 pil
 er
@@ -53760,17 +53760,17 @@ ma
 ah
 ri
 ia
-55305	disz
+55924	disz
 bad3
 ki
-55309	ga
+55928	ga
 mil
 ma
 har
 a
 bi
 ia
-55317	disz
+55936	disz
 a
 pil
 er
@@ -53783,7 +53783,7 @@ a
 am
 x
 mesz
-55331	a
+55951	a
 na
 d
 suen
@@ -53838,7 +53838,7 @@ na
 disz
 i
 bi
-55387	d
+56007	d
 suen
 qi2
 bi2
@@ -53891,7 +53891,7 @@ na
 disz
 i
 bi
-55441	d
+56061	d
 suen
 u2
 sza
@@ -53910,14 +53910,14 @@ ta
 na
 an
 di
+56081	x
+x
+(x)
 x
 x
 (x)
 x
-x
-(x)
-x
-55468	x
+56089	x
 x
 (x)
 i
@@ -53931,7 +53931,7 @@ x
 x
 (x)
 x
-55483	x
+56104	x
 x
 (x)
 tup
@@ -53975,7 +53975,7 @@ x
 (x)
 a
 ma
-55528	asz
+56149	asz
 szum
 4(disz)
 ma
@@ -53990,7 +53990,7 @@ x
 x
 il
 x
-55544	a
+56165	a
 na
 szu
 a
@@ -54004,7 +54004,7 @@ x
 x
 x
 x
-55559	i
+56180	i
 na
 t,a
 a
@@ -54014,10 +54014,10 @@ ma
 ni
 ia
 i
-55570	x
+56191	x
 x
 x
-55574	a
+56195	a
 x
 tu
 sza
@@ -54044,7 +54044,7 @@ hu
 be
 li2
 x
-55602	sza
+56223	sza
 at
 tam
 disz
@@ -54055,13 +54055,13 @@ rum
 disz
 s,i
 li2
-55614	d
+56235	d
 utu
 disz
 x
 x
 x
-55621	u3
+56242	u3
 hu
 za
 lum
@@ -54071,9 +54071,9 @@ il
 te
 qu2
 u2
-55632	du
+56253	du
 u2
-55635	sza
+56256	sza
 ad
 da
 aq
@@ -54090,7 +54090,7 @@ szi
 im
 u2
 ul
-55653	a
+56275	a
 na
 be2
 li
@@ -54102,7 +54102,7 @@ um
 ma
 ma
 ri
-55666	d
+56288	d
 mar
 tu
 ma
@@ -54185,7 +54185,7 @@ sze
 gesz
 i3
 sza
-55751	x
+56373	x
 x
 s,i
 im
@@ -54200,7 +54200,7 @@ u3
 x
 x
 tim
-55768	ta
+56390	ta
 a
 nu
 disz
@@ -54224,7 +54224,7 @@ da
 a
 x
 x
-55793	it
+56415	it
 ba
 lu
 u2
@@ -54238,7 +54238,7 @@ s,a
 mi
 du
 disz
-55808	d
+56430	d
 na
 bu
 um
@@ -54257,8 +54257,8 @@ ab2
 gu4
 hi
 a
-55828	x
-55830	id
+56450	x
+56452	id
 na
 szi
 na
@@ -54267,13 +54267,13 @@ ti
 x
 x
 x
-55840	x
-55842	x
+56462	x
+56464	x
 x
 x
-55847	x
+56469	x
 x
-55850	i
+56472	i
 na
 a
 li
@@ -54283,7 +54283,7 @@ x
 (x)
 im
 x
-55861	gu4
+56483	gu4
 u3
 udu
 hi
@@ -54315,7 +54315,7 @@ hi
 szi
 na
 li
-55894	in
+56516	in
 ta
 na
 sa3
@@ -54344,7 +54344,7 @@ x
 x
 a
 x
-55925	x
+56547	x
 x
 a
 sza3
@@ -54352,7 +54352,7 @@ ki
 kal
 mi
 x
-55934	ab2
+56556	ab2
 gu4
 hi
 a
@@ -54365,12 +54365,12 @@ x
 ka
 a
 x
-55948	(x)
+56570	(x)
 x
 i
 na
-55953	x
-55955	a
+56575	x
+56578	a
 na
 d
 suen
@@ -54383,7 +54383,7 @@ lu
 usz
 ta
 mar
-55969	d
+56592	d
 utu
 d
 utu
@@ -54432,26 +54432,26 @@ la
 i
 tu
 ra
-2(disz)
+56642	2(disz)
 sila3
 za3
 hi
 li
 a
 sar
-56026	u3
+56650	u3
 1/3(disz)
 numun
 x
 sar
-56032	disz
+56656	disz
 ta
 ri
 bu
 szu
 bi
 lam
-a
+56664	a
 na
 a
 bi
@@ -54572,7 +54572,7 @@ a
 am
 ki
 ma
-56162	d
+56787	d
 marduk
 ra
 i
@@ -54608,11 +54608,11 @@ i
 na
 an
 na
-56200	d
+56825	d
 tasz
 me
 tum
-56205	ka
+56830	ka
 at,
 t,ar
 dam
@@ -54659,7 +54659,7 @@ u2
 sza
 ar
 sza
-56253	i
+56878	i
 na
 an
 ni
@@ -54670,11 +54670,11 @@ esz
 a
 bi
 ia
-56265	a
+56891	a
 na
 gi
 mil
-56270	d
+56896	d
 marduk
 sza
 d
@@ -54740,7 +54740,7 @@ li
 iz
 kur
 1(esze3)
-56337	a
+56963	a
 sza3
 i
 na
@@ -54921,7 +54921,7 @@ im
 la
 an
 ni
-a
+57145	a
 na
 sza
 pi2
@@ -54945,11 +54945,11 @@ al
 li
 it,
 ka
-56543	x
+57170	x
 x
 x
-56548	x
-56550	i
+57175	x
+57177	i
 ra
 asz
 szi
@@ -54962,22 +54962,22 @@ sza
 pi2
 ri
 ia
-56564	asz
+57191	asz
 tap
 ra
 am
 2(disz)
 gesz
-56571	4(disz)
+57198	4(disz)
 gesz
-56574	x
+57201	x
 (x)
 (x)
 4(disz)
-56579	gesz
+57206	gesz
 nig2
 x
-56583	2(disz)
+57210	2(disz)
 gi
 me
 es
@@ -54991,14 +54991,14 @@ a
 mu
 ru
 1(disz)
-56599	x
+57226	x
 x
 (x)
 ma
 ah
 s,a
 am
-56607	x
+57234	x
 (x)
 (x)
 asz
@@ -55016,7 +55016,7 @@ ri
 im
 sza
 disz
-56626	d
+57253	d
 mar
 tu
 na
@@ -55025,7 +55025,7 @@ i7
 a
 na
 sza
-56636	im
+57263	im
 u2
 ki
 il
@@ -55056,7 +55056,7 @@ isz
 a
 na
 sag
-56668	ki
+57295	ki
 a
 am
 aq
@@ -55086,8 +55086,8 @@ a
 na
 x
 li
-56699	x
-56701	at
+57326	x
+57328	at
 ta
 di
 in
@@ -55100,7 +55100,7 @@ te
 zi
 ib
 szu
-56715	a
+57343	a
 na
 ba
 la
@@ -55130,9 +55130,9 @@ um
 ma
 disz
 lu2
-56746	u3
+57374	u3
 a
-56749	at,
+57377	at,
 t,ar
 da
 ak
@@ -55145,17 +55145,17 @@ x
 x
 x
 x
-56764	i
+57392	i
 ab2
 gu4
 hi
 a
 sza
-56773	x
+57401	x
 x
 x
-56777	la
-56780	x
+57405	la
+57408	x
 x
 x
 (x)
@@ -55168,7 +55168,7 @@ bu
 u2
 (x)
 (x)
-56794	gesz
+57422	gesz
 apin
 hi
 a
@@ -55188,7 +55188,7 @@ li
 ib
 lu
 nim
-a
+57443	a
 na
 ka2
 gi4
@@ -55197,7 +55197,7 @@ x
 (x)
 u3
 x
-56824	qi2
+57453	qi2
 bi2
 ma
 um
@@ -55205,7 +55205,7 @@ ma
 na
 ra
 am
-56833	d
+57462	d
 utu
 u3
 d
@@ -55226,7 +55226,7 @@ ugula
 gidri
 sza
 x
-56855	usz
+57484	usz
 ta
 bi
 la
@@ -55241,13 +55241,13 @@ numun
 ga
 rasz
 sar
-56872	1(disz)
-56874	gesz
+57501	1(disz)
+57503	gesz
 mar
 uruda
 ugula
 gidri
-56880	usz
+57509	usz
 ta
 bi
 la
@@ -55255,22 +55255,22 @@ ku
 nu
 szi
 im
-56889	x
+57518	x
 sar
 szum
 ma
 ta
 sza
 x
-56897	x
+57526	x
 x
 a
 sza3
 szu
 x
-56905	ga
+57534	ga
 ar
-56908	a
+57538	a
 na
 a
 wi
@@ -55421,7 +55421,7 @@ in
 szu
 x
 (x)
-57060	me
+57690	me
 he
 er
 tup
@@ -55430,7 +55430,7 @@ ia
 szu
 bi
 lam
-a
+57700	a
 na
 d
 na
@@ -55470,8 +55470,8 @@ ak
 kum
 1(disz)
 x
-57110	x
-57113	a
+57741	x
+57744	a
 na
 x
 x
@@ -55512,7 +55512,7 @@ ki
 ma
 x
 pu
-57155	ma
+57786	ma
 disz
 ta
 ri
@@ -55550,9 +55550,9 @@ ri
 ka
 ni
 nu
-a
+57825	a
 na
-57196	ti
+57828	ti
 lu
 x
 (x)
@@ -55563,7 +55563,7 @@ um
 ma
 u
 bar
-57208	d
+57840	d
 urasz
 ma
 isz
@@ -55627,7 +55627,7 @@ a
 sza
 lu
 ka
-57274	asz
+57906	asz
 pur
 a
 na
@@ -55692,17 +55692,17 @@ na
 di
 nam
 1(u)
-57340	gi
+57972	gi
 dusu
 hi
 a
 1(disz)
-57346	gi
+57978	gi
 ma
 an
 sim
 1(disz)
-57352	gi
+57984	gi
 ma
 an
 sim
@@ -55711,7 +55711,7 @@ ar3
 ra
 1(disz)
 gi
-57363	tim
+57995	tim
 (x)
 la
 ta
@@ -55719,12 +55719,12 @@ ka
 la
 a
 am
-a
+58004	a
 na
 gi
 mil
-57376	d
-57378	qi2
+58009	d
+58011	qi2
 bi2
 ma
 um
@@ -55750,7 +55750,7 @@ disz
 li
 pi2
 it
-57405	d
+58038	d
 en
 lil2
 um
@@ -55768,7 +55768,7 @@ ma
 szu
 ma
 disz
-57424	d
+58057	d
 en
 lil2
 mu
@@ -55821,18 +55821,18 @@ am
 x
 u3
 x
-57479	x
+58112	x
 wa
 asz
 bu
-57484	x
+58117	x
 x
-57489	d
+58122	d
 en
 lil2
-57493	x
+58126	x
 ri
-57496	x
+58129	x
 iq
 bi
 a
@@ -55842,7 +55842,7 @@ x
 ka
 lu
 u2
-57507	x
+58140	x
 sze
 gesz
 i3
@@ -55855,9 +55855,9 @@ i
 na
 x
 x
-57521	a
+58155	a
 na
-57524	ia
+58158	ia
 qi2
 bi2
 ma
@@ -55865,10 +55865,10 @@ um
 ma
 ib
 ni
-57533	d
+58167	d
 suen
 ma
-57537	d
+58171	d
 utu
 u3
 d
@@ -55929,13 +55929,13 @@ szu
 up
 ra
 am
-57599	x
+58233	x
 x
 x
 x
 x
 (x)
-57606	ti
+58240	ti
 x
 (x)
 (x)
@@ -55960,7 +55960,7 @@ ma
 szu
 bi
 lam
-a
+58266	a
 na
 a
 bu
@@ -56029,19 +56029,19 @@ mu
 uh
 hi
 a
-57701	sza
+58336	sza
 at
 ba
 la
-57707	x
+58342	x
 x
 x
 x
-57712	x
+58347	x
 x
 (x)
 (x)
-a
+58352	a
 na
 szi
 x
@@ -56054,7 +56054,7 @@ ma
 um
 ma
 d
-57730	mu
+58366	mu
 sza
 lim
 ma
@@ -56075,8 +56075,8 @@ x
 x
 x
 x
-57752	x
-57755	x
+58388	x
+58391	x
 x
 x
 x
@@ -56091,7 +56091,7 @@ x
 x
 x
 x
-57771	d
+58407	d
 nin
 szubur
 tu
@@ -56099,7 +56099,7 @@ x
 (x)
 il
 lu
-a
+58416	a
 na
 a
 hi
@@ -56111,10 +56111,10 @@ um
 ma
 x
 x
-57792	d
+58429	d
 x
 ma
-57796	d
+58433	d
 utu
 u3
 d
@@ -56158,9 +56158,9 @@ tim
 i
 di
 in
-a
+58478	a
 na
-57844	qi2
+58482	qi2
 bi2
 ma
 um
@@ -56216,8 +56216,8 @@ da
 ri
 a
 ta
-57901	x
-57904	x
+58539	x
+58542	x
 x
 ka
 x
@@ -56287,7 +56287,7 @@ na
 az
 x
 x
-57975	u2
+58613	u2
 ul
 ti
 de
@@ -56296,7 +56296,7 @@ x
 x
 (x)
 x
-57985	lu
+58623	lu
 x
 x
 x
@@ -56313,11 +56313,11 @@ x
 x
 x
 na
-58003	x
+58641	x
 x
 x
 (x)
-a
+58646	a
 na
 a
 bi
@@ -56405,7 +56405,7 @@ har
 d
 utu
 u3
-58096	d
+58735	d
 marduk
 lu
 da
@@ -56455,22 +56455,22 @@ qi2
 sza
 am
 x
-58147	x
-58149	u3
+58786	x
+58788	u3
 x
-58152	usz
-58154	szum
+58791	usz
+58793	szum
 ma
 ta
 x
 x
-58160	szum
+58799	szum
 ma
 x
 x
-58165	u3
+58804	u3
 x
-58168	a
+58808	a
 na
 d
 suen
@@ -56488,7 +56488,7 @@ x
 x
 (x)
 x
-58188	d
+58828	d
 utu
 u3
 d
@@ -56507,10 +56507,10 @@ ma
 ri
 im
 x
-58208	ib
+58848	ib
 ba
 x
-58213	x
+58853	x
 x
 x
 sza
@@ -56520,7 +56520,7 @@ x
 x
 x
 x
-58225	x
+58865	x
 x
 x
 (x)
@@ -56528,7 +56528,7 @@ x
 ti
 x
 x
-a
+58874	a
 na
 be
 el
@@ -56658,7 +56658,7 @@ lu
 ud
 lu
 ul
-a
+59005	a
 na
 e
 t,i
@@ -56764,9 +56764,9 @@ ta
 ka
 al
 la
-a
+59112	a
 na
-58472	x
+59115	x
 x
 x
 x
@@ -56777,7 +56777,7 @@ um
 ma
 gi
 mil
-58484	d
+59127	d
 marduk
 ma
 d
@@ -56788,11 +56788,11 @@ al
 li
 it,
 ka
-58496	disz
+59139	disz
 x
 x
 x
-58501	d
+59144	d
 suen
 ki
 a
@@ -56805,17 +56805,17 @@ ma
 szu
 u2
 ma
-58515	x
+59158	x
 ka
-58518	x
+59161	x
 x
 x
-58522	x
-58525	x
+59165	x
+59168	x
 sza
 am
 ma
-58530	x
+59173	x
 ad
 di
 kum
@@ -56847,7 +56847,7 @@ ia
 i
 di
 in
-a
+59206	a
 na
 a
 wi
@@ -56871,7 +56871,7 @@ x
 x
 x
 ma
-58587	d
+59231	d
 utu
 u3
 d
@@ -56882,10 +56882,10 @@ al
 li
 t,u2
 ka
-58599	disz
+59243	disz
 in
 bi
-58603	d
+59247	d
 utu
 a
 na
@@ -56909,7 +56909,7 @@ x
 x
 ne2
 e
-58628	kum
+59272	kum
 n
 gin2
 ku3
@@ -56927,7 +56927,7 @@ u2
 ul
 i
 szu
-a
+59291	a
 na
 i3
 li2
@@ -56961,7 +56961,7 @@ um
 ma
 disz
 i
-58681	x
+59326	x
 x
 at,
 t,ar
@@ -56983,7 +56983,7 @@ x
 x
 (x)
 x
-58704	x
+59349	x
 (x)
 x
 x
@@ -57005,7 +57005,7 @@ ta
 ka
 la
 szum
-li
+59372	li
 ba
 al
 li
@@ -57025,7 +57025,7 @@ ki
 be
 el
 ki
-58747	d
+59393	d
 x
 (x)
 a
@@ -57088,26 +57088,26 @@ x
 x
 ni
 ma
-58811	x
+59457	x
 il
 szum
-58815	na
+59461	na
 x
 x
 x
 ni
-58821	x
+59467	x
 u2
 ta
 ra
 ki
-58827	qa2
+59473	qa2
 ba
 am
 isz
 ku
 nam
-58834	x
+59480	x
 sza
 mu
 uh
@@ -57115,12 +57115,12 @@ ma
 ad
 di
 szu
-58843	x
+59489	x
 x
 x
 x
 ma
-a
+59495	a
 na
 a
 wi
@@ -57293,16 +57293,16 @@ qe2
 x
 u3
 i
-59022	x
+59669	x
 ma
 u3
 x
 x
-59028	x
+59675	x
 x
-a
+59678	a
 na
-59033	x
+59681	x
 x
 x
 d
@@ -57370,7 +57370,7 @@ i
 na
 qa2
 ti
-59102	lu2
+59750	lu2
 szu
 i
 ki
@@ -57389,11 +57389,11 @@ isz
 at
 la
 kam
-a
+59770	a
 na
 ib
 ni
-59126	d
+59775	d
 iszkur
 qi2
 bi2
@@ -57467,9 +57467,9 @@ x
 (x)
 a
 ar
-59201	x
+59850	x
 x
-59204	x
+59853	x
 x
 mu
 ni
@@ -57537,7 +57537,7 @@ tu
 ka
 a
 al
-a
+59922	a
 na
 si2
 ia
@@ -57579,11 +57579,11 @@ sze
 a
 am
 x
-59316	x
-59318	x
+59966	x
+59968	x
 x
 x
-59322	li
+59972	li
 di
 in
 u3
@@ -57600,7 +57600,7 @@ szum
 ma
 lu
 x
-59340	gu4
+59990	gu4
 hi
 a
 li
@@ -57639,17 +57639,17 @@ u2
 lu
 u2
 a
-59380	il
-59383	x
+60030	il
+60033	x
 x
-59386	sza
+60036	sza
 x
 x
 x
 x
 di
 x
-59394	wa
+60044	wa
 asz
 ba
 ku
@@ -57686,7 +57686,7 @@ isz
 a
 pu
 ul
-a
+60082	a
 na
 d
 suen
@@ -57698,17 +57698,17 @@ bi2
 ma
 um
 ma
-59444	ma
-59446	am
-59448	x
-59452	a
+60095	ma
+60097	am
+60099	x
+60103	a
 mu
 ur
 ma
 ap
 pu
 tum
-a
+60111	a
 na
 a
 pil
@@ -57817,11 +57817,11 @@ bi
 li
 nu
 uh
-a
+60221	a
 na
 gi
 mil
-59573	d
+60226	d
 marduk
 qi2
 bi2
@@ -57847,7 +57847,7 @@ t,u2
 ka
 munus
 geme2
-59600	d
+60253	d
 asar
 lu2
 hi
@@ -57880,7 +57880,7 @@ sza
 qa2
 ti
 szu
-59635	ir
+60288	ir
 a
 na
 babila2
@@ -57903,10 +57903,10 @@ iq
 bu
 szi
 im
-a
+60312	a
 na
-59661	x
-59663	qi2
+60315	x
+60317	qi2
 bi2
 ma
 um
@@ -57992,12 +57992,12 @@ lu2
 x
 x
 x
-59750	x
+60404	x
 x
 x
 x
 x
-59756	a
+60410	a
 wi
 lam
 szu
@@ -58031,7 +58031,7 @@ a
 qa2
 ab
 bi
-a
+60445	a
 na
 x
 an
@@ -58082,7 +58082,7 @@ ka
 u2
 x
 x
-59842	x
+60497	x
 x
 x
 x
@@ -58105,11 +58105,11 @@ ma
 li
 ib
 lam
-it
+60521	it
 ti
 i
 ka
-59870	ki
+60526	ki
 a
 am
 aq
@@ -58121,7 +58121,7 @@ na
 ku
 ma
 disz
-59883	d
+60539	d
 suen
 i
 qi2
@@ -58150,7 +58150,7 @@ u3
 a
 wi
 il
-59913	d
+60569	d
 utu
 i
 na
@@ -58284,7 +58284,7 @@ as,
 mi
 id
 ma
-60048	gesz
+60704	gesz
 pa
 i
 na
@@ -58301,7 +58301,7 @@ har
 a
 wi
 il
-60066	d
+60722	d
 utu
 te
 si2
@@ -58313,7 +58313,7 @@ na
 as2
 hu
 ur
-60079	d
+60735	d
 utu
 u2
 ul
@@ -58373,7 +58373,7 @@ ma
 a
 la
 kam
-60140	gesz
+60796	gesz
 ma2
 d
 utu
@@ -58413,7 +58413,7 @@ x
 x
 x
 x
-60182	n
+60838	n
 sila3
 sze
 i
@@ -58422,7 +58422,7 @@ iri
 du
 um
 ki
-60192	u2
+60848	u2
 ul
 i
 ba
@@ -58434,13 +58434,13 @@ silig
 zabar
 1(disz)
 uruda
-60205	ma
+60861	ma
 ah
 rum
 ub
 lu
 nim
-a
+60868	a
 na
 a
 wi
@@ -58467,7 +58467,7 @@ ma
 d
 utu
 u3
-60239	d
+60896	d
 marduk
 da
 ri
@@ -58523,7 +58523,7 @@ rum
 sza
 i7
 x
-60296	la
+60953	la
 tim
 te
 ep
@@ -58559,7 +58559,7 @@ ik
 disz
 gi
 mil
-60333	d
+60990	d
 marduk
 ra
 bi
@@ -58568,7 +58568,7 @@ an
 kisz
 ki
 disz
-60343	d
+61000	d
 marduk
 ni
 szu
@@ -58596,7 +58596,7 @@ sza
 tim
 i7
 nu
-60372	gesz
+61029	gesz
 kiri6
 ip
 pe2
@@ -58633,8 +58633,8 @@ na
 an
 na
 x
-60410	x
-60413	i
+61067	x
+61070	i
 na
 mu
 uh
@@ -58679,13 +58679,13 @@ x
 x
 x
 x
-60459	x
+61116	x
 la
 ta
 ap
 pa
 lu
-60466	lu2
+61123	lu2
 u3
 i7
 ta
@@ -58694,7 +58694,7 @@ rum
 sza
 i7
 x
-60476	la
+61133	la
 tim
 qa2
 at
@@ -58702,7 +58702,7 @@ ka
 u2
 su2
 uh
-a
+61142	a
 na
 a
 wi
@@ -58721,7 +58721,7 @@ bi2
 ma
 um
 ma
-60504	x
+61162	x
 x
 ma
 d
@@ -58835,7 +58835,7 @@ lu2
 nu
 kar2
 ki
-60619	mesz
+61277	mesz
 ku3
 babbar
 am
@@ -58853,7 +58853,7 @@ marduk
 na
 s,ir
 nu
-60638	su2
+61296	su2
 nu
 ad
 di
@@ -58889,7 +58889,7 @@ ki
 sa
 am
 nig2
-60675	zabar
+61333	zabar
 u3
 tug2
 lu
@@ -58930,7 +58930,7 @@ i
 nu
 ma
 kar
-60717	d
+61375	d
 na
 bi
 um
@@ -58949,7 +58949,7 @@ sza
 am
 i
 na
-60737	gi
+61395	gi
 kid
 szu
 i
@@ -58975,7 +58975,7 @@ s,u2
 ha
 ar
 disz
-60764	d
+61422	d
 marduk
 na
 s,ir
@@ -59047,7 +59047,7 @@ tam
 pu
 ru
 us2
-a
+61495	a
 na
 i3
 li2
@@ -59079,7 +59079,7 @@ t,u2
 ka
 disz
 dingir
-60869	d
+61528	d
 mar
 tu
 x
@@ -59113,8 +59113,8 @@ masz2
 szu
 gid2
 gid2
-60904	x
-60906	i
+61563	x
+61565	i
 di
 isz
 szum
@@ -59141,7 +59141,7 @@ ba
 ba
 an
 ni
-a
+61593	a
 na
 dumu
 munus
@@ -59155,7 +59155,7 @@ um
 ma
 i
 din
-60948	d
+61608	d
 za
 ba4
 ba4
@@ -59171,10 +59171,10 @@ al
 li
 t,u2
 ki
-60966	szu
-60968	x
+61626	szu
+61628	x
 hi
-60971	x
+61631	x
 x
 pu
 ra
@@ -59188,16 +59188,16 @@ li
 isz
 ti
 ma
-60986	x
+61646	x
 am
-60989	x
+61649	x
 x
 x
 x
 x
 x
 x
-60997	szu
+61657	szu
 a
 na
 ma
@@ -59208,13 +59208,13 @@ x
 x
 lu
 usz
-61009	x
+61669	x
 x
 x
 i
 zi
 x
-61016	an
+61676	an
 ni
 ki
 a
@@ -59229,26 +59229,26 @@ am
 x
 x
 x
-61033	x
+61693	x
 a
 na
 x
-61038	x
-61040	x
+61698	x
+61700	x
 i
 di
 in
-61045	x
+61705	x
 a
 na
 mi
 nim
 x
-61052	x
+61712	x
 pa
 ga
 ar
-61057	a
+61718	a
 na
 usz
 x
@@ -59298,14 +59298,14 @@ ud
 ma
 a
 na
-61108	mu
+61769	mu
 du
 ud
 ma
 szu
-61114	2(disz)
+61775	2(disz)
 x
-61117	ki
+61778	ki
 ma
 x
 x
@@ -59333,7 +59333,7 @@ x
 x
 i
 x
-61146	x
+61807	x
 x
 x
 a
@@ -59344,7 +59344,7 @@ ta
 na
 an
 di
-a
+61819	a
 na
 dingir
 mu
@@ -59360,19 +59360,19 @@ hu
 da
 di
 ma
-61174	x
+61836	x
 x
 x
 x
 x
 la
 x
-61182	la
+61844	la
 ta
 bi
 ta
 am
-a
+61850	a
 na
 d
 utu
@@ -59398,12 +59398,12 @@ ri
 im
 x
 x
-61216	x
-61221	x
+61879	x
+61884	x
 x
 x
 x
-a
+61889	a
 na
 dingir
 szu
@@ -59438,7 +59438,7 @@ x
 x
 x
 (x)
-a
+61925	a
 na
 a
 x
@@ -59447,7 +59447,7 @@ u3
 a
 wi
 il
-61270	d
+61935	d
 iszkur
 qi2
 bi2
@@ -59480,23 +59480,23 @@ x
 (x)
 x
 x
-61304	x
+61969	x
 u2
 ul
 x
 x
-61310	a
+61975	a
 nu
 um
 ma
 li
 x
-61317	x
+61982	x
 x
 x
-61321	u2
+61986	u2
 x
-61324	x
+61989	x
 x
 x
 x
@@ -59566,8 +59566,8 @@ x
 x
 im
 ma
-61395	x
-sze
+62060	x
+62062	sze
 am
 sza
 sa10
@@ -59597,7 +59597,7 @@ lim
 disz
 gi
 mil
-61427	d
+62093	d
 marduk
 sza
 qa2
@@ -59627,7 +59627,7 @@ a
 na
 gi
 mil
-61458	d
+62124	d
 marduk
 i
 di
@@ -59644,7 +59644,7 @@ ma
 da
 at
 disz
-61476	munus
+62142	munus
 su
 ur
 ra
@@ -59700,8 +59700,8 @@ ap
 pa
 al
 ka
-61533	blank
-61535	a
+62199	blank
+62202	a
 na
 a
 wi
@@ -59723,7 +59723,7 @@ ma
 a
 wi
 il
-61558	d
+62225	d
 na
 bi
 um
@@ -59750,7 +59750,7 @@ ma
 disz
 an
 pi4
-61586	d
+62253	d
 na
 bi
 um
@@ -59762,9 +59762,9 @@ kum
 id
 na
 szum
-a
+62266	a
 na
-61602	x
+62270	x
 (x)
 qi2
 bi2
@@ -59773,12 +59773,12 @@ um
 ma
 i
 din
-61612	d
+62280	d
 za
 ba4
 ba4
 ma
-61618	d
+62286	d
 utu
 u3
 d
@@ -59798,17 +59798,17 @@ an
 nu
 ni
 tum
-61639	x
-61641	nim
-61643	x
-61645	x
-61648	x
+62307	x
+62309	nim
+62311	x
+62313	x
+62316	x
 x
-61652	x
+62320	x
 x
 d
 isztaran
-61657	x
+62325	x
 x
 x
 sza
@@ -59824,10 +59824,10 @@ ad
 x
 (x)
 x
-61674	ki
+62342	ki
 (x)
 (x)
-61678	x
+62346	x
 x
 x
 x
@@ -59835,23 +59835,23 @@ sza
 d
 x
 x
-61688	i
+62356	i
 din
-61691	d
+62359	d
 za
 ba4
 ba4
 dumu
 x
 x
-61701	d
+62369	d
 za
 ba4
 ba4
-61706	x
+62375	x
 x
 x
-61710	a
+62379	a
 sza3
 sza
 i
@@ -59859,7 +59859,7 @@ na
 a
 ah
 x
-61719	x
+62388	x
 x
 x
 wa
@@ -59955,18 +59955,18 @@ a
 am
 lu
 na
-61818	ma
-61820	lu
+62487	ma
+62489	lu
 sza
 am
 ma
-61825	ka
+62494	ka
 la
 i
 ba
 asz
 szi
-61832	me
+62501	me
 he
 er
 tup
@@ -59975,7 +59975,7 @@ ia
 szu
 bi
 lam
-a
+62511	a
 na
 a
 wi
@@ -60051,7 +60051,7 @@ ar
 szi
 a
 am
-a
+62588	a
 na
 mi
 nam
@@ -60104,7 +60104,7 @@ ansze
 d
 suen
 x
-61971	szum
+62642	szum
 ma
 x
 x
@@ -60115,12 +60115,12 @@ ki
 a
 x
 u3
-61985	x
-61987	x
+62656	x
+62658	x
 x
 he
 e
-a
+62663	a
 na
 a
 wi
@@ -60130,14 +60130,14 @@ bi2
 ma
 um
 ma
-62003	d
+62675	d
 mar
 tu
-62007	d
+62679	d
 utu
 u3
 d
-62012	da
+62684	da
 ri
 isz
 u4
@@ -60156,7 +60156,7 @@ an
 szuku
 x
 x
-62032	i
+62704	i
 na
 i
 di
@@ -60167,7 +60167,7 @@ tam
 ep
 sza
 am
-a
+62716	a
 na
 x
 x
@@ -60182,10 +60182,10 @@ ma
 x
 x
 x
-62059	d
+62732	d
 marduk
 ma
-a
+62736	a
 na
 d
 suen
@@ -60210,8 +60210,8 @@ x
 x
 x
 szu
-62088	ia
-62091	u2
+62762	ia
+62765	u2
 x
 szum
 ma
@@ -60235,8 +60235,8 @@ ta
 na
 di
 in
-62116	x
-62118	tup
+62791	x
+62793	tup
 pi2
 usz
 ta
@@ -60296,7 +60296,7 @@ x
 am
 ha
 a
-62179	u3
+62854	u3
 ma
 am
 ma
@@ -60305,7 +60305,7 @@ u2
 ul
 i
 sza
-62189	x
+62864	x
 x
 a
 wi
@@ -60320,13 +60320,13 @@ x
 x
 x
 x
-62205	x
+62880	x
 tum
-62208	x
-62210	x
+62883	x
+62885	x
 x
 x
-a
+62889	a
 na
 i
 bi
@@ -60341,7 +60341,7 @@ ma
 e
 tel
 pi4
-62229	d
+62905	d
 marduk
 ma
 d
@@ -60370,7 +60370,7 @@ da
 ak
 ki
 im
-62259	uruda
+62935	uruda
 szen
 sza
 ma
@@ -60409,8 +60409,8 @@ x
 (x)
 x
 x
-62299	x
-62301	ar
+62975	x
+62977	ar
 hi
 isz
 ap
@@ -60433,7 +60433,7 @@ le
 tum
 id
 ni
-x
+63001	x
 x
 x
 x
@@ -60465,8 +60465,8 @@ szu
 up
 ra
 am
-62357	erased
-62359	x
+63034	erased
+63036	x
 da
 ba
 ab
@@ -60506,16 +60506,16 @@ e
 pe2
 szi
 im
-62400	x
+63077	x
 x
-62403	x
+63080	x
 x
-x
-x
-x
+63083	x
 x
 x
-62411	szu
+x
+x
+63089	szu
 ri
 (x)
 x
@@ -60523,20 +60523,20 @@ x
 x
 x
 mu
-62420	x
+63098	x
 x
 x
 x
 me
-62426	1(disz)
+63104	1(disz)
 x
 x
-62430	x
+63108	x
 x
 ni
 u2
 mu
-62436	x
+63114	x
 x
 x
 tum
@@ -60580,12 +60580,12 @@ usz
 ta
 ri
 id
-62481	x
+63159	x
 x
 x
 1(disz)
-62486	mu
-62488	d
+63164	mu
+63166	d
 suen
 x
 x
@@ -60602,12 +60602,12 @@ id
 usz
 tu
 i
-62506	x
+63184	x
 x
 x
 (x)
 2(disz)
-62516	ta
+63194	ta
 x
 x
 2(disz)
@@ -60627,7 +60627,7 @@ du11
 d
 ba
 ba6
-62537	x
+63215	x
 (x)
 a
 na
@@ -60654,7 +60654,7 @@ be
 li2
 i
 na
-62565	gesz
+63243	gesz
 gu
 za
 im
@@ -60680,7 +60680,7 @@ tu
 ur
 nigar
 gar
-62592	ra
+63270	ra
 x
 x
 x
@@ -60688,7 +60688,7 @@ x
 ma
 sza
 li
-62601	ta
+63279	ta
 szu
 x
 x
@@ -60696,7 +60696,7 @@ x
 x
 x
 x
-a
+63288	a
 na
 be
 li2
@@ -60769,14 +60769,14 @@ szu
 nu
 szi
 im
-a
+63362	a
 na
 bu
 ut
 ta
 tim
 u3
-62690	d
+63370	d
 suen
 ka3
 szi2
@@ -60837,7 +60837,7 @@ ih
 mu
 t,u2
 nim
-a
+63432	a
 na
 dingir
 na
@@ -60902,7 +60902,7 @@ qa2
 du
 s,i
 li2
-62817	d
+63498	d
 x
 u3
 asz
@@ -60941,10 +60941,10 @@ gi
 a
 pu
 tum
-a
+63538	a
 na
 lu2
-62860	d
+63542	d
 ba
 ba6
 qi2
@@ -61041,7 +61041,7 @@ a
 ma
 i
 na
-62958	gi
+63640	gi
 pisan
 ku
 un
@@ -61054,7 +61054,7 @@ bi
 la
 ni
 im
-a
+63654	a
 na
 a
 wi
@@ -61072,7 +61072,7 @@ bi2
 ma
 um
 ma
-62990	ma
+63673	ma
 x
 x
 x
@@ -61169,7 +61169,7 @@ a
 x
 lu
 u2
-63088	lam
+63771	lam
 disz
 ib
 ba
@@ -61184,7 +61184,7 @@ a
 t,a2
 ra
 ad
-a
+63787	a
 na
 na
 x
@@ -61197,7 +61197,7 @@ um
 ma
 a
 bi
-63117	d
+63801	d
 utu
 ma
 d
@@ -61224,7 +61224,7 @@ asz
 pu
 ra
 am
-x
+63829	x
 x
 x
 zi
@@ -61261,7 +61261,7 @@ am
 x
 x
 x
-a
+63867	a
 na
 ba
 ba
@@ -61381,7 +61381,7 @@ a
 na
 iri
 ki
-63302	an
+63988	an
 za
 gar3
 ku
@@ -61442,7 +61442,7 @@ x
 x
 mi
 u2
-63364	x
+64050	x
 x
 szu
 up
@@ -61462,11 +61462,11 @@ lu
 ud
 di
 in
-a
+64071	a
 na
 nu
 ur2
-63389	d
+64076	d
 utu
 qi2
 bi2
@@ -61497,7 +61497,7 @@ ur
 gul
 la2
 ki
-63421	mesz
+64108	mesz
 ta
 asz
 ta
@@ -61650,7 +61650,7 @@ ta
 da
 al
 pa
-a
+64262	a
 na
 ba
 li
@@ -61704,7 +61704,7 @@ ma
 disz
 s,i
 li2
-63629	d
+64317	d
 gu
 la
 szum
@@ -61731,7 +61731,7 @@ nu
 sza
 ar
 sza
-a
+64345	a
 na
 ku
 ru
@@ -61789,7 +61789,7 @@ at
 x
 x
 li
-63715	x
+64404	x
 u3
 na
 ra
@@ -61810,7 +61810,7 @@ ka
 se2
 ke
 er
-a
+64426	a
 na
 gu
 un
@@ -61887,7 +61887,7 @@ ud
 di3
 isz
 szum
-a
+64504	a
 na
 pa
 na
@@ -61900,7 +61900,7 @@ ma
 um
 ma
 szu
-63827	d
+64518	d
 dumu
 zi
 tu
@@ -61913,7 +61913,7 @@ asz
 szu
 mi
 ka
-63841	lam
+64532	lam
 u2
 la
 u2
@@ -61929,9 +61929,9 @@ a
 hi
 at
 ta
-63858	ma
+64549	ma
 x
-a
+64552	a
 na
 d
 en
@@ -61945,7 +61945,7 @@ um
 ma
 im
 gur
-63875	d
+64567	d
 suen
 ma
 ta
@@ -61966,7 +61966,7 @@ e
 gi
 i
 ma
-63897	lam
+64589	lam
 u2
 le
 ri
@@ -62069,7 +62069,7 @@ lu
 ul
 li
 ik
-a
+64693	a
 na
 d
 suen
@@ -62093,7 +62093,7 @@ x
 x
 x
 x
-64025	d
+64718	d
 nanna
 u2
 x
@@ -62127,7 +62127,7 @@ szi
 ni/ir
 ka
 da
-64060	x
+64753	x
 isz
 szi
 x
@@ -62139,7 +62139,7 @@ ma
 x
 x
 x
-a
+64766	a
 na
 d
 suen
@@ -62234,7 +62234,7 @@ tum
 u3
 sze
 ep
-64168	d
+64862	d
 suen
 3(disz)
 a
@@ -62250,13 +62250,13 @@ nam
 2(disz)
 an
 pi2
-64185	d
+64879	d
 utu
 u3
 na
 ra
 am
-64192	d
+64886	d
 suen
 5(disz)
 ugula
@@ -62282,7 +62282,7 @@ he2
 ugula
 i
 din
-64219	d
+64913	d
 mar
 tu
 3(disz)
@@ -62305,7 +62305,7 @@ x
 ugula
 i
 din
-64243	d
+64937	d
 mar
 tu
 6(disz)
@@ -62395,7 +62395,7 @@ ez
 zi
 ba
 am
-a
+65028	a
 na
 x
 da
@@ -62449,7 +62449,7 @@ li
 ir
 de
 szi
-a
+65083	a
 na
 d
 nanna
@@ -62465,7 +62465,7 @@ iszkur
 na
 s,ir
 ma
-64404	d
+65100	d
 utu
 li
 ba
@@ -62522,7 +62522,7 @@ ib
 szi
 na
 ti
-a
+65182	a
 na
 d
 utu
@@ -62578,7 +62578,7 @@ asz
 sza
 ar
 szu
-a
+65239	a
 na
 d
 utu
@@ -62597,7 +62597,7 @@ ra
 bi
 ma
 3(bur3)
-64537	a
+65259	a
 sza3
 am
 sza
@@ -62659,7 +62659,7 @@ i
 t,e4
 eh
 hi
-a
+65322	a
 na
 d
 utu
@@ -62718,7 +62718,7 @@ a
 szi
 im
 3(bur'u)
-64659	a
+65382	a
 sza3
 i
 ki
@@ -62810,7 +62810,7 @@ wi
 il
 dingir
 u3
-64752	d
+65475	d
 utu
 sza
 ta
@@ -62862,7 +62862,7 @@ szu
 up
 ra
 nim
-a
+65528	a
 na
 d
 utu
@@ -62890,7 +62890,7 @@ kam
 sza
 1(bur'u)
 9(bur3)
-64833	a
+65557	a
 sza3
 sza
 a
@@ -62898,7 +62898,7 @@ na
 1(u)
 7(disz)
 lu2
-64842	ri
+65566	ri
 ri
 mesz
 lu2
@@ -62935,13 +62935,13 @@ am
 a
 na
 lu2
-64880	ri
+65604	ri
 ri
 mesz
 i
 di
 in
-a
+65611	a
 na
 d
 utu
@@ -63017,7 +63017,7 @@ a
 na
 babila2[
 ki
-64963	li
+65688	li
 ik
 mi
 su
@@ -63056,7 +63056,7 @@ sza
 ak
 ka
 an
-a
+65728	a
 na
 d
 utu
@@ -63077,7 +63077,7 @@ ma
 4(bur'u)
 8(bur3)
 1(esze3)
-65024	a
+65750	a
 gar3
 ha
 am
@@ -63142,7 +63142,7 @@ mesz
 nig2
 szu
 szu
-65090	d
+65816	d
 mar
 tu
 nar
@@ -63176,7 +63176,7 @@ szu
 up
 ra
 am
-a
+65851	a
 na
 d
 utu
@@ -63335,7 +63335,7 @@ du
 u2
 i
 na
-65284	gesz
+66011	gesz
 tukul
 sza
 dingir
@@ -63370,7 +63370,7 @@ at
 tu
 u2
 1(bur3)
-65320	e
+66047	e
 ki
 a
 am
@@ -63435,7 +63435,7 @@ li
 ih
 mu
 t,am
-a
+66113	a
 na
 d
 utu
@@ -63443,7 +63443,7 @@ ha
 zi
 ir
 disz
-65394	d
+66122	d
 suen
 mu
 sza
@@ -63480,7 +63480,7 @@ nig2
 szu
 a
 pil
-65432	d
+66160	d
 utu
 u3
 sa3
@@ -63683,7 +63683,7 @@ sza
 d
 utu
 sza
-65636	it
+66364	it
 ti
 ia
 u2
@@ -63692,14 +63692,14 @@ in
 nam
 ru
 ma
-65646	a
+66374	a
 sza3
 na
 da
 nam
 aq
 bi
-65654	it
+66382	it
 ti
 ia
 u2
@@ -63721,7 +63721,7 @@ szu
 nu
 szi
 im
-65677	x
+66405	x
 a
 ma
 a
@@ -63744,7 +63744,7 @@ in
 na
 am
 ru
-65701	tap
+66429	tap
 pe2
 e
 szu
@@ -63770,13 +63770,13 @@ a
 na
 a
 pil
-65728	d
+66456	d
 utu
 u2
 tul2
 n
 4(bur3)
-65735	a
+66463	a
 sza3
 li
 ib
@@ -63819,7 +63819,7 @@ a
 na
 a
 pil
-65779	d
+66507	d
 utu
 la
 ta
@@ -63841,14 +63841,14 @@ ra
 szu
 a
 na
-65802	ka
+66530	ka
 ni
 ki
 im
 sza
 a
 pil
-65810	d
+66538	d
 utu
 u2
 tul2
@@ -63871,7 +63871,7 @@ a
 na
 a
 pil
-65834	d
+66562	d
 utu
 a
 me
@@ -63881,7 +63881,7 @@ szu
 id
 na
 szum
-a
+66573	a
 na
 d
 utu
@@ -63962,7 +63962,7 @@ pa
 ni
 tim
 2(bur'u)
-65926	a
+66655	a
 sza3
 am
 sza
@@ -64046,7 +64046,7 @@ asz
 szu
 u2
 2(bur'u)
-66011	a
+66740	a
 sza3
 am
 u2
@@ -64094,10 +64094,10 @@ ad
 di
 isz
 szum
-a
+66789	a
 na
 lu2
-66063	d
+66793	d
 nin
 urta
 disz
@@ -64117,7 +64117,7 @@ nu
 um
 ki
 ma
-66084	d
+66814	d
 suen
 qi2
 bi2
@@ -64127,7 +64127,7 @@ ma
 d
 ri
 im
-66095	d
+66825	d
 suen
 be
 el
@@ -64153,7 +64153,7 @@ at
 tu
 nu
 sag
-66122	a
+66852	a
 na
 u2
 tu
@@ -64161,7 +64161,7 @@ nim
 i
 di
 a
-a
+66861	a
 na
 d
 utu
@@ -64214,7 +64214,7 @@ wi
 lum
 ki
 ma
-66184	um
+66915	um
 u2
 ul
 ti
@@ -64315,7 +64315,7 @@ ur
 da
 asz
 szu
-a
+67017	a
 na
 d
 utu
@@ -64328,7 +64328,7 @@ ma
 um
 ma
 lu2
-66299	d
+67031	d
 nin
 urta
 ma
@@ -64353,7 +64353,7 @@ sa3
 ni
 iq
 pi4
-66325	d
+67057	d
 utu
 sza
 a
@@ -64401,7 +64401,7 @@ x
 disz
 a
 pil
-66374	d
+67106	d
 mar
 tu
 szu
@@ -64426,7 +64426,7 @@ szu
 up
 ra
 am
-a
+67132	a
 na
 d
 utu
@@ -64439,7 +64439,7 @@ ma
 um
 ma
 lu2
-66413	d
+67146	d
 nin
 urta
 ma
@@ -64457,7 +64457,7 @@ am
 sza
 sze
 ep
-66432	d
+67165	d
 suen
 na
 szu
@@ -64517,7 +64517,7 @@ a
 na
 sze
 ep
-66493	d
+67226	d
 suen
 na
 ad
@@ -64571,7 +64571,7 @@ mesz
 sza
 sze
 ep
-66548	d
+67281	d
 suen
 s,a
 ab
@@ -64599,7 +64599,7 @@ lu
 pu
 ul
 szu
-a
+67310	a
 na
 lu2
 igi
@@ -64659,9 +64659,9 @@ a
 wi
 lum
 sza
-66638	d
+67372	d
 nanna
-a
+67375	a
 na
 lu2
 igi
@@ -64708,7 +64708,7 @@ i
 im
 ma
 ar
-a
+67423	a
 na
 lu2
 igi
@@ -64734,7 +64734,7 @@ ma
 it
 ti
 disz
-66714	d
+67450	d
 iszkur
 illat
 gan2
@@ -64742,7 +64742,7 @@ lam
 li
 s,i
 du
-a
+67459	a
 na
 lu2
 igi
@@ -64754,7 +64754,7 @@ um
 ma
 nu
 ur2
-66735	d
+67472	d
 suen
 ma
 pa
@@ -64764,7 +64764,7 @@ am
 sza
 a
 x
-66746	sza
+67483	sza
 a
 na
 ku
@@ -64781,7 +64781,7 @@ li
 mu
 dumu
 ku3
-66764	d
+67501	d
 nanna
 i
 he
@@ -64809,12 +64809,12 @@ ku
 bi
 qi2
 bi2
-a
+67530	a
 na
 li
 pi2
 it
-66798	d
+67536	d
 suen
 qi2
 bi2
@@ -64838,7 +64838,7 @@ ka
 li
 ku
 lu
-a
+67561	a
 na
 lu2
 igi
@@ -64850,11 +64850,11 @@ um
 ma
 nu
 ur2
-66835	d
+67574	d
 suen
 ma
 dumu
-66841	a
+67580	a
 ni
 im
 a
@@ -64895,7 +64895,7 @@ szu
 a
 pu
 tum
-a
+67622	a
 na
 lu2
 igi
@@ -64907,7 +64907,7 @@ um
 ma
 nu
 ur2
-66895	d
+67635	d
 suen
 ma
 gan2
@@ -64925,7 +64925,7 @@ ta
 mi
 i
 i
-66914	u2
+67654	u2
 a
 u2
 su
@@ -64941,7 +64941,7 @@ szu
 a
 pu
 tum
-a
+67671	a
 na
 lu2
 igi
@@ -65040,7 +65040,7 @@ szu
 up
 ra
 am
-a
+67771	a
 na
 lu2
 gi
@@ -65063,7 +65063,7 @@ ba
 li2
 it,
 i
-67053	u2
+67795	u2
 um
 at
 ta
@@ -65133,9 +65133,9 @@ li
 ia
 ti
 szu
-a
+67866	a
 na
-67126	ku
+67869	ku
 bi
 qi2
 bi2
@@ -65171,7 +65171,7 @@ bi
 lam
 a
 na
-67163	ku
+67906	ku
 bi
 lu2
 igi
@@ -65182,11 +65182,11 @@ li2
 a
 hu
 um
-a
+67918	a
 na
 nu
 ur2
-67179	d
+67923	d
 suen
 be
 li2
@@ -65246,7 +65246,7 @@ wu
 usz
 sze
 er
-a
+67984	a
 na
 i
 szar
@@ -65265,7 +65265,7 @@ igi
 sa6
 ma
 2(bur3)
-67259	szu
+68004	szu
 ku
 si2
 la
@@ -65279,7 +65279,7 @@ sza
 disz
 nu
 ur2
-67274	d
+68019	d
 suen
 s,a
 ab
@@ -65288,7 +65288,7 @@ ak
 ku
 u3
 3(bur3)
-67284	at
+68029	at
 ta
 tu
 re
@@ -65297,7 +65297,7 @@ am
 disz
 nu
 ur2
-67294	d
+68039	d
 suen
 a
 na
@@ -65366,7 +65366,7 @@ li2
 a
 hu
 um
-a
+68109	a
 na
 lu2
 igi
@@ -65377,7 +65377,7 @@ ma
 um
 ma
 ku3
-67375	d
+68121	d
 nanna
 ma
 szum
@@ -65390,7 +65390,7 @@ hi
 at
 ta
 disz
-67389	d
+68135	d
 suen
 i
 din
@@ -65436,7 +65436,7 @@ bi
 la
 ku
 um
-a
+68182	a
 na
 lu2
 igi
@@ -65472,7 +65472,7 @@ a
 na
 nu
 ur2
-67472	d
+68219	d
 suen
 qi2
 bi2
@@ -65505,7 +65505,7 @@ ka
 u3
 ip
 qu2
-67506	d
+68253	d
 lamma
 a
 s,e2
@@ -65534,7 +65534,7 @@ a
 na
 nu
 ur2
-67536	d
+68283	d
 suen
 qi2
 bi2
@@ -65559,11 +65559,11 @@ szu
 bi
 lam
 ma
-a
+68309	a
 na
 nu
 ur2
-67566	d
+68314	d
 suen
 be
 li2
@@ -65593,7 +65593,7 @@ sze
 gur
 a
 na
-67597	ku
+68345	ku
 bi
 i
 di
@@ -65621,7 +65621,7 @@ szum
 ma
 a
 na
-67626	ku
+68374	ku
 bi
 ta
 na
@@ -65629,7 +65629,7 @@ hi
 su2
 um
 x
-67635	a
+68383	a
 wi
 lu
 u2
@@ -65680,7 +65680,7 @@ ha
 al
 la
 lu
-a
+68435	a
 na
 lu2
 igi
@@ -65699,7 +65699,7 @@ ma
 disz
 im
 gur
-67706	d
+68455	d
 suen
 dumu
 disz
@@ -65708,7 +65708,7 @@ nu
 um
 ki
 ma
-67716	d
+68465	d
 suen
 i
 na
@@ -65757,7 +65757,7 @@ um
 a
 wi
 lum
-67766	u2
+68515	u2
 um
 ni
 pa
@@ -65768,7 +65768,7 @@ wu
 sze
 er
 szum
-a
+68527	a
 na
 lu2
 igi
@@ -65780,7 +65780,7 @@ um
 ma
 nu
 ur2
-67790	d
+68540	d
 suen
 ma
 a
@@ -65875,7 +65875,7 @@ im
 li
 li
 ik
-a
+68636	a
 na
 lu2
 igi
@@ -65920,7 +65920,7 @@ na
 ku3
 babbar
 ur
-67931	d
+68682	d
 ba
 ba6
 d
@@ -66031,7 +66031,7 @@ e
 he
 pi
 i
-a
+68794	a
 na
 lu2
 gi
@@ -66100,7 +66100,7 @@ iz
 a
 pu
 tum
-a
+68864	a
 na
 er3
 ra
@@ -66117,7 +66117,7 @@ igi
 sa6
 ma
 2(esze3)
-68129	4(u)
+68882	4(u)
 sar
 sahar
 i
@@ -66127,7 +66127,7 @@ bi
 szu
 nu
 3(iku)
-68140	4(u)
+68893	4(u)
 sar
 sahar
 te
@@ -66138,7 +66138,7 @@ tu
 u2
 la
 ta
-68153	ma
+68906	ma
 i
 ki
 ka
@@ -66190,9 +66190,9 @@ ma
 ik
 szu
 da
-a
+68959	a
 na
-68208	x
+68962	x
 (x)
 qi2
 bi2
@@ -66218,7 +66218,7 @@ nim
 a
 na
 ta
-68235	i
+68989	i
 ti
 im
 isz
@@ -66253,11 +66253,11 @@ ta
 la
 ka
 am
-a
+69025	a
 na
 nu
 ur2
-68275	d
+69030	d
 suen
 be
 li2
@@ -66279,7 +66279,7 @@ di
 na
 asz
 sza
-68298	e
+69053	e
 em
 s,u2
 um
@@ -66297,7 +66297,7 @@ a
 hi
 ia
 dumu
-68317	ri
+69072	ri
 tum
 disz
 er3
@@ -66331,7 +66331,7 @@ nu
 u4
 hu
 ru
-a
+69107	a
 na
 mi
 nam
@@ -66365,7 +66365,7 @@ ka
 a
 na
 hi
-68387	szu
+69143	szu
 sag
 geme2
 sza
@@ -66392,7 +66392,7 @@ ib
 ba
 szi
 a
-a
+69171	a
 na
 szu
 mi
@@ -66484,12 +66484,12 @@ nim
 ma
 x[...
 asz2
-68507	a
+69265	a
 na
 szi
 ma
 at
-68513	d
+69271	d
 suen
 qi2
 bi2
@@ -66638,10 +66638,10 @@ i
 la
 ak
 x
-68663	a
+69421	a
 x
 (x)
-68667	pa
+69425	pa
 a
 am
 x
@@ -66692,7 +66692,7 @@ ga
 am
 ra
 am
-68719	x
+69477	x
 x
 (x)
 x
@@ -66702,7 +66702,7 @@ a
 nu
 um
 x
-a
+69488	a
 na
 t,a2
 ri
@@ -66766,7 +66766,7 @@ ia
 t,u2
 ur
 dam
-a
+69553	a
 na
 ba
 ni
@@ -66779,7 +66779,7 @@ ma
 i
 ku
 pi4
-68807	d
+69567	d
 suen
 ma
 sza
@@ -66795,7 +66795,7 @@ ri
 isz
 a
 ta
-68824	al
+69584	al
 disz
 su2
 mu
@@ -66804,7 +66804,7 @@ be2
 li
 lu
 a
-68834	al
+69594	al
 isz
 tu
 a
@@ -66822,7 +66822,7 @@ wa
 ar
 hu
 um
-68853	al
+69613	al
 gu
 u2
 a
@@ -66850,7 +66850,7 @@ sza
 disz
 nu
 ur2
-68882	d
+69642	d
 suen
 i
 mu
@@ -66861,7 +66861,7 @@ ku
 u2
 a
 na
-68894	al
+69654	al
 gi
 ia
 pe
@@ -66874,7 +66874,7 @@ ma
 u3
 ia
 ti
-68908	i
+69668	i
 du
 ka
 ni
@@ -66884,7 +66884,7 @@ as
 ha
 at
 x
-68920	igi
+69680	igi
 d
 nanna
 ma
@@ -66895,7 +66895,7 @@ x
 x
 ti
 li
-68932	i3
+69692	i3
 li2
 igi
 d
@@ -66915,7 +66915,7 @@ mu
 igi
 hu
 ba
-68953	igi
+69713	igi
 e
 te
 el
@@ -66923,17 +66923,17 @@ lum
 igi
 dingir
 lum
-68963	igi
+69723	igi
 im
 lik
-68967	d
+69727	d
 suen
 igi
 a
 pil
 a
 hi
-a
+69735	a
 na
 d
 suen
@@ -67013,12 +67013,12 @@ mu
 3(disz)
 kam
 am
-69055	a
+69816	a
 sza3
 lum
 u2
 ul
-69061	ri
+69822	ri
 a
 na
 ku
@@ -67155,7 +67155,7 @@ ka
 na
 szu
 tu
-69199	a
+69961	a
 na
 a
 ma
@@ -67179,7 +67179,7 @@ am
 sza
 im
 gur
-69224	d
+69986	d
 suen
 a
 na
@@ -67211,7 +67211,7 @@ i
 a
 pu
 tum
-a
+70019	a
 na
 um
 mi
@@ -67379,7 +67379,7 @@ a
 na
 di
 i
-a
+70188	a
 na
 a
 bi
@@ -67391,7 +67391,7 @@ um
 ma
 an
 pi4
-69437	d
+70201	d
 nin
 szubur
 ma
@@ -67424,7 +67424,7 @@ dumu
 ku
 bu
 lum
-69471	x
+70235	x
 x
 2/3(disz)
 ma
@@ -67438,7 +67438,7 @@ na
 sa10
 1(disz)
 sag
-69486	a
+70250	a
 na
 d
 suen
@@ -67463,7 +67463,7 @@ ma
 u2
 ul
 sag
-69512	ku3
+70276	ku3
 babbar
 am
 a
@@ -67513,7 +67513,7 @@ rum
 isz
 tu
 iti
-69564	gar
+70328	gar
 u4
 1(u)
 6(disz)
@@ -67599,7 +67599,7 @@ x
 x
 ma
 har
-69651	li
+70415	li
 ik
 ru
 ba
@@ -67625,7 +67625,7 @@ li
 sza
 bi
 lam
-a
+70442	a
 na
 be
 li2
@@ -67698,7 +67698,7 @@ al
 ki
 it
 5(bur'u)
-69751	ki
+70516	ki
 duru5
 sa
 an
@@ -67706,41 +67706,41 @@ ga
 ru
 um
 5(bur3)
-69760	ki
+70525	ki
 duru5
 i
 la
 ni
 4(bur'u)
-69767	ki
-69769	2(bur'u)
-69771	ki
+70532	ki
+70534	2(bur'u)
+70536	ki
 duru5
 dumu
 a
 bi
 ia
 1(bur'u)
-69779	ki
+70544	ki
 duru5
 5(bur3)
-69783	ki
-69785	ba
+70548	ki
+70550	ba
 ti
 ia
 1(bur'u)
-69790	ki
+70555	ki
 duru5
 isz
 me
-69795	d
+70560	d
 iszkur
 1(bur'u)
-69799	ki
+70564	ki
 duru5
 4(bur3)
-69803	ki
-69805	dumu
+70568	ki
+70570	dumu
 mesz
 d
 suen
@@ -67785,7 +67785,7 @@ i
 ta
 la
 ak
-a
+70616	a
 na
 szu
 mi
@@ -67841,11 +67841,11 @@ id
 a
 pu
 tum
-a
+70673	a
 na
 nu
 ur2
-69911	d
+70678	d
 utu
 qi2
 bi2
@@ -67880,8 +67880,8 @@ am
 sza
 al
 ma
-69947	disz
-69949	d
+70714	disz
+70716	d
 suen
 ra
 x
@@ -67891,7 +67891,7 @@ dam
 x
 x
 x
-a
+70727	a
 na
 ba
 ni
@@ -67909,7 +67909,7 @@ ma
 gin2
 ku3
 sig17
-69980	a
+70748	a
 na
 i
 szar
@@ -67922,7 +67922,7 @@ bi
 u3
 na
 bi
-69994	d
+70762	d
 en
 lil2
 usz
@@ -67957,7 +67957,7 @@ im
 ta
 ha
 ar
-a
+70798	a
 na
 ba
 a
@@ -67975,7 +67975,7 @@ um
 ma
 nu
 ur2
-70048	d
+70817	d
 suen
 ma
 a
@@ -68062,7 +68062,7 @@ ad
 ku
 nu
 ut
-a
+70905	a
 na
 nam
 ra
@@ -68084,7 +68084,7 @@ um
 ma
 gi
 mil
-70158	d
+70928	d
 gu
 la
 ma
@@ -68116,7 +68116,7 @@ a
 na
 an
 pi2
-70191	d
+70961	d
 suen
 ugula
 mar
@@ -68204,7 +68204,7 @@ asz
 szum
 an
 pi2
-70280	d
+71050	d
 suen
 ugula
 mar
@@ -68248,7 +68248,7 @@ na
 nu
 um
 ki
-70325	ma
+71095	ma
 e
 ep
 sza
@@ -68316,7 +68316,7 @@ mesz
 lu
 usz
 pur
-a
+71164	a
 na
 t,a2
 ri
@@ -68352,7 +68352,7 @@ pu
 a
 at
 disz
-70430	d
+71201	d
 nanna
 ra
 mu
@@ -68391,7 +68391,7 @@ sze
 sze
 er
 szu
-a
+71241	a
 na
 d
 utu
@@ -68515,7 +68515,7 @@ babbar
 szu
 bi
 lam
-a
+71366	a
 na
 ku
 bu
@@ -68561,7 +68561,7 @@ ma
 u2
 ul
 te
-70640	ma
+71413	ma
 an
 ni
 i
@@ -68589,13 +68589,13 @@ i
 na
 na
 ka
-70669	u2
+71442	u2
 ul
 i
 ba
 asz
 szi
-70676	d
+71449	d
 pa
 bil
 sag
@@ -68611,7 +68611,7 @@ a
 na
 sza
 at
-70693	d
+71466	d
 utu
 sa3
 bi
@@ -68627,7 +68627,7 @@ na
 na
 ra
 am
-70710	d
+71483	d
 iszkur
 um
 ma
@@ -68684,10 +68684,10 @@ isz
 ap
 pu
 tum
-a
+71541	a
 na
 puzur4
-70771	d
+71545	d
 mar
 tu
 u3
@@ -68766,7 +68766,7 @@ al
 ku
 nu
 ti
-a
+71625	a
 na
 d
 suen
@@ -68784,7 +68784,7 @@ din
 na
 ma
 lu
-70869	ur2
+71644	ur2
 ta
 am
 sza
@@ -68810,7 +68810,7 @@ a
 na
 disz
 puzur4
-70896	d
+71671	d
 mar
 tu
 id
@@ -68827,7 +68827,7 @@ am
 sza
 a
 na
-70914	di
+71689	di
 im
 i
 re
@@ -68840,10 +68840,10 @@ am
 a
 pu
 tum
-a
+71703	a
 na
 puzur4
-70931	d
+71707	d
 utu
 qi2
 bi2
@@ -68858,7 +68858,7 @@ ma
 asz
 szum
 1(bur3)
-70947	a
+71723	a
 sza3
 ne
 pe2
@@ -68946,10 +68946,10 @@ dib
 i
 di
 in
-a
+71812	a
 na
 szu
-71039	d
+71816	d
 tiszpak
 u3
 d
@@ -69030,9 +69030,9 @@ na
 a
 ma
 ri
-71121	us2
+71898	us2
 ha
-a
+71901	a
 na
 gi
 da
@@ -69117,7 +69117,7 @@ am
 du
 ud
 ma
-a
+71987	a
 na
 dingir
 na
@@ -69199,9 +69199,9 @@ im
 a
 pu
 tum
-71291	ru
+72070	ru
 u2
-a
+72073	a
 na
 na
 ra
@@ -69277,7 +69277,7 @@ ta
 na
 zi
 qi2
-a
+72150	a
 na
 d
 marduk
@@ -69312,7 +69312,7 @@ na
 a
 wi
 il
-71405	d
+72186	d
 suen
 asz
 tap
@@ -69335,11 +69335,11 @@ dingir
 mu
 tab
 bil
-71429	lu2
+72210	lu2
 kikken2
 i
 na
-71434	gesz
+72215	gesz
 ma2
 la2
 szu
@@ -69356,7 +69356,7 @@ szu
 ri
 a
 am
-a
+72233	a
 na
 d
 marduk
@@ -69513,7 +69513,7 @@ ia
 szu
 bi
 lam
-a
+72393	a
 na
 i
 din
@@ -69702,7 +69702,7 @@ um
 li
 ib
 lam
-a
+72583	a
 na
 a
 wi
@@ -69847,7 +69847,7 @@ na
 la
 szuku
 disz
-71943	d
+72729	d
 suen
 na
 di
@@ -69868,7 +69868,7 @@ ru
 du
 nim
 disz
-71966	d
+72752	d
 marduk
 sza
 il
@@ -70024,7 +70024,7 @@ pa
 al
 la
 ta
-72123	a
+72909	a
 da
 ar
 u3
@@ -70080,7 +70080,7 @@ te
 ed
 di
 ka
-a
+72966	a
 na
 a
 bi
@@ -70181,7 +70181,7 @@ ka
 ta
 d
 suen
-72281	d
+73068	d
 mar
 tu
 iz
@@ -70291,7 +70291,7 @@ ta
 ri
 bu
 sza
-72392	ra
+73179	ra
 ti
 ta
 asz
@@ -70375,7 +70375,7 @@ marduk
 u3
 d
 suen
-72477	d
+73264	d
 mar
 tu
 sza
@@ -70427,7 +70427,7 @@ lu
 uk
 ru
 ub
-a
+73317	a
 na
 be
 li2
@@ -70441,7 +70441,7 @@ be
 el
 szu
 nu
-72544	ka
+73332	ka
 ma
 isz
 tu
@@ -70589,11 +70589,11 @@ hi
 li
 a
 sar
-72693	szum2
+73481	szum2
 szum2
 sikil
 sar
-72698	szu
+73486	szu
 bi
 lam
 ma
@@ -70848,7 +70848,7 @@ pa
 szu
 bi
 lam
-a
+73742	a
 na
 be
 li2
@@ -70903,7 +70903,7 @@ asz
 ba
 a
 nu
-73009	gesz
+73798	gesz
 ma2
 me
 he
@@ -70967,7 +70967,7 @@ tum
 u3
 ri
 isz
-73074	d
+73863	d
 utu
 i
 na
@@ -71005,7 +71005,7 @@ qa2
 ti
 szu
 nu
-73113	gesz
+73902	gesz
 ma2
 bu
 uh
@@ -71048,9 +71048,9 @@ al
 li
 kam
 ma
-73157	disz
+73946	disz
 dumu
-73160	d
+73949	d
 utu
 sza
 pi2
@@ -71075,7 +71075,7 @@ ki
 i
 ri
 isz
-73186	d
+73975	d
 utu
 u3
 lu2
@@ -71089,7 +71089,7 @@ ul
 i
 de
 e
-73201	gesz
+73990	gesz
 ma2
 u2
 sza
@@ -71115,7 +71115,7 @@ szu
 u2
 iri
 ki
-73228	u2
+74017	u2
 sza
 at,
 t,i
@@ -71150,7 +71150,7 @@ sze
 me
 e
 ka
-73264	asz
+74053	asz
 pu
 ra
 am
@@ -71187,7 +71187,7 @@ isz
 pu
 ra
 am
-a
+74091	a
 na
 a
 wi
@@ -71324,7 +71324,7 @@ mesz
 sza
 qa2
 ti
-73440	d
+74230	d
 mar
 tu
 sza3
@@ -71359,7 +71359,7 @@ ban2
 d
 marduk
 gu2
-73476	a
+74266	a
 na
 sze
 e
@@ -71376,7 +71376,7 @@ mesz
 sza
 qa2
 ti
-73495	d
+74285	d
 mar
 tu
 i
@@ -71412,7 +71412,7 @@ di
 nu
 ni
 gu2
-73532	szu
+74322	szu
 um
 hi
 ir
@@ -71531,14 +71531,14 @@ ka
 szu
 bi
 la
-a
+74442	a
 na
 ugula
 dam
 gar3
 zimbir
 ki
-73659	ia
+74450	ia
 ah
 ru
 rum
@@ -71581,7 +71581,7 @@ dam
 gar3
 zimbir
 ki
-73703	ia
+74494	ia
 ah
 ru
 rum
@@ -71694,7 +71694,7 @@ ki
 szu
 bi
 lam
-a
+74608	a
 na
 be
 li2
@@ -71707,7 +71707,7 @@ ma
 ip
 qa2
 tum
-73830	ka
+74622	ka
 ma
 ki
 ma
@@ -71942,7 +71942,7 @@ am
 a
 na
 ku
-74066	ka
+74858	ka
 s,i
 bu
 ut
@@ -72096,7 +72096,7 @@ sza
 ab
 ba
 lam
-a
+75013	a
 na
 i
 pi2
@@ -72112,7 +72112,7 @@ um
 ma
 i
 din
-74237	d
+75030	d
 suen
 ma
 a
@@ -72124,7 +72124,7 @@ d
 utu
 u3
 d
-74254	li
+75047	li
 ba
 li
 t,u2
@@ -72377,7 +72377,7 @@ kam
 asz
 szum
 disz
-74508	d
+75301	d
 iszkur
 ra
 ma
@@ -72400,7 +72400,7 @@ ut
 u3
 sza
 rum
-74532	d
+75325	d
 iszkur
 da
 ha
@@ -72419,7 +72419,7 @@ ta
 na
 zi
 iq
-ki
+75345	ki
 ma
 be
 li2
@@ -72524,7 +72524,7 @@ na
 ap
 su
 nu
-74657	d
+75451	d
 da
 ra
 pi2
@@ -72617,7 +72617,7 @@ ri
 dumu
 is
 si
-74751	d
+75545	d
 da
 gan
 u3
@@ -72695,7 +72695,7 @@ ki
 ub
 lam
 disz
-74830	d
+75624	d
 suen
 i
 qi2
@@ -72832,14 +72832,14 @@ na
 te
 mi
 iq
-74968	x
+75762	x
 x
 x
 x
 ni
 szi
 disz
-74976	d
+75770	d
 suen
 i
 qi2
@@ -72963,7 +72963,7 @@ tu
 sza
 bi
 lu
-75101	ki
+75895	ki
 ma
 ik
 ke
@@ -72990,7 +72990,7 @@ du
 u2
 iri
 ki
-75129	szu
+75923	szu
 nu
 id
 du
@@ -73044,7 +73044,7 @@ it
 tu
 ru
 nim
-75184	disz
+75978	disz
 zi
 im
 ri
@@ -73229,7 +73229,7 @@ nu
 ma
 ki
 ma
-75370	pi2
+76164	pi2
 ri
 isz
 ti
@@ -73284,7 +73284,7 @@ te
 e
 su
 mu
-75426	d
+76220	d
 da
 gan
 u3
@@ -73341,7 +73341,7 @@ nim
 disz
 gi
 mil
-75484	d
+76278	d
 marduk
 a
 ha
@@ -73355,7 +73355,7 @@ am
 mu
 u2
 na
-75499	ah
+76293	ah
 i
 id
 isz
@@ -73527,7 +73527,7 @@ ni
 ik
 ru
 ub
-a
+76466	a
 na
 sza
 pi2
@@ -73549,7 +73549,7 @@ um
 ma
 gi
 mil
-75694	d
+76489	d
 marduk
 ma
 d
@@ -73753,7 +73753,7 @@ ak
 kum
 szum2
 sar
-75899	sza
+76694	sza
 sza
 pi2
 ir
@@ -73790,7 +73790,7 @@ bi
 la
 ak
 kum
-a
+76732	a
 na
 be
 li2
@@ -73800,7 +73800,7 @@ bi2
 ma
 um
 ma
-75948	d
+76744	d
 ul
 masz
 tum
@@ -73877,8 +73877,8 @@ li2
 qi2
 isz
 ti
-76026	d
-76028	li
+76822	d
+76824	li
 isz
 ta
 al
@@ -73997,14 +73997,14 @@ sa
 a
 a
 na
-76148	gesz
+76944	gesz
 x
 usz
 te
 ri
 ib
 nu
-76156	gesz
+76952	gesz
 kiri6
 mesz
 a
@@ -74062,7 +74062,7 @@ i
 sze
 mu
 u2
-a
+77011	a
 na
 a
 hu
@@ -74143,7 +74143,7 @@ u3
 lu
 a
 ad
-76296	d
+77093	d
 marduk
 a
 na
@@ -74194,7 +74194,7 @@ szu
 nu
 szi
 im
-a
+77145	a
 na
 a
 wi
@@ -74215,7 +74215,7 @@ um
 ma
 ib
 ni
-76369	d
+77167	d
 utu
 ma
 d
@@ -74443,7 +74443,7 @@ babbar
 i
 ka
 ku
-76598	im
+77396	im
 le
 qe2
 e
@@ -74504,7 +74504,7 @@ szu
 up
 ra
 am
-a
+77458	a
 na
 ma
 ta
@@ -74660,11 +74660,11 @@ zabar
 szu
 bi
 lim
-a
+77615	a
 na
 i
 bi
-76820	d
+77620	d
 nin
 szubur
 qi2
@@ -74733,7 +74733,7 @@ nu
 um
 ma
 disz
-76891	d
+77691	d
 inanna
 asz
 tap
@@ -74774,7 +74774,7 @@ u3
 ku3
 babbar
 disz
-76934	d
+77734	d
 inanna
 i
 sza
@@ -74783,7 +74783,7 @@ isz
 ap
 lam
 disz
-76945	d
+77745	d
 inanna
 la
 ta
@@ -74801,7 +74801,7 @@ ap
 la
 asz
 szu
-a
+77764	a
 na
 be
 el
@@ -74824,7 +74824,7 @@ t,e4
 eh
 szu
 sza
-76987	gesz
+77788	gesz
 tukul
 ia
 wa
@@ -74902,7 +74902,7 @@ qa2
 al
 la
 al
-dingir
+77867	dingir
 ka
 d
 nin
@@ -75001,7 +75001,7 @@ ku
 sza
 2(esze3)
 2(iku)
-77165	a
+77967	a
 sza3
 ab
 sin2
@@ -75268,7 +75268,7 @@ i
 ma
 ra
 as,
-ki
+78235	ki
 ma
 isz
 tu
@@ -75369,7 +75369,7 @@ tu
 usz
 ta
 a
-disz
+78337	disz
 tam
 la
 tum
@@ -75378,7 +75378,7 @@ gar3
 dumu
 qi2
 isz
-77543	d
+78347	d
 nu
 nu
 ma2
@@ -75545,7 +75545,7 @@ qi2
 a
 asz
 szi
-1(disz)
+78515	1(disz)
 gin2
 ku3
 babbar
@@ -75554,7 +75554,7 @@ na
 sa10
 szum2
 sar
-77720	1(disz)
+78525	1(disz)
 gin2
 ku3
 babbar
@@ -75565,7 +75565,7 @@ szum2
 sikil
 lum
 sar
-77732	i
+78537	i
 nu
 ma
 isz
@@ -75598,12 +75598,12 @@ nu
 ma
 szum2
 sar
-77766	u3
+78571	u3
 szum2
 sikil
 lum
 sar
-77772	ta
+78577	ta
 ap
 pu
 lu
@@ -75638,7 +75638,7 @@ szum2
 sikil
 lum
 sar
-77808	u2
+78613	u2
 ul
 a
 sza
@@ -75654,12 +75654,12 @@ kum
 a
 na
 nu
-77825	gesz
+78630	gesz
 kiri6
 sza
 i
 din
-77831	d
+78636	d
 nin
 szubur
 sza
@@ -75677,12 +75677,12 @@ im
 ma
 szum2
 sar
-77850	u3
+78655	u3
 szum2
 sikil
 lum
 sar
-77856	ki
+78661	ki
 ma
 ku
 ul
@@ -75731,12 +75731,12 @@ szum
 ma
 szum2
 sar
-77906	u3
+78711	u3
 szum2
 sikil
 lum
 sar
-77912	i
+78717	i
 s,u2
 i
 na
@@ -75799,12 +75799,12 @@ it
 ti
 szum2
 sar
-77976	u3
+78781	u3
 szum2
 sikil
 lum
 sar
-77982	al
+78787	al
 ka
 am
 ma
@@ -75842,7 +75842,7 @@ x
 x
 (x)
 (x)
-a
+78826	a
 na
 d
 na
@@ -76044,7 +76044,7 @@ ka
 2(disz)
 szu
 szi
-78223	gi
+79029	gi
 pisan
 hi
 a
@@ -76069,7 +76069,7 @@ usz
 ta
 bi
 lam
-i
+79055	i
 nu
 ma
 i
@@ -76316,7 +76316,7 @@ a
 na
 munu4
 sar
-78496	ad
+79303	ad
 di
 nu
 (x)
@@ -76380,7 +76380,7 @@ u3
 gur
 munu4
 sar
-78561	a
+79368	a
 na
 d
 utu
@@ -76424,7 +76424,7 @@ pa
 ar
 ra
 ak
-a
+79413	a
 na
 dumu
 er
@@ -76434,7 +76434,7 @@ disz
 ra
 bu
 ut
-78616	d
+79424	d
 utu
 u3
 d
@@ -76551,7 +76551,7 @@ la
 ta
 gi
 a
-a
+79542	a
 na
 be
 be
@@ -76563,7 +76563,7 @@ um
 ma
 ib
 ni
-78746	d
+79555	d
 iszkur
 ma
 d
@@ -76746,7 +76746,7 @@ ah
 i
 pu
 usz
-a
+79739	a
 na
 a
 ap
@@ -76759,7 +76759,7 @@ um
 ma
 gi
 mil
-78943	d
+79753	d
 marduk
 d
 utu
@@ -76833,7 +76833,7 @@ isz
 si
 in
 qa2
-a
+79828	a
 na
 e2
 idim
@@ -76848,7 +76848,7 @@ ma
 um
 ma
 lu2
-79033	d
+79844	d
 mah
 ma
 d
@@ -76870,7 +76870,7 @@ ku
 a
 na
 geme2
-79056	d
+79867	d
 utu
 la
 te
@@ -76915,7 +76915,7 @@ ti
 dumu
 munus
 lugal
-79102	d
+79913	d
 iszkur
 at
 ta
@@ -76942,7 +76942,7 @@ ia
 szu
 bi
 lam
-disz
+79941	disz
 a
 ma
 na
@@ -76959,16 +76959,16 @@ ku5
 lu2
 i
 szim
-79147	d
+79959	d
 szul
 gi
 disz
-79152	d
+79964	d
 nanna
 tum
 dumu
 ur
-79158	d
+79970	d
 lugal
 ban3
 da
@@ -77229,12 +77229,12 @@ ta
 na
 di
 in
-a
+80232	a
 na
 e
 ri
 ib
-79425	d
+80238	d
 suen
 qi2
 bi2
@@ -77243,7 +77243,7 @@ um
 ma
 ib
 ni
-79435	d
+80248	d
 tiszpak
 ma
 a
@@ -77256,7 +77256,7 @@ t,e4
 mi
 im
 sza
-79449	i3
+80262	i3
 li2
 szu
 dumu
@@ -77353,7 +77353,7 @@ ku3
 babbar
 am
 disz
-79547	i3
+80360	i3
 li2
 szu
 usz
@@ -77369,7 +77369,7 @@ ma
 szum
 ma
 disz
-79564	i3
+80377	i3
 li2
 szu
 ku3
@@ -77416,7 +77416,7 @@ gin2
 ku3
 babbar
 disz
-79612	d
+80425	d
 utu
 be
 el
@@ -77444,13 +77444,13 @@ ku3
 babbar
 e
 li
-79641	i3
+80454	i3
 li2
 szu
 i
 szu
 disz
-79648	i3
+80461	i3
 li2
 szu
 s,a
@@ -77503,7 +77503,7 @@ am
 szu
 bi
 lam
-a
+80515	a
 na
 ra
 ma
@@ -77640,10 +77640,10 @@ ra
 ri
 isz
 szu
-a
+80653	a
 na
 lu2
-79842	d
+80657	d
 mar
 tu
 qi2
@@ -77825,7 +77825,7 @@ ia
 szu
 bi
 lam
-a
+80840	a
 na
 be
 li2
@@ -77883,7 +77883,7 @@ u2
 a
 na
 disz
-80083	i3
+80899	i3
 li2
 szu
 asz
@@ -77896,7 +77896,7 @@ szu
 u2
 ma
 disz
-80097	d
+80913	d
 en
 lil2
 ma
@@ -77978,7 +77978,7 @@ nu
 um
 ma
 disz
-80180	d
+80996	d
 en
 lil2
 ma
@@ -78037,7 +78037,7 @@ ni
 ip
 pu
 usz
-80240	gi
+81056	gi
 gur
 da
 sza
@@ -78054,7 +78054,7 @@ hi
 li
 a
 sar
-80258	sza
+81074	sza
 tu
 sza
 bi
@@ -78067,9 +78067,9 @@ nim
 x
 x
 (x)
-80272	sza
+81088	sza
 disz
-80275	d
+81091	d
 marduk
 na
 s,ir
@@ -78085,7 +78085,7 @@ ma
 at
 ba
 al
-8(disz)
+81108	8(disz)
 sar
 ki
 gal2
@@ -78102,7 +78102,7 @@ isz
 sza
 mu
 disz
-80309	d
+81126	d
 marduk
 mu
 ba
@@ -78112,7 +78112,7 @@ dumu
 hu
 ul
 li
-80320	5(disz)
+81137	5(disz)
 sar
 ki
 gal2
@@ -78174,7 +78174,7 @@ la
 an
 ni
 2(esze3)
-80383	a
+81200	a
 sza3
 s,i
 bi
@@ -78197,7 +78197,7 @@ lu
 u2
 iri
 ki
-80407	id
+81224	id
 di
 nam
 ma
@@ -78248,7 +78248,7 @@ bu
 ut
 iri
 ki
-80459	il
+81276	il
 qu2
 ma
 a
@@ -78302,7 +78302,7 @@ bu
 ut
 iri
 ki
-80514	li
+81331	li
 sze
 lu
 nim
@@ -78347,12 +78347,12 @@ tim
 ib
 ni
 ka
-a
+81377	a
 na
 li
 pi2
 it
-80565	d
+81383	d
 iszkur
 qi2
 bi2
@@ -78420,7 +78420,7 @@ u3
 li
 pi2
 it
-80634	d
+81452	d
 iszkur
 i
 na
@@ -78552,7 +78552,7 @@ im
 lu
 ti
 szu
-a
+81585	a
 na
 a
 bi
@@ -78632,7 +78632,7 @@ disz
 a
 wi
 il
-80847	d
+81666	d
 x
 (x)
 a
@@ -78705,7 +78705,7 @@ ut
 ka
 lu
 mur
-a
+81740	a
 na
 be
 li2
@@ -78780,7 +78780,7 @@ i
 din
 nam
 disz
-80996	d
+81816	d
 suen
 a
 ha
@@ -78789,7 +78789,7 @@ i
 din
 nam
 disz
-81006	d
+81826	d
 marduk
 ta
 ia
@@ -78799,7 +78799,7 @@ d
 na
 bi
 um
-81017	d
+81837	d
 ma
 lik
 ka
@@ -78847,7 +78847,7 @@ szu
 s,i2
 a
 am
-a
+81886	a
 na
 a
 bi
@@ -78884,7 +78884,7 @@ t,u2
 disz
 i
 bi
-81103	d
+81924	d
 nin
 szubur
 s,u2
@@ -78899,7 +78899,7 @@ i3
 li2
 szu
 disz
-81119	d
+81940	d
 na
 bi
 um
@@ -79074,7 +79074,7 @@ u2
 i
 de
 e
-isz
+82116	isz
 ti
 isz
 szu
@@ -79123,7 +79123,7 @@ mu
 ba
 li2
 it,
-81344	d
+82166	d
 marduk
 a
 na
@@ -79197,7 +79197,7 @@ mu
 ba
 li2
 it,
-81419	d
+82241	d
 marduk
 i
 di
@@ -79214,12 +79214,12 @@ di
 in
 szum2
 sar
-81437	u3
+82259	u3
 szum2
 sikil
 lum
 sar
-81443	sza
+82265	sza
 2(disz)
 gin2
 ku3
@@ -79235,7 +79235,7 @@ ti
 sza
 am
 disz
-81460	d
+82282	d
 marduk
 mu
 sza
@@ -79341,7 +79341,7 @@ lim
 zu
 un
 ni
-a
+82389	a
 na
 li
 pi2
@@ -79350,7 +79350,7 @@ esz18
 dar
 u3
 lu2
-81576	d
+82399	d
 ba
 ba6
 qi2
@@ -79387,7 +79387,7 @@ nu
 u2
 la
 sza
-81614	d
+82437	d
 ne3
 eri11
 gal
@@ -79446,7 +79446,7 @@ ap
 hu
 ri
 szu
-a
+82497	a
 na
 li
 pi2
@@ -79454,13 +79454,13 @@ it
 esz18
 dar
 lu2
-81682	d
+82506	d
 ba
 ba6
 u3
 qi2
 isz
-81689	d
+82513	d
 ma
 ma
 qi2
@@ -79546,7 +79546,7 @@ na
 a
 szi
 im
-a
+82600	a
 na
 li
 pi2
@@ -79555,7 +79555,7 @@ esz18
 dar
 u3
 lu2
-81785	d
+82610	d
 ba
 ba6
 qi2
@@ -79594,21 +79594,21 @@ u3
 1(disz)
 ku
 bu
-81825	sza
+82650	sza
 szu
-81828	d
-81830	i
+82653	d
+82655	i
 ti
 disz
 ka
 ab
-81836	i
+82661	i
 na
 sza
 ku
 ru
 x
-81843	szu
+82668	szu
 pu
 ur
 ma
@@ -79620,7 +79620,7 @@ szu
 ri
 a
 szu
-a
+82681	a
 na
 li
 pi2
@@ -79629,7 +79629,7 @@ esz18
 dar
 u3
 lu2
-81865	d
+82691	d
 ba
 ba6
 qi2
@@ -79679,7 +79679,7 @@ ba
 szu
 nu
 ti
-a
+82742	a
 na
 li
 pi2
@@ -79688,7 +79688,7 @@ esz18
 dar
 u3
 lu2
-81925	d
+82752	d
 ba
 ba6
 qi2
@@ -79725,7 +79725,7 @@ ri
 a
 ni
 im
-a
+82790	a
 na
 li
 pi2
@@ -79734,7 +79734,7 @@ esz18
 dar
 u3
 lu2
-81972	d
+82800	d
 ba
 ba6
 qi2
@@ -79829,10 +79829,10 @@ al
 ku
 nu
 ut
-a
+82896	a
 na
 lu2
-82071	d
+82900	d
 ba
 ba6
 qi2
@@ -79854,7 +79854,7 @@ u2
 sza
 disz
 ur
-82094	d
+82923	d
 nin
 si
 an
@@ -79943,10 +79943,10 @@ ka
 a
 ma
 ar
-a
+83013	a
 na
 lu2
-82187	d
+83017	d
 ba
 ba6
 qi2
@@ -79971,7 +79971,7 @@ bi
 it
 er3
 ra
-82213	x
+83043	x
 i3
 li2
 x
@@ -80018,7 +80018,7 @@ am
 u3
 u
 bar
-82261	d
+83091	d
 suen
 i
 na
@@ -80038,10 +80038,10 @@ szu
 up
 ra
 am
-a
+83112	a
 na
 lu2
-82285	d
+83116	d
 ba
 ba6
 qi2
@@ -80058,7 +80058,7 @@ ma
 sze
 gur
 disz
-82303	d
+83134	d
 suen
 i
 di2
@@ -80087,10 +80087,10 @@ szu
 ku
 usz
 szu
-a
+83164	a
 na
 lu2
-82336	d
+83168	d
 ba
 ba6
 qi2
@@ -80104,7 +80104,7 @@ um
 ma
 im
 gur
-82351	d
+83183	d
 suen
 a
 bu
@@ -80117,10 +80117,10 @@ szu
 u2
 sze
 er
-a
+83197	a
 na
 lu2
-82368	d
+83201	d
 ba
 ba6
 qi2
@@ -80199,10 +80199,10 @@ ma
 li
 ri
 isz
-a
+83281	a
 na
 lu2
-82451	d
+83285	d
 ba
 ba6
 qi2
@@ -80233,7 +80233,7 @@ a
 wa
 a
 tim
-82484	a
+83318	a
 na
 d
 suen
@@ -80290,10 +80290,10 @@ sza
 pa
 ra
 am
-a
+83376	a
 na
 lu2
-82545	d
+83380	d
 ba
 ba6
 qi2
@@ -80388,7 +80388,7 @@ am
 sza
 it
 ti
-82641	disz
+83476	disz
 be
 la
 a
@@ -80402,7 +80402,7 @@ tim
 i
 di
 in
-a
+83491	a
 na
 d
 suen
@@ -80436,9 +80436,9 @@ ki
 sur
 ra[
 ki
-82690	disz
+83526	disz
 ge6
-82693	d
+83529	d
 iszkur
 ku
 nu
@@ -80525,7 +80525,7 @@ sza3
 ia
 szu
 s,i2
-a
+83617	a
 na
 a
 wi
@@ -80542,7 +80542,7 @@ ni
 id
 na
 at
-82798	d
+83635	d
 suen
 ma
 d
@@ -80631,7 +80631,7 @@ ia
 szu
 bi
 lam
-a
+83725	a
 na
 ta
 ri
@@ -80656,7 +80656,7 @@ li
 it,
 ka
 disz
-82913	d
+83751	d
 szul
 pa
 e3
@@ -80800,7 +80800,7 @@ da
 ab
 ba
 ab
-a
+83896	a
 na
 d
 utu
@@ -80842,7 +80842,7 @@ babbar
 ta
 di
 na
-83100	a
+83939	a
 nu
 mi
 szu
@@ -80889,7 +80889,7 @@ ti
 qa2
 an
 ni
-a
+83987	a
 na
 a
 pi2
@@ -81046,10 +81046,10 @@ a
 i
 mu
 ru
-a
+84145	a
 na
 geme2
-83308	d
+84149	d
 utu
 qi2
 bi2
@@ -81148,7 +81148,7 @@ asz
 pu
 ri
 im
-a
+84249	a
 na
 d
 suen
@@ -81252,7 +81252,7 @@ tam
 ep
 sza
 nim
-a
+84354	a
 na
 sza
 pi2
@@ -81301,7 +81301,7 @@ iz
 za
 ka
 ar
-a
+84404	a
 na
 sza
 pi2
@@ -81377,7 +81377,7 @@ ul
 ni
 mu
 ur
-a
+84481	a
 na
 d
 na
@@ -81430,7 +81430,7 @@ ab
 ba
 bu
 szu
-a
+84535	a
 na
 be
 li2
@@ -81539,7 +81539,7 @@ se
 e
 er
 ru
-a
+84645	a
 na
 be
 li2
@@ -81658,12 +81658,12 @@ ta
 az
 za
 zu
-a
+84765	a
 na
 i
 ri
 ib
-83923	d
+84771	d
 suen
 qi2
 bi2
@@ -81746,7 +81746,7 @@ x
 ni
 ti
 ia
-84007	x
+84855	x
 x
 x
 usz
@@ -81774,7 +81774,7 @@ szu
 asz
 szum
 disz
-84036	d
+84884	d
 utu
 da
 a
@@ -81860,12 +81860,12 @@ la
 asz
 szi
 im
-a
+84971	a
 na
 an
 um
 pi4
-84128	d
+84977	d
 utu
 qi2
 bi2
@@ -81921,7 +81921,7 @@ lu
 ha
 3(disz)
 gu2
-84185	lu
+85034	lu
 ga
 1(asz)
 gur
@@ -81933,7 +81933,7 @@ du
 um
 sza
 lugal
-84198	d
+85047	d
 suen
 1(barig)
 3(ban2)
@@ -81995,7 +81995,7 @@ la
 tu
 ma
 har
-84261	gesz
+85110	gesz
 ban2
 2(disz)
 gin2
@@ -82035,7 +82035,7 @@ babbar
 i
 ti
 lugal
-84302	d
+85151	d
 suen
 mu
 hu
@@ -82123,12 +82123,12 @@ ta
 ma
 asz
 szi
-a
+85240	a
 na
 an
 um
 pi4
-84396	d
+85246	d
 utu
 qi2
 bi2
@@ -82367,7 +82367,7 @@ sze
 bi
 lu
 ku
-a
+85486	a
 na
 be2
 su2
@@ -82559,7 +82559,7 @@ sza
 bi
 la
 ki
-a
+85679	a
 na
 d
 na
@@ -82685,7 +82685,7 @@ ir
 di
 a
 am
-a
+85806	a
 na
 be
 li2
@@ -82700,7 +82700,7 @@ wi
 il
 dingir
 sag
-84969	ka
+85822	ka
 ma
 asz
 szum
@@ -82725,10 +82725,10 @@ disz
 a
 wi
 il
-84995	d
+85848	d
 suen
 sag
-84999	be
+85852	be
 li2
 ia
 sahar
@@ -82740,7 +82740,7 @@ ud
 ma
 4(bur'u)
 4(bur3)
-85012	sahar
+85865	sahar
 hi
 a
 i7
@@ -82756,7 +82756,7 @@ iri
 didli
 bi
 ki
-85029	sza
+85882	sza
 i
 na
 gu2
@@ -82789,7 +82789,7 @@ iri
 didli
 bi
 ki
-85063	a
+85916	a
 hu
 tum
 sza
@@ -82837,13 +82837,13 @@ im
 a
 na
 disz
-85112	d
+85965	d
 suen
 i
 din
 nam
 sag
-85119	be
+85972	be
 li2
 ia
 aq
@@ -82861,13 +82861,13 @@ li2
 a
 na
 disz
-85138	d
+85991	d
 suen
 i
 din
 nam
 sag
-85145	be
+85998	be
 li2
 ia
 li
@@ -82880,7 +82880,7 @@ iri
 didli
 bi
 ki
-85159	a
+86012	a
 hu
 tum
 ta
@@ -82933,7 +82933,7 @@ ik
 ka
 asz
 du
-a
+86066	a
 na
 d
 suen
@@ -82967,7 +82967,7 @@ ma
 disz
 im
 gur
-85247	d
+86101	d
 suen
 iq
 bu
@@ -83031,7 +83031,7 @@ li
 isz
 qu2
 u2
-a
+86166	a
 na
 ni
 szi
@@ -83078,7 +83078,7 @@ um
 dumu
 na
 ab
-85359	d
+86214	d
 utu
 i
 ta
@@ -83110,14 +83110,14 @@ am
 lu
 di
 szum
-85392	gesz
+86247	gesz
 ma2
 ta
 t,a
 ra
 di
 ma
-85400	gesz
+86255	gesz
 ma2
 i
 s,a
@@ -83136,7 +83136,7 @@ ib
 tum
 ma
 ad
-a
+86275	a
 na
 be
 li2
@@ -83267,7 +83267,7 @@ tam
 szu
 bi
 lim
-a
+86407	a
 na
 a
 bi
@@ -83279,7 +83279,7 @@ um
 ma
 su
 mu
-85563	d
+86420	d
 da
 gan
 ma
@@ -83474,7 +83474,7 @@ usz
 ta
 a
 am
-a
+86616	a
 na
 i
 bi
@@ -83635,7 +83635,7 @@ sza
 bi
 la
 ku
-a
+86778	a
 na
 d
 iszkur
@@ -83650,15 +83650,15 @@ ni
 id
 na
 at
-85935	d
+86794	d
 suen
 ma
 lu2
 kar
-85941	d
+86800	d
 utu
 ki
-85945	mesz
+86804	mesz
 ma
 ah
 ri
@@ -83673,7 +83673,7 @@ nu
 u2
 ma
 disz
-85961	d
+86820	d
 iszkur
 szar
 rum
@@ -83686,7 +83686,7 @@ dingir
 a
 na
 kar
-85975	d
+86834	d
 utu
 ki
 il
@@ -83784,7 +83784,7 @@ kam
 ep
 sza
 am
-a
+86933	a
 na
 asz
 ri
@@ -83972,9 +83972,9 @@ it
 ku
 nu
 u2
-a
+87122	a
 na
-86265	d
+87126	d
 suen
 qi2
 bi2
@@ -84010,7 +84010,7 @@ asz
 szum
 i
 bi
-86302	d
+87163	d
 utu
 sza
 ta
@@ -84023,7 +84023,7 @@ szi
 d
 i
 bi
-86316	d
+87177	d
 utu
 i
 na
@@ -84117,7 +84117,7 @@ ru
 um
 i
 din
-86411	d
+87272	d
 suen
 u3
 li
@@ -84144,7 +84144,7 @@ ka
 e
 pu
 usz
-a
+87300	a
 na
 geme2
 ka
@@ -84158,7 +84158,7 @@ um
 ma
 a
 pil
-86453	d
+87315	d
 ki
 it
 tum
@@ -84275,7 +84275,7 @@ szu
 s,i2
 a
 u3
-86571	mu
+87433	mu
 ri
 im
 tup
@@ -84321,7 +84321,7 @@ ti
 ma
 a
 pil
-86618	d
+87480	d
 ki
 it
 tum
@@ -84340,7 +84340,7 @@ ad
 di
 na
 kum
-a
+87500	a
 na
 be
 le
@@ -84455,7 +84455,7 @@ u2
 sze
 e
 da
-a
+87616	a
 na
 a
 bi
@@ -84467,7 +84467,7 @@ um
 ma
 ib
 ni
-86765	d
+87629	d
 mar
 tu
 u3
@@ -84619,7 +84619,7 @@ i
 li
 a
 nim
-a
+87782	a
 na
 a
 bi
@@ -84752,7 +84752,7 @@ i
 szu
 x
 x
-87051	ri
+87916	ri
 i
 disz
 sza
@@ -84778,7 +84778,7 @@ x
 (x)
 x
 x
-87078	ka
+87943	ka
 a
 na
 1(disz)
@@ -84805,7 +84805,7 @@ x
 (x)
 x
 x
-87106	tim
+87971	tim
 x
 x
 x
@@ -84823,7 +84823,7 @@ x
 x
 (x)
 x
-87125	x
+87990	x
 x
 (x)
 x
@@ -84918,11 +84918,11 @@ ti
 ia
 ki
 il
-a
+88086	a
 na
 nu
 ur2
-87225	d
+88091	d
 kab
 ta
 qi2
@@ -85084,7 +85084,7 @@ a
 na
 nu
 ur2
-87388	d
+88254	d
 kab
 ta
 dumu
@@ -85104,7 +85104,7 @@ ba
 a
 hi
 szu
-a
+88275	a
 na
 a
 bi
@@ -85206,7 +85206,7 @@ um
 ma
 u
 bar
-87511	d
+88378	d
 suen
 u3
 d
@@ -85262,7 +85262,7 @@ na
 qa2
 at
 disz
-87568	d
+88435	d
 suen
 ra
 bi
@@ -85287,7 +85287,7 @@ szum
 ma
 u
 bar
-87594	d
+88461	d
 suen
 it
 ta
@@ -85298,7 +85298,7 @@ a
 na
 u
 bar
-87606	d
+88473	d
 suen
 i
 di
@@ -85307,7 +85307,7 @@ szum
 ma
 u
 bar
-87616	d
+88483	d
 suen
 la
 it
@@ -85401,7 +85401,7 @@ isz
 i
 di
 in
-a
+88578	a
 na
 szi
 i
@@ -85410,7 +85410,7 @@ bi
 u3
 i
 bi
-87720	d
+88588	d
 en
 lil2
 qi2
@@ -85420,7 +85420,7 @@ um
 ma
 s,il2
 li2
-87731	d
+88599	d
 iszkur
 ma
 d
@@ -85621,7 +85621,7 @@ tim
 disz
 ba
 ni
-87933	d
+88801	d
 utu
 ih
 ta
@@ -85646,7 +85646,7 @@ nam
 lu
 na
 di
-a
+88827	a
 na
 ka
 lu
@@ -85658,7 +85658,7 @@ ma
 um
 ma
 puzur4
-87971	d
+88840	d
 utu
 ma
 d
@@ -85711,7 +85711,7 @@ ku
 bi
 is2
 su
-a
+88894	a
 na
 d
 nanna
@@ -85804,7 +85804,7 @@ ub
 bi
 il
 szu
-a
+88988	a
 na
 i3
 li2
@@ -85820,7 +85820,7 @@ disz
 ra
 bu
 ut
-88134	d
+89005	d
 suen
 ma
 ku
@@ -85871,11 +85871,11 @@ i
 di
 isz
 szum
-a
+89057	a
 na
 szum
 ma
-88190	d
+89062	d
 utu
 qi2
 bi2
@@ -85890,7 +85890,7 @@ ma
 a
 na
 disz
-88206	d
+89078	d
 marduk
 na
 s,i
@@ -85906,7 +85906,7 @@ kasz
 i
 di
 in
-a
+89095	a
 na
 d
 nanna
@@ -85943,7 +85943,7 @@ ed
 i
 di
 in
-a
+89133	a
 na
 a
 wi
@@ -85964,7 +85964,7 @@ sza
 a
 wi
 il
-88281	d
+89155	d
 na
 bi
 um
@@ -85978,7 +85978,7 @@ bi
 la
 asz
 szu
-a
+89170	a
 na
 ta
 ri
@@ -86107,12 +86107,12 @@ d
 iszkur
 szar
 rum
-88425	am
+89300	am
 mi
 s,a
 du
 qa2
-a
+89306	a
 na
 i3
 li2
@@ -86252,7 +86252,7 @@ lam
 t,e
 ma
 am
-88572	lu
+89448	lu
 usz
 me
 ma
@@ -86261,7 +86261,7 @@ sze
 bi
 la
 ku
-be
+89458	be
 li2
 d
 na
@@ -86510,7 +86510,7 @@ sza
 ab
 ba
 lam
-asz
+89708	asz
 szum
 ku3
 babbar
@@ -86673,9 +86673,9 @@ ki
 li
 ib
 lam
-a
+89872	a
 na
-88997	d
+89876	d
 suen
 qi2
 bi2
@@ -86770,7 +86770,7 @@ ku
 ul
 li
 im
-a
+89972	a
 na
 si
 li
@@ -86833,7 +86833,7 @@ ta
 pa
 ar
 szu
-a
+90036	a
 na
 d
 nanna
@@ -86889,7 +86889,7 @@ bu
 ut
 iri
 ki
-89212	tu
+90093	tu
 ka
 bi
 ta
@@ -87030,13 +87030,13 @@ kasz
 i
 di
 in
-a
+90235	a
 na
 isz
 ta
 asz
 ni
-89360	d
+90242	d
 x
 (x)
 sza
@@ -87053,7 +87053,7 @@ bi2
 ma
 um
 ma
-89379	d
+90261	d
 lal3
 ma
 d
@@ -87139,7 +87139,7 @@ u3
 asz
 szum
 disz
-89466	d
+90348	d
 utu
 na
 s,i
@@ -87233,7 +87233,7 @@ kam
 ma
 sza
 am
-a
+90443	a
 na
 e
 te
@@ -87246,7 +87246,7 @@ um
 ma
 dingir
 u3
-89574	d
+90457	d
 utu
 ma
 d
@@ -87444,7 +87444,7 @@ gur
 sza
 i3
 gesz
-a
+90656	a
 na
 a
 da
@@ -87508,7 +87508,7 @@ zu
 a
 ku
 disz
-89837	d
+90721	d
 marduk
 e
 pi2
@@ -87591,7 +87591,7 @@ tam
 lu
 pu
 ul
-a
+90805	a
 na
 a
 bi
@@ -87603,7 +87603,7 @@ um
 ma
 su
 mu
-89933	d
+90818	d
 da
 gan
 ma
@@ -87715,7 +87715,7 @@ lu
 ud
 di
 in
-a
+90931	a
 na
 a
 da
@@ -87779,7 +87779,7 @@ ma
 szu
 bi
 lam
-a
+90996	a
 na
 sa
 bi
@@ -87809,11 +87809,11 @@ ma
 disz
 s,il2
 li2
-90140	d
+91027	d
 pa5
 nigar
 gar
-90145	ra
+91032	ra
 at,
 t,ar
 dam
@@ -87833,7 +87833,7 @@ x
 x
 (x)
 (x)
-90166	sza
+91053	sza
 ma
 ah
 ri
@@ -87850,7 +87850,7 @@ ki
 li
 ib
 lam
-a
+91071	a
 na
 dam
 qi2
@@ -87859,7 +87859,7 @@ u3
 zi
 ki
 ir
-90193	d
+91081	d
 utu
 qi2
 bi2
@@ -87891,7 +87891,7 @@ disz
 szum
 ma
 la
-90226	d
+91114	d
 marduk
 ma
 an
@@ -87934,7 +87934,7 @@ u3
 zi
 ki
 ir
-90270	d
+91158	d
 utu
 d
 iszkur
@@ -87946,9 +87946,9 @@ gal
 an
 ki
 a
-a
+91171	a
 na
-90285	d
+91174	d
 suen
 i
 din
@@ -88065,16 +88065,16 @@ na
 ad
 di
 nu
-a
+91292	a
 na
-90405	d
+91295	d
 amar
 utu
 mu
 sza
 lim
-90412	disz
-90414	d
+91302	disz
+91304	d
 amar
 utu
 la
@@ -88082,7 +88082,7 @@ ma
 sa3
 szu
 u3
-90423	d
+91313	d
 suen
 be
 el
@@ -88152,8 +88152,8 @@ sza
 er
 s,e
 et
-90494	ki
-90496	ia
+91384	ki
+91386	ia
 ah
 ru
 rum
@@ -88180,7 +88180,7 @@ an
 za
 qar
 sza
-90524	i7
+91414	i7
 idigna
 i
 hi
@@ -88216,7 +88216,7 @@ ka2
 gal
 a
 di
-90561	d
+91451	d
 utu
 la
 isz
@@ -88277,8 +88277,8 @@ na
 er
 s,e
 et
-90623	ki
-90625	ia
+91513	ki
+91515	ia
 ah
 ru
 rum
@@ -88333,7 +88333,7 @@ te
 eg
 gi
 a
-90681	iti
+91571	iti
 gan
 gan
 e3
@@ -88361,7 +88361,7 @@ di
 e
 de3
 a
-90710	d
+91600	d
 za
 ba4
 ba4
@@ -88370,13 +88370,13 @@ inanna
 bi
 da
 asz
-a
+91610	a
 na
 a
 wi
 lim
 sza
-90726	d
+91617	d
 amar
 utu
 u2
@@ -88390,16 +88390,16 @@ bi2
 ma
 um
 ma
-90741	d
+91632	d
 iszkur
 ma
 an
 sum
 ma
-90748	d
+91639	d
 utu
 u3
-90752	d
+91643	d
 amar
 utu
 da
@@ -88421,7 +88421,7 @@ ta
 lu
 ba
 al
-90775	ta
+91666	ta
 dingir
 na
 s,i
@@ -88442,10 +88442,10 @@ lum
 ka
 ma
 har
-90797	d
+91688	d
 utu
 u3
-90801	d
+91692	d
 amar
 utu
 lu
@@ -88566,20 +88566,20 @@ s,i
 bu
 ut
 ta
-90923	ap
+91814	ap
 pa
 ra
 am
 lu
 pu
 usz
-a
+91822	a
 na
 a
 wi
 lim
 sza
-90937	d
+91829	d
 amar
 utu
 u2
@@ -88598,10 +88598,10 @@ li2
 tukul
 ti
 ma
-90957	d
+91849	d
 utu
 u3
-90961	d
+91853	d
 amar
 utu
 asz
@@ -88640,21 +88640,21 @@ na
 s,i
 ir
 ka
-91001	a
+91893	a
 na
 szu
 mu
-91006	u3
+91898	u3
 be
 li2
 x
-91011	i
+91903	i
 na
 mu
 uh
 hi
 szu
-91018	ti
+91910	ti
 si
 i
 ma
@@ -88716,27 +88716,27 @@ sza
 ak
 szi
 dam
-91081	szuku
+91973	szuku
 u2
 ul
 i
 szu
 u3
 i
-91089	szuku
+91981	szuku
 ti
 a
 di
 ni
 u2
 ul
-91097	a
+91990	a
 na
 a
 wi
 lim
 sza
-91104	d
+91997	d
 amar
 utu
 u2
@@ -88754,13 +88754,13 @@ i
 ku
 un
 ka
-91123	d
+92016	d
 suen
 ma
-91127	d
+92020	d
 utu
 u3
-91131	d
+92024	d
 amar
 utu
 asz
@@ -88769,7 +88769,7 @@ mi
 ia
 da
 ri
-91141	li
+92034	li
 ba
 al
 li
@@ -88784,7 +88784,7 @@ ta
 lu
 ba
 al
-91157	lu
+92050	lu
 da
 ri
 a
@@ -88816,7 +88816,7 @@ lum
 ka
 ma
 har
-91190	d
+92083	d
 utu
 lu
 da
@@ -88827,7 +88827,7 @@ ti
 du
 u2
 x
-91202	sze
+92095	sze
 um
 a
 na
@@ -88837,12 +88837,12 @@ si
 im
 u3
 x
-91213	u2
+92106	u2
 ul
 na
 t,u2
 um
-91219	szu
+92112	szu
 up
 ra
 am
@@ -88852,7 +88852,7 @@ sze
 gur
 a
 na
-91230	ka
+92123	ka
 ri
 ia
 x
@@ -88875,7 +88875,7 @@ za
 nu
 um
 sar
-91254	1(u)
+92147	1(u)
 gi
 hi
 a
@@ -88884,18 +88884,18 @@ id
 di
 nu
 nim
-a
+92157	a
 na
 a
 wi
 lim
 sza
-91270	d
+92164	d
 amar
 utu
 u2
 ba
-91276	qi2
+92170	qi2
 bi2
 ma
 um
@@ -88903,21 +88903,21 @@ ma
 i3
 li2
 i
-91285	ma
-91287	d
+92179	ma
+92181	d
 utu
 u3
-91291	d
+92185	d
 amar
 utu
-91295	lu
+92189	lu
 sza
 al
 ma
 a
 a
 ta
-91303	lu
+92197	lu
 da
 ri
 a
@@ -88929,7 +88929,7 @@ ir
 ka
 ri
 x
-91316	li
+92210	li
 ki
 il
 a
@@ -88946,12 +88946,12 @@ szu
 lu
 um
 ka
-91334	x
+92228	x
 x
 lu
 da
 ri
-91340	dingir
+92234	dingir
 ka
 la
 ma
@@ -88960,14 +88960,14 @@ sa3
 ka
 u3
 x
-91350	sza
+92244	sza
 i
 ka
 ra
 ba
 ak
 kum
-91358	x
+92252	x
 x
 asz
 szum
@@ -89011,12 +89011,12 @@ am
 ma
 szu
 x
-91403	a
+92297	a
 na
 pu
 uh
 hi
-91410	szu
+92304	szu
 up
 ra
 am
@@ -89033,8 +89033,8 @@ ka2
 dingir
 ra
 ki
-91428	x
-91430	u2
+92322	x
+92324	u2
 ul
 li
 ki
@@ -89052,7 +89052,7 @@ szi
 li
 ki
 in
-91449	disz
+92343	disz
 dingir
 sza
 he2
@@ -89064,7 +89064,7 @@ ba
 tam
 u3
 tug2
-91462	sza
+92356	sza
 be
 el
 ti
@@ -89088,8 +89088,8 @@ u4
 kam
 i
 na
-91487	ki
-91489	szi
+92381	ki
+92383	szi
 i
 x
 x
@@ -89117,7 +89117,7 @@ am
 i
 ma
 at
-91518	sza
+92412	sza
 usz
 ta
 bi
@@ -89134,7 +89134,7 @@ ar
 da
 bu
 tim
-91536	disz
+92430	disz
 dingir
 sza
 e2
@@ -89176,7 +89176,7 @@ sza
 a
 na
 x
-91579	i
+92473	i
 na
 di
 nu
@@ -89185,7 +89185,7 @@ ut
 ti
 a
 am[...
-a
+92483	a
 na
 a
 wi
@@ -89199,10 +89199,10 @@ id
 da
 tum
 ma
-91603	d
+92498	d
 utu
 u3
-91607	d
+92502	d
 amar
 utu
 da
@@ -89258,10 +89258,10 @@ lum
 ka
 ma
 har
-91664	d
+92559	d
 utu
 u3
-91668	d
+92563	d
 amar
 utu
 lu
@@ -89363,7 +89363,7 @@ li
 zi
 za
 ma
-91771	d
+92666	d
 amar
 utu
 ma
@@ -89391,13 +89391,13 @@ ne
 ep
 pu
 usz
-a
+92695	a
 na
 a
 wi
 lim
 sza
-91806	d
+92702	d
 amar
 utu
 u2
@@ -89416,16 +89416,16 @@ zu
 ib
 ni
 ma
-91826	d
+92722	d
 utu
 u3
-91830	d
+92726	d
 amar
 utu
 da
 ri
 isz
-91837	mi
+92733	mi
 li
 ba
 al
@@ -89603,7 +89603,7 @@ ka
 lu
 mu
 ur
-a
+92912	a
 na
 a
 wi
@@ -89613,16 +89613,16 @@ bi2
 ma
 um
 ma
-92026	d
+92923	d
 nanna
 ma
 an
 sum
 ma
-92033	d
+92930	d
 utu
 u3
-92037	d
+92934	d
 amar
 utu
 da
@@ -89678,10 +89678,10 @@ lum
 ka
 ma
 har
-92094	d
+92991	d
 utu
 u3
-92098	d
+92995	d
 amar
 utu
 lu
@@ -89753,12 +89753,12 @@ ma
 s,i
 x
 x
-92171	x
+93068	x
 u2
 an
 nu
 u2
-92177	x
+93074	x
 x
 x
 x
@@ -89767,7 +89767,7 @@ x
 x
 x
 x
-92187	x
+93084	x
 nu
 x
 tum
@@ -89796,7 +89796,7 @@ li
 x
 x
 x
-92217	tu
+93114	tu
 u2
 ma
 sza
@@ -89937,13 +89937,13 @@ asz
 pu
 ra
 am
-a
+93256	a
 na
 a
 wi
 lim
 sza
-92365	d
+93263	d
 amar
 utu
 u2
@@ -89962,16 +89962,16 @@ mu
 sza
 lim
 ma
-92385	d
+93283	d
 utu
 u3
-92389	d
+93287	d
 amar
 utu
 da
 ri
 isz
-92396	mi
+93294	mi
 li
 ba
 al
@@ -90023,8 +90023,8 @@ me
 er
 asz
 szum
-92449	disz
-92451	d
+93347	disz
+93349	d
 iszkur
 szar
 rum
@@ -90037,14 +90037,14 @@ am
 a
 na
 ku
-92465	disz
-92467	d
+93363	disz
+93365	d
 iszkur
 szar
 rum
 u3
-92473	disz
-92475	d
+93371	disz
+93373	d
 amar
 utu
 qar
@@ -90065,7 +90065,7 @@ i
 ma
 um
 ma
-92497	d
+93395	d
 iszkur
 szar
 rum
@@ -90085,7 +90085,7 @@ ma
 u3
 um
 ma
-92518	d
+93416	d
 amar
 utu
 qar
@@ -90119,7 +90119,7 @@ na
 isz
 ku
 un
-92553	d
+93451	d
 amar
 utu
 ki
@@ -90139,13 +90139,13 @@ na
 az
 zi
 iq
-a
+93472	a
 na
 a
 wi
 lim
 sza
-92580	d
+93479	d
 amar
 utu
 u2
@@ -90160,15 +90160,15 @@ ma
 um
 ma
 ib
-92596	d
+93495	d
 na
 bi
 um
 ma
-92602	d
+93501	d
 utu
 u3
-92606	d
+93505	d
 amar
 utu
 da
@@ -90224,10 +90224,10 @@ lum
 ka
 ma
 har
-92663	d
+93562	d
 utu
 u3
-92667	d
+93566	d
 amar
 utu
 lu
@@ -90246,8 +90246,8 @@ ma
 at
 ta
 ma
-92687	disz
-92689	d
+93586	disz
+93588	d
 suen
 mu
 sza
@@ -90256,8 +90256,8 @@ gala
 u2
 nu
 tim
-92699	disz
-92701	d
+93598	disz
+93600	d
 amar
 utu
 mu
@@ -90289,29 +90289,29 @@ ir3
 esz
 mu
 u2
-92734	disz
-92736	d
+93633	disz
+93635	d
 suen
 isz
 me
 a
 ni
-92743	disz
+93642	disz
 ir3
-92746	d
+93645	d
 suen
-92749	disz
+93648	disz
 ir3
-92752	d
+93651	d
 amar
 utu
-a
+93655	a
 na
 a
 wi
 lim
 sza
-92762	d
+93662	d
 amar
 utu
 u2
@@ -90326,14 +90326,14 @@ ma
 um
 ma
 ir3
-92778	d
+93678	d
 da
 gan
 ma
-92783	d
+93683	d
 utu
 u3
-92787	d
+93687	d
 amar
 utu
 asz
@@ -90382,11 +90382,11 @@ ni
 1(disz)
 szu
 szi
-92837	x
+93737	x
 x
 x
 x
-92842	1(disz)
+93742	1(disz)
 gu2
 un
 sig2
@@ -90405,7 +90405,7 @@ bi
 la
 ak
 kum
-a
+93762	a
 na
 a
 wi
@@ -90416,14 +90416,14 @@ ma
 um
 ma
 ir3
-92873	d
+93774	d
 amar
 utu
 ma
-92878	d
+93779	d
 utu
 u3
-92882	d
+93783	d
 amar
 utu
 da
@@ -90470,10 +90470,10 @@ lum
 ka
 ma
 har
-92930	d
+93831	d
 utu
 u3
-92934	d
+93835	d
 amar
 utu
 lu
@@ -90486,7 +90486,7 @@ ib
 ba
 tim
 sa
-92948	d
+93849	d
 suen
 sze
 mi
@@ -90501,8 +90501,8 @@ agrig
 ka
 lu
 u2
-92964	disz
-92966	d
+93865	disz
+93867	d
 amar
 utu
 mu
@@ -90515,14 +90515,14 @@ dam
 gar3
 it
 ti
-92982	sza
+93883	sza
 be
 el
 szu
 nu
 a
 hi
-92990	d
+93891	d
 suen
 na
 di
@@ -90536,7 +90536,7 @@ ka2
 dingir
 ra
 ki
-93005	it
+93906	it
 ta
 al
 kam
@@ -90571,8 +90571,8 @@ szu
 ma
 a
 na
-93041	ki
-93043	li
+93942	ki
+93944	li
 it
 ta
 al
@@ -90587,9 +90587,9 @@ al
 kam
 a
 na
-93059	uru
+93960	uru
 bad3
-93062	d
+93963	d
 utu
 t,u2
 ur
@@ -90608,14 +90608,14 @@ ku
 ul
 li
 im
-a
+93983	a
 na
 a
 wi
 le
 e
 sza
-93089	d
+93991	d
 amar
 utu
 u2
@@ -90640,10 +90640,10 @@ di
 ku5
 mesz
 ma
-93115	d
+94017	d
 utu
 u3
-93119	d
+94021	d
 amar
 utu
 da
@@ -90678,7 +90678,7 @@ a
 hi
 i
 bi
-93155	d
+94057	d
 utu
 il
 qu2
@@ -90687,12 +90687,12 @@ ma
 lu2
 bad3
 ki
-93165	mesz
+94067	mesz
 it
 ti
 i
 bi
-93171	d
+94073	d
 utu
 i
 di
@@ -90721,7 +90721,7 @@ ti
 sza
 i
 bi
-93201	d
+94103	d
 utu
 na
 szu
@@ -90732,7 +90732,7 @@ a
 na
 i
 bi
-93213	d
+94115	d
 utu
 ni
 ig
@@ -90744,7 +90744,7 @@ szum
 lu2
 bad3
 ki
-93226	mesz
+94128	mesz
 a
 na
 la
@@ -90819,7 +90819,7 @@ ti
 szi
 me
 a
-la
+94204	la
 ma
 as
 su3
@@ -90896,7 +90896,7 @@ sag
 ir3
 sza
 ir3
-93379	d
+94282	d
 nin
 szubur
 dumu
@@ -90913,7 +90913,7 @@ har
 e
 tel
 ka
-93397	d
+94300	d
 na
 bi
 um
@@ -90989,7 +90989,7 @@ isz
 a
 wi
 lam
-93474	d
+94377	d
 nanna
 ma
 an
@@ -91028,7 +91028,7 @@ bi
 lam
 ki
 ma
-93514	d
+94417	d
 nanna
 ma
 an
@@ -91083,8 +91083,8 @@ szu
 bi
 lam
 ma
-93570	disz
-93572	d
+94473	disz
+94475	d
 nanna
 ma
 an
@@ -91125,7 +91125,7 @@ ta
 ar
 ra
 ab
-a
+94517	a
 na
 sza
 pi2
@@ -91143,10 +91143,10 @@ el
 i3
 li2
 ma
-93632	d
+94536	d
 utu
 u3
-93636	d
+94540	d
 amar
 utu
 da
@@ -91213,7 +91213,7 @@ x
 x
 x
 x
-93704	x
+94608	x
 x
 x
 x
@@ -91222,7 +91222,7 @@ x
 nu
 um
 x
-93714	u3
+94618	u3
 i3
 li2
 sukkal
@@ -91297,7 +91297,7 @@ ul
 ak
 la
 x
-93790	i
+94694	i
 ni
 a
 tu
@@ -91306,7 +91306,7 @@ du
 um
 mu
 qa2
-93800	a
+94705	a
 na
 a
 bi
@@ -91322,10 +91322,10 @@ ta
 a
 szi
 ma
-93817	d
+94722	d
 utu
 u3
-93821	d
+94726	d
 amar
 utu
 da
@@ -91391,10 +91391,10 @@ bi
 ia
 ma
 har
-93888	d
+94793	d
 utu
 u3
-93892	d
+94797	d
 amar
 utu
 lu
@@ -91646,7 +91646,7 @@ pi2
 szu
 bi
 lam
-a
+95050	a
 na
 sza
 pi2
@@ -91663,10 +91663,10 @@ nu
 ni
 tum
 ma
-94162	d
+95068	d
 utu
 u3
-94166	d
+95072	d
 amar
 utu
 asz
@@ -91732,7 +91732,7 @@ ri
 ia
 ma
 har
-94233	d
+95139	d
 utu
 u3
 i
@@ -91776,14 +91776,14 @@ ka2
 dingir
 ra
 ki
-94278	a
+95184	a
 na
-94281	ki
-94283	a
+95187	ki
+95189	a
 na
 ma
 har
-94288	d
+95194	d
 utu
 ra
 i
@@ -91982,10 +91982,10 @@ ga
 am
 ma
 ar
-94488	d
+95395	d
 utu
 u3
-94492	d
+95399	d
 amar
 utu
 da
@@ -92013,7 +92013,7 @@ dingir
 na
 s,ir
 ir
-94521	ka
+95428	ka
 ri
 isz
 ka
@@ -92041,10 +92041,10 @@ lum
 ka
 ma
 har
-94550	d
+95457	d
 utu
 u3
-94554	d
+95461	d
 amar
 utu
 lu
@@ -92071,7 +92071,7 @@ lam
 ab2
 i
 na
-94582	gisz
+95489	gisz
 ma2
 ra
 ma
@@ -92108,16 +92108,16 @@ ut
 ka
 lu
 mur
-um
+95527	um
 ma
 x
-94624	d
+95532	d
 utu
 u3
-94628	d
+95536	d
 amar
 utu
-94632	li
+95540	li
 ba
 al
 li
@@ -92180,15 +92180,15 @@ lu2
 kurun2
 na
 mesz
-94696	duh
+95604	duh
 duru5
 a
 na
-94701	ku
+95609	ku
 ul
 li
 im
-94706	d
+95614	d
 amar
 utu
 la
@@ -92245,35 +92245,35 @@ u3
 szu
 me
 lim
-94764	x
+95672	x
 lim
-94767	x
+95675	x
 x
-94770	a
+95679	a
 na
 a
 x
-94775	qi2
+95684	qi2
 bi2
 ma
 um
 ma
 szu
-94782	x
+95691	x
 ma
-94785	d
+95694	d
 utu
 u3
-94789	x
+95698	x
 mi
 li
 ba
 al
 x
-94796	lu
+95705	lu
 sza
 x
-94800	lu
+95709	lu
 ba
 al
 t,a
@@ -92310,10 +92310,10 @@ lum
 ka
 ma
 har
-94838	d
+95747	d
 utu
 u3
-94842	d
+95751	d
 amar
 utu
 lu
@@ -92341,7 +92341,7 @@ na
 ka2
 buranun
 ki
-94871	nu
+95780	nu
 usz
 ta
 x
@@ -92459,10 +92459,10 @@ x
 x
 x
 x
-94990	x
+95899	x
 x
 x
-94994	a
+95904	a
 na
 a
 ka
@@ -92481,7 +92481,7 @@ sza
 al
 ma
 ku
-95014	d
+95924	d
 utu
 u3
 d
@@ -92581,7 +92581,7 @@ i
 ba
 asz
 szi
-a
+96025	a
 na
 a
 ta
@@ -92596,7 +92596,7 @@ ha
 mar
 szi
 ma
-95130	d
+96041	d
 nin
 szubur
 asz
@@ -92689,7 +92689,7 @@ in
 na
 an
 di
-a
+96135	a
 na
 a
 bi
@@ -92750,7 +92750,7 @@ ul
 mi
 u3
 x
-95285	i
+96197	i
 na
 ri
 szi
@@ -92758,10 +92758,10 @@ ka
 a
 ia
 ip
-95294	asz
+96206	asz
 szum
-95297	disz
-95299	d
+96209	disz
+96211	d
 suen
 isz
 me
@@ -92780,7 +92780,7 @@ x
 x
 x
 x
-95319	sza
+96231	sza
 sza
 pi2
 ir
@@ -92806,7 +92806,7 @@ mi
 iq
 ti
 szu
-95346	sza
+96258	sza
 a
 hi
 ia
@@ -92839,7 +92839,7 @@ ip
 pa
 ra
 ar
-a
+96292	a
 na
 sza
 pi2
@@ -92856,16 +92856,16 @@ ut
 a
 lim
 ma
-95397	d
+96310	d
 utu
 u3
-95401	d
+96314	d
 amar
 utu
 da
 ri
 isz
-95408	mi
+96321	mi
 sza
 pi2
 ir
@@ -92933,8 +92933,8 @@ szub
 ba
 a
 na
-95477	disz
-95479	d
+96390	disz
+96392	d
 suen
 isz
 me
@@ -92989,7 +92989,7 @@ qa2
 ab
 bu
 u2
-a
+96448	a
 na
 ru
 tum
@@ -92998,11 +92998,11 @@ bi2
 ma
 um
 ma
-95544	disz
+96458	disz
 dingir
 asz
 ta
-95549	li
+96463	li
 x
 x
 x
@@ -93113,7 +93113,7 @@ la
 ak
 ki
 im
-a
+96575	a
 na
 be
 le
@@ -93127,7 +93127,7 @@ ma
 a
 wi
 il
-95675	d
+96590	d
 iszkur
 ma
 be
@@ -93229,7 +93229,7 @@ asz
 szum
 disz
 mi2
-95778	d
+96693	d
 sza
 la
 um
@@ -93382,7 +93382,7 @@ a
 nu
 um
 ma
-95932	d
+96847	d
 sza
 la
 um
@@ -93631,7 +93631,7 @@ ad
 di
 nu
 ni
-a
+97097	a
 na
 be
 le
@@ -93645,7 +93645,7 @@ ma
 a
 wi
 il
-96196	d
+97112	d
 iszkur
 be
 el
@@ -93688,7 +93688,7 @@ bu
 ut
 ta
 am
-96240	u3
+97156	u3
 sza
 i
 ni
@@ -93766,7 +93766,7 @@ wa
 s,i
 e2
 ti
-96319	asz
+97235	asz
 szum
 bi
 ti
@@ -93789,7 +93789,7 @@ ti
 asz
 szum
 disz
-96343	d
+97259	d
 sza
 la
 um
@@ -93816,37 +93816,37 @@ na
 na
 ki
 x
-96371	a
+97287	a
 di
 disz
-96375	ar
+97291	ar
 ra
 um
 ma
 x
-96381	hi
+97297	hi
 ni
 am
 mi
 nim
-96387	nu
+97303	nu
 ab
-96390	um
+97306	um
 ma
-96393	x
-96395	la
-96398	x
-96400	x
-96402	kam
+97309	x
+97311	la
+97314	x
+97316	x
+97318	kam
 ma
-96406	ti
+97322	ti
 sza
-96409	am
+97325	am
 ma
 x
 x
 x
-96415	x
+97331	x
 a
 ha
 as2
@@ -93921,11 +93921,11 @@ szu
 ri
 a
 am
-a
+97407	a
 na
 mu
 tu
-96495	d
+97412	d
 da
 gan
 u3
@@ -93938,13 +93938,13 @@ ma
 um
 ma
 lu2
-96509	d
+97426	d
 nanna
 ir3
 ku
 nu
 ma
-96516	d
+97433	d
 utu
 u3
 d
@@ -94046,11 +94046,11 @@ sza
 szu
 ba
 at
-96619	d
+97536	d
 en
 lil2
 ki
-96624	a
+97541	a
 na
 mi
 nim
@@ -94095,7 +94095,7 @@ ni
 tam
 a
 na
-96670	d
+97587	d
 en
 zu
 re
@@ -94133,7 +94133,7 @@ ku
 szi
 im
 u2
-96709	gisz
+97626	gisz
 igi
 gag
 i
@@ -94174,12 +94174,12 @@ qi2
 bi
 szu
 um
-a
+97668	a
 na
 a
 wi
 il
-96756	d
+97674	d
 iszkur
 qi2
 bi2
@@ -94211,7 +94211,7 @@ na
 p
 be
 el
-96789	sag
+97707	sag
 geme2
 a
 ni
@@ -94220,7 +94220,7 @@ a
 am
 i
 na
-96799	szu
+97717	szu
 ma
 am
 i
@@ -94229,7 +94229,7 @@ ka
 na
 an
 x
-96809	x
+97727	x
 u3
 i
 na
@@ -94255,8 +94255,8 @@ ku
 ma
 a
 na
-96836	disz
-96838	d
+97754	disz
+97756	d
 utu
 a
 bi
@@ -94280,7 +94280,7 @@ pi2
 a
 wi
 il
-96863	d
+97781	d
 iszkur
 u2
 ul
@@ -94433,7 +94433,7 @@ sza
 la
 szi
 szu
-97017	tug2
+97935	tug2
 bar
 si
 is,
@@ -94441,7 +94441,7 @@ ba
 tu
 sag
 geme2
-97026	tu
+97944	tu
 ra
 am
 ma
@@ -94457,7 +94457,7 @@ la
 i
 ma
 at
-a
+97961	a
 na
 dumu
 mi2
@@ -94473,7 +94473,7 @@ el
 ta
 ni
 ma
-97059	d
+97978	d
 utu
 u3
 d
@@ -94513,7 +94513,7 @@ a
 am
 a
 na
-97100	disz
+98019	disz
 mi2
 ta
 ri
@@ -94535,7 +94535,7 @@ i
 um
 ma
 disz
-97123	mi2
+98042	mi2
 a
 su
 tum
@@ -94549,7 +94549,7 @@ la
 nu
 um
 disz
-97138	mi2
+98057	mi2
 ta
 ri
 ba
@@ -94575,7 +94575,7 @@ na
 an
 na
 d
-97165	mi2
+98084	mi2
 ta
 ri
 ba
@@ -94601,8 +94601,8 @@ ni
 t,i3
 il
 ki
-97192	disz
-97194	mi2
+98111	disz
+98113	mi2
 ta
 ri
 ba
@@ -94615,14 +94615,14 @@ x
 x
 x
 x
-97208	ta
+98127	ta
 ad
 di
 x
 x
-97214	x
+98133	x
 disz
-97217	mi2
+98136	mi2
 a
 am
 ma
@@ -94635,7 +94635,7 @@ s,u2
 ha
 ra
 am
-97231	x
+98150	x
 ih
 ta
 ia
@@ -94671,7 +94671,7 @@ ki
 a
 na
 disz
-97268	mi2
+98187	mi2
 a
 am
 ma
@@ -94684,7 +94684,7 @@ ta
 ta
 ap
 la
-97282	ma
+98201	ma
 tu
 lu
 sza
@@ -94754,7 +94754,7 @@ sag
 ah
 li
 sar
-97353	u2
+98272	u2
 sza
 bi
 la
@@ -94791,7 +94791,7 @@ ti
 im
 sza
 disz
-97391	mi2
+98310	mi2
 a
 su
 tu
@@ -94819,7 +94819,7 @@ im
 le
 qe2
 em
-97421	i
+98340	i
 la
 ku
 ni
@@ -94864,7 +94864,7 @@ szu
 up
 ri
 im
-a
+98386	a
 na
 x
 x
@@ -94885,7 +94885,7 @@ i3
 li2
 szu
 ma
-97488	d
+98408	d
 utu
 li
 ba
@@ -94896,7 +94896,7 @@ ka
 disz
 isz
 me
-97500	d
+98420	d
 en
 zu
 ki
@@ -94939,7 +94939,7 @@ e
 ri
 ba
 am
-a
+98464	a
 na
 ka
 lu
@@ -94953,13 +94953,13 @@ ma
 da
 mi
 iq
-97558	d
+98479	d
 amar
 utu
 ma
 a
 na
-97565	ti
+98486	ti
 x
 x
 x
@@ -94993,7 +94993,7 @@ x
 x
 e2
 lu2
-97600	x
+98521	x
 x
 x
 x
@@ -95015,10 +95015,10 @@ ku
 a
 sza3
 li
-97625	x
+98546	x
 ta
 li
-97629	u3
+98550	u3
 ni
 szu
 ta
@@ -95085,7 +95085,7 @@ a
 ab
 ba
 x
-97697	ma
+98618	ma
 ti
 i
 ma
@@ -95151,11 +95151,11 @@ x
 ma
 sza
 lu
-97764	szum
+98685	szum
 x
-97767	a
+98688	a
 x
-97770	a
+98691	a
 nu
 um
 ma
@@ -95163,14 +95163,14 @@ x
 x
 x
 x
-97779	x
-97781	9(gesz)
+98700	x
+98702	9(gesz)
 5(u)
 3(asz)
 x
 sze
 gur
-97788	x
+98709	x
 szi
 iq
 me
@@ -95196,12 +95196,12 @@ ra
 ma
 a
 na
-97815	d
+98736	d
 en
 zu
 na
 ap
-97821	dirig
+98742	dirig
 sza
 sze
 im
@@ -95230,7 +95230,7 @@ ud
 kib
 nun
 ki
-97851	sza
+98772	sza
 szar
 rum
 sahar
@@ -95312,7 +95312,7 @@ ka2
 dingir
 ra
 ki
-97934	ta
+98855	ta
 al
 li
 ka
@@ -95339,7 +95339,7 @@ ar
 ku
 nu
 ti
-a
+98883	a
 na
 be
 li2
@@ -95358,14 +95358,14 @@ dumu
 mi2
 nu
 ur2
-97981	d
+98903	d
 iszkur
 geme2
 ka
 ma
 a
 na
-97989	d
+98911	d
 en
 zu
 i
@@ -95386,7 +95386,7 @@ ud
 kib
 nun
 ki
-98011	szu
+98933	szu
 u2
 i
 x
@@ -95394,7 +95394,7 @@ x
 x
 x
 x
-98020	szu
+98942	szu
 a
 na
 pa
@@ -95465,7 +95465,7 @@ la
 a
 ma
 at
-98092	d
+99014	d
 utu
 a
 na
@@ -95567,7 +95567,7 @@ na
 ti
 it
 ti
-98195	d
+99117	d
 en
 zu
 i
@@ -95577,7 +95577,7 @@ di
 ni
 di
 in
-a
+99128	a
 na
 i
 pi2
@@ -95592,7 +95592,7 @@ ma
 e
 ri
 ib
-98221	d
+99144	d
 en
 zu
 ma
@@ -95707,10 +95707,10 @@ ah
 ri
 a
 x
-98337	szu
+99260	szu
 bi
 x
-98341	a
+99265	a
 na
 szu
 kab
@@ -95727,14 +95727,14 @@ zum
 ma
 tum
 ma
-98359	d
+99283	d
 utu
 u3
-98363	d
+99287	d
 inanna
 da
 ri
-98368	u4
+99292	u4
 mi
 li
 ba
@@ -95799,7 +95799,7 @@ sza
 am
 asz
 szum
-98434	lu
+99358	lu
 a
 at
 a
@@ -95832,13 +95832,13 @@ ba
 szu
 nu
 ka
-98468	i
+99392	i
 i
 na
 a
 li
 ki
-98475	ka
+99399	ka
 ka
 qa
 ad
@@ -95875,7 +95875,7 @@ at
 x
 x
 x
-98513	ta
+99437	ta
 tim
 x
 x
@@ -95886,7 +95886,7 @@ kam
 ep
 sa
 am
-a
+99449	a
 na
 gi
 mil
@@ -95898,14 +95898,14 @@ um
 ma
 e
 tel
-98538	d
+99463	d
 amar
 utu
 ma
-98543	d
+99468	d
 utu
 u3
-98547	d
+99472	d
 amar
 utu
 asz
@@ -96051,9 +96051,9 @@ x
 x
 x
 x
-98694	lu2
+99619	lu2
 mesz
-98697	x
+99622	x
 x
 x
 x
@@ -96237,7 +96237,7 @@ sza
 pa
 ri
 im
-98882	lu2
+99807	lu2
 hun
 ga2
 mesz
@@ -96245,20 +96245,20 @@ ta
 ga
 ar
 x
-98891	x
-98893	a
+99816	x
+99819	a
 na
 a
 bi
 ia
 sza
-98900	d
+99826	d
 amar
 utu
 u2
 ba
 al
-98907	qi2
+99833	qi2
 bi2
 ma
 um
@@ -96267,10 +96267,10 @@ e
 t,i
 rum
 ma
-98917	d
+99843	d
 utu
 u3
-98921	d
+99847	d
 amar
 utu
 asz
@@ -96282,7 +96282,7 @@ ri
 isz
 u4
 mi
-98934	a
+99860	a
 ba
 ka
 ta
@@ -96346,7 +96346,7 @@ ka
 ta
 ma
 har
-98999	d
+99925	d
 utu
 lu
 da
@@ -96367,7 +96367,7 @@ na
 a
 wi
 lim
-99021	x
+99947	x
 x
 x
 x
@@ -96378,30 +96378,30 @@ x
 re
 esz
 itu
-99035	x
+99961	x
 re
 esz
 itu
-99040	x
-99042	a
+99966	x
+99968	a
 wi
 lum
 i
 qa2
 ab
 bu
-99050	il
+99976	il
 la
 kam
-99054	x
+99980	x
 asz
 pu
 ra
 am
-99060	x
+99986	x
 in
 ma
-99064	x
+99990	x
 x
 ak
 kum
@@ -96415,22 +96415,22 @@ x
 x
 x
 am
-99079	um
+100005	um
 a
 na
 a
 x
-99086	x
+100012	x
 x
-99090	a
+100016	a
 wi
 lum
-99094	li
+100020	li
 sza
 an
 ni
 x
-99100	a
+100027	a
 na
 a
 ha
@@ -96530,7 +96530,7 @@ na
 be
 le
 tum
-99201	lu2
+100128	lu2
 din
 na
 disz
@@ -96599,8 +96599,8 @@ i
 na
 bi
 ti
-99271	disz
-99273	d
+100198	disz
+100200	d
 utu
 na
 s,i
@@ -96642,24 +96642,24 @@ gu
 um
 mu
 ri
-a
+100243	a
 na
 dingir
 szu
 x
-99321	qi2
+100249	qi2
 bi2
 ma
 um
 ma
 gi
 mil
-99329	d
-99331	ma
-99333	d
+100257	d
+100259	ma
+100261	d
 utu
 u3
-99337	d
+100265	d
 amar
 utu
 da
@@ -96667,7 +96667,7 @@ ri
 isz
 u4
 mi
-99346	li
+100274	li
 ba
 a
 al
@@ -96700,7 +96700,7 @@ na
 s,u2
 pu
 ur
-99380	d
+100308	d
 za
 ba4
 ba4
@@ -96735,11 +96735,11 @@ lu
 pu
 sza
 kum
-a
+100344	a
 na
 it
 ti
-99420	d
+100349	d
 utu
 ba
 la
@@ -96754,10 +96754,10 @@ li
 ia
 um
 ma
-99436	d
+100365	d
 utu
 u3
-99440	d
+100369	d
 amar
 utu
 da
@@ -96784,7 +96784,7 @@ a
 na
 s,il2
 li2
-99468	d
+100397	d
 utu
 i
 di
@@ -96794,8 +96794,8 @@ ka
 ni
 ik
 szu
-99479	disz
-99481	d
+100408	disz
+100410	d
 en
 zu
 re
@@ -96804,11 +96804,11 @@ ni
 szu
 bi
 lam
-a
+100420	a
 na
 it
 ti
-99495	d
+100425	d
 utu
 ba
 la
@@ -96823,10 +96823,10 @@ li
 ia
 um
 ma
-99511	d
+100441	d
 utu
 u3
-99515	d
+100445	d
 amar
 utu
 li
@@ -96924,7 +96924,7 @@ la
 ki
 im
 disz
-99614	d
+100544	d
 na
 bi
 um
@@ -96948,19 +96948,19 @@ ti
 sza
 bu
 x
-99639	x
-99641	x
-99643	a
+100569	x
+100571	x
+100574	a
 na
 it
 ti
-99648	d
+100579	d
 utu
 ba
 la
 su
 sza
-99655	d
+100586	d
 amar
 utu
 u2
@@ -96979,10 +96979,10 @@ li
 ia
 um
 ma
-99675	d
+100606	d
 utu
 u3
-99679	d
+100610	d
 amar
 utu
 li
@@ -97126,7 +97126,7 @@ x
 x
 x
 x
-a
+100755	a
 na
 a
 wi
@@ -97161,11 +97161,11 @@ nu
 um
 ki
 ma
-99859	d
+100791	d
 utu
 asz
 szum
-99864	d
+100796	d
 nin
 urta
 isz
@@ -97189,7 +97189,7 @@ isztar
 sza
 sag
 bal
-99889	d
+100821	d
 amar
 utu
 la
@@ -97197,7 +97197,7 @@ i
 ka
 lu
 u2
-a
+100830	a
 na
 sza
 pi2
@@ -97210,21 +97210,21 @@ um
 ma
 ib
 ni
-99911	d
+100844	d
 amar
 utu
 u3
-99916	d
+100849	d
 nanna
 ibila
 ma
 an
 sum
 ma
-99924	d
+100857	d
 utu
 u3
-99928	d
+100861	d
 amar
 utu
 asz
@@ -97283,7 +97283,7 @@ ud
 kib
 nun
 ki
-99988	il
+100921	il
 li
 ku
 a
@@ -97309,7 +97309,7 @@ ir
 ni
 a
 na
-100015	d
+100948	d
 amar
 utu
 na
@@ -97352,7 +97352,7 @@ ni
 ta
 pa
 al
-100059	disz
+100992	disz
 i
 pi2
 iq
@@ -97389,7 +97389,7 @@ um
 ra2
 gab
 sza
-100097	d
+101030	d
 nanna
 ma
 an
@@ -97439,7 +97439,7 @@ hu
 ni
 a
 ti
-a
+101081	a
 na
 u2
 i
@@ -97452,15 +97452,15 @@ um
 ma
 i
 din
-100161	d
+101095	d
 na
 na
 a
 ma'
-100167	d
+101101	d
 utu
 u3
-100171	d
+101105	d
 nin
 szubur
 ba
@@ -97515,7 +97515,7 @@ sza
 disz
 s,il2
 li2
-100227	d
+101161	d
 inanna
 ta
 asz
@@ -97640,7 +97640,7 @@ i
 na
 bad3
 sza
-100353	d
+101287	d
 en
 zu
 ka
@@ -97724,7 +97724,7 @@ sze
 gur
 i
 na
-100438	gisz
+101372	gisz
 ban2
 ki
 it
@@ -97775,7 +97775,7 @@ ka
 disz
 s,il2
 li2
-100490	d
+101424	d
 inanna
 it
 ta
@@ -97916,7 +97916,7 @@ x
 te
 ra
 x
-100632	x
+101566	x
 x
 x
 a
@@ -97928,7 +97928,7 @@ ka
 x
 x
 x
-a
+101579	a
 na
 ra
 bi
@@ -97955,7 +97955,7 @@ al
 sa3
 am
 ma
-100672	d
+101607	d
 utu
 li
 ba
@@ -97991,7 +97991,7 @@ e2
 gal
 na
 asz
-100709	u2
+101644	u2
 tim
 ul
 ta
@@ -98013,7 +98013,7 @@ x
 x
 x
 x
-100732	x
+101667	x
 x
 x
 x
@@ -98048,7 +98048,7 @@ ha
 ra
 an
 ni
-a
+101703	a
 na
 ba
 li
@@ -98065,7 +98065,7 @@ a
 ia
 ni
 x
-100785	d
+101721	d
 utu
 d
 inanna
@@ -98157,7 +98157,7 @@ ul
 e
 li
 i
-100878	ki
+101814	ki
 ma
 s,i
 bu
@@ -98179,7 +98179,7 @@ dub
 x
 x
 x
-a
+101837	a
 na
 a
 bi
@@ -98195,10 +98195,10 @@ ma
 a
 bi
 ma
-100917	d
+101854	d
 utu
 u3
-100921	d
+101858	d
 amar
 utu
 asz
@@ -98226,7 +98226,7 @@ esz2
 nun
 na
 ki
-100950	zi
+101887	zi
 ki
 ir
 szu
@@ -98316,8 +98316,8 @@ ia
 x
 x
 x
-101041	x
-101043	x
+101978	x
+101980	x
 ka
 x
 x
@@ -98327,8 +98327,8 @@ x
 x
 x
 u2
-101054	disz
-101056	d
+101991	disz
+101993	d
 utu
 sza
 ta
@@ -98343,14 +98343,14 @@ am
 disz
 ib
 ni
-101072	d
+102009	d
 iszkur
 ra2
 gab
 sza
 ib
 ni
-101080	d
+102017	d
 amar
 utu
 sza
@@ -98359,9 +98359,9 @@ ud
 kib
 nun
 ki
-101090	a
+102027	a
 na
-101093	d
+102030	d
 utu
 i
 din
@@ -98389,7 +98389,7 @@ ud
 kib
 nun
 ki
-101122	u2
+102059	u2
 t,a
 ah
 ha
@@ -98428,7 +98428,7 @@ ma
 ib
 x
 x
-101162	a
+102100	a
 na
 nu
 ra
@@ -98461,9 +98461,9 @@ ma
 ma
 ha
 ar
-101196	disz
+102134	disz
 ir3
-101199	d
+102137	d
 nanna
 1(disz)
 bur
@@ -98526,7 +98526,7 @@ am
 a
 di
 ir3
-101263	d
+102201	d
 nanna
 i
 la
@@ -98550,7 +98550,7 @@ e
 li
 ka
 ir3
-101288	d
+102226	d
 nanna
 la
 i
@@ -98558,7 +98558,7 @@ ra
 asz
 szi
 i
-a
+102235	a
 na
 bi
 ti
@@ -98574,10 +98574,10 @@ ib
 szi
 na
 ma
-101313	d
+102252	d
 suen
 u3
-101317	d
+102256	d
 inanna
 a
 ha
@@ -98908,13 +98908,13 @@ di
 na
 ak
 kum
-a
+102588	a
 na
 a
 bi
 ia
 sza
-101655	d
+102595	d
 amar
 utu
 u2
@@ -98933,10 +98933,10 @@ isz
 me
 szu
 ma
-101675	d
+102615	d
 utu
 u3
-101679	d
+102619	d
 amar
 utu
 da
@@ -98954,7 +98954,7 @@ li
 t,u2
 dingir
 lu
-101698	d
+102638	d
 za
 ba4
 ba4
@@ -99009,7 +99009,7 @@ e2
 gal
 gi
 mil
-101754	d
+102694	d
 amar
 utu
 dumu
@@ -99055,10 +99055,10 @@ bu
 ut
 dumu
 mesz
-101801	ni
+102741	ni
 i
 ki
-101805	sza
+102745	sza
 a
 na
 be
@@ -99083,7 +99083,7 @@ hi
 ia
 ha
 ri
-101831	um
+102771	um
 ma
 be
 li2
@@ -99133,7 +99133,7 @@ nu
 ti
 in
 mu
-101882	ir
+102822	ir
 ri
 id
 di
@@ -99156,7 +99156,7 @@ bu
 ut
 uru
 ki
-101906	u2
+102846	u2
 ul
 tu
 ba
@@ -99220,8 +99220,8 @@ la
 us,
 s,u2
 u2
-101971	x
-a
+102911	x
+102913	a
 na
 be
 el
@@ -99239,10 +99239,10 @@ li
 ti
 szi
 ma
-101991	d
+102932	d
 utu
 u3
-101995	d
+102936	d
 amar
 utu
 asz
@@ -99395,7 +99395,7 @@ aq
 dam
 x
 x
-102149	u2
+103090	u2
 ul
 i
 na
@@ -99409,16 +99409,16 @@ ri
 tam
 u3
 za
-102164	am
+103105	am
 sza
 i
 ti
-102169	szu
+103110	szu
 x
 x
 x
 x
-102176	disz
+103117	disz
 geme
 isztar
 szu
@@ -99426,7 +99426,7 @@ bi
 lim
 x
 x
-102185	tu
+103126	tu
 sza
 ba
 lim
@@ -99442,7 +99442,7 @@ a
 na
 geme
 sza
-102202	i
+103143	i
 du
 um
 disz
@@ -99519,13 +99519,13 @@ i
 la
 ka
 nim
-102280	x
-102282	x
+103221	x
+103223	x
 x
-102285	x
+103226	x
 x
 x
-a
+103230	a
 na
 il
 ti
@@ -99541,7 +99541,7 @@ ib
 szi
 na
 ma
-102305	d
+103247	d
 inana
 a
 ha
@@ -99576,7 +99576,7 @@ na
 az2
 qa2
 ku
-a
+103283	a
 na
 ru
 ut
@@ -99587,9 +99587,9 @@ ma
 um
 ma
 dumu
-102352	id2
-102354	ki
-102356	ma
+103295	id2
+103297	ki
+103299	ma
 be
 el
 ki
@@ -99634,7 +99634,7 @@ ta
 al
 la
 ki
-a
+103345	a
 na
 ba
 le
@@ -99672,7 +99672,7 @@ ip
 ri
 im
 u2
-102440	e
+103384	e
 ru
 u2
 ka
@@ -99711,7 +99711,7 @@ u2
 ma
 a
 na
-102480	gisz
+103424	gisz
 gag
 a
 at
@@ -99808,14 +99808,14 @@ kam
 x
 x
 x
-102579	x
+103523	x
 lu2
 hun
 ga2
 d
 en
 zu
-102587	sza
+103531	sza
 it
 ti
 i
@@ -99824,14 +99824,14 @@ szi
 ip
 ra
 am
-102597	x
+103541	x
 szu
 ut
 ra
 am
 ma
 x
-102605	am
+103549	am
 szu
 bi
 lam
@@ -99841,17 +99841,17 @@ usz
 me
 e
 x
-102616	x
+103560	x
 la
 i
 he
 su
 u2
-a
+103567	a
 na
 ip
 qu2
-102627	d
+103572	d
 iszkur
 qi2
 bi2
@@ -99864,7 +99864,7 @@ ti
 nu
 um
 ma
-102641	d
+103586	d
 iszkur
 mu
 1(szar2)
@@ -99936,7 +99936,7 @@ sza
 i
 ru
 bu
-102714	gisz
+103659	gisz
 mar
 hi
 a
@@ -99946,7 +99946,7 @@ zi
 in
 hi
 a
-102725	urudu
+103670	urudu
 ha
 bu
 da
@@ -99962,9 +99962,9 @@ la
 im
 hu
 ru
-a
+103687	a
 na
-102744	d
+103690	d
 en
 zu
 i
@@ -99981,10 +99981,10 @@ uh
 sa
 mar
 ma
-102762	d
+103708	d
 utu
 u3
-102766	d
+103712	d
 amar
 utu
 li
@@ -99996,7 +99996,7 @@ ka
 disz
 im
 gur
-102779	d
+103725	d
 nin
 urta
 ugula
@@ -100028,7 +100028,7 @@ nig2
 szu
 sze
 ep
-102812	d
+103758	d
 en
 zu
 li
@@ -100108,7 +100108,7 @@ te
 sze
 er
 szu
-a
+103839	a
 na
 a
 bi
@@ -100262,7 +100262,7 @@ x
 x
 x
 x
-103047	disz
+103994	disz
 sza
 al
 lu
@@ -100311,7 +100311,7 @@ mu
 ba
 li2
 it
-103097	d
+104044	d
 amar
 utu
 ir3
@@ -100375,9 +100375,9 @@ usz
 ta
 a
 am
-a
+104109	a
 na
-103164	d
+104112	d
 en
 zu
 u2
@@ -100393,7 +100393,7 @@ pi2
 it
 isztar
 ma
-103181	d
+104129	d
 utu
 li
 ba
@@ -100477,9 +100477,9 @@ sag
 szu
 bi
 lam
-a
+104214	a
 na
-103268	d
+104217	d
 amar
 utu
 na
@@ -100492,14 +100492,14 @@ um
 ma
 x
 x
-103282	d
+104231	d
 en
 zu
 ma
-103287	d
+104236	d
 utu
 u3
-103291	d
+104240	d
 amar
 utu
 li
@@ -100511,7 +100511,7 @@ ka
 disz
 pa
 ni
-103304	d
+104253	d
 amar
 utu
 lu
@@ -100529,7 +100529,7 @@ at,
 t,ar
 dam
 1(disz)
-103323	gisz
+104272	gisz
 mar
 gid2
 da
@@ -100545,7 +100545,7 @@ szu
 ba
 ba
 li
-103340	i
+104289	i
 di
 isz
 szum
@@ -100558,7 +100558,7 @@ ku3
 babbar
 tu
 sze
-103354	a
+104304	a
 na
 be
 el
@@ -100575,10 +100575,10 @@ er
 s,e
 tim
 ma
-103372	d
+104322	d
 utu
 u3
-103376	d
+104326	d
 amar
 utu
 asz
@@ -100639,7 +100639,7 @@ ki
 u2
 ul
 a
-103438	x
+104388	x
 x
 x
 x
@@ -100696,19 +100696,19 @@ mi
 isz
 tu
 ri
-103496	x
+104446	x
 x
 na
 am
 e
 eh
 li
-a
+104454	a
 na
 e
 tel
 pi2
-103509	d
+104460	d
 amar
 utu
 qi2
@@ -100721,10 +100721,10 @@ na
 wi
 rum
 ma
-103523	d
+104474	d
 utu
 u3
-103527	d
+104478	d
 amar
 utu
 asz
@@ -100735,7 +100735,7 @@ da
 ri
 isz
 u4
-103539	mi
+104490	mi
 li
 ba
 al
@@ -100850,7 +100850,7 @@ su2
 uh
 a
 na
-103655	d
+104606	d
 utu
 x
 im
@@ -100869,7 +100869,7 @@ ti
 a
 na
 bad3
-103675	d
+104626	d
 en
 zu
 mu
@@ -100892,9 +100892,9 @@ at
 ta
 sa
 ah
-103699	x
+104650	x
 ri
-103702	x
+104653	x
 x
 x
 x
@@ -100903,7 +100903,7 @@ al
 li
 a
 am
-103712	disz
+104663	disz
 da
 ad
 da
@@ -100916,7 +100916,7 @@ tu
 uru
 im
 ki
-103726	i
+104677	i
 ta
 al
 li
@@ -101011,7 +101011,7 @@ ku
 i
 szu
 e2
-103822	u2
+104773	u2
 da
 ab
 ba
@@ -101045,7 +101045,7 @@ ik
 tap
 pi
 ir
-103857	disz
+104808	disz
 dumu
 a
 ki
@@ -101054,7 +101054,7 @@ nagar
 at,
 t,ar
 dam
-a
+104818	a
 na
 ru
 ut
@@ -101070,16 +101070,16 @@ bi
 um
 x[...
 ma
-103883	d
+104835	d
 utu
 u3
-103887	d
+104839	d
 amar
 utu
 li
 ba
 al
-103894	pi2
+104846	pi2
 qa2
 at
 asz
@@ -101093,7 +101093,7 @@ ka2
 dingir
 ra
 ki
-103909	wa
+104861	wa
 asz
 bu
 u3
@@ -101204,9 +101204,9 @@ t,a
 ab
 x
 x
-104021	szum
+104973	szum
 ma
-104024	li
+104976	li
 ib
 la
 am
@@ -101228,7 +101228,7 @@ sza
 bi
 lu
 nim
-a
+104999	a
 na
 be
 ti
@@ -101242,10 +101242,10 @@ nam
 ra
 tum
 ma
-104061	d
+105014	d
 utu
 u3
-104065	d
+105018	d
 amar
 utu
 da
@@ -101299,7 +101299,7 @@ isz
 qu2
 lu
 disz
-104120	d
+105073	d
 tasz
 me
 tum
@@ -101336,7 +101336,7 @@ isz3
 te
 er
 si
-a
+105111	a
 na
 be
 ti
@@ -101350,10 +101350,10 @@ nam
 ra
 tum
 ma
-104172	d
+105126	d
 utu
 u3
-104176	d
+105130	d
 amar
 utu
 da
@@ -101369,8 +101369,8 @@ t,u2
 ki
 asz
 szum
-104193	disz
-104195	d
+105147	disz
+105149	d
 en
 zu
 be
@@ -101397,8 +101397,8 @@ ia
 il
 li
 kam
-104223	disz
-104225	d
+105177	disz
+105179	d
 utumu
 sze
 zi
@@ -101441,7 +101441,7 @@ a
 wa
 tum
 sza
-104269	d
+105223	d
 en
 zu
 be
@@ -101455,8 +101455,8 @@ ma
 ah
 ra
 at
-104284	disz
-104286	d
+105238	disz
+105240	d
 utumu
 sze
 zi
@@ -101490,7 +101490,7 @@ usz
 asz
 szum
 disz
-104321	d
+105275	d
 na
 bi
 um
@@ -101507,7 +101507,7 @@ i
 na
 qa2
 ti
-104339	d
+105293	d
 utu
 du
 um
@@ -101526,7 +101526,7 @@ ma
 lik
 id
 ni
-a
+105313	a
 na
 d
 bu
@@ -101546,7 +101546,7 @@ ma
 dub
 pi2
 disz
-104379	d
+105334	d
 na
 bi
 um
@@ -101698,12 +101698,12 @@ ka
 a
 na
 ku
-a
+105487	a
 na
 ku
 uk
 x
-104537	qi2
+105493	qi2
 bi2
 ma
 um
@@ -101717,10 +101717,10 @@ ma
 ra
 at
 ka
-104552	d
+105508	d
 utu
 u3
-104556	d
+105512	d
 amar
 utu
 asz
@@ -101729,7 +101729,7 @@ mi
 ia
 da
 ri
-104566	li
+105522	li
 ba
 al
 li
@@ -101777,10 +101777,10 @@ lum
 ka
 ma
 har
-104615	d
+105571	d
 utu
 u3
-104619	d
+105575	d
 inana
 szar
 ra
@@ -101789,14 +101789,14 @@ ud
 kib
 nun
 ki
-104629	lu
+105585	lu
 da
 ri
 asz
 szum
 me
 sza
-104637	d
+105593	d
 inana
 szar
 ra
@@ -101898,7 +101898,7 @@ e
 x
 bi
 ub
-104740	ul
+105696	ul
 la
 nu
 a
@@ -101983,7 +101983,7 @@ a
 an
 x
 x
-104826	x
+105782	x
 x
 x
 u3
@@ -102012,12 +102012,12 @@ x
 x
 x
 x
-104856	x
+105812	x
 x
 x
 x
 x
-104862	x
+105818	x
 an
 ni
 a
@@ -102036,7 +102036,7 @@ an
 ni
 x
 x
-104882	a
+105839	a
 na
 na
 ra
@@ -102049,7 +102049,7 @@ um
 ma
 nu
 ur2
-104896	d
+105853	d
 utu
 ma
 a
@@ -102066,19 +102066,19 @@ at,
 t,ar
 da
 am
-104914	gi
+105871	gi
 qu2
 up
 pa
 am
 x
-104922	gi
+105879	gi
 qu2
 up
 pa
 am
 x
-104929	u3
+105886	u3
 2(disz)
 sze
 i
@@ -102096,7 +102096,7 @@ ul
 sza
 bi
 ti
-104948	ni
+105905	ni
 szu
 szu
 bi
@@ -102106,10 +102106,10 @@ ta
 ka
 li
 szu
-a
+105916	a
 na
 szu
-104962	d
+105920	d
 kab
 ta
 qi2
@@ -102119,17 +102119,17 @@ um
 ma
 pi2
 lah
-104973	d
+105931	d
 inana)
 ma
 ra
 az
 ka
 ma
-104981	d
+105939	d
 utu
 u3
-104985	d
+105943	d
 inana
 li
 ba
@@ -102156,7 +102156,7 @@ am
 disz
 nu
 ur2
-105013	d
+105971	d
 kab
 ta
 a
@@ -102282,7 +102282,7 @@ ri
 im
 mi
 nu
-105140	s,u2
+106098	s,u2
 ha
 ra
 sza
@@ -102315,11 +102315,11 @@ szu
 e
 bu
 ru
-a
+106132	a
 na
 ib
 ni
-105178	d
+106137	d
 amar
 utu
 qi2
@@ -102442,11 +102442,11 @@ ia
 ki
 i
 il
-a
+106261	a
 na
 ip
 qu2
-105306	d
+106266	d
 iszkur
 qi2
 bi2
@@ -102455,7 +102455,7 @@ um
 ma
 ri
 im
-105316	d
+106276	d
 en
 zu
 en
@@ -102468,7 +102468,7 @@ s,a
 ab
 rum
 u3
-105330	d
+106290	d
 en
 zu
 ha
@@ -102478,7 +102478,7 @@ s,u2
 ha
 ru
 u2
-105341	u2
+106301	u2
 tu
 un
 mi
@@ -102511,7 +102511,7 @@ er
 szu
 nu
 ti
-a
+106335	a
 na
 nam
 ra
@@ -102523,15 +102523,15 @@ um
 ma
 ri
 isz
-105387	d
+106348	d
 szu
 bu
 la
 ma
-105393	d
+106354	d
 utu
 u3
-105397	d
+106358	d
 amar
 utu
 li
@@ -102587,7 +102587,7 @@ na
 an
 mi
 ir
-a
+106415	a
 na
 dingir
 na
@@ -102645,9 +102645,9 @@ im
 li
 di
 in
-a
+106474	a
 na
-105514	d
+106477	d
 en
 zu
 u2
@@ -102658,17 +102658,17 @@ bi2
 ma
 um
 ma
-105526	d
+106489	d
 en
 zu
 da
 mi
 iq
 ma
-105534	d
+106497	d
 utu
 u3
-105538	d
+106501	d
 nin
 si4
 an
@@ -102686,15 +102686,15 @@ li
 kam
 i
 na
-105557	uru
+106520	uru
 e2
 szu
-105561	d
+106524	d
 en
 zu
 na
 ki
-105567	ma
+106530	ma
 a
 na
 ku
@@ -102734,7 +102734,7 @@ u4
 5(disz)
 kam
 disz
-105608	d
+106571	d
 en
 zu
 re
@@ -102791,7 +102791,7 @@ em
 disz
 na
 bi
-105666	d
+106629	d
 utu
 sza
 asz
@@ -102856,8 +102856,8 @@ at
 ta
 a
 ma
-105732	disz
-105734	d
+106695	disz
+106697	d
 en
 zu
 da
@@ -102874,14 +102874,14 @@ di
 isz
 pu
 ra
-a
+106715	a
 na
 ugula
 dam
 gar3
 mesz
 sza
-105759	d
+106723	d
 amar
 utu
 u2
@@ -102895,7 +102895,7 @@ bi2
 ma
 um
 ma
-105774	d
+106738	d
 en
 zu
 i
@@ -102903,25 +102903,25 @@ din
 nam
 x
 x
-105783	x
-105785	d
+106747	x
+106749	d
 utu
 u3
-105789	d
+106753	d
 amar
 utu
 asz
 szu
 mi
-105796	u4
+106760	u4
 mi
 li
-105800	lu
+106764	lu
 sza
 al
 ma
 x
-105806	x
+106770	x
 dingir
 na
 s,i
@@ -102951,8 +102951,8 @@ szu
 up
 ra
 am
-105837	disz
-105839	d
+106801	disz
+106803	d
 utu
 na
 s,i
@@ -102987,7 +102987,7 @@ e
 ia
 x
 x
-105875	disz
+106839	disz
 ip
 qa2
 tum
@@ -103054,7 +103054,7 @@ kam
 sze
 am
 sza
-105943	d
+106907	d
 utu
 na
 s,i
@@ -103073,7 +103073,7 @@ sa
 x
 x
 x
-a
+106927	a
 na
 be
 el
@@ -103093,12 +103093,12 @@ bi2
 ma
 um
 ma
-105983	d
+106948	d
 en
 zu
 dingir
 ma
-105989	d
+106954	d
 utu
 li
 ba
@@ -103261,9 +103261,9 @@ a
 nu
 um
 ma
-106153	disz
+107118	disz
 ur
-106156	d
+107121	d
 nanna
 a
 na
@@ -103379,7 +103379,7 @@ la
 ki
 am
 nig2
-106273	ra
+107238	ra
 gi
 nu
 szu
@@ -103400,15 +103400,15 @@ ni
 it
 ku
 nu
-106296	szu
+107261	szu
 up
 ra
 an
 ni
 im
 ma
-106304	nig2
-106306	ra
+107269	nig2
+107271	ra
 sza
 bu
 li
@@ -103420,9 +103420,9 @@ li
 li
 ka
 am
-a
+107284	a
 na
-106321	d
+107287	d
 en
 zu
 i
@@ -103433,15 +103433,15 @@ bi2
 ma
 um
 ma
-106333	d
+107299	d
 en
 zu
 dingir
 ma
-106339	d
+107305	d
 utu
 u3
-106343	d
+107309	d
 amar
 utu
 li
@@ -103486,7 +103486,7 @@ ka2
 gal
 uh3
 ki
-106389	ip
+107355	ip
 pe2
 et
 tu
@@ -103501,7 +103501,7 @@ szu
 asz
 asz
 ki
-106405	i
+107371	i
 na
 a
 sza3
@@ -103586,7 +103586,7 @@ al
 la
 a
 am
-a
+107457	a
 na
 a
 ki
@@ -103596,7 +103596,7 @@ bi2
 ma
 um
 ma
-106501	d
+107468	d
 en
 zu
 i
@@ -103619,7 +103619,7 @@ hi
 a
 sza
 te
-106525	u2
+107492	u2
 s,a
 ba
 ti
@@ -103750,11 +103750,11 @@ pa
 ar
 ri
 ik
-a
+107624	a
 na
 dumu
 mesz
-106661	dumu
+107629	dumu
 d
 amar
 utu
@@ -103767,7 +103767,7 @@ dumu
 mesz
 ib
 ni
-106675	d
+107643	d
 en
 zu
 dumu
@@ -103782,7 +103782,7 @@ bi2
 ma
 um
 ma
-106691	d
+107659	d
 en
 zu
 i
@@ -103834,7 +103834,7 @@ s,u2
 u2
 le
 qe2
-106744	em
+107712	em
 ma
 a
 na
@@ -103842,7 +103842,7 @@ ka2
 dingir
 ra
 ki
-106753	a
+107721	a
 la
 ki
 im
@@ -103950,7 +103950,7 @@ ka2
 dingir
 ra
 ki
-106862	si2
+107830	si2
 in
 qa2
 am
@@ -103996,10 +103996,10 @@ ba
 ab
 ba
 lu
-a
+107877	a
 na
 szu
-106912	d
+107881	d
 kab
 ta
 qi2
@@ -104007,7 +104007,7 @@ bi2
 ma
 um
 ma
-106921	d
+107890	d
 en
 zu
 i
@@ -104019,10 +104019,10 @@ ru
 ka
 a
 ma
-106934	d
+107903	d
 utu
 u3
-106938	d
+107907	d
 amar
 utu
 asz
@@ -104063,7 +104063,7 @@ um
 ma
 nu
 ur2
-106980	d
+107949	d
 nin
 szubur
 at,
@@ -104071,7 +104071,7 @@ t,ar
 da
 ak
 kum
-106989	gin2
+107958	gin2
 ku3
 babbar
 wa
@@ -104112,7 +104112,7 @@ x
 x
 x
 x
-107031	d
+108000	d
 kab
 ta
 i
@@ -104121,7 +104121,7 @@ ka2
 dingir
 ra
 ki
-107041	li
+108010	li
 ik
 szu
 da
@@ -104160,7 +104160,7 @@ isz
 t,u2
 ur
 dam
-a
+108050	a
 na
 su
 mu
@@ -104174,7 +104174,7 @@ bi2
 ma
 um
 ma
-107095	d
+108065	d
 en
 zu
 i
@@ -104189,7 +104189,7 @@ at
 szesz
 unu
 ki
-107112	a
+108082	a
 wi
 lum
 a
@@ -104198,14 +104198,14 @@ ki
 ma
 i
 na
-107122	x
+108092	x
 um
 x
-107126	x
-107128	x
+108096	x
+108098	x
 i
-107131	x
-107133	a
+108101	x
+108103	a
 na
 pa
 ni
@@ -104253,8 +104253,8 @@ ki
 tim
 ki
 ma
-107182	disz
-107184	d
+108152	disz
+108154	d
 en
 zu
 i
@@ -104278,7 +104278,7 @@ x
 x
 x
 i
-107209	ap
+108179	ap
 pu
 tum
 i
@@ -104286,7 +104286,7 @@ na
 a
 wa
 ti
-107218	i
+108188	i
 zi
 iz
 x
@@ -104316,7 +104316,7 @@ tam
 a
 pu
 ul
-a
+108219	a
 na
 dingir
 szu
@@ -104327,16 +104327,16 @@ bi2
 ma
 um
 ma
-107260	d
+108231	d
 en
 zu
 ma
 gir
-107266	ma
-107268	d
+108237	ma
+108239	d
 utu
 u3
-107272	d
+108243	d
 asz
 x
 x
@@ -104346,7 +104346,7 @@ li
 ba
 al
 li
-107283	asz
+108254	asz
 szum
 t,e4
 em
@@ -104386,14 +104386,14 @@ x
 x
 x
 x
-107324	x
+108295	x
 x
 x
 ma
 x
 x
 x
-a
+108303	a
 na
 na
 ka
@@ -104404,7 +104404,7 @@ bi2
 ma
 um
 ma
-107343	d
+108315	d
 en
 zu
 na
@@ -104414,7 +104414,7 @@ szu
 mi
 im
 ma
-107354	d
+108326	d
 utu
 li
 ba
@@ -104456,7 +104456,7 @@ ka2
 dingir
 ra
 ki
-107397	a
+108369	a
 mur
 szi
 ma
@@ -104514,9 +104514,9 @@ szu
 up
 ri
 im
-a
+108428	a
 na
-107458	d
+108431	d
 en
 zu
 be
@@ -104528,14 +104528,14 @@ bi2
 ma
 um
 ma
-107471	d
+108444	d
 en
 zu
 u2
 se2
 li
 ma
-107479	d
+108452	d
 utu
 li
 ba
@@ -104607,12 +104607,12 @@ sza
 x
 x
 x
-107552	a
+108525	a
 na
 mu
 2(disz)
 kam
-107559	u3
+108532	u3
 t,e
 e
 mi
@@ -104623,7 +104623,7 @@ ak
 ti
 u3
 x
-107571	u3
+108544	u3
 ku3
 babbar
 sza
@@ -104664,7 +104664,7 @@ qa2
 ti
 s,i
 li2
-107613	d
+108586	d
 utu
 a
 na
@@ -104726,7 +104726,7 @@ pi2
 di
 al
 kam
-a
+108649	a
 na
 be
 li2
@@ -104738,7 +104738,7 @@ um
 ma
 s,i
 li2
-107688	d
+108662	d
 utu
 ma
 6(gesz2)
@@ -104763,7 +104763,7 @@ sza3
 igi
 uru
 ki
-107714	2(gesz2)1(u)
+108688	2(gesz2)1(u)
 gur
 a
 sza3
@@ -104790,8 +104790,8 @@ a
 nu
 um
 ma
-107742	disz
-107744	d
+108716	disz
+108718	d
 en
 zu
 da
@@ -104829,7 +104829,7 @@ gar3
 im
 u3
 ni
-107783	i
+108757	i
 im
 szum
 ma
@@ -104867,7 +104867,7 @@ iq
 bu
 u2
 kum
-a
+108796	a
 na
 dingir
 pi
@@ -104878,7 +104878,7 @@ bi2
 ma
 um
 ma
-107833	d
+108808	d
 sza3
 zi
 ga
@@ -104955,9 +104955,9 @@ nu
 banda3
 nig2
 ga
-107911	d
+108886	d
 nanna
-a
+108889	a
 na
 geme2
 ka
@@ -104968,17 +104968,17 @@ bi2
 ma
 um
 ma
-107925	d
+108901	d
 utu
 mu
 sze
 zi
 ib
 ma
-107933	d
+108909	d
 utu
 u3
-107937	d
+108913	d
 amar
 utu
 li
@@ -105014,7 +105014,7 @@ ud
 kib
 nun
 ki
-107974	t,up
+108950	t,up
 pi2
 u3
 t,up
@@ -105062,7 +105062,7 @@ ud
 kib
 nun
 ki
-108023	u2
+108999	u2
 t,a
 ha
 ki
@@ -105114,13 +105114,13 @@ ud
 kib
 nun
 ki
-108076	u2
+109052	u2
 ul
 i
 ba
 asz
 szi
-a
+109059	a
 na
 sig
 er
@@ -105136,10 +105136,10 @@ le
 bu
 um
 ma
-108099	d
+109076	d
 utu
 u3
-108103	d
+109080	d
 amar
 utu
 li
@@ -105152,23 +105152,23 @@ asz
 szum
 t,e4
 em
-108117	gisz
+109094	gisz
 ma2
 sza
 dumu
 me
 x
 x
-108125	ra
+109102	ra
 ak
 bu
 u2
-108130	gisz
+109107	gisz
 ma2
 aga
 us2
 x
-108136	a
+109113	a
 as,
 ba
 at
@@ -105179,7 +105179,7 @@ ka2
 dingir
 ra
 ki
-108148	at,
+109125	at,
 ru
 ud
 ma
@@ -105188,7 +105188,7 @@ aga
 us2
 x
 x
-108159	disz
+109136	disz
 ir3
 i3
 li2
@@ -105210,10 +105210,10 @@ x
 x
 x
 x
-108183	x
-108186	a
+109160	x
+109164	a
 na
-108189	d
+109167	d
 amar
 utu
 na
@@ -105228,10 +105228,10 @@ tab
 ba
 tum
 ma
-108205	d
+109183	d
 utu
 u3
-108209	d
+109187	d
 amar
 utu
 li
@@ -105244,7 +105244,7 @@ disz
 e
 tel
 ka
-108223	d
+109201	d
 na
 bi
 um
@@ -105296,7 +105296,7 @@ szu
 nu
 isz
 ta
-108276	ma
+109254	ma
 sig2
 hi
 a
@@ -105345,14 +105345,14 @@ ti
 disz
 sza
 at
-108326	d
+109304	d
 amar
 utu
 dam
 disz
 i
 bi
-108334	d
+109312	d
 nin
 szubur
 a
@@ -105398,7 +105398,7 @@ u2
 li
 ku
 ul
-a
+109359	a
 na
 i3
 li2
@@ -105407,7 +105407,7 @@ qi2
 sza
 u3
 x
-108390	qi2
+109369	qi2
 bi2
 ma
 um
@@ -105426,10 +105426,10 @@ sza
 ni
 in
 ni
-108410	d
+109389	d
 utu
 u3
-108414	d
+109393	d
 amar
 utu
 li
@@ -105469,11 +105469,11 @@ li
 qi2
 a
 x
-108455	i
+109434	i
 na
 bad3
 ki
-108460	lu
+109439	lu
 um
 si
 ma
@@ -105509,14 +105509,14 @@ gin2
 ku3
 babbar
 x
-108497	x
+109476	x
 x
 x
 x
 sanga
 d
 inana
-108505	x
+109484	x
 x
 x
 x
@@ -105524,27 +105524,27 @@ um
 ma
 szu
 ma
-108514	disz
+109493	disz
 i3
 li2
 i
 qi2
 sza
 am
-108522	x
+109501	x
 x
 i
 x
-108527	x
+109506	x
 il
 qu2
 u2
-108532	gisz
+109511	gisz
 ban2
 x
 x
-108537	li
-108539	a
+109516	li
+109519	a
 na
 la
 ma
@@ -105562,7 +105562,7 @@ tum
 ma
 be
 li2
-108558	d
+109538	d
 amar
 utu
 u3
@@ -105589,9 +105589,9 @@ al
 li
 t,u2
 ki
-108586	zu2
+109566	zu2
 lum
-108589	ziz2
+109569	ziz2
 an
 na
 2(u)8(disz)
@@ -105614,7 +105614,7 @@ la
 ak
 ki
 im
-a
+109593	a
 na
 a
 bi
@@ -105624,7 +105624,7 @@ bi2
 ma
 um
 ma
-108623	d
+109604	d
 za
 ba4
 ba4
@@ -105681,7 +105681,7 @@ mu
 t,u2
 u2
 nim
-a
+109662	a
 na
 a
 bi
@@ -105692,15 +105692,15 @@ ma
 um
 ma
 ir3
-108692	d
+109674	d
 la
 ah
 mu
 ma
-108698	d
+109680	d
 utu
 u3
-108702	d
+109684	d
 amar
 utu
 da
@@ -105772,10 +105772,10 @@ ka
 ta
 ma
 har
-108775	d
+109757	d
 utu
 u3
-108779	d
+109761	d
 amar
 utu
 lu
@@ -105911,7 +105911,7 @@ la
 ku
 a
 na
-108916	d
+109898	d
 amar
 utu
 ir3
@@ -105978,7 +105978,7 @@ s,a
 ab
 ba
 tam
-a
+109988	a
 na
 li
 pi2
@@ -105998,7 +105998,7 @@ ma
 na4
 musz
 sza
-109004	d
+110009	d
 utu
 na
 s,i
@@ -106018,7 +106018,7 @@ disz
 li
 pi2
 it
-109025	d
+110030	d
 en
 zu
 dumu
@@ -106061,7 +106061,7 @@ na
 ti
 i
 na
-109069	gi
+110074	gi
 pisan
 qa2
 ti
@@ -106074,7 +106074,7 @@ uk
 ka
 nim
 x
-109083	gi
+110088	gi
 pisan
 qa2
 ti
@@ -106086,8 +106086,8 @@ tu
 nu
 ma
 x
-109096	x
-109098	2(disz)
+110101	x
+110103	2(disz)
 na4
 hi
 a
@@ -106116,7 +106116,7 @@ bi
 la
 x
 x
-109128	a
+110134	a
 na
 a
 bi
@@ -106126,16 +106126,16 @@ bi2
 ma
 um
 ma
-109139	d
+110145	d
 iszkur
 na
 s,i
 ir
 ma
-109146	d
+110152	d
 utu
 u3
-109150	d
+110156	d
 amar
 utu
 asz
@@ -106187,7 +106187,7 @@ im
 an
 ni
 im
-109205	mu
+110211	mu
 u2
 ik
 bi
@@ -106212,13 +106212,13 @@ li
 ib
 bu
 ma
-109231	na
+110237	na
 x
 isz
 tu
 u4.2(disz).kam
 is
-109238	ek
+110244	ek
 ru
 szu
 isz
@@ -106230,7 +106230,7 @@ szu
 szi
 ba
 x
-109251	x
+110257	x
 x
 x
 i
@@ -106240,7 +106240,7 @@ x
 x
 x
 x
-109262	ma
+110268	ma
 am
 a
 na
@@ -106286,7 +106286,7 @@ ap
 pa
 ra
 am
-a
+110315	a
 na
 be
 li2
@@ -106318,7 +106318,7 @@ ud
 kib
 nun
 ki
-109341	a
+110348	a
 al
 li
 ka
@@ -106332,7 +106332,7 @@ ud
 kib
 nun
 ki
-109356	asz
+110363	asz
 bu
 e
 ma
@@ -106351,7 +106351,7 @@ la
 ak
 ma
 ru
-109376	ti
+110383	ti
 a
 al
 lu
@@ -106367,7 +106367,7 @@ ka2
 dingir
 ra
 ki
-109393	a
+110400	a
 na
 ba
 la
@@ -106388,7 +106388,7 @@ ka2
 dingir
 ra
 ki
-109415	a
+110422	a
 la
 ki
 im
@@ -106413,10 +106413,10 @@ ni
 ma
 ma
 har
-109441	d
+110448	d
 utu
 u3
-109445	d
+110452	d
 amar
 utu
 a
@@ -106445,7 +106445,7 @@ x
 x
 x
 x
-109475	x
+110482	x
 x...
 a
 na
@@ -106475,7 +106475,7 @@ ka2
 dingir
 ra
 ki
-109506	at
+110513	at
 lu
 ki
 ia
@@ -106515,7 +106515,7 @@ ka2
 dingir
 ra
 ki
-109547	u2
+110554	u2
 ul
 at
 ta
@@ -106525,10 +106525,10 @@ x
 x
 tu
 sza
-109558	d
+110565	d
 amar
 ut
-109562	i
+110569	i
 im
 be
 li2
@@ -106591,12 +106591,12 @@ lu
 ul
 li
 kam
-109628	lu
+110635	lu
 ud
 di
 in
 x
-109635	ma
+110642	ma
 lu
 pu
 ul
@@ -106622,16 +106622,16 @@ li2
 ia
 ma
 har
-109662	d
+110669	d
 utu
 u3
-109666	d
+110673	d
 amar
 utu
 a
 x
 x
-a
+110680	a
 na
 sza
 pi2
@@ -106650,7 +106650,7 @@ d
 utu
 dumu
 szul
-109692	d
+110700	d
 nin
 szubur
 ir3
@@ -106681,10 +106681,10 @@ li2
 e2
 a
 ma
-109724	d
+110732	d
 utu
 u3
-109728	d
+110736	d
 amar
 utu
 li
@@ -106702,7 +106702,7 @@ na
 dingir
 ir3
 lukur
-109747	d
+110755	d
 utu
 a
 na
@@ -106718,7 +106718,7 @@ uru
 sza3
 gu4
 ki
-109764	szu
+110772	szu
 u2
 u2
 ul
@@ -106728,14 +106728,14 @@ wi
 lim
 ir3
 lukur
-109775	d
+110783	d
 utu
 wu
 usz
 sze
 er
 lukur
-109783	d
+110791	d
 utu
 szar
 ra
@@ -106749,7 +106749,7 @@ a
 na
 ri
 isz
-109798	d
+110806	d
 utu
 u2
 ul
@@ -106761,7 +106761,7 @@ ma
 szu
 geme2
 lukur
-109811	d
+110819	d
 utu
 a
 na
@@ -106789,10 +106789,10 @@ im
 sza
 ki
 in
-a
+110848	a
 na
 geme2
-109843	d
+110852	d
 utu
 qi2
 bi2
@@ -106800,9 +106800,9 @@ ma
 um
 ma
 lu2
-109852	d
+110861	d
 mah
-109855	d
+110864	d
 utu
 u3
 d
@@ -106834,11 +106834,11 @@ babbar
 6(asz)
 gur
 sze
-109888	disz
+110897	disz
 ir3
-109891	d
+110900	d
 nanna
-109894	u2
+110903	u2
 sza
 bi
 la
@@ -106856,9 +106856,9 @@ x
 ma
 na
 sig2
-109913	lu2
+110922	lu2
 dingir
-109916	u2
+110925	u2
 sza
 bi
 la
@@ -106869,20 +106869,20 @@ na
 an
 na
 x
-109928	2(u)
+110937	2(u)
 ma
 na
 sig2
-109933	disz
-109935	d
+110942	disz
+110944	d
 utu
 be
 el
-109940	dumu
+110949	dumu
 i
 la
 x
-109945	u2
+110954	u2
 sza
 bi
 la
@@ -107011,7 +107011,7 @@ babbar
 i
 di
 in
-a
+111084	a
 na
 a
 bi
@@ -107025,10 +107025,10 @@ di
 kud
 mesz
 ma
-110089	d
+111099	d
 utu
 u3
-110093	d
+111103	d
 amar
 utu
 da
@@ -107095,10 +107095,10 @@ bi
 ni
 ma
 har
-110161	d
+111171	d
 utu
 u3
-110165	d
+111175	d
 amar
 utu
 lu
@@ -107113,7 +107113,7 @@ im
 sza
 isz
 me
-110181	d
+111191	d
 utu
 t,up
 pu
@@ -107123,7 +107123,7 @@ wi
 lim
 ib
 ni
-110192	d
+111202	d
 mar
 tu
 a
@@ -107159,7 +107159,7 @@ um
 mu
 sza
 lim
-110229	lu2
+111239	lu2
 ka
 ka
 a
@@ -107172,7 +107172,7 @@ ba
 ba
 lim
 ma
-110244	di
+111254	di
 nim
 ga
 ma
@@ -107215,7 +107215,7 @@ bi
 ni
 nu
 usz
-110288	bi
+111298	bi
 il
 szum
 ma
@@ -107250,8 +107250,8 @@ x
 x
 x
 x
-110325	u2
-110327	x
+111335	u2
+111337	x
 x
 x
 x
@@ -107272,7 +107272,7 @@ il
 li
 kam
 ma
-110350	di
+111360	di
 nim
 i
 ni
@@ -107292,7 +107292,7 @@ wi
 lim
 ib
 ni
-110371	d
+111381	d
 mar
 tu
 ne
@@ -107303,13 +107303,13 @@ la
 i
 ra
 szi
-a
+111393	a
 na
 ni
 id
 na
 at
-110389	d
+111400	d
 en
 zu
 qi2
@@ -107317,7 +107317,7 @@ bi2
 ma
 um
 ma
-110398	d
+111409	d
 en
 zu
 na
@@ -107327,10 +107327,10 @@ szu
 mi
 im
 ma
-110409	d
+111420	d
 utu
 u3
-110413	d
+111424	d
 amar
 utu
 li
@@ -107348,7 +107348,7 @@ ka2
 dingir
 ra
 ki
-110432	ta
+111443	ta
 li
 kam
 ma
@@ -107395,7 +107395,7 @@ i
 na
 uru
 ki
-110480	a
+111491	a
 wi
 le
 e
@@ -107476,12 +107476,12 @@ bu
 ba
 an
 ni
-a
+111573	a
 na
 a
 wi
 il
-110567	d
+111579	d
 na
 bi
 um
@@ -107495,10 +107495,10 @@ lu
 la
 tum
 ma
-110582	d
+111594	d
 utu
 u3
-110586	d
+111598	d
 amar
 utu
 asz
@@ -107524,7 +107524,7 @@ lugal
 x
 x
 x
-110613	a
+111625	a
 am
 x
 x
@@ -107543,7 +107543,7 @@ ti
 x
 x
 x
-110633	ta
+111645	ta
 am
 x
 x
@@ -107562,11 +107562,11 @@ ba
 am
 x
 x
-110653	ta
+111665	ta
 ri
 a
 ma
-110658	al
+111670	al
 ka
 am
 i
@@ -107601,9 +107601,9 @@ um
 ma
 szi
 ma
-110694	disz
+111706	disz
 ir3
-110697	d
+111709	d
 nin
 szubur
 a
@@ -107664,10 +107664,10 @@ szu
 up
 ra
 am
-110759	x
+111771	x
 ia
-110762	lam
-a
+111774	lam
+111776	a
 na
 mu
 na
@@ -107849,18 +107849,18 @@ ir3
 i3
 li2
 szu
-110946	tug2
+111959	tug2
 gu2
 e3
 a
-110951	tug2
+111964	tug2
 bar
 si
 bar
 si
 u3
 5(disz)
-110959	isz
+111972	isz
 sza
 tim
 ub
@@ -107916,7 +107916,7 @@ sza
 pa
 ri
 u3
-111017	e
+112030	e
 tu
 sza
 ba
@@ -108064,7 +108064,7 @@ ma
 al
 li
 kam
-a
+112179	a
 na
 ta
 ia
@@ -108073,7 +108073,7 @@ at
 u3
 sza
 at
-111175	d
+112189	d
 da
 gan
 qi2
@@ -108085,7 +108085,7 @@ ha
 ab
 lum
 ma
-111188	d
+112202	d
 utu
 li
 ba
@@ -108111,7 +108111,7 @@ a
 um
 ma
 mi
-111215	x
+112229	x
 x
 x
 x
@@ -108131,7 +108131,7 @@ si
 sza
 ab
 ki
-111236	im
+112250	im
 u2
 ul
 tu
@@ -108159,19 +108159,19 @@ asz
 szi
 a
 x
-111265	a
-111267	x
+112279	a
+112281	x
 ku3
 babbar
 x
-111272	i
+112286	i
 na
 ma
-111276	x
-111278	la
+112290	x
+112292	la
 a
 na
-111282	iti
+112296	iti
 1(disz)
 kam
 la
@@ -108189,7 +108189,7 @@ ma
 sila3
 sze
 im
-111301	lu
+112315	lu
 sza
 pi2
 ik
@@ -108245,7 +108245,7 @@ pa
 ra
 x
 x
-111358	sze
+112372	sze
 a
 am
 li
@@ -108285,7 +108285,7 @@ a
 ku
 a
 na
-111399	d
+112413	d
 en
 zu
 a
@@ -108333,7 +108333,7 @@ u2
 di
 in
 ka
-111448	d
+112462	d
 utu
 li
 di
@@ -108363,14 +108363,14 @@ la
 te
 gi
 i
-a
+112493	a
 na
 sa3
 ni
 iq
 pi2
 i
-111486	d
+112501	d
 en
 lil2
 qi2
@@ -108414,7 +108414,7 @@ ud
 kib
 nun
 ki
-111531	it
+112546	it
 ta
 al
 ku
@@ -108512,14 +108512,14 @@ um
 sar
 sza
 x
-111630	...x
+112645	...x
 pa
 x
 x
-111635	a
+112651	a
 na
 ...x
-111639	...x
+112655	...x
 szu
 qi2
 bi2
@@ -108528,13 +108528,13 @@ um
 ma
 ri
 isz
-111649	d
+112665	d
 utu
 ma
-111653	d
+112669	d
 utu
 u3
-111657	d
+112673	d
 amar
 utu
 asz
@@ -108568,8 +108568,8 @@ szi
 i
 ma
 sza
-111692	disz
-111694	d
+112708	disz
+112710	d
 nin
 szubur
 mu
@@ -108593,8 +108593,8 @@ li
 a
 it
 ti
-111719	disz
-111721	d
+112735	disz
+112737	d
 nin
 szubur
 mu
@@ -108631,7 +108631,7 @@ te
 e
 er
 szu
-a
+112775	a
 na
 x
 x
@@ -108647,7 +108647,7 @@ ma
 x
 x
 x
-111775	ma
+112792	ma
 be
 li2
 u3
@@ -108677,17 +108677,17 @@ te
 te
 ep
 szu
-111806	a
+112823	a
 na
 ku
 u3
 at
 ta
-111813	u3
+112830	u3
 u2
 na
 ah
-111818	um
+112835	um
 ma
 a
 na
@@ -108695,19 +108695,19 @@ ku
 ma
 x
 x
-111827	ki
+112844	ki
 ma
 ta
 at
 ta
 x
-111834	uz
+112851	uz
 ni
 x
 x
 x
 x
-111841	a
+112858	a
 na
 la
 x
@@ -108715,7 +108715,7 @@ x
 x
 x
 x
-111850	u3
+112867	u3
 ia
 ti
 x
@@ -108723,28 +108723,28 @@ x
 x
 x
 x
-111859	sza
+112876	sza
 la
 x
 x
 x
 x
-111866	sze
+112883	sze
 am
 tu
 sze
 x
-111872	ki
+112889	ki
 x
-111875	li
+112892	li
 x
-111878	a
+112895	a
 na
 pa
 ni
 ia
 x
-111885	i
+112902	i
 na
 qa2
 ti
@@ -108753,10 +108753,10 @@ ga2
 gi4
 a
 ki
-111895	li
+112912	li
 mu
 ur
-111899	sza
+112916	sza
 su
 ni
 me
@@ -108816,7 +108816,7 @@ ga2
 gi4
 a
 ki
-111960	ta
+112977	ta
 at
 ta
 ad
@@ -108855,7 +108855,7 @@ u3
 la
 i3
 ba
-112000	u3
+113017	u3
 a
 na
 bu
@@ -108866,7 +108866,7 @@ im
 ta
 na
 di
-112012	i
+113029	i
 na
 an
 na
@@ -108877,7 +108877,7 @@ asz
 tap
 ra
 ak
-112024	a
+113041	a
 na
 ma
 li
@@ -108900,7 +108900,7 @@ lu
 u2
 ku3
 babbar
-112048	szu
+113065	szu
 bi
 lam
 ma
@@ -108922,21 +108922,21 @@ ia
 szu
 bu
 lam
-...x
+113088	...x
 um
 x
-112074	na
+113092	na
 ku3
 babbar
 sza
 qa2
 ti
-112081	i
+113099	i
 na
-112084	li
+113102	li
 x
 x
-112088	x
+113106	x
 u3
 s,i2
 bu
@@ -109019,7 +109019,7 @@ u2
 ul
 ki
 ma
-112173	szu
+113191	szu
 a
 na
 szi
@@ -109035,12 +109035,12 @@ e
 bu
 ri
 nu
-112190	ka
+113208	ka
 ma
 ku3
 babbar
 x
-112196	al
+113214	al
 a
 di
 s,e2
@@ -109118,13 +109118,13 @@ na
 szi
 mi
 im
-112275	x
+113293	x
 szi
 mi
 im
 ku3
 babbar
-112282	x
+113300	x
 x
 x
 ra
@@ -109133,7 +109133,7 @@ x
 x
 x
 szu
-112292	ar
+113310	ar
 hi
 isz
 lu
@@ -109247,10 +109247,10 @@ um
 ma
 u
 bar
-112407	d
+113425	d
 utu
 ma
-112411	d
+113429	d
 utu
 li
 ba
@@ -109278,7 +109278,7 @@ i
 ta
 an
 di
-112440	d
+113458	d
 utu
 masz
 x
@@ -109310,7 +109310,7 @@ x
 li
 sza
 ki
-112473	x
+113491	x
 x
 x
 x
@@ -109328,17 +109328,17 @@ li
 ma
 ti
 ma
-112492	x
+113510	x
 x
 x
 x
-112497	ku3
+113515	ku3
 babbar
 i
 ta
 an
 di
-112504	sza
+113522	sza
 al
 ma
 ku
@@ -109346,7 +109346,7 @@ u3
 bi
 it
 ka
-112514	x
+113532	x
 x
 ka
 sza
@@ -109378,7 +109378,7 @@ di
 x
 x
 x
-112547	tim
+113565	tim
 lu
 usz
 qu2
@@ -109391,7 +109391,7 @@ li
 x
 x
 x
-112561	a
+113580	a
 na
 x
 x
@@ -109408,7 +109408,7 @@ sa3
 x
 x
 ma
-112579	d
+113598	d
 utu
 u3
 d
@@ -109434,12 +109434,12 @@ at
 ta
 i
 na
-112606	uru
+113625	uru
 ud
 kib
 nun
 ki
-112612	ni
+113631	ni
 in
 na
 am
@@ -109459,7 +109459,7 @@ na
 ud
 unu
 ki
-112633	a
+113652	a
 na
 x
 asz
@@ -109482,8 +109482,8 @@ ku
 na
 an
 ni
-112657	disz
-112659	d
+113676	disz
+113678	d
 amar
 utu
 ni
@@ -109584,7 +109584,7 @@ ir
 szi
 x
 x
-112762	x
+113781	x
 x
 x
 x
@@ -109593,10 +109593,10 @@ wa
 ar
 x
 x
-112773	pu
+113792	pu
 ru
 us2
-x
+113796	x
 x
 x
 x
@@ -109605,12 +109605,12 @@ s,a
 ab
 ba
 tu
-112786	x
+113806	x
 x
-112789	x
+113809	x
 x
 x
-112794	ki
+113814	ki
 ma
 ti
 du
@@ -109667,7 +109667,7 @@ ia
 a
 am
 a
-112854	ti
+113874	ti
 s,a
 ab
 tu
@@ -109682,13 +109682,13 @@ bi
 tu
 um
 li
-112871	x
+113891	x
 x
 x
 la
-112876	x
+113896	x
 x
-112879	a
+113899	a
 wa
 tam
 sza
@@ -109707,9 +109707,9 @@ ta
 ra
 asz
 szi
-dingir
+113919	dingir
 ka
-112901	d
+113922	d
 nin
 szubur
 re
@@ -109742,7 +109742,7 @@ a
 na
 ib
 ni
-112935	d
+113956	d
 amar
 utu
 dumu
@@ -109871,11 +109871,11 @@ lu
 x
 ba
 x
-113065	li
+114086	li
 il
 ta
 x
-113070	szum
+114091	szum
 ma
 sze
 am
@@ -109949,12 +109949,12 @@ ka
 ni
 ik
 szu
-113145	1/3(disz)
+114166	1/3(disz)
 gin2
 ku3
 babbar
 u3
-113151	sze
+114172	sze
 ma
 ah
 ri
@@ -109962,7 +109962,7 @@ ia
 li
 il
 qi2
-di
+114181	di
 in
 ka
 u3
@@ -110042,7 +110042,7 @@ ni
 ki
 a
 am
-113240	lu2
+114262	lu2
 azlag2
 zu2
 kesz2
@@ -110118,7 +110118,7 @@ u2
 ma
 u3
 szu
-113317	lu2
+114339	lu2
 azlag2
 zu2
 kesz2
@@ -110127,7 +110127,7 @@ siki
 disz
 asz
 szum
-113327	d
+114349	d
 marduk
 ba
 sza
@@ -110138,7 +110138,7 @@ na
 nam
 asz
 szum
-113339	d
+114361	d
 marduk
 ba
 sza
@@ -110152,7 +110152,7 @@ iq
 bi
 ma
 x
-113354	ab
+114376	ab
 ba
 x
 x
@@ -110172,7 +110172,7 @@ ha
 al
 li
 qa2
-a
+114397	a
 na
 be
 le
@@ -110213,7 +110213,7 @@ a
 na
 i
 din
-113416	d
+114439	d
 suen
 ma
 ri
@@ -110312,8 +110312,8 @@ ku
 ub
 bi
 ti
-113517	x
-a
+114540	x
+114542	a
 na
 be
 el
@@ -110324,12 +110324,12 @@ bi2
 ma
 um
 ma
-113530	lu
+114554	lu
 ni
 u3
 gi
 mil
-113536	d
+114560	d
 marduk
 ma
 isz
@@ -110346,7 +110346,7 @@ nu
 s,i
 a
 am
-113554	disz
+114578	disz
 u
 bar
 rum
@@ -110357,7 +110357,7 @@ dingir
 x
 x
 ri
-113566	ni
+114590	ni
 a
 szi
 im
@@ -110501,7 +110501,7 @@ isz
 pu
 ra
 am
-a
+114735	a
 na
 ab
 ba
@@ -110525,20 +110525,20 @@ ma
 si2
 ia
 tum
-113735	qa2
+114760	qa2
 du
 um
 ki
 si
 im
 x
-113743	a
+114768	a
 na
 ha
 la
 ab[
 ki
-113750	a
+114775	a
 na
 szi
 ma
@@ -110565,7 +110565,7 @@ ak
 ku
 usz
 szu
-a
+114830	a
 na
 hu
 na
@@ -110624,7 +110624,7 @@ ti
 disz
 kalag
 an
-113837	dingir
+114890	dingir
 szu
 ha
 li
@@ -110644,22 +110644,22 @@ da
 a
 szu
 ur
-113858	d
+114911	d
 me
 kal
 kal
 dumu
 bu
 tum
-113866	s,il2
+114919	s,il2
 li2
-113869	d
+114922	d
 suen
-113872	x
+115031	x
 x
 x
 x
-113877	lu
+115036	lu
 sza
 al
 ma
@@ -110727,9 +110727,9 @@ at
 ta
 ib
 ni
-113946	d
+115105	d
 marduk
-113949	ka
+115108	ka
 ki
 a
 am
@@ -110817,13 +110817,13 @@ x
 x
 x
 x
-114038	uq
+115197	uq
 ta
 al
 li
-114043	x
+115202	x
 x
-114046	x
+115205	x
 x
 (x)
 x
@@ -110868,7 +110868,7 @@ udu
 nita2
 sza
 x
-114092	an
+115251	an
 ni
 tam
 iq
@@ -110885,7 +110885,7 @@ na
 babila2
 ki
 a
-114110	qu2
+115269	qu2
 ur2
 ru
 ub
@@ -110894,19 +110894,19 @@ x
 x
 x
 x
-114120	szu
+115279	szu
 i
 ip
 pa
 al
-114126	x
-114128	x
+115285	x
+115287	x
 ti
 d
 utu
-114133	a
-114135	x
-i
+115292	a
+115294	x
+115351	i
 nu
 ma
 be
@@ -110994,7 +110994,7 @@ a
 sza3
 e2
 u3
-114225	gesz
+115440	gesz
 kiri6
 isz
 mu
@@ -111041,7 +111041,7 @@ x
 x
 x
 im
-114273	isz
+115488	isz
 ta
 mu
 i
@@ -111055,7 +111055,7 @@ x
 x
 x
 x
-114288	x
+115503	x
 x
 x
 x
@@ -111067,7 +111067,7 @@ ti
 x
 x
 x
-114301	x
+115516	x
 a
 na
 ku
@@ -111075,39 +111075,39 @@ u3
 be
 el
 a
-114310	x
+115525	x
 u3
 di
 ku5
 mesz
-114316	tup
+115531	tup
 pi2
 szi
 ma
 ti
-114322	ki
+115537	ki
 ma
 dub
-114326	ih
+115541	ih
 pu
 ma
 dub
 x
 x
 x
-114334	u3
+115549	u3
 x
-114338	x
-114341	x
+115553	x
+115556	x
 x
-114344	x
+115559	x
 a
 na
-114348	x
+115563	x
 x
-114351	x
+115566	x
 la
-114354	i
+115569	i
 ru
 ma
 x
@@ -111116,18 +111116,18 @@ x
 x
 x
 x
-114364	disz
+115579	disz
 gi
 mil
 lum
 gala
 x
-114371	x
+115586	x
 x
 x
 x
 x
-114377	gesz
+115592	gesz
 banszur
 sza
 lim
@@ -111180,14 +111180,14 @@ am
 disz
 ri
 isz
-114431	d
+115646	d
 utu
 wa
 szi
 ib
 zimbir
 ki
-114439	di
+115654	di
 ia
 gu
 za
@@ -111307,9 +111307,9 @@ ma
 disz
 ri
 isz
-114560	d
+115775	d
 utu
-114563	di
+115778	di
 ia
 u3
 sin
@@ -111427,7 +111427,7 @@ x
 x
 x
 x
-a
+115902	a
 na
 d
 ne3
@@ -111557,7 +111557,7 @@ bu
 ni
 szi
 im
-a
+116036	a
 na
 gi
 mil
@@ -111650,7 +111650,7 @@ szu
 li
 is
 bi
-a
+116131	a
 na
 d
 suen
@@ -111673,7 +111673,7 @@ szum
 1(disz)
 ib
 ni
-114928	d
+116155	d
 mar
 tu
 ugula
@@ -111856,7 +111856,7 @@ im
 sza
 ib
 ni
-115112	d
+116339	d
 mar
 tu
 na
@@ -111896,7 +111896,7 @@ im
 mu
 ul
 li
-a
+116380	a
 na
 d
 suen
@@ -111959,7 +111959,7 @@ asz
 szum
 i
 din
-115216	d
+116444	d
 suen
 u2
 lam
@@ -111989,7 +111989,7 @@ dam
 1(disz)
 i
 din
-115247	d
+116475	d
 suen
 u3
 lu2
@@ -112011,7 +112011,7 @@ ia
 t,u2
 ur
 dam
-a
+116498	a
 na
 d
 suen
@@ -112033,7 +112033,7 @@ ma
 na
 ra
 am
-115292	d
+116521	d
 suen
 u2
 tul2
@@ -112079,13 +112079,13 @@ nig2
 szu
 a
 pil2
-115339	d
+116568	d
 utu
 u3
 na
 ra
 am
-115346	d
+116575	d
 suen
 a
 na
@@ -112104,7 +112104,7 @@ na
 e
 til
 pi2
-115366	d
+116595	d
 marduk
 u3
 a
@@ -112122,13 +112122,13 @@ nig2
 szu
 a
 pil2
-115385	d
+116614	d
 utu
 u3
 na
 ra
 am
-115392	d
+116621	d
 suen
 sza
 il
@@ -112138,7 +112138,7 @@ li
 te
 er
 ru
-a
+116632	a
 na
 d
 suen
@@ -112169,7 +112169,7 @@ at
 ta
 ma
 erin2
-115434	tim
+116664	tim
 u3
 erin2
 e
@@ -112237,21 +112237,21 @@ in
 ne
 ez
 bu
-115503	u3
+116733	u3
 5(bur3)
-115506	sahar
+116736	sahar
 i
 na
 as
 sa3
 ah
-115513	x
+116743	x
 i
 na
 as
 sa3
 hu
-115520	x
+116750	x
 it
 ti
 szu
@@ -112260,14 +112260,14 @@ i
 ip
 pi2
 esz
-115530	be
+116760	be
 li2
 li
 isz
 bur
 am
-115537	x
-115539	a
+116767	x
+116769	a
 di
 t,e4
 em
@@ -112366,7 +112366,7 @@ te
 sze
 er
 szi
-a
+116869	a
 na
 d
 suen
@@ -112385,7 +112385,7 @@ ra
 pi2
 ma
 i7
-115658	ka
+116889	ka
 lu
 sza
 it
@@ -112412,7 +112412,7 @@ mu
 u2
 a
 na
-115686	a
+116917	a
 lim
 u2
 ul
@@ -112421,7 +112421,7 @@ ir
 ru
 bu
 u3
-115696	x
+116927	x
 x
 sza
 a
@@ -112531,7 +112531,7 @@ kum
 e
 pu
 usz
-a
+117038	a
 na
 d
 suen
@@ -112630,7 +112630,7 @@ me
 er
 ma
 2(bur3)
-115906	a
+117138	a
 sza3
 a
 na
@@ -112707,7 +112707,7 @@ nam
 e
 mi
 id
-a
+117216	a
 na
 d
 suen
@@ -112769,7 +112769,7 @@ li
 sze
 pi2
 isz
-a
+117279	a
 na
 d
 suen
@@ -112876,7 +112876,7 @@ ir
 ma
 tim
 a
-116153	x
+117387	x
 x
 u2
 lu
@@ -112889,11 +112889,11 @@ qa2
 ab
 bu
 u2
-116167	sza
+117401	sza
 ak
 nu
 ma
-116172	sza
+117406	sza
 e2
 gal
 x
@@ -112901,13 +112901,13 @@ x
 x
 mi
 x
-116181	szi
+117415	szi
 pi2
 ir
 e2
 gal
 lim
-116188	a
+117422	a
 na
 tab
 pu
@@ -112950,7 +112950,7 @@ sza
 nu
 um
 x
-116232	lu2
+117466	lu2
 nagar
 mesz
 lu2
@@ -112975,7 +112975,7 @@ ih
 ha
 ru
 ma
-a
+117492	a
 na
 d
 suen
@@ -113010,7 +113010,7 @@ sza
 it
 ti
 disz
-116293	d
+117528	d
 suen
 gim
 la
@@ -113098,7 +113098,7 @@ al
 li
 mu
 disz
-116382	d
+117617	d
 suen
 gim
 la
@@ -113138,7 +113138,7 @@ ig
 ga
 am
 ra
-a
+117658	a
 na
 d
 suen
@@ -113160,7 +113160,7 @@ disz
 i3
 li2
 u3
-116445	d
+117681	d
 utu
 u3
 bi
@@ -113176,7 +113176,7 @@ mesz
 lu2
 unu
 ki
-116462	mesz
+117698	mesz
 sza
 it
 ti
@@ -113198,7 +113198,7 @@ szu
 nu
 ma
 disz
-116485	d
+117721	d
 suen
 zu
 i
@@ -113209,11 +113209,11 @@ pu
 ra
 am
 ma
-116497	x
+117733	x
 ni
 isz
 x
-116502	a
+117738	a
 na
 s,e
 ri
@@ -113248,7 +113248,7 @@ mesz
 lu2
 unu
 ki
-116538	mesz
+117774	mesz
 it
 ru
 u2
@@ -113258,11 +113258,11 @@ bi2
 ma
 ni
 szi
-116549	li
+117785	li
 wa
 e
 ru
-a
+117790	a
 na
 d
 suen
@@ -113475,7 +113475,7 @@ szu
 ri
 a
 am
-a
+118004	a
 na
 d
 suen
@@ -113628,7 +113628,7 @@ la2
 li
 te
 er
-a
+118158	a
 na
 d
 suen
@@ -113693,12 +113693,12 @@ si2
 ia
 tum
 disz
-116985	d
+118224	d
 utu
 ma
 gir
 disz
-116991	d
+118230	d
 suen
 isz
 me
@@ -113723,9 +113723,9 @@ ku
 uk
 ka
 a
-117017	blank
+118256	blank
 space
-117020	8(disz)
+118259	8(disz)
 lu2
 mesz
 an
@@ -113763,7 +113763,7 @@ szu
 ri
 a
 am
-a
+118298	a
 na
 d
 suen
@@ -113802,7 +113802,7 @@ ba
 am
 iti
 kin
-117098	d
+118338	d
 inanna
 2(disz)
 kam
@@ -113830,7 +113830,7 @@ a
 na
 babila2[
 ki
-117127	sa3
+118367	sa3
 na
 qum
 iq
@@ -113841,7 +113841,7 @@ i
 na
 iti
 kin
-117139	d
+118379	d
 inanna
 2(disz)
 kam
@@ -113859,7 +113859,7 @@ is
 ni
 qa2
 am
-a
+118398	a
 na
 d
 suen
@@ -113882,7 +113882,7 @@ nu
 um
 ma
 disz
-117181	d
+118422	d
 suen
 a
 ia
@@ -113968,18 +113968,18 @@ qi2
 id
 u3
 disz
-117268	d
+118509	d
 na
 bi
 um
 ma
 lik
 disz
-117276	d
+118517	d
 nanna
 tum
 disz
-117281	d
+118522	d
 utu
 mu
 sza
@@ -113991,16 +113991,16 @@ s,um
 disz
 ri
 isz
-117294	d
+118535	d
 iszkur
 disz
 a
 wi
 il
-117301	d
+118542	d
 suen
 disz
-117305	d
+118546	d
 utu
 na
 s,i
@@ -114017,7 +114017,7 @@ i
 din
 nam
 disz
-117323	d
+118564	d
 suen
 u2
 se
@@ -114030,7 +114030,7 @@ um
 u3
 i
 din
-117337	d
+118578	d
 nin
 szubur
 it
@@ -114050,7 +114050,7 @@ li
 iz
 zi
 zu
-a
+118599	a
 na
 d
 suen
@@ -114079,7 +114079,7 @@ it
 ti
 sze
 ep
-117387	d
+118629	d
 suen
 ugula
 dam
@@ -114096,7 +114096,7 @@ szu
 disz
 sze
 ep
-117405	d
+118647	d
 suen
 u3
 ugula
@@ -114116,7 +114116,7 @@ li
 ib
 lu
 nim
-a
+118668	a
 na
 d
 suen
@@ -114155,14 +114155,14 @@ bi
 dumu
 a
 pil2
-117465	d
+118708	d
 mar
 tu
 lu2
 du6
 isz
 ta
-117473	ri
+118716	ri
 i
 ki
 sza3
@@ -114173,13 +114173,13 @@ ia
 disz
 kesz3
 ki
-117485	i
+118728	i
 din
 nam
 dumu
 u
 bar
-117492	d
+118735	d
 suen
 lu2
 ka
@@ -114210,7 +114210,7 @@ dingir
 dumu
 im
 gur
-117524	d
+118767	d
 suen
 sza3
 dumu
@@ -114282,7 +114282,7 @@ asz
 szu
 nu
 ti
-a
+118840	a
 na
 d
 suen
@@ -114322,7 +114322,7 @@ sza
 e
 tel
 pi2
-117637	d
+118881	d
 marduk
 ih
 bu
@@ -114342,7 +114342,7 @@ mu
 ni
 in
 ni
-117658	hi
+118902	hi
 bi
 il
 ta
@@ -114369,7 +114369,7 @@ u3
 e
 tel
 pi2
-117686	d
+118930	d
 marduk
 sza
 ih
@@ -114387,7 +114387,7 @@ ia
 t,u2
 ur
 dam
-a
+118949	a
 na
 d
 suen
@@ -114490,7 +114490,7 @@ is
 su2
 nu
 ti
-a
+119053	a
 na
 d
 suen
@@ -114511,17 +114511,17 @@ ma
 disz
 nu
 ur2
-117829	d
+119075	d
 utu
 szesz
-117833	ur
+119079	ur
 szu
 i
 na
 asz
 dub
 ba
-117841	erin2
+119087	erin2
 hun
 ga2
 mesz
@@ -114545,7 +114545,7 @@ ar
 ri
 ik
 szum
-117866	a
+119113	a
 na
 d
 suen
@@ -114565,7 +114565,7 @@ pi2
 ma
 disz
 er3
-117887	d
+119134	d
 utu
 u2
 tul2
@@ -114604,9 +114604,9 @@ qi2
 it
 ti
 im
-117927	2(u)
+119174	2(u)
 x
-117930	a
+119178	a
 na
 d
 suen
@@ -114673,8 +114673,8 @@ sza
 ad
 di
 nu
-117998	x
-118000	a
+119246	x
+119248	a
 na
 szu
 nu
@@ -114714,7 +114714,7 @@ li
 ib
 lu
 nim
-a
+119289	a
 na
 d
 suen
@@ -114788,7 +114788,7 @@ ti
 erin2
 ib
 ni
-118115	d
+119364	d
 mar
 tu
 um
@@ -114827,7 +114827,7 @@ li
 pu
 szu
 nim
-a
+119404	a
 na
 d
 suen
@@ -114935,7 +114935,7 @@ u3
 masz2
 bi
 disz
-118263	d
+119513	d
 suen
 ma
 gir
@@ -114954,7 +114954,7 @@ bi
 i
 di
 in
-a
+119533	a
 na
 d
 suen
@@ -114979,7 +114979,7 @@ di
 bu
 um
 disz
-118308	d
+119559	d
 en
 lil2
 da
@@ -115003,7 +115003,7 @@ szu
 nu
 ma
 disz
-118333	d
+119584	d
 suen
 i
 di2
@@ -115092,7 +115092,7 @@ ik
 ka
 mi
 is
-a
+119674	a
 na
 d
 suen
@@ -115111,7 +115111,7 @@ ra
 bi
 ma
 disz
-118442	d
+119694	d
 suen
 ma
 gir
@@ -115238,7 +115238,7 @@ u2
 te
 er
 szum
-a
+119822	a
 na
 d
 suen
@@ -115356,13 +115356,13 @@ a
 u4
 1(disz)
 kam
-118688	ma
+119941	ma
 ah
 ri
 ia
 u2
 ul
-118695	i
+119948	i
 na
 erin2
 gi
@@ -115413,7 +115413,7 @@ ap
 pa
 tu
 nim
-a
+120000	a
 na
 d
 suen
@@ -115444,7 +115444,7 @@ im
 sza
 ib
 ni
-118778	d
+120032	d
 mar
 tu
 sza
@@ -115455,13 +115455,13 @@ at
 e
 tel
 pi2
-118790	d
+120044	d
 marduk
 a
 na
 ib
 ni
-118797	d
+120051	d
 mar
 tu
 na
@@ -115484,7 +115484,7 @@ disz
 e
 tel
 pi2
-118821	d
+120075	d
 marduk
 ki
 a
@@ -115505,7 +115505,7 @@ im
 sza
 ib
 ni
-118843	d
+120097	d
 mar
 tu
 a
@@ -115532,7 +115532,7 @@ pi2
 ik
 i
 na
-118871	gesz
+120125	gesz
 tukul
 sza
 dingir
@@ -115546,7 +115546,7 @@ a
 sza3
 ib
 ni
-118886	d
+120140	d
 mar
 tu
 ib
@@ -115577,7 +115577,7 @@ ha
 ar
 ib
 ni
-118918	d
+120172	d
 mar
 tu
 u2
@@ -115592,7 +115592,7 @@ ba
 lum
 ib
 ni
-118934	d
+120188	d
 mar
 tu
 u2
@@ -115625,7 +115625,7 @@ szu
 u2
 i
 na
-118968	gesz
+120222	gesz
 tukul
 sza
 dingir
@@ -115665,7 +115665,7 @@ a
 sza3
 ib
 ni
-119009	d
+120263	d
 mar
 tu
 ib
@@ -115673,7 +115673,7 @@ szu
 u2
 i
 na
-119018	gesz
+120272	gesz
 tukul
 sza
 dingir
@@ -115694,13 +115694,13 @@ szu
 disz
 ib
 ni
-119040	d
+120294	d
 mar
 tu
 a
 pu
 ul
-a
+120301	a
 na
 d
 suen
@@ -115747,12 +115747,12 @@ ki
 disz
 isz
 me
-119094	d
+120349	d
 suen
 u3
 i
 bi
-119100	d
+120355	d
 nin
 szubur
 sipa
@@ -115775,9 +115775,9 @@ x
 x
 (x)
 x
-119124	blank
+120379	blank
 space
-119127	4(disz)
+120382	4(disz)
 sipa
 mesz
 i7
@@ -115811,9 +115811,9 @@ szu
 x
 x
 (x)
-119162	blank
+120417	blank
 space
-119165	3(disz)
+120420	3(disz)
 i7
 x
 x
@@ -115827,7 +115827,7 @@ am
 iri
 nu
 ur2
-119180	d
+120435	d
 iszkur
 x
 x
@@ -115835,7 +115835,7 @@ x
 (x)
 (x)
 u3
-119189	x
+120444	x
 ir
 rum
 sza
@@ -115844,16 +115844,16 @@ x
 x
 x
 (x)
-119199	blank
+120454	blank
 space
-119202	1(u)
+120457	1(u)
 sipa
 mesz
 u2
 tul2
 a
 pil2
-119210	d
+120465	d
 x
 (x)
 disz
@@ -115872,7 +115872,7 @@ x
 disz
 a
 pil2
-119230	d
+120485	d
 mar
 tu
 dumu
@@ -115919,23 +115919,23 @@ ri
 u3
 la
 lum
-119278	blank
+120533	blank
 space
-119281	i7
+120536	i7
 pirig
 gin7
 du
 disz
 ge6
-119288	d
+120543	d
 utu
 sza
 d
 nansze
 nigin6
 ki
-119296	disz
-119298	d
+120551	disz
+120553	d
 suen
 uru4
 dumu
@@ -115945,8 +115945,8 @@ am
 ta
 ha
 ar
-119309	disz
-119311	d
+120564	disz
+120566	d
 suen
 a
 hu
@@ -115960,22 +115960,22 @@ sza
 x
 x
 (x)
-119326	blank
+120581	blank
 space
-119329	1(u)
+120584	1(u)
 4(disz)
 u2
 tul2
 an
 pi4
-119336	d
+120591	d
 utu
 u3
 x
 x
 (x)
 (x)
-119344	disz
+120599	disz
 mu
 ha
 ad
@@ -115988,10 +115988,10 @@ x
 x
 (x)
 (x)
-119358	disz
+120613	disz
 i
 din
-119362	d
+120617	d
 mar
 tu
 iri
@@ -116000,7 +116000,7 @@ x
 x
 (x)
 (x)
-119372	disz
+120627	disz
 x
 x
 (x)
@@ -116014,12 +116014,12 @@ x
 x
 (x)
 (x)
-119387	disz
+120642	disz
 nam
 rum
 iri
 du6
-119393	d
+120648	d
 isz
 ha
 ra
@@ -116053,7 +116053,7 @@ ni
 um
 iri
 tul2
-119428	d
+120683	d
 en
 lil2
 ki
@@ -116064,22 +116064,22 @@ nu
 um
 ki
 ma
-119440	d
+120695	d
 utu
 dumu
 im
 ta
 ga
 ar
-119448	d
+120703	d
 utu
 sza
 d
 utu
 larsa[
 ki
-119456	disz
-119458	d
+120711	disz
+120713	d
 utu
 ki
 nam
@@ -116106,13 +116106,13 @@ d
 x
 (x)
 (x)
-119486	blank
+120741	blank
 space
-119489	1(u)
+120744	1(u)
 2(disz)
 u2
 tul2
-119495	d
+120750	d
 utu
 u3
 nam
@@ -116123,7 +116123,7 @@ du10
 disz
 a
 pil2
-119507	d
+120762	d
 mar
 tu
 iri
@@ -116148,9 +116148,9 @@ a
 pil2
 ku
 bi
-119533	blank
+120788	blank
 space
-119536	i7
+120791	i7
 pirig
 gin7
 du
@@ -116168,18 +116168,18 @@ x
 disz
 nu
 ur2
-119555	d
+120810	d
 nin
 szubur
 disz
-119560	d
+120815	d
 suen
 uru4
 x
 x
 x
 disz
-119568	d
+120823	d
 suen
 at
 pa
@@ -116190,9 +116190,9 @@ isz
 me
 a
 ni
-119580	blank
+120835	blank
 space
-119583	id2
+120838	id2
 pirig
 gin7
 du
@@ -116212,13 +116212,13 @@ lum
 gir2
 su[
 ki
-119605	blank
+120860	blank
 space
-119608	1(u)
+120863	1(u)
 1(disz)
 u2
 tul2
-119614	d
+120869	d
 na
 bi
 um
@@ -116250,7 +116250,7 @@ nu
 li
 pu
 szu
-a
+120902	a
 na
 d
 suen
@@ -116271,7 +116271,7 @@ ma
 disz
 sze
 ep
-119668	d
+120924	d
 suen
 ugula
 dam
@@ -116311,7 +116311,7 @@ disz
 e
 tel
 pi2
-119709	d
+120965	d
 marduk
 ip
 ta
@@ -116357,7 +116357,7 @@ szu
 disz
 gi
 mil
-119756	d
+121012	d
 marduk
 ip
 ri
@@ -116408,23 +116408,23 @@ nim
 e
 tel
 pi2
-119808	d
+121064	d
 marduk
 u3
 gi
 mil
-119814	d
+121070	d
 marduk
 x
 x
-119819	x
-119824	x
-119826	x
-119828	x
-119830	x
+121075	x
+121080	x
+121082	x
+121084	x
+121086	x
 x
-119833	x
-119835	a
+121089	x
+121092	a
 na
 d
 suen
@@ -116455,7 +116455,7 @@ ma
 ri
 im
 disz
-119867	d
+121124	d
 utu
 i
 pu
@@ -116473,7 +116473,7 @@ ia
 t,u
 ur
 dam
-a
+121143	a
 na
 d
 suen
@@ -116504,14 +116504,14 @@ ma
 ri
 im
 disz
-119917	d
+121175	d
 suen
 ma
 gir
 dumu
 i
 din
-119925	d
+121183	d
 suen
 szesz
 li
@@ -116540,7 +116540,7 @@ is
 ni
 qa2
 am
-a
+121213	a
 na
 d
 suen
@@ -116562,7 +116562,7 @@ asz
 szum
 sze
 ep
-119977	d
+121236	d
 suen
 ugula
 dam
@@ -116736,7 +116736,7 @@ kum
 disz
 sze
 ep
-120152	d
+121411	d
 suen
 ugula
 dam
@@ -116841,7 +116841,7 @@ in
 na
 me
 er
-a
+121517	a
 na
 d
 suen
@@ -117038,7 +117038,7 @@ is
 ni
 qa2
 nim
-a
+121715	a
 na
 d
 suen
@@ -117078,7 +117078,7 @@ nig2
 szu
 a
 pil2
-120495	d
+121756	d
 utu
 sza
 it
@@ -117086,7 +117086,7 @@ ti
 disz
 an
 pi4
-120504	d
+121765	d
 suen
 ugula
 lu2
@@ -117106,7 +117106,7 @@ ia
 t,u2
 ur
 dam
-a
+121786	a
 na
 d
 suen
@@ -117204,7 +117204,7 @@ in
 na
 si
 ih
-a
+121885	a
 na
 d
 suen
@@ -117292,7 +117292,7 @@ ki
 szu
 bi
 lam
-a
+121974	a
 na
 d
 suen
@@ -117315,13 +117315,13 @@ szum
 disz
 a
 pil2
-120734	d
+121998	d
 mar
 tu
 dumu
 s,il2
 li2
-120741	d
+122005	d
 mar
 tu
 nig2
@@ -117329,7 +117329,7 @@ szu
 e
 tel
 pi2
-120750	d
+122014	d
 marduk
 sza
 a
@@ -117402,7 +117402,7 @@ na
 e
 tel
 pi2
-120824	d
+122088	d
 marduk
 li
 te
@@ -117414,7 +117414,7 @@ x
 (x)
 x
 x
-120837	u2
+122101	u2
 ul
 i
 x
@@ -117481,7 +117481,7 @@ li
 ri
 isz
 disz
-120905	d
+122169	d
 na
 bi
 um
@@ -117501,7 +117501,7 @@ pu
 uh2
 a
 pil2
-120926	d
+122190	d
 mar
 tu
 a
@@ -117509,13 +117509,13 @@ na
 e
 tel
 pi2
-120935	d
+122199	d
 marduk
 li
 id
 di
 in
-a
+122206	a
 na
 d
 suen
@@ -117561,7 +117561,7 @@ la
 szu
 nu
 u3
-120989	d
+122254	d
 utu
 dumu
 e
@@ -117649,7 +117649,7 @@ is
 ni
 qu2
 nim
-a
+122343	a
 na
 d
 suen
@@ -117803,7 +117803,7 @@ ap
 pa
 tu
 nim
-a
+122498	a
 na
 d
 suen
@@ -117836,12 +117836,12 @@ im
 disz
 ib
 ni
-121265	d
+122532	d
 suen
 ra2
 gaba
 disz
-121271	d
+122538	d
 nanna
 zi
 ma
@@ -117854,7 +117854,7 @@ ri
 bu
 um
 disz
-121285	d
+122552	d
 suen
 ma
 gir
@@ -117894,7 +117894,7 @@ me
 a
 ni
 dumu
-121326	d
+122593	d
 x
 mu
 ba
@@ -117904,7 +117904,7 @@ a
 na
 babila2[
 ki
-121337	t,u2
+122604	t,u2
 ur
 da
 asz
@@ -117954,7 +117954,7 @@ szu
 t,u2
 ur
 dam
-a
+122655	a
 na
 d
 suen
@@ -118062,7 +118062,7 @@ sza3
 ugula
 im
 gur
-121496	d
+122764	d
 en
 lil2
 disz
@@ -118076,7 +118076,7 @@ am
 dumu
 s,il2
 li2
-121511	d
+122779	d
 mar
 tu
 lu2
@@ -118119,7 +118119,7 @@ sza3
 ugula
 na
 bi
-121555	d
+122823	d
 suen
 disz
 i3
@@ -118131,7 +118131,7 @@ am
 dumu
 s,il2
 li2
-121568	d
+122836	d
 mar
 tu
 lu2
@@ -118247,7 +118247,7 @@ asz
 szu
 nu
 ti
-a
+122953	a
 na
 d
 suen
@@ -118268,7 +118268,7 @@ ma
 asz
 szum
 disz
-121706	d
+122975	d
 suen
 dingir
 ensi2
@@ -118357,7 +118357,7 @@ at,
 ru
 dam
 disz
-121796	d
+123065	d
 suen
 dingir
 szu
@@ -118388,7 +118388,7 @@ szu
 ensi2
 u3
 lu2
-121828	d
+123097	d
 nin
 urta
 u3
@@ -118509,7 +118509,7 @@ ma
 al
 la
 disz
-121950	d
+123219	d
 suen
 dingir
 szu
@@ -118558,7 +118558,7 @@ mesz
 mu
 ul
 li
-a
+123269	a
 na
 d
 suen
@@ -118588,7 +118588,7 @@ a
 ma
 ri
 im
-122030	tug2
+123300	tug2
 gu2
 tug2
 gu2
@@ -118596,7 +118596,7 @@ e3
 tug2
 bar
 si
-122039	kusz
+123309	kusz
 e
 sir2
 kusz
@@ -118614,7 +118614,7 @@ nig2
 szu
 im
 gur
-122058	d
+123328	d
 en
 lil2
 u3
@@ -118652,7 +118652,7 @@ is
 ni
 qu2
 nim
-a
+123367	a
 na
 munus
 a
@@ -118677,7 +118677,7 @@ we
 di
 u3
 dumu
-122122	d
+123393	d
 utu
 wa
 ar
@@ -118809,7 +118809,7 @@ ni
 iq
 qu2
 ur
-a
+123526	a
 na
 d
 suen
@@ -118819,7 +118819,7 @@ ra
 bi
 u3
 gaz
-122265	d
+123537	d
 suen
 qi2
 bi2
@@ -118851,7 +118851,7 @@ nig2
 szu
 ig
 mil
-122298	d
+123570	d
 suen
 sza
 ta
@@ -118918,11 +118918,11 @@ sza
 ma
 id
 na
-a
+123638	a
 na
 ib
 ni
-122370	d
+123643	d
 suen
 dumu
 d
@@ -119034,11 +119034,11 @@ si2
 in
 qa2
 am
-a
+123756	a
 na
 ib
 ni
-122487	d
+123761	d
 suen
 dumu
 d
@@ -119128,7 +119128,7 @@ si2
 in
 qa2
 am
-a
+123852	a
 na
 d
 marduk
@@ -119186,7 +119186,7 @@ a
 sza
 te
 re
-122636	a
+123911	a
 s,a
 ab
 ta
@@ -119200,11 +119200,11 @@ u8
 udu
 hi
 a
-a
+123926	a
 na
 ib
 ni
-122655	d
+123931	d
 suen
 dumu
 d
@@ -119232,11 +119232,11 @@ e2
 a
 ki
 tim
-a
+123960	a
 na
 ib
 ni
-122688	d
+123965	d
 suen
 dumu
 d
@@ -119351,7 +119351,7 @@ si2
 in
 qa2
 nim
-a
+124081	a
 na
 d
 marduk
@@ -119359,7 +119359,7 @@ mu
 sza
 lim
 disz
-122812	d
+124090	d
 suen
 i
 din
@@ -119368,7 +119368,7 @@ u3
 a
 wi
 il
-122822	d
+124100	d
 suen
 qi2
 bi2
@@ -119614,7 +119614,7 @@ ki
 szu
 bi
 la
-a
+124347	a
 na
 d
 suen
@@ -119691,7 +119691,7 @@ li
 ik
 mi
 su
-a
+124425	a
 na
 d
 suen
@@ -119813,7 +119813,7 @@ ma
 i
 na
 sa
-123268	x
+124548	x
 x
 (x)
 (x)
@@ -119821,7 +119821,7 @@ a
 na
 babila2[
 ki
-123277	li
+124557	li
 ib
 lu
 nim
@@ -119842,7 +119842,7 @@ gesz
 sza
 i
 na
-123299	gesz
+124579	gesz
 tir
 szu
 mi
@@ -119886,7 +119886,7 @@ i
 re
 eq
 qu2
-a
+124624	a
 na
 d
 suen
@@ -119910,7 +119910,7 @@ disz
 e
 tel
 pi2
-123368	d
+124649	d
 marduk
 a
 na
@@ -119954,7 +119954,7 @@ disz
 e
 tel
 pi2
-123413	d
+124694	d
 marduk
 a
 na
@@ -119991,7 +119991,7 @@ is
 ni
 qa2
 am
-a
+124732	a
 na
 d
 suen
@@ -120087,8 +120087,8 @@ na
 ti
 i
 ma
-123547	x
-123549	a
+124829	x
+124831	a
 na
 sza
 am
@@ -120121,9 +120121,9 @@ s,e
 eh
 he
 ra
-a
+124865	a
 na
-123585	d
+124868	d
 suen
 i
 din
@@ -120352,7 +120352,7 @@ ma
 szu
 bi
 lam
-a
+125098	a
 na
 d
 suen
@@ -120371,7 +120371,7 @@ ra
 bi
 ma
 1(bur3)
-123834	a
+125118	a
 gar3
 a
 sza3
@@ -120428,7 +120428,7 @@ ma
 i
 di
 in
-a
+125176	a
 na
 d
 suen
@@ -120457,7 +120457,7 @@ lu
 na
 ma
 disz
-123921	d
+125206	d
 suen
 e
 ri
@@ -120557,7 +120557,7 @@ babbar
 a
 na
 szu
-124022	d
+125307	d
 mar
 tu
 (x)
@@ -120607,7 +120607,7 @@ ki
 li
 ib
 lam
-a
+125358	a
 na
 d
 suen
@@ -120623,7 +120623,7 @@ ku5
 mesz
 zimbir[
 ki
-124089	qi2
+125375	qi2
 bi2
 ma
 um
@@ -120750,7 +120750,7 @@ la
 ur
 ra
 ad
-a
+125503	a
 na
 ha
 ia
@@ -120809,7 +120809,7 @@ li
 il
 li
 ik
-a
+125563	a
 na
 d
 suen
@@ -120832,7 +120832,7 @@ ni
 id
 na
 at
-124299	d
+125587	d
 suen
 mu
 sza
@@ -120943,7 +120943,7 @@ ki
 szu
 bi
 lam
-a
+125699	a
 na
 d
 suen
@@ -120951,7 +120951,7 @@ i
 din
 nam
 disz
-124419	d
+125708	d
 utu
 szu
 mu
@@ -120982,7 +120982,7 @@ szu
 uh
 ma
 disz
-124451	d
+125740	d
 marduk
 mu
 sza
@@ -120999,7 +120999,7 @@ ku5
 mesz
 zimbir
 ki
-124469	ia
+125758	ia
 ah
 ru
 rum
@@ -121029,7 +121029,7 @@ sza
 e2
 d
 utu
-124500	ka
+125789	ka
 ia
 ma
 nim
@@ -121101,10 +121101,10 @@ pe2
 et
 tu
 u2
-124573	x
+125862	x
 x
-124577	disz
-124579	d
+125866	disz
+125868	d
 suen
 i
 din
@@ -121127,7 +121127,7 @@ ku5
 mesz
 zimbir[
 ki
-124603	e2
+125892	e2
 dumu
 munus
 szul
@@ -121226,7 +121226,7 @@ szu
 up
 ra
 nim
-a
+125992	a
 na
 d
 marduk
@@ -121255,13 +121255,13 @@ uh
 ma
 1(u)
 6(disz)
-124732	lu2
+126022	lu2
 su
 si
 ig
 zimbir
 ki
-124739	am
+126029	am
 na
 nu
 u3
@@ -121271,18 +121271,18 @@ szu
 u3
 4(disz)
 sag
-124750	mesz
+126040	mesz
 sza
 dumu
 mesz
 ri
 isz
-124757	d
+126047	d
 utu
 di
 ku5
 disz
-124763	d
+126053	d
 suen
 i
 ri
@@ -121340,13 +121340,13 @@ ma
 ra
 1(u)
 6(disz)
-124822	lu2
+126112	lu2
 su
 si
 ig
 zimbir
 ki
-124829	am
+126119	am
 na
 nu
 u3
@@ -121356,18 +121356,18 @@ szu
 u3
 4(disz)
 sag
-124840	mesz
+126130	mesz
 sza
 dumu
 mesz
 ri
 isz
-124847	d
+126137	d
 utu
 di
 ku5
 disz
-124853	d
+126143	d
 suen
 i
 ri
@@ -121433,14 +121433,14 @@ li
 sze
 lu
 u2
-a
+126210	a
 na
 ib
 ni
-124924	d
+126215	d
 utu
 disz
-124928	d
+126219	d
 suen
 i
 din
@@ -121471,7 +121471,7 @@ szi
 ip
 ri
 u3
-124960	gesz
+126251	gesz
 gigir
 hi
 a
@@ -121489,7 +121489,7 @@ a
 na
 zimbir
 ki
-124979	ia
+126270	ia
 ah
 ru
 rum
@@ -121547,7 +121547,7 @@ mesz
 sza
 zimbir
 ki
-125038	am
+126329	am
 na
 nu
 li
@@ -121583,7 +121583,7 @@ a
 na
 zimbir
 ki
-125075	ia
+126366	ia
 ah
 ru
 rum
@@ -121633,7 +121633,7 @@ na
 ad
 di
 nu
-a
+126417	a
 na
 dam
 gar3
@@ -121892,13 +121892,13 @@ li
 ir
 du
 nim
-a
+126677	a
 na
 ni
 id
 na
 at
-125391	d
+126684	d
 suen
 qi2
 bi2
@@ -121925,7 +121925,7 @@ ma2
 lah5
 zimbir
 ki
-125419	am
+126712	am
 na
 nim
 a
@@ -121969,7 +121969,7 @@ ma2
 lah5
 zimbir
 ki
-125464	am
+126757	am
 na
 nim
 x
@@ -122021,7 +122021,7 @@ is
 ni
 qa2
 am
-a
+126810	a
 na
 d
 suen
@@ -122246,7 +122246,7 @@ sza
 asz
 pi2
 ku
-a
+127036	a
 na
 d
 suen
@@ -122262,7 +122262,7 @@ ku5
 mesz
 zimbir
 ki
-125758	qi2
+127053	qi2
 bi2
 ma
 um
@@ -122292,7 +122292,7 @@ szu
 ma
 sag
 geme2
-125789	ha
+127084	ha
 al
 qu2
 um
@@ -122308,7 +122308,7 @@ i
 na
 zimbir
 ki
-125806	am
+127101	am
 na
 nim
 i
@@ -122348,7 +122348,7 @@ szi
 im
 sag
 geme2
-125847	sza
+127142	sza
 lu2
 qa2
 ab
@@ -122392,7 +122392,7 @@ x
 x
 x
 x
-a
+127187	a
 na
 sa
 am
@@ -122408,7 +122408,7 @@ disz
 a
 wi
 il
-125908	d
+127204	d
 na
 bi
 um
@@ -122420,12 +122420,12 @@ tum
 disz
 ib
 ni
-125921	d
+127217	d
 marduk
 u3
 ri
 isz
-125927	d
+127223	d
 utu
 qi2
 bi2
@@ -122439,7 +122439,7 @@ szu
 uh
 ma
 disz
-125942	d
+127238	d
 suen
 i
 din
@@ -122453,7 +122453,7 @@ ku5
 mesz
 zimbir
 ki
-125957	ki
+127253	ki
 a
 am
 isz
@@ -122476,11 +122476,11 @@ gar3
 lu2
 zimbir[
 ki
-125981	sza
+127277	sza
 i
 na
 kar
-125986	d
+127282	d
 utu
 ki
 wa
@@ -122559,7 +122559,7 @@ ta
 am
 ma
 ra
-126066	disz
+127362	disz
 i
 din
 esz18
@@ -122600,7 +122600,7 @@ szu
 li
 pu
 ul
-a
+127404	a
 na
 d
 marduk
@@ -122627,8 +122627,8 @@ e
 szu
 uh
 ma
-126135	disz
-126137	d
+127432	disz
+127434	d
 suen
 mu
 sza
@@ -122652,10 +122652,10 @@ um
 ma
 szu
 ma
-126162	disz
+127459	disz
 nu
 ur2
-126166	d
+127463	d
 kab
 ta
 sanga
@@ -122666,7 +122666,7 @@ tum
 lu2
 zimbir
 ki
-126178	am
+127475	am
 na
 nu
 um
@@ -122816,7 +122816,7 @@ ip
 pa
 ri
 is
-a
+127626	a
 na
 d
 suen
@@ -122844,7 +122844,7 @@ szu
 uh
 ma
 disz
-126357	d
+127655	d
 bu
 ne
 ne
@@ -122854,13 +122854,13 @@ ir
 u3
 s,il2
 li2
-126368	d
+127666	d
 utu
 dumu
 mesz
 ri
 isz
-126375	d
+127673	d
 utu
 ki
 a
@@ -122976,13 +122976,13 @@ ir
 u3
 s,il2
 li2
-126492	d
+127790	d
 utu
 dumu
 mesz
 ri
 isz
-126499	d
+127797	d
 utu
 u2
 ka
@@ -122996,7 +122996,7 @@ a
 na
 babila2[
 ki
-126514	t,u2
+127812	t,u2
 ur
 da
 nim
@@ -123011,7 +123011,7 @@ li
 in
 nam
 ra
-a
+127828	a
 na
 d
 marduk
@@ -123024,7 +123024,7 @@ ku5
 mesz
 zimbir
 ki
-126543	am
+127842	am
 na
 nu
 qi2
@@ -123200,7 +123200,7 @@ lu
 ku
 nu
 ti
-a
+128019	a
 na
 d
 suen
@@ -123281,9 +123281,9 @@ da
 ab
 ba
 bu
-a
+128101	a
 na
-126803	qi2
+128104	qi2
 bi2
 ma
 um
@@ -123297,7 +123297,7 @@ na
 ma
 erin2
 ug3
-126818	nig2
+128119	nig2
 szu
 d
 nanna
@@ -123311,7 +123311,7 @@ bad3
 sza
 zimbir
 ki
-126833	am
+128134	am
 na
 nu
 ku
@@ -123336,7 +123336,7 @@ a
 na
 erin2
 ug3
-126859	szu
+128160	szu
 a
 ti
 na
@@ -123369,13 +123369,13 @@ x
 (x)
 (x)
 li
-126894	szu
+128195	szu
 a
 ti
-126898	x
+128199	x
 zimbir
 ki
-126902	li
+128203	li
 sza
 al
 li
@@ -123396,21 +123396,21 @@ x
 nu
 erin2
 ug3
-126924	szu
+128225	szu
 a
 ti
 li
 is,
 s,u2
 ru
-a
+128233	a
 na
 ib
 ni
-126936	d
+128238	d
 marduk
-126939	disz
-126941	d
+128241	disz
+128243	d
 suen
 i
 din
@@ -123553,7 +123553,7 @@ na
 an
 me
 ra
-a
+128387	a
 na
 d
 marduk
@@ -123591,7 +123591,7 @@ x
 x
 x
 (x)
-a
+128426	a
 na
 d
 utu
@@ -123635,7 +123635,7 @@ ma
 asza5
 {a
 sza3}
-127167	sza
+128471	sza
 i
 na
 ka
@@ -123656,7 +123656,7 @@ disz
 e
 tel
 pi2
-127189	d
+128493	d
 marduk
 i
 ki
@@ -123728,7 +123728,7 @@ u2
 asza5
 {a
 sza3}
-127262	sza
+128566	sza
 i
 na
 e2
@@ -123741,7 +123741,7 @@ d
 e
 tel
 pi2
-127276	d
+128580	d
 marduk
 isz
 tu
@@ -123841,7 +123841,7 @@ disz
 e
 tel
 pi2
-127377	d
+128681	d
 marduk
 il
 te
@@ -123850,7 +123850,7 @@ qu2
 u2
 i
 na
-127387	gesz
+128691	gesz
 tukul
 sza
 dingir
@@ -123882,7 +123882,7 @@ szu
 up
 ra
 nim
-qi2
+128853	qi2
 bi2
 ma
 um
@@ -123894,19 +123894,19 @@ ra
 bi
 ma
 5(bur3)
-127432	a
+128866	a
 sza3
 iri
-127436	x
+128870	x
 x
-127439	sza3
+128873	sza3
 sza
 a
 gar3
 ka2
 sza
-127446	6(bur3)
-127448	a
+128880	6(bur3)
+128882	a
 sza3
 a
 gar3
@@ -123914,7 +123914,7 @@ iri
 sa
 ma
 x
-127457	sza3
+128891	sza3
 sza
 ia
 ar
@@ -123922,7 +123922,7 @@ ha
 mu
 1(bur'u)
 1(bur3)
-127466	a
+128900	a
 sza3
 an
 nu
@@ -123963,7 +123963,7 @@ gur
 an
 ni
 ugula
-127508	dumu
+128942	dumu
 dumu
 esz18
 dar
@@ -123971,7 +123971,7 @@ x
 x
 x
 x
-127517	x
+128951	x
 x
 x
 a
@@ -123989,11 +123989,11 @@ tu
 sza
 ni
 u2
-127536	x
+128970	x
 x
 di
 in
-127541	t,e
+128975	t,e
 em
 a
 sza3
@@ -124027,14 +124027,14 @@ an
 ni
 ugula
 x
-127576	dumu
+129010	dumu
 dumu
 esz18
 dar
 id
 na
 (x)
-a
+129244	a
 na
 be
 li2
@@ -124046,7 +124046,7 @@ um
 ma
 u
 bar
-127596	d
+129257	d
 suen
 ma
 disz
@@ -124146,7 +124146,7 @@ ma
 disz
 u
 bar
-127697	d
+129358	d
 suen
 dam
 a
@@ -124244,7 +124244,7 @@ i
 ta
 la
 ak
-d
+129460	d
 a
 a
 nin
@@ -124263,7 +124263,7 @@ zu
 ti
 la
 ni
-a
+129488	a
 na
 d
 suen
@@ -124287,13 +124287,13 @@ li2
 esz18
 dar
 disz
-127840	d
+129514	d
 mar
 tu
 u3
 nu
 ur2
-127847	d
+129521	d
 utu
 sipa
 x
@@ -124385,8 +124385,8 @@ ia
 tum
 szesz
 ni
-127940	disz
-127942	d
+129614	disz
+129616	d
 utu
 ha
 zi
@@ -124415,7 +124415,7 @@ x
 x
 x
 x
-127972	sza3
+129646	sza3
 sipa
 ab2
 hi
@@ -124442,7 +124442,7 @@ di
 i
 ir
 ki
-128000	disz
+129674	disz
 x
 x
 esz18
@@ -124461,10 +124461,10 @@ ni
 isz
 ku
 un
-128020	d
+129694	d
 utu
 ki
-128024	disz
+129698	disz
 x
 x
 ma
@@ -124480,7 +124480,7 @@ ma
 gir
 szesz
 ni
-128041	disz
+129715	disz
 in
 bi
 i3
@@ -124541,7 +124541,7 @@ ki
 3(disz)
 na
 gada
-128104	d
+129778	d
 mar
 tu
 disz
@@ -124563,12 +124563,12 @@ ka
 ri
 su
 ki
-128127	1(disz)
+129801	1(disz)
 na
 gada
 nu
 ur2
-128133	d
+129807	d
 utu
 i
 na
@@ -124630,7 +124630,7 @@ szu
 nu
 szi
 im
-a
+129870	a
 na
 d
 suen
@@ -124710,7 +124710,7 @@ ma
 szu
 ma
 disz
-128276	d
+129951	d
 suen
 ta
 ia
@@ -124843,7 +124843,7 @@ is
 su2
 nu
 ti
-a
+130085	a
 na
 d
 suen
@@ -124869,7 +124869,7 @@ ma
 szu
 szi
 ug3
-128436	mesz
+130112	mesz
 at,
 t,ar
 da
@@ -124879,7 +124879,7 @@ kum
 szu
 szi
 ug3
-128447	mesz
+130123	mesz
 it
 ti
 e
@@ -124894,7 +124894,7 @@ u3
 szu
 szi
 ug3
-128463	mesz
+130139	mesz
 it
 ti
 e
@@ -124917,7 +124917,7 @@ li
 il
 li
 ku
-a
+130163	a
 na
 dumu
 i3
@@ -125141,7 +125141,7 @@ u3
 gi
 zi
 had2
-128711	ta
+130388	ta
 ak
 ku
 mu
@@ -125156,7 +125156,7 @@ is
 si2
 na
 ti
-a
+130404	a
 na
 d
 marduk
@@ -125187,7 +125187,7 @@ ma
 disz
 ib
 ni
-128758	d
+130436	d
 iszkur
 nig2
 szu
@@ -125199,7 +125199,7 @@ ugula
 mar
 tu
 2(esze3)
-128771	a
+130449	a
 sza3
 a
 gar3
@@ -125208,14 +125208,14 @@ is
 sa3
 tum
 2(iku)
-128781	a
+130459	a
 sza3
 a
 gar3
 lugal
 u3
 2(iku)
-128789	gesz
+130467	gesz
 kiri6
 ka2
 d
@@ -125229,7 +125229,7 @@ un
 nim
 ki
 1(bur3)
-128804	a
+130482	a
 sza3
 gesz
 kiri6
@@ -125274,7 +125274,7 @@ bi
 it
 ib
 ni
-128850	d
+130528	d
 iszkur
 sza
 id
@@ -125282,7 +125282,7 @@ du
 u2
 a
 na
-128859	li
+130537	li
 i
 lu2
 elam
@@ -125351,7 +125351,7 @@ ka
 ni
 ik
 szum
-a
+130607	a
 na
 d
 suen
@@ -125377,7 +125377,7 @@ ma
 asz
 szum
 1(bur3)
-128955	a
+130634	a
 sza3
 u3
 gesz
@@ -125387,7 +125387,7 @@ bi
 it
 ib
 ni
-128966	d
+130645	d
 iszkur
 nig2
 szu
@@ -125419,7 +125419,7 @@ mu
 la
 el3[
 ki
-128999	id
+130678	id
 di
 nu
 szum
@@ -125430,7 +125430,7 @@ sza3
 szu
 a
 ti
-129011	li
+130690	li
 i
 lu2
 elam
@@ -125480,11 +125480,11 @@ it
 disz
 ib
 ni
-129062	d
+130741	d
 iszkur
 a
 na
-129067	li
+130746	li
 i
 lu2
 elam
@@ -125543,7 +125543,7 @@ ka
 ni
 ik
 szum
-a
+130806	a
 na
 szum
 ma
@@ -125551,7 +125551,7 @@ dingir
 dumu
 i
 din
-129135	d
+130815	d
 marduk
 qi2
 bi2
@@ -125575,7 +125575,7 @@ se3
 ga
 sza
 iti
-129161	gar
+130841	gar
 ih
 ha
 asz
@@ -125651,7 +125651,7 @@ is
 ni
 qa2
 am
-a
+130918	a
 na
 x
 x
@@ -125694,7 +125694,7 @@ s,e
 et
 zimbir
 ki
-129281	ia
+130962	ia
 ah
 ru
 rum
@@ -125830,7 +125830,7 @@ i
 ig
 gu
 u2
-a
+131099	a
 na
 d
 nin
@@ -125843,7 +125843,7 @@ ma
 um
 ma
 ur
-129431	d
+131113	d
 nansze
 ma
 mi
@@ -125875,7 +125875,7 @@ na
 szi
 a
 na
-129466	ma
+131148	ma
 a
 ka3
 la
@@ -125960,7 +125960,7 @@ kam
 x
 x
 x
-129552	a
+131235	a
 na
 be
 li2
@@ -126065,7 +126065,7 @@ a
 na
 iri
 e2
-129658	d
+131341	d
 bil
 gi
 ki
@@ -126136,7 +126136,7 @@ un
 ne2
 e
 em
-129730	disz
+131413	disz
 i
 bi
 ia
@@ -126178,7 +126178,7 @@ a
 na
 iri
 e2
-129773	d
+131456	d
 bil
 gi
 ki
@@ -126203,7 +126203,7 @@ an
 ni
 x
 x
-a
+131482	a
 na
 be
 li2
@@ -126258,7 +126258,7 @@ usz
 szi
 ir
 szu
-a
+131538	a
 na
 ia
 ar
@@ -126311,7 +126311,7 @@ x
 a
 pu
 tum
-a
+131592	a
 na
 ku
 ul
@@ -126364,7 +126364,7 @@ e
 te
 el
 pi4
-129960	d
+131646	d
 inanna
 u3
 szesz
@@ -126415,9 +126415,9 @@ ma
 ar
 ra
 as,
-a
+131698	a
 na
-130014	dingir
+131701	dingir
 imin
 qi2
 bi2
@@ -126459,7 +126459,7 @@ ta
 u3
 uri2
 ki
-130057	sze
+131744	sze
 me
 nu
 szi
@@ -126644,12 +126644,12 @@ tum
 la
 te
 gi4
-a
+131930	a
 na
 e
 ri
 ib
-130248	d
+131936	d
 suen
 qi2
 bi2
@@ -126756,10 +126756,10 @@ szi
 a
 ne2
 ti
-130356	munus
+132044	munus
 sza
 at
-130360	d
+132048	d
 utu
 x
 x
@@ -126801,7 +126801,7 @@ utu
 id
 na
 a
-a
+132091	a
 na
 sza
 pi2
@@ -126897,7 +126897,7 @@ a
 na
 la
 a
-130499	im
+132188	im
 u3
 a
 na
@@ -126940,9 +126940,9 @@ x
 (x)
 x
 x
-130544	x
+132233	x
 la
-130547	x
+132236	x
 x
 x
 i
@@ -126969,7 +126969,7 @@ li
 it,
 ru
 dam
-a
+132264	a
 na
 be2
 e
@@ -126982,7 +126982,7 @@ um
 ma
 ib
 ni
-130588	d
+132278	d
 mar
 tu
 ma
@@ -127085,7 +127085,7 @@ a
 nu
 um
 ma
-130692	ir
+132382	ir
 da
 am
 a
@@ -127100,7 +127100,7 @@ am
 it
 ti
 szu
-130708	tum
+132398	tum
 s,u2
 ba
 ti
@@ -127163,7 +127163,7 @@ a
 szu
 ba
 lum
-130772	tum
+132462	tum
 la
 i
 la
@@ -127186,7 +127186,7 @@ be
 li2
 at
 ta
-130796	tum
+132486	tum
 it
 ti
 szu
@@ -127194,7 +127194,7 @@ li
 il
 li
 kam
-a
+132495	a
 na
 d
 suen
@@ -127207,12 +127207,12 @@ um
 ma
 na
 bi
-130818	d
+132509	d
 en
 lil2
 ma
 an
-130824	d
+132515	d
 inanna
 u3
 d
@@ -127250,10 +127250,10 @@ ti
 a
 na
 an
-130863	d
+132554	d
 inanna
 disz
-130867	d
+132558	d
 na
 na
 a
@@ -127326,7 +127326,7 @@ ma
 ha
 ar
 an
-130941	d
+132632	d
 inanna
 u3
 d
@@ -127361,12 +127361,12 @@ da
 ak
 ku
 um
-x[...
+132668	x[...
 x[...
 tup
-130980	disz
-130982	li
-130984	tup
+132672	disz
+132674	li
+132676	tup
 pa
 am
 a
@@ -127459,7 +127459,7 @@ x
 x
 x
 (x)
-131078	ku
+132770	ku
 nu
 uk
 ki
@@ -127481,7 +127481,7 @@ li
 ib
 lu
 nim
-a
+132793	a
 na
 d
 marduk
@@ -127505,7 +127505,7 @@ hi
 ri
 tum
 ki
-131125	mesz
+132818	mesz
 sza
 ma
 ah
@@ -127575,7 +127575,7 @@ am
 li
 pu
 szu
-a
+132889	a
 na
 d
 na
@@ -127597,7 +127597,7 @@ ma
 na
 ra
 am
-131218	d
+132912	d
 suen
 ma
 d
@@ -127678,7 +127678,7 @@ ka
 li
 a
 ni
-a
+132994	a
 na
 a
 di
@@ -127688,7 +127688,7 @@ tim
 u3
 erisz
 ti
-131310	d
+133005	d
 a
 a
 qi2
@@ -127722,7 +127722,7 @@ nam
 u3
 dumu
 ki
-131345	ti
+133040	ti
 tim
 ma
 ah
@@ -127811,7 +127811,7 @@ ri
 szi
 ia
 ma
-a
+133130	a
 na
 be
 lum
@@ -127907,7 +127907,7 @@ x
 x
 x
 (x)
-a
+133227	a
 na
 be
 el
@@ -128131,12 +128131,12 @@ x
 x
 x
 al
-a
+133452	a
 na
 li
 pi2
 it
-131760	d
+133458	d
 tiszpak
 qi2
 bi2
@@ -128265,7 +128265,7 @@ ku
 nu
 szi
 im
-a
+133588	a
 na
 ta
 ri
@@ -128302,7 +128302,7 @@ disz
 a
 wi
 il
-131927	d
+133626	d
 suen
 sza
 ta
@@ -128414,7 +128414,7 @@ nu
 um
 ba
 lu
-132040	d
+133739	d
 utu
 u4
 5(disz)
@@ -128440,7 +128440,7 @@ ik
 mi
 sa
 am
-a
+133766	a
 na
 ba
 ba
@@ -128480,7 +128480,7 @@ x
 x
 (x)
 x
-a
+133807	a
 na
 ha
 bil
@@ -128518,7 +128518,7 @@ ka
 asz
 szum
 disz
-132145	d
+133846	d
 nin
 szubur
 ta
@@ -128626,7 +128626,7 @@ ni
 in
 ni
 disz
-132254	d
+133955	d
 nin
 szubur
 ta
@@ -128801,7 +128801,7 @@ szu
 x
 x
 disz
-132430	d
+134131	d
 suen
 i
 qi2
@@ -128862,7 +128862,7 @@ na
 i
 la
 ak
-a
+134193	a
 na
 li
 pi2
@@ -128879,7 +128879,7 @@ iszkur
 ra
 bi
 ma
-132509	d
+134211	d
 utu
 u3
 d
@@ -129011,7 +129011,7 @@ u3
 a
 wi
 il
-132642	d
+134344	d
 iszkur
 at,
 t,a
@@ -129028,7 +129028,7 @@ d
 marduk
 x
 x
-132660	x
+134362	x
 x
 x
 x
@@ -129044,7 +129044,7 @@ x
 x
 i
 na
-132677	gesz
+134379	gesz
 banesz
 d
 marduk
@@ -129107,7 +129107,7 @@ na
 az
 zi
 iq
-132741	gesz
+134443	gesz
 kiri6
 sza
 ra
@@ -129123,7 +129123,7 @@ tum
 szu
 ku
 un
-132758	gesz
+134460	gesz
 kiri6
 d
 suen
@@ -129158,12 +129158,12 @@ zi
 ib
 at
 ta
-132794	gesz
+134496	gesz
 kiri6
 dingir
 ha
 bil
-132800	gesz
+134502	gesz
 kiri6
 e
 t,i
@@ -129180,7 +129180,7 @@ te
 zi
 ib
 u3
-132818	gesz
+134520	gesz
 kiri6
 ta
 ri
@@ -129219,7 +129219,7 @@ szu
 szu
 ku
 un
-a
+134560	a
 na
 li
 pi2
@@ -129265,7 +129265,7 @@ ta
 disz
 i
 bi
-132904	d
+134607	d
 suen
 u3
 mu
@@ -129280,7 +129280,7 @@ a
 sza3
 mesz
 u3
-132920	gesz
+134623	gesz
 kiri6
 mesz
 sza
@@ -129329,7 +129329,7 @@ sza3
 mesz
 u3
 lu
-132970	gesz
+134673	gesz
 kiri6
 mesz
 a
@@ -129508,7 +129508,7 @@ a
 sza3
 mesz
 u3
-133150	gesz
+134853	gesz
 kiri6
 sza
 i
@@ -129535,7 +129535,7 @@ u2
 sze
 bi
 ir
-a
+134881	a
 na
 li
 pi2
@@ -129654,7 +129654,7 @@ szu
 li
 a
 asz
-a
+135001	a
 na
 li
 pi2
@@ -129760,7 +129760,7 @@ bu
 ut
 iri
 ki
-133403	tup
+135108	tup
 pi2
 usz
 ta
@@ -129794,7 +129794,7 @@ x
 x
 x
 (x)
-a
+135143	a
 na
 li
 pi2
@@ -130050,10 +130050,10 @@ ta
 aq
 qi2
 id
-133694	disz
+135400	disz
 i
 bi
-133698	d
+135404	d
 suen
 i
 na
@@ -130132,7 +130132,7 @@ ti
 sza
 i
 bi
-133778	d
+135484	d
 suen
 u2
 ka
@@ -130141,7 +130141,7 @@ mu
 ka
 i
 na
-133788	na4
+135494	na4
 kiszib3
 ka
 ku
@@ -130160,7 +130160,7 @@ ta
 na
 di
 in
-a
+135514	a
 na
 li
 pi2
@@ -130329,7 +130329,7 @@ szi
 li
 ki
 il
-a
+135684	a
 na
 li
 pi2
@@ -130357,7 +130357,7 @@ ka
 asz
 szum
 3(iku)
-134005	a
+135713	a
 sza3
 im
 sza
@@ -130404,7 +130404,7 @@ tim
 szu
 u2
 disz
-134053	d
+135761	d
 iszkur
 e
 ri
@@ -130446,13 +130446,13 @@ na
 a
 sza3
 im
-134096	gesz
+135804	gesz
 kiri6
 pu
 lu
 usz
 disz
-134103	d
+135811	d
 na
 bi
 um
@@ -130484,7 +130484,7 @@ e
 li
 ku
 nu
-a
+135844	a
 na
 li
 pi2
@@ -130520,7 +130520,7 @@ u2
 sza
 at
 tam
-134172	gesz
+135881	gesz
 ma2
 hi
 a
@@ -130549,7 +130549,7 @@ mu
 uh
 hi
 ia
-134202	gesz
+135911	gesz
 ma2
 ka
 a
@@ -130564,7 +130564,7 @@ na
 ad
 di
 in
-134218	gesz
+135927	gesz
 ma2
 ka
 pi2
@@ -130636,7 +130636,7 @@ at,
 t,ar
 da
 ku
-134291	gesz
+136000	gesz
 ma2
 ka
 i
@@ -130676,7 +130676,7 @@ ka
 ta
 ba
 al
-a
+136041	a
 na
 li
 pi2
@@ -130756,12 +130756,12 @@ tum
 ma
 di
 isz
-a
+136122	a
 na
 li
 pi2
 it
-134417	d
+136128	d
 e2
 a
 qi2
@@ -130826,7 +130826,7 @@ x
 x
 x
 (x)
-a
+136194	a
 na
 li
 pi2
@@ -130907,7 +130907,7 @@ u2
 ul
 u2
 ma
-134564	tup
+136276	tup
 pi2
 usz
 ta
@@ -130935,7 +130935,7 @@ szum
 a
 sza3
 u3
-134593	gesz
+136305	gesz
 kiri6
 sza
 disz
@@ -130950,14 +130950,14 @@ ka
 a
 sza3
 u3
-134609	gesz
+136321	gesz
 kiri6
 a
 na
 e
 tel
 pi2
-134617	d
+136329	d
 na
 bi
 um
@@ -130967,7 +130967,7 @@ in
 e
 tel
 pi2
-134628	d
+136340	d
 na
 bi
 um
@@ -130978,7 +130978,7 @@ im
 a
 sza3
 u3
-134640	gesz
+136352	gesz
 kiri6
 sza
 disz
@@ -130989,7 +130989,7 @@ disz
 e
 tel
 pi2
-134652	d
+136364	d
 na
 bi
 um
@@ -131043,7 +131043,7 @@ li
 ib
 li
 i
-a
+136419	a
 na
 li
 pi2
@@ -131059,7 +131059,7 @@ ap
 la
 tum
 ma
-134723	d
+136436	d
 utu
 u3
 d
@@ -131198,7 +131198,7 @@ ut
 ka
 lu
 mur
-a
+136576	a
 na
 li
 pi2
@@ -131219,7 +131219,7 @@ iszkur
 ra
 bi
 ma
-134884	d
+136598	d
 utu
 li
 ba
@@ -131273,7 +131273,7 @@ a
 sza3
 mesz
 u3
-134939	gesz
+136653	gesz
 kiri6
 mesz
 x
@@ -131288,7 +131288,7 @@ x
 a
 sza3
 u3
-134955	gesz
+136669	gesz
 kiri6
 sza
 disz
@@ -131412,7 +131412,7 @@ li
 ma
 tu
 ur
-135080	disz
+136794	disz
 ta
 ri
 ba
@@ -131434,17 +131434,17 @@ ip
 he
 e
 ma
-135104	pi2
+136818	pi2
 ha
 at
 a
 sza3
 mesz
 u3
-135112	gesz
+136826	gesz
 kiri6
 mesz
-135116	u3
+136830	u3
 x
 x
 x
@@ -131458,7 +131458,7 @@ x
 x
 x
 (x)
-a
+136845	a
 na
 um
 mi
@@ -131610,7 +131610,7 @@ tim
 an
 na
 di
-135283	d
+136999	d
 utu
 u3
 d
@@ -131640,7 +131640,7 @@ ku
 nu
 szi
 3(iku)
-135314	a
+137030	a
 sza3
 us2
 sa
@@ -131699,7 +131699,7 @@ sza3
 sza
 tu
 sa
-135375	a
+137091	a
 hi
 ti
 ia
@@ -131738,7 +131738,7 @@ ni
 zu2
 lum
 sza
-135415	gesz
+137131	gesz
 kiri6
 ia
 disz
@@ -131758,7 +131758,7 @@ ur
 ma
 a
 na
-135436	gesz
+137152	gesz
 ma2
 hi
 a
@@ -131772,7 +131772,7 @@ ba
 ni
 im
 ma
-a
+137167	a
 na
 x
 x
@@ -131933,7 +131933,7 @@ ta
 ap
 lu
 si
-a
+137329	a
 na
 dingir
 dingir
@@ -131944,8 +131944,8 @@ bi2
 ma
 um
 ma
-135623	disz
-135625	munus
+137341	disz
+137343	munus
 ka
 zu
 ub
@@ -132129,7 +132129,7 @@ te
 er
 ba
 am
-135812	x
+137530	x
 x
 la
 qi2
@@ -132163,8 +132163,8 @@ ar
 ti
 it
 ti
-135847	disz
-135849	d
+137565	disz
+137567	d
 na
 bi
 um
@@ -132206,11 +132206,11 @@ x
 x
 x
 ta
-135892	4(ban2)
+137611	4(ban2)
 numun
 szum2
 sar
-135898	gesz
+137617	gesz
 ban2
 d
 utu
@@ -132224,8 +132224,8 @@ sar
 babbar
 disz
 dumu
-135913	d
-135916	x
+137632	d
+137635	x
 usz
 ta
 bi
@@ -132263,7 +132263,7 @@ ta
 ra
 asz
 szi
-a
+137674	a
 na
 ar
 ra
@@ -132382,7 +132382,7 @@ x
 szu
 bi
 lam
-a
+137794	a
 na
 a
 wi
@@ -132508,7 +132508,7 @@ a
 na
 zimbir[
 ki
-136200	li
+137921	li
 qi2
 a
 an
@@ -132607,7 +132607,7 @@ x
 x
 i3
 gesz
-136301	x
+138022	x
 x
 x
 x
@@ -132649,7 +132649,7 @@ li
 qa2
 asz
 szi
-a
+138065	a
 na
 a
 wi
@@ -132900,7 +132900,7 @@ ta
 ra
 asz
 szi
-a
+138317	a
 na
 a
 wi
@@ -133007,7 +133007,7 @@ i
 na
 qa2
 ti
-136702	i3
+138425	i3
 li2
 szu
 gudu4
@@ -133030,7 +133030,7 @@ pa
 ar
 ra
 ak
-136726	gesz
+138449	gesz
 ban2
 d
 utu
@@ -133051,7 +133051,7 @@ szum
 ma
 i
 na
-136748	gesz
+138471	gesz
 ban2
 d
 marduk
@@ -133076,7 +133076,7 @@ lu
 ud
 di
 in
-a
+138497	a
 na
 a
 wi
@@ -133143,7 +133143,7 @@ e
 sza
 i
 na
-136841	gi
+138565	gi
 pisan
 sza
 i
@@ -133155,7 +133155,7 @@ szu
 ri
 ia
 disz
-136854	munus
+138578	munus
 sza
 mu
 uh2
@@ -133196,7 +133196,7 @@ ia
 ma
 a
 na
-136898	it
+138622	it
 ta
 al
 kam
@@ -133233,7 +133233,7 @@ li
 isz
 ku
 un
-a
+138660	a
 na
 a
 ha
@@ -133246,7 +133246,7 @@ um
 ma
 i
 din
-136949	d
+138674	d
 marduk
 ma
 at
@@ -133293,8 +133293,8 @@ asz
 pu
 ri
 x
-136997	a
-136999	ta
+138722	a
+138724	ta
 asz
 pu
 ri
@@ -133314,7 +133314,7 @@ kur2
 ma
 a
 na
-137020	ta
+138745	ta
 ga
 ki
 u2
@@ -133355,7 +133355,7 @@ ma
 erin2
 mesz
 u3
-137062	gesz
+138787	gesz
 gigir
 a
 t,a
@@ -133363,8 +133363,8 @@ ra
 da
 ak
 ki
-137072	a
-137074	sza
+138797	a
+138799	sza
 ma
 har
 d
@@ -133429,7 +133429,7 @@ ab
 ba
 la
 nim
-a
+138865	a
 na
 u
 bar
@@ -133607,7 +133607,7 @@ ul
 ip
 pa
 ri
-137318	ma
+139044	ma
 disz
 be
 li2
@@ -133670,11 +133670,11 @@ sza
 a
 sza3
 kar
-137382	d
+139108	d
 utu
 ki
 disz
-137388	d
+139114	d
 be
 le
 tum
@@ -133699,7 +133699,7 @@ am
 ma
 ra
 disz
-137414	d
+139140	d
 marduk
 mu
 ba
@@ -133801,7 +133801,7 @@ te
 er
 ra
 am
-a
+139243	a
 na
 d
 utu
@@ -133835,7 +133835,7 @@ ka
 al
 lu
 3(bur3)
-137551	a
+139278	a
 sza3
 am
 i
@@ -133877,7 +133877,7 @@ gul
 i
 di
 in
-a
+139321	a
 na
 d
 utu
@@ -133908,7 +133908,7 @@ ma
 ri
 im
 1(bur3)
-137625	a
+139353	a
 sza3
 a
 na
@@ -133919,7 +133919,7 @@ usz
 ta
 al
 1(bur3)
-137637	a
+139365	a
 na
 i3
 li2
@@ -133927,7 +133927,7 @@ i
 din
 nam
 1(bur3)
-137646	a
+139374	a
 na
 i3
 li2
@@ -133963,7 +133963,7 @@ szu
 nu
 szi
 im
-a
+139411	a
 na
 d
 utu
@@ -133986,7 +133986,7 @@ szum
 disz
 sze
 ep
-137706	d
+139435	d
 suen
 ugula
 dam
@@ -134016,7 +134016,7 @@ i
 di
 isz
 szum
-a
+139466	a
 na
 d
 utu
@@ -134062,7 +134062,7 @@ ra
 an
 ni
 3(bur3)
-137783	a
+139513	a
 sza3
 am
 a
@@ -134075,7 +134075,7 @@ i
 di
 isz
 szum
-a
+139527	a
 na
 d
 utu
@@ -134125,7 +134125,7 @@ ir
 ta
 szu
 6(bur3)
-137847	a
+139578	a
 sza3
 a
 na
@@ -134140,7 +134140,7 @@ ki
 i
 di
 in
-a
+139594	a
 na
 d
 utu
@@ -134208,7 +134208,7 @@ la
 ap
 pa
 at
-a
+139663	a
 na
 d
 utu
@@ -134237,7 +134237,7 @@ e
 u3
 ri
 im
-137960	d
+139693	d
 suen
 at,
 t,ar
@@ -134300,7 +134300,7 @@ da
 ab
 ba
 bu
-a
+139757	a
 na
 d
 utu
@@ -134426,7 +134426,7 @@ am
 a
 pu
 ul
-a
+139884	a
 na
 d
 utu
@@ -134451,7 +134451,7 @@ ki
 sur
 ra
 ki
-138175	mesz
+139910	mesz
 sza
 a
 na
@@ -134483,7 +134483,7 @@ ki
 sur
 ra
 ki
-138208	mesz
+139943	mesz
 at,
 t,ar
 dam
@@ -134511,7 +134511,7 @@ ta
 al
 ku
 nim
-138237	a
+139972	a
 wa
 a
 tim
@@ -134567,7 +134567,7 @@ t,ar
 da
 ak
 kum
-a
+140029	a
 na
 d
 utu
@@ -134601,7 +134601,7 @@ asz
 szu
 u2
 1(bur3)
-138328	a
+140064	a
 sza3
 a
 na
@@ -134618,7 +134618,7 @@ we
 e
 ki
 1(bur3)
-138346	a
+140082	a
 na
 i3
 li2
@@ -134637,7 +134637,7 @@ x
 x
 x
 x
-a
+140102	a
 na
 d
 utu
@@ -134706,7 +134706,7 @@ i
 na
 zimbir
 ki
-138435	mesz
+140172	mesz
 ka
 lu
 szu
@@ -134936,7 +134936,7 @@ ba
 ab
 ba
 lu
-a
+140403	a
 na
 d
 utu
@@ -134979,7 +134979,7 @@ szu
 u2
 ma
 disz
-138709	d
+140447	d
 suen
 uru4
 u3
@@ -135044,7 +135044,7 @@ zu
 nu
 szi
 im
-a
+140513	a
 na
 d
 utu
@@ -135065,7 +135065,7 @@ ma
 disz
 a
 pil2
-138796	d
+140535	d
 utu
 u2
 tul2
@@ -135084,7 +135084,7 @@ ma
 szu
 ma
 1(bur3)
-138816	gesz
+140555	gesz
 kiri6
 sza
 ka
@@ -135125,7 +135125,7 @@ ia
 isz
 ku
 un
-138858	gesz
+140597	gesz
 kiri6
 szu
 a
@@ -135145,7 +135145,7 @@ di
 in
 t,e4
 em
-138879	gesz
+140618	gesz
 kiri6
 szu
 a
@@ -135166,7 +135166,7 @@ szu
 up
 ra
 am
-a
+140640	a
 na
 d
 utu
@@ -135219,11 +135219,11 @@ id
 di
 nam
 2(bur3)
-138954	a
+140694	a
 sza3
 i
 disz
-138959	d
+140699	d
 na
 bi
 um
@@ -135286,7 +135286,7 @@ i3
 li2
 ia
 nar
-139023	x
+140763	x
 x
 x
 sze
@@ -135322,8 +135322,8 @@ id
 di
 nu
 szum
-139060	disz
-139062	d
+140800	disz
+140802	d
 na
 bi
 um
@@ -135338,7 +135338,7 @@ i
 di
 isz
 szum
-a
+140818	a
 na
 d
 utu
@@ -135379,10 +135379,10 @@ er
 ti
 da
 a
-139119	um
+140860	um
 1(bur3)
 1(esze3)
-139123	a
+140864	a
 sza3
 a
 pil2
@@ -135409,7 +135409,7 @@ esz18
 dar
 disz
 lu2
-139151	d
+140892	d
 nin
 szubur
 ka
@@ -135466,7 +135466,7 @@ t,e4
 ru
 disz
 lu2
-139209	d
+140950	d
 nin
 szubur
 ka
@@ -135493,7 +135493,7 @@ kum
 ma
 1(bur3)
 1(esze3)
-139237	a
+140978	a
 sza3
 am
 ni
@@ -135503,7 +135503,7 @@ ti
 disz
 da
 a
-139248	um
+140989	um
 a
 na
 li
@@ -135518,7 +135518,7 @@ li
 id
 di
 in
-a
+141005	a
 na
 d
 utu
@@ -135537,7 +135537,7 @@ ra
 bi
 ma
 disz
-139283	d
+141025	d
 suen
 isz
 me
@@ -135550,10 +135550,10 @@ al
 la
 ki
 nu
-139297	gesz
+141039	gesz
 kiri6
 sza
-139301	gesz
+141043	gesz
 geszimmar
 dilmun
 na
@@ -135571,7 +135571,7 @@ ma
 szu
 ma
 disz
-139320	d
+141062	d
 utu
 ha
 zi
@@ -135658,7 +135658,7 @@ ni
 te
 e
 er
-a
+141150	a
 na
 d
 utu
@@ -135700,9 +135700,9 @@ szu
 nu
 ma
 1(szar2)
-139450	a
+141193	a
 sza3
-139454	li
+141197	li
 tum
 sza
 d
@@ -135726,7 +135726,7 @@ li
 ib
 bi
 3(bur'u)
-139479	a
+141222	a
 sza3
 a
 na
@@ -135745,7 +135745,7 @@ a
 szi
 im
 3(bur'u)
-139499	ib2
+141242	ib2
 tak4
 a
 sza3
@@ -135764,7 +135764,7 @@ na
 szu
 ku6
 mesz
-139519	da
+141262	da
 na
 da
 nam
@@ -135791,7 +135791,7 @@ na
 szu
 ku6
 mesz
-139547	da
+141290	da
 li
 id
 di
@@ -135832,7 +135832,7 @@ pu
 ru
 nim
 3(bur'u)
-139589	a
+141332	a
 sza3
 um
 szi
@@ -135840,7 +135840,7 @@ ta
 at
 a
 sza3
-139599	li
+141342	li
 tum
 na
 di
@@ -135855,11 +135855,11 @@ na
 szu
 ku6
 mesz
-139615	da
+141358	da
 i
 di
 in
-a
+141363	a
 na
 d
 utu
@@ -135878,7 +135878,7 @@ ra
 bi
 ma
 disz
-139639	d
+141383	d
 nanna
 tum
 ki
@@ -135975,7 +135975,7 @@ a
 ah
 i7
 x
-139737	sza
+141481	sza
 re
 esz
 e2
@@ -135991,7 +135991,7 @@ ma
 ak
 ra
 am
-139754	sza
+141498	sza
 la
 im
 ku
@@ -136064,7 +136064,7 @@ sza
 ak
 ka
 an
-a
+141572	a
 na
 d
 utu
@@ -136124,7 +136124,7 @@ a
 na
 gi
 mil
-139888	d
+141633	d
 marduk
 u3
 im
@@ -136183,7 +136183,7 @@ a
 na
 gi
 mil
-139948	d
+141693	d
 marduk
 u3
 im
@@ -136243,7 +136243,7 @@ sze
 er
 re
 szu
-a
+141754	a
 na
 d
 utu
@@ -136264,7 +136264,7 @@ ma
 disz
 ig
 mil
-140030	d
+141776	d
 suen
 ki
 a
@@ -136286,7 +136286,7 @@ e
 ra
 an
 ni
-140053	gesz
+141799	gesz
 tir
 hi
 a
@@ -136295,7 +136295,7 @@ a
 na
 ap
 li
-140063	u2
+141809	u2
 um
 u3
 d
@@ -136311,7 +136311,7 @@ ur
 ma
 i
 na
-140080	gesz
+141826	gesz
 tir
 hi
 a
@@ -136358,11 +136358,11 @@ a
 ma
 ri
 im
-140129	gesz
+141875	gesz
 tir
 hi
 a
-140135	d
+141881	d
 suen
 ma
 gir
@@ -136376,7 +136376,7 @@ nu
 szi
 im
 ma
-140150	gesz
+141896	gesz
 tir
 hi
 a
@@ -136444,7 +136444,7 @@ szu
 up
 ra
 am
-a
+141965	a
 na
 d
 utu
@@ -136510,7 +136510,7 @@ gir
 dumu
 ib
 ni
-140285	d
+142032	d
 suen
 sza3
 sza3
@@ -136535,7 +136535,7 @@ sza
 am
 dumu
 puzur4
-140311	d
+142058	d
 utu
 1(u)
 ugula
@@ -136588,7 +136588,7 @@ gir
 dumu
 u
 bar
-140365	d
+142112	d
 suen
 1(u)
 ugula
@@ -136628,7 +136628,7 @@ ugula
 a
 wi
 il
-140406	d
+142153	d
 i
 szum
 1(u)
@@ -136679,7 +136679,7 @@ e
 ugula
 a
 pil2
-140458	d
+142205	d
 mar
 tu
 dumu
@@ -136696,7 +136696,7 @@ ia
 dumu
 ig
 mil
-140476	d
+142223	d
 suen
 sza3
 sza3
@@ -136737,7 +136737,7 @@ is
 ni
 qu2
 nim
-a
+142321	a
 na
 be
 li2
@@ -136749,7 +136749,7 @@ um
 ma
 s,i
 li2
-140530	d
+142334	d
 utu
 ma
 7(gesz2)
@@ -136760,7 +136760,7 @@ i
 na
 iri
 ki
-140542	szi
+142346	szi
 ri
 im
 tum
@@ -136805,7 +136805,7 @@ x
 sze
 gesz
 i3
-140588	gesz
+142392	gesz
 ma2
 hi
 a
@@ -136986,7 +136986,7 @@ al
 kam
 u3
 4(bur3)
-140770	sze
+142574	sze
 gesz
 i3
 as
@@ -137017,14 +137017,14 @@ kam
 pa
 ni
 5(bur3)
-140802	a
+142606	a
 ka
 as,
 s,a
 a
 ar
 u3
-140810	gesz
+142614	gesz
 ig
 hi
 a
@@ -137036,10 +137036,10 @@ za
 an
 ni
 sza
-140823	gesz
+142627	gesz
 erin
 mi
-140827	s,u2
+142631	s,u2
 u2
 um
 1/2(disz)
@@ -137072,7 +137072,7 @@ hu
 ra
 a
 at
-a
+142665	a
 na
 be
 li2
@@ -137084,7 +137084,7 @@ um
 ma
 s,i
 li2
-140873	d
+142678	d
 utu
 ma
 6(gesz2)
@@ -137113,7 +137113,7 @@ sza3
 igi
 iri
 ki
-140903	1(gesz2)
+142708	1(gesz2)
 5(u)
 gur
 a
@@ -137237,7 +137237,7 @@ na
 ad
 di
 in
-141028	gesz
+142833	gesz
 ma2
 hi
 a
@@ -137263,7 +137263,7 @@ im
 sza
 iri
 ki
-141055	szi
+142860	szi
 ri
 im
 tum
@@ -137351,7 +137351,7 @@ am
 sza
 iri
 ki
-141144	szi
+142949	szi
 ri
 im
 tum
@@ -137437,7 +137437,7 @@ szu
 s,i2
 i
 x
-a
+143036	a
 na
 be
 li2
@@ -137449,7 +137449,7 @@ um
 ma
 s,i
 li2
-141243	d
+143049	d
 utu
 ma
 a
@@ -137534,12 +137534,12 @@ u3
 as,
 s,e
 er
-141329	gesz
+143135	gesz
 apin
 ni
 szu
 nu
-141335	gesz
+143141	gesz
 apin
 sza
 ni
@@ -137566,7 +137566,7 @@ um
 u3
 s,i
 li2
-141363	d
+143169	d
 suen
 szesz
 a
@@ -137606,7 +137606,7 @@ isz
 ta
 a
 lu
-a
+143210	a
 na
 be
 li2
@@ -137618,7 +137618,7 @@ um
 ma
 s,i
 li2
-141416	d
+143223	d
 utu
 ma
 sze
@@ -137776,7 +137776,7 @@ ni
 in
 ku4
 re
-a
+143382	a
 na
 be
 li2
@@ -137788,7 +137788,7 @@ um
 ma
 s,i
 li2
-141587	d
+143395	d
 utu
 ma
 1(gesz2)
@@ -137890,7 +137890,7 @@ ha
 am
 ma
 2(bur3)
-141690	i
+143498	i
 na
 iri
 ki
@@ -137904,7 +137904,7 @@ s,e
 ri
 im
 3(bur3)
-141705	i
+143513	i
 ir
 ri
 i
@@ -137919,7 +137919,7 @@ s,e
 ri
 im
 3(bur3)
-141721	s,a
+143529	s,a
 a
 pi
 i
@@ -137930,7 +137930,7 @@ bi
 im
 n
 3(bur3)
-141733	a
+143541	a
 sza3
 um
 e
@@ -138004,7 +138004,7 @@ am
 ma
 a
 ru
-a
+143616	a
 na
 be
 li2
@@ -138016,13 +138016,13 @@ um
 ma
 s,i
 li2
-141820	d
+143629	d
 utu
 ma
 asz
 szum
 disz
-141828	d
+143637	d
 marduk
 ta
 asz
@@ -138133,7 +138133,7 @@ um
 sza
 iri
 ki
-141940	isz
+143749	isz
 ku
 un
 e2
@@ -138145,7 +138145,7 @@ ma
 mah
 ri
 ia
-a
+143762	a
 na
 be
 li2
@@ -138157,11 +138157,11 @@ um
 ma
 s,i
 li2
-141965	d
+143775	d
 utu
 ma
 4(bur3)
-141970	sze
+143780	sze
 gesz
 i3
 i
@@ -138202,7 +138202,7 @@ t,u3
 ra
 am
 1(bur'u)
-142012	a
+143822	a
 sza3
 am
 as
@@ -138222,7 +138222,7 @@ ni
 sza
 iri
 ki
-142033	isz
+143843	isz
 ku
 un
 e2
@@ -138267,7 +138267,7 @@ it
 ba
 lu
 u2
-a
+143889	a
 na
 be
 li2
@@ -138279,7 +138279,7 @@ um
 ma
 s,i
 li2
-142091	d
+143902	d
 utu
 ma
 i
@@ -138289,7 +138289,7 @@ ni
 sza
 at
 tim
-142102	gesz
+143913	gesz
 ma2
 u2
 ul
@@ -138330,7 +138330,7 @@ de
 ki
 i
 ma
-142144	gesz
+143955	gesz
 ma2
 it,
 bu
@@ -138426,7 +138426,7 @@ um
 sza
 iri
 ki
-142241	szi
+144052	szi
 ri
 im
 tum
@@ -138478,7 +138478,7 @@ ik
 ka
 a
 al
-a
+144105	a
 na
 be
 li2
@@ -138490,7 +138490,7 @@ um
 ma
 s,i
 li2
-142306	d
+144118	d
 utu
 ma
 sze
@@ -138498,7 +138498,7 @@ um
 sza
 iri
 ki
-142315	szi
+144127	szi
 ri
 im
 tum
@@ -138531,7 +138531,7 @@ usz
 te
 e
 s,i2
-142349	gesz
+144161	gesz
 ma2
 hi
 a
@@ -138619,7 +138619,7 @@ ma
 ar
 ra
 as,
-142438	gesz
+144250	gesz
 ma2
 hi
 a
@@ -138633,7 +138633,7 @@ ka
 ni
 i
 i
-a
+144265	a
 na
 be
 li2
@@ -138645,7 +138645,7 @@ um
 ma
 s,i
 li2
-142465	d
+144278	d
 utu
 ma
 asz
@@ -138693,7 +138693,7 @@ a
 na
 iri
 ki
-142514	di
+144327	di
 x
 x
 ta
@@ -138723,7 +138723,7 @@ sza
 zu
 uk
 ku
-142545	gesz
+144358	gesz
 ma2
 hi
 a
@@ -138763,7 +138763,7 @@ gur
 igi
 iri[
 ki
-142586	ib
+144399	ib
 szi
 i
 asz
@@ -138830,7 +138830,7 @@ i
 na
 an
 na
-142654	x
+144467	x
 x
 e
 te
@@ -139001,7 +139001,7 @@ sza3
 szu
 a
 na
-142826	gesz
+144639	gesz
 kiri6
 im
 5(disz)
@@ -139043,7 +139043,7 @@ utu
 a
 sza
 ar
-142869	gesz
+144682	gesz
 szinig
 2(disz)
 sila3
@@ -139079,11 +139079,11 @@ ip
 pa
 a
 al
-a
+144719	a
 na
 nu
 ur2
-142910	d
+144724	d
 utu
 qi2
 bi2
@@ -139092,7 +139092,7 @@ um
 ma
 ib
 ni
-142920	d
+144734	d
 marduk
 ma
 d
@@ -139126,7 +139126,7 @@ sze
 e
 pa
 an
-142955	d
+144769	d
 utu
 x
 x
@@ -139187,7 +139187,7 @@ lum
 disz
 ib
 ni
-143017	d
+144831	d
 marduk
 u2
 ul
@@ -139230,11 +139230,11 @@ sza
 bi
 la
 kum
-a
+144875	a
 na
 nu
 ur2
-143065	d
+144880	d
 utu
 qi2
 bi2
@@ -139407,11 +139407,11 @@ na
 sa3
 ah
 szu
-a
+145054	a
 na
 nu
 ur2
-143243	d
+145059	d
 utu
 qi2
 bi2
@@ -139440,7 +139440,7 @@ tu
 iri
 tu
 ur
-143273	d
+145089	d
 u3
 gul
 la2
@@ -139542,7 +139542,7 @@ a
 na
 tu
 ur
-143376	d
+145192	d
 u3
 gul
 la2
@@ -139553,7 +139553,7 @@ du
 a
 na
 nu
-143388	gesz
+145204	gesz
 kiri6
 sza
 a
@@ -139591,7 +139591,7 @@ nita2
 a
 na
 e
-143427	li
+145243	li
 x
 sza
 aq
@@ -139602,11 +139602,11 @@ um
 szu
 bi
 lam
-a
+145255	a
 na
 nu
 ur2
-143443	d
+145260	d
 utu
 qi2
 bi2
@@ -139627,10 +139627,10 @@ zu2
 lum
 i
 na
-143465	ka
+145282	ka
 si
 ki
-143469	ma
+145286	ma
 sza
 ki
 in
@@ -139655,7 +139655,7 @@ ba
 ab
 e2
 dingir
-143495	qa2
+145312	qa2
 du
 um
 2(disz)
@@ -139679,7 +139679,7 @@ x
 x
 x
 x
-143521	x
+145338	x
 x
 (x)
 u3
@@ -139688,7 +139688,7 @@ sze
 i
 pa
 ni
-143531	d
+145348	d
 utu
 il
 li
@@ -139734,7 +139734,7 @@ a
 na
 e2
 dingir
-143578	di
+145395	di
 na
 ma
 sza
@@ -139748,11 +139748,11 @@ zu
 bi
 ep
 sza
-a
+145410	a
 na
 nu
 ur2
-143597	d
+145415	d
 utu
 qi2
 bi2
@@ -139799,7 +139799,7 @@ lum
 sza
 s,il2
 li2
-143645	d
+145463	d
 iszkur
 pa
 tam
@@ -139823,7 +139823,7 @@ a
 wi
 lam
 sza
-143670	gesz
+145488	gesz
 kiri6
 szu
 la
@@ -139832,7 +139832,7 @@ ap
 du
 a
 na
-143680	gesz
+145498	gesz
 kiri6
 sza
 ta
@@ -139847,7 +139847,7 @@ na
 asz
 szi
 ma
-143696	gesz
+145514	gesz
 kiri6
 szu
 u2
@@ -139858,12 +139858,12 @@ pu
 ud
 a
 na
-143708	gesz
+145526	gesz
 kiri6
 sza
 s,il2
 li2
-143714	d
+145532	d
 iszkur
 u3
 id
@@ -139881,7 +139881,7 @@ li
 ir
 du
 ma
-143733	gesz
+145551	gesz
 kiri6
 sza
 ka
@@ -139940,7 +139940,7 @@ a
 na
 tu
 ur
-143793	d
+145611	d
 u3
 gul
 la
@@ -139953,7 +139953,7 @@ szum
 ma
 s,il2
 li2
-143807	d
+145625	d
 inanna
 x
 x
@@ -139967,11 +139967,11 @@ szu
 lu
 x
 x
-a
+145640	a
 na
 nu
 ur2
-143826	d
+145645	d
 utu
 ugula
 nam
@@ -140170,11 +140170,11 @@ si2
 ik
 pa
 nim
-a
+145845	a
 na
 nu
 ur2
-144030	d
+145850	d
 utu
 u3
 ma
@@ -140222,7 +140222,7 @@ a
 am
 ap
 la
-144079	um
+145899	um
 ma
 at
 tu
@@ -140245,7 +140245,7 @@ u3
 usz
 ze2
 zi
-a
+145923	a
 na
 dingir
 x
@@ -140283,7 +140283,7 @@ ni
 ap
 pu
 tum
-a
+145962	a
 na
 id
 di
@@ -140425,7 +140425,7 @@ disz
 du
 mu
 uq
-144283	d
+146105	d
 utu
 disz
 ku
@@ -140463,7 +140463,7 @@ lum
 disz
 na
 bi
-144322	d
+146144	d
 nin
 szubur
 u3
@@ -140546,7 +140546,7 @@ u2
 lu
 pu
 usz
-a
+146228	a
 na
 id
 di
@@ -140747,7 +140747,7 @@ na
 d
 suen
 u3
-144607	d
+146430	d
 utu
 i
 na
@@ -140790,7 +140790,7 @@ asz
 szum
 disz
 dumu
-144651	d
+146474	d
 mar
 tu
 am
@@ -140827,7 +140827,7 @@ asz2
 ta
 ka
 an
-a
+146512	a
 na
 id
 di
@@ -140922,14 +140922,14 @@ ia
 a
 na
 disz
-144784	d
+146608	d
 suen
 i
 qu2
 la
 am
 nu
-144792	gesz
+146616	gesz
 kiri6
 id
 di
@@ -141174,7 +141174,7 @@ szu
 nu
 szi
 im
-a
+146862	a
 na
 da
 da
@@ -141242,7 +141242,7 @@ ap
 szi
 ra
 am
-145106	d
+146931	d
 marduk
 tup
 pi2
@@ -141256,7 +141256,7 @@ sze
 gur
 i
 na
-145121	gesz
+146946	gesz
 ban2
 gi
 d
@@ -141291,7 +141291,7 @@ u2
 ra
 du
 szu
-a
+146982	a
 na
 x
 x
@@ -141519,7 +141519,7 @@ la
 ka
 ak
 kum
-a
+147211	a
 na
 ia
 ah
@@ -141548,7 +141548,7 @@ tu
 mu
 3(disz)
 kam
-145415	zi
+147242	zi
 zu
 ka
 na
@@ -141578,7 +141578,7 @@ un
 a
 sza3
 im
-145446	gesz
+147273	gesz
 kiri6
 u3
 sze
@@ -141717,7 +141717,7 @@ lam
 a
 pu
 ul
-a
+147413	a
 na
 ia
 ah
@@ -141755,7 +141755,7 @@ ma
 disz
 ib
 ni
-145624	d
+147452	d
 iszkur
 asz
 tap
@@ -141802,7 +141802,7 @@ a
 na
 ib
 ni
-145672	d
+147500	d
 iszkur
 i
 di
@@ -141829,7 +141829,7 @@ ka
 lu
 mu
 ur
-a
+147528	a
 na
 ia
 ah
@@ -141874,7 +141874,7 @@ ma
 asz
 szum
 lu2
-145745	d
+147574	d
 na
 bi
 um
@@ -141973,7 +141973,7 @@ i
 na
 zu2
 lum
-145845	x
+147674	x
 x
 sza
 1(disz)
@@ -142020,7 +142020,7 @@ i
 pe2
 szu
 nim
-a
+147722	a
 na
 be
 el
@@ -142073,11 +142073,11 @@ a
 na
 ib
 ni
-145946	d
+147776	d
 marduk
 a
 na
-145951	si
+147781	si
 gar
 u3
 a
@@ -142087,7 +142087,7 @@ szum
 usz
 ta
 bi
-145962	la
+147792	la
 lam
 1(disz)
 sila4
@@ -142221,7 +142221,7 @@ szu
 up
 ra
 nim
-a
+147927	a
 na
 be
 el
@@ -142236,7 +142236,7 @@ qur2
 du
 sza
 ma
-146112	d
+147943	d
 utu
 li
 ba
@@ -142264,7 +142264,7 @@ ta
 ma
 1(esze3)
 3(iku)
-146141	a
+147972	a
 sza3
 sze
 gesz
@@ -142415,7 +142415,7 @@ ra
 asz
 szi
 disz
-146293	si
+148124	si
 gar
 ki
 a
@@ -142459,7 +142459,7 @@ asz
 szum
 a
 sza3
-146338	si
+148169	si
 ga2
 ga2
 a
@@ -142480,7 +142480,7 @@ ta
 ra
 asz
 szi
-a
+148191	a
 na
 ugula
 mar
@@ -142507,7 +142507,7 @@ ni
 isz
 u3
 disz
-146387	d
+148219	d
 utu
 qar3
 ra
@@ -142582,7 +142582,7 @@ an
 na
 at
 ta
-146463	da
+148295	da
 am
 x
 x
@@ -142623,7 +142623,7 @@ na
 a
 sza3
 im
-146505	gesz
+148337	gesz
 kiri6
 u3
 e2
@@ -142732,7 +142732,7 @@ ta
 ra
 ba
 kum
-a
+148524	a
 na
 d
 utu
@@ -142745,7 +142745,7 @@ ma
 um
 ma
 lu2
-146628	d
+148538	d
 nin
 urta
 ma
@@ -142773,7 +142773,7 @@ sza
 disz
 ib
 ni
-146657	d
+148567	d
 suen
 u3
 d
@@ -142786,7 +142786,7 @@ ru3
 disz
 ib
 ni
-146671	d
+148581	d
 suen
 ki
 a
@@ -142814,7 +142814,7 @@ x
 x
 x
 disz
-146700	d
+148610	d
 utu
 ha
 zi
@@ -142852,7 +142852,7 @@ szu
 u2
 ma
 disz
-146739	d
+148649	d
 utu
 ha
 zi
@@ -142866,7 +142866,7 @@ x
 disz
 ib
 ni
-146754	d
+148664	d
 suen
 x
 x
@@ -142875,10 +142875,10 @@ x
 x
 x
 x
-146764	te
+148674	te
 e
 er
-a
+148681	a
 na
 zi
 nu
@@ -142890,7 +142890,7 @@ um
 ma
 i
 din
-146780	d
+148694	d
 suen
 ma
 d
@@ -143010,7 +143010,7 @@ li
 li
 dumu
 disz
-146901	d
+148815	d
 iszkur
 i
 di2
@@ -143109,7 +143109,7 @@ am
 mi
 in
 ni
-a
+148948	a
 na
 d
 marduk
@@ -143124,7 +143124,7 @@ ma
 e
 tel
 pi4
-147016	d
+148964	d
 marduk
 ma
 disz
@@ -143133,7 +143133,7 @@ ru
 rum
 qa2
 du
-147026	gesz
+148974	gesz
 ma2
 a
 na
@@ -143195,7 +143195,7 @@ ta
 u2
 a
 na
-147089	gesz
+149037	gesz
 ma2
 la
 ma
@@ -143209,11 +143209,11 @@ da
 ab
 bu
 ub
-a
+149210	a
 na
 i
 bi
-147108	d
+149215	d
 sza
 ha
 an
@@ -143310,7 +143310,7 @@ i
 te
 el
 li
-a
+149313	a
 na
 a
 wi
@@ -143749,7 +143749,7 @@ ra
 as,
 ma
 4(iku)
-147645	u2
+149753	u2
 sal
 sza
 a
@@ -143807,13 +143807,13 @@ an
 ni
 ma
 1(iku)
-147704	a
+149812	a
 sza3
 a
 na
 ip
 qu2
-147711	d
+149819	d
 sza
 la
 ad
@@ -143839,7 +143839,7 @@ am
 disz
 ip
 qu2
-147738	d
+149846	d
 sza
 la
 szu
@@ -143903,7 +143903,7 @@ li
 pu
 usz
 4(iku)
-147803	a
+149911	a
 sza3
 szu
 a
@@ -143989,7 +143989,7 @@ szu
 up
 ra
 am
-a
+149998	a
 na
 a
 wi
@@ -144025,7 +144025,7 @@ mesz
 sza
 ib
 ni
-147926	d
+150035	d
 x
 (x)
 (x)
@@ -144232,7 +144232,7 @@ ra
 tum
 u3
 kur
-148134	ta
+150243	ta
 la
 al
 ta
@@ -144354,7 +144354,7 @@ szu
 ur
 x
 (x)
-148259	a
+150369	a
 na
 d
 suen
@@ -144491,7 +144491,7 @@ tu
 sza
 ba
 lam
-szum
+150643	szum
 ma
 1(disz)
 masz2
@@ -144530,7 +144530,7 @@ ra
 ad
 iti
 kin
-148436	d
+150683	d
 inanna
 u4
 8(disz)
@@ -144551,15 +144551,15 @@ du
 qa2
 ib
 ni
-148458	d
+150705	d
 marduk
 dub
 sar
-148463	d
+150710	d
 na
 bi
 um
-a
+150715	a
 na
 i3
 li2
@@ -144591,7 +144591,7 @@ na
 e
 tel
 pi4
-148500	d
+150748	d
 na
 bi
 um
@@ -144645,10 +144645,10 @@ x
 disz
 i3
 li2
-148555	u2
+150803	u2
 ul
 x
-148559	sza
+150807	sza
 ta
 na
 di
@@ -144672,7 +144672,7 @@ da
 na
 an
 ni
-a
+150832	a
 na
 d
 marduk
@@ -144695,7 +144695,7 @@ nu
 um
 ma
 disz
-148607	d
+150856	d
 za
 ba4
 ba4
@@ -144721,7 +144721,7 @@ am
 li
 pi2
 it
-148634	d
+150883	d
 suen
 dumu
 d
@@ -144730,13 +144730,13 @@ ta
 a
 a
 ar
-148644	d
+150893	d
 suen
 u3
 d
 nin
 gal
-a
+150900	a
 na
 a
 bu
@@ -144770,7 +144770,7 @@ tim
 li
 ki
 il
-148685	x
+150935	x
 (x)
 x
 x
@@ -144850,7 +144850,7 @@ lu
 u2
 ti
 di
-a
+151016	a
 na
 d
 marduk
@@ -144969,7 +144969,7 @@ wu
 usz
 sze
 er
-a
+151136	a
 na
 ta
 na
@@ -145036,7 +145036,7 @@ di
 in
 u3
 s,i2
-148952	pi2
+151204	pi2
 a
 na
 szi
@@ -145065,7 +145065,7 @@ a
 pu
 ul
 szu
-tug2
+151234	tug2
 s,u2
 ba
 tu
@@ -145110,7 +145110,7 @@ a
 at
 i
 din
-149027	d
+151280	d
 la
 ga
 ma
@@ -145121,12 +145121,12 @@ urasz
 na
 s,i
 ir
-149039	am
+151292	am
 mi
 s,a
 du
 qa2
-1(ban2)
+151298	1(ban2)
 5(disz)
 sila3
 i3
@@ -145154,19 +145154,19 @@ bu
 bu
 ib
 ni
-149073	d
+151327	d
 urasz
 dumu
 a
 wi
 il
 dingir
-149081	am
+151335	am
 mi
 s,a
 du
 qa2
-a
+151341	a
 na
 szah2
 gesz
@@ -145249,7 +145249,7 @@ qu2
 ur
 ru
 ub
-a
+151425	a
 na
 a
 wi
@@ -145370,7 +145370,7 @@ sza
 pa
 ra
 am
-a
+151547	a
 na
 a
 bi
@@ -145554,7 +145554,7 @@ ni
 tam
 a
 na
-149475	i3
+151732	i3
 li2
 szu
 i
@@ -145610,7 +145610,7 @@ ta
 ra
 asz
 szi
-a
+151789	a
 na
 a
 wi
@@ -145622,7 +145622,7 @@ um
 ma
 gi
 mil
-149544	d
+151802	d
 marduk
 ma
 d
@@ -145689,7 +145689,7 @@ ri
 asz
 szum
 4(iku)
-149612	a
+151870	a
 sza3
 d
 suen
@@ -145744,7 +145744,7 @@ asz2
 si
 ma
 4(iku)
-149668	a
+151926	a
 sza3
 a
 na
@@ -145775,7 +145775,7 @@ ul
 usz
 ta
 i
-a
+151958	a
 na
 a
 wi
@@ -145848,7 +145848,7 @@ disz
 a
 wi
 il
-149773	d
+152032	d
 utu
 a
 hi
@@ -145909,7 +145909,7 @@ ta
 ra
 asz
 szi
-a
+152094	a
 na
 a
 wi
@@ -145930,7 +145930,7 @@ um
 ma
 ri
 isz
-149856	d
+152116	d
 szu
 bu
 la
@@ -146138,7 +146138,7 @@ pu
 ra
 ak
 kum
-a
+152325	a
 na
 a
 wi
@@ -146150,7 +146150,7 @@ um
 ma
 ip
 qu2
-150077	d
+152338	d
 sza
 la
 ma
@@ -146278,7 +146278,7 @@ gu4
 hi
 a
 ia
-150206	a
+152467	a
 tum
 sza
 i
@@ -146336,7 +146336,7 @@ la
 tu
 usz
 ta
-150265	szum
+152526	szum
 ma
 ab2
 gu4
@@ -146362,7 +146362,7 @@ ri
 ia
 i
 la
-150292	a
+152553	a
 wa
 ar
 ka
@@ -146386,7 +146386,7 @@ is
 su2
 ha
 nim
-a
+152578	a
 na
 a
 wi
@@ -146398,7 +146398,7 @@ um
 ma
 ib
 ni
-150329	d
+152591	d
 mar
 tu
 ma
@@ -146471,7 +146471,7 @@ ri
 disz
 qi2
 isz
-150403	d
+152665	d
 mar
 tu
 dumu
@@ -146581,7 +146581,7 @@ szu
 disz
 ib
 ni
-150514	d
+152776	d
 marduk
 dumu
 szu
@@ -146654,7 +146654,7 @@ tu
 usz
 ta
 a
-a
+152850	a
 na
 a
 wi
@@ -146667,7 +146667,7 @@ ma
 a
 wi
 il
-150601	d
+152864	d
 iszkur
 ma
 d
@@ -146763,7 +146763,7 @@ a
 na
 ib
 ni
-150698	d
+152961	d
 utu
 be
 el
@@ -146805,7 +146805,7 @@ e
 ia
 ma
 sza
-150741	im
+153004	im
 pa
 nu
 szu
@@ -146845,12 +146845,12 @@ e
 im
 ta
 sza
-150782	u3
+153045	u3
 at
 ta
 ma
 sza
-150788	sze
+153051	sze
 e
 ia
 ta
@@ -146921,7 +146921,7 @@ a
 na
 ib
 ni
-150860	d
+153123	d
 utu
 u3
 i
@@ -146931,7 +146931,7 @@ szi
 dingir
 asz
 szum
-150871	gesz
+153134	gesz
 ma2
 hi
 a
@@ -146998,7 +146998,7 @@ ma
 erin2
 mesz
 u3
-150939	gesz
+153202	gesz
 ma2
 hi
 a
@@ -147031,7 +147031,7 @@ ma
 la
 im
 ma
-150974	e
+153237	e
 pe2
 esz
 ka
@@ -147061,9 +147061,9 @@ ta
 ra
 asz
 szi
-disz
+153268	disz
 szu
-151007	d
+153271	d
 nin
 tu
 disz
@@ -147074,7 +147074,7 @@ lu2
 an
 za
 gar3
-151019	d
+153283	d
 suen
 ki
 disz
@@ -147107,7 +147107,7 @@ usz
 sze
 er
 iti
-151054	gar
+153318	gar
 u4
 1(u)
 2(disz)
@@ -147117,10 +147117,10 @@ i7
 ti
 lim
 da
-151065	d
+153329	d
 en
 lil2
-a
+153333	a
 na
 a
 ha
@@ -147293,8 +147293,8 @@ u2
 sza
 bi
 lam
-151244	x
-151246	x
+153509	x
+153511	x
 u3
 zabar
 szi
@@ -147513,7 +147513,7 @@ ul
 ti
 di
 i
-a
+153731	a
 na
 la
 ma
@@ -147637,7 +147637,7 @@ ia
 szu
 bi
 lim
-a
+153856	a
 na
 a
 ap
@@ -147648,11 +147648,11 @@ bi2
 ma
 um
 ma
-151601	i3
+153868	i3
 li2
 szu
 ma
-151606	d
+153873	d
 utu
 u3
 d
@@ -147678,7 +147678,7 @@ at
 da
 mi
 iq
-151633	d
+153900	d
 marduk
 e2
 gal
@@ -147853,11 +147853,11 @@ ma
 li
 li
 kam
-a
+154076	a
 na
 ib
 ni
-151813	d
+154081	d
 iszkur
 qi2
 bi2
@@ -147866,7 +147866,7 @@ um
 ma
 an
 pi4
-151823	d
+154091	d
 utu
 ma
 d
@@ -148113,7 +148113,7 @@ bi
 lam
 u3
 disz
-152072	d
+154340	d
 nin
 szubur
 t,e4
@@ -148123,7 +148123,7 @@ szu
 up
 ra
 am
-a
+154351	a
 na
 i3
 li2
@@ -148197,7 +148197,7 @@ siki
 hi
 a
 sza
-152158	x
+154427	x
 a
 na
 s,i2
@@ -148255,7 +148255,7 @@ ka
 szu
 bi
 lam
-a
+154486	a
 na
 be
 li2
@@ -148269,9 +148269,9 @@ ni
 id
 na
 at
-152231	d
+154501	d
 suen
-152234	ka
+154504	ka
 ma
 asz
 szum
@@ -148308,7 +148308,7 @@ ha
 sza
 hu
 disz
-152272	d
+154542	d
 marduk
 mu
 sza
@@ -148443,12 +148443,12 @@ mi
 su
 nu
 ti
-a
+154678	a
 na
 ki
 in
 pi4
-152413	d
+154684	d
 marduk
 qi2
 bi2
@@ -148456,7 +148456,7 @@ ma
 um
 ma
 geme2
-152422	d
+154693	d
 iszkur
 e
 mi
@@ -148524,7 +148524,7 @@ ma
 um
 ma
 geme2
-152491	d
+154762	d
 iszkur
 ra
 ma
@@ -148537,7 +148537,7 @@ na
 ki
 in
 pi4
-152505	d
+154776	d
 marduk
 i
 zi
@@ -148599,11 +148599,11 @@ la
 ta
 ra
 szi
-a
+154839	a
 na
 szum
 ma
-152572	d
+154844	d
 utu
 qi2
 bi2
@@ -148612,7 +148612,7 @@ um
 ma
 i
 bi
-152582	d
+154854	d
 nin
 szubur
 d
@@ -148634,7 +148634,7 @@ im
 sza
 i
 din
-152605	d
+154877	d
 nin
 szubur
 a
@@ -148744,7 +148744,7 @@ lu
 szu
 um
 mu
-152716	a
+154989	a
 na
 na
 bi
@@ -148957,7 +148957,7 @@ i
 ba
 asz
 szi
-a
+155203	a
 na
 a
 wi
@@ -148969,7 +148969,7 @@ um
 ma
 ib
 ni
-152942	d
+155216	d
 er3
 ra
 ma
@@ -149118,11 +149118,11 @@ sza
 pa
 ra
 am
-a
+155366	a
 na
 nu
 ur2
-153096	d
+155371	d
 utu
 qi2
 bi2
@@ -149186,10 +149186,10 @@ isz
 id
 na
 szum
-a
+155436	a
 na
 dumu
-153164	d
+155440	d
 utu
 qi2
 bi2
@@ -149202,11 +149202,11 @@ ia
 u3
 ib
 ni
-153178	d
+155454	d
 mar
 tu
 disz
-153183	d
+155459	d
 suen
 na
 tum
@@ -149225,7 +149225,7 @@ ti
 ma
 il
 te9
-153203	na
+155479	na
 ti
 a
 sza3
@@ -149242,13 +149242,13 @@ ta
 pa
 ri
 ik
-a
+155497	a
 na
 i
 ku
 un
 pi4
-153227	d
+155504	d
 suen
 qi2
 bi2
@@ -149271,7 +149271,7 @@ s,a
 bi
 it
 disz
-153251	d
+155528	d
 suen
 a
 ha
@@ -149293,7 +149293,7 @@ ri
 a
 am
 disz
-153274	d
+155551	d
 suen
 ma
 gir
@@ -149337,7 +149337,7 @@ a
 sza
 pa
 ar
-d
+155596	d
 utu
 u3
 d
@@ -149531,7 +149531,7 @@ t,u2
 ur
 da
 nim
-a
+155791	a
 na
 a
 bi
@@ -149564,7 +149564,7 @@ a
 na
 iri
 ki
-153546	la
+155825	la
 ar
 sa
 ki
@@ -149700,7 +149700,7 @@ i
 na
 ad
 di
-a
+155962	a
 na
 a
 wi
@@ -149763,7 +149763,7 @@ ri
 disz
 ki
 din
-153746	d
+156026	d
 mar
 tu
 ugula
@@ -149779,7 +149779,7 @@ dingir
 didli
 zimbir
 ki
-153763	am
+156043	am
 na
 nu
 um
@@ -149801,19 +149801,19 @@ ma
 x
 x
 x
-153786	1(disz)
+156066	1(disz)
 ta
 bur
 zi
 x
 x
-153793	ma
+156073	ma
 la
 i
 na
-153798	a
+156079	a
 na
-153801	x
+156082	x
 x
 qi2
 bi2
@@ -149855,11 +149855,11 @@ a
 na
 babila2[
 ki
-153844	t,u2
+156125	t,u2
 ur
 da
 am
-a
+156130	a
 na
 a
 ka
@@ -149895,10 +149895,10 @@ tug2
 bar
 si
 4(disz)
-153885	uruda
+156167	uruda
 kin
 1(disz)
-153889	uruda
+156171	uruda
 mar
 4(disz)
 1/3(disz)
@@ -149953,7 +149953,7 @@ ka
 ak
 ki
 im
-a
+156227	a
 na
 dumu
 esz18
@@ -150069,7 +150069,7 @@ szu
 szu
 bi
 lam
-a
+156344	a
 na
 ba
 li
@@ -150097,7 +150097,7 @@ t,u2
 ka
 1(disz)
 sag
-154089	sza
+156373	sza
 a
 na
 szi
@@ -150137,7 +150137,7 @@ am
 ap
 pu
 tum
-a
+156414	a
 na
 dumu
 esz18
@@ -150187,7 +150187,7 @@ i
 na
 zimbir[
 ki
-154180	ni
+156465	ni
 id
 bu
 bu
@@ -150336,7 +150336,7 @@ li
 is,
 s,u2
 ur
-a
+156615	a
 na
 be
 el
@@ -150476,14 +150476,14 @@ ma
 ta
 ak
 ri
-154470	ta
+156756	ta
 am
 li
 is,
 ba
 tu
 disz
-154478	d
+156764	d
 a
 a
 ti
@@ -150605,7 +150605,7 @@ ni
 im
 2(ban2)
 zi3
-154601	3(ban2)
+156887	3(ban2)
 5(disz)
 sila3
 zi3
@@ -150690,7 +150690,7 @@ lu
 ni
 ki
 im
-a
+156973	a
 na
 sza
 pi2
@@ -150741,7 +150741,7 @@ disz
 e
 tel
 pi4
-154738	d
+157025	d
 utu
 na
 asz
@@ -150800,7 +150800,7 @@ t,ar
 da
 asz
 szu
-i
+157085	i
 li
 ma
 sza
@@ -150837,7 +150837,7 @@ ha
 la
 ba[
 ki
-154835	sza
+157123	sza
 i
 na
 e2
@@ -150904,7 +150904,7 @@ x
 (x)
 a
 na
-154903	gesz
+157191	gesz
 tukul
 hi
 a
@@ -151003,16 +151003,16 @@ ul
 it,
 t,ar
 du
-a
+157291	a
 na
 i
 bi
-155007	d
+157296	d
 en
 lil2
 disz
 inim
-155013	d
+157302	d
 x
 x
 (x)
@@ -151032,7 +151032,7 @@ i
 na
 zimbir
 ki
-155034	ia
+157323	ia
 ah
 ru
 rum
@@ -151064,10 +151064,10 @@ a
 na
 i
 bi
-155067	d
+157356	d
 en
 lil2
-155071	it
+157360	it
 ti
 d
 na
@@ -151075,19 +151075,19 @@ bi
 um
 na
 s,ir
-155080	u3
+157369	u3
 d
 marduk
 mu
 sza
 lim
-155087	x
-155089	x
-155091	a
+157376	x
+157378	x
+157381	a
 na
 i
 bi
-155096	d
+157386	d
 en
 lil2
 ra
@@ -151106,7 +151106,7 @@ i
 na
 zimbir
 ki
-155116	ia
+157406	ia
 ah
 ru
 rum
@@ -151154,7 +151154,7 @@ et
 ti
 zimbir
 ki
-155165	am
+157455	am
 na
 nu
 ar
@@ -151164,7 +151164,7 @@ szu
 bi
 la
 nim
-a
+157466	a
 na
 a
 wi
@@ -151253,7 +151253,7 @@ ma
 tap
 pa
 a
-155265	a
+157556	a
 na
 ma
 ah
@@ -151273,7 +151273,7 @@ hi
 t,u2
 ur
 dam
-u3
+157577	u3
 am
 mi
 s,a
@@ -151282,7 +151282,7 @@ qa2
 i
 lu
 ni
-155295	disz
+157587	disz
 am
 mi
 s,a
@@ -151404,7 +151404,7 @@ a
 na
 ib
 ni
-155418	d
+157710	d
 marduk
 lu2
 gala
@@ -151434,7 +151434,7 @@ il
 li
 ik
 ma
-a
+157741	a
 na
 a
 da
@@ -151447,7 +151447,7 @@ ma
 um
 ma
 dingir
-155462	d
+157755	d
 utu
 ma
 d
@@ -151548,7 +151548,7 @@ na
 az
 zi
 iq
-a
+157857	a
 na
 a
 da
@@ -151654,7 +151654,7 @@ tam
 szu
 bi
 lam
-a
+157964	a
 na
 a
 wi
@@ -151676,7 +151676,7 @@ ma
 asz
 ta
 mar
-155692	d
+157987	d
 iszkur
 ma
 d
@@ -151700,7 +151700,7 @@ wi
 lu
 u2
 nu
-155717	gesz
+158012	gesz
 kiri6
 mesz
 dumu
@@ -151813,7 +151813,7 @@ pu
 su2
 nu
 szi
-a
+158126	a
 na
 be
 li
@@ -151823,7 +151823,7 @@ u3
 a
 wi
 il
-155841	d
+158137	d
 suen
 qi2
 bi2
@@ -151839,7 +151839,7 @@ ma
 a
 na
 3(iku)
-155858	a
+158154	a
 sza3
 sza
 a
@@ -151867,12 +151867,12 @@ d
 iszkur
 ra
 bi
-155887	am
+158183	am
 mi
 s,a
 du
 qa2
-a
+158189	a
 na
 na
 na
@@ -151916,11 +151916,11 @@ la
 ta
 pa
 li
-u3
+158234	u3
 x
-155939	szuku
+158237	szuku
 e2
-155942	sze
+158240	sze
 um
 li
 s,i
@@ -151952,7 +151952,7 @@ asz
 pu
 ra
 am
-a
+158273	a
 na
 a
 hu
@@ -151983,7 +151983,7 @@ di
 ip
 pi2
 sza
-156006	gesz
+158305	gesz
 erin
 sza
 ta
@@ -152008,9 +152008,9 @@ t,a
 ba
 am
 u3
-156032	gisz
+158331	gisz
 u3
-156036	hi
+158335	hi
 a
 ka
 ab
@@ -152034,10 +152034,10 @@ ri
 ia
 al
 kam
-um
+158360	um
 ma
-156063	ma
-156065	d
+158363	ma
+158365	d
 x
 u3
 d
@@ -152076,7 +152076,7 @@ mi
 i
 ni
 ib
-156105	d
+158405	d
 utu
 dumu
 i
@@ -152100,7 +152100,7 @@ szu
 it
 ti
 disz
-156130	d
+158430	d
 nanna
 ibila
 ma
@@ -152137,7 +152137,7 @@ bu
 disz
 ip
 qu2
-156168	d
+158468	d
 utu
 sza
 ig
@@ -152212,7 +152212,7 @@ x
 x
 bi
 a
-156244	(x)
+158544	(x)
 a
 wi
 lam
@@ -152225,8 +152225,8 @@ is3
 hu
 ra
 ku
-156258	disz
-156260	d
+158558	disz
+158560	d
 isztaran
 isz
 me
@@ -152246,7 +152246,7 @@ e
 er
 szu
 ma
-a
+158581	a
 na
 d
 utu
@@ -152286,7 +152286,7 @@ nu
 disz
 ri
 isz
-156321	d
+158622	d
 utu
 t,u2
 ur
@@ -152373,13 +152373,13 @@ it
 ti
 ri
 isz
-156409	d
+158710	d
 utu
 li
 (il)
 li
 kam
-a
+158717	a
 na
 a
 hu
@@ -152434,7 +152434,7 @@ i
 be2
 ru
 u2
-a
+158773	a
 na
 a
 wi
@@ -152487,9 +152487,9 @@ pu
 ra
 am
 u3
-156524	sza
+158827	sza
 x
-156527	ki
+158830	ki
 ma
 ta
 asz
@@ -152508,10 +152508,10 @@ sza
 ap
 pa
 ar
-a
+158850	a
 na
 sig
-156550	d
+158854	d
 x
 x
 (x)
@@ -152600,7 +152600,7 @@ tu
 ur
 ra
 am
-szi
+158944	szi
 ip
 ra
 am
@@ -152729,7 +152729,7 @@ ki
 ia
 u2
 ul
-156769	a
+159075	a
 na
 a
 hu
@@ -152793,7 +152793,7 @@ numun
 ga
 rasz
 sar
-156834	tu
+159140	tu
 sza
 bi
 lam
@@ -152849,7 +152849,7 @@ na
 i
 szu
 u2
-156891	la
+159197	la
 i
 sze9
 em
@@ -152866,7 +152866,7 @@ bi
 ka
 x
 (x)
-156909	szu
+159215	szu
 bi
 lam
 ub
@@ -152886,7 +152886,7 @@ x
 (x)
 (x)
 isz
-a
+159236	a
 na
 a
 hi
@@ -152930,14 +152930,14 @@ li
 t,u2
 a
 na
-156975	d
+159282	d
 marduk
 ra
 bu
 ha
 t,a3
 tim
-156987	a
+159295	a
 na
 d
 nanna
@@ -152982,7 +152982,7 @@ i
 na
 x
 x
-157033	tup
+159341	tup
 pi2
 i
 na
@@ -153008,7 +153008,7 @@ a
 na
 s,il2
 li2
-157060	d
+159368	d
 suen
 dumu
 e2
@@ -153046,7 +153046,7 @@ x
 x
 x
 (x)
-a
+159407	a
 na
 dumu
 zimbir
@@ -153060,7 +153060,7 @@ hu
 za
 lum
 ma
-157113	d
+159422	d
 utu
 u3
 d
@@ -153102,7 +153102,7 @@ szu
 up
 ra
 am
-a
+159465	a
 na
 mu
 szi
@@ -153174,7 +153174,7 @@ di
 la
 i
 x
-157228	ki
+159538	ki
 la
 ta
 ma
@@ -153221,7 +153221,7 @@ a
 na
 di
 in
-a
+159586	a
 na
 a
 da
@@ -153368,7 +153368,7 @@ lu
 ud
 di
 in
-a
+159734	a
 na
 a
 bi
@@ -153396,9 +153396,9 @@ x
 x
 x
 (x)
-157452	a
+159764	a
 am
-157456	szum
+159768	szum
 ma
 a
 bi
@@ -153432,7 +153432,7 @@ ta
 am
 ma
 at,
-a
+159803	a
 na
 be
 el
@@ -153535,7 +153535,7 @@ di
 (x)
 bi
 it
-157594	x
+159907	x
 x
 x
 (x)
@@ -153731,9 +153731,9 @@ pa
 ra
 ak
 ki
-a
+160104	a
 na
-157793	qi2
+160107	qi2
 bi2
 ma
 um
@@ -153764,7 +153764,7 @@ ki
 se3
 ga
 iti
-157826	gar
+160140	gar
 ih
 ha
 asz
@@ -153791,7 +153791,7 @@ nig2
 szu
 ri
 isz
-157854	d
+160168	d
 marduk
 e
 li
@@ -153803,7 +153803,7 @@ na
 kar
 zimbir
 ki
-157867	ia
+160181	ia
 ah
 ru
 rum
@@ -153828,7 +153828,7 @@ li
 ba
 ru
 ma
-a
+160207	a
 na
 a
 hu
@@ -153905,8 +153905,8 @@ u3
 1(disz)
 szu
 szi
-157970	gesz
-157972	sza
+160285	gesz
+160287	sza
 a
 na
 sza
@@ -153943,7 +153943,7 @@ ur
 ki
 ba
 am
-158010	gesz
+160325	gesz
 ma2
 hi
 a
@@ -154002,7 +154002,7 @@ na
 an
 mi
 ir
-a
+160385	a
 na
 a
 si2
@@ -154057,7 +154057,7 @@ am
 ma
 i
 na
-158125	gesz
+160441	gesz
 ban2
 kar
 ra
@@ -154110,7 +154110,7 @@ di
 a
 an
 ni
-a
+160495	a
 na
 a
 hu
@@ -154218,7 +154218,7 @@ u3
 sze
 i
 na
-158287	gesz
+160604	gesz
 ban2
 d
 utu
@@ -154245,7 +154245,7 @@ a
 pa
 al
 ka
-a
+160632	a
 na
 x
 x
@@ -154341,14 +154341,14 @@ na
 ad
 di
 ma
-158411	a
+160729	a
 x
 x
 x
 (x)
 a
 na
-158419	x
+160737	x
 x
 x
 (x)
@@ -154356,22 +154356,22 @@ la
 i
 la
 ak
-158431	id
+160750	id
 di
 nu
-158435	u3
+160754	u3
 ma
 la
-158439	sza
+160758	sza
 be
 li2
-158443	sza
+160762	sza
 s,a
 ab
-158447	tu
+160766	tu
 sza
 x
-158451	a
+160770	a
 na
 be
 li2
@@ -154451,7 +154451,7 @@ asz
 pu
 ra
 am
-a
+160851	a
 na
 i
 pi2
@@ -154463,7 +154463,7 @@ ma
 um
 ma
 ur
-158544	d
+160864	d
 kal
 kal
 ma
@@ -154523,7 +154523,7 @@ nu
 um
 ma
 disz
-158605	d
+160925	d
 marduk
 na
 s,i
@@ -154674,7 +154674,7 @@ s,i
 tam
 u3
 1(disz)
-158757	gesz
+161077	gesz
 ig
 szu
 bi
@@ -154818,7 +154818,7 @@ ma
 szu
 bi
 lam
-a
+161222	a
 na
 in
 bu
@@ -154907,11 +154907,11 @@ am
 ap
 pu
 tum
-a
+161312	a
 na
 i
 bi
-158995	d
+161317	d
 en
 lil2
 ra
@@ -154930,7 +154930,7 @@ i
 na
 zimbir
 ki
-159015	ia
+161337	ia
 ah
 ru
 rum
@@ -154948,8 +154948,8 @@ s,a
 du
 qa2
 ma
-159034	disz
-159036	ku
+161356	disz
+161358	ku
 bi
 ugula
 x
@@ -154994,15 +154994,15 @@ i
 na
 zimbir
 ki
-159082	ia
+161404	ia
 ah
 ru
 rum
-159087	a
+161410	a
 na
 i
 bi
-159092	d
+161415	d
 en
 lil2
 ra
@@ -155021,7 +155021,7 @@ i
 na
 zimbir
 ki
-159112	ia
+161435	ia
 ah
 ru
 rum
@@ -155061,7 +155061,7 @@ un
 na
 ab
 tum
-159153	x
+161476	x
 x
 x
 (x)
@@ -155075,7 +155075,7 @@ x
 x
 x
 (x)
-159168	d
+161491	d
 iszkur
 dumu
 x
@@ -155086,7 +155086,7 @@ x
 (x)
 zimbir
 ki
-159180	ia
+161503	ia
 ah
 ru
 rum
@@ -155120,11 +155120,11 @@ sza
 lu
 ni
 im
-a
+161538	a
 na
 i
 bi
-159219	d
+161543	d
 en
 lil2
 ra
@@ -155143,7 +155143,7 @@ i
 na
 zimbir
 ki
-159239	ia
+161563	ia
 ah
 ru
 rum
@@ -155163,7 +155163,7 @@ qa2
 ma
 disz
 ur
-159260	d
+161584	d
 gu4
 ud
 an
@@ -155185,9 +155185,9 @@ x
 x
 x
 (x)
-a
+161607	a
 na
-159285	qi2
+161610	qi2
 bi2
 ma
 um
@@ -155236,7 +155236,7 @@ disz
 a
 wi
 il
-159335	d
+161660	d
 iszkur
 dumu
 d
@@ -155330,7 +155330,7 @@ a
 sza3
 am
 u3
-159430	gesz
+161755	gesz
 kiri6
 sza
 usz
@@ -155424,7 +155424,7 @@ x
 x
 id
 na
-159525	a
+161851	a
 na
 be
 el
@@ -155498,7 +155498,7 @@ a
 ha
 ti
 ka
-159600	x
+161926	x
 x
 x
 x
@@ -155613,7 +155613,7 @@ x
 x
 (x)
 (x)
-a
+162042	a
 na
 x
 x
@@ -155818,7 +155818,7 @@ ra
 asz
 szi
 i
-a
+162248	a
 na
 be
 el
@@ -155860,14 +155860,14 @@ su
 tu
 u2
 um
-159963	u2
+162291	u2
 x
 x
 x
 1(disz)
 kasz
 dida
-159972	1(disz)
+162300	1(disz)
 sila3
 i3
 gesz
@@ -155947,7 +155947,7 @@ lu
 ul
 li
 kam
-a
+162381	a
 na
 a
 wi
@@ -156044,7 +156044,7 @@ da
 ri
 disz
 lu2
-160150	d
+162479	d
 asar
 lu2
 hi
@@ -156067,7 +156067,7 @@ mu
 dam
 mi
 iq
-160174	d
+162503	d
 marduk
 s,u2
 ha
@@ -156075,7 +156075,7 @@ ri
 it
 ti
 sag
-160183	sza
+162512	sza
 i
 na
 sza
@@ -156173,7 +156173,7 @@ at
 disz
 ib
 ni
-160282	d
+162611	d
 suen
 s,u2
 ha
@@ -156219,7 +156219,7 @@ ba
 tum
 sza
 sag
-160329	sza
+162658	sza
 i
 na
 qa2
@@ -156236,7 +156236,7 @@ a
 na
 ib
 ni
-160347	d
+162676	d
 suen
 s,u2
 ha
@@ -156267,7 +156267,7 @@ ru
 u2
 disz
 lu2
-160379	d
+162708	d
 asar
 lu2
 hi
@@ -156285,7 +156285,7 @@ da
 ab
 bu
 ub
-a
+162727	a
 na
 a
 wi
@@ -156393,7 +156393,7 @@ ka
 a
 na
 ku
-la
+162836	la
 ta
 ra
 asz
@@ -156417,7 +156417,7 @@ i
 szum
 ma
 disz
-160530	d
+162861	d
 suen
 i
 din
@@ -156515,7 +156515,7 @@ szu
 up
 ri
 im
-a
+162960	a
 na
 a
 wi
@@ -156536,7 +156536,7 @@ um
 ma
 i
 din
-160650	d
+162982	d
 marduk
 ma
 d
@@ -156651,7 +156651,7 @@ qi2
 szu
 uk
 nam
-a
+163098	a
 na
 a
 wi
@@ -156663,7 +156663,7 @@ um
 ma
 i
 din
-160778	d
+163111	d
 marduk
 ma
 d
@@ -156845,7 +156845,7 @@ na
 a
 wi
 lim
-a
+163294	a
 na
 d
 suen
@@ -156919,7 +156919,7 @@ hi
 su2
 nu
 ti
-a
+163369	a
 na
 ru
 ba
@@ -156979,7 +156979,7 @@ ti
 a
 ma
 disz
-161095	d
+163430	d
 inanna
 ga
 mil
@@ -157012,7 +157012,7 @@ usz
 te
 bi
 lam
-161129	kusz
+163464	kusz
 e
 sir2
 hu
@@ -157057,7 +157057,7 @@ szu
 ut,
 ri
 im
-a
+163510	a
 na
 hu
 za
@@ -157090,7 +157090,7 @@ szu
 ra
 nu
 disz
-161208	d
+163544	d
 suen
 e
 ri
@@ -157106,7 +157106,7 @@ ta
 mar
 u3
 disz
-161225	d
+163561	d
 suen
 en
 nam
@@ -157161,7 +157161,7 @@ ma
 disz
 ri
 im
-161281	d
+163617	d
 suen
 u3
 da
@@ -157214,7 +157214,7 @@ um
 ga
 am
 ru
-a
+163671	a
 na
 a
 wi
@@ -157321,7 +157321,7 @@ szu
 up
 ra
 am
-161442	i
+163780	i
 na
 bi
 ti
@@ -157389,7 +157389,7 @@ pu
 ri
 im
 ba
-161511	la
+163849	la
 at
 u2
 ul
@@ -157419,7 +157419,7 @@ x
 x
 ti
 ma
-a
+163880	a
 na
 d
 na
@@ -157480,9 +157480,9 @@ ta
 a
 ma
 x
-161603	u2
+163942	u2
 ul
-161606	a
+163945	a
 na
 ku
 ma
@@ -157566,7 +157566,7 @@ ap
 pa
 al
 szu
-a
+164030	a
 na
 na
 pu
@@ -157584,7 +157584,7 @@ ri
 bu
 um
 ma
-161709	d
+164049	d
 utu
 u3
 d
@@ -157621,18 +157621,18 @@ ba
 szu
 t,a
 ab
-a
+164087	a
 na
 a
 pil2
-161751	d
+164092	d
 utu
 qi2
 bi2
 ma
 um
 ma
-161760	d
+164101	d
 utu
 u3
 ka
@@ -157693,7 +157693,7 @@ ba
 la
 ak
 kum
-161822	gesz
+164163	gesz
 kiri6
 ta
 na
@@ -157705,7 +157705,7 @@ be
 la
 nu
 um
-161835	gesz
+164176	gesz
 kiri6
 ta
 ad
@@ -157757,7 +157757,7 @@ i
 na
 qa2
 ti
-161888	ri
+164229	ri
 i
 na
 e
@@ -157774,11 +157774,11 @@ li
 qi2
 a
 am
-a
+164247	a
 na
 a
 pil2
-161910	d
+164252	d
 x
 x
 (x)
@@ -157789,7 +157789,7 @@ um
 ma
 i
 bi
-161922	d
+164264	d
 marduk
 ma
 d
@@ -157911,7 +157911,7 @@ e
 er
 ma
 nagar
-162045	la
+164387	la
 u2
 ba
 az
@@ -157993,7 +157993,7 @@ ti
 im
 a
 na
-162128	szar
+164470	szar
 ri
 ta
 (x)
@@ -158038,7 +158038,7 @@ szu
 up
 ra
 am
-1(disz)
+164516	1(disz)
 a
 wi
 il
@@ -158066,7 +158066,7 @@ lu2
 elam
 ma
 ki
-162202	it
+164545	it
 ba
 lu
 mu
@@ -158085,7 +158085,7 @@ in
 szi
 iri
 ki
-162222	sza
+164565	sza
 ki
 ma
 dumu
@@ -158143,11 +158143,11 @@ s,i
 im
 da
 tim
-a
+164624	a
 na
 nu
 ur2
-162285	d
+164629	d
 utu
 qi2
 bi2
@@ -158188,7 +158188,7 @@ it
 ti
 szu
 nu
-162327	gesz
+164671	gesz
 kiri6
 a
 na
@@ -158241,7 +158241,7 @@ ru
 su2
 nu
 ti
-a
+164725	a
 na
 be
 li2
@@ -158254,7 +158254,7 @@ ma
 ba
 zi
 ia
-162394	ka
+164739	ka
 ma
 s,u2
 ha
@@ -158317,11 +158317,11 @@ li
 ip
 ru
 us2
-a
+164803	a
 na
 nu
 ur2
-162462	d
+164808	d
 utu
 qi2
 bi2
@@ -158374,7 +158374,7 @@ isz
 a
 pu
 ul
-a
+164862	a
 na
 an
 pi4
@@ -158414,7 +158414,7 @@ i
 na
 iri
 ki
-162556	szi
+164903	szi
 tul
 li
 (x)
@@ -158446,7 +158446,7 @@ x
 x
 (x)
 a
-162589	i
+164936	i
 di
 szu
 a
@@ -158474,7 +158474,7 @@ i
 ka
 la
 am
-a
+164965	a
 na
 d
 suen
@@ -158483,7 +158483,7 @@ mu
 uh
 u3
 nu
-162627	gesz
+164975	gesz
 kiri6
 e2
 gal
@@ -158496,7 +158496,7 @@ mu
 na
 wi
 rum
-162641	ma
+164989	ma
 d
 utu
 u3
@@ -158532,7 +158532,7 @@ ar
 disz
 ig
 mil
-162678	d
+165026	d
 suen
 u3
 d
@@ -158598,7 +158598,7 @@ u2
 al
 ka
 a
-a
+165093	a
 na
 d
 utu
@@ -158725,7 +158725,7 @@ szu
 up
 ra
 am
-szu
+165221	szu
 ma
 sze
 ri
@@ -158776,21 +158776,21 @@ sza3
 ki
 ma
 x
-162923	u2
+165273	u2
 t,u2
 ul
 ma
-162928	a
+165279	a
 na
 nu
 ur2
-162933	d
+165284	d
 utu
 disz
 a
 wi
 il
-162940	d
+165291	d
 iszkur
 u3
 ugula
@@ -158961,7 +158961,7 @@ a
 szu
 nu
 ti
-a
+165463	a
 na
 i
 din
@@ -158992,7 +158992,7 @@ la
 ak
 kum
 ma
-163143	la
+165495	la
 la
 at
 bi
@@ -159156,7 +159156,7 @@ ma
 lu
 te
 di
-a
+165660	a
 na
 ta
 ri
@@ -159169,7 +159169,7 @@ um
 ma
 gi
 mil
-163321	d
+165674	d
 marduk
 ma
 d
@@ -159274,7 +159274,7 @@ lu
 sza
 bi
 lam
-a
+165780	a
 na
 a
 wi
@@ -159404,7 +159404,7 @@ ak
 ku
 i
 na
-163557	gesz
+165911	gesz
 ma2
 sza
 sa
@@ -159417,7 +159417,7 @@ i
 ba
 a
 am
-a
+165925	a
 na
 d
 suen
@@ -159534,7 +159534,7 @@ isz
 szu
 nu
 ti
-a
+166043	a
 na
 d
 suen
@@ -159775,7 +159775,7 @@ kam
 ep
 sza
 ni
-163929	gesz
+166285	gesz
 ma2
 sza
 dumu
@@ -159858,7 +159858,7 @@ qi2
 bi2
 ma
 1(bur3)
-164013	a
+166369	a
 sza3
 li
 mu
@@ -159898,7 +159898,7 @@ a
 qi2
 a
 ni
-a
+166410	a
 na
 d
 marduk
@@ -159954,14 +159954,14 @@ a
 nu
 um
 ma
-164110	i3
+166467	i3
 li2
 szu
 asz
 tap
 ra
 kum
-a
+166475	a
 na
 a
 pil
@@ -160028,7 +160028,7 @@ a
 ma
 x
 x
-164185	e
+166543	e
 pu
 sza
 ak
@@ -160067,11 +160067,11 @@ re
 di
 a
 ni
-a
+166583	a
 na
 i
 bi
-164229	d
+166588	d
 nin
 szubur
 qi2
@@ -160081,7 +160081,7 @@ um
 ma
 ig
 mil
-164240	d
+166599	d
 suen
 ma
 isz
@@ -160133,14 +160133,14 @@ ri
 ia
 al
 kam
-a
+166652	a
 na
 i
 bi
-164297	d
+166657	d
 en
 lil2
-164301	d
+166661	d
 suen
 i
 qi2
@@ -160156,7 +160156,7 @@ i
 na
 zimbir
 ki
-164318	ia
+166678	ia
 ah
 ru
 rum
@@ -160184,7 +160184,7 @@ a
 na
 zimbir
 ki
-164347	ia
+166707	ia
 ah
 ru
 rum
@@ -160204,7 +160204,7 @@ ku
 nu
 szi
 im
-a
+166728	a
 na
 e
 la
@@ -160243,7 +160243,7 @@ ga
 rasz
 sag
 sar
-164407	ad
+166768	ad
 di
 na
 ak
@@ -160254,7 +160254,7 @@ ga
 rasz
 sag
 sar
-164419	sza
+166780	sza
 ma
 am
 u3
@@ -160302,7 +160302,7 @@ ta
 ra
 asz
 szi
-a
+166829	a
 na
 d
 nanna
@@ -160319,7 +160319,7 @@ dar
 dingir
 szu
 ma
-164485	d
+166847	d
 utu
 li
 ba
@@ -160363,7 +160363,7 @@ ku
 u2
 ma
 (x)
-a
+166892	a
 na
 d
 marduk
@@ -160377,7 +160377,7 @@ ma
 e
 tel
 pi2
-164544	d
+166907	d
 marduk
 ma
 a
@@ -160418,7 +160418,7 @@ mi
 ri
 szi
 a
-a
+166949	a
 na
 da
 da
@@ -160469,7 +160469,7 @@ babbar
 szu
 bi
 lam
-a
+167001	a
 na
 ni
 szi
@@ -160677,7 +160677,7 @@ kam
 ep
 szi
 im
-a
+167210	a
 na
 a
 li2
@@ -160761,12 +160761,12 @@ sag11
 ku5
 ma
 u3
-164929	x
+167295	x
 x
 x
 x
 x
-164935	gesz
+167301	gesz
 kiri6
 szu
 a
@@ -160825,7 +160825,7 @@ x
 x
 x
 te
-164995	ki
+167361	ki
 nu
 u2
 um
@@ -160876,7 +160876,7 @@ te
 le
 e
 i
-a
+167413	a
 na
 ugula
 gidri
@@ -160886,7 +160886,7 @@ marduk
 u3
 x
 x
-165057	ru
+167424	ru
 u2
 ba
 al
@@ -161058,7 +161058,7 @@ si
 szu
 nu
 szi
-a
+167597	a
 na
 tu
 tu
@@ -161078,7 +161078,7 @@ ma
 ki
 ma
 disz
-165250	d
+167618	d
 alamusz
 i
 din
@@ -161169,7 +161169,7 @@ ma
 an
 ni
 disz
-165342	d
+167710	d
 alamusz
 i
 din
@@ -161197,7 +161197,7 @@ ia
 t,u2
 ur
 dam
-a
+167739	a
 na
 a
 ha
@@ -161225,7 +161225,7 @@ nu
 um
 ma
 disz
-165399	d
+167768	d
 iszkur
 tu
 ku
@@ -161289,7 +161289,7 @@ di
 na
 am
 disz
-165464	d
+167833	d
 iszkur
 tu
 ku
@@ -161302,7 +161302,7 @@ id
 di
 na
 am
-a
+167847	a
 na
 tu
 tu
@@ -161358,7 +161358,7 @@ ib
 ba
 asz
 szi
-a
+167904	a
 na
 d
 suen
@@ -161373,7 +161373,7 @@ um
 ma
 ri
 isz
-165549	d
+167920	d
 utu
 ma
 d
@@ -161411,7 +161411,7 @@ ta
 a
 ma
 1(bur3)
-165588	a
+167959	a
 sza3
 x
 x
@@ -161422,11 +161422,11 @@ e
 ri
 ba
 am
-165600	a
+167972	a
 na
 nu
 ur2
-165605	d
+167977	d
 utu
 qi2
 bi2
@@ -161481,7 +161481,7 @@ u3
 1(disz)
 lu2
 nu
-165661	gesz
+168033	gesz
 kiri6
 sza
 a
@@ -161515,7 +161515,7 @@ u3
 a
 wi
 il
-165696	d
+168068	d
 na
 bi
 um
@@ -161545,27 +161545,27 @@ la
 ta
 ka
 al
-a
+168099	a
 na
 sze
 e
 szi
 ma
 at
-165734	u2
+168107	u2
 ul
-165737	it
+168110	it
 ti
 x
-165741	la
+168114	la
 a
-165744	u3
+168117	u3
 a
 hi
 x[...
 tu
 x[...
-165753	szi
+168126	szi
 ma
 at
 sze
@@ -161574,7 +161574,7 @@ i3
 (x)
 u2
 ul
-165763	a
+168136	a
 na
 da
 ba
@@ -161586,7 +161586,7 @@ ta
 al
 la
 ak
-a
+168149	a
 na
 a
 wi
@@ -161684,7 +161684,7 @@ bi
 la
 kum
 disz
-165874	d
+168248	d
 suen
 ma
 gir
@@ -161694,7 +161694,7 @@ ni
 disz
 ur
 da
-165885	d
+168259	d
 nanna
 ugula
 gidri
@@ -161744,7 +161744,7 @@ ka
 szu
 bi
 lam
-a
+168310	a
 na
 sza
 pi2
@@ -161782,7 +161782,7 @@ szum
 e2
 dam
 qi2
-165974	d
+168349	d
 za
 ba4
 ba4
@@ -161822,7 +161822,7 @@ disz
 i3
 li2
 u3
-166015	d
+168390	d
 utu
 a
 hi
@@ -161835,7 +161835,7 @@ ru
 ba
 lu
 u2
-a
+168404	a
 na
 d
 na
@@ -161856,7 +161856,7 @@ x
 (x)
 ma
 disz
-166050	d
+168426	d
 suen
 i
 din
@@ -161894,7 +161894,7 @@ szu
 nu
 szi
 im
-a
+168465	a
 na
 mu
 na
@@ -161907,7 +161907,7 @@ um
 ma
 gi
 mil
-166102	d
+168479	d
 marduk
 ma
 d
@@ -162008,7 +162008,7 @@ ma
 hi
 s,a
 am
-166204	x
+168581	x
 x
 x
 (x)
@@ -162038,7 +162038,7 @@ szu
 ku
 um
 ma
-166235	asz
+168612	asz
 szum
 siki
 ud5
@@ -162095,7 +162095,7 @@ la
 nu
 um[
 ki
-166293	ma
+168670	ma
 la
 ta
 az2
@@ -162131,7 +162131,7 @@ hi
 li
 a
 sar
-166330	usz
+168707	usz
 ta
 bi
 la
@@ -162155,7 +162155,7 @@ sza
 ba
 la
 kum
-a
+168732	a
 na
 a
 wi
@@ -162174,7 +162174,7 @@ bi2
 ma
 um
 ma
-166375	d
+168753	d
 marduk
 ma
 d
@@ -162266,7 +162266,7 @@ li
 isz
 qu2
 u2
-166470	x
+168848	x
 tu
 an
 nu
@@ -162277,7 +162277,7 @@ u4
 kam
 sza
 i
-166482	a
+168860	a
 sza3
 am
 szu
@@ -162289,7 +162289,7 @@ li
 isz
 qu2
 u2
-a
+168873	a
 na
 sza
 pi2
@@ -162361,7 +162361,7 @@ usz
 te
 ri
 ib
-166570	um
+168949	um
 ma
 a
 na
@@ -162382,7 +162382,7 @@ ma
 x
 (x)
 x
-166593	ni
+168972	ni
 a
 ti
 x
@@ -162407,7 +162407,7 @@ ra
 ni
 a
 ti
-a
+168998	a
 na
 a
 bi
@@ -162456,21 +162456,21 @@ isz
 tu
 babila2
 ki
-166668	i
+169048	i
 sza
 a
 mu
 ma
-a
+169054	a
 na
 nu
 ur2
-166678	d
+169059	d
 utu
 a
 wi
 il
-166684	d
+169065	d
 iszkur
 ugula
 nam
@@ -162572,7 +162572,7 @@ i
 na
 tu
 ur
-166787	d
+169168	d
 u3
 gul
 la2
@@ -162664,7 +162664,7 @@ sze
 i
 pa
 ni
-166880	d
+169261	d
 utu
 sza
 e2
@@ -162719,7 +162719,7 @@ ta
 ag
 gi
 a
-a
+169317	a
 na
 isz
 me
@@ -162761,7 +162761,7 @@ szu
 disz
 gi
 mil
-166978	d
+169360	d
 marduk
 ra
 bi
@@ -162801,7 +162801,7 @@ sza3
 li
 ri
 isz
-a
+169401	a
 na
 a
 wi
@@ -162898,7 +162898,7 @@ dim
 gal
 an
 na
-a
+169499	a
 na
 sza
 pi2
@@ -162981,9 +162981,9 @@ za3
 hi
 li
 sar
-167199	i
+169583	i
 na
-167202	gesz
+169586	gesz
 ban2
 d
 marduk
@@ -163011,7 +163011,7 @@ ni
 it
 ta
 di
-a
+169615	a
 na
 a
 wi
@@ -163036,7 +163036,7 @@ um
 ma
 lik
 ma
-167256	d
+169641	d
 utu
 u3
 d
@@ -163081,7 +163081,7 @@ du
 szi
 disz
 lu2
-167302	d
+169687	d
 en
 ki
 ka
@@ -163112,13 +163112,13 @@ x
 gi
 ir
 ma
-a
+169719	a
 na
 dingir
 szu
 illat
 at
-167340	su2
+169726	su2
 qi2
 bi2
 ma
@@ -163126,7 +163126,7 @@ um
 ma
 na
 bi
-167349	d
+169735	d
 dam
 gal
 nun
@@ -163148,7 +163148,7 @@ tup
 pi
 i
 disz
-167372	d
+169758	d
 iszkur
 ta
 a
@@ -163186,7 +163186,7 @@ i
 di
 isz
 szu
-a
+169797	a
 na
 a
 hi
@@ -163290,7 +163290,7 @@ szum
 a
 wi
 il
-167515	d
+169902	d
 na
 bi
 um
@@ -163308,7 +163308,7 @@ na
 an
 na
 i
-167534	s,e
+169921	s,e
 ku
 u2
 i
@@ -163407,12 +163407,12 @@ ia
 li
 il
 la
-a
+170021	a
 na
 a
 wi
 il
-167639	d
+170027	d
 iszkur
 qi2
 bi2
@@ -163421,7 +163421,7 @@ um
 ma
 s,il2
 li2
-167649	d
+170037	d
 nin
 urta
 ma
@@ -163494,7 +163494,7 @@ x
 (x)
 ri
 ba
-167723	su
+170111	su
 x
 x
 (x)
@@ -163538,7 +163538,7 @@ na
 kar
 iri
 ki
-167768	sza
+170156	sza
 wa
 asz
 ba
@@ -163665,14 +163665,14 @@ am
 it
 ti
 szu
-167896	a
+170285	a
 na
 dingir
 szu
 ba
 ni
 disz
-167904	na
+170293	na
 bu
 um
 u3
@@ -163825,7 +163825,7 @@ szu
 ba
 ni
 disz
-168058	na
+170447	na
 bu
 um
 u3
@@ -163843,10 +163843,10 @@ a
 dumu
 puzur4
 dingir
-168077	d
+170466	d
 (x)
 x
-a
+170470	a
 na
 ugula
 mar
@@ -163991,7 +163991,7 @@ ul
 i
 sza
 si
-a
+170616	a
 na
 a
 wi
@@ -164124,7 +164124,7 @@ ur
 da
 asz
 szu
-a
+170750	a
 na
 d
 suen
@@ -164138,7 +164138,7 @@ ma
 e
 tel
 pi4
-168373	d
+170765	d
 marduk
 ma
 d
@@ -164153,7 +164153,7 @@ li
 t,u2
 ka
 disz
-168389	d
+170781	d
 suen
 mu
 sza
@@ -164193,7 +164193,7 @@ i
 na
 i7
 me
-168430	d
+170822	d
 en
 lil2
 e
@@ -164269,7 +164269,7 @@ du
 um
 mu
 uq
-168507	d
+170899	d
 na
 bi
 um
@@ -164338,7 +164338,7 @@ du
 um
 mu
 uq
-168577	d
+170969	d
 na
 bi
 um
@@ -164391,7 +164391,7 @@ it
 ra
 am
 disz
-168631	d
+171023	d
 suen
 mu
 sza
@@ -164434,7 +164434,7 @@ sza
 ar
 ki
 bu
-a
+171067	a
 na
 ha
 bil
@@ -164536,7 +164536,7 @@ al
 dumu
 ib
 ni
-168777	d
+171170	d
 mar
 tu
 zu2
@@ -164581,7 +164581,7 @@ numun
 a
 na
 ha
-168823	ti
+171216	ti
 ez
 bi
 im
@@ -164609,7 +164609,7 @@ le
 qe2
 szi
 im
-a
+171245	a
 na
 a
 lu
@@ -164623,7 +164623,7 @@ ma
 e
 tel
 pi4
-168866	d
+171260	d
 marduk
 ma
 asz
@@ -164677,7 +164677,7 @@ zi
 ib
 ma
 disz
-168921	d
+171315	d
 suen
 im
 gur
@@ -164724,7 +164724,7 @@ disz
 a
 wi
 il
-168969	d
+171363	d
 e2
 a
 ensi2
@@ -164840,7 +164840,7 @@ er
 sza
 an
 ni
-a
+171480	a
 na
 d
 sze
@@ -164881,7 +164881,7 @@ tim
 u3
 ip
 qu2
-169127	d
+171522	d
 na
 na
 a
@@ -164915,7 +164915,7 @@ li
 ib
 bi
 il
-a
+171557	a
 na
 d
 marduk
@@ -164951,7 +164951,7 @@ um
 ma
 nu
 ur2
-169198	d
+171594	d
 marduk
 a
 na
@@ -165002,7 +165002,7 @@ la
 ta
 qa2
 bi
-a
+171646	a
 di
 a
 al
@@ -165061,10 +165061,10 @@ ak
 nu
 1(disz)
 gi
-169311	ra
+171708	ra
 aq
 qu2
-169315	gi
+171712	gi
 ig
 ba
 ab
@@ -165095,15 +165095,15 @@ isz
 ka
 ar
 sza
-169347	it
+171744	it
 ta
 al
 ku
-169352	asz
+171749	asz
 tap
 ra
 kum
-a
+171754	a
 na
 a
 bi
@@ -165113,7 +165113,7 @@ bi2
 ma
 um
 ma
-169367	i3
+171765	i3
 li2
 szu
 ma
@@ -165192,7 +165192,7 @@ har
 d
 utu
 u3
-169447	d
+171845	d
 marduk
 lu
 da
@@ -165226,7 +165226,7 @@ te
 er
 x
 x
-169482	(x)
+171880	(x)
 x
 x
 (x)
@@ -165245,9 +165245,9 @@ u2
 ka
 a
 al
-169503	il
+171901	il
 ma
-169506	x
+171904	x
 ad
 di
 in
@@ -165336,7 +165336,7 @@ ut
 e2
 ti
 ia
-169596	a
+171994	a
 na
 ku
 u3
@@ -165348,7 +165348,7 @@ x
 (x)
 (x)
 disz
-169609	munus
+172007	munus
 ri
 im
 tum
@@ -165467,7 +165467,7 @@ uq
 qi2
 id
 ma
-169730	a
+172129	a
 na
 d
 nanna
@@ -165479,7 +165479,7 @@ um
 ma
 zimbir
 ki
-169743	lu
+172142	lu
 mur
 a
 hu
@@ -165504,7 +165504,7 @@ lu
 um
 1(disz)
 sag
-169769	lu2
+172168	lu2
 x
 usz
 ta
@@ -165545,14 +165545,14 @@ ri
 disz
 ip
 qu2
-169811	d
+172210	d
 sza
 la
 szu
 bi
 lam
 disz
-169819	d
+172218	d
 suen
 re
 me
@@ -165568,11 +165568,11 @@ ru
 da
 ku
 szu
-a
+172235	a
 na
 wa
 tar
-169840	d
+172240	d
 utu
 sza
 d
@@ -165613,7 +165613,7 @@ li
 t,u3
 ka
 disz
-169882	d
+172282	d
 suen
 mu
 sza
@@ -165672,7 +165672,7 @@ disz
 a
 wi
 il
-169942	d
+172342	d
 utu
 a
 na
@@ -165760,13 +165760,13 @@ na
 an
 zi
 iq
-a
+172431	a
 na
 i
 ku
 un
 pi2
-170037	d
+172438	d
 suen
 qi2
 bi2
@@ -165789,7 +165789,7 @@ it,
 ka
 disz
 szu
-170061	d
+172462	d
 nin
 zadim
 sanga
@@ -165890,7 +165890,7 @@ sza
 hi
 zu
 szu
-a
+172564	a
 na
 gi
 mil
@@ -166020,7 +166020,7 @@ lu
 ne
 eh
 szu
-a
+172695	a
 na
 a
 bi
@@ -166161,7 +166161,7 @@ um
 ma
 i
 din
-170434	d
+172837	d
 nin
 sikil
 la
@@ -166240,7 +166240,7 @@ ap
 pa
 lu
 ka
-a
+172917	a
 na
 szagina
 sza
@@ -166288,7 +166288,7 @@ ma
 disz
 i
 bi
-170562	d
+172966	d
 e2
 a
 qa
@@ -166367,7 +166367,7 @@ al
 la
 a
 am
-a
+173046	a
 na
 ra
 bi
@@ -166379,7 +166379,7 @@ szi
 bu
 ut
 iri
-170654	lum
+173059	lum
 ki
 qi2
 bi2
@@ -166388,7 +166388,7 @@ um
 ma
 i
 bi
-170664	d
+173069	d
 suen
 u3
 di
@@ -166396,11 +166396,11 @@ ku5
 mesz
 larsa
 ki
-170673	ma
+173078	ma
 disz
 wa
 tar
-170678	d
+173083	d
 utu
 ki
 a
@@ -166421,7 +166421,7 @@ tu
 mu
 5(disz)
 kam
-170700	gesz
+173105	gesz
 kiri6
 a
 sza
@@ -166429,7 +166429,7 @@ am
 ma
 iri
 ki
-170709	ib
+173114	ib
 ta
 aq
 ru
@@ -166485,7 +166485,7 @@ t,u2
 ur
 da
 nim
-a
+173171	a
 na
 sin
 ma
@@ -166498,7 +166498,7 @@ ma
 e
 tel
 pi4
-170779	d
+173185	d
 marduk
 ma
 d
@@ -166549,7 +166549,7 @@ babbar
 a
 na
 lu2
-170831	d
+173237	d
 asal
 lu2
 hi
@@ -166618,7 +166618,7 @@ ur
 da
 asz
 szu
-170902	sza
+173308	sza
 1(disz)
 ma
 na
@@ -166635,7 +166635,7 @@ ul
 il
 li
 kam
-170921	szu
+173327	szu
 a
 ti
 t,u2
@@ -166712,7 +166712,7 @@ li
 isz
 ku
 nu
-a
+173405	a
 na
 szi
 na
@@ -166789,7 +166789,7 @@ x
 x
 (x)
 ta
-171076	szum
+173483	szum
 ma
 a
 x
@@ -166907,7 +166907,7 @@ pu
 ra
 ak
 kum
-a
+173602	a
 na
 a
 bi
@@ -166919,7 +166919,7 @@ um
 ma
 s,a
 bi
-171207	d
+173615	d
 utu
 ma
 d
@@ -166989,7 +166989,7 @@ sag
 geme2
 1(disz)
 sag
-171278	al
+173686	al
 kam
 ma
 ni
@@ -167021,7 +167021,7 @@ ap
 lu
 us
 dingir
-171311	disz
+173719	disz
 a
 pil
 ki
@@ -167104,11 +167104,11 @@ li
 t,u3
 u2
 ka
-a
+173803	a
 na
 ba
 ni
-171399	d
+173808	d
 marduk
 qi2
 bi2
@@ -167174,7 +167174,7 @@ li
 kam
 a
 na
-171466	gesz
+173875	gesz
 kiri6
 la
 ta
@@ -167235,7 +167235,7 @@ s,u2
 ha
 ru
 sza
-171528	gesz
+173937	gesz
 kiri6
 ta
 ab
@@ -167244,7 +167244,7 @@ ru
 szu
 a
 na
-171538	gesz
+173947	gesz
 kiri6
 u2
 ri
@@ -167290,7 +167290,7 @@ ka
 szu
 bi
 lam
-a
+173994	a
 na
 be
 li2
@@ -167307,13 +167307,13 @@ tum
 ma
 asz
 szum
-171602	d
+174012	d
 marduk
 mu
 sza
 lim
 dumu
-171610	ti
+174020	ti
 sza
 tug2
 x
@@ -167397,7 +167397,7 @@ a
 na
 ig
 mil
-171695	d
+174105	d
 iszkur
 a
 li
@@ -167431,7 +167431,7 @@ me
 be
 li2
 ia
-a
+174140	a
 na
 a
 ia
@@ -167547,7 +167547,7 @@ am
 sza
 dam
 gar3
-171846	zimbir
+174257	zimbir
 ki
 u3
 ku3
@@ -167607,7 +167607,7 @@ x
 x
 x
 (x)
-171907	u2
+174318	u2
 te
 x
 x
@@ -167737,7 +167737,7 @@ e
 li
 su
 uk
-172038	gesz
+174449	gesz
 ig
 asz
 ba
@@ -167761,7 +167761,7 @@ am
 szu
 zi
 ba
-a
+174474	a
 na
 a
 wi
@@ -167782,7 +167782,7 @@ um
 ma
 ri
 isz
-172084	d
+174496	d
 marduk
 ma
 d
@@ -167794,7 +167794,7 @@ li
 it,
 ka
 disz
-172097	ku
+174509	ku
 bi
 szu
 i
@@ -167806,7 +167806,7 @@ hi
 it
 pir
 hi
-172110	d
+174522	d
 mar
 tu
 dumu
@@ -167836,7 +167836,7 @@ ki
 ma
 pir
 hi
-172141	d
+174553	d
 mar
 tu
 a
@@ -167888,7 +167888,7 @@ x
 (x)
 x
 u3
-172194	ni
+174606	ni
 i
 na
 i
@@ -167902,7 +167902,7 @@ x
 (x)
 ri
 ia
-172209	x
+174621	x
 x
 x
 (x)
@@ -167912,7 +167912,7 @@ sza
 pa
 ri
 im
-172220	e
+174632	e
 li
 d
 suen
@@ -167930,7 +167930,7 @@ u3
 e2
 su2
 ta
-172239	hu
+174651	hu
 qi2
 sza
 tu
@@ -167941,7 +167941,7 @@ ah
 mu
 us,
 s,i2
-172251	sze
+174663	sze
 am
 u3
 mi
@@ -167952,17 +167952,17 @@ d
 suen
 ib
 ni
-172263	a
+174675	a
 na
 pir
 hi
-172268	d
+174680	d
 mar
 tu
 ma
 ri
 szu
-172275	a
+174687	a
 na
 a
 sza3
@@ -168005,7 +168005,7 @@ lu
 pu
 ul
 ka
-a
+174731	a
 na
 sza
 pi2
@@ -168079,11 +168079,11 @@ ul
 u4
 hu
 ur
-a
+174806	a
 na
 a
 na
-172397	d
+174811	d
 suen
 tak
 la
@@ -168110,7 +168110,7 @@ ba
 ku
 ma
 x
-172425	u3
+174839	u3
 ku3
 babbar
 li
@@ -168120,7 +168120,7 @@ nu
 ap
 pu
 tum
-a
+174850	a
 na
 a
 wi
@@ -168271,7 +168271,7 @@ ul
 re
 qu2
 disz
-172587	d
+175002	d
 utu
 ku
 u2
@@ -168292,7 +168292,7 @@ ep
 szu
 ma
 x
-172609	az
+175024	az
 zi
 iz
 ma
@@ -168316,7 +168316,7 @@ ta
 sza
 ka
 ah
-a
+175049	a
 na
 be
 li2
@@ -168399,7 +168399,7 @@ bi
 tu
 na
 pa
-172717	asz
+175133	asz
 szum
 be
 li2
@@ -168489,11 +168489,11 @@ la
 e
 ri
 ib
-lu
+175224	lu
 u2
 x
 x
-172812	u3
+175229	u3
 at
 ta
 i
@@ -168501,7 +168501,7 @@ na
 u4
 2(disz)
 kam
-172821	s,u2
+175238	s,u2
 ha
 ru
 u2
@@ -168534,7 +168534,7 @@ nu
 um
 sar
 disz
-172855	d
+175272	d
 suen
 isz
 me
@@ -168589,8 +168589,8 @@ il
 qi2
 am
 ma
-172911	ia
-172914	szu
+175328	ia
+175331	szu
 bi
 lam
 disz
@@ -168608,7 +168608,7 @@ szu
 up
 ra
 am
-szu
+175350	szu
 lum
 a
 bi
@@ -168617,7 +168617,7 @@ ka
 ta
 ma
 har
-172942	lu
+175360	lu
 da
 ri
 i
@@ -168643,7 +168643,7 @@ sze
 sze
 ra
 am
-172969	na4
+175387	na4
 kiszib3
 szu
 mi
@@ -168670,7 +168670,7 @@ ma
 i
 na
 la
-172997	na4
+175415	na4
 kiszib3
 me
 he
@@ -168708,7 +168708,7 @@ ap
 pa
 ru
 ma
-173036	na4
+175454	na4
 kiszib3
 szu
 mi
@@ -168734,17 +168734,17 @@ tu
 uq
 qa2
 a
-173063	x
+175481	x
 x
 x
 pi2
 qi2
 su2
 x
-173071	li
+175489	li
 ib
 lam
-a
+175493	a
 na
 a
 wi
@@ -168764,7 +168764,7 @@ ma
 um
 ma
 be
-173095	ma
+175514	ma
 d
 utu
 u3
@@ -168816,7 +168816,7 @@ har
 d
 utu
 u3
-173148	d
+175567	d
 marduk
 lu
 da
@@ -168824,7 +168824,7 @@ ri
 disz
 i
 din
-173157	d
+175576	d
 iszkur
 ki
 a
@@ -168864,18 +168864,18 @@ szi
 na
 ti
 disz
-173199	d
+175618	d
 suen
 ma
 s,a
 ar
 kar
 ki
-173207	it
+175626	it
 ba
 al
 u3
-173212	gesz
+175631	gesz
 pa
 sza
 ak
@@ -168927,7 +168927,7 @@ tum
 i
 x
 x
-173265	ib
+175684	ib
 lu
 ut,
 il
@@ -168973,7 +168973,7 @@ sza
 2(disz)
 szu
 szi
-173312	gesz
+175731	gesz
 pa
 a
 na
@@ -168989,7 +168989,7 @@ i
 na
 an
 na
-173329	gesz
+175748	gesz
 pa
 ak
 ki
@@ -169006,7 +169006,7 @@ u2
 qi2
 bi
 ma
-173347	gesz
+175766	gesz
 pa
 ma
 la
@@ -169032,7 +169032,7 @@ tu
 usz
 ta
 a
-a
+175793	a
 na
 a
 wi
@@ -169043,7 +169043,7 @@ ma
 um
 ma
 lu2
-173385	d
+175805	d
 asal
 lu2
 hi
@@ -169261,12 +169261,12 @@ x
 ma2
 lah6
 x
-173604	x
+176024	x
 x
-173607	x
-173609	x
-173611	x
-173613	li
+176027	x
+176029	x
+176031	x
+176033	li
 il
 qu2
 nim
@@ -169291,7 +169291,7 @@ sa
 an
 ni
 iq
-a
+176059	a
 na
 a
 wi
@@ -169426,7 +169426,7 @@ an
 ni
 iri
 ki
-173774	a
+176195	a
 al
 be
 lu
@@ -169449,7 +169449,7 @@ ta
 a
 al
 disz
-173798	d
+176219	d
 suen
 na
 s,i
@@ -169458,14 +169458,14 @@ x
 disz
 ib
 ni
-173808	d
+176229	d
 utu
 x
 x
 x
 x
 u3
-173817	d
+176238	d
 utu
 x
 x
@@ -169497,7 +169497,7 @@ li
 il
 li
 ku
-a
+176271	a
 na
 da
 an
@@ -169533,7 +169533,7 @@ sze
 im
 sza
 dumu
-173886	d
+176308	d
 nin
 tu
 ta
@@ -169593,7 +169593,7 @@ ma
 x
 x
 al
-173947	li
+176369	li
 li
 ka
 am
@@ -169703,9 +169703,9 @@ ta
 asz
 pu
 ri
-a
+176480	a
 na
-174060	sza
+176483	sza
 d
 marduk
 u2
@@ -169799,13 +169799,13 @@ ma
 x
 x
 x
-174156	im
+176579	im
 disz
 x
 x
 x
 (x)
-174163	d
+176586	d
 en
 lil2
 x
@@ -169819,7 +169819,7 @@ da
 ba
 bi
 im
-174180	a
+176603	a
 wa
 ti
 ni
@@ -169828,7 +169828,7 @@ ne
 mu
 ur
 u3
-174191	d
+176614	d
 nin
 szubur
 a
@@ -169841,7 +169841,7 @@ sa
 ni
 qa2
 ki
-a
+176628	a
 na
 d
 suen
@@ -169855,7 +169855,7 @@ ma
 e
 tel
 pi4
-174219	d
+176643	d
 marduk
 ma
 d
@@ -169880,7 +169880,7 @@ sza
 szum
 ma
 la
-174245	d
+176669	d
 marduk
 ma
 an
@@ -169895,7 +169895,7 @@ erin2
 a
 na
 lu2
-174261	d
+176685	d
 asal
 lu2
 hi
@@ -169940,7 +169940,7 @@ du
 um
 mu
 uq
-174307	d
+176731	d
 na
 bi
 um
@@ -169965,7 +169965,7 @@ sza
 szu
 nu
 ti
-a
+176757	a
 na
 d
 suen
@@ -169991,7 +169991,7 @@ ma
 um
 ma
 lu2
-174359	d
+176784	d
 nin
 gal
 an
@@ -170010,7 +170010,7 @@ ma
 ri
 im
 pi2
-174379	ni
+176804	ni
 ku
 nu
 li
@@ -170022,7 +170022,7 @@ al
 ka
 nim
 pi2
-174392	ni
+176817	ni
 e
 er
 ri
@@ -170046,7 +170046,7 @@ x
 sze
 tu
 nim
-x
+176842	x
 x
 5(disz)
 u4
@@ -170101,7 +170101,7 @@ sza
 i
 na
 ma
-174472	x
+176898	x
 x
 (x)
 szu
@@ -170126,9 +170126,9 @@ ki
 ma
 ib
 ni
-174498	d
+176924	d
 marduk
-174501	be
+176927	be
 li2
 ia
 x
@@ -170146,22 +170146,22 @@ isz
 x
 x
 (x)
-174521	a
+176947	a
 wi
 lum
 x
-174526	sze
+176952	sze
 um
 szu
 u2
-174531	4(asz)
+176957	4(asz)
 sze
 gur
 szu
 a
 ti
 x
-174539	asz
+176965	asz
 ta
 ka
 an
@@ -170192,22 +170192,22 @@ x
 x
 x
 (x)
-a
+176997	a
 na
 disz
-174574	d
+177001	d
 marduk
 mu
 sza
 lim
 disz
-174581	i3
+177008	i3
 li2
 szu
 disz
 ri
 im
-174588	d
+177015	d
 iszkur
 disz
 mu
@@ -170226,16 +170226,16 @@ an
 sze
 me
 a
-174608	disz
+177035	disz
 ugula
 mar
 tu
 ku
 nu
-174615	disz
-174618	ku
+177042	disz
+177045	ku
 nu
-174621	disz
+177048	disz
 nu
 banda3
 ku
@@ -170304,7 +170304,7 @@ li
 im
 sza
 x
-174692	x
+177119	x
 t,e4
 mu
 um
@@ -170312,7 +170312,7 @@ li
 ra
 ha
 am
-a
+177128	a
 na
 a
 wi
@@ -170333,10 +170333,10 @@ um
 ma
 i
 din
-174722	d
+177150	d
 marduk
 ma
-174726	d
+177154	d
 utu
 u3
 d
@@ -170411,7 +170411,7 @@ lu
 mu
 u2
 ur
-x
+177230	x
 x
 x
 x
@@ -170424,7 +170424,7 @@ isz
 ti
 (x)
 x
-174815	qa2
+177244	qa2
 am
 ma
 di
@@ -170463,7 +170463,7 @@ hi
 sze
 eh
 ti
-174855	gesz
+177284	gesz
 gu
 za
 s,a
@@ -170495,7 +170495,7 @@ ti
 szu
 ud
 di
-174888	ma
+177317	ma
 szu
 bi
 lam
@@ -170590,15 +170590,15 @@ am
 x
 x
 x
-174984	szu
+177413	szu
 pu
 ur
 ma
-174989	a
+177418	a
 sza3
 szu
 li
-174994	a
+177424	a
 na
 a
 bi
@@ -170652,7 +170652,7 @@ disz
 i3
 li2
 ra
-175049	e
+177479	e
 dumu
 sa
 bu
@@ -170711,8 +170711,8 @@ na
 qa2
 ti
 la
-175109	s,i2
-a
+177539	s,i2
+177541	a
 na
 sza
 pi2
@@ -170756,7 +170756,7 @@ i3
 dub
 sza
 lu2
-175155	d
+177586	d
 na
 bi
 um
@@ -170774,7 +170774,7 @@ u2
 sza
 disz
 lu2
-175174	d
+177605	d
 nin
 si4
 an
@@ -170798,7 +170798,7 @@ du
 u2
 disz
 lu2
-175199	d
+177630	d
 nin
 si4
 an
@@ -170883,31 +170883,31 @@ gu4
 hi
 a
 disz
-175285	d
+177716	d
 utu
 na
 s,ir
 disz
 lu2
-175292	d
+177723	d
 nin
 si4
 an
 na
 u3
 lu2
-175300	d
-175302	u2
+177731	d
+177733	u2
 ul
 is,
 s,a
 ba
 at
-a
+177740	a
 na
 s,il2
 li2
-175313	d
+177745	d
 utu
 qi2
 bi2
@@ -171037,7 +171037,7 @@ x
 x
 (x)
 x
-175444	x
+177876	x
 x
 x
 x
@@ -171061,7 +171061,7 @@ ra
 am
 szum2
 sar
-175469	a
+177901	a
 na
 bu
 di
@@ -171069,7 +171069,7 @@ ia
 szu
 bi
 lam
-a
+177910	a
 na
 szum
 ma
@@ -171082,7 +171082,7 @@ ma
 e
 tel
 pi2
-175491	d
+177924	d
 marduk
 ma
 disz
@@ -171194,13 +171194,13 @@ iq
 bi
 a
 am
-175609	la
+178042	la
 ta
 pa
 ar
 ri
 ik
-a
+178049	a
 na
 a
 bi
@@ -171212,8 +171212,8 @@ um
 ma
 u
 bar
-175628	d
-175630	ma
+178062	d
+178064	ma
 d
 utu
 u3
@@ -171344,7 +171344,7 @@ a
 na
 x
 x
-175765	a
+178200	a
 na
 a
 hi
@@ -171360,7 +171360,7 @@ ma
 um
 ma
 szu
-175782	d
+178217	d
 mar
 tu
 ma
@@ -171388,7 +171388,7 @@ ia
 li
 x
 szi
-175811	i
+178246	i
 te
 ep
 pu
@@ -171402,7 +171402,7 @@ buru14
 ku
 us,
 s,a
-175826	ma
+178261	ma
 i
 ba
 asz
@@ -171559,7 +171559,7 @@ x
 x
 x
 x
-175984	sa3
+178419	sa3
 sza
 ma
 har
@@ -171572,10 +171572,10 @@ it
 tab
 la
 nim
-a
+178433	a
 na
 lu2
-176001	d
+178437	d
 dumu
 zi
 da
@@ -171586,7 +171586,7 @@ um
 ma
 wa
 tar
-176013	d
+178449	d
 utu
 ma
 d
@@ -171737,7 +171737,7 @@ am
 u2
 t,a
 ab
-a
+178601	a
 na
 d
 suen
@@ -171754,7 +171754,7 @@ li2
 a
 bi
 ma
-176182	d
+178619	d
 utu
 u3
 d
@@ -171784,7 +171784,7 @@ at
 ta
 a
 ma
-176215	x
+178652	x
 x
 x
 (x)
@@ -171795,7 +171795,7 @@ x
 ma
 x
 x
-176227	gesz
+178664	gesz
 mar
 gid2
 da
@@ -171830,21 +171830,21 @@ ka
 ku
 nu
 ki
-x
+178700	x
 x
 a
 na
 be
-176268	x
+178706	x
 (x)
 ma
 szu
-176273	d
-176275	x
+178711	d
+178713	x
 x
 (x)
 be
-176280	x
+178718	x
 x
 (x)
 ka
@@ -171858,7 +171858,7 @@ na
 kar
 zimbir
 ki
-176295	ia
+178733	ia
 ah
 ru
 rum
@@ -171883,16 +171883,16 @@ x
 (x)
 la
 ak
-176322	um
+178760	um
 ma
 at
 ta
 ma
-176328	gesz
+178766	gesz
 ma2
 hi
 a
-176334	a
+178773	a
 na
 d
 nanna
@@ -171930,7 +171930,7 @@ x
 x
 (x)
 ma
-176377	n
+178816	n
 gin2
 ku3
 babbar
@@ -172045,7 +172045,7 @@ ta
 qa2
 ab
 bi
-a
+178932	a
 na
 munus
 um
@@ -172075,7 +172075,7 @@ i
 na
 kar
 ar
-176523	d
+178963	d
 e2
 a
 ka
@@ -172083,7 +172083,7 @@ li
 a
 ku
 disz
-176532	d
+178972	d
 nin
 szubur
 a
@@ -172198,7 +172198,7 @@ la
 a
 ma
 at
-a
+179088	a
 na
 be
 li2
@@ -172209,7 +172209,7 @@ ma
 um
 ma
 lu2
-176659	d
+179100	d
 nin
 si4
 an
@@ -172388,7 +172388,7 @@ be2
 ru
 u2
 ma
-176839	x
+179280	x
 x
 x
 (x)
@@ -172414,7 +172414,7 @@ di
 (x)
 nu
 x
-176866	x
+179307	x
 sza
 il
 li
@@ -172498,7 +172498,7 @@ li
 il
 qu2
 tu
-a
+179392	a
 na
 x
 x
@@ -172511,12 +172511,12 @@ um
 ma
 nu
 ur2
-176964	d
+179406	d
 x
 x
 (x)
 ma
-176970	d
+179412	d
 utu
 u3
 d
@@ -172588,7 +172588,7 @@ nu
 um
 ma
 disz
-177043	d
+179485	d
 utu
 dingir
 u3
@@ -172662,7 +172662,7 @@ am
 ma
 i
 na
-177118	gesz
+179560	gesz
 ma2
 hi
 a
@@ -172675,10 +172675,10 @@ ur
 ki
 ba
 am
+179574	x
 x
 x
-x
-177135	ki
+179578	ki
 a
 am
 ma
@@ -172686,11 +172686,11 @@ har
 be
 li2
 ia
-177144	asz
+179587	asz
 szum
 a
 na
-177149	d
+179592	d
 marduk
 li
 id
@@ -172709,7 +172709,7 @@ mu
 kam
 i
 bi
-177169	d
+179612	d
 nin
 szubur
 sipa
@@ -172721,7 +172721,7 @@ x
 (x)
 isz
 tu
-177183	ki
+179626	ki
 u2
 se
 ep
@@ -172779,7 +172779,7 @@ ti
 u3
 i
 bi
-177242	d
+179685	d
 nin
 szubur
 mu
@@ -172829,7 +172829,7 @@ na
 e2
 i
 bi
-177293	d
+179736	d
 nin
 szubur
 mu
@@ -172846,12 +172846,12 @@ qi2
 i
 im
 ki
-177311	mesz
+179754	mesz
 iri
 ki
-177315	szu
+179758	szu
 ut
-177318	disz
+179761	disz
 na
 hi
 mu
@@ -172917,7 +172917,7 @@ iz
 ma
 i
 na
-177385	gesz
+179828	gesz
 tukul
 sza
 d
@@ -172931,7 +172931,7 @@ gu
 la
 u3
 gesz
-177400	ul
+179843	ul
 tum
 sza
 d
@@ -172949,7 +172949,7 @@ na
 e2
 i
 bi
-177419	d
+179862	d
 nin
 szubur
 wa
@@ -173049,9 +173049,9 @@ x
 x
 (x)
 x
-177520	dumu
+179963	dumu
 ge6
-177523	d
+179966	d
 x
 (x)
 (x)
@@ -173067,7 +173067,7 @@ x
 x
 (x)
 x
-177540	tap
+179983	tap
 pe2
 szu
 nu
@@ -173141,7 +173141,7 @@ un
 ma
 (x)
 szi
-177615	is
+180058	is
 su2
 ma
 ia
@@ -173206,7 +173206,7 @@ ta
 am
 ma
 ru
-a
+180124	a
 na
 x
 x
@@ -173238,7 +173238,7 @@ a
 na
 ku
 ma
-177713	gesz
+180157	gesz
 ma2
 x
 x
@@ -173271,30 +173271,30 @@ du
 u2
 x
 x
-177747	x[...
-177751	x
+180191	x[...
+180195	x
 x
 x
 x
-177756	sza
+180200	sza
 a
 na
 mi
 im
-177762	x
+180206	x
 x
 x
-177766	x
+180210	x
 x
-177769	x
-x
-(x)
-x
-177774	x
+180213	x
 x
 (x)
 x
-177779	a
+180218	x
+x
+(x)
+x
+180224	a
 na
 a
 wi
@@ -173353,7 +173353,7 @@ u3
 2(disz)
 aga
 us2
-a
+180284	a
 na
 li
 pi2
@@ -173399,13 +173399,13 @@ na
 e
 ri
 ib
-177885	d
+180331	d
 suen
 i
 di
 in
 disz
-177892	d
+180338	d
 za
 ba4
 ba4
@@ -173435,18 +173435,18 @@ d
 za
 ba4
 ba4
-a
+180369	a
 na
 s,il2
 li2
-177927	d
+180374	d
 dam
 ki
 na
 u3
 i
 bi
-177935	d
+180382	d
 nin
 szubur
 qi2
@@ -173457,7 +173457,7 @@ ma
 lu
 mur
 sza
-177947	d
+180394	d
 marduk
 d
 utu
@@ -173497,7 +173497,7 @@ na
 bad3
 a
 pil
-177988	d
+180435	d
 suen
 ki
 i
@@ -173545,7 +173545,7 @@ tu
 ha
 ra
 nim
-a
+180484	a
 na
 sza
 pi2
@@ -173558,7 +173558,7 @@ um
 ma
 i
 bi
-178050	d
+180498	d
 suen
 ma
 i
@@ -173754,7 +173754,7 @@ ir
 ti
 lu
 u2
-178247	i
+180695	i
 na
 la
 szuku
@@ -173765,8 +173765,8 @@ na
 al
 la
 ku
-178260	gesz
-178262	hi
+180708	gesz
+180710	hi
 a
 gu2
 gesz
@@ -173847,11 +173847,11 @@ asz
 pu
 ra
 am
-3(u)
+180792	3(u)
 5(asz)
 sze
 gur
-178348	gesz
+180797	gesz
 banesz
 d
 marduk
@@ -173875,7 +173875,7 @@ sag
 ku5
 i
 na
-178373	na4
+180822	na4
 kiszib3
 szu
 ak
@@ -173898,7 +173898,7 @@ asz
 pu
 ra
 am
-x
+180846	x
 x
 x
 (x)
@@ -173999,8 +173999,8 @@ ma
 na
 am
 tu
-178498	la
-178500	i
+180948	la
+180950	i
 nu
 ma
 sza
@@ -174103,7 +174103,7 @@ el
 li
 ti
 ia
-178607	x
+181057	x
 x
 x
 x
@@ -174197,7 +174197,7 @@ ta
 pa
 al
 disz
-178702	d
+181152	d
 utu
 i
 din
@@ -174223,7 +174223,7 @@ an
 la
 u2
 da
-178729	is3
+181179	is3
 su
 u2
 ul
@@ -174298,11 +174298,11 @@ x
 (x)
 um
 mi
-178805	ti
+181255	ti
 ki
-178808	u2
+181258	u2
 disz
-178811	d
+181261	d
 a
 a
 ti
@@ -174318,7 +174318,7 @@ i
 ta
 li
 ki
-178828	a
+181278	a
 na
 s,i
 ir
@@ -174326,7 +174326,7 @@ a
 wi
 lim
 disz
-178837	d
+181287	d
 utu
 i
 din
@@ -174339,7 +174339,7 @@ x
 x
 x
 (x)
-a
+181301	a
 na
 u
 bar
@@ -174352,10 +174352,10 @@ ma
 li
 pi2
 it
-178864	d
+181315	d
 tiszpak
 ma
-178868	d
+181319	d
 utu
 u3
 d
@@ -174368,7 +174368,7 @@ t,u2
 ka
 x
 x
-178882	s,i
+181333	s,i
 qa2
 at
 na
@@ -174435,7 +174435,7 @@ siki
 al
 ti
 mi
-178950	1(u)
+181401	1(u)
 5(disz)
 ma
 na
@@ -174544,7 +174544,7 @@ na
 al
 ti
 mi
-179060	i
+181511	i
 di
 in
 ni
@@ -174602,7 +174602,7 @@ disz
 al
 ti
 mi
-179119	ma
+181570	ma
 har
 ni
 szi
@@ -174683,7 +174683,7 @@ x
 x
 (x)
 (x)
-179201	tup
+181652	tup
 pi2
 a
 na
@@ -174715,14 +174715,14 @@ kum
 ma
 be
 li2
-179234	sin
+181685	sin
 (x)
 (x)
 disz
 al
 ti
 mi
-179242	li
+181693	li
 it
 ru
 ni
@@ -174736,7 +174736,7 @@ pi2
 qi2
 is
 su2
-a
+181708	a
 na
 be
 li2
@@ -174762,7 +174762,7 @@ u2
 i
 na
 iti
-179284	gar
+181736	gar
 u4
 n
 kam
@@ -174780,7 +174780,7 @@ a
 na
 zimbir
 ki
-179303	ia
+181755	ia
 ah
 ru
 rum
@@ -174881,7 +174881,7 @@ na
 bad3
 zimbir
 ki
-179405	ia
+181857	ia
 ah
 ru
 rum
@@ -174974,23 +174974,23 @@ ta
 asz
 szu
 ma
-179499	x
+181951	x
 (x)
 x
 x
 x
 x
-179506	a
+181958	a
 na
 bad3
-179510	ni
+181962	ni
 bi
-179513	u2
+181965	u2
 ub
 ba
-179517	be
+181969	be
 li2
-179520	ni
+181972	ni
 bi
 x
 x
@@ -175068,7 +175068,7 @@ ha
 at
 zimbir
 ki
-179599	ia
+182051	ia
 ah
 ru
 rum
@@ -175144,7 +175144,7 @@ x
 (x)
 (x)
 li
-179676	ih
+182128	ih
 gesz
 hi
 a
@@ -175180,7 +175180,7 @@ i
 na
 zimbir
 ki
-179713	ia
+182165	ia
 ah
 ru
 rum
@@ -175239,13 +175239,13 @@ x
 ma
 har
 x
-179773	lu
+182225	lu
 sza
-179776	a
+182228	a
 na
 te
 x
-179781	a
+182234	a
 na
 a
 wi
@@ -175257,7 +175257,7 @@ um
 ma
 ri
 isz
-179794	d
+182247	d
 marduk
 ma
 d
@@ -175341,13 +175341,13 @@ zu
 dumu
 ib
 ni
-179879	d
+182332	d
 urasz
 x
 (x)
 a
 na
-179886	gesz
+182339	gesz
 apin
 szu
 kin
@@ -175380,7 +175380,7 @@ x
 disz
 qi2
 isz
-179920	d
+182373	d
 marduk
 s,u2
 ha
@@ -175398,7 +175398,7 @@ na
 kar
 zimbir
 ki
-179939	ia
+182392	ia
 ah
 ru
 rum
@@ -175452,7 +175452,7 @@ is
 ni
 qa2
 am
-a
+182447	a
 na
 a
 si
@@ -175464,7 +175464,7 @@ um
 ma
 a
 pil2
-180006	d
+182460	d
 er3
 ra
 ma
@@ -175522,10 +175522,10 @@ ap
 t,a
 ru
 tim
-180065	disz
+182519	disz
 gi
 mil
-180069	d
+182523	d
 suen
 u2
 sza
@@ -175539,7 +175539,7 @@ ab
 ba
 la
 kum
-a
+182538	a
 na
 e
 te
@@ -175595,7 +175595,7 @@ ni
 x
 x
 x
-180140	tum
+182595	tum
 mar
 du
 um
@@ -175717,11 +175717,11 @@ a
 x
 x
 x
-180263	asz
+182718	asz
 x
 x
 x
-180268	a
+182724	a
 na
 du10
 ga
@@ -175733,7 +175733,7 @@ um
 ma
 wa
 tar
-180281	d
+182737	d
 utu
 ma
 d
@@ -175767,7 +175767,7 @@ bi
 tum
 mu
 le
-180316	tim
+182772	tim
 sag
 geme2
 sza
@@ -175831,7 +175831,7 @@ ki
 ma
 sza
 iti
-180382	gar
+182838	gar
 i
 di
 tu
@@ -175857,7 +175857,7 @@ usz
 bi
 iri
 ki
-180409	wa
+182865	wa
 ar
 ki
 i
@@ -175917,10 +175917,10 @@ iq
 bi
 a
 am
-am
+182926	am
 sza
 li
-180473	at
+182930	at
 ta
 di
 in
@@ -176109,7 +176109,7 @@ a
 na
 ig
 mil
-180663	d
+183120	d
 za
 ba4
 ba4
@@ -176121,11 +176121,11 @@ x
 (x)
 x
 x
-180676	x
+183133	x
 da
 ni
 nu
-180681	nu
+183138	nu
 ma
 3(barig)
 ta
@@ -176143,7 +176143,7 @@ szu
 nu
 szi
 im
-a
+183157	a
 na
 mu
 na
@@ -176203,7 +176203,7 @@ a
 na
 i
 bi
-180760	d
+183218	d
 nin
 szubur
 id
@@ -176251,7 +176251,7 @@ am
 szu
 szi
 ib
-a
+183267	a
 na
 ku
 uk
@@ -176282,7 +176282,7 @@ disz
 li
 pi2
 it
-180840	d
+183299	d
 suen
 dumu
 na
@@ -176323,7 +176323,7 @@ disz
 li
 pi2
 it
-180882	d
+183341	d
 suen
 dumu
 na
@@ -176335,7 +176335,7 @@ na
 x
 x
 disz
-180895	d
+183354	d
 iszkur
 ma
 an
@@ -176379,7 +176379,7 @@ na
 x
 ti
 szu
-a
+183399	a
 na
 d
 suen
@@ -176438,11 +176438,11 @@ gal
 ta
 pa
 al
-a
+183459	a
 na
 a
 pil
-181003	d
+183464	d
 mar
 tu
 qi2
@@ -176475,7 +176475,7 @@ u2
 ma
 1(iku)
 1/2(iku)
-181037	a
+183498	a
 sza3
 a
 na
@@ -176492,7 +176492,7 @@ t,e4
 hu
 u2
 1(disz)
-181055	gesz
+183516	gesz
 apin
 sza
 s,i
@@ -176508,7 +176508,7 @@ il
 qi2
 a
 1(disz)
-181072	gesz
+183533	gesz
 apin
 sza
 ku
@@ -176525,7 +176525,7 @@ il
 qi2
 a
 1(disz)
-181090	gesz
+183551	gesz
 apin
 sza
 d
@@ -176556,7 +176556,7 @@ am
 ma
 ru
 1(disz)
-181122	gesz
+183583	gesz
 apin
 ta
 am3
@@ -176586,7 +176586,7 @@ ma
 hu
 um
 t,a
-181153	a
+183614	a
 sza3
 lam
 it
@@ -176637,7 +176637,7 @@ na
 s,e
 er
 disz
-181205	d
+183666	d
 x
 (x)
 x
@@ -176671,7 +176671,7 @@ i3
 u3
 zu2
 lum
-181240	gesz
+183701	gesz
 apin
 mesz
 sza3
@@ -176683,7 +176683,7 @@ ka
 as
 si2
 sza
-181253	d
+183714	d
 suen
 sze
 me
@@ -176711,7 +176711,7 @@ li
 qi2
 a
 am
-a
+183743	a
 na
 a
 ad
@@ -176727,7 +176727,7 @@ ur2
 ta
 ni
 ma
-181298	d
+183760	d
 ma
 lik
 u3
@@ -176873,7 +176873,7 @@ x
 (x)
 bu
 ub
-181448	na
+183910	na
 pi2
 a
 at
@@ -176963,11 +176963,11 @@ ih
 ta
 li
 iq
-181539	a
+184002	a
 na
 x
 x
-181544	d
+184007	d
 gu
 la
 qi2
@@ -176978,7 +176978,7 @@ ma
 ku
 ur
 ba
-181556	d
+184019	d
 suen
 ma
 asz
@@ -177045,7 +177045,7 @@ x
 disz
 babila2
 ki
-181624	x
+184087	x
 x
 (x)
 ki
@@ -177118,7 +177118,7 @@ ia
 e
 pu
 usz
-x
+184161	x
 x
 x
 x
@@ -177135,7 +177135,7 @@ u3
 a
 wi
 il
-181715	d
+184179	d
 iszkur
 mi
 x
@@ -177166,7 +177166,7 @@ nim
 disz
 an
 pi4
-181747	d
+184211	d
 a
 a
 as,
@@ -177218,13 +177218,13 @@ bi
 a
 am
 ma
-181800	disz
-181802	d
+184264	disz
+184266	d
 iszkur
 ma
 an
 szum2
-181808	ka
+184272	ka
 a
 na
 s,e
@@ -177309,7 +177309,7 @@ bi
 disz
 an
 pi4
-181894	d
+184358	d
 a
 a
 szu
@@ -177345,7 +177345,7 @@ x
 x
 (x)
 disz
-181931	d
+184395	d
 marduk
 mu
 ba
@@ -177366,28 +177366,28 @@ ta
 x
 x
 (x)
-a
+184417	a
 na
-181955	x
+184420	x
 ia
 qi2
 bi2
 ma
 um
 ma
-181963	na
-181966	an
-181968	da
+184428	na
+184431	an
+184433	da
 ba
 bi
 im
-181973	x
+184438	x
 x
 ni
 in
 ni
 ma
-181980	x
+184445	x
 u2
 ta
 asz
@@ -177396,7 +177396,7 @@ ru
 ni
 in
 ni
-181990	x
+184455	x
 ma
 an
 nu
@@ -177404,7 +177404,7 @@ sza
 be2
 ru
 ma
-181999	x
+184464	x
 i
 na
 na
@@ -177414,7 +177414,7 @@ tim
 a
 ma
 at
-182010	a
+184475	a
 di
 ni
 u2
@@ -177424,38 +177424,38 @@ ga
 am
 ma
 ra
-182021	x
+184486	x
 asz
 pu
 ra
 am
-182027	x
+184493	x
 x
 x
-182032	x
+184498	x
 szi
 ip
 ra
 am
-182039	hu
+184505	hu
 a
 na
 re
 szi
 im
-182047	x
-182049	la
-182052	ba
+184513	x
+184515	la
+184518	ba
 ri2
 ga
 a
 na
 erin2
 x
-182061	x
+184527	x
 mesz
-182066	sze
-182069	x
+184532	sze
+184536	x
 x
 x
 x
@@ -177472,7 +177472,7 @@ x
 a
 wi
 il
-182087	d
+184554	d
 suen
 sza
 pir
@@ -177527,11 +177527,11 @@ a
 pu
 ul
 szu
-a
+184610	a
 na
 nu
 ur2
-182147	d
+184615	d
 suen
 qi2
 bi2
@@ -177561,7 +177561,7 @@ ti
 disz
 im
 gur
-182178	d
+184646	d
 suen
 asz
 ta
@@ -177592,7 +177592,7 @@ tim
 x
 (x)
 x
-182210	sza
+184678	sza
 mu
 2(disz)
 kam
@@ -177653,7 +177653,7 @@ sa6
 li
 t,i3
 ib
-a
+184740	a
 na
 ar
 na
@@ -177703,7 +177703,7 @@ lum
 e
 li
 ia
-182322	ul
+184791	ul
 lu
 ma
 am
@@ -177729,7 +177729,7 @@ ki
 ma
 ka
 x
-182349	szu
+184818	szu
 at
 ba
 al
@@ -177785,7 +177785,7 @@ ia
 szu
 bi
 lim
-a
+184875	a
 na
 lu2
 igi
@@ -177796,7 +177796,7 @@ ma
 um
 ma
 szu
-182417	d
+184887	d
 na
 na
 a
@@ -177818,7 +177818,7 @@ nu
 bar
 ra
 ki
-182440	i
+184910	i
 ti
 al
 ku
@@ -177830,7 +177830,7 @@ ma
 an
 sza
 ti
-182453	bi
+184923	bi
 u2
 s,a
 ba
@@ -177882,7 +177882,7 @@ lu
 li
 ka
 am
-a
+184976	a
 na
 lu2
 igi
@@ -177902,7 +177902,7 @@ a
 na
 am
 tu
-182526	a
+184997	a
 ma
 e
 s,i
@@ -177955,7 +177955,7 @@ la
 te
 gi
 i
-a
+185051	a
 na
 ba
 ni
@@ -178013,7 +178013,7 @@ la
 mi
 id
 ka
-a
+185110	a
 na
 d
 iszkur
@@ -178059,7 +178059,7 @@ ia
 disz
 ib
 ni
-182684	d
+185157	d
 suen
 id
 du
@@ -178068,7 +178068,7 @@ szum
 ma
 an
 la
-182694	ur2
+185167	ur2
 ri
 a
 na
@@ -178106,7 +178106,7 @@ ir
 i
 di
 in
-a
+185206	a
 na
 ba
 a
@@ -178191,7 +178191,7 @@ am
 i
 di
 szum
-a
+185292	a
 na
 lu2
 igi
@@ -178227,7 +178227,7 @@ li
 di
 na
 am
-a
+185329	a
 na
 a
 la
@@ -178249,11 +178249,11 @@ u3
 sila3
 sa3
 as
-182876	am
+185352	am
 a
 na
 disz
-182881	i3
+185357	i3
 li2
 szu
 i
@@ -178261,10 +178261,10 @@ di
 in
 a
 na
-182892	u2
+185368	u2
 ta
 x
-a
+185372	a
 na
 lu2
 igi
@@ -178281,11 +178281,11 @@ ma
 al
 pu
 ka
-182913	u2
+185390	u2
 la
 i
 la
-182918	u3
+185395	u3
 ku3
 babbar
 a
@@ -178315,7 +178315,7 @@ hi
 a
 a
 hu
-182949	iq
+185426	iq
 bi
 e
 ku3
@@ -178364,7 +178364,7 @@ ni
 im
 u3
 puzur4
-182999	d
+185476	d
 suen
 i
 ta
@@ -178404,11 +178404,11 @@ ka
 i
 ka
 x
-183040	gan2
+185517	gan2
 lam
-183043	szum
+185520	szum
 ma
-183046	ta
+185523	ta
 qa2
 ab
 bi
@@ -178434,7 +178434,7 @@ di
 nu
 ni
 im
-a
+185550	a
 na
 ba
 a
@@ -178457,7 +178457,7 @@ im
 bi
 ti
 tu
-183096	la
+185574	la
 ah
 u3
 e2
@@ -178545,7 +178545,7 @@ ti
 e
 szi
 ka
-a
+185663	a
 na
 lu2
 igi
@@ -178567,13 +178567,13 @@ ha
 am
 e
 ma
-183207	tu
+185686	tu
 mi
 x
 ih
 li
-183213	ni
-183215	as
+185692	ni
+185694	as
 hu
 ur
 szu
@@ -178604,10 +178604,10 @@ al
 szu
 bi
 su2
-183247	disz
+185726	disz
 na
 bi
-183251	d
+185730	d
 suen
 szu
 ur
@@ -178681,11 +178681,11 @@ asz
 la
 x
 x
-a
+185805	a
 na
 nu
 ur2
-183330	d
+185810	d
 suen
 be
 li2
@@ -178700,7 +178700,7 @@ igi
 sa6
 ma
 disz
-183347	d
+185827	d
 nanna
 ma
 pa
@@ -178763,7 +178763,7 @@ la
 x
 x
 x
-183411	lu
+185891	lu
 mu
 ur
 szu
@@ -178793,7 +178793,7 @@ ih
 mu
 t,a2
 am
-a
+185922	a
 na
 ba
 a
@@ -178806,7 +178806,7 @@ um
 ma
 nu
 ur2
-183455	d
+185936	d
 suen
 ma
 im
@@ -178861,11 +178861,11 @@ et
 a
 pu
 tum
-a
+185992	a
 na
 nu
 ur2
-183515	d
+185997	d
 suen
 qi2
 bi2
@@ -178986,7 +178986,7 @@ an
 na
 wa
 ra
-183637	ah
+186119	ah
 bi
 it
 ka
@@ -179033,7 +179033,7 @@ um
 e
 pu
 usz
-a
+186167	a
 na
 wu
 tu
@@ -179078,7 +179078,7 @@ su2
 u3
 sza
 ra
-183730	szu
+186213	szu
 a
 di
 szu
@@ -179086,13 +179086,13 @@ um
 ma
 nu
 ur2
-183739	d
+186222	d
 kab
 ta
 u2
 x[...
 a
-183746	x
+186229	x
 (x)
 i
 te
@@ -179112,7 +179112,7 @@ qa2
 bi
 ku
 um
-a
+186250	a
 na
 li
 pi2
@@ -179140,7 +179140,7 @@ sza
 disz
 ia
 bi
-183795	lu
+186279	lu
 ub
 wu
 sze
@@ -179148,7 +179148,7 @@ er
 a
 pu
 tum
-a
+186288	a
 na
 x
 (x)
@@ -179175,7 +179175,7 @@ am
 i
 na
 pa
-183831	di
+186316	di
 ia
 6(asz)
 n(barig)
@@ -179190,7 +179190,7 @@ tim
 3(ban2)
 sza
 i
-183847	im
+186332	im
 sze
 am
 e
@@ -179241,7 +179241,7 @@ szu
 li
 t,i3
 ib
-a
+186384	a
 na
 d
 suen
@@ -179257,7 +179257,7 @@ qu2
 esz18
 dar
 u3
-183915	d
+186401	d
 suen
 i
 tu
@@ -179320,7 +179320,7 @@ di
 a
 me
 er
-183979	d
+186465	d
 utu
 ma
 asz
@@ -179382,7 +179382,7 @@ ma
 sza
 at
 ta
-184042	de
+186528	de
 esz
 ma
 ta
@@ -179390,7 +179390,7 @@ qa2
 ab
 bu
 u2
-184051	szi
+186537	szi
 im
 pi
 isz
@@ -179413,7 +179413,7 @@ di
 a
 me
 er
-184075	d
+186561	d
 utu
 i
 na
@@ -179497,7 +179497,7 @@ u2
 disz
 a
 pil
-184160	d
+186646	d
 suen
 a
 wi
@@ -179521,7 +179521,7 @@ ah
 szum
 ma
 na
-184185	u2
+186671	u2
 qi2
 bi
 szum
@@ -179543,7 +179543,7 @@ ki
 ma
 a
 pil
-184208	d
+186694	d
 suen
 nu
 u2
@@ -179599,7 +179599,7 @@ li
 t,u2
 u2
 ka
-a
+186774	a
 na
 mu
 ha
@@ -179618,11 +179618,11 @@ ka2
 dingir
 ra
 ki
-184284	ma
-184286	d
+186794	ma
+186796	d
 utu
 u3
-184290	d
+186800	d
 amar
 utu
 li
@@ -179638,7 +179638,7 @@ szum
 di
 nim
 sza
-184307	disz
+186817	disz
 dingir
 szu
 i
@@ -179646,7 +179646,7 @@ bi
 szu
 dumu
 ir3
-184316	d
+186826	d
 en
 zu
 u3
@@ -179769,7 +179769,7 @@ li
 id
 di
 nu
-a
+186950	a
 na
 be
 li
@@ -179787,7 +179787,7 @@ al
 sa3
 am
 ma
-184458	d
+186969	d
 utu
 li
 ba
@@ -179805,7 +179805,7 @@ zi
 bu
 u2
 ma
-184478	x
+186989	x
 mesz
 el
 te
@@ -179820,7 +179820,7 @@ im
 ma
 e
 li
-184494	d
+187005	d
 inanna
 masz
 mu
@@ -179836,7 +179836,7 @@ u2
 wu
 szi
 ir
-a
+187022	a
 na
 szu
 mi
@@ -179848,14 +179848,14 @@ bi2
 ma
 um
 ma
-184523	d
+187035	d
 utu
 mu
 ba
 li2
 it,
 ma
-184531	d
+187043	d
 utu
 li
 ba
@@ -179869,7 +179869,7 @@ dumu
 mesz
 nu
 ur2
-184546	d
+187058	d
 utu
 sza
 qa2
@@ -179890,19 +179890,19 @@ te
 el
 qu2
 u2
-184568	disz
-184570	d
+187080	disz
+187082	d
 en
 zu
 ma
 gir
 x
-184577	disz
+187089	disz
 nu
 ur2
-184581	d
+187093	d
 utu
-184585	im
+187097	im
 hu
 ur
 x
@@ -179981,7 +179981,7 @@ ta
 sza
 qa2
 al
-a
+187177	a
 na
 be
 el
@@ -179992,13 +179992,13 @@ bi2
 ma
 um
 ma
-184676	d
+187189	d
 utu
 ha
 zi
 ir
 ma
-184683	d
+187196	d
 utu
 li
 ba
@@ -180046,7 +180046,7 @@ im
 ma
 u3
 di
-184732	ti
+187245	ti
 ia
 la
 sza
@@ -180061,7 +180061,7 @@ lam
 um
 ma
 mi
-184748	pa
+187261	pa
 t,a
 ri
 u2
@@ -180086,7 +180086,7 @@ gar
 i
 na
 ra
-184774	szu
+187287	szu
 nu
 lu
 u2
@@ -180094,12 +180094,12 @@ ku
 un
 nu
 u2
-a
+187296	a
 na
-184786	wi
+187300	wi
 il
 dingir
-184790	d
+187304	d
 utu
 na
 s,i
@@ -180128,7 +180128,7 @@ bi2
 ma
 um
 ma
-184820	d
+187334	d
 utu
 na
 s,i
@@ -180156,13 +180156,13 @@ hu
 ut
 ka
 u3
-184849	ut
+187363	ut
 ka
 a
 am
 ma
 ar
-184856	um
+187370	um
 ma
 at
 ta
@@ -180184,9 +180184,9 @@ za
 az
 a
 zu
-184879	a
+187393	a
 na
-184882	d
+187396	d
 en
 zu
 ma
@@ -180221,9 +180221,9 @@ li
 hu
 zu
 u2
-a
+187432	a
 na
-184920	d
+187435	d
 iszkur
 ra
 bi
@@ -180232,11 +180232,11 @@ bi2
 ma
 um
 ma
-184930	x
-184933	d
+187445	x
+187448	d
 utu
 u3
-184937	d
+187452	d
 amar
 utu
 li
@@ -180260,7 +180260,7 @@ am
 e
 ri
 isz
-184962	x
+187477	x
 szi
 it
 ti
@@ -180296,7 +180296,7 @@ ta
 ra
 asz
 szi
-a
+187514	a
 na
 ku
 un
@@ -180311,10 +180311,10 @@ hu
 usz
 ki
 ma
-185014	d
+187530	d
 utu
 u3
-185018	d
+187534	d
 amar
 utu
 li
@@ -180327,7 +180327,7 @@ a
 nu
 um
 ma
-185032	d
+187548	d
 en
 zu
 na
@@ -180345,7 +180345,7 @@ sze
 gur
 szum
 ma
-185051	sze
+187567	sze
 gur
 a
 na
@@ -180419,7 +180419,7 @@ am
 gur
 sza
 i
-185126	mu
+187642	mu
 hu
 ur
 ma
@@ -180429,7 +180429,7 @@ ku
 ru
 ma
 at
-185137	bi
+187653	bi
 ti
 ia
 szu
@@ -180449,13 +180449,13 @@ im
 i
 di
 szum
-a
+187674	a
 na
 lu
 usz
 ta
 mar
-185164	d
+187681	d
 za
 ba4
 ba4
@@ -180475,8 +180475,8 @@ mu
 ra
 bi
 ma
-185185	disz
-185187	d
+187702	disz
+187704	d
 en
 zu
 a
@@ -180484,7 +180484,7 @@ na
 du10
 gar
 ki
-185196	li
+187713	li
 ip
 pa
 li
@@ -180525,7 +180525,7 @@ pu
 ut,
 ra
 szu
-a
+187755	a
 na
 x
 x
@@ -180544,7 +180544,7 @@ pi
 nu
 um
 ma
-185257	d
+187775	d
 utu
 li
 ba
@@ -180552,7 +180552,7 @@ al
 li
 it,
 ki
-185266	disz
+187784	disz
 u2
 s,i2
 bi
@@ -180566,8 +180566,8 @@ um
 ma
 szu
 ma
-185281	disz
-185283	d
+187799	disz
+187801	d
 en
 zu
 mu
@@ -180600,7 +180600,7 @@ i
 din
 e2
 mah
-185317	1/2(disz)
+187835	1/2(disz)
 gin2
 ku3
 babbar
@@ -180609,10 +180609,10 @@ qu2
 szu
 u2
 ra
-185327	disz
+187845	disz
 s,i
 li2
-185331	d
+187849	d
 utu
 ir
 te
@@ -180633,13 +180633,13 @@ ka
 la
 ni
 in
-185353	disz
+187871	disz
 li
 pi
 it
 e2
 a
-185360	1/2(disz)
+187878	1/2(disz)
 gin2
 ku3
 babbar
@@ -180666,7 +180666,7 @@ sza
 qa2
 al
 ri
-185388	a
+187906	a
 u2
 sza
 ti
@@ -180692,7 +180692,7 @@ ur
 di
 im
 ma
-185415	ka
+187933	ka
 al
 li
 im
@@ -180718,25 +180718,25 @@ ma
 at
 x
 ma
-185442	x
+187960	x
 x
-185446	mi
+187964	mi
 hi
 ir
-185450	i
+187968	i
 ma
-185453	a
+187972	a
 na
 wa
 tar
-185458	d
+187977	d
 utu
 qi2
 bi2
 ma
 um
 ma
-185466	d
+187985	d
 en
 zu
 mu
@@ -180744,7 +180744,7 @@ usz
 ta
 al
 ma
-185475	d
+187994	d
 utu
 li
 ba
@@ -180766,7 +180766,7 @@ zi
 iq
 asz
 szum
-185498	d
+188017	d
 szul
 pa
 e3
@@ -180784,7 +180784,7 @@ ma
 at
 ta
 ma
-185517	ib
+188036	ib
 t,i
 lu
 ma
@@ -180819,15 +180819,15 @@ a
 na
 disz
 i
-185553	rum
+188072	rum
 u3
-185556	d
+188075	d
 amar
 utu
 mu
 sza
 lim
-185563	x
+188082	x
 szum
 li
 bi
@@ -180905,10 +180905,10 @@ ih
 hu
 ri
 sza
-185642	d
+188161	d
 amar
 utu
-185646	ha
+188165	ha
 am
 ma
 a
@@ -180918,12 +180918,12 @@ li
 pu
 sza
 am
-a
+188176	a
 na
 a
 wi
 il
-185662	d
+188182	d
 iszkur
 qi2
 bi2
@@ -180932,10 +180932,10 @@ um
 ma
 a
 pil
-185672	d
+188192	d
 utu
 ma
-185676	d
+188196	d
 utu
 li
 ba
@@ -180975,7 +180975,7 @@ tu
 ha
 ra
 am
-a
+188237	a
 na
 a
 bi
@@ -180989,7 +180989,7 @@ a
 ba
 a
 ma
-185731	d
+188252	d
 utu
 li
 ba
@@ -181004,14 +181004,14 @@ ma
 disz
 s,i
 li2
-185747	d
+188268	d
 x
 at,
 t,ar
 da
 ak
 kum
-185755	gisz
+188276	gisz
 ma2
 mesz
 2(u)
@@ -181034,15 +181034,15 @@ ia
 szu
 ra
 am
-a
+188300	a
 na
 ig
 mil
-185783	d
+188305	d
 en
 zu
 u3
-185788	d
+188310	d
 en
 zu
 ta
@@ -181054,7 +181054,7 @@ bi2
 ma
 um
 ma
-185801	d
+188323	d
 utu
 ga
 mil
@@ -181124,23 +181124,23 @@ x
 tim
 x
 x
-185872	x
+188394	x
 x
 x
 szu
-185877	ul
+188399	ul
 tu/li
 x
 la
 x
 x
 x
-185886	pu
+188408	pu
 ut,
 ra
 ma
 x
-185892	ar
+188414	ar
 szi
 szu
 pi2
@@ -181179,7 +181179,7 @@ hi
 u3
 nu
 ur2
-185932	d
+188454	d
 utu
 sza
 asz
@@ -181255,19 +181255,19 @@ te
 e
 gi
 a
-a
+188531	a
 na
 a
 wi
 lim
 sza
-186015	d
+188538	d
 mar
 tu
 il
 szu
 u3
-186022	d
+188545	d
 amar
 utu
 u2
@@ -181283,14 +181283,14 @@ um
 ma
 i
 bi
-186039	d
+188562	d
 nin
 szubur
 ma
-186044	d
+188567	d
 utu
 u3
-186048	d
+188571	d
 amar
 utu
 da
@@ -181388,8 +181388,8 @@ bi
 szu
 gir3
 nita2
-186147	disz
-186149	na
+188670	disz
+188672	na
 bi
 e2
 a
@@ -181415,7 +181415,7 @@ szu
 ma
 a
 na
-186176	d
+188699	d
 utu
 li
 wi
@@ -181499,11 +181499,11 @@ ra
 s,a
 ak
 kum
-186261	ir
+188784	ir
 t,up
 pi2
 ia
-186267	a
+188791	a
 na
 a
 bu
@@ -181515,16 +181515,16 @@ bi2
 ma
 um
 ma
-186280	d
+188804	d
 nirah
 qar
 ra
 ad
 ma
-186287	d
+188811	d
 utu
 u3
-186291	d
+188815	d
 gir3
 unu
 gal
@@ -181547,7 +181547,7 @@ na
 bad3
 tibira
 ki
-186315	ni
+188839	ni
 in
 na
 me
@@ -181573,7 +181573,7 @@ an
 nu
 ki
 ma
-186342	d
+188866	d
 utu
 u2
 sza
@@ -181586,7 +181586,7 @@ an
 nu
 ki
 ma
-186356	d
+188880	d
 utu
 u2
 la
@@ -181615,7 +181615,7 @@ ma
 ka
 al
 ba
-186386	na
+188910	na
 ah
 dam
 u2
@@ -181648,11 +181648,11 @@ ia
 x
 x
 ma
-186420	ururdu
+188944	ururdu
 tun3
 sal
 u3
-186425	urudu
+188949	urudu
 mar
 a
 na
@@ -181699,11 +181699,11 @@ sza
 bi
 lam
 ma
-186473	an
+188997	an
 nu
 um
 ma
-186478	gu2
+189002	gu2
 urudu
 sza
 aq
@@ -181723,32 +181723,32 @@ an
 nu
 ki
 ma
-186499	d
+189023	d
 utu
-186503	x
-186506	ba
+189027	x
+189030	ba
 lam
-186510	um
-186512	ti
+189034	um
+189036	ti
 du
 u2
-186516	nam
-186518	ab
+189040	nam
+189042	ab
 ba
 lam
-186522	sza
+189046	sza
 ab
 ba
 lam
-186527	x
+189051	x
 ka
 al
-186531	x
+189055	x
 ma
 lu
 mu
 ur
-a
+189061	a
 na
 in
 bi
@@ -181762,10 +181762,10 @@ um
 ma
 wa
 tar
-186551	d
+189076	d
 utu
 ma
-186555	d
+189080	d
 utu
 li
 ba
@@ -181811,8 +181811,8 @@ qi2
 a
 am
 ma
-186602	disz
-186604	d
+189127	disz
+189129	d
 en
 zu
 i
@@ -181861,7 +181861,7 @@ bi
 kum
 u2
 ul
-186654	d
+189179	d
 en
 zu
 dingir
@@ -181881,7 +181881,7 @@ a
 x
 x
 x
-186675	e
+189200	e
 ka
 u2
 te
@@ -181898,8 +181898,8 @@ ia
 iq
 bi
 u3
-186693	x
-186695	a
+189218	x
+189220	a
 hu
 u2
 szu
@@ -182008,7 +182008,7 @@ u2
 x
 ta
 bi
-186805	ta
+189330	ta
 am
 ip
 ra
@@ -182028,7 +182028,7 @@ da
 ni
 in
 ni
-a
+189351	a
 na
 a
 da
@@ -182040,13 +182040,13 @@ um
 ma
 szi
 ip
-186838	d
+189364	d
 iszkur
 ma
-186842	d
+189368	d
 utu
 u3
-186846	d
+189372	d
 iszkur
 asz
 szum
@@ -182073,7 +182073,7 @@ a
 na
 a
 pil
-186874	d
+189400	d
 iszkur
 asz
 ku
@@ -182085,12 +182085,12 @@ gur
 zu2
 lum
 szu
-186887	(x)
+189413	(x)
 gur
 im
 du
 ud
-186893	gur
+189419	gur
 ba
 zi
 na
@@ -182152,14 +182152,14 @@ din
 nam
 i
 na
-186956	gur
+189482	gur
 zu2
 lum
-186960	gur
+189486	gur
 im
 du
 ud
-186965	gur
+189491	gur
 ba
 zi
 na
@@ -182169,7 +182169,7 @@ na
 si
 it
 ti
-186976	gur
+189502	gur
 asz
 sza
 su2
@@ -182189,7 +182189,7 @@ ma
 an
 ha
 mu
-186997	am
+189523	am
 i
 sza
 tum
@@ -182244,7 +182244,7 @@ la
 szu
 nu
 ti
-a
+189579	a
 na
 sza
 pi2
@@ -182260,10 +182260,10 @@ ri
 ba
 tum
 ma
-187069	d
+189596	d
 utu
 u3
-187073	d
+189600	d
 amar
 utu
 da
@@ -182413,7 +182413,7 @@ sza
 pi2
 ri
 ia
-187224	i3
+189751	i3
 gisz
 lu
 sza
@@ -182465,7 +182465,7 @@ i
 na
 pa
 ni
-187277	sza
+189804	sza
 pi2
 ri
 ia
@@ -182517,16 +182517,16 @@ ri
 ia
 dug3
 bu
-a
+189857	a
 na
-187332	ha
+189860	ha
 a
 qi2
 bi2
 ma
 um
 ma
-187340	d
+189868	d
 en
 zu
 i
@@ -182536,7 +182536,7 @@ ma
 isz8
 tar2
 u3
-187351	d
+189879	d
 za
 ba4
 ba4
@@ -182546,15 +182546,15 @@ al
 li
 t,u2
 ki
-187362	zid2
+189890	zid2
 da
 na
 x
-187367	x
-187369	zid2
+189895	x
+189897	zid2
 da
 na
-187373	x
+189901	x
 i
 zi
 bu
@@ -182567,13 +182567,13 @@ zid2
 da
 id
 ni
-187391	x
+189919	x
 x
 x
 x
 usz
 u2
-187398	x
+189926	x
 x
 x
 x
@@ -182582,7 +182582,7 @@ x
 ad
 di
 in
-a
+189936	a
 na
 e
 ri
@@ -182594,7 +182594,7 @@ um
 ma
 na
 bi
-187420	d
+189949	d
 en
 zu
 ma
@@ -182622,8 +182622,8 @@ re
 e
 em
 sza
-187449	disz
-187451	d
+189978	disz
+189980	d
 utu
 na
 s,i
@@ -182632,7 +182632,7 @@ ir
 i
 il
 lu
-187461	i
+189990	i
 di
 in
 u3
@@ -182673,7 +182673,7 @@ ta
 ka
 al
 la
-187503	a
+190032	a
 di
 al
 la
@@ -182687,7 +182687,7 @@ na
 am
 ma
 ar
-a
+190047	a
 na
 x
 x
@@ -182697,16 +182697,16 @@ bi2
 ma
 um
 ma
-187528	d
+190058	d
 en
 zu
-187532	ma
+190062	ma
 a
 na
 e2
 a
 wi
-187539	a
+190069	a
 li
 ik
 ma
@@ -182775,13 +182775,13 @@ ik
 nu
 uk
 szu
-a
+190139	a
 na
 a
 wi
 lim
 sza
-187615	d
+190146	d
 amar
 utu
 u2
@@ -182795,16 +182795,16 @@ bi2
 ma
 um
 ma
-187630	d
+190161	d
 amar
 utu
 ba
 ni
 ma
-187637	d
+190168	d
 utu
 u3
-187641	d
+190172	d
 amar
 utu
 da
@@ -182848,7 +182848,7 @@ ad
 di
 in
 sig2
-187686	szu
+190217	szu
 u2
 ul
 i
@@ -182859,8 +182859,8 @@ im
 ma
 sza
 ta
-187698	x
-187700	x
+190229	x
+190231	x
 ti
 du
 u2
@@ -182885,11 +182885,11 @@ a
 na
 ku
 u2
-a
+190257	a
 na
 i
 din
-187730	d
+190262	d
 en
 zu
 qi2
@@ -182897,7 +182897,7 @@ bi2
 ma
 um
 ma
-187739	d
+190271	d
 en
 zu
 im
@@ -182905,7 +182905,7 @@ gur
 an
 ni
 ma
-187748	d
+190280	d
 utu
 li
 ba
@@ -182931,7 +182931,7 @@ sza
 szir
 burla
 ki
-187775	u2
+190307	u2
 sza
 ki
 i
@@ -182942,7 +182942,7 @@ nu
 u2
 ma
 disz
-187787	d
+190319	d
 ha
 ni
 mu
@@ -182973,20 +182973,20 @@ in
 ni
 i
 ma
-187819	iti
+190351	iti
 1(disz)
 kam
 wa
 at
 ra
 am
-187827	ni
+190359	ni
 in
 ni
 ...x
 x
 ba
-187834	mu
+190366	mu
 ur
 ma
 i
@@ -182997,15 +182997,15 @@ du
 uk
 kam
 x
-187846	mu
+190378	mu
 sza
 lim
 x
-187851	ur
+190383	ur
 ri
 im
 x
-187856	ma
+190388	ma
 ...pu
 ra
 am
@@ -183030,7 +183030,7 @@ tim
 i
 di
 in
-a
+190414	a
 na
 la
 lu
@@ -183042,14 +183042,14 @@ um
 ma
 sze
 ep
-187894	d
+190427	d
 en
 zu
 ma
-187899	d
+190432	d
 utu
 u3
-187903	d
+190436	d
 nin
 szubur
 da
@@ -183097,7 +183097,7 @@ um
 la
 ma
 szi
-187952	u3
+190485	u3
 gu4
 hi
 a
@@ -183169,7 +183169,7 @@ i
 na
 qa2
 ti
-188025	ha
+190558	ha
 ri
 im
 sza
@@ -183184,7 +183184,7 @@ hu
 ul
 lu
 u3
-188041	1/2(disz)
+190574	1/2(disz)
 gin2
 ku3
 gi
@@ -183194,7 +183194,7 @@ qa2
 ti
 i
 din
-188052	d
+190585	d
 na
 na
 a
@@ -183221,7 +183221,7 @@ hu
 ul
 li
 u3
-188080	1/2(disz)
+190613	1/2(disz)
 gin2
 ku3
 gi
@@ -183247,7 +183247,7 @@ ga
 li
 eb
 szi
-a
+190640	a
 na
 be
 li2
@@ -183259,7 +183259,7 @@ um
 ma
 s,i
 li2
-188119	d
+190653	d
 utu
 ma
 asz
@@ -183399,7 +183399,7 @@ a
 na
 ku
 ma
-188260	1/2(disz)
+190794	1/2(disz)
 ma
 na
 5(disz)
@@ -183407,18 +183407,18 @@ gin2
 ku3
 babbar
 sza
-188269	x
+190803	x
 x
 x
 it
 ti
 x
-188276	ma
+190810	ma
 ha
 ar
 d
 x
-188282	u3
+190816	u3
 szu
 ut
 te
@@ -183566,7 +183566,7 @@ szu
 i
 na
 li
-188431	ti
+190965	ti
 sza
 a
 na
@@ -183588,8 +183588,8 @@ id
 ka
 a
 wi
-188454	e
-188456	lu
+190988	e
+190990	lu
 hu
 za
 am
@@ -183613,11 +183613,11 @@ sza
 la
 an
 ni
-a
+191039	a
 na
 dumu
 munus
-188485	d
+191044	d
 a
 ba
 a
@@ -183632,7 +183632,7 @@ ib
 ni
 szu
 ma
-188501	d
+191060	d
 utu
 li
 ba
@@ -183682,7 +183682,7 @@ al
 ka
 ak
 ki
-a
+191111	a
 na
 mu
 ha
@@ -183694,8 +183694,8 @@ bi2
 ma
 um
 ma
-188564	disz
-188566	d
+191124	disz
+191126	d
 amar
 utu
 mu
@@ -183714,7 +183714,7 @@ a
 na
 uru
 ki
-188586	at,
+191146	at,
 ru
 dam
 a
@@ -183762,7 +183762,7 @@ la
 u2
 ta
 ar
-a
+191195	a
 na
 i3
 li2
@@ -183819,13 +183819,13 @@ na
 disz
 s,i
 li2
-188692	d
+191253	d
 utu
 ez
 ba
 a
 nim
-a
+191260	a
 na
 be
 li2
@@ -183835,16 +183835,16 @@ bi2
 ma
 um
 ma
-188709	d
+191271	d
 en
 zu
 ga
 mil
 ma
-188716	d
+191278	d
 utu
 u3
-188720	d
+191282	d
 amar
 utu
 asz
@@ -183913,7 +183913,7 @@ na
 qa2
 ti
 sza
-188790	d
+191352	d
 en
 zu
 i
@@ -183961,7 +183961,7 @@ x
 disz
 i
 bi
-188839	d
+191401	d
 nin
 szubur
 i
@@ -183982,7 +183982,7 @@ ak
 kum
 ta
 ta
-188862	x
+191424	x
 u3
 pi2
 qa2
@@ -184003,17 +184003,17 @@ e
 ri
 isz
 u3
-188884	it
+191446	it
 te
 tim
 szu
 bi
 lam
-a
+191453	a
 na
 a
 pil
-188895	d
+191458	d
 utu
 u3
 ma
@@ -184025,7 +184025,7 @@ ma
 um
 ma
 ir3
-188908	d
+191471	d
 utu
 u3
 ka
@@ -184033,10 +184033,10 @@ am
 ni
 ia
 ma
-188917	d
+191480	d
 utu
 u3
-188921	d
+191484	d
 amar
 utu
 li
@@ -184059,7 +184059,7 @@ la
 na
 szi
 im
-a
+191508	a
 na
 ba
 li
@@ -184070,13 +184070,13 @@ bi2
 ma
 um
 ma
-188956	d
+191520	d
 en
 zu
 we
 du
 ma
-188963	d
+191527	d
 utu
 li
 ba
@@ -184130,7 +184130,7 @@ u2
 szu
 bi
 lam
-a
+191582	a
 na
 ba
 ba
@@ -184145,10 +184145,10 @@ na
 wi
 rum
 ma
-189033	d
+191598	d
 utu
 u3
-189037	d
+191602	d
 amar
 utu
 da
@@ -184169,14 +184169,14 @@ ma
 lu
 mur
 sza
-189059	d
+191624	d
 amar
 utu
 at,
 t,ar
 dam
 1(disz)
-189067	urudu
+191632	urudu
 szen
 szu
 bi
@@ -184202,7 +184202,7 @@ na
 ki
 li
 im
-189094	la
+191659	la
 a
 ku
 asz
@@ -184220,13 +184220,13 @@ mi
 in
 ni
 1(disz)
-189113	urudu
+191678	urudu
 szen
 szu
 bi
 li
 im
-a
+191685	a
 na
 be
 li2
@@ -184236,17 +184236,17 @@ bi2
 ma
 um
 ma
-189130	d
+191696	d
 en
 zu
 i
 din
 nam
 ma
-189138	d
+191704	d
 utu
 u3
-189142	d
+191708	d
 amar
 utu
 be
@@ -184315,10 +184315,10 @@ lu
 ka
 ti
 x
-189212	ti
+191778	ti
 di
 x
-189216	a
+191782	a
 na
 dam
 a
@@ -184348,7 +184348,7 @@ asz
 ba
 at
 hi
-189247	um
+191813	um
 a
 na
 pa
@@ -184364,7 +184364,7 @@ ri
 ik
 asz
 szum
-189264	d
+191830	d
 en
 zu
 im
@@ -184447,7 +184447,7 @@ sza
 al
 ma
 at
-a
+191914	a
 na
 u
 bar
@@ -184459,7 +184459,7 @@ ma
 um
 ma
 lu2
-189360	d
+191927	d
 nanna
 ma
 ru
@@ -184487,14 +184487,14 @@ u2
 ma
 a
 na
-189389	d
+191956	d
 nin
 gisz
 zi
 da
 ga
 mil
-189397	pu
+191964	pu
 ur
 ma
 um
@@ -184524,12 +184524,12 @@ u8
 udu
 hi
 a
-189428	a
+191995	a
 na
 gu2
 id2
 me
-189434	d
+192001	d
 en
 lil2
 la2
@@ -184575,7 +184575,7 @@ a
 li
 im
 a
-189481	im
+192048	im
 ma
 i
 na
@@ -184611,7 +184611,7 @@ tum
 da
 an
 na
-a
+192085	a
 na
 si2
 ia
@@ -184621,7 +184621,7 @@ bi2
 ma
 um
 ma
-189528	d
+192096	d
 utu
 la
 ma
@@ -184633,10 +184633,10 @@ wi
 lu
 um
 u3
-189541	d
+192109	d
 en
 zu
-189545	x
+192113	x
 nu
 a
 na
@@ -184672,14 +184672,14 @@ i
 x
 x
 x
-189582	ru
+192150	ru
 um
 sza
 at
 tu
 um
 x
-189590	li
+192158	li
 ka
 ru
 um
@@ -184697,7 +184697,7 @@ ka
 t,e4
 em
 ka
-189609	x
+192177	x
 x
 x
 x
@@ -184791,12 +184791,12 @@ kum
 u3
 x
 x
-189704	x
+192272	x
 x
 x
 disz
 i
-189710	i
+192278	i
 sa3
 ad
 da
@@ -184805,15 +184805,15 @@ x
 ta
 sza
 at,
-189720	ar
+192288	ar
 x
 la
 ta
 sza
 at,
-189727	ar
+192295	ar
 szu
-a
+192298	a
 na
 be
 el
@@ -184824,8 +184824,8 @@ bi2
 ma
 um
 ma
-189741	ma
-189743	d
+192310	ma
+192312	d
 utu
 li
 ba
@@ -184843,7 +184843,7 @@ a
 na
 x
 x
-189763	a
+192332	a
 li
 ik
 ma
@@ -184952,16 +184952,16 @@ u2
 szu
 bi
 lam
-a
+192442	a
 na
-189875	d
+192445	d
 en
 zu
 re
 me
 ni
-189882	disz
-189884	d
+192452	disz
+192454	d
 en
 zu
 a
@@ -184977,7 +184977,7 @@ bi2
 ma
 um
 ma
-189901	d
+192471	d
 za
 ba4
 ba4
@@ -184999,8 +184999,8 @@ a
 nu
 um
 ma
-189924	disz
-189926	d
+192494	disz
+192496	d
 en
 zu
 re
@@ -185032,7 +185032,7 @@ ni
 tam
 a
 na
-189959	d
+192529	d
 en
 zu
 dingir
@@ -185070,9 +185070,9 @@ u4
 2(disz)
 kam
 1(disz)
-189998	gisz
+192568	gisz
 apin
-190001	qa2
+192571	qa2
 du
 um
 x
@@ -185086,25 +185086,25 @@ x
 x
 x
 x
-a
+192586	a
 na
 na
 bi
-190020	d
+192591	d
 utu
 qi2
 bi2
 ma
 um
 ma
-190028	d
+192599	d
 iszkur
 ri
 im
 i3
 li2
 ma
-190036	d
+192607	d
 utu
 li
 ba
@@ -185143,7 +185143,7 @@ t,u3
 ur
 da
 am
-a
+192647	a
 na
 i
 din
@@ -185154,12 +185154,12 @@ bi2
 ma
 um
 ma
-190087	d
+192659	d
 en
 zu
 uru4
 ma
-190093	d
+192665	d
 utu
 asz
 szum
@@ -185174,13 +185174,13 @@ al
 li
 it,
 ka
-190109	d
+192681	d
 pa4
 ul
 gar
 ra
 x
-190116	an
+192688	an
 ni
 ki
 a
@@ -185253,7 +185253,7 @@ ka
 lu
 mu
 ur
-a
+192762	a
 na
 ap
 lum
@@ -185266,7 +185266,7 @@ ibila
 ud
 unu
 ki
-190203	ma
+192776	ma
 x
 x
 li
@@ -185402,7 +185402,7 @@ li
 sza
 li
 ik
-a
+192913	a
 na
 be
 li2
@@ -185429,7 +185429,7 @@ li
 im
 ha
 al
-190367	u2
+192941	u2
 a
 du
 un
@@ -185444,12 +185444,12 @@ tu
 u2
 a
 dan
-190383	an
-190385	na
+192957	an
+192959	na
 a
-a
+192962	a
 na
-190390	d
+192965	d
 en
 zu
 i
@@ -185461,20 +185461,20 @@ bi2
 ma
 um
 ma
-190403	ma
+192978	ma
 a
-190407	sza
+192982	sza
 ta
-190410	i
+192985	i
 na
-190413	mi
+192988	mi
 x
-190416	ri
-190418	szi
-190420	li
+192991	ri
+192993	szi
+192995	li
 ir
 szi
-190424	sze
+192999	sze
 a
 am
 li
@@ -185492,16 +185492,16 @@ ra
 asz
 szu
 u2
-a
+193018	a
 na
-190445	d
+193021	d
 en
 zu
 sza
 mu
 uh
-190452	disz
-190454	d
+193028	disz
+193030	d
 iszkur
 szar
 rum
@@ -185509,9 +185509,9 @@ disz
 ib
 na
 tum
-190463	disz
+193039	disz
 ge6
-190466	d
+193042	d
 dam
 ki
 na
@@ -185528,7 +185528,7 @@ gi
 mil
 lum
 ma
-190484	d
+193060	d
 utu
 li
 ba
@@ -185597,7 +185597,7 @@ ia
 az
 zu
 az
-190554	nu
+193130	nu
 szii
 im
 asz
@@ -185648,10 +185648,10 @@ il
 qu2
 u2
 ma
-190606	lu2
+193182	lu2
 sig4
 ki
-190610	u2
+193186	u2
 ul
 a
 na
@@ -185661,10 +185661,10 @@ szu
 nu
 ti
 u3
-190621	lu2
+193197	lu2
 sig4
 ki
-190625	isz
+193201	isz
 tu
 iti
 2(disz)
@@ -185701,7 +185701,7 @@ lugal
 szu
 uk
 na
-a
+193239	a
 na
 a
 bi
@@ -185717,7 +185717,7 @@ um
 ma
 i
 din
-190679	d
+193256	d
 iszkur
 ma
 ru
@@ -185736,7 +185736,7 @@ usz
 te
 s,i
 u3
-190699	x
+193276	x
 pe
 e
 et
@@ -185761,7 +185761,7 @@ bu
 ut
 uru
 ki
-190725	sza
+193302	sza
 zu2
 lum
 il
@@ -185818,18 +185818,18 @@ li
 kam
 szum
 ma
-190786	i
+193363	i
 x
 x
 x
-190791	i
+193368	i
 na
 ir
 ti
-190797	x
+193374	x
 x
 szu
-190802	ar
+193379	ar
 szu
 t,e4
 mu
@@ -185840,7 +185840,7 @@ ha
 am
 ma
 li
-190816	li
+193393	li
 li
 kam
 ka
@@ -185852,7 +185852,7 @@ sza
 i
 le
 eq
-190829	li
+193406	li
 li
 kam
 ka
@@ -185864,7 +185864,7 @@ zi
 ba
 ak
 ku
-a
+193419	a
 na
 be
 li2
@@ -185876,7 +185876,7 @@ um
 ma
 s,i
 li2
-190854	d
+193432	d
 utu
 ma
 sze
@@ -185905,7 +185905,7 @@ unug
 ki
 ba
 du3
-a
+193462	a
 na
 a
 li2
@@ -185915,7 +185915,7 @@ ur
 disz
 a
 pil
-190894	d
+193473	d
 mar
 tu
 disz
@@ -185950,8 +185950,8 @@ a
 nu
 um
 ma
-190930	disz
-190932	d
+193509	disz
+193511	d
 amar
 utu
 na
@@ -185960,7 +185960,7 @@ ir
 qa2
 du
 um
-190942	gisz
+193521	gisz
 ma2
 a
 na
@@ -186012,7 +186012,7 @@ szi
 im
 u3
 1(gesz2)1(u)
-190995	gisz
+193574	gisz
 sza3
 giszimmar
 szu
@@ -186022,12 +186022,12 @@ nim
 s,i
 bu
 ut
-191006	gisz
+193585	gisz
 sza3
 giszimmar
 ni
 szu
-a
+193591	a
 na
 bal
 me
@@ -186040,7 +186040,7 @@ um
 ma
 li
 ba
-191025	x
+193605	x
 x
 ma
 disz
@@ -186056,7 +186056,7 @@ zi
 ir
 dingir
 szar
-191042	um
+193622	um
 asz
 szum
 erim
@@ -186084,7 +186084,7 @@ szu
 a
 li
 ik
-a
+193651	a
 na
 sza
 pi2
@@ -186095,7 +186095,7 @@ bi2
 ma
 um
 ma
-191082	d
+193663	d
 en
 zu
 sza
@@ -186106,10 +186106,10 @@ ma
 du
 tum
 ma
-191094	d
+193675	d
 utu
 u3
-191098	d
+193679	d
 amar
 utu
 asz
@@ -186165,7 +186165,7 @@ asz
 szu
 u2
 i
-191156	mu
+193737	mu
 u2
 i
 na
@@ -186180,7 +186180,7 @@ di
 am
 sza
 li
-191172	szi
+193753	szi
 ip
 ru
 um
@@ -186190,24 +186190,24 @@ il
 la
 pi2
 it
-191183	na
+193764	na
 ti
-191186	x
+193767	x
 a
 na
-191190	li
+193771	li
 x
-191193	szi
+193774	szi
 te
 e
-191197	a
+193778	a
 na
 s,e
 er
-191202	szum
+193783	szum
 x
 x
-191206	a
+193787	a
 na
 a
 wa
@@ -186222,7 +186222,7 @@ sza
 pi2
 ri
 ni
-191223	ni
+193804	ni
 isz
 pu
 ra
@@ -186241,9 +186241,9 @@ i
 ma
 al
 la
-a
+193824	a
 na
-191245	d
+193827	d
 amar
 utu
 mu
@@ -186255,17 +186255,17 @@ bi2
 ma
 um
 ma
-191258	d
+193840	d
 amar
 utu
 mu
 sza
 lim
 ma
-191266	d
+193848	d
 utu
 u3
-191270	d
+193852	d
 amar
 utu
 li
@@ -186368,7 +186368,7 @@ lu
 um
 ha
 as,
-a
+193956	a
 na
 be
 el
@@ -186379,13 +186379,13 @@ bi2
 ma
 um
 ma
-191385	d
+193968	d
 utu
 ha
 zi
 ir
 ma
-191392	d
+193975	d
 utu
 li
 ba
@@ -186393,7 +186393,7 @@ al
 li
 it,
 ka
-191401	gesztin
+193984	gesztin
 hi
 a
 dam
@@ -186422,7 +186422,7 @@ bi
 lam
 1(disz)
 gi
-191433	ka
+194016	ka
 re
 e
 u3
@@ -186436,7 +186436,7 @@ am
 szu
 bi
 lam
-a
+194043	a
 na
 da
 da
@@ -186454,7 +186454,7 @@ um
 ma
 szi
 ip
-191466	d
+194062	d
 suen
 ma
 d
@@ -186524,7 +186524,7 @@ sar
 u3
 szim
 u3
-191537	szim
+194133	szim
 li
 u3
 2(asz)
@@ -186654,7 +186654,7 @@ a
 di
 larsa
 ki
-191668	ma
+194264	ma
 ma
 am
 ma
@@ -186673,7 +186673,7 @@ i
 na
 iri
 ki
-191688	a
+194284	a
 ha
 nu
 ta
@@ -186719,7 +186719,7 @@ um
 a
 ha
 am
-191735	la
+194331	la
 i
 pa
 ri
@@ -186757,7 +186757,7 @@ i
 na
 iri
 ki
-191774	a
+194370	a
 ha
 nu
 ta
@@ -186783,11 +186783,11 @@ nu
 lu
 mu
 ur
-a
+194411	a
 na
 na
 bi
-191805	d
+194416	d
 utu
 qi2
 bi2
@@ -186887,7 +186887,7 @@ esz3
 nun
 na
 ki
-191906	mesz
+194517	mesz
 tup
 pi2
 usz
@@ -186930,7 +186930,7 @@ i
 ka
 x
 (x)
-a
+194616	a
 na
 sza
 am
@@ -187096,7 +187096,7 @@ ep
 szu
 ku3
 sig17
-192116	wa
+194783	wa
 ar
 ki
 a
@@ -187122,7 +187122,7 @@ pu
 ra
 ku
 disz
-192144	tim
+194811	tim
 sza
 al
 ma
@@ -187214,7 +187214,7 @@ e
 ri
 ba
 am
-192237	d
+194904	d
 suen
 isz
 pu
@@ -187259,7 +187259,7 @@ pu
 ur
 ge
 rum
-192284	tim
+194951	tim
 la
 i
 zi

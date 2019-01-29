@@ -5,7 +5,7 @@ import collections
 from shutil import rmtree
 from glob import glob
 from tf.fabric import Fabric
-from tf.convert.tokens import Token
+from tf.convert.walker import CV
 
 # LOCATIONS
 
@@ -172,14 +172,16 @@ def getSources():
   )
 
 
-def getTokenObj():
+def getConverter():
   TF = Fabric(locations=OUT_DIR)
-  return Token(TF)
+  return CV(TF)
 
 
-# TOKEN GENERATOR
+# DIRECTOR
 
-def generateTokens(sources, token):
+def director(cv):
+
+  sources = getSources()
 
   curTablet = None
   curFace = None
@@ -189,23 +191,25 @@ def generateTokens(sources, token):
 
   errors = collections.defaultdict(lambda: collections.defaultdict(set))
 
-  # sub generators will be called by yield from expressions
-
-  # sub gen: setting up a tablet node
+  # sub director: setting up a tablet node
 
   def tabletStart():
     nonlocal curTablet
+    nonlocal curFace
+    nonlocal curLine
 
-    yield token.terminate(curTablet)
-    curTablet = yield token.node('tablet')
-    yield token.terminate(curFace)
-    yield token.terminate(curLine)
+    cv.terminate(curLine)
+    curLine = None
+    cv.terminate(curFace)
+    curFace = None
+    cv.terminate(curTablet)
+    curTablet = cv.node('tablet')
     for cNodes in curCluster.values():
       for cNode in curCluster:
-        yield token.terminate(cNode)
+        cv.terminate(cNode)
     curCluster.clear()
 
-  # sub gen: adding data to a tablet node
+  # sub director: adding data to a tablet node
 
   def tabletData():
     nonlocal pNum
@@ -213,7 +217,7 @@ def generateTokens(sources, token):
     pNum = line[1:].split()[0]
     sys.stderr.write(f'{src:<15} : {i:>4} : {pNum:<20}\r')
 
-    yield token.feature(
+    cv.feature(
         curTablet,
         pnumber=pNum,
         srcfile=src,
@@ -221,52 +225,56 @@ def generateTokens(sources, token):
         srcline=line,
     )
 
-  # sub gen: terminating a tablet node
+  # sub director: terminating a tablet node
 
   def tabletEnd():
-      yield token.terminate(curTablet)
-      yield token.terminate(curFace)
-      yield token.terminate(curLine)
+    nonlocal curTablet
+    nonlocal curFace
+    nonlocal curLine
+    cv.terminate(curLine)
+    curLine = None
+    cv.terminate(curFace)
+    curFace = None
+    cv.terminate(curTablet)
+    curTablet = None
 
-  # sub gen: setting up a face node
+  # sub director: setting up a face node
 
   def faceStart():
-    nonlocal curFace
-
     fields = line[1:].split(maxsplit=1)
     typ = fields[0]
     if typ == 'tablet':
       return
 
-    yield from faceInsert(typ)
+    faceInsert(typ)
 
     if len(fields) == 2:
-      yield token.feature(subtype=fields[1])
+      cv.feature(subtype=fields[1])
 
-  # sub gen: inserting a default face node if no face is specified
+  # sub director: inserting a default face node if no face is specified
 
   def faceInsert(typ):
     nonlocal curFace
 
-    yield token.terminate(curFace)
-    curFace = yield token.node('face')
+    cv.terminate(curFace)
+    curFace = cv.node('face')
 
-    yield token.feature(
+    cv.feature(
         type='obverse',
         srcfile=src,
         srcln=i,
         srcline=line,
     )
 
-  # sub gen: setting up a line node
+  # sub director: setting up a line node
 
   def lineStart(ln, trans):
     nonlocal curLine
 
-    yield token.terminate(curLine)
-    curLine = yield token.node('line')
+    cv.terminate(curLine)
+    curLine = cv.node('line')
 
-    yield token.feature(
+    cv.feature(
         ln=ln,
         srcfile=src,
         srcln=i,
@@ -285,7 +293,7 @@ def generateTokens(sources, token):
     if stickyNumeralRe.findall(trans):
       trans = stickyNumeralRe.sub(stickyNumeralRepl, trans)
 
-  # sub gen: adding data to a line node
+  # sub director: adding data to a line node
   # this is itself a complicated generator with sub gens
 
   def lineData(trans):
@@ -298,7 +306,7 @@ def generateTokens(sources, token):
     words = trans.split()
     lWords = len(words)
 
-    # subsub gen: setting up a cluster node
+    # subsub director: setting up a cluster node
 
     def clusterStart():
       nonlocal part
@@ -309,14 +317,14 @@ def generateTokens(sources, token):
         if cb == '_':
           inAlt = 2
 
-        cNode = yield token.node('cluster')
+        cNode = cv.node('cluster')
 
         curCluster[cb].append(cNode)
 
-        yield token.feature(type=cb)
+        cv.feature(type=cb)
         part = part[1:]
 
-    # subsub gen: terminating a cluster node
+    # subsub director: terminating a cluster node
 
     def clusterEnd():
       nonlocal part
@@ -330,15 +338,15 @@ def generateTokens(sources, token):
             inAlt = 1
 
           for cNode in curCluster[cb]:
-            yield token.terminate(cNode)
+            cv.terminate(cNode)
           del curCluster[cb]
 
-    # subsub gen: setting up a sign node
+    # subsub director: setting up a sign node
 
     def signStart():
-      yield token.slot()
+      cv.slot()
 
-      yield token.feature(
+      cv.feature(
           language=inAlt,
           after=(
               '-' if p < lParts - 1 else
@@ -347,12 +355,12 @@ def generateTokens(sources, token):
           ),
       )
 
-  # sub gen: adding data to a sign node
+  # sub director: adding data to a sign node
 
     def signData():
       nonlocal part
 
-      yield token.feature(
+      cv.feature(
           atf=part,
       )
 
@@ -362,11 +370,11 @@ def generateTokens(sources, token):
 
       if part and part[0] == '{' and part[-1] == '}':
         part = part[1:-1]
-        yield token.feature(super=1)
+        cv.feature(super=1)
 
       match = graphemeRe.search(part)
       if match:
-        yield token.feature(
+        cv.feature(
             givengrapheme=match.group(1)
         )
         part = graphemeRe.sub('', part)
@@ -374,16 +382,16 @@ def generateTokens(sources, token):
       for (mc, mf) in markChars.items():
         if mc in part:
           part = part.replace(mc, '')
-          yield token.feature(**{mf: 1})
+          cv.feature(**{mf: 1})
 
       if part == '':
         errors['empty part'][src].add((i, line, word))
       elif part.islower():
-        yield token.feature(
+        cv.feature(
             reading=part,
         )
       elif part.isupper():
-        yield token.feature(
+        cv.feature(
             grapheme=part,
         )
       else:
@@ -393,7 +401,7 @@ def generateTokens(sources, token):
 
     for (w, word) in enumerate(words):
 
-      curWord = yield token.node('word')
+      curWord = cv.node('word')
 
       word = word.replace('{', '-{').replace('}', '}-')
       word = word.strip('-')
@@ -404,18 +412,19 @@ def generateTokens(sources, token):
       for p in range(len(parts)):
         part = parts[p]
 
-        yield from clusterStart()
-        yield from signStart()
-        yield from clusterEnd()
-        yield from signData()
+        clusterStart()
+        signStart()
+        clusterEnd()
+        signData()
 
-      yield token.terminate(curWord)
+      cv.terminate(curWord)
+      curWord = None
 
     # terminating all unfinished clusters
 
     for cNodes in curCluster.values():
       for cNode in cNodes:
-        yield token.terminate(cNode)
+        cv.terminate(cNode)
     curCluster.clear()
 
   # the outer loop of the corpus generator
@@ -431,7 +440,7 @@ def generateTokens(sources, token):
         i += 1
         if line.startswith('Transliteration:'):
           inTrans = True
-          yield from tabletStart()
+          tabletStart()
           continue
 
         elif line[0].isupper():
@@ -444,12 +453,11 @@ def generateTokens(sources, token):
         line = line.strip()
 
         if line.startswith('&'):
-          yield from tabletData()
-
+          tabletData()
           continue
 
         if line.startswith('@'):
-          yield from faceStart()
+          faceStart()
           continue
 
         match = transRe.match(line)
@@ -460,12 +468,12 @@ def generateTokens(sources, token):
         trans = match.group(2)
 
         if curFace is None:
-          yield from faceInsert('obverse')
+          faceInsert('obverse')
 
-        yield from lineStart(ln, trans)
-        yield from lineData(trans)
+        lineStart(ln, trans)
+        lineData(trans)
 
-      yield from tabletEnd()
+      tabletEnd()
 
       print(f'{src:<15} : {i:>4} : {pNum:<20}\r')
 
@@ -474,11 +482,10 @@ def generateTokens(sources, token):
 
 
 def convert():
-  sources = getSources()
-  token = getTokenObj()
+  cv = getConverter()
 
-  return token.convert(
-      generateTokens(sources, token),
+  return cv.walk(
+      director,
       slotType,
       otext=otext,
       generic=generic,

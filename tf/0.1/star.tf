@@ -6,17 +6,17 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2019-01-29T02:16:09Z
+@dateWritten=2019-01-29T09:47:34Z
 
-141256	1
-185343	1
-187467	1
+143062	1
+187861	1
+189996	1
 1
 1
 1
-187476	1
+190005	1
 1
-188100	1
+190633	1
 1
 1
 1
