@@ -6,1371 +6,2564 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-01-29T22:29:30Z
+@dateWritten=2019-01-30T15:25:52Z
 
-204345	@reverse
+204345	@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
+@reverse
+@obverse
 @reverse
 @seal 1
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
 @column 1
 @column 2
 @column 3
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
 @left
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
 @left
+@obverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
 @column 1'
 @column 2'
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@obverse
-@seal 1
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@seal 1
-@reverse
-@reverse
-@reverse
 @obverse
 @reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@seal 1
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@seal 1
-@reverse
-@seal 1
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@seal 1
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
 @obverse
-@seal 1
-@reverse
-@reverse
+@left
 @obverse
-@seal 1
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
 @reverse
 @column 1
 @column 2
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @obverse
 @reverse
 @column 1
 @column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
-@left
+@obverse
 @reverse
+@obverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
 @reverse
 @obverse
 @seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
 @reverse
+@left
+@obverse
 @reverse
+@obverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@column 1
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@left
+@obverse
+@obverse
+@obverse
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@obverse
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
 @reverse
 @obverse
 @seal 1
+@obverse
 @reverse
+@obverse
+@seal 1
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@seal 1
+@obverse
 @reverse
 @left
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
+@obverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+1'. [x x x] zi? x
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@left
+@obverse
 @reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@seal 1
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@overse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@seal 1
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @upper edge
 @left edge
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left side
-@reverse
-@reverse
-@left side
-@reverse
-@left side
+@obverse
 @reverse
 @obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
+@obverse
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left side
+@obverse
 @reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left side
+@obverse
+@reverse
+@left side
+@obverse
+@reverse
+@envelope
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left side
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverrse
+@reverse
+@obverse
+@reverse
+@left side
+@obverse
+@obverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@case
 @seal
 @obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@left
-@reverse
-@reverse
-@left
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left side
+@obverse
 @reverse
 @left side
 @reverse
-@left side
+@obverse
 @reverse
 @left side
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
 @seal 1
+@obverse
 @reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
+@obverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@left
+@surface a
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
+@reverse
+@left
+1'. x[...]
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
+@reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
+@reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
+@obverse
 @reverse
+@column 1
+@column 2
+@obverse
 @reverse
+@column 1
+@column 2
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
 @seal 1
+@obverse
 @reverse
-@reverse
-@seal 1
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
 @seal 1
+@obverse
+@seal 1
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
 @left
+@obverse
 @reverse
 @left
 @envelope
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @column 1
 @column 2
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@left
+@obverse
 @reverse
+@left
+@obverse
 @reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @seal 1
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@envelope
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@seal 1
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@envelope
-@seal 1
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@reverse
-@seal 1
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@column 1
-@column 2
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@left
-@reverse
-@reverse
-@reverse
-@reverse
-@seal
 @obverse
 @reverse
 @reverse
+@obverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@bottom
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@envelope
+@obverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @reverse
+@left
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@column 1
+@column 2
+@obverse
 @reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@seal 1
+@obverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@envelope
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@seal 1
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@column 1
+@column 2
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@case
+@seal
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left side
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
 @reverse
 @left side
+@obverse
 @reverse
+@obverse
+@obverse
+@obverse
+@obverse
 @reverse
 @left side
+@obverse
+@obverse
+@obverse
 @reverse
+@obverse
 @reverse
 @lower edge, first column
 @second column
+@obverse
 @reverse
-@reverse
-@left side
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
-@reverse
+@obverse
 @reverse
 @left side
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
 @reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@reverse
+@left side
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
+@obverse
+@reverse
+@obverse
 @reverse
 @left
+@obverse
 @reverse
+@obverse
 @reverse
 @left
 1. [a-na] _{d}en-zu_-i-[din-nam]
@@ -26102,3 +27295,1195 @@
 1. a-wa-tum ma-di-isz ma-ar-s,a-ni ge-rum ar-hi-isz
 2. i-ta-s,i2 a-na a-li2-ba-ni-<szu> szi-pi2-ir-tam szu-um-ri-is,-ma
 3. szu-pu-ur ge-rum ARAD2-NI-tim la i-zi-ib ap-pu-tum
+&P509373 = AbB 01, 059
+&P509374 = AbB 01, 060
+&P509375 = CT 43, 094
+&P509376 = AbB 01, 102
+&P507628 = AbB 02, 045
+&P481190 = AbB 03, 112
+&P481191 = AbB 03, 113
+&P481192 = AbB 03, 114
+&P389958 = AbB 03, 115
+&P389256 = AbB 03, 116
+&P510526 = AbB 12, 001
+&P510527 = AbB 12, 002
+&P510528 = AbB 12, 003
+&P510529 = AbB 12, 004
+&P510530 = AbB 12, 005
+&P510531 = AbB 12, 006
+&P510532 = AbB 12, 007
+&P510533 = AbB 12, 008
+&P510534 = AbB 12, 009
+&P510535 = AbB 12, 010
+&P510536 = AbB 12, 011
+&P510537 = AbB 12, 012
+&P510538 = AbB 12, 013
+&P510539 = AbB 12, 014
+&P510540 = AbB 12, 015
+&P510541 = AbB 12, 016
+&P510542 = AbB 12, 017
+&P510543 = AbB 12, 018
+&P510544 = AbB 12, 019
+&P510545 = AbB 12, 020
+&P510546 = AbB 12, 021
+&P510547 = AbB 12, 022
+&P510548 = AbB 12, 023
+&P510549 = AbB 12, 024
+&P510550 = AbB 12, 025
+&P510551 = AbB 12, 026
+&P510552 = AbB 12, 027
+&P510553 = AbB 12, 028
+&P510554 = AbB 12, 029
+&P510555 = AbB 12, 030
+&P510556 = AbB 12, 031
+&P510557 = AbB 12, 032
+&P497777 = AbB 12, 033
+&P510558 = AbB 12, 034
+&P510559 = AbB 12, 035
+&P510560 = AbB 12, 036
+&P510561 = AbB 12, 037
+&P510562 = AbB 12, 038
+&P510563 = AbB 12, 039
+&P510564 = AbB 12, 040
+&P510565 = AbB 12, 041
+&P510566 = AbB 12, 042
+&P510567 = AbB 12, 043
+&P510568 = AbB 12, 044
+&P510569 = AbB 12, 045
+&P510570 = AbB 12, 046
+&P510571 = AbB 12, 047
+&P510572 = AbB 12, 048
+&P510573 = AbB 12, 049
+&P510574 = AbB 12, 050
+&P510575 = AbB 12, 051
+&P510576 = AbB 12, 052
+&P510577 = AbB 12, 053
+&P510578 = AbB 12, 054
+&P510579 = AbB 12, 055
+&P510580 = AbB 12, 056
+&P510581 = AbB 12, 057
+&P510582 = AbB 12, 058
+&P510583 = AbB 12, 059
+&P510584 = AbB 12, 060
+&P510585 = AbB 12, 061
+&P510586 = AbB 12, 062
+&P510587 = AbB 12, 063
+&P510588 = AbB 12, 064
+&P510589 = AbB 12, 065
+&P510590 = AbB 12, 066
+&P510591 = AbB 12, 067
+&P510592 = AbB 12, 068
+&P510593 = AbB 12, 069
+&P510594 = AbB 12, 070
+&P510595 = AbB 12, 071
+&P510596 = AbB 12, 072
+&P510597 = AbB 12, 073
+&P510598 = AbB 12, 074
+&P510599 = AbB 12, 075
+&P510600 = AbB 12, 076
+&P510601 = AbB 12, 077
+&P510602 = AbB 12, 078
+&P510603 = AbB 12, 079
+&P510604 = AbB 12, 080
+&P510605 = AbB 12, 081
+&P510606 = AbB 12, 082
+&P510607 = AbB 12, 083
+&P510608 = AbB 12, 084
+&P510609 = AbB 12, 085
+&P510610 = AbB 12, 086
+&P510611 = AbB 12, 087
+&P510612 = AbB 12, 088
+&P510613 = AbB 12, 089
+&P510614 = AbB 12, 090
+&P510615 = AbB 12, 091
+&P510616 = AbB 12, 092
+&P510617 = AbB 12, 093
+&P510618 = AbB 12, 094
+&P510619 = AbB 12, 095
+&P510621 = AbB 12, 097
+&P510622 = AbB 12, 098
+&P497370 = AbB 12, 099
+&P510623 = AbB 12, 100
+&P510624 = AbB 12, 101
+&P510625 = AbB 12, 102
+&P510626 = AbB 12, 103
+&P510627 = AbB 12, 104
+&P510628 = AbB 12, 105
+&P510629 = AbB 12, 106
+&P510630 = AbB 12, 107
+&P510631 = AbB 12, 108
+&P510632 = AbB 12, 109
+&P510633 = AbB 12, 110
+&P510634 = AbB 12, 111
+&P510635 = AbB 12, 112
+&P510636 = AbB 12, 113
+&P510637 = AbB 12, 114
+&P510638 = AbB 12, 115
+&P510639 = AbB 12, 116
+&P510640 = AbB 12, 117
+&P510641 = AbB 12, 118
+&P510642 = AbB 12, 119
+&P510643 = AbB 12, 120
+&P510644 = AbB 12, 121
+&P510645 = AbB 12, 122
+&P510646 = AbB 12, 123
+&P510647 = AbB 12, 124
+&P510648 = AbB 12, 125
+&P510649 = AbB 12, 126
+&P510650 = AbB 12, 127
+&P510651 = AbB 12, 128
+&P510652 = AbB 12, 129
+&P510653 = AbB 12, 130
+&P510654 = AbB 12, 131
+&P510655 = AbB 12, 132
+&P510656 = AbB 12, 133
+&P510657 = AbB 12, 134
+&P510658 = AbB 12, 135
+&P510659 = AbB 12, 136
+&P510660 = AbB 12, 137
+&P510661 = AbB 12, 138
+&P510662 = AbB 12, 139
+&P510663 = AbB 12, 140
+&P510664 = AbB 12, 141
+&P510665 = AbB 12, 142
+&P510666 = AbB 12, 143
+&P510667 = AbB 12, 144
+&P510668 = AbB 12, 145
+&P510671 = AbB 12, 148
+&P510672 = AbB 12, 149
+&P510673 = AbB 12, 150
+&P510674 = AbB 12, 151
+&P510675 = AbB 12, 152
+&P510676 = AbB 12, 153
+&P510677 = AbB 12, 154
+&P510678 = AbB 12, 155
+&P510679 = AbB 12, 156
+&P510680 = AbB 12, 157
+&P510681 = AbB 12, 158
+&P510682 = AbB 12, 159
+&P510683 = AbB 12, 160
+&P510684 = AbB 12, 161
+&P510685 = AbB 12, 162
+&P510686 = AbB 12, 163
+&P510687 = AbB 12, 164
+&P510688 = AbB 12, 165
+&P510689 = AbB 12, 166
+&P510690 = AbB 12, 167
+&P510691 = AbB 12, 168
+&P510692 = AbB 12, 169
+&P510693 = AbB 12, 170
+&P510694 = AbB 12, 171
+&P510695 = AbB 12, 172
+&P510696 = AbB 12, 173
+&P510697 = AbB 12, 174
+&P510698 = AbB 12, 175
+&P510699 = AbB 12, 176
+&P510700 = AbB 12, 177
+&P510701 = AbB 12, 178
+&P510702 = AbB 12, 179
+&P510703 = AbB 12, 180
+&P510704 = AbB 12, 181
+&P510705 = AbB 12, 183
+&P510706 = AbB 12, 184
+&P510707 = AbB 12, 185
+&P510708 = AbB 12, 186
+&P510709 = AbB 12, 187
+&P510710 = AbB 12, 188
+&P510711 = AbB 12, 189
+&P510712 = AbB 12, 190
+&P510713 = AbB 12, 191
+&P510714 = AbB 12, 192
+&P510715 = AbB 12, 193
+&P510716 = AbB 12, 194
+&P510717 = AbB 12, 195
+&P510718 = AbB 12, 196
+&P510719 = AbB 12, 197
+&P510720 = AbB 12, 198
+&P510721 = AbB 12, 199
+&P510722 = AbB 12, 200
+&P510723 = AbB 13, 001
+&P510724 = AbB 13, 002
+&P510725 = AbB 13, 003
+&P510726 = AbB 13, 004
+&P510727 = AbB 13, 005
+&P510728 = AbB 13, 006
+&P510729 = AbB 13, 007
+&P510730 = AbB 13, 008
+&P510731 = AbB 13, 009
+&P497778 = AbB 13, 010
+&P510732 = AbB 13, 011
+&P497779 = AbB 13, 012
+&P510733 = AbB 13, 013
+&P510734 = AbB 13, 014
+&P510735 = AbB 13, 015
+&P510736 = AbB 13, 016
+&P510737 = AbB 13, 017
+&P370926 = AbB 13, 018
+&P510738 = AbB 13, 019
+&P510739 = AbB 13, 020
+&P510740 = AbB 13, 021
+&P510741 = AbB 13, 022
+&P510742 = AbB 13, 023
+&P510743 = AbB 13, 024
+&P510744 = AbB 13, 025
+&P510745 = AbB 13, 026
+&P510746 = AbB 13, 027
+&P510747 = AbB 13, 028
+&P510748 = AbB 13, 029
+&P510749 = AbB 13, 030
+&P510750 = AbB 13, 031
+&P510751 = AbB 13, 032
+&P510752 = AbB 13, 033
+&P510753 = AbB 13, 034
+&P510754 = AbB 13, 035
+&P510755 = AbB 13, 036
+&P510756 = AbB 13, 037
+&P510757 = AbB 13, 038
+&P510758 = AbB 13, 039
+&P510759 = AbB 13, 040
+&P510760 = AbB 13, 041
+&P510761 = AbB 13, 042
+&P510762 = AbB 13, 043
+&P510763 = AbB 13, 044
+&P510764 = AbB 13, 045
+&P510765 = AbB 13, 046
+&P510766 = AbB 13, 047
+&P510767 = AbB 13, 048
+&P510768 = AbB 13, 049
+&P510769 = AbB 13, 050
+&P510770 = AbB 13, 051
+&P510771 = AbB 13, 052
+&P510772 = AbB 13, 053
+&P510773 = AbB 13, 054
+&P510774 = AbB 13, 055
+&P510775 = AbB 13, 056
+&P510776 = AbB 13, 057
+&P510777 = AbB 13, 058
+&P510778 = AbB 13, 059
+&P510779 = AbB 13, 061
+&P510780 = AbB 13, 062
+&P510781 = AbB 13, 063
+&P510782 = AbB 13, 064
+&P510783 = AbB 13, 065
+&P510784 = AbB 13, 066
+&P510785 = AbB 13, 067
+&P510786 = AbB 13, 068
+&P510787 = AbB 13, 069
+&P510788 = AbB 13, 070
+&P510789 = AbB 13, 071
+&P510790 = AbB 13, 072
+&P510791 = AbB 13, 073
+&P510792 = AbB 13, 074
+&P510793 = AbB 13, 075
+&P510794 = AbB 13, 076
+&P510795 = AbB 13, 077
+&P510796 = AbB 13, 078
+&P510797 = AbB 13, 079
+&P510798 = AbB 13, 080
+&P510799 = AbB 13, 081
+&P510800 = AbB 13, 082
+&P510801 = AbB 13, 083
+&P510802 = AbB 13, 084
+&P510803 = AbB 13, 085
+&P510804 = AbB 13, 086
+&P510805 = AbB 13, 087
+&P510806 = AbB 13, 088
+&P510807 = AbB 13, 089
+&P510808 = AbB 13, 090
+&P510809 = AbB 13, 091
+&P510810 = AbB 13, 092
+&P510811 = AbB 13, 093
+&P510812 = AbB 13, 094
+&P510813 = AbB 13, 095
+&P510814 = AbB 13, 096
+&P510815 = AbB 13, 097
+&P510816 = AbB 13, 098
+&P510817 = AbB 13, 099
+&P510818 = AbB 13, 100
+&P510820 = AbB 13, 102
+&P510821 = AbB 13, 103
+&P510822 = AbB 13, 104
+&P510823 = AbB 13, 105
+&P510824 = AbB 13, 106
+&P510825 = AbB 13, 107
+&P510826 = AbB 13, 108
+&P510827 = AbB 13, 109
+&P510828 = AbB 13, 110
+&P510829 = AbB 13, 111
+&P510830 = AbB 13, 112
+&P510831 = AbB 13, 113
+&P510832 = AbB 13, 114
+&P510833 = AbB 13, 115
+&P510834 = AbB 13, 116
+&P510835 = AbB 13, 117
+&P510836 = AbB 13, 118
+&P510837 = AbB 13, 119
+&P510838 = AbB 13, 120
+&P510839 = AbB 13, 121
+&P510840 = AbB 13, 122
+&P510841 = AbB 13, 123
+&P510842 = AbB 13, 124
+&P510843 = AbB 13, 125
+&P510844 = AbB 13, 126
+&P510845 = AbB 13, 127
+&P510846 = AbB 13, 128
+&P510847 = AbB 13, 129
+&P510848 = AbB 13, 130
+&P510849 = AbB 13, 131
+&P510850 = AbB 13, 132
+&P510851 = AbB 13, 133
+&P510852 = AbB 13, 134
+&P510853 = AbB 13, 135
+&P510854 = AbB 13, 136
+&P510855 = AbB 13, 137
+&P510856 = AbB 13, 138
+&P510857 = AbB 13, 139
+&P510858 = AbB 13, 140
+&P510859 = AbB 13, 141
+&P510860 = AbB 13, 142
+&P510861 = AbB 13, 143
+&P510862 = AbB 13, 144
+&P510863 = AbB 13, 145
+&P510864 = AbB 13, 146
+&P510865 = AbB 13, 147
+&P412801 = AbB 13, 148
+&P413146 = AbB 13, 149
+&P413253 = AbB 13, 150
+&P413547 = AbB 13, 151
+&P413550 = AbB 13, 152
+&P413553 = AbB 13, 153
+&P413558 = AbB 13, 154
+&P413560 = AbB 13, 155
+&P413568 = AbB 13, 156
+&P413570 = AbB 13, 157
+&P413571 = AbB 13, 158
+&P413572 = AbB 13, 159
+&P413579 = AbB 13, 160
+&P413589 = AbB 13, 161
+&P413591 = AbB 13, 162
+&P413603 = AbB 13, 163
+&P413616 = AbB 13, 164
+&P413618 = AbB 13, 165
+&P413621 = AbB 13, 166
+&P413623 = AbB 13, 167
+&P413677 = AbB 13, 168
+&P413679 = AbB 13, 169
+&P510866 = AbB 13, 170
+&P510867 = AbB 13, 171
+&P510868 = AbB 13, 172
+&P510869 = AbB 13, 173
+&P510870 = AbB 13, 174
+&P510871 = AbB 13, 175
+&P510872 = AbB 13, 176
+&P510873 = AbB 13, 177
+&P510874 = AbB 13, 178
+&P510875 = AbB 13, 179
+&P510876 = AbB 13, 180
+&P510877 = AbB 13, 181
+&P510878 = AbB 13, 182
+&P510879 = AbB 13, 183
+&P510880 = AbB 13, 184
+&P510881 = AbB 13, 185
+&P510882 = AbB 13, 186
+&P510883 = AbB 13, 187
+&P510884 = AbB 13, 188
+&P510885 = AbB 13, 189
+&P510886 = AbB 13, 190
+&P510887 = AbB 13, 191
+&P510888 = AbB 13, 192
+&P510889 = AbB 13, 193
+&P510890 = AbB 13, 194
+&P510891 = AbB 13, 195
+&P510892 = AbB 13, 196
+&P510893 = AbB 13, 197
+&P510894 = AbB 13, 198
+&P510895 = AbB 13, 199
+&P510896 = AbB 13, 200
+&P492284 = AbB 14, 010
+&P491914 = AbB 14, 210
+&P491915 = AbB 14, 211
+&P491916 = AbB 14, 212
+&P491917 = AbB 14, 213
+&P497780 = AbB 14, 214
+&P492385 = AbB 14, 215
+&P492490 = AbB 14, 216
+&P494220 = AbB 14, 217
+&P493663 = AbB 14, 218
+&P494008 = AbB 14, 219
+&P493805 = AbB 14, 220
+&P493810 = AbB 14, 221
+&P493831 = AbB 14, 222
+&P493828 = AbB 14, 223
+&P493829 = AbB 14, 224
+&P492347 = AbB 14, 225
+&P494060 = AbB 14, 226
+&P292766 = BIN 07, 001 = AbB 09, 188
+&P292755 = BIN 07, 002 = AbB 09, 189
+&P292767 = BIN 07, 003
+&P292791 = BIN 07, 004 = AbB 09, 191
+&P292770 = BIN 07, 005 = AbB 09, 192
+&P292779 = BIN 07, 006 = AbB 09, 193
+&P292763 = BIN 07, 007 = AbB 09, 194
+&P292756 = BIN 07, 008 = AbB 09, 195
+&P292768 = BIN 07, 009 = AbB 09, 196
+&P292757 = BIN 07, 010 = AbB 09, 197
+&P292761 = BIN 07, 011 = AbB 09, 198
+&P292758 = BIN 07, 012 = AbB 09, 199
+&P292754 = BIN 07, 013 = AbB 09, 200
+&P292986 = BIN 07, 014 = AbB 09, 201
+&P292982 = BIN 07, 015 = AbB 09, 202
+&P292990 = BIN 07, 016 = AbB 09, 203
+&P292987 = BIN 07, 017 = AbB 09, 204
+&P292858 = BIN 07, 018 = AbB 09, 205
+&P292985 = BIN 07, 019 = AbB 09, 206
+&P292859 = BIN 07, 020 = AbB 09, 207
+&P292968 = BIN 07, 021 = AbB 09, 208
+&P292942 = BIN 07, 022 = AbB 09, 209
+&P292924 = BIN 07, 023 = AbB 09, 210
+&P292852 = BIN 07, 024 = AbB 09, 211
+&P292797 = BIN 07, 025 = AbB 09, 212
+&P292863 = BIN 07, 026 = AbB 09, 213
+&P292765 = BIN 07, 027 = AbB 09, 214
+&P292932 = BIN 07, 028 = AbB 09, 215
+&P292991 = BIN 07, 029 = AbB 09, 216
+&P254756 = BIN 07, 030 = AbB 09, 217
+&P292799 = BIN 07, 031 = AbB 09, 218
+&P292856 = BIN 07, 032 = AbB 09, 219
+&P293899 = BIN 07, 033 = AbB 09, 220
+&P292860 = BIN 07, 034 = AbB 09, 221
+&P292935 = BIN 07, 035 = AbB 09, 222
+&P292904 = BIN 07, 036 = AbB 09, 223
+&P292813 = BIN 07, 037 = AbB 09, 224
+&P292921 = BIN 07, 038
+&P292855 = AbB 09, 226
+&P292931 = BIN 07, 040 = AbB 09, 227
+&P292812 = BIN 07, 041 = AbB 09, 228
+&P292777 = BIN 07, 042 = AbB 09, 229
+&P292759 = BIN 07, 043 = AbB 09, 230
+&P292787 = BIN 07, 044 = AbB 09, 231
+&P292929 = BIN 07, 045 = AbB 09, 232
+&P292983 = BIN 07, 046 = AbB 09, 233
+&P292778 = BIN 07, 047 = AbB 09, 234
+&P292988 = BIN 07, 048 = AbB 09, 235
+&P292809 = BIN 07, 049 = AbB 09, 236
+&P292816 = BIN 07, 050 = AbB 09, 237
+&P292941 = BIN 07, 051 = AbB 09, 238
+&P292943 = BIN 07, 052 = AbB 09, 239
+&P292937 = BIN 07, 053 = AbB 09, 240
+&P292984 = BIN 07, 054 = AbB 09, 241
+&P292928 = BIN 07, 055 = AbB 09, 242
+&P292907 = BIN 07, 056 = AbB 09, 243
+&P292838 = BIN 07, 057 = AbB 09, 244
+&P292836 = BIN 07, 058 = AbB 09, 245
+&P292854 = BIN 07, 220 = AbB 09, 246
+&P293197 = BIN 07, 221 = AbB 09, 247
+&P286531 = BIN 07, 222
+&P293189 = BIN 07, 223
+&P365091 = CT 02, pl. 10, Bu 1888-05-12, 200
+&P365092 = CT 02, pl. 11, Bu 1888-05-12, 207
+&P365093 = CT 02, pl. 12, Bu 1888-05-12, 212
+&P365100 = CT 02, pl. 19, Bu 1891-05-09, 290
+&P365101 = CT 02, pl. 20, Bu 1891-05-09, 294
+&P365110 = CT 02, pl. 29, Bu 1891-05-09, 354
+&P365118 = CT 02, pl. 38, Bu 1891-05-09, 325
+&P382526 = CT 02, pl. 48, Bu 1891-05-09, 2185
+&P382527 = CT 02, pl. 49, Bu 1891-05-09, 2194
+&P355749 = BM 078176 + BM 139968 = AbB 13, 060
+&P355764 = CT 04, pl. 12, Bu 1888-05-12, 0184
+&P355783 = CT 04, pl. 19, Bu 1888-05-12, 0278
+&P355786 = CT 04, pl. 20, Bu 1888-05-12, 0323
+&P355797 = CT 04, pl. 24, Bu 1891-05-09, 2187
+&P355802 = CT 04, pl. 26, Bu 1891-05-09, 1154
+&P355804 = CT 04, pl. 27, Bu 1888-05-12, 0329
+&P355806 = CT 04, pl. 27, Bu 1888-05-12, 0342
+&P355808 = CT 04, pl. 28, Bu 1888-05-12, 0333
+&P355810 = CT 04, pl. 29, Bu 1888-05-12, 0505
+&P355822 = CT 04, pl. 32, Bu 1888-05-12, 0598
+&P355823 = CT 04, pl. 33, Bu 1888-05-12, 0568
+&P355829 = CT 04, pl. 35, Bu 1888-05-12, 0581
+&P355831 = CT 04, pl. 36, Bu 1888-05-12, 0602
+&P355835 = CT 04, pl. 37, Bu 1888-05-12, 0607
+&P355839 = CT 04, pl. 38, Bu 1888-05-12, 0638
+&P355844 = CT 04, pl. 39, Bu 1888-05-12, 0621
+&P385830 = CT 06, pl. 03, Bu 1891-05-09, 0790
+&P365130 = CT 06, pl. 08, Bu 1891-05-09, 0279
+&P385833 = CT 06, pl. 19, Bu 1891-05-09, 0315
+&P385835 = CT 06, pl. 21, Bu 1891-05-09, 0370
+&P365137 = CT 06, pl. 23, Bu 1891-05-09, 0383
+&P365141 = CT 06, pl. 27, Bu 1891-05-09, 0413
+&P385844 = CT 06, pl. 27, Bu 1891-05-09, 0418
+&P385845 = CT 06, pl. 28, Bu 1891-05-09, 0468
+&P385848 = CT 06, pl. 32, Bu 1891-05-09, 0534
+&P385849 = CT 06, pl. 32, Bu 1891-05-09, 0585
+&P365148 = CT 06, pl. 34, Bu 1891-05-09, 0587
+&P385858 = CT 06, pl. 39, Bu 1891-05-09, 0579a
+&P479902 = CT 29, pl. 01, BM 028447
+&P365936 = CT 29, pl. 01, BM 028475
+&P365937 = CT 29, pl. 02, BM 028473
+&P479904 = CT 29, pl. 02, BM 028508
+&P479903 = CT 29, pl. 02, BM 028558
+&P365938 = CT 29, pl. 03, BM 023823
+&P479905 = CT 29, pl. 03, BM 028457
+&P365939 = CT 29, pl. 04, BM 028476
+&P479906 = CT 29, pl. 04, BM 028559
+&P479907 = CT 29, pl. 04, BM 028588
+&P365940 = CT 29, pl. 05, BM 028510
+&P479908 = CT 29, pl. 05, BM 028531
+&P365941 = CT 29, pl. 06, BM 028474
+&P479909 = CT 29, pl. 06, BM 028840
+&P479910 = CT 29, pl. 07, BM 027780
+&P365942 = CT 29, pl. 07, BM 028436
+&P479911 = CT 29, pl. 08, BM 096604
+&P365943 = CT 29, pl. 08, BM 096608
+&P365944 = CT 29, pl. 09, BM 080878
+&P479912 = CT 29, pl. 09, BM 097816
+&P479913 = CT 29, pl. 10, BM 028444
+&P365945 = CT 29, pl. 10, BM 096629
+&P479914 = CT 29, pl. 10, BM 097040
+&P365946 = CT 29, pl. 11, BM 080329
+&P479915 = CT 29, pl. 11, BM 080723
+&P365947 = CT 29, pl. 12, BM 080484
+&P365948 = CT 29, pl. 13, BM 080685
+&P365949 = CT 29, pl. 14, BM 080558
+&P365950 = CT 29, pl. 15, BM 080802
+&P365951 = CT 29, pl. 16, BM 028435
+&P365952 = CT 29, pl. 17, BM 012819
+&P479916 = CT 29, pl. 18, BM 023357
+&P365953 = CT 29, pl. 18, BM 080797
+&P479917 = CT 29, pl. 19, BM 080897
+&P365954 = CT 29, pl. 20, BM 097031
+&P365955 = CT 29, pl. 21, BM 080616
+&P365956 = CT 29, pl. 22, BM 040037
+&P365957 = CT 29, pl. 23, BM 080612
+&P365958 = CT 29, pl. 24, BM 097050
+&P365959 = CT 29, pl. 25, BM 080340
+&P365960 = CT 29, pl. 26, BM 080840
+&P365961 = CT 29, pl. 27, BM 080410
+&P365962 = CT 29, pl. 28-29, BM 080186
+&P365963 = CT 29, pl. 29-30, BM 029655 & CT 52, 189
+&P365964 = CT 29, pl. 31-32, BM 080354
+&P365965 = CT 29, pl. 33-34, BM 078214
+&P365966 = CT 29, pl. 35, BM 025693
+&P479918 = CT 29, pl. 35, BM 097686
+&P479920 = CT 29, pl. 36, BM 087395
+&P365967 = CT 29, pl. 36, BM 097675
+&P479919 = CT 29, pl. 36, BM 097693
+&P412754 = CT 29, pl. 36, BM 100117
+&P365968 = CT 29, pl. 37 BM 097815 & CT 52, 191
+&P365969 = CT 29, pl. 38, BM 080947
+&P365970 = CT 29, pl. 39, BM 081095
+&P365971 = CT 29, pl. 40, BM 080816
+&P479921 = CT 29, pl. 41, BM 080885
+&P479386 = CT 33, pl. 08, BM 080594
+&P479388 = CT 33, pl. 20, BM 097098
+&P479389 = CT 33, pl. 21, BM 097347
+&P479390 = CT 33, pl. 22, BM 097130
+&P479391 = CT 33, pl. 23, BM 097274
+&P479392 = CT 33, pl. 24, BM 097115
+&P479393 = CT 33, pl. 25, BM 097325
+&P413693 = CT 33, pl. 25, BM 103848
+&P479394 = CT 33, pl. 26, BM 097405
+&P313291 = CT 43, 001
+&P313292 = CT 43, 002
+&P313293 = CT 43, 003
+&P313294 = CT 43, 004
+&P313295 = CT 43, 005
+&P313296 = CT 43, 006
+&P313297 = CT 43, 007
+&P313298 = CT 43, 008
+&P313299 = CT 43, 009
+&P313300 = CT 43, 010
+&P313301 = CT 43, 011
+&P313302 = CT 43, 012
+&P313303 = CT 43, 013
+&P313304 = CT 43, 014
+&P313305 = CT 43, 015
+&P313306 = CT 43, 016
+&P313307 = CT 43, 017
+&P313308 = CT 43, 018
+&P313309 = CT 43, 019
+&P313310 = CT 43, 020
+&P313311 = CT 43, 021
+&P313312 = CT 43, 022
+&P313313 = CT 43, 023
+&P313314 = CT 43, 024
+&P313315 = CT 43, 025
+&P313316 = CT 43, 026
+&P313317 = CT 43, 027
+&P313318 = CT 43, 028
+&P313319 = CT 43, 029
+&P313320 = CT43, 030
+&P313321 = CT 43, 031
+&P313322 = CT 43, 032
+&P313323 = CT 43, 033
+&P313324 = CT 43, 034
+&P313325 = CT 43, 035
+&P313326 = CT 43, 036
+&P313327 = CT 43, 037
+&P313328 = CT 43, 038
+&P313329 = CT 43, 039
+&P313330 = CT 43, 040
+&P313331 = CT 43, 041
+&P313332 = CT 43, 042
+&P313333 = CT 43, 043
+&P313334 = CT 43, 044
+&P313335 = CT 43, 045
+&P313336 = CT 43, 046
+&P313337 = CT 43, 047
+&P313338 = CT 43,048
+&P313339 = CT 43,049
+&P313340 = CT 43,050
+&P313341 = CT 43, 051
+&P313342 = CT 43, 052
+&P313343 = CT 43, 053
+&P313344 = CT 43, 054
+&P313345= CT 43, 055
+&P313346 = CT 43, 056
+&P313347 = CT 43, 057
+&P313348 = CT 43, 058
+&P313351 = CT 43, 061
+&P313354 = CT 43, 064
+&P313355 = CT 43, 065
+&P313356 = CT 43, 066
+&P313357 = CT 43, 067
+&P313358 = CT 43, 068
+&P313359 = CT 43, 069
+&P313360 = CT 43, 070
+&P313361 = CT 43, 071
+&P313362 = CT 43, 072
+&P313363 = CT 43, 073
+&P313364 = CT 43, 074
+&P313365 = CT 43, 075
+&P313366 = CT 43, 076
+&P313367 = CT 043, 077
+&P313368 = CT 43, 078
+&P313369 = CT 43, 079
+&P313370 = CT 43, 080
+&P313371 = CT 43, 081
+&P313372 = CT 43, 082
+&P313373 = CT 43, 083
+&P313374 = CT 43, 084
+&P313375 = CT 43, 085
+&P313376 = CT 43, 086
+&P313377 = CT 43, 087
+&P313378 = CT 43, 088
+&P313379 = CT 43, 089
+&P313380 = CT 43, 090
+&P313381 = CT 43, 091
+&P313382 = CT 43, 092
+&P313383 = CT 43, 093
+&P313385 = CT 43, 095
+&P313387 = CT 43, 097
+&P313388 = CT 43, 098
+&P313389 = CT 43, 099
+&P313390 = CT 43, 100
+&P345555 = CT 44, 050
+&P345556 = CT 44, 051
+&P345557 = CT 44, 052
+&P345558 = CT 44, 053 & CT 52, 190
+&P345559 = CT 44, 54
+&P345560 = CT 44, 055
+&P345561 = CT 44, 056
+&P345562 = CT 44, 057
+&P345563 = CT 44, 58
+&P345564 = CT 44, 59
+&P345565 = CT 44, 60
+&P345566 = CT 44, 61
+&P345567 = CT 44, 62
+&P345568 = CT 44, 63
+&P345569 = CT 44, 64
+&P345570 = CT 44, 65
+&P345571 = CT 44, 66
+&P285808 = CT 45, 122
+&P366275 = CT 48, 079
+&P366276 = CT 48, 080
+&P481750 = CT 52, 001
+&P481778 = CT 52, 029
+&P481884 = CT 52, 137 + = AbB 12, 182- obv- = abb 7, 137-
+&P497776 = Fs Landsberger 235
+&P303920 = JCS 23, 031-032, no. 2
+&P370815 = LFBD 03
+&P275076 = LIH 001
+&P275077 = LIH 002
+&P275078 = LIH 003
+&P275079 = LIH 004
+&P275080 = LIH 005
+&P275081 = LIH 006
+&P275082 = LIH 007
+&P275083 = LIH 008
+&P275084 = LIH 009
+&P275085 = LIH 010
+&P275086 = LIH 011
+&P275087 = LIH 012
+&P275088 = LIH 013
+&P275089 = LIH 014
+&P275090 = LIH 015
+&P275091 = LIH 016
+&P275092 = LIH 017
+&P275093 = LIH 018
+&P275094 = LIH 019
+&P275095 = LIH 020
+&P275096 = LIH 021
+&P275097 = LIH 022
+&P275098 = LIH 023
+&P275099 = LIH 024
+&P275100 = LIH 025
+&P275101 = LIH 026
+&P275102 = LIH 027
+&P275103 = LIH 028
+&P275104 = LIH 029
+&P275105 = LIH 030
+&P275106 = LIH 031
+&P275107 = LIH 032
+&P275108 = LIH 033
+&P275109 = LIH 034
+&P275110 = LIH 035
+&P275111 = LIH 036
+&P275112 = LIH 037
+&P275113 = LIH 038
+&P275114 = LIH 039
+&P275115 = LIH 040
+&P275116 = LIH 041
+&P275117 = LIH 042
+&P275118 = LIH 043
+&P275119 = LIH 044
+&P275121 = LIH 048
+&P275122 = LIH 049
+&P275123 = LIH 050
+&P275124 = LIH 051
+&P275125 = LIH 052
+&P275126 = LIH 053
+&P275127 = LIH 054
+&P275129 = LIH 056
+&P275144 = LIH 071
+&P275145 = LIH 072
+&P275146 = LIH 073
+&P275147 = LIH 074
+&P275148 = LIH 075
+&P275149 = LIH 076
+&P275152 = LIH 079
+&P275153 = LIH 080
+&P275154 = LIH 081
+&P275155 = LIH 082
+&P275156 = LIH 083
+&P275157 = LIH 084
+&P275158 = LIH 085
+&P275159 = LIH 086
+&P275160 = LIH 087
+&P275161 = LIH 088
+&P275162 = LIH 089
+&P275163 = LIH 090
+&P275164 = LIH 091
+&P275165 = LIH 092
+&P275166 = LIH 093
+&P275176 = LIH 103
+&P275177 = LIH 104
+&P275178 = LIH 105
+&P275179 = LIH 106
+&P384863 = OECT 03, 01
+&P347418 = OECT 15, 075
+&P479269 = RA 073, 080, AO 21105
+&P502917 = RIME 4.03.06.add23, ex. 01
+&P386437 = TCL 01, 001
+&P386438 = TCL 01, 002
+&P386439 = TCL 01, 003
+&P386440 = TCL 01, 004
+&P386441 = TCL 01, 005
+&P386442 = TCL 01, 006
+&P386443 = TCL 01, 007
+&P386444 = TCL 01, 008
+&P386445 = TCL 01, 009 + AbB 05, 140
+&P386447 = TCL 01, 011
+&P386448 = TCL 01, 012
+&P386449 = TCL 01, 013
+&P386450 = TCL 01, 014
+&P386451 = TCL 01, 015
+&P386452 = TCL 01, 016
+&P386453 = TCL 01, 017
+&P386454 = TCL 01, 018
+&P386455 = TCL 01, 019
+&P386456 = TCL 01, 020
+&P386457 = TCL 01, 021
+&P386458 = TCL 01, 022
+&P386459 = TCL 01, 023
+&P386460 = TCL 01, 024
+&P386461 = TCL 01, 025
+&P386462 = TCL 01, 026
+&P386463 = TCL 01, 027
+&P386464 = TCL 01, 028
+&P386465 = TCL 01, 029
+&P386466 = TCL 01, 030
+&P386467 = TCL 01, 031
+&P386468 = TCL 01, 032
+&P386469 = TCL 01, 033
+&P386470 = TCL 01, 034
+&P386471 = TCL 01, 035
+&P386472 = TCL 01, 036
+&P386473 = TCL 01, 037
+&P386474 = TCL 01, 038
+&P386475 = TCL 01, 039
+&P386476 = TCL 01, 040
+&P386477 = TCL 01, 041
+&P386478 = TCL 01, 042
+&P386479 = TCL 01, 043
+&P386480 = TCL 01, 044
+&P386481 = TCL 01, 045
+&P386482 = TCL 01, 046
+&P386483 = TCL 01, 047
+&P386484 = TCL 01, 048
+&P386485 = TCL 01, 049
+&P386486 = TCL 01, 050
+&P386487 = TCL 01, 051
+&P386488 = TCL 01, 052
+&P386489 = TCL 01, 053
+&P386490 = TCL 01, 054
+&P385994 = TCL 07, 001
+&P385995 = AbB 04, 002
+&P385996 = TCL 07, 003
+&P385997 = TCL 07, 004
+&P385998 = TCL 07, 005
+&P385999 = TCL 07, 006
+&P386000 = TCL 07, 007
+&P386001 = TCL 07, 008
+&P386002 = TCL 07, 009
+&P386003 = TCL 07, 010
+&P386004 = TCL 07, 011
+&P386005 = TCL 07, 012
+&P386006 = TCL 07, 013
+&P386007 = TCL 07, 014
+&P386008 = TCL 07, 015
+&P386009 = TCL 07, 016
+&P386010 = TCL 07, 017
+&P386011 = TCL 07, 018
+&P386012 = TCL 07, 019
+&P386013 = TCL 07, 020
+&P386014 = TCL 07, 021
+&P387297 = TCL 17, 001
+&P387298 = TCL 17, 002
+&P387299 = TCL 17, 003
+&P387300 = TCL 17, 004
+&P387301 = TCL 17, 005
+&P387302 = TCL 17, 006
+&P387303 = TCL 17, 007
+&P387304 = TCL 17, 008
+&P387305 = TCL 17, 009
+&P387306 = TCL 17, 010
+&P387307 = TCL 17, 011
+&P387308 = TCL 17, 012
+&P387309 = TCL 17, 013
+&P387310 = TCL 17, 014
+&P387311 = TCL 17, 015
+&P387312 = TCL 17, 016
+&P387313 = TCL 17, 017
+&P387314 = TCL 17, 018
+&P387315 = TCL 17, 019
+&P387316 = TCL 17, 020
+&P387317 = TCL 17, 021
+&P387318 = TCL 17, 022
+&P387319 = TCL 17, 023
+&P387320 = TCL 17, 024
+&P387321 = TCL 17, 025
+&P387322 = TCL 17, 026
+&P387323 = TCL 17, 027
+&P387324 = TCL 17, 028
+&P387325 = TCL 17, 029
+&P387403 = TCL 18, 107
+&P387407 = TCL 18, 111
+&P387441 = TCL 18, 145
+&P389730 = TLB 04, 001
+&P368701 = TLB 04, 002
+&P389757 = TLB 04, 003
+&P389765 = TLB 04, 004
+&P372311 = AbB 06, 025 = VS 07, 091
+&P372408 = VS 07, 188
+&P372409 = VS 07, 189
+&P372410 = VS 07, 190
+&P372411 = VS 07, 191
+&P372412 = VS 07, 192
+&P372413 = VS 07, 193
+&P372414 = VS 07, 194
+&P372415 = VS 07, 195
+&P372416 = VS 07, 196
+&P372417 = VS 07, 197
+&P372418 = VS 07, 198
+&P372419 = VS 07, 199
+&P372420 = VS 07, 200
+&P372421 = VS 07, 201
+&P372422 = VS 07, 202
+&P372423 = VS 07, 203
+&P372655 = VS 09, 141
+&P372858 = VS 16, 001
+&P372859 = AbB 06, 002 = VS 16, 002
+&P372860 = AbB 06, 003 = VS 16, 003
+&P372861 = AbB 06, 004 = VS 16, 004
+&P372862 = AbB 06, 005 = VS 16, 005
+&P372863 = AbB 06, 006 = VS 16, 006
+&P372864 = AbB 06, 007 = VS 16, 007
+&P372865 = AbB 06, 008 = VS 16, 008
+&P372866 = AbB 06, 009 = VS 16, 009
+&P372867 = AbB 06, 010 = VS 16, 010
+&P372868 = AbB 06, 011 = VS 16, 011
+&P372869 = AbB 06, 012 = VS 16, 012
+&P372870 = AbB 06, 013 = VS 16, 013
+&P372996 = AbB 06, 014 = VS 16, 014
+&P372871 = AbB 06, 015 = VS 16, 015
+&P372872 = AbB 06, 016 = VS 16, 016
+&P372873 = AbB 06, 017 = VS 16, 017
+&P372874 = AbB 06, 018 = VS 16, 018
+&P372875 = AbB 06, 019 = VS 16, 019
+&P372876 = AbB 06, 020 = VS 16, 020
+&P372877 = AbB 06, 021 = VS 16, 021
+&P372878 = AbB 06, 022 = VS 16, 022
+&P372879 = AbB 06, 023 = VS 16, 023
+&P372880 = AbB 06, 024 = VS 16, 024
+&P372881 = AbB 06, 026 = VS 16, 026
+&P372882 = AbB 06, 027 = VS 16, 027
+&P372883 = AbB 06, 028 = VS 16, 028
+&P372884 = AbB 06, 029 = VS 16, 029
+&P372885 = AbB 06, 030 = VS 16, 030
+&P372886 = AbB 06, 031 = VS 16, 031
+&P372887 = AbB 06, 032 = VS 16, 032
+&P372888 = AbB 06, 033 = VS 16, 033
+&P372889 = AbB 06, 034 = VS 16, 034
+&P372890 = AbB 06, 035 = VS 16, 035
+&P372891 = AbB 06, 036 = VS 16, 036
+&P372892 = AbB 06, 037 = VS 16, 037
+&P372893 = AbB 06, 038 = VS 16, 038
+&P372894 = AbB 06, 039 = VS 16, 039
+&P372895 = AbB 06, 040 = VS 16, 040
+&P372896 = AbB 06, 041 = VS 16, 041
+&P372897 = AbB 06, 042 = VS 16, 042
+&P372898 = AbB 06, 043 = VS 16, 043
+&P372899 = AbB 06, 044 = VS 16, 044
+&P372900 = AbB 06, 045 = VS 16, 045
+&P372901 = AbB 06, 046 = VS 16, 046
+&P372902 = AbB 06, 047 = VS 16, 047
+&P372903 = AbB 06, 048 = VS 16, 048
+&P372904 = AbB 06, 049 = VS 16, 049
+&P372905 = AbB 06, 050 = VS 16, 050
+&P372906 = AbB 06, 051 = VS 16, 051
+&P372907 = AbB 06, 052 = VS 16, 052
+&P372908 = AbB 06, 053 = VS 16, 053
+&P372909 = AbB 06, 054 = VS 16, 054
+&P372910 = AbB 06, 055 = VS 16, 055
+&P372911 = AbB 06, 056 = VS 16, 056
+&P372912 = AbB 06, 057 = VS 16, 057
+&P372913 = AbB 06, 058 = VS 16, 058
+&P372914 = AbB 06, 059 = VS 16, 059
+&P372915 = AbB 06, 060 = VS 16, 060
+&P372916 = AbB 06, 061 = VS 16, 061
+&P372917 = AbB 06, 062 = VS 16, 062
+&P372918 = AbB 06, 063 = VS 16, 063
+&P372919 = AbB 06, 064 = VS 16, 064
+&P372920 = AbB 06, 065 = VS 16, 065
+&P372921 = AbB 06, 066 = VS 16, 066
+&P372922 = AbB 06, 067 = VS 16, 067
+&P372923 = AbB 06, 068 = VS 16, 068
+&P372924 = AbB 06, 069 = VS 16, 069
+&P372925 = AbB 06, 070 = VS 16, 070
+&P372926 = VS 16, 071
+&P372927 = VS 16, 072
+&P372928 = AbB 06, 073 = VS 16, 073
+&P372929 = AbB 06, 074 = VS 16, 074
+&P372930 = AbB 06, 075 = VS 16, 075
+&P372931 = VS 16, 076
+&P372932 = VS 16, 077
+&P372933 = VS 16, 078
+&P372934 = VS 16, 079
+&P372935 = VS 16, 080
+&P372936 = VS 16, 081
+&P372937 = VS 16, 082
+&P372938 = VS 16, 083 = AbB 06, 083
+&P372939 = VS 16, 084 = AbB 06, 084
+&P372940 = VS 16, 085 = AbB 06, 085
+&P372941 = VS 16, 086
+&P372942 = VS 16, 087
+&P372943 = VS 16, 088
+&P372944 = VS 16, 089
+&P372945 = VS 16, 090
+&P372946 = VS 16, 091
+&P372947 = VS 16, 092
+&P372948 = VS 16, 093
+&P372949 = VS 16, 094
+&P372950 = VS 16, 095
+&P372951 = VS 16, 096
+&P372952 = VS 16, 097
+&P372953 = VS 16, 098
+&P372954 = VS 16, 099
+&P372955 = VS 16, 100
+&P373055 = VS 16, 101
+&P372956 = VS 16, 102
+&P372957 = VS 16, 103
+&P372958 = VS 16, 104
+&P372959 = VS 16, 105
+&P372960 = VS 16, 106
+&P372961 = VS 16, 107
+&P372962 = VS 16, 108
+&P372963 = VS 16, 109
+&P372964 = VS 16, 110
+&P372965 = VS 16, 111
+&P372966 = VS 16, 112
+&P372967 = VS 16, 113
+&P372968 = VS 16, 114
+&P372969 = VS 16, 115
+&P372970 = VS 16, 116
+&P372971 = VS 16, 117
+&P372972 = VS 16, 118
+&P372973 = VS 16, 119
+&P372974 = VS 16, 120
+&P372975 = VS 16, 121
+&P372976 = VS 16, 122
+&P372977 = VS 16, 123
+&P372978 = VS 16, 124
+&P372979 = VS 16, 125
+&P372980 = VS 16, 126
+&P372981 = VS 16, 127
+&P372982 = VS 16, 128
+&P372983 = VS 16, 129
+&P372984 = VS 16, 130
+&P372985 = VS 16, 131
+&P372986 = VS 16, 132
+&P372987 = VS 16, 133
+&P372988 = VS 16, 134
+&P372989 = VS 16, 135
+&P372990 = VS 16, 136
+&P372991 = VS 16, 137
+&P372992 = VS 16, 138
+&P372993 = VS 16, 139
+&P372994 = VS 16, 140
+&P372995 = VS 16, 141
+&P372997 = VS 16, 142
+&P372998 = VS 16, 143
+&P372999 = VS 16, 144
+&P373000 = VS 16, 145
+&P373001 = VS 16, 146
+&P373002 = VS 16, 147
+&P373003 = VS 16, 148
+&P373004 = VS 16, 149
+&P373005 = VS 16, 150
+&P373006 = VS 16, 151
+&P373007 = VS 16, 152
+&P373008 = VS 16, 153
+&P373009 = VS 16, 154
+&P373010 = VS 16, 155
+&P373012 = VS 16, 157
+&P373013 = VS 16, 158
+&P373014 = VS 16, 159
+&P373015 = VS 16, 160
+&P373016 = VS 16, 161
+&P373017 = VS 16, 162
+&P373018 = VS 16, 163
+&P373019 = VS 16, 164
+&P373020 = VS 16, 165
+&P373021 = VS 16, 166
+&P373022 = VS 16, 167
+&P373023 = VS 16, 168
+&P373024 = VS 16, 169
+&P373025 = VS 16, 170
+&P373026 = VS 16, 171
+&P373027 = VS 16, 172
+&P373028 = VS 16, 173
+&P373029 = VS 16, 174
+&P373030 = VS 16, 175
+&P373031 = VS 16, 176
+&P373032 = VS 16, 177
+&P373033 = VS 16, 178
+&P373034 = VS 16, 179
+&P373035 = VS 16, 180
+&P373036 = VS 16, 181
+&P373037 = VS 16, 182
+&P373038 = VS 16, 183
+&P373039 = VS 16, 184
+&P373040 = VS 16, 185
+&P373041 = VS 16, 186
+&P373042 = VS 16, 187
+&P373043 = VS 16, 188
+&P373044 = VS 16, 189
+&P373045 = VS 16, 190
+&P373046 = VS 16, 191
+&P373047 = VS 16, 192
+&P373048 = VS 16, 193
+&P373049 = VS 16, 194
+&P373050 = VS 16, 195
+&P373051 = VS 16, 196
+&P373052 = VS 16, 197
+&P373053 = VS 16, 198
+&P373054 = VS 16, 199
+&P373056 = VS 16, 200
+&P373057 = VS 16, 201
+&P373058 = VS 16, 202
+&P373059 = VS 16, 203
+&P373060 = VS 16, 204
+&P373061 = VS 16, 205
+&P286507 = YNER 04, 035
+&P299364 = YNER 04, 036
+&P292992 = YNER 04, 043 = AbB 253
+&P286532 = YNER 04, 049 = AbB 09, 254
+&P310521 = YNER 04, 050
+&P292810 = AbB 09, 255 = YNER 04, 054
+&P292853 = AbB 09, 256 = YNER 04, 057
+&P292981 = AbB 09, 257 = YNER 04, 058
+&P286525 = AbB 09, 258 = YNER 04, 059
+&P292916 = AbB 09, 259 = YNER 04, 063
+&P292989 = AbB 09, 260 = YNER 04, 064
+&P292936 = AbB 09, 261 = YNER 04, 065
+&P292857 = AbB 09, 262 = YNER 04, 066
+&P292800 = AbB 09, 263 = YNER 04, 069
+&P292807 = AbB 09, 264 = YNER 04, 070
+&P292183 = AbB 09, 266 = YNER 04, 075
+&P292837 = AbB 09, 265 = YNER 04, 076
+&P292902 = AbB 09, 267 = YNER 04, 077
+&P305756 = YOS 02, 001 = AbB 09, 001
+&P306534 = YOS 02, 025
+&P305791 = YOS 02, 026
+&P306531 = YOS 02, 027
+&P305782 = YOS 02, 028
+&P306543 = YOS 02, 029
+&P307163 = YOS 02, 030
+&P305805 = YOS 02, 031
+&P305758 = YOS 02, 032
+&P305806 = YOS 02, 033
+&P305747 = YOS 02, 034
+&P305797 = YOS 02, 035
+&P305771 = YOS 02, 036
+&P306659 = YOS 02, 037
+&P305824 = YOS 02, 038
+&P306658 = YOS 02, 039
+&P305755 = YOS 02, 040
+&P305745 = YOS 02, 041
+&P305803 = YOS 02, 042
+&P305820 = YOS 02, 043
+&P305744 = YOS 02, 044
+&P305814 = YOS 02, 045
+&P307155 = YOS 02, 046
+&P306655 = YOS 02, 047
+&P305799 = YOS 02, 048
+&P307177 = YOS 02, 049
+&P305781 = YOS 02, 075
+&P308021 = YOS 02, 076
+&P306533 = YOS 02, 077
+&P306542 = YOS 02, 078
+&P308009 = YOS 02, 079
+&P305743 = YOS 02, 080
+&P306539 = YOS 02, 081
+&P305757 = YOS 02, 082
+&P308053 = YOS 02, 083
+&P305761 = YOS 02, 084
+&P306174 = YOS 02, 085
+&P307157 = YOS 02, 086
+&P305779 = YOS 02, 087
+&P305749 = YOS 02, 088
+&P305802 = YOS 02, 89
+&P305774 = YOS 02, 090
+&P305767 = YOS 02, 091
+&P307174 = YOS 02, 092
+&P305789 = YOS 02, 093
+&P307158 = YOS 02, 094
+&P307168 = YOS 02, 095
+&P305788 = YOS 02, 096
+&P305762 = YOS 02, 097
+&P305754 = YOS 02, 098
+&P305776 = YOS 02, 099
+&P306561 = YOS 02, 112
+&P307166 = YOS 02, 127
+&P286477 = YOS 14, 069

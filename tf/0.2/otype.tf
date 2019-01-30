@@ -5,10 +5,11 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-01-29T22:29:30Z
+@dateWritten=2019-01-30T15:25:51Z
 
 1-189822	sign
 189823-204344	cluster
-204345-205709	face
-205710-230438	line
-230439-302239	word
+204345-206902	face
+206903-231631	line
+231632-232823	tablet
+232824-304624	word

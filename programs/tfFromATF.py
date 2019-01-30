@@ -12,15 +12,16 @@ from tf.convert.walker import CV
 BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
-VERSION = '0.2'
+VERSION_SRC = '0.2'
+VERSION_TF = '0.2'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
 
-IN_DIR = f'{TRANS_DIR}/{VERSION}'
+IN_DIR = f'{TRANS_DIR}/{VERSION_SRC}'
 
 TF_DIR = f'{REPO_DIR}/tf'
-OUT_DIR = f'{TF_DIR}/{VERSION}'
+OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 
 
 # ATF INTERPRETATION
@@ -198,6 +199,8 @@ def director(cv):
   curFace = None
   curLine = None
   curCluster = collections.defaultdict(list)
+  curSign = None
+
   i = 0
   pNum = None
 
@@ -275,7 +278,10 @@ def director(cv):
     faceInsert(typ)
 
     if len(fields) == 2:
-      cv.feature(subtype=fields[1])
+      cv.feature(
+          curFace,
+          subtype=fields[1],
+      )
 
   # sub director: inserting a default face node if no face is specified
 
@@ -286,6 +292,7 @@ def director(cv):
     curFace = cv.node('face')
 
     cv.feature(
+        curFace,
         type='obverse',
         srcfile=src,
         srcln=i,
@@ -301,6 +308,7 @@ def director(cv):
     curLine = cv.node('line')
 
     cv.feature(
+        curLine,
         ln=ln,
         srcfile=src,
         srcln=i,
@@ -308,6 +316,7 @@ def director(cv):
     )
     if comment is not None:
       cv.feature(
+          curLine,
           comment=comment,
       )
 
@@ -351,7 +360,10 @@ def director(cv):
 
         curCluster[cb].append(cNode)
 
-        cv.feature(type=cb)
+        cv.feature(
+            cNode,
+            type=cb,
+        )
         part = part[1:]
 
     # subsub director: terminating a cluster node
@@ -377,9 +389,12 @@ def director(cv):
     # subsub director: setting up a sign node
 
     def signStart():
-      cv.slot()
+      nonlocal curSign
+
+      curSign = cv.slot()
 
       cv.feature(
+          curSign,
           language=inAlt,
           after=(
               '-' if p < lParts - 1 else
@@ -391,15 +406,20 @@ def director(cv):
   # sub director: adding data to a sign node
 
     def signData():
+      nonlocal curSign
       nonlocal part
 
       cv.feature(
+          curSign,
           atf=part,
       )
 
       if part and part[0] == '{' and part[-1] == '}':
         part = part[1:-1]
-        cv.feature(super=1)
+        cv.feature(
+            curSign,
+            super=1,
+        )
 
       match = graphemeRe.search(part)
       if match:
@@ -411,6 +431,7 @@ def director(cv):
         grapheme = match.group(3)
 
         cv.feature(
+            curSign,
             type='reading',
             reading=part,
             givengrapheme=grapheme,
@@ -419,11 +440,15 @@ def director(cv):
       for (mc, mf) in markChars.items():
         if mc in part:
           part = part.replace(mc, '')
-          cv.feature(**{mf: 1})
+          cv.feature(
+              curSign,
+              **{mf: 1},
+          )
 
       if part == '':
         errors['empty part'][src].add((i, line, word))
         cv.feature(
+            curSign,
             type='empty',
         )
         return
@@ -433,22 +458,27 @@ def director(cv):
         quantity = match.group(1)
         rest = match.group(2)
         cv.feature(
+            curSign,
             type='numeral',
         )
         if '/' in quantity:
           cv.feature(
+              curSign,
               fraction=quantity,
           )
         else:
           cv.feature(
+              curSign,
               repeat=quantity,
           )
         if rest.islower():
           cv.feature(
+              curSign,
               reading=rest,
           )
         else:
           cv.feature(
+              curSign,
               grapheme=rest,
           )
         return
@@ -457,25 +487,30 @@ def director(cv):
       if match:
         part = match.group(1)
         cv.feature(
+            curSign,
             uncertain=1,
         )
         if part == 'x' or part == '...':
           cv.feature(
+              curSign,
               type='empty' if part == '...' else 'unknown',
               grapheme=part,
           )
         elif part.isupper():
           cv.feature(
+              curSign,
               type='grapheme',
               grapheme=part,
           )
         elif part.islower():
           cv.feature(
+              curSign,
               type='reading',
               reading=part,
           )
         else:
           cv.feature(
+              curSign,
               type='other',
               grapheme=part,
           )
@@ -483,6 +518,7 @@ def director(cv):
 
       if part == 'x' or part == 'X' or part == '...':
         cv.feature(
+            curSign,
             type='empty' if part == '...' else 'unknown',
             grapheme=part,
         )
@@ -490,6 +526,7 @@ def director(cv):
 
       if part.islower():
         cv.feature(
+            curSign,
             type='reading',
             reading=part,
         )
@@ -497,12 +534,14 @@ def director(cv):
 
       if part.isupper():
         cv.feature(
+            curSign,
             type='grapheme',
             grapheme=part,
         )
         return
 
       cv.feature(
+          curSign,
           type='other',
           grapheme=part,
       )
@@ -640,7 +679,6 @@ def loadTf():
 # MAIN
 
 good = convert()
-# good = True
 
 if good:
   loadTf()
