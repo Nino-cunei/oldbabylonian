@@ -2,6 +2,7 @@ import sys
 import os
 import re
 import collections
+import json
 from shutil import rmtree
 from glob import glob
 from tf.fabric import Fabric
@@ -17,6 +18,10 @@ VERSION_TF = '0.3'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
+WRITING_DIR = f'{REPO_DIR}/sources/writing'
+
+SIGN_FILE = 'GeneratedSignList.json'
+SIGN_PATH = f'{WRITING_DIR}/{SIGN_FILE}'
 
 IN_DIR = f'{TRANS_DIR}/{VERSION_SRC}'
 
@@ -40,6 +45,23 @@ markChars = {
     '?': 'uncertain',
     '#': 'damage',
 }
+
+transUni = {
+    'sz': 'š',
+    's,': 'ṣ',
+    "s'": 'ś',
+    't,': 'ṭ',
+    'h,': 'ḫ',
+}
+
+transAscii = {rout.upper(): rin for (rin, rout) in transUni.items()}
+
+
+def makeAscii(r):
+  for (rin, rout) in transAscii.items():
+    r = r.replace(rin, rout)
+  return r.lower()
+
 
 # TF CONFIGURATION
 
@@ -171,6 +193,26 @@ def showErrors(errors, batch=10):
 
 # SET UP CONVERSION
 
+def getMapping():
+  with open(SIGN_PATH) as fh:
+    signs = json.load(fh)['signs']
+
+  print(f'{len(signs)} signs in the json sign file')
+
+  mapping = collections.defaultdict(set)
+
+  for (sign, signData) in signs.items():
+    uniStr = signData['signCunei']
+    values = signData['values']
+    for value in values:
+      valueAscii = makeAscii(value)
+      mapping[valueAscii].add(uniStr)
+
+  print(f'{len(mapping)} distinct values in table')
+
+  return mapping
+
+
 def getSources():
   if os.path.exists(OUT_DIR):
     rmtree(OUT_DIR)
@@ -194,6 +236,7 @@ def getConverter():
 def director(cv):
 
   sources = getSources()
+  mapping = getMapping()
 
   curTablet = None
   curFace = None
@@ -209,6 +252,14 @@ def director(cv):
   errors = collections.defaultdict(lambda: collections.defaultdict(set))
 
   # sub director: setting up a tablet node
+
+  def uni(reading, grapheme):
+    uReading = '|'.join(mapping.get(reading, (reading,)))
+    uGrapheme = '|'.join(mapping.get(grapheme, (grapheme,)))
+    result = uReading
+    if grapheme:
+      result += f'({uGrapheme})'
+    return result
 
   def tabletStart():
     nonlocal curTablet
@@ -435,6 +486,7 @@ def director(cv):
             type='reading',
             reading=part,
             givengrapheme=grapheme,
+            unicode=uni(part, grapheme),
         )
 
       for (mc, mf) in markChars.items():
@@ -462,24 +514,33 @@ def director(cv):
             type='numeral',
         )
         if '/' in quantity:
+          fraction = quantity
+          repeat = None
           cv.feature(
               curSign,
               fraction=quantity,
           )
         else:
+          repeat = quantity
+          fraction = None
           cv.feature(
               curSign,
-              repeat=quantity,
+              repeat=repeat,
           )
+
+        unicode = uni(rest, None) * repeat if repeat is not None else uni(rest, fraction)
+
         if rest.islower():
           cv.feature(
               curSign,
               reading=rest,
+              unicode=unicode,
           )
         else:
           cv.feature(
               curSign,
               grapheme=rest,
+              unicode=unicode,
           )
         return
 
@@ -507,6 +568,7 @@ def director(cv):
               curSign,
               type='reading',
               reading=part,
+              unicode=uni(part, None)
           )
         else:
           cv.feature(
@@ -531,6 +593,7 @@ def director(cv):
             curSign,
             type='reading',
             reading=part,
+            unicode=uni(part, None)
         )
         return
 
@@ -539,6 +602,7 @@ def director(cv):
             curSign,
             type='grapheme',
             grapheme=part,
+            unicode=uni(None, part)
         )
         return
 
@@ -546,6 +610,7 @@ def director(cv):
           curSign,
           type='other',
           grapheme=part,
+          unicode=uni(None, part)
       )
       msg = 'mixed case' if part.isalnum() else 'strange grapheme'
       errors[msg][src].add((i, line, part))
