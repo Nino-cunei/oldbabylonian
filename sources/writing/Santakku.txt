@@ -1,0 +1,2030 @@
+1
+12038
+AŠ
+!
+!
+aš, rum, rim5
+ac
+3
+1212C
+ḪAL
+"
+"
+ḫal
+hal
+4
+12401
+EŠ6
+$
+3
+3
+5
+12044
+BAL
+%
+#
+bal
+bal
+6
+12108
+GÍR
+&
+$
+gír
+gir2
+9
+122FB
+TAR
+'
+%
+tar, tír
+tar
+10
+1202D
+AN
+(
+&
+an, ìl
+an
+12
+1222E
+MUG
+)
+mug
+mug
+14
+12040
+BA
+*
+'
+ba
+ba
+15
+1236A
+ZU
++
+(
+zu
+zu
+16
+122E2
+SU
+,
+)
+su
+su
+17
+122BF
+ŠEN (SUxA)
+-
+*
+cen
+18
+12034
+ARAD (NÍTA)
+.
++
+ìr, èr, wàr
+arad, ir3
+20
+1231A 12317
+ITI (UDšeššig)
+/
+,
+iti
+22
+122DA
+ŠUBUR
+0
+-
+šaḫ
+cah
+24
+12157
+KA
+1
+.
+ka, qà, pi4
+ka
+33
+12164
+PÙ (KAxKÁR)
+2
+pu3
+61
+12174
+EME (KAxME)
+/
+eme
+64
+12158
+NAG (KAxA)
+0
+nag/k/q
+nag
+65
+12165
+GU7 (KAxNÌG) (KAxGAR)
+3
+gu7
+71
+12337
+URU
+4
+1
+e/iri, rí/é
+uru
+73
+1233A
+UKKIN (URUxBAR)
+5
+ukkin
+75
+1234E
+BANŠUR(URUxURUDA)
+6
+bancur
+79
+12342
+ASARI (URUxIGI)
+7
+asari
+80
+12347
+GIŠGAL (URUxMIN)
+8
+gicgal
+85
+121F7
+LI
+9
+2
+li
+li
+86
+12305
+TU (DÙ)
+:
+3
+tu
+tu
+87
+121AD
+KU4
+;
+4
+ku4
+89
+121B7
+LA
+<
+5
+la
+la
+90
+12033
+APIN (ENGAR)
+=
+6
+apin
+91
+12224
+MAḪ
+>
+7
+maḫ
+mah
+92
+1227D
+PAB (KÚR)
+?
+pab, pa4
+pab
+94
+1227D+1227D
+BÙLUG ( MUNU4)
+??
+bulug3
+98
+1222C
+MU
+@
+8
+mu
+mu
+99
+122E1
+SÍLA (QA)
+A
+9
+qa
+sila2, qa
+101
+12363 12364
+NÚMUN (ZI/ZI-LAGAB)
+B C
+:
+numun2
+105
+12103
+GIL (GI-GI)
+D
+gil
+106
+122FA
+KÍD (TAK4)
+E
+kid2
+110
+1223E
+NA
+F
+;
+na
+na
+111
+12292
+RU
+G
+<
+ru
+ru
+112
+12261
+NU
+H
+=
+nu
+113
+12041
+BAD
+I
+>
+bad, be, baṭ/t, til, úš
+bad
+115
+122D3
+ŠIR (NU11)
+J
+?
+cir
+117
+121B0
+NUMUN (KUL)
+K
+@
+numun
+118
+122FE
+TI
+L
+A
+ti
+ti
+119
+12077
+DIN
+M
+B
+din
+din
+120
+12226
+MAŠ
+N
+C
+maš
+mac
+121
+12047
+BAR
+O
+D
+bar, pár
+bar
+124
+12226+12118+120FC
+IDIGNA (MAŠ-GÚ-GÀR)
+NPQ
+CEF
+idigna
+127
+1201D
+AG
+R
+G
+ak/g/q
+ag
+130
+12227
+MÁŠ
+S
+H
+máš, kun8
+mac2
+131
+121B2
+KUN
+T
+I
+kun
+132
+12137
+ḪU
+U
+J
+ḫu
+hu
+133
+12317+122DB
+U5 (ḪU-SI)
+NAM
+UV
+u5
+134
+12246
+W
+K
+nam, bir5, pir6
+nam
+136
+12145
+IG
+X
+L
+ig/k/q, eg/k/q
+ig
+137
+12137+1212D
+MUD (ḪU-ḪI)
+UY
+JM
+mud
+ZI
+140 12363
+141 12100 GI
+B: ZN
+zi, ze zi gi, ge, qì, qè gi
+142
+12291
+RI
+[
+O
+ri, dal
+ri
+143
+12263
+NUN
+\
+P
+nun, zil, síl
+nun
+145
+12263+121EC
+TÙR (NUN-LAGAR)
+\]
+PQ
+tur3
+148 149
+1218F 12138
+KAB ḪÚB
+^
+R
+kab
+kab, hub2
+150
+1213D
+ḪUB (ḪÚBxUD)
+_
+hub
+151
+122E9
+SUR (ŠUR)
+MÙŠ (INANNA)
+UMBIN (GAD-TAK4-ÚR)
+`
+šur
+sur
+152
+1223D
+MÚŠ (SUḪ; MÙŠgunu)
+a
+mùš
+muc2
+153
+12239
+b
+S
+muc3
+157
+120F0
+GAD
+c
+T
+gad
+160
+12322
+d
+umbin
+162
+122D2
+ŠINIG (GAD-NAGA)
+e
+cinig
+164
+12097
+EN
+f
+U
+en, in4
+en
+165
+12099
+BURU14 (ENxKÁR)
+g
+V
+buru14
+dim, tum8
+166 12070 DÀR
+167 12074 DIM
+h iW
+dar3 dim
+168
+12075
+MUN (DIMxŠE//KUR)
+j
+mun
+170
+122ED
+LÀL (TAxḪI)
+k
+lal3
+171
+121AF
+KU7
+l
+ku7
+172
+12293
+SA
+m
+X
+sa
+173
+1203F
+AŠGAB
+n
+Y
+acgab
+174
+120F7
+GÁN
+o
+Z
+gan2
+176
+12118
+GÚ (TIK)
+P
+E
+gu2
+178
+12119
+DUR (GÚxKAK)
+p
+[
+dur
+dur
+179
+12118+12326
+GUN (GÚ-UN)
+Pq
+E\
+gun
+180
+12125
+GUR
+r
+]
+gur
+gur
+181
+122DB
+SI
+V
+^
+si/e
+si
+182
+122DC
+SU4 (SIgunu)
+s
+su4
+183
+1206F
+DAR (GÙN, ḪUgunu)
+t
+_
+dar
+dar
+184
+12295
+SAG
+u
+`
+sga/k/q, san
+sag
+201
+12223
+MÁ
+v
+a
+má
+ma2
+203
+1235A
+ÙZ (MÁ-KASKAL)
+w
+ud/t5
+uz3
+209
+122F0
+TAB
+x
+tab/p
+tab
+212
+120FE
+GEŠTIN
+y
+gectin
+216
+12403
+IA7
+z
+ia7
+218
+12405
+ÍMIN
+{
+imin2
+220
+12407
+ÍLIMMU
+|
+ilimmu2
+221
+122F3
+TAG (ŠUM)
+}
+b
+tag/k/q, šum
+tag
+222
+1218D
+KÁ
+~
+c
+ka2
+223
+1200A
+AB
+
+d
+ab/p, ì/ès/ṣ/z
+ab
+230
+1234F
+URUDU (URUDA)
+Ä
+urudu
+232
+12014
+UNUG (ABxU-U-U)
+Å
+e
+unug
+12015
+UNUG (ABgunu)
+Å
+e
+unug
+236
+1200F
+NINA (ABxḪA)
+Ç
+nina
+238
+1231D
+UM
+É
+f
+um, u16
+um
+242
+1207E
+DUB
+Ñ
+g
+ṭup, tub/p, dub/p
+dub
+247
+1202F
+MUL (AN/AN-AN)
+Ö
+mul
+248
+122EB
+TA
+Ü
+h
+ta, dá
+ta
+252
+1213F
+I
+á
+i
+i
+i
+253
+120F6
+GAN
+à
+j
+gan, ḫé/í
+gan
+255
+12309
+TUR (DUMU)
+â
+k
+tur
+258
+1201C
+AD
+ä
+l
+ad/t/ṭ
+ad
+259
+12362
+ZÍ (ZÉ, ABxPA)
+ã
+m
+zí/é, ṣi/e, si/e20
+zi2
+260
+12140
+IA
+å
+n
+ia
+ia
+261
+12154
+IN
+ç
+o
+in
+in
+266
+12217
+LUGAL
+é
+p
+lugal
+271
+120A1
+EZEN
+è
+ezen
+1219F
+KÉŠ
+ê
+kec2
+275
+120A6
+BÀD (cf. UG5, n.272)
+ë
+bad3
+292
+122E7
+SUM
+í
+q
+šúm
+sum
+293
+12240
+NAGA
+ì
+naga
+296
+1228C
+UG (PIRIGxUD)
+î
+r
+ug/k/q
+ug
+297
+1228D
+AZ (PIRIGxZA)
+ï
+s
+as/ṣ/z
+az
+298
+120EE
+GAB
+ñ
+t
+gab
+300
+12094
+EDIN
+ó
+edin
+301
+1222D
+TAḪ (MU/MU)
+ò
+t/daḫ
+tah
+302
+1219C
+KASKAL
+ô
+u
+kaskal
+309
+12120
+AM (GUDxKUR)
+ö
+v
+am
+am
+311
+1235C
+UZU
+õ
+w
+uzu
+312
+1224B
+BÍL (NEšeššig)
+ú
+x
+bíl, píl
+bil2
+313
+12248
+NE
+ù
+y
+ne, ni5, bil, pil, bí
+ne
+320
+12253
+ŠÀM (NÍNDAxAN)
+û
+cam3
+326
+12258
+ÁG (NÌNDAxNE)
+ü
+ág
+ag2
+339
+12123
+KUM (GUM)
+†
+z
+kum, qum, gum, qu
+kum
+340
+12124
+GAZ (GUMxŠE)
+°
+gaz
+341
+1232B
+ÚR
+¢
+{
+kàs
+348
+1214B
+IL
+£
+|
+il
+il
+350
+1207A
+DU
+§
+}
+du, ṭù; túm
+du
+1207B
+LAḪ4 (DU/DU)
+•
+lah4
+351
+1207C
+SUḪUŠ (DUgunu)
+¶
+~
+suhuc
+352
+1207D
+KAŠ4 (DUšeššig)
+ß
+kac4
+353
+12032
+ANŠE
+®
+
+ance
+354
+12308
+TUM
+©
+Ä
+tum, ṭum, dum, tu4
+tum
+356
+12095
+EGIR
+TM
+egir
+357
+12156
+IŠ
+
+Å
+iš, ís/z/ṣ, eš15
+ic
+358
+12049
+BI
+
+Ç
+bi, bé, pí/é
+bi
+362
+122C6
+ŠIM
+­
+É
+šim, ši6
+cim
+373
+122CB
+ŠIMxGAR (BAPPIR)
+Æ
+bappir
+378
+12112
+KIB
+Ø
+Ñ
+kib
+379
+12195
+GAG (KAK)
+°
+Ö
+kak
+gag
+380
+1224C
+NI
+±
+Ü
+ni, né, ì, ià
+ni
+381
+12351
+UŠ
+2
+á
+uš
+uc
+385
+1224C+12313
+NA4 (NI-UD)
+±3
+Üà
+na4
+387
+120B7
+GÁ
+¥
+â
+ga2
+388
+122D6
+ŠITA
+μ
+cita
+392
+120BC
+AMA (GÁxAN)
+¶
+ä
+ama
+408
+120E2
+SILA4 (GÁxPA)
+·
+sila4
+411
+120E1
+ÙR (GÁxNIR)
+
+ã
+ur3
+434
+120B7+12111 122D6+12111
+ŠÍTA (GÁ-GIŠ)
+¥1
+cita2
+435
+121A6
+KISAL
+o
+å
+par4
+kisal
+437
+12155
+IR
+a
+ç
+i/er
+ir
+438
+12056
+DAG
+o
+é
+dag/k/q, tág/k/q
+dag
+455
+1205B
+UBUR (DAG.KISIM5xGA)
+è
+ubur
+464
+1227A
+PA
+1⁄2
+ê
+pa
+banmin
+nuska
+465 12450 BANMIN æ ë 467 1227A+12306 NUSKA (PA-TÚG) 1⁄2ø
+468
+1227A+121FB
+SIPA (PA-LU)
+1⁄2¿
+êí
+sipa
+469
+12111
+GIŠ
+1
+ì
+i/ez/s/ṣ, eš19
+gic
+472
+1211E
+GU4 (GUD)
+¡
+î
+gu4
+gud
+474
+12020
+AL
+¬
+ï
+al
+al
+483
+12225
+MAR
+Ã
+ñ
+mar
+mar
+484
+121A4
+KID
+ƒ
+ó
+kid
+485
+122C3
+ŠID
+Å
+lag/k/q
+cid, lag
+486
+12229
+MES
+Æ
+ò
+mes
+490
+12311
+Ú
+«
+ô
+ú, šam
+u2
+491
+120B5
+GA
+»
+ö
+ga, kà
+ga
+493
+1214D
+ÍL
+...
+õ
+íl
+il2
+494
+1221B
+LUḪ
+ú
+luḫ, làḫ
+luh
+495
+1208D
+É
+À
+ù
+é
+e2
+496
+12197
+KAL
+Ã
+û
+kal, lab/p, dan
+kal
+498
+1208A
+E
+Õ
+ü
+e
+e
+499
+12081
+DUG
+Œ
+dug/k/q
+dug
+501
+123261
+UN
+q
+\
+un
+un
+502
+1226A
+NIR (NUN/NUN)
+œ
+nir
+nir
+504
+12312
+UB
+–
+†
+ub/p
+ub
+507
+12104
+GI4
+—
+°
+gi/e4, qi/e4
+gi4
+511
+1228F
+RA
+“
+¢
+ra
+ra
+512
+122A8
+DÙL (SAGgunu)
+”
+£
+dul3
+514
+121FD
+LÚ
+‘
+§
+lu2
+535
+122C0
+ŠEŠ
+’
+•
+cec
+540
+12360
+ZAG
+÷
+zag/k/q
+zag
+541
+122AC
+SAR
+×
+¶
+sar
+543
+120FC
+GÀR
+Q
+F
+gàr
+gar3
+545
+12318
+MÚRU (NISAG)
+ÿ
+ß
+muru2
+547
+12324
+DÉ (UMUMxKASKAL)
+Ÿ
+de2
+548
+1203E
+ÁŠ
+⁄
+®
+ás/z/ṣ
+ac2
+552
+12220
+MA
+¤
+©
+ma
+ma
+553
+120F2
+GAL
+‹
+TM
+gal, qal
+gal
+554
+12048
+BÁRA
+›
+bara2
+556
+12087
+MIR (DÙNgunugunu)
+fi
+
+mir
+557
+12088
+DUN4
+fl
+dun4
+558
+1212B
+GIR (ḪAgunu)
+‡
+
+gir, piš
+gir
+559
+12053
+BUR
+·
+­
+bur, pur
+bur
+560
+12009
+Á
+‚
+Æ
+id/t/ṭ, ed/t/ṭ
+id
+561
+12055
+DA
+„
+Ø
+da, ṭa
+da
+564
+1214A
+SIG7 (IGIgunu)
+‰
+sig7
+565
+12046
+BALAG
+Â
+balag
+566
+122AD
+ŠA
+Ê
+°
+ša
+ca
+567
+122D7
+ŠU
+Á
+±
+šu
+cu
+568
+12192
+KAD4
+Ë
+kad4
+570
+1221C
+LUL
+È
+lul, lib/p
+lul
+571
+122B7
+SA6 (ŠA6)
+Í
+2
+sa6
+sa6
+573
+12029
+ALAM
+Î
+3
+alam
+574
+12335
+URI
+Ï
+uri
+575
+12039
+GE23 (DIŠtenu; PSD: AŠzidatenu)
+Ì
+ge23
+576
+120F5 12472
+GAM
+Ó
+gam
+578
+121B3
+KUR
+Ô
+¥
+kur
+kur
+579
+122BA
+ŠE
+ð
+μ
+še
+ce
+580
+1204D
+BU
+Ò
+¶
+bu, pu
+bu
+583
+122BB
+UZ (ŠE-U)
+Ú
+·
+uz/s/ṣ
+uz
+584
+122E4
+SUD
+Û
+sud
+585
+12232
+MUŠ
+Ù
+muš
+muc
+587
+12301
+TIR
+ı
+
+tir, ṭir5tir
+589
+122FC
+TE
+ˆ
+1
+te
+te
+590
+122FC+12000
+KAR (TE-A)
+ˆ ̃
+1o
+kar
+kar
+591
+121FA
+LIŠ
+
+lic
+596
+12313
+UD
+3
+à
+ud/t/ṭ, u4
+ud
+598
+1227F
+PI
+
+a
+pi/e, bì, be6
+pi
+599
+122AE
+ŠÀ
+
+o
+šà
+ca3
+611
+12314
+ÚḪ (UD-KÚŠU)
+
+1⁄2
+úḫ
+uh2
+612
+1209F
+ERIM
+
+æ
+erim
+631
+1212D
+ḪI
+Y
+M
+ḫi/e, ṭà, ta8
+hi
+635
+1202A
+A’
+
+aa
+636
+12134
+AḪ (ḪIxNUN)
+
+ø
+a/e/i/uḫ
+ah
+640
+12130
+KAM (ḪI-BAD)
+ˇ
+¿
+kam
+kam
+641
+1214E
+IM
+!
+¡
+i/em
+im
+644
+1212F
+ḪAR (ḪIxÁŠ)
+"
+¬
+ḫar, ḫur, mur
+har
+661
+1230B
+U
+#
+Ã
+u
+u
+ugu
+ictar
+663 1230B+12157 UGU #1
+670 1230B+1206F U-DAR
+#t Ã_
+Ištar
+671
+1230B+12295
+SAGŠU (U-SAG)
+#u
+Ã`
+sagcu
+672
+12016
+ÁB
+$
+ƒ
+lid/t/ṭ
+ab2, lid
+678
+121A7
+KIŠ
+%
+Å
+kic
+681
+1222A
+MI
+&
+Æ
+mi, mé
+mi
+682
+12122
+GUL
+'
+«
+qúl, kúl
+gul
+684
+1230B+120F6
+ŠAGAN (U-GAN)
+#à
+Ãj
+cagan
+685
+1227C
+PAN
+(
+pan
+686
+12076
+GIM (DÍM)
+)
+»
+gim
+gim
+689
+1223F
+NÁ
+*
+na2
+690
+1224F
+NIM
++
+...
+nim, num
+nim
+691
+12250
+TÙM (NIMxGÁNtenu)
+,
+tum3
+693
+121F4
+LAM
+-
+lam
+lam
+695
+1202B
+AMAR
+.
+À
+amar
+696
+1202C
+SISKUR (AMARxŠE)
+/
+siskur
+698
+1230C
+UL
+0
+Ã
+ul
+ul
+700
+1230B+120B5
+ÚTU (U-GA)
+#»
+utu2
+701
+1210A
+GÌR
+1
+Õ
+gir3
+705
+1222A+1226D
+GIG (MI-NUNUZ)
+&2
+ÆŒ
+gig
+711
+1230D
+EŠ (U-U-U)
+3
+œ
+ec, 30
+712
+1240F
+NIMIN
+4
+40
+714
+12410
+NINNU
+5
+50
+719
+121EC
+LAGAR
+Q
+lagar
+720
+1230B+12306
+DUL (U-TÚG)
+#ø
+dul
+721
+121EF
+DU6 (LAGARgunu)
+6
+–
+du6
+724
+12146
+IGI
+AR (IGI-RI)
+7
+—
+ši, gi8, lúm, lam5
+igi, ci
+726
+12148
+8
+“
+ar
+ar
+727
+12146+1207E
+AGRIG (IGI-DUB)
+7Ñ
+agrig
+731
+12147
+Ù (IGI-DIB)
+9
+”
+ù
+u3
+7:
+;
+732 12146+120A0
+736 12072 DI
+‘
+LIBIR (IGI-ÉŠ, écrit IGI-DIB, cf.731)
+libir di/e, ṭi/e di
+737
+121A0
+KI
+<
+’
+ki/e, qí/é
+ki
+741
+1227E
+PÉŠ (cf. n.882)
+=
+pec2
+742
+121A0+1222B
+KIMIN (KI-MIN)
+<>
+kimin
+744
+12084
+ŠUL (DUN)
+?
+cul
+745
+121AC
+KUG (KÙ)
+@
+÷
+kù
+ku3
+746
+1227B
+PAD
+A
+pad
+748
+12079
+DIŠ
+B
+×
+dic, 1
+750
+121F2
+LAL
+C
+lal
+751
+121F3
+LÁL (LALxLAL)
+D
+lal2
+753
+12228
+ME
+E
+ÿ
+me
+me
+754
+12228+1230D
+MEŠ (ME-EŠ)
+E3
+ÿœ
+meš
+mec
+755
+121B8
+LAGAB
+F
+Ÿ
+lagab
+756
+121C9
+ENGUR (LAGABxḪAL)
+G
+⁄
+engur
+760
+121C0
+GIGIR (LAGABxBAD)
+H
+gigir
+761
+121D2
+ÉSIR (LAGABxKUL)
+I
+esir2
+766
+121C7
+U8 (LAGABxGUD/GUD)
+J
+¤
+u8
+767
+121E1
+ZAR (LAGABxSUM)
+K
+‹
+zar
+zar
+786
+121E5
+TÚL (LAGABxU)
+L
+túl
+tul2
+795
+121B9
+SUG (LAGABxA)
+M
+sug
+804
+121B8+121B8
+NIGIN (LAGAB-LAGAB)
+FF
+nigin
+807
+12141
+IB
+N
+›
+ib/p, eb/p
+ib
+808
+12089 121AA
+DÚR KU
+O
+fi
+ku
+ku
+809
+12306 12247
+TÚG NÁM
+ø
+fl
+tug2, nam2
+810
+120A0 12365
+ÉŠ ZÍ
+P
+‡
+zi2, ec2
+812
+121FB
+LU
+¿
+í
+lu
+lu
+813
+12073
+DIB
+:
+·
+ṭib/p, dab/p
+dib
+815
+121A5
+KIN
+Q
+‚
+kin
+816
+122E0
+SÍG
+R
+„
+sig2
+818
+1209E
+EREN (SÍG-NUN)
+S
+eren
+819
+12126
+GUR7 (SÍG-AḪ-ME-U)
+‰
+gur7
+824
+12079+1230B
+DIŠ-U
+B#
+600
+825
+1222B
+MIN
+>
+min, 2
+826
+1245A
+ŠUŠANA
+T
+cucana
+827
+12307
+TUK
+U
+tuk
+828
+12328
+UR
+V
+Â
+ur, lig/k/q, taš
+ur, lig
+832
+1245B
+ŠANABI
+W
+canabi
+833
+1231C
+UDUG
+Ê
+udug
+834
+12408
+EŠ5
+X
+ec5, 3
+835
+12334
+UR4
+Y
+ur4
+836
+12086
+GÍN (DÙNgunu)
+Z
+Á
+gin2
+838
+1245C
+KINGUSILA
+[
+kingusila
+839
+12000
+A
+
+o
+a
+848
+12456
+NIGIDAMIN
+\
+nigidamin
+850
+12457
+NIGIDAEŠ
+]
+Autotext
+851
+1235D
+ZA
+^
+Ë
+za, ṣa, sà
+za
+856
+12129
+ḪA
+_
+È
+ḫa
+ha
+859
+120FB
+NÍG (GAR)
+`
+Í
+nig2
+861
+1240A
+IÁ
+a
+5
+862
+1240B
+ÀŠ
+b
+6
+863
+1240C
+IMIN
+c
+7
+864
+1240D
+USSU
+d
+8
+868
+12446
+ILIMMU
+e
+9
+869
+122D9
+ŠÚ
+f
+cu2
+870
+122D9+1202D
+ÉN (ŠÚ-AN)
+f(
+en2
+871
+122D9+1202D+12132
+KÈŠ (ÉN-ŠÁRxGAD)
+f(g
+kec3
+877
+1213E
+ḪÚL
+h
+hul2
+881
+122DD
+SIG
+i
+Î
+sig/k/q
+sig
+883
+122A9
+MUNUS (SAL)
+j
+Ï
+šal
+sal
+884
+1236E
+ZUM
+k
+Ì
+zum, ṣum, ṣim
+zum
+887
+122A9+12220
+NIN (SAL-TÚG, assyr. SAL- MA)
+jø
+Ïfl
+nin
+nin
+889
+1206E
+DAM
+l
+Ó
+dam, ṭam, tám
+dam
+890
+122A9+121B3
+GÉME (SAL-KUR)
+jÔ
+Ï¥
+geme2
+891
+12116
+GU
+m
+Ô
+gu, qù
+gu
+893
+12244
+NAGAR
+n
+ð
+nagar
+896
+121B5
+KÚŠU
+o
+kucu2
+897
+122A9+120A0
+ÉGI (SAL-ÉŠ)
+Ï‡
+egi2
+899
+12096
+EL
+p
+Ò
+el, il5
+el
+900
+1221D
+LUM
+q
+Ú
+lum
+lum
+905
+122DE
+SIG4
+r
+Û
+sig4

@@ -13,7 +13,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '0.2'
+VERSION_TF = '0.3'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -515,6 +515,8 @@ def director(cv):
               grapheme=part,
           )
         return
+
+      part = part.replace('(', '').replace(')', '')
 
       if part == 'x' or part == 'X' or part == '...':
         cv.feature(
