@@ -56,8 +56,6 @@ Reference table of features
 
 *(Keep this under your pillow)*
 
-![objects](images/P005381-obverse-lineart-annot.png)
-
 Node type [*sign*](#sign)
 -------------------------
 
@@ -66,7 +64,7 @@ Basic unit containing a single `reading` and/or `grapheme` and zero or more *fla
 There are several types of sign, stored in the feature `type`.
 
 type | examples | description
-------- | ------ | ------ | -----------
+------- | ------ | ------
 `reading` | `ma` `qa2` | normal sign with a reading (lowercase)
 `unknown` | `x` | representation of an unknown sign
 `numeral` | `5(disz)` `5/6(disz)`  | a numeral, either with a repeat or with a fraction
@@ -116,7 +114,7 @@ But clusters of different types need not be nested properly with respect to each
 The type of a cluster is stored in the feature `type`.
 
 type | examples | description
-------- | ------ | ------ | -----------
+------- | ------ | ------
 `alternate` | `_  _` | alternate language
 `determinative` | `{ }` | gloss, determinative
 `uncertain` | `( )` | uncertain
