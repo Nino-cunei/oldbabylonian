@@ -102,6 +102,8 @@ Node type [*word*](#word)
 -------------------------
 Sequence of signs separated by `-`. Sometimes the `-` is omitted. Very rarely there is an other character between two signs, such as `:` or `/`. Words themselves are separated by spaces.
 
+feature | values | in ATF | description
+------- | ------ | ------ | -----------
 **atf** | `{disz}sze-ep-_{d}suen` | idem | full atf of a word, including flags and clustering characters
 
 Node type [*cluster*](#cluster)
@@ -221,6 +223,8 @@ If the repeat is `n`, it means that a number is missing.
 In a numeral, within the brackets you find the *reading* or *grapheme*.
 
 After the closing bracket the numeral may be augmented with *flags*.
+
+# AFTER THIS POINT MORE REWORKING HAS TO BE DONE
 
 ### Ordinary signs ###
 
