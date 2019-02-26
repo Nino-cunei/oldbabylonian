@@ -28,12 +28,12 @@ Transliteration:
 #atf: lang akk
 @tablet
 @obverse
-1. [a-na] _{d}en-zu_-i-[din-nam]
+1. [a-na] _{d}suen_-i-[din-nam]
 2. qi2-bi2-[ma]
 3. um-ma _{d}en-lil2_-sza-du-u2-ni-ma
-4. _{d}utu_ u3 _{d}[amar-utu]_ a-na da-ri-a-[tim]
+4. _{d}utu_ u3 _{d}[marduk]_ a-na da-ri-a-[tim]
 5. li-ba-al-li-t,u2-u2-ka
-6. {disz}sze-ep-_{d}en-zu a2-gal2 [dumu] um-mi-a-mesz_
+6. {disz}sze-ep-_{d}suen a2-gal2 [dumu] um-mi-a-mesz_
 7. ki-a-am u2-lam-mi-da-an-ni um-[ma] szu-u2-[ma]
 8. {disz}sa-am-su-ba-ah-li sza-pi2-ir ma-[tim]
 9. 2(esze3) _a-sza3_ s,i-[bi]-it {disz}[ku]-un-zu-lum _sza3-gud_ 
@@ -52,7 +52,7 @@ $ beginning broken
 4'. [x x] x x x-ir ub-lam
 5'. in-na-me-er-ma
 6'. x _[a-sza3_ s,i]-bi-it ku-un-zu-lum
-7'. _a-[sza3 a-gar3_ na-ag]-ma-lum _uru gan2_ x x {ki}
+7'. _a-[sza3 a-gar3_ na-ag]-ma-lum _uru gan2_ x x{ki}
 8'. a-[na] sa-[am-su]-ba-ah-[la] x x li ig bu
 9'. mi-im-ma _a-sza3_ s,i-bi-[it] _nagar-mesz_
 10'. u2-ul na-di-isz-szum
@@ -60,10 +60,10 @@ $ beginning broken
 12'. sza _{d}utu_-ha-zi-ir ub-lam in-na-am-ru
 13'. asz-t,u3-ra-am _dub_ [usz]-ta-bi-la-kum
 14'. a-wa-tim sza ma-ah-hi-rum u2-lam-ma-du-u2-ma
-15'. asz-szum _e2-gal_-lim la lum-mu-[di...]
+15'. asz-szum _e2-gal_-lim la lum-mu-[di ...]
 16'. _dub_-pi2 u2-sza-ab-ba-x [...]
-17'. x ti u2-ul a-ga-am-ma-[...]
-18'. u2-ul a-sza-ap-pa-[...]
+17'. x ti u2-ul a-ga-am-ma-[x ...]
+18'. u2-ul a-sza-ap-pa-[x ...]
 19'. [at-ta] ki-ma ti-du-u2 wa-ar-ka-az-zu pu-ru-us [x x ...]
 
 
@@ -100,7 +100,7 @@ Transliteration:
 1. a-[na] i3-li2-i-qi2-sza-am
 2. qi2-bi2-ma
 3. um-[ma] _dingir_ x zi x [...] ma
-4. _{d}utu_ u3 _{d}amar-utu_ da-ri-[isz] _u4_-[mi x]
+4. _{d}utu_ u3 _{d}marduk_ da-ri-[isz] _u4_-[mi x]
 5. [li]-ba-[al]-li-[t,u2-ka]
 6. lu sza-[al]-ma-ta lu ba-[al-...]
 7. _dub_-pi2 a-na nu-un-na-tum
@@ -151,7 +151,7 @@ Transliteration:
 1. a-na# da-da-a
 2. [qi2]-bi2#-ma
 3. [um-ma x]-na-su-[x]-ma
-$9 lines broken
+$ rest missing
 @reverse
 1. [x] te-li-i
 2. it-ti _dam-gar3_
@@ -217,8 +217,8 @@ Transliteration:
 6. lu-usz-pu-ra-ak-kum-ma 
 7. _sze_-um a-na _szuku_ s,e-eh-he-ru-tim 
 8. u3 _duh duru5_ a-na _sza3-gal gu4 hi-a_ li-in-na-di-in 
-9. {disz}tak-la-ku-a-na-{d}amar-utu 
-10. it-ti na-bi-{d}suen a-na babila2{ki} 
+9. {disz}tak-la-ku-a-na-_{d}marduk_ 
+10. it-ti na-bi-{d}suen a-na _babila2{ki}_ 
 11. t,u2-ur-dam 
 
 Primary publication: AbB 01, 118
@@ -247,6 +247,39 @@ Composite no.:
 Seal no.: 
 CDLI no.: P509377
 Transliteration:
+&P509377 = AbB 01, 118
+#atf: lang akk
+@tablet
+@obverse
+1. i-nu-ma i-na _e2_ da-[...]
+2. ma-ah-ri-ia ta-az-[...]
+3. ki-ma _sze_ u3 _ku3-babbar_ la qe2-er-[ba-am-ma]
+4. _duh-duru5 ud-du_ a-na _sza3-gal gu4-hi-a_-ia#
+5. s,a-ma-da-am la e-lu-u2 aq-bi-kum-ma#
+6. a-na 3(u) _gur duh-ud-du_ szu-bu-lim u2-na-ah-i-id-ka
+7. u3 sza-la-szi-szu t,up-pa-ti-ia u2-sza-bi-la-ak#-kum#
+8. _gu4-hi-a_ sza _iti szu-numun-a iti ne-ne-gar_ u3 _iti kin-{d}inanna_
+9. _sza3-gal_ la i-ku-lu ba-al-t,u2-u2
+10. a-na mi-nim ma-ru-usz-tam an-ni-tam te-pu-sza-an-ni
+11. lu-u2 ta-al-li-kam u3-lu ta-asz-pu-ra-am
+12. a-na a-wa-ti-ka u2-ul usz-ta-i
+13. _sze_ u3 _ku3-babbar_ u2-ul qe2-er-ba-am-ma
+@reverse
+1. sa-bu-tam a-na-ad-di ta-[...]
+2. _sze_ u3 _ku3-babbar_ ad-di-na-ak#-[kum-ma]
+3. u2-ne-eh-[...]
+4. 1(disz) _amar mu_ 3(disz) i-na i-ni-ia ta#-[...]
+5. i-na _gu4-hi-a_-ia ta-as-su2-uq-ma a-na# [...]
+6. te-el-qi2 a-na mi-na-a usz-ta-a-ak-kum
+7. ka-bi-it-tam an-ni-tam te-pu-sza-an-ni
+8. _{disz}{d}nanna-ibila-ma-an-sum_ a-na ma-ah-ri-ka
+9. at,-t,a-ar-dam szum-ma 3(u) _gur duh-ud-du_
+10. szum-ma 6(disz) _gin2 ku3-babbar_ i-di-in-szum
+11. _gu4-hi-a_ li-sza-ak-szi-dam [...]
+12. i-na la _sza3-gal_ la i-mu#-[tu]
+13. qa2-ti-ia la tu-[...]
+
+
 Primary publication: AbB 02, 045
 Author(s): Frankena, Rintje
 Publication date: nd
@@ -524,14 +557,14 @@ $ beginning broken
 1'. [...] x x [...] 
 2'. e-pe-szum sza te-pu-sza-[am] 
 3'. da-mi-iq# 
-4'. uz-ni-ia li#-[...] 
-5'. a-na-ku i-[...] 
+4'. uz-ni-ia li#-[x ...] 
+5'. a-na-ku i-[x ...] 
 $ rest broken 
 @reverse 
 $ beginning broken 
-1'. x[...] 
-2'. x[...] 
-3'. x[...] 
+1'. x [...] 
+2'. x [...] 
+3'. x [...] 
 $ rest broken 
 @left 
 1. [...] x sa3-bi-ti-[...] 
@@ -5581,6 +5614,32 @@ Composite no.:
 Seal no.: 
 CDLI no.: P511221
 Transliteration:
+Primary publication: AbB 09, 130
+Author(s): Stol, Marten
+Publication date: 1991
+Secondary publication(s): 
+Collection: private: Adolph Schrijver, New York
+Museum no.: Schrijver 119
+Accession no.: 
+Provenience: 
+Excavation no.: 
+Period: Old Babylonian (ca. 1900-1600 BC)
+Dates referenced: 
+Object type: tablet
+Remarks: 
+Material: clay
+Language: Akkadian
+Genre: Letter
+Sub-genre: 
+CDLI comments: 
+Catalogue source: 20190219 page-perron_johnson
+ATF source: no atf
+Translation: no translation
+UCLA Library ARK: 
+Composite no.: 
+Seal no.: 
+CDLI no.: P513514
+Transliteration:
 Primary publication: AbB 10, 030
 Author(s): Kraus, Fritz R.
 Publication date: 1985
@@ -9222,7 +9281,7 @@ Transliteration:
 Primary publication: AbB 12, 033
 Author(s): Soldt, Wilfred H. van
 Publication date: 1990
-Secondary publication(s): van Soldt, Wilfred H, AbB 12 (1990) 033
+Secondary publication(s): 
 Collection: British Museum, London, UK
 Museum no.: BM 097459
 Accession no.: 
@@ -9601,7 +9660,7 @@ Transliteration:
 1. a-na {d}nanna-in-du8 
 2. qi2-bi2-ma 
 3. um-ma ib-ba-tum-ma 
-4. _{d}utu_ u3 _{d}amar-utu_ li-ba-al-li-t,u2-ka 
+4. _{d}utu_ u3 _{d}marduk_ li-ba-al-li-t,u2-ka 
 5. sza-al-ma-a-ku 
 6. i-na ia-ab-li-ia{ki} a-na-ku 
 7. da-mi-iq e-pe2-szu-ma 
@@ -11037,7 +11096,7 @@ Transliteration:
 @left 
 $ beginning broken 
 @column 1' 
-1. [...]-x-nim x x 
+1. [...] x-nim x x 
 2. [i?]-na# zimbir{ki#} 
 @column 2' 
 1. bi-ru-u2 i-de-ma 
@@ -11206,16 +11265,16 @@ Transliteration:
 #atf: lang akk 
 @tablet 
 @obverse 
-1. a-na a-bi-ia sza# _{d}[amar-utu_ u2-ba-al-li-t,u2-(szu)] 
+1. a-na a-bi-ia sza# _{d}[marduk_ u2-ba-al-li-t,u2-(szu)] 
 2. qi2-bi2#-[ma] 
 3. um-ma {d}suen-na-di-in-szu-mi-ma 
-4. _[{d}]utu_ u3 _{d}amar-utu_ da-ri#-isz _u4_-mi 
+4. _[{d}]utu_ u3 _{d}marduk_ da-ri#-isz _u4_-mi 
 5. [a]-bi# ka-ta li-ba-al-li-t,u2#-[ka] 
 6. a-bi# lu# sza-lim lu ba-li2-it, 
 7. _dingir_ na-s,i-[ir] a-bi#-ia# ri#-isz# a-bi#-ia# 
 8. li-ki-il 
 9. a-na szu-lum a-bi-ia asz-pu-ra-am 
-10. szu-lum a-bi-ia ka-ta ma-har _{d}utu_ u3 {d}amar-utu_ 
+10. szu-lum a-bi-ia ka-ta ma-har _{d}utu_ u3 _{d}marduk_ 
 11. lu da-ri 
 12. ki-ma a-bi at-ta ti-du-u2 
 13. i-ta-a-am sza _ka2_ ka-re-e 
@@ -17419,9 +17478,9 @@ $ beginning broken
 $ rest broken 
 @reverse 
 $ beginning broken 
-1'. [...-szu]-nu#-ti-ma 
+1'. [... x-szu]-nu#-ti-ma 
 2'. [... be]-le#-e-ia 
-3'. [...]-KU-ni-isz-szu-nu-ti 
+3'. [... x]-KU-ni-isz-szu-nu-ti 
 4'. {disz}x KUR me e be-le-e-ia 
 $ single ruling 
 
@@ -18002,7 +18061,7 @@ Transliteration:
 @tablet 
 @obverse 
 1. {disz}{mi2}ra#-bi#-a-at-_{d}nin-tu_ 
-2. asz-ti _{d}amar-utu#_-ra-bi-isz 
+2. asz-ti _{d}marduk#_-ra-bi-isz 
 3. ma-ru-sza szu-mu-un-da-ak-sze-er 
 4. _{disz}{mi2}du10_-at-a-ha-tu 
 5. ma-ra#-as-sa3 ra-bi-tum 
@@ -18016,7 +18075,7 @@ Transliteration:
 4. a-na su-um-i-la ub-la-ak-ki 
 5. asz-tap-ra-ak-ki 
 6. qa2-at-ki a-na qa2-ti 
-7. _{disz}ARAD-{d}amar-utu dam-gar3_ 
+7. _{disz}ARAD-{d}marduk dam-gar3_ 
 8. szu-uk-ni-im-ma 
 9. at-la-ki# 
 10. la ta-x [x (x)] 
@@ -18058,18 +18117,18 @@ Transliteration:
 4. i-nu-u2-ma al-li-kam ki-a-am ta-aq-bi-a-am 
 5. um-ma at-ta-ma isz-tu i-na-an-na 
 6. _u4 1(u)-kam_ a-ka-sza-da-ak-ka 
-7. i-na-an-na isz-tu al-li-kam-ma [(x) (x)] 
+7. i-na-an-na isz-tu al-li-kam-ma [x x] 
 8. as,-s,e-er at-ta la ta-al-li-[kam] 
 9. u3 t,e4-em-ka-a-ma u2-ul ta-asz#-[pu-ra-am] 
 10. szum-ma ni-t,i-il-ka 
 11. t,e4#-em#-ka# szu-up-ra-am-ma# 
 @reverse 
-1. [...]-al-kam 
+1. [... x]-al-kam 
 $ about 5 lines broken 
 1'. [...] x 
 2'. [...] x 
 3'. [... i]-na ku-us,-s,i2-ma 
-4'. [...]-ia# a-sza-al-ma x 
+4'. [... x]-ia# a-sza-al-ma x 
 5'. [u2-ul i?]-le-i 
 6'. [u3 ki]-ma# as-hu-ru-ka 
 7'. x ki-a-am as-hu-ur-ka 
@@ -18080,7 +18139,7 @@ $ about 5 lines broken
 1. a-na-ad-di-a-am-ma 
 2. at#-ta-al#-la#-kam 
 @column 2 
-1. ($ erased $) 
+$ 1 line erased 
 
 
 Primary publication: AbB 12, 197
@@ -20244,7 +20303,7 @@ Transliteration:
 4. ki#-ma# qa2-tim 
 5. [...] _{gesz#}ma2 hi-a_ 
 6. [i]-di#-in-ma 
-7. _ab2# hi#-a u3 udu-nita2 [(hi-a_)] 
+7. _ab2# hi#-a_ u3 _udu-nita2-[hi-a]_ 
 8. te#-li-tam 
 9. [sza] na#-kam#-ti larsa{ki} 
 10. u3 na-kam#-ti# bad3-tibira{ki} 
@@ -21828,10 +21887,10 @@ Transliteration:
 #atf: lang akk 
 @tablet 
 @obverse 
-1. a-na a-bi-ia sza _{d}amar-utu_ u2-ba-al-la-t,u2-szu 
+1. a-na a-bi-ia sza _{d}marduk_ u2-ba-al-la-t,u2-szu 
 2. qi2-bi2-ma 
-3. um-ma ib-ni-_{d}amar-utu_-ma 
-4. _{d}utu_ u3 _{d}amar-utu_ li-ba-al-li-t,u2-ka 
+3. um-ma ib-ni-_{d}marduk_-ma 
+4. _{d}utu_ u3 _{d}marduk_ li-ba-al-li-t,u2-ka 
 5. asz-szum _geme2_ i-na-sza-mi-ri-sza-AM sza a-bi at-ta 
 6. tu-szi-ra-asz-szi-ma ta-ad-di-na-asz-szi 
 7. a-na i-di-sza a-na be-el-ti-sza ka-ni-ki sza ar-hi-isz e-zi-bu 
@@ -23074,13 +23133,13 @@ Transliteration:
 1. [a]-na# a-bi-ia 
 2. qi2-bi2-ma 
 3. um-ma ip-qu2-an-nu-ni-tum-ma 
-4. _{d}utu_ u3 _{d}amar-utu_ da-ri-isz _u4_-mi 
+4. _{d}utu_ u3 _{d}marduk_ da-ri-isz _u4_-mi 
 5. a-bi ka-ta li-ba-al-li-t,u2 
 6. a-bi lu sza-lim lu ba-li2-it, 
 7. _dingir_ na-s,i-ir a-bi-ia re-esz da-mi-iq-tim 
 8. sza a-bi-ia li-ki-il 
 9. a-na szu-lum a-bi-ia asz-pu-ra-am 
-10. szu-lum a-bi-ia ma-har _{d}utu_ u3 _{d}amar-utu_ 
+10. szu-lum a-bi-ia ma-har _{d}utu_ u3 _{d}marduk_ 
 11. lu da-ri 
 12. ki-ma a-bi i-du-u2 
 13. [{disz}{d}]tu#-tu#-na-s,i-ir _sza3 kar zimbir{ki}_ 
@@ -23562,7 +23621,7 @@ $ beginning broken
 1'. _dingir#_ na-s,i-ir#-ka# [re-esz]-ka# a-na da#-[mi-iq-tim] 
 2'. li-ki-il 
 3'. a-na szu-ul-mi-ka# asz-pu-ra-am 
-4'. szu-lum-ka ma-har _{d}[utu]_ u3 _{d}amar-utu_ lu da-ri 
+4'. szu-lum-ka ma-har _{d}[utu]_ u3 _{d}marduk_ lu da-ri 
 5'. asz-szum da-ba-bi sza# _dumu#_ ki-{d}en-lil2-qi2-in-ni 
 6'. sza a-hi at-ta ta-asz-pu-ra-am 
 7'. i-na pa-ni-tim i-nu-ma i-na _zimbir{ki}_ a-na-ku 
@@ -23579,7 +23638,7 @@ $ beginning broken
 4. a-na {iri}LU# x [x x (x) it]-ta#-la-ak 
 5. da-[ba-ba sza x x x x (x)] sza# ad-bu-bu 
 6. x [x x x x x x x x (x)]-ub-ma 
-7. [...]-szu 
+7. [... x]-szu 
 $ rest broken 
 @left 
 1. [...] x-i-ID be-li2-ia e-te-qa2 u2-ul e-le-e 
@@ -24586,7 +24645,7 @@ Transliteration:
 7. t,e4-mi ga-am#-ra-am asz-ku-un 
 8. ki-ma ti-du-u2 isz-tu _mu 3(disz)-kam_ 
 9. ki-ma x [...] x x x [...] 
-10. a-na _e2 {d}amar-utu_-AM-PI al-li-kam-ma 
+10. a-na _e2 {d}marduk_-AM-PI al-li-kam-ma 
 11. um-ma a-na-ku-ma a-na _larsa{ki}_-ma 
 12. lu#-ul#-li-ik-ma 
 13. t,e4-mi lu-ud-di-isz-szum 
@@ -27604,9 +27663,9 @@ Transliteration:
 @obverse 
 1. [a-na] {d}suen#-x [x (x)] 
 2. [qi2]-bi2#-ma 
-3. [um-ma ...]-ma# 
-4. [...]-am 
-5. [...]-x 
+3. [um-ma ... x]-ma# 
+4. [... x]-am 
+5. [...] x 
 6. [...] NI NI 
 $ 3 lines broken 
 @reverse 
@@ -27697,10 +27756,10 @@ Transliteration:
 #atf: lang akk 
 @tablet 
 @obverse 
-1. a-na gi-mil-_{d}amar-utu_ 
+1. a-na gi-mil-_{d}marduk_ 
 2. qi2#!-bi2#-ma 
-3. um-ma _{d}amar-utu_-na-s,i-ir-ma 
-4. _{d}utu#_ u3 _{d}amar-utu_ li-ba-al-li-t,u2-ka 
+3. um-ma _{d}marduk_-na-s,i-ir-ma 
+4. _{d}utu#_ u3 _{d}marduk_ li-ba-al-li-t,u2-ka 
 5. _{mi2}geme2#-{d}asar-lu2-hi_ 
 6. ma#-ra#-as-sa3 ha-ab-la-at#-[ma] 
 7. a-na# x-a-ri-sza it-ta-al-x x 
@@ -28403,7 +28462,7 @@ Transliteration:
 4. {disz}gi-mil-{d}marduk sza qa2-bu-szu 
 5. u2-ul isz-te-en 
 6. i-na-an-na ze-eh-pi2 usz-ta-bi-la-ak-kum 
-7. _1(barig) sze_ a-na gi-mil-_{d}amar-utu_ i-di-in-ma 
+7. _1(barig) sze_ a-na gi-mil-_{d}marduk_ i-di-in-ma 
 8. a-hi-tum sza it-ti-ia ma-da-at 
 9. {disz}{mi2}su-ur-ra-tum x x 
 @reverse 
@@ -28917,12 +28976,12 @@ Transliteration:
 @tablet 
 @obverse 
 $ beginning broken 
-1'. [x x x x (x)]-pu-usz 
+1'. [x x x x x]-pu-usz 
 2'. szum-ma# x [x] x s,i-bu-tam szu-a-ti 
 3'. te-ep-pu-usz 
 4'. t,e4-em-ka ar#-hi-isz szu-up-ra-am 
 $ single ruling 
-5'. ($ erased $) 
+$ 1 line erased
 @reverse 
 1. x da-ba-ab x x [x] x 
 2. il-li-ka-ak-kum-ma# [x] x x 
@@ -29317,6 +29376,9 @@ Seal no.:
 CDLI no.: P492490
 Transliteration:
 &P492490 = AbB 14, 216 
+#atf: lang akk
+@tablet 
+@obverse
 $ beginning broken 
 1'. [x x x] zi? x 
 2'. [x] x ri 

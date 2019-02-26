@@ -3,6 +3,7 @@ import os
 import re
 import collections
 import json
+from unicodedata import name as uname
 from shutil import rmtree
 from glob import glob
 from tf.fabric import Fabric
@@ -14,7 +15,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '0.3'
+VERSION_TF = '0.2'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -29,38 +30,169 @@ TF_DIR = f'{REPO_DIR}/tf'
 OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 
 
-# ATF INTERPRETATION
+#  CHARACTERS
 
-clusterChars = {
-    '_': '_',
-    '<': '>',
-    '[': ']',
+prime = "'"
+ellips = '…'
+
+emphatic = {
+    's,': 'ş',
+    't,': 'ţ',
 }
-clusterCharsInv = {ce: cb for (cb, ce) in clusterChars.items()}
 
-markChars = {
-    '+': 'combined',
+unknownStr = 'xX'
+unknownSet = set(unknownStr)
+
+lowerLetterStr = 'abcdefghijklmnopqrstuvwyz' + ''.join(emphatic.values())
+upperLetterStr = lowerLetterStr.upper()
+lowerLetterStr += prime
+
+
+div = '÷'
+digitStr = f'0123456789{div}'
+
+divRe = re.compile(r'''([0-9])/([0-9])''')
+
+
+def divRepl(match):
+  return f'{match.group(1)}{div}{match.group(2)}'
+
+
+times = '×'
+excl = '¡'
+graphemeStr = f'{times}{excl}'
+operatorStr = '.+/:'
+operatorSet = set(operatorStr)
+
+
+flagging = {
     '*': 'collated',
-    '!': 'exclamation',
-    '?': 'uncertain',
+    '!': 'remarkable',
+    '?': 'question',
     '#': 'damage',
 }
+flagStr = ''.join(flagging)
 
-transUni = {
-    'sz': 'š',
-    's,': 'ṣ',
-    "s'": 'ś',
-    't,': 'ṭ',
-    'h,': 'ḫ',
-}
+clusterChars = (
+    ('┌', '┐', '_', '_', 'alternate'),
+    ('◀', '▶', '{', '}', 'determinative'),
+    ('∈', '∋', '(', ')', 'uncertain'),
+    ('〖', '〗', '[', ']', 'missing'),
+    ('«', '»', '<<', '>>', 'supplied'),
+    ('⊂', '⊃', '<', '>', 'excised'),
+)
+(langCabB, langCabE) = clusterChars[0][0:2]
+(braceCabB, braceCabE) = clusterChars[1][0:2]
+(bracketCabB, bracketCabE) = clusterChars[2][0:2]
 
-transAscii = {rout.upper(): rin for (rin, rout) in transUni.items()}
+clusterCharsB = {x[0] for x in clusterChars}
+clusterCharsE = {x[1] for x in clusterChars}
+clusterCharsA = {x[0] for x in clusterChars} | {x[1] for x in clusterChars}
+clusterCharsO = {x[2] for x in clusterChars} | {x[3] for x in clusterChars}
+clusterType = {x[0]: x[4] for x in clusterChars}
+clusterAtfE = {x[0]: x[1] for x in clusterChars}
+clusterAtfB = {x[1]: x[0] for x in clusterChars}
+clusterAtf = {x[0]: x[2] for x in clusterChars}
+clusterAtf.update({x[1]: x[3] for x in clusterChars})
+clusterAtfInv = {co: ca for (ca, co) in clusterAtf.items()}
+
+readingPat = (
+    f'(?:(?:[{lowerLetterStr}{upperLetterStr}]'
+    f'[{lowerLetterStr}{upperLetterStr}{digitStr}{prime}]*'
+    f')|{ellips}|[{unknownStr}])'
+    f'[{flagStr}]*'
+)
+graphemePat = (
+    r'\|?'
+    f'[{upperLetterStr}]'
+    f'[{upperLetterStr}{digitStr}{operatorStr}]*'
+    r'\|?'
+)
+
+
+def makeClusterEscRepl(cab, cae):
+  def repl(match):
+    return f'{cab}{match.group(2)}{cae}'
+
+  return repl
+
+
+clusterEscRe = {}
+clusterEscRepl = {}
+
+for (cab, cae, cob, coe, ctp) in clusterChars:
+  if cob == coe:
+    clusterEscRe[cab] = re.compile(f'''({re.escape(cob)}(.*?){re.escape(coe)})''')
+    clusterEscRepl[cab] = makeClusterEscRepl(cab, cae)
+
+
+def clusterCheck(text):
+  return clusterORe.findall(text)
+
+
+def transEsc(text):
+  text = divRe.sub(divRepl, text)
+  text = text.replace('...', ellips)
+  text = text.replace('x(', f'{times}(')
+  text = text.replace('!(', f'{excl}(')
+  for (exp, abb) in emphatic.items():
+    text = text.replace(exp, abb)
+  for (cab, cae, cob, coe, ctp) in clusterChars:
+    if cob == coe:
+      text = clusterEscRe[cab].sub(clusterEscRepl[cab], text)
+    else:
+      text = text.replace(cob, cab).replace(coe, cae)
+  return text
+
+
+def transUnEsc(text):
+  for (cab, cae, cob, coe, ctp) in clusterChars:
+    text = text.replace(cab, cob).replace(cae, coe)
+  for (exp, abb) in emphatic.items():
+    text = text.replace(abb, exp)
+  text = text.replace(excl, '!')
+  text = text.replace(times, 'x')
+  text = text.replace(ellips, '...')
+  text = text.replace(div, '/')
+  return text
 
 
 def makeAscii(r):
   for (rin, rout) in transAscii.items():
     r = r.replace(rin, rout)
   return r.lower()
+
+
+clusterA = re.escape(''.join(clusterCharsA))
+clusterB = re.escape(''.join(clusterCharsB))
+clusterE = re.escape(''.join(clusterCharsE))
+clusterO = re.escape(''.join(clusterCharsO))
+inside = r'''(?:\s+)'''
+outside = r'''\s*'''
+spaceB = r'''(?:\s+|^)'''
+spaceE = r'''(?:\s+|$)'''
+bO = r'\('
+bC = r'\)'
+
+insaneRe = re.compile(r'''[^0-9a-zA-Z$(){}\[\]<>.,:=$#&@"'?!/+*| _-]''')
+transRe = re.compile(r'''^([0-9a-zA-Z']+)\.\s+(.+)$''')
+collectionRe = re.compile(r'''^(\S+)\s+([0-9]+)\s*,?\s*([^&+]*)(?:[&+]|$)''')
+commentRe = re.compile(r'∈\$(.*?)\$∋''')
+numeralBackRe = re.compile(f'''(n|(?:[0-9]+(?:{div}[0-9]+)?))∈([^∋]+)∋''')
+numeralRe = re.compile(f'''(n|(?:[0-9]+(?:{div}[0-9]+)?)){bO}({readingPat}){bC}''')
+withGraphemeBackRe = re.compile(f'''([{graphemeStr}])∈([^∋]+)∋''')
+withGraphemeRe = re.compile(f'''({readingPat})([{graphemeStr}]){bO}({graphemePat}){bC}''')
+numeral2Re = re.compile(r'''([0-9]+∈[^∋]+∋)''')
+clusterORe = re.compile(f'[{clusterO}]')
+clusterTermRe = re.compile(f'^[{clusterA}]*$')
+cSpaceBRe = re.compile(f'{outside}([{clusterB}]){inside}')
+cSpaceERe = re.compile(f'{inside}([{clusterE}]){outside}')
+wHyphenBRe = re.compile(f'{spaceB}([{clusterB}]*)-')
+wHyphenERe = re.compile(f'-([{clusterE}]*){spaceE}')
+cHyphenBRe = re.compile(f'([{clusterB}]+)-')
+cHyphenERe = re.compile(f'-([{clusterE}]+)')
+cFlagRe = re.compile(f'[{clusterA}]([{flagStr}]+)[{clusterA}]')
+inlineCommentRe = re.compile(r'''^├[^┤]*┤$''')
 
 
 # TF CONFIGURATION
@@ -75,118 +207,305 @@ generic = {
 }
 
 otext = {
-    'fmt:text-orig-full': '{atf}{after}',
-    'fmt:text-ling-full': '{reading}{after}',
-    'fmt:text-graphic-full': '{grapheme}{after}',
-    'sectionFeatures': 'pnumber,type',
-    'sectionTypes': 'tablet,face'
+    'fmt:text-orig-full': '{atfpre}{atf}{atfpost}{after}',
+    'fmt:text-ling-full': '{atfpre}{reading/grapheme}{atfpost}{after}',
+    'fmt:text-graph-full': '{atfpre}{givengrapheme/grapheme/reading}{atfpost}{after}',
+    'fmt:text-uni-full': '{atfpre}{unicode}{atfpost}{uafter}',
+    'sectionFeatures': 'pnumber,face',
+    'sectionTypes': 'document,face',
 }
 
 intFeatures = set('''
-    language
-    super
-'''.strip().split()) | set(markChars.values())
+    langalt
+    meta
+    primeln
+    primecol
+    det
+    uncertain
+    srcLnNum
+    trans
+    volume
+'''.strip().split()) | set(flagging.values())
 
 featureMeta = {
-    'pnumber': {
-        'description': 'catalog id of a tablet',
-    },
-    'srcfile': {
-        'description': 'source file name of a tablet',
-    },
-    'srcln': {
-        'description': 'line number in source file',
-    },
-    'srcline': {
-        'description': 'full line in source file',
-    },
-    'ln': {
-        'description': 'ATF line number',
-    },
-    'type': {
-        'description': 'name of a face of a tablet or type of cluster or sign',
-    },
-    'subtype': {
-        'description': 'additional qualification of a face of a tablet',
+    'after': {
+        'description': 'what comes after a sign (- or space)',
     },
     'atf': {
-        'description': 'full atf of a sign',
+        'description': (
+            'full atf of a sign (without cluster chars)'
+            ' or word (including cluster chars)'
+        ),
     },
-    'repeat': {
-        'description': 'repeat of a numeral',
+    'atfpost': {
+        'description': 'atf of cluster closings at sign',
     },
-    'fraction': {
-        'description': 'fraction of a numeral',
+    'atfpre': {
+        'description': 'atf of cluster openings at sign',
     },
-    'reading': {
-        'description': 'reading of a sign',
+    'col': {
+        'description': 'ATF column number',
     },
-    'grapheme': {
-        'description': 'grapheme of a sign',
+    'collated': {
+        'description': 'whether a sign is collated (*)',
     },
-    'after': {
-        'description': 'what comes after a sign (- or space or nothing)',
+    'collection': {
+        'description': 'collection of a document',
     },
-    'language': {
-        'description': 'language of a sign: 1 = main, 2 = alternate',
-    },
-    'super': {
-        'description': 'whether a sign is in superscript (between braces)',
+    'comment': {
+        'description': '$ comment to line or inline comment to slot ($ and $) ',
     },
     'damage': {
         'description': 'whether a sign is damaged',
     },
-    'uncertain': {
-        'description': 'whether a sign is uncertain',
+    'det': {
+        'description': 'whether a sign is a determinative (between braces)',
     },
-    'exclamation': {
-        'description': 'whether a sign has a lonely exclamation mark',
+    'docnote': {
+        'description': 'additional remarks in the document identification',
     },
-    'collated': {
-        'description': 'whether a sign is collated',
+    'docnumber': {
+        'description': 'number of a document within a collection-volume',
     },
-    'combined': {
-        'description': 'whether a sign is combined',
+    'face': {
+        'description': 'full name of a face including the enclosing object',
+    },
+    'fraction': {
+        'description': 'fraction of a numeral',
     },
     'givengrapheme': {
-        'description': 'grapheme given in transcription by !()',
+        'description': 'grapheme given in transcription by !() or x()',
     },
-    'comment': {
-        'description': 'comment to line: material between ($ and $) ',
+    'grapheme': {
+        'description': 'grapheme of a sign',
+    },
+    'lang': {
+        'description': 'language of a document',
+    },
+    'langalt': {
+        'description': '1 if a sign is in the alternate language (i.e. Sumerian)',
+    },
+    'ln': {
+        'description': 'ATF line number, may be $ or #, without prime',
+    },
+    'meta': {
+        'description': 'whether a comment is meta (#) as opposed to structural ($)',
+    },
+    'object': {
+        'description': 'name of an object of a document',
+    },
+    'operator': {
+        'description': 'the ! or x in a !() or x() construction',
+    },
+    'pnumber': {
+        'description': 'P number of a document',
+    },
+    'primecol': {
+        'description': 'whether a prime is present on a column number',
+    },
+    'primeln': {
+        'description': 'whether a prime is present on a line number',
+    },
+    'question': {
+        'description': 'whether a sign has the question flag (?)',
+    },
+    'reading': {
+        'description': 'reading of a sign',
+    },
+    'remarkable': {
+        'description': 'whether a sign is remarkable (!)',
+    },
+    'repeat': {
+        'description': 'repeat of a numeral',
+    },
+    'srcfile': {
+        'description': 'source file name of a document',
+    },
+    'srcLn': {
+        'description': 'full line in source file',
+    },
+    'srcLnNum': {
+        'description': 'line number in source file',
+    },
+    'trans': {
+        'description': 'whether a line has a translation',
+    },
+    'translation@en': {
+        'description': 'translation of line in language en = English',
+    },
+    'type': {
+        'description': 'name of a type of cluster or kind of sign',
+    },
+    'uafter': {
+        'description': 'what comes after a sign when represented as unicode (space)',
+    },
+    'uncertain': {
+        'description': 'whether a sign is between brackets ()',
+    },
+    'unicode': {
+        'description': 'unicode representation of a sign, based on reading and grapheme',
+    },
+    'volume': {
+        'description': 'volume of a document within a collection',
     },
 }
 
 
-# ATF PATTERNS
+# ATF INTERPRETATION
 
-transRe = re.compile(r'''^([0-9a-zA-Z'.])+\s+(.*)$''')
-commentRe = re.compile(r'\(\$(.*?)\$\)''')
-numeralRe = re.compile(r'''([0-9]+(?:/[0-9]+)?)\(([^)]+)\)''')
-graphemeRe = re.compile(r'''([a-z]+[0-9]*)(!?)\(([^)]+)\)''')
-graphemexRe = re.compile(r'''\(([^)]+)\)''')
-hyphRe = re.compile(r'''-+''')
-numeral2Re = re.compile(r'''([0-9]+\([^)]+\))''')
-stickyNumeralRe = re.compile(r'''((?:[0-9]+\([^)]+\)){2,})''')
-clusterTermRe = re.compile(f'^[{re.escape("".join(clusterChars.values()))}]*$')
+transUni = {
+    'sz': 'š',
+    's,': 'ṣ',
+    "s'": 'ś',
+    't,': 'ṭ',
+    'h,': 'ḫ',
+}
+
+transAscii = {rout.upper(): rin for (rin, rout) in transUni.items()}
+
+VAR_OBJ = 'object'
+DEFAULT_OBJ = 'tablet'
+
+OBJECTS = set('''
+    tablet
+    envelope
+    case
+'''.strip().split())
+
+FACES = set('''
+    obverse
+    reverse
+    left edge
+    upper edge
+    lower edge
+    bottom
+    surface a
+    seal 1
+'''.strip().split())
+
+FACES_CORRECTION = {
+    'overse': 'obverse',
+    'obverrse': 'obverse',
+}
+
+COL_CORRECTION = {
+    'second': 'column',
+}
+
+COMMENTS = '''
+    (uninscribed)
+    (needs to be added)
+'''
+COMMENTS = {c.strip() for c in COMMENTS.strip('\n').split('\n')}
+
+COMMENT_PATTERN = r'''
+    (?:
+      ^
+      (?:
+          (?: maybe)?
+          (?:
+              (?:
+                  (?:at \s+ least)
+                  | about
+              )?
+              \s*
+              (?:
+                  (?:
+                    [0-9]+
+                    (?:-[0-9]+)?
+                  )
+                  | one | two | three | four | five | six | seven | eight | nine | ten
+
+              )
+              \s+
+              lines?
+          )
+          | rest | obverse | reverse | seal |
+          (?:
+              beginning
+              (?: \s+ lines?)?
+          )
+          |
+          (?: blank \s+ space)
+          | single | double
+      )?
+      \s*
+      (?:
+          (?:
+              broken
+              (?:\s+ off)?
+          )
+          | blank | illegible | unreadable | uninscribed | destroyed | missing | erased | effaced
+          | ruling | impression |
+          (?: not \s+ inscribed) |
+          (?: of \s+ traces)
+      )?
+      $
+    )
+    |
+    (?:
+      ^
+      reading
+    )
+'''
+COMMENT_RE = re.compile(COMMENT_PATTERN, re.X)
 
 
-def stickyNumeralRepl(match):
-  return ' '.join(numeral2Re.findall(match.groups()[0]))
+def bracketBackRepl(match):
+  return f'{match.group(1)}({match.group(2)})'
+
+
+def wHyphenBRepl(match):
+  return f' {match.group(1)}'
+
+
+def wHyphenERepl(match):
+  return f'{match.group(1)} '
+
+
+def cHyphenBRepl(match):
+  return f'-{match.group(1)}'
+
+
+def cHyphenERepl(match):
+  return f'{match.group(1)}-'
+
+
+def insaneRepl(match):
+  return f'┣{match.group(0)}┫'
+
+
+def cSpaceBRepl(match):
+  return ' ' + match.group(1)
+
+
+def cSpaceERepl(match):
+  return match.group(1) + ' '
+
+
+commentNotes = []
+
+
+def commentRepl(match):
+  comment = match.group(1)
+  commentIndex = len(commentNotes)
+  commentNotes.append(comment.strip())
+  return f'├{commentIndex}┤'
 
 
 # ERROR HANDLING
 
-def showErrors(errors, batch=10):
-  if not errors:
-    print('No errors')
+def showDiags(diags, kind, batch=20):
+  if not diags:
+    print('No diags')
   else:
-    for (error, srcs) in sorted(errors.items()):
-      print(f'ERROR {error}')
+    for (diag, srcs) in sorted(diags.items()):
+      print(f'{kind} {diag}')
       for (src, data) in sorted(srcs.items()):
         print(f'\t{src} ({len(data)}x)')
-        for (l, line, sore) in sorted(data)[0:batch]:
+        for (l, line, doc, sore) in sorted(data)[0:batch]:
           soreRep = '' if sore is None else f'"{sore}" in '
-          print(f'\t\t{l}: {soreRep}{line}')
+          print(f'\t\t{l} in {doc}: {soreRep}{line}')
         if len(data) > batch:
           print(f'\t\t + more')
 
@@ -201,9 +520,9 @@ def getMapping():
 
   mapping = collections.defaultdict(set)
 
-  for (sign, signData) in signs.items():
-    uniStr = signData['signCunei']
-    values = signData['values']
+  for (sign, signInfo) in signs.items():
+    uniStr = signInfo['signCunei']
+    values = signInfo['values']
     for value in values:
       valueAscii = makeAscii(value)
       mapping[valueAscii].add(uniStr)
@@ -231,6 +550,24 @@ def getConverter():
   return CV(TF)
 
 
+def checkSane(line):
+  inSane = insaneRe.findall(line)
+  insaneRep = ''
+  lineMsg = line
+  if inSane:
+    sep = ''
+    for c in sorted(inSane):
+      try:
+        name = uname(c)
+      except ValueError:
+        name = '??'
+      insaneRep += f"{sep}┣{c}┫ = {ord(c):>04x} = {name}"
+      sep = '; '
+    lineMsg = insaneRe.sub(insaneRepl, line)
+    line = insaneRe.sub('', line)
+  return (insaneRep, lineMsg, line)
+
+
 # DIRECTOR
 
 def director(cv):
@@ -238,204 +575,466 @@ def director(cv):
   sources = getSources()
   mapping = getMapping()
 
-  curTablet = None
+  curDocument = None
+  recentObject = None
   curFace = None
+  recentColumn = None
   curLine = None
+  recentTrans = None
   curCluster = collections.defaultdict(list)
   curSign = None
+  skip = False
 
   i = 0
   pNum = None
 
   pNums = {}
 
+  warnings = collections.defaultdict(lambda: collections.defaultdict(set))
   errors = collections.defaultdict(lambda: collections.defaultdict(set))
 
-  # sub director: setting up a tablet node
+  # sub director: setting up a document node
 
-  def uni(reading, grapheme):
-    uReading = '|'.join(mapping.get(reading, (reading,)))
-    uGrapheme = '|'.join(mapping.get(grapheme, (grapheme,)))
+  def uni(reading, grapheme, sep=''):
+    uReading = '|'.join(mapping.get(reading, (reading,))) if reading is not None else ''
+    uGrapheme = '|'.join(mapping.get(grapheme, (grapheme,))) if grapheme is not None else ''
     result = uReading
     if grapheme:
-      result += f'({uGrapheme})'
+      result += f'{sep}({uGrapheme})'
     return result
 
-  def tabletStart():
-    nonlocal curTablet
-    nonlocal curFace
-    nonlocal curLine
-
-    cv.terminate(curLine)
-    curLine = None
-    cv.terminate(curFace)
-    curFace = None
-    cv.terminate(curTablet)
-    curTablet = cv.node('tablet')
-    for cNodes in curCluster.values():
-      for cNode in curCluster:
-        cv.terminate(cNode)
-    curCluster.clear()
-
-  # sub director: adding data to a tablet node
-
-  def tabletData():
+  def documentStart():
+    # we build nodes for documents, faces, lines
+    # the node is stored in the cur-variables
+    # we remember the latest object and column specs
+    # object and column is stored in the recent variables
+    nonlocal curDocument
     nonlocal pNum
+    nonlocal skip
 
-    pNum = line[1:].split()[0]
+    documentEnd()
+
+    identifiers = line[1:].split('=')
+    pNum = identifiers[0].strip()
+    docNum = identifiers[-1].strip()
 
     other = pNums.get(pNum, None)
     if other is not None:
       (otherSrc, otherI) = other
       rep = f'{pNum} also in {otherSrc}:{otherI}'
-      errors[f'duplicate pnums'][src].add((i, line, rep))
-
-      cv.terminate(curTablet)
+      errors[f'document: duplicate pnums'][src].add((i, line, pNum, rep))
+      skip = True
       return
 
+    curDocument = cv.node('document')
     pNums[pNum] = (src, i)
 
     sys.stderr.write(f'{src:<15} : {i:>4} : {pNum:<20}\r')
 
     cv.feature(
-        curTablet,
+        curDocument,
         pnumber=pNum,
         srcfile=src,
-        srcln=i,
-        srcline=line,
+        srcLnNum=i,
+        srcLn=line,
     )
+    skip = False
 
-  # sub director: terminating a tablet node
+    docnumber = None
+    docnote = None
+    match = collectionRe.match(docNum)
 
-  def tabletEnd():
-    nonlocal curTablet
-    nonlocal curFace
-    nonlocal curLine
-    cv.terminate(curLine)
-    curLine = None
-    cv.terminate(curFace)
-    curFace = None
-    cv.terminate(curTablet)
-    curTablet = None
+    if not match:
+      warnings[f'document: malformed collection volume, number'][src].add(
+          (i, line, pNum, docNum)
+      )
+      docnote = docNum
+    else:
+      collection = match.group(1)
+      volume = match.group(2)
+      docnumber = match.group(3).strip()
+      docnote = None
+      if docnumber:
+        docnumber = docnumber.replace('pl. ', '').strip()
+        docnumParts = docnumber.split(',', 1)
+        if len(docnumParts) == 1:
+          docnote = None
+        else:
+          docnumber = docnumParts[0].strip()
+          docnote = docnumParts[1].strip()
+
+      if ' ' in docnumber:
+        warnings[f'document: unusual number'][src].add(
+            (i, line, pNum, docnumber)
+        )
+        docnote = docnumber
+        docnumber = None
+      cv.feature(curDocument, collection=collection, volume=volume)
+
+    if docnumber:
+      cv.feature(curDocument, docnumber=docnumber)
+    if docnote:
+      cv.feature(curDocument, docnote=docnote)
+
+  # sub director: terminating a document node
+
+  def documentEnd():
+    nonlocal curDocument
+    nonlocal recentObject
+
+    if curDocument is None:
+      return
+
+    faceEnd()
+    recentObject = None
+    cv.terminate(curDocument)
+    if not cv.linked(curDocument):
+      errors[f'document: empty'][src].add((i, line, pNum, None))
+    curDocument = None
+
+  # sub director: processing an # metadata line
+
+  def processMeta():
+    lineInfo = line[1:].strip()
+    if not curDocument:
+      errors[f'meta: outside document'][src].add((i, line, pNum, lineInfo))
+      return
+    if len(line) > 1 and line[1] == ' ':
+      commentInsert(meta=True)
+      return
+
+    if lineInfo.startswith('atf:l'):
+      errors[f'meta: no space after atf:'][src].add((i, line, pNum, None))
+      lineInfo = 'atf: l' + lineInfo[5:]
+    fields = lineInfo.split(maxsplit=1)
+    if fields[0] == 'atf:':
+      infoFields = fields[1].split(maxsplit=1)
+      if len(infoFields) != 2:
+        errors[f'meta: invalid'][src].add((i, line, pNum, fields[1]))
+        return
+      (key, value) = infoFields
+      value = value.strip()
+      if value.startswith('='):
+        newValue = value[1:].strip()
+        errors[f'meta: spurious ='][src].add((i, line, pNum, f'"{value}" => "{newValue}"'))
+        value = newValue
+      cv.feature(curDocument, **{key: value})
+    elif fields[0] == 'tr.en:':
+      if not curLine:
+        errors[f'meta: translation outside line'][src].add((i, line, pNum, lineInfo))
+        return
+      cv.feature(curLine, **{'trans': 1, 'translation@en': fields[1]})
+    else:
+      errors[f'meta: unknown kind'][src].add((i, line, pNum, fields[0]))
+      return
+
+  # sub director: processing an @ specifier
+
+  def processAtSpec():
+    lineInfo = line[1:].strip()
+    fields = lineInfo.split(maxsplit=1)
+    typ = fields[0]
+    subType = fields[1] if len(fields) == 2 else None
+
+    if typ == 'column' or typ in COL_CORRECTION:
+      if typ in COL_CORRECTION:
+        typCorr = COL_CORRECTION[typ]
+        errors[f'structure: column correction'][src].add((i, line, pNum, f'{typ} => {typCorr}'))
+        typ = typCorr
+      columnSet(subType)
+    elif typ == 'object':
+      objectSet(subType)
+    elif typ in OBJECTS:
+      objectSet(lineInfo)
+    elif typ in FACES or typ in FACES_CORRECTION:
+      if typ in FACES_CORRECTION:
+        faceCorr = FACES_CORRECTION[typ]
+        errors[f'structure: face correction'][src].add((i, line, pNum, f'{typ} => {faceCorr}'))
+        faceStart(faceCorr)
+      else:
+        faceStart(lineInfo)
+    else:
+      errors[f'structure: unrecognized @'][src].add((i, line, pNum, lineInfo))
+
+  # sub director: setting the object type
+
+  def objectSet(typ):
+    nonlocal recentObject
+    nonlocal recentColumn
+
+    if typ is None:
+      errors[f'structure: object without type'][src].add((i, line, pNum, None))
+
+    faceEnd()
+    recentColumn = None
+    recentObject = typ
 
   # sub director: setting up a face node
 
-  def faceStart():
-    fields = line[1:].split(maxsplit=1)
-    typ = fields[0]
-    if typ == 'tablet':
-      return
-
-    faceInsert(typ)
-
-    if len(fields) == 2:
-      cv.feature(
-          curFace,
-          subtype=fields[1],
-      )
-
-  # sub director: inserting a default face node if no face is specified
-
-  def faceInsert(typ):
+  def faceStart(faceName):
     nonlocal curFace
+    nonlocal recentObject
 
-    cv.terminate(curFace)
+    faceEnd()
     curFace = cv.node('face')
 
+    if recentObject is None:
+      errors[f'structure: object missing'][src].add((i, line, pNum, faceName))
+      recentObject = DEFAULT_OBJ
+
+    objSpec = recentObject if recentObject and recentObject != DEFAULT_OBJ else ''
+    sep = ' - ' if objSpec and faceName else ''
+    faceSpec = f'{objSpec}{sep}{faceName or ""}'
     cv.feature(
         curFace,
-        type='obverse',
+        object=recentObject,
+        face=faceSpec,
         srcfile=src,
-        srcln=i,
-        srcline=line,
+        srcLnNum=i,
+        srcLn=line,
     )
+
+  def faceEnd():
+    nonlocal recentColumn
+    nonlocal curFace
+
+    if curFace is None:
+      return
+
+    lineEnd()
+    recentColumn = None
+    cv.terminate(curFace)
+    if not cv.linked(curFace):
+      errors[f'structure: face empty'][src].add((i, line, pNum, None))
+    curFace = None
+
+  # sub director: setting the column number
+
+  def columnSet(number):
+    nonlocal recentColumn
+
+    if number is None:
+      errors[f'structure: column without number'][src].add((i, line, pNum, None))
+
+    lineEnd()
+    recentColumn = number
+
+  # sub director: setting up a comment line
+
+  # comments are $ lines.
+  # We interpret a comment line as a line with one empty slot.
+  # The comment it self is a feature of the line node.
+
+  def commentInsert(meta=False):
+    nonlocal curLine
+
+    lineEnd()
+    curLine = cv.node('line')
+    emptySlot = cv.slot()
+    cv.feature(emptySlot, type='empty')
+
+    comment = line[1:].strip()
+    if not meta and comment not in COMMENTS and not COMMENT_RE.match(comment):
+      warnings[f'comment: unrecognized'][src].add((i, line, pNum, comment))
+    cv.feature(
+        curLine,
+        comment=comment,
+        ln='#' if meta else '$',
+        srcfile=src,
+        srcLnNum=i,
+        srcLn=line,
+    )
+    if meta:
+      cv.feature(curLine, meta=1)
+    if recentColumn is not None:
+      cv.feature(curLine, col=recentColumn)
+
+    cv.terminate(curLine)
+    curLine = None
 
   # sub director: setting up a line node
 
-  def lineStart(ln, trans, comment):
+  def lineStart(ln):
     nonlocal curLine
+    nonlocal recentTrans
 
-    cv.terminate(curLine)
+    lineEnd()
     curLine = cv.node('line')
+
+    hasPrimeLn = "'" in ln
+    if hasPrimeLn:
+      ln = ln.replace("'", '')
 
     cv.feature(
         curLine,
         ln=ln,
         srcfile=src,
-        srcln=i,
-        srcline=line,
+        srcLnNum=i,
+        srcLn=line,
     )
-    if comment is not None:
-      cv.feature(
-          curLine,
-          comment=comment,
-      )
+    if hasPrimeLn:
+      cv.feature(curLine, primeln=1)
 
-    for (cb, ce) in clusterChars.items():
-      if cb == ce:
-        ncs = trans.count(cb)
-        if ncs % 2:
-          errors[f'unbalanced cluster of type "{cb}"'][src].add((i, line, None))
-      else:
-        if trans.count(cb) != trans.count(ce):
-          errors[f'unbalanced cluster of type "{cb} {ce}"'][src].add((i, line, None))
+    if recentColumn is not None:
+      hasPrimeCol = "'" in recentColumn
+      col = recentColumn.replace("'", '') if hasPrimeCol else recentColumn
+      cv.feature(curLine, col=col)
 
-    if stickyNumeralRe.findall(trans):
-      trans = stickyNumeralRe.sub(stickyNumeralRepl, trans)
+      if hasPrimeCol:
+        cv.feature(curLine, primecol=1)
+
+    recentTrans = recentTrans.strip() + ' '
+
+    commentNotes.clear()
+    recentTrans = commentRe.sub(commentRepl, recentTrans)
+
+    for (cab, cae, cob, coe, ctp) in clusterChars:
+      bCount = recentTrans.count(cab)
+      eCount = recentTrans.count(cae)
+      if bCount != eCount:
+        errors[f'cluster: unbalanced {cob} {coe}'][src].add(
+            (i, line, pNum, f'{bCount} vs {eCount}')
+        )
+
+    changed = False
+    if cSpaceBRe.search(recentTrans):
+      recentTrans = cSpaceBRe.sub(cSpaceBRepl, recentTrans)
+      changed = True
+
+    if cSpaceERe.search(recentTrans):
+      recentTrans = cSpaceERe.sub(cSpaceERepl, recentTrans)
+      changed = True
+
+    recentTrans = recentTrans.strip()
+
+    if changed:
+      errors[f'cluster: space near edge'][src].add((i, line, pNum, transUnEsc(recentTrans)))
+
+  def lineEnd():
+    nonlocal curLine
+
+    if curLine is None:
+      return
+
+    cv.terminate(curLine)
+    if not cv.linked(curLine):
+      errors[f'line: empty'][src].add((i, line, pNum, None))
+    curLine = None
 
   # sub director: adding data to a line node
   # this is itself a complicated generator with sub gens
 
-  def lineData(trans):
+  def lineData():
     nonlocal curLine
+    nonlocal recentTrans
 
     curWord = None
 
-    inAlt = 1
+    inAlt = 0
+    inBrace = False
+    inBracket = False
 
-    words = trans.split()
-    lWords = len(words)
+    if wHyphenBRe.search(recentTrans):
+      errors[f'line: words starting with -'][src].add((i, line, pNum, None))
+      recentTrans = wHyphenBRe.sub(wHyphenBRepl, recentTrans)
+    if wHyphenERe.search(recentTrans):
+      errors[f'line: words ending with -'][src].add((i, line, pNum, None))
+      recentTrans = wHyphenERe.sub(wHyphenERepl, recentTrans)
+    if cHyphenBRe.search(recentTrans):
+      errors[f'line: clusters starting with -'][src].add((i, line, pNum, None))
+      recentTrans = cHyphenBRe.sub(cHyphenBRepl, recentTrans)
+    if cHyphenERe.search(recentTrans):
+      errors[f'line: clusters ending with -'][src].add((i, line, pNum, None))
+      recentTrans = cHyphenERe.sub(cHyphenERepl, recentTrans)
 
-    # subsub director: setting up a cluster node
+    words = recentTrans.split()
 
-    def clusterStart():
+    # subsub director: processing cluster chars
+
+    def clusterChar(before):
       nonlocal part
       nonlocal inAlt
+      nonlocal inBrace
+      nonlocal inBracket
 
-      while part and part[0] in clusterChars:
-        cb = part[0]
-        if cb == '_':
-          inAlt = 2
+      brackets = ''
 
-        cNode = cv.node('cluster')
-
-        curCluster[cb].append(cNode)
-
-        cv.feature(
-            cNode,
-            type=cb,
+      if cFlagRe.search(part):
+        errors[f'cluster: flag enclosed in cluster chars'][src].add(
+            (i, line, pNum, transUnEsc(part))
         )
-        part = part[1:]
 
-    # subsub director: terminating a cluster node
+      flags = ''
+      while part:
+        refChar = part[0] if before else part[-1]
+        if refChar in flagging:
+          flags += refChar
+        else:
+          if refChar not in clusterCharsA:
+            break
+          if refChar in clusterCharsB:
+            cab = refChar
+            cob = clusterAtf[cab]
+            if before:
+              brackets += cab
+            else:
+              brackets = cab + brackets
 
-    def clusterEnd():
-      nonlocal part
-      nonlocal inAlt
+            if cab == langCabB:
+              inAlt = 1
+            elif cab == braceCabB:
+              inBrace = True
+            elif cab == bracketCabB:
+              inBracket = True
 
-      if part == '':
-        return
+            cNode = cv.node('cluster')
 
-      for ce in clusterChars.values():
-        if ce in part:
-          part = part.replace(ce, '')
-          cb = clusterCharsInv[ce]
-          if cb == '_':
-            inAlt = 1
+            curCluster[cab].append(cNode)
 
-          for cNode in curCluster[cb]:
-            cv.terminate(cNode)
-          del curCluster[cb]
+            cv.feature(cNode, type=clusterType[cab])
+          elif refChar in clusterCharsE:
+            cae = refChar
+            cab = clusterAtfB[cae]
+            coe = clusterAtf[cae]
+            cob = clusterAtf[cab]
+            if before:
+              brackets += cae
+            else:
+              brackets = cae + brackets
+
+            if cae == langCabE:
+              inAlt = 0
+            elif cae == braceCabE:
+              inBrace = False
+            elif cae == bracketCabE:
+              inBracket = False
+
+            for cNode in curCluster[cab]:
+              cv.terminate(cNode)
+              if not cv.linked(cNode):
+                errors[f'cluster: empty {cob} {coe}'][src].add((i, line, pNum, None))
+            del curCluster[cab]
+        part = part[1:] if before else part[0:-1]
+
+      if before:
+        part = flags + part
+      else:
+        part += flags[::-1]
+
+      return brackets
+
+    # subsub director: finishing off  all clusters on a line
+
+    def clusterEndMakeSure():
+      for (cab, cNodes) in curCluster.items():
+        cob = clusterAtf[cab]
+        cae = clusterAtfE[cab]
+        coe = clusterAtf[cae]
+        for cNode in cNodes:
+          cv.terminate(cNode)
+          if not cv.linked(cNode):
+            errors[f'cluster: empty {cob} {coe}'][src].add((i, line, pNum, None))
+      curCluster.clear()
 
     # subsub director: setting up a sign node
 
@@ -444,215 +1043,291 @@ def director(cv):
 
       curSign = cv.slot()
 
-      cv.feature(
-          curSign,
-          language=inAlt,
-          after=(
-              '-' if p < lParts - 1 else
-              ' ' if w < lWords - 1 else
-              ''
-          ),
-      )
-
+      if inAlt:
+        cv.feature(curSign, langalt=inAlt)
+      if inBrace:
+        cv.feature(curSign, det=1)
+      if inBracket:
+        cv.feature(curSign, uncertain=1)
   # sub director: adding data to a sign node
 
-    def signData():
+    def doFlags():
+      nonlocal part
+
+      lPart = len(part)
+      for i in range(lPart):
+        refChar = part[-1]
+        if refChar in flagging:
+          mf = flagging[refChar]
+          cv.feature(curSign, **{mf: 1})
+          part = part[0:-1]
+        else:
+          break
+
+    def signData(clusterBefore, clusterAfter, after):
       nonlocal curSign
       nonlocal part
 
-      cv.feature(
-          curSign,
-          atf=part,
-      )
+      origPart = part
 
-      if part and part[0] == '{' and part[-1] == '}':
-        part = part[1:-1]
+      uafter = None if after == '-' else after
+
+      if after:
+        cv.feature(curSign, after=after)
+      if uafter:
+        cv.feature(curSign, uafter=uafter)
+
+      if clusterBefore:
         cv.feature(
             curSign,
-            super=1,
+            atfpre=transUnEsc(clusterBefore),
         )
-
-      match = graphemeRe.search(part)
-      if match:
-        excl = match.group(2)
-        if not excl:
-          errors['missing ! in front of ()'][src].add((i, line, part))
-
-        part = match.group(1)
-        grapheme = match.group(3)
-
+      if clusterAfter:
         cv.feature(
             curSign,
-            type='reading',
-            reading=part,
-            givengrapheme=grapheme,
-            unicode=uni(part, grapheme),
+            atfpost=transUnEsc(clusterAfter),
         )
 
-      for (mc, mf) in markChars.items():
-        if mc in part:
-          part = part.replace(mc, '')
-          cv.feature(
-              curSign,
-              **{mf: 1},
-          )
-
-      if part == '':
-        errors['empty part'][src].add((i, line, word))
-        cv.feature(
-            curSign,
-            type='empty',
-        )
+      if not part:
+        cv.feature(curSign, type='empty')
+        errors['sign: empty (in cluster)'][src].add((i, line, pNum, transUnEsc(origPart)))
         return
+
+      if part.startswith('├') and part.endswith('┤'):
+        commentIndex = int(part[1:-1])
+        comment = commentNotes[commentIndex]
+        cv.feature(curSign, type='comment', comment=comment, atf=f'($ {comment} $)')
+        return
+
+      cv.feature(curSign, atf=transUnEsc(part))
 
       match = numeralRe.match(part)
       if match:
         quantity = match.group(1)
-        rest = match.group(2)
-        cv.feature(
-            curSign,
-            type='numeral',
-        )
-        if '/' in quantity:
-          fraction = quantity
-          repeat = None
-          cv.feature(
-              curSign,
-              fraction=quantity,
-          )
-        else:
-          repeat = quantity
+        part = match.group(2)
+        doFlags()
+        cv.feature(curSign, type='numeral')
+        if quantity == 'n':
           fraction = None
-          cv.feature(
-              curSign,
-              repeat=repeat,
-          )
-
-        unicode = uni(rest, None) * repeat if repeat is not None else uni(rest, fraction)
-
-        if rest.islower():
-          cv.feature(
-              curSign,
-              reading=rest,
-              unicode=unicode,
-          )
+          repeat = None
+        elif div in quantity:
+          fraction = transUnEsc(quantity)
+          repeat = None
+          cv.feature(curSign, fraction=fraction)
         else:
-          cv.feature(
-              curSign,
-              grapheme=rest,
-              unicode=unicode,
-          )
+          repeat = int(quantity)
+          fraction = None
+          cv.feature(curSign, repeat=repeat)
+
+        part = transUnEsc(part)
+        unicode = (
+            uni(part, None)
+            if repeat is None and fraction is None else
+            uni(part, None) * repeat
+            if repeat is not None else
+            uni(part, fraction)
+        )
+
+        if part.islower():
+          cv.feature(curSign, reading=part, unicode=unicode)
+        else:
+          cv.feature(curSign, grapheme=part, unicode=unicode)
         return
 
-      match = graphemexRe.search(part)
+      match = withGraphemeRe.search(part)
       if match:
         part = match.group(1)
+        operator = match.group(2)
+        doFlags()
+        grapheme = match.group(3)
+
+        part = transUnEsc(part)
+        grapheme = transUnEsc(grapheme)
+        operator = transUnEsc(operator)
+
         cv.feature(
             curSign,
-            uncertain=1,
+            type='complex',
+            reading=part,
+            givengrapheme=grapheme,
+            operator=operator,
+            unicode=uni(part, grapheme),
         )
-        if part == 'x' or part == '...':
-          cv.feature(
-              curSign,
-              type='empty' if part == '...' else 'unknown',
-              grapheme=part,
-          )
-        elif part.isupper():
-          cv.feature(
-              curSign,
-              type='grapheme',
-              grapheme=part,
-          )
-        elif part.islower():
-          cv.feature(
-              curSign,
-              type='reading',
-              reading=part,
-              unicode=uni(part, None)
-          )
-        else:
-          cv.feature(
-              curSign,
-              type='other',
-              grapheme=part,
-          )
         return
 
-      part = part.replace('(', '').replace(')', '')
+      doFlags()
 
-      if part == 'x' or part == 'X' or part == '...':
-        cv.feature(
-            curSign,
-            type='empty' if part == '...' else 'unknown',
-            grapheme=part,
-        )
+      if part == '':
+        errors['sign: empty (after flags)'][src].add((i, line, pNum, transUnEsc(origPart)))
+        cv.feature(curSign, type='empty')
+        return
+
+      if part == ellips:
+        typ = 'ellipsis'
+        part = transUnEsc(part)
+        cv.feature(curSign, type=typ, grapheme=part)
+        return
+
+      if part in unknownSet:
+        typ = 'unknown'
+        part = transUnEsc(part)
+        cv.feature(curSign, type=typ)
+        if part.islower():
+          cv.feature(curSign, reading=part)
+        else:
+          cv.feature(curSign, grapheme=part)
         return
 
       if part.islower():
-        cv.feature(
-            curSign,
-            type='reading',
-            reading=part,
-            unicode=uni(part, None)
-        )
+        part = transUnEsc(part)
+        cv.feature(curSign, type='reading', reading=part, unicode=uni(part, None))
         return
 
       if part.isupper():
-        cv.feature(
-            curSign,
-            type='grapheme',
-            grapheme=part,
-            unicode=uni(None, part)
-        )
+        part = transUnEsc(part)
+        cv.feature(curSign, type='grapheme', grapheme=part, unicode=uni(None, part))
         return
 
-      cv.feature(
-          curSign,
-          type='other',
-          grapheme=part,
-          unicode=uni(None, part)
-      )
+      part = transUnEsc(part)
+      cv.feature(curSign, type='other', grapheme=part, unicode=uni(None, part))
       msg = 'mixed case' if part.isalnum() else 'strange grapheme'
-      errors[msg][src].add((i, line, part))
+      errors[f'sign: {msg}'][src].add((i, line, pNum, transUnEsc(origPart)))
+
+    def getParts(word):
+      origWord = word
+
+      parts = []
+      curPart = ''
+      inSign = False
+      endSign = False
+      endPart = False
+
+      while word:
+        inCase = True
+        if word.startswith('x'):
+          c = 'x'
+          word = word[1:]
+        elif word.startswith(ellips):
+          c = ellips
+          word = word[1:]
+        else:
+          match = numeralRe.match(word) or withGraphemeRe.match(word)
+          if match:
+            c = match.group(0)
+            lc = len(c)
+            word = word[lc:]
+          else:
+            inCase = False
+        if inCase:
+          if endPart or endSign:
+            parts.append((curPart, ''))
+            curPart = c
+            endPart = False
+            endSign = False
+          else:
+            curPart += c
+          inSign = True
+          endSign = True
+          continue
+
+        c = word[0]
+        if c == '-' or c in operatorSet:
+          if inSign or len(parts) == 0:
+            parts.append((curPart, c))
+          else:
+            (prevPart, prevAfter) = parts[-1]
+            parts[-1] = (prevPart + curPart, prevAfter + c)
+            errors[f'sign: {c} after no sign'][src].add(
+                (i, line, pNum, transUnEsc(curPart))
+            )
+          curPart = ''
+          inSign = False
+          endSign = False
+          endPart = False
+        elif c in clusterCharsB:
+          if inSign:
+            parts.append((curPart, ''))
+            curPart = c
+            inSign = False
+            endSign = False
+            endPart = False
+          else:
+            curPart += c
+        elif c in clusterCharsE:
+          curPart += c
+          if inSign:
+            endPart = True
+        elif c in flagging:
+          if inSign and not endPart:
+            curPart += c
+          elif not inSign and not endPart:
+            errors[f'sign: flag not attached to sign (ignored)'][src].add(
+                (i, line, pNum, transUnEsc(curPart))
+            )
+          elif inSign:
+            errors[f'sign: flag attached to cluster (applied to sign instead)'][src].add(
+                (i, line, pNum, transUnEsc(curPart))
+            )
+            curPart += c
+          else:
+            errors[f'sign: flag after cluster chars (ignored)'][src].add(
+                (i, line, pNum, transUnEsc(curPart))
+            )
+        else:
+          if endPart or endSign:
+            parts.append((curPart, ''))
+            curPart = c
+            endSign = False
+            endPart = False
+          else:
+            curPart += c
+          inSign = True
+        word = word[1:]
+
+      if curPart:
+        if inSign:
+          parts.append((curPart, ''))
+        else:
+          if len(parts):
+            parts[-1] += ((curPart, ''))
+          else:
+            errors[f'sign: empty (in word)'][src].add(
+                (i, line, pNum, f'{transUnEsc(curPart)} in {transUnEsc(origWord)}')
+            )
+            parts = [(curPart, '')]
+      return parts
 
     # the outer loop of the lineData sub generator
 
+    lWords = len(words)
+
     for (w, word) in enumerate(words):
-
       curWord = cv.node('word')
+      if not inlineCommentRe.match(word):
+        cv.feature(curWord, atf=transUnEsc(word))
 
-      word = word.replace('{', '-{').replace('}', '}-')
-      word = word.replace('[', '-[').replace(']', ']-')
-      word = word.replace('<', '-<').replace('>', '>-')
-      word = word.strip('-')
-
-      parts = hyphRe.split(word)
+      parts = getParts(word)
       lParts = len(parts)
 
       for p in range(len(parts)):
-        part = parts[p]
-        if part == '':
-          continue
+        (part, after) = parts[p]
 
-        clusterStart()
-
-        noMaterial = clusterTermRe.match(part)
-
-        if not noMaterial:
-          signStart()
-        clusterEnd()
-        if not noMaterial:
-          signData()
+        cAtfStart = clusterChar(True)
+        signStart()
+        cAtfEnd = clusterChar(False)
+        after += (
+            ' ' if p == lParts - 1 and w != lWords - 1 else ''
+        )
+        signData(cAtfStart, cAtfEnd, after)
 
       cv.terminate(curWord)
+      if not cv.linked(curWord):
+        errors[f'word: empty'][src].add((i, line, pNum, None))
       curWord = None
 
     # terminating all unfinished clusters
 
-    for cNodes in curCluster.values():
-      for cNode in cNodes:
-        cv.terminate(cNode)
-    curCluster.clear()
+    clusterEndMakeSure()
 
   # the outer loop of the corpus generator
 
@@ -661,58 +1336,88 @@ def director(cv):
     print(f'Reading source {src}')
 
     with open(path) as fh:
-      inTrans = False
       i = 0
       for line in fh:
         i += 1
 
-        if line.startswith('Transliteration:'):
-          inTrans = True
-          tabletStart()
-          continue
-
-        elif line[0].isupper():
-          inTrans = False
-          continue
-
-        elif not inTrans:
-          continue
-
         line = line.strip()
 
-        if line.startswith('&'):
-          tabletData()
+        if not line or line[0].isupper():
           continue
 
-        if line.startswith('@'):
-          faceStart()
+        isDoc = line.startswith('&')
+
+        if isDoc:
+          if len(line) > 1 and line[1] == 'P':
+            documentStart()
+          else:
+            errors[f'atf: stray & replaced by $'][src].add((i, line, pNum, None))
+            commentInsert()
+
+        isMeta = line.startswith('#')
+
+        if not isMeta or not line.startswith('#tr.'):
+          (msg, lineMsg, line) = checkSane(line)
+          if msg:
+            errors[f'atf: illegal character(s)'][src].add((i, lineMsg, pNum, msg))
+
+        if isDoc:
           continue
 
-        match = transRe.match(line)
-        if not match:
+        if skip:
           continue
 
-        ln = match.group(1)
-        trans = match.group(2)
-        comment = None
+        if isMeta:
+          processMeta()
+          continue
 
-        match = commentRe.match(trans)
-        if match:
-          comment = match.group(1).strip()
-          trans = commentRe.sub('', trans).strip()
+        isStruct = line.startswith('@')
+
+        if isStruct:
+          processAtSpec()
+          continue
 
         if curFace is None:
-          faceInsert('obverse')
+          faceStart(None)
 
-        lineStart(ln, trans, comment)
-        lineData(trans)
+        isComment = line.startswith('$')
 
-      tabletEnd()
+        if isComment:
+          commentInsert()
+          continue
+
+        isNumbered = transRe.match(line)
+        if isNumbered:
+          ln = isNumbered.group(1)
+          recentTrans = isNumbered.group(2)
+        else:
+          errors[f'line: not numbered'][src].add((i, line, pNum, None))
+          ln = ''
+          recentTrans = line
+          continue
+
+        recentTrans = transEsc(recentTrans)
+        cos = clusterCheck(recentTrans)
+        if cos:
+          cosRep = ' '.join(sorted(set(cos)))
+          errors[f'cluster: not escaped {cosRep}'][src].add((i, line, pNum, None))
+
+        recentTrans = numeralBackRe.sub(bracketBackRepl, recentTrans)
+        recentTrans = withGraphemeBackRe.sub(bracketBackRepl, recentTrans)
+
+        lineStart(ln)
+        lineData()
+
+      documentEnd()
 
       print(f'{src:<15} : {i:>4} : {pNum:<20}\r')
 
+  print(f'\n{len(pNums)} documents in corpus')
+
+  if warnings:
+    showDiags(warnings, 'WARNING')
   if errors:
-    showErrors(errors)
+    showDiags(errors, 'ERROR')
 
 
 def convert():
@@ -725,6 +1430,7 @@ def convert():
       generic=generic,
       intFeatures=intFeatures,
       featureMeta=featureMeta,
+      generateTf=generateTf,
   )
 
 
@@ -745,7 +1451,12 @@ def loadTf():
 
 # MAIN
 
+generateTf = len(sys.argv) == 1 or sys.argv[1] != '-notf'
+
+print(f'ATF to TF converter for {REPO}')
+print(f'ATF source version = {VERSION_SRC}')
+print(f'TF  target version = {VERSION_TF}')
 good = convert()
 
-if good:
+if generateTf and good:
   loadTf()

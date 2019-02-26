@@ -1,13 +1,14 @@
 @config
 @converters=Cale Johnson, Dirk Roorda
 @editor=Cale Johnson et. al.
-@fmt:text-graphic-full={grapheme}{after}
-@fmt:text-ling-full={reading}{after}
-@fmt:text-orig-full={atf}{after}
+@fmt:text-graph-full={atfpre}{givengrapheme/grapheme/reading}{atfpost}{after}
+@fmt:text-ling-full={atfpre}{reading/grapheme}{atfpost}{after}
+@fmt:text-orig-full={atfpre}{atf}{atfpost}{after}
+@fmt:text-uni-full={atfpre}{unicode}{atfpost}{uafter}
 @institute=CDL
 @name=AbB Old Babylonian Cuneiform
-@sectionFeatures=pnumber,type
-@sectionTypes=tablet,face
+@sectionFeatures=pnumber,face
+@sectionTypes=document,face
 @writtenBy=Text-Fabric
-@dateWritten=2019-01-30T15:25:52Z
+@dateWritten=2019-02-26T18:11:47Z
 

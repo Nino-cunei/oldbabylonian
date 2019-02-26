@@ -1,0 +1,132 @@
+ERROR empty face
+	AbB-secondary (2x)
+		13427: @left edge
+		13460: &P313359 = CT 43, 069
+ERROR empty line
+	AbB-primary (2x)
+		18112: &P510719 = AbB 12, 197
+		28926: @reverse
+ERROR empty word
+	AbB-secondary (4x)
+		11551: 16. [x x x x ] ta#-ad#-di# x [x]
+		12993: 2. [ x _lu2] hun-ga2 {d}suen_-[x ...]
+		13368: 11. _e2_ u2-da-ab-ba-ab
+		72704: 1. [ ...]
+ERROR invalid metadata
+	AbB-secondary (1x)
+		73046: "lang" in #atf: lang
+ERROR missing ! in front of ()
+	AbB-primary (4x)
+		24009: "n(bur3)" in 15. _n(bur3) GAN2# a-sza3_ x x x _4(bur3) GAN2 a-sza3_
+		28965: "kux(DU)" in 2. [x x x x] _mu#-kux(DU)_
+		28968: "kux(DU)#" in 5. _mu-kux(DU)#_ [x x x]-tum?
+		28979: "kux(DU)" in 3'. _1(disz) ARAD mu-kux(DU)_ {d}suen-x [x]
+	AbB-secondary (4x)
+		39182: "isx(USZ)" in 15. ar-ka-tum szi-i u2-ul ip-pa-ri-isx(USZ)-ma#
+		56783: "gazx(KUM)" in 14. ub-lu-ni-im 2(ban2) _zi3 gazx(KUM)_
+		56935: "n(disz)" in 8. i-na _iti apin-du8-a [u4 n(disz)-kam_]
+		67337: "n(barig)" in 7. 6(asz) [n(barig)] _sze gur_
+ERROR mixed case
+	AbB-secondary (1x)
+		72947: "1" in 11. sza _1 1/3(disz) gin2 ku3-babbar_
+ERROR strange grapheme
+	AbB-secondary (15x)
+		72096: "1/2" in 1. [1/2 _ma-]na# ku3-babbar_ a-nu-um#-[ma-am]
+		72345: "1,2" in 7. 1,2 _gur_sze-a-am
+		72695: "" in 7. ki-ma ti-du ma (-)WI?-i-ma
+		72991: "0.0.1" in 7'. u3 0.0.1 t,a-ba-tim li-il-qi2-a-am
+		73000: "30.0.0" in 3. 30.0.0 _sze gur_ ma-la _al-du3_
+		74181: "4.3" in 5. _5(asz) gur 4.3 sze_ sza i-ni-ti
+		74182: "4.2.4" in 6. _4.2.4 sze_ sza szi-ma-tum
+		74193: "1,0.3" in 7. 1,0.3 ka-mu-nu i-na _a-sza3 szennur-ra_
+		74203: "8,0.0" in 1. e-zi-ib _3(u) gur 8,0.0 ziz2-an-na_
+		74204: ",2.0" in 2. [x],2.0 ka-mu-ni _6,2.0 ziz2 17,2.1 sze_
+		 + more
+ERROR unknown metadata kind
+	AbB-secondary (1x)
+		72184: "atf:lang" in #atf:lang akk
+ERROR unrecognized @ specifier
+	AbB-secondary (2x)
+		70425: "second 2" in @second 2
+		72304: "under edge" in @under edge
+ERROR unrecognized comment
+	AbB-secondary (9x)
+		15873: "in original -mi-li2-" in $in original -mi-li2-
+		26601: "(ATF deleted, = P384863)" in $ (ATF deleted, = P384863)
+		68270: "1 line effaced" in $ 1 line effaced
+		69281: "rest of obverse and reverse not inscribed" in $ rest of obverse and reverse not inscribed
+		70264: "rest broken off and not inscribed" in $rest broken off and not inscribed
+		72302: "most of the reverse is broken of" in $most of the reverse is broken of
+		72705: "more than half of reverse was inscribed, now broken off" in $more than half of reverse was inscribed, now broken off
+		73003: "one or more lines lost" in $one or more lines lost
+		74243: "ruling, reverse not inscribed" in $ruling, reverse not inscribed
+   |     3.99s "edge" actions: 0
+   |     3.99s "feature" actions: 682604
+   |     3.99s "node" actions: 118982
+   |     3.99s "resume" actions: 0
+   |     3.99s "slot" actions: 195885
+   |     3.99s "terminate" actions: 118982
+   |      14867 x "cluster" node 
+   |       1239 x "document" node 
+   |       2708 x "face" node 
+   |      26416 x "line" node 
+   |     195885 x "sign" node  = slot type
+   |      73752 x "word" node 
+   |     314867 nodes of all types
+   |     4.03s OK
+   |     0.03s Removing unlinked nodes ... 
+   |      |     0.00s      2 unlinked "face" nodes: [1450, 1451]
+   |      |     0.00s      2 unlinked "line" nodes: [4341, 8468]
+   |      |     0.00s      4 unlinked "word" nodes: [37083, 39168, 39628, 72619]
+   |      |     0.00s      8 unlinked nodes
+   |      |     0.00s Leaving 314859 nodes
+   |     0.00s checking for nodes and edges ... 
+   |     0.00s OK
+   |     0.00s checking features ... 
+   |     0.00s OK
+   |     0.00s reordering nodes ...
+   |     0.07s Sorting 14867 nodes of type "cluster"
+   |     0.09s Sorting 1239 nodes of type "document"
+   |     0.11s Sorting 2706 nodes of type "face"
+   |     0.13s Sorting 26414 nodes of type "line"
+   |     0.19s Sorting 73748 nodes of type "word"
+   |     0.31s Max node = 314859
+   |     0.31s OK
+   |     0.00s reassigning feature values ...
+   |      |     0.38s node feature "after" with 194935 nodes
+   |      |     0.43s node feature "atf" with 194935 nodes
+   |      |     0.47s node feature "atfpost" with 14288 nodes
+   |      |     0.48s node feature "atfpre" with 13510 nodes
+   |      |     0.49s node feature "col" with 284 nodes
+   |      |     0.49s node feature "collated" with 13 nodes
+   |      |     0.49s node feature "combined" with 1 node
+   |      |     0.49s node feature "comment" with 952 nodes
+   |      |     0.49s node feature "damage" with 9525 nodes
+   |      |     0.49s node feature "exclamation" with 102 nodes
+   |      |     0.49s node feature "face" with 2706 nodes
+   |      |     0.49s node feature "fraction" with 111 nodes
+   |      |     0.49s node feature "givengrapheme" with 100 nodes
+   |      |     0.49s node feature "grapheme" with 11207 nodes
+   |      |     0.50s node feature "lang" with 1237 nodes
+   |      |     0.50s node feature "language" with 194935 nodes
+   |      |     0.54s node feature "ln" with 25464 nodes
+   |      |     0.55s node feature "object" with 2706 nodes
+   |      |     0.55s node feature "pnumber" with 1239 nodes
+   |      |     0.55s node feature "reading" with 183728 nodes
+   |      |     0.60s node feature "repeat" with 1952 nodes
+   |      |     0.60s node feature "srcLn" with 29409 nodes
+   |      |     0.61s node feature "srcLnNum" with 29409 nodes
+   |      |     0.62s node feature "srcfile" with 29409 nodes
+   |      |     0.63s node feature "super" with 6589 nodes
+   |      |     0.64s node feature "translation@en" with 134 nodes
+   |      |     0.64s node feature "type" with 210752 nodes
+   |      |     0.69s node feature "uafter" with 194935 nodes
+   |      |     0.74s node feature "uncertain" with 1704 nodes
+   |      |     0.74s node feature "unicode" with 184970 nodes
+   |     0.48s OK
+  0.00s Exporting 31 node and 1 edge and 1 config features to /Users/dirk/github/Nino-cunei/oldbabylonian/tf/0.4:
+  0.00s VALIDATING oslots feature
+  0.04s maxSlot=     195885
+  0.04s maxNode=     314859
+  0.05s OK: oslots is valid
+

@@ -1,0 +1,129 @@
+ERROR corrected @ specifier
+	AbB-secondary (2x)
+		11969: "overse => obverse" in @overse
+		14781: "obverrse => obverse" in @obverrse
+ERROR duplicate pnums
+	AbB-secondary (1x)
+		27: "P497777 also in AbB-primary:9248" in &P497777 = AbB 12, 033
+ERROR empty face
+	AbB-secondary (3x)
+		12458: @seal 1
+		13366: @left edge
+		13399: &P313359 = CT 43, 069
+ERROR empty line
+	AbB-primary (2x)
+		18112: &P510719 = AbB 12, 197
+		28926: @reverse
+ERROR empty word
+	AbB-secondary (3x)
+		11493: 16. [x x x x ] ta#-ad#-di# x [x]
+		12932: 2. [ x _lu2] hun-ga2 {d}suen_-[x ...]
+		13307: 11. _e2_ u2-da-ab-ba-ab
+ERROR missing ! in front of ()
+	AbB-primary (4x)
+		24009: "n(bur3)" in 15. _n(bur3) GAN2# a-sza3_ x x x _4(bur3) GAN2 a-sza3_
+		28965: "kux(DU)" in 2. [x x x x] _mu#-kux(DU)_
+		28968: "kux(DU)#" in 5. _mu-kux(DU)#_ [x x x]-tum?
+		28979: "kux(DU)" in 3'. _1(disz) ARAD mu-kux(DU)_ {d}suen-x [x]
+	AbB-secondary (4x)
+		39111: "isx(USZ)" in 15. ar-ka-tum szi-i u2-ul ip-pa-ri-isx(USZ)-ma#
+		56572: "gazx(KUM)" in 14. ub-lu-ni-im 2(ban2) _zi3 gazx(KUM)_
+		56724: "n(disz)" in 8. i-na _iti apin-du8-a [u4 n(disz)-kam_]
+		67123: "n(barig)" in 7. 6(asz) [n(barig)] _sze gur_
+ERROR missing object specifier
+	AbB-primary (1x)
+		29321: 1'. [x x x] zi? x
+	AbB-secondary (1x)
+		37196: 1'. x[...]
+ERROR unbalanced cluster of type "[ ]"
+	AbB-secondary (2x)
+		12296: 6. [sza _{d}nanna-ma-an-sum_ il-li-ka-ak-kum
+		13292: 16. [na-sa]-hi-[im] a-an-nam i-[pu-la-an-ni
+ERROR unbalanced cluster of type "_"
+	AbB-primary (1x)
+		11218: 10. szu-lum a-bi-ia ka-ta ma-har _{d}utu_ u3 {d}amar-utu_
+ERROR unknown metadata kind
+	AbB-secondary (3x)
+		26410: "atflang" in #atflang = akk
+		38677: "in" in # in two columns (not copied)
+		68063: "erased" in #erased line
+ERROR unrecognized @ specifier
+	AbB-secondary (2x)
+		70208: "lower edge, first column" in @lower edge, first column
+		70211: "second column" in @second column
+ERROR unrecognized comment
+	AbB-secondary (4x)
+		15811: "in original -mi-li2-" in $in original -mi-li2-
+		26539: "(ATF deleted, = P384863)" in $ (ATF deleted, = P384863)
+		69068: "rest of obverse and reverse not inscribed" in $ rest of obverse and reverse not inscribed
+		70051: "rest broken off and not inscribed" in $rest broken off and not inscribed
+   |     3.94s "edge" actions: 0
+   |     3.94s "feature" actions: 664015
+   |     3.94s "node" actions: 115599
+   |     3.94s "resume" actions: 0
+   |     3.94s "slot" actions: 190650
+   |     3.94s "terminate" actions: 115599
+   |      14370 x "cluster" node 
+   |       1198 x "document" node 
+   |       2618 x "face" node 
+   |      25643 x "line" node 
+   |     190650 x "sign" node  = slot type
+   |      71770 x "word" node 
+   |     306249 nodes of all types
+   |     3.97s OK
+   |     0.03s Removing unlinked nodes ... 
+   |      |     0.00s      3 unlinked "face" nodes: [1408, 1442, 1443]
+   |      |     0.00s      2 unlinked "line" nodes: [4341, 8468]
+   |      |     0.00s      3 unlinked "word" nodes: [36898, 38979, 39440]
+   |      |     0.00s      8 unlinked nodes
+   |      |     0.00s Leaving 306241 nodes
+   |     0.00s checking for nodes and edges ... 
+   |     0.00s OK
+   |     0.00s checking features ... 
+   |     0.00s OK
+   |     0.00s reordering nodes ...
+   |     0.06s Sorting 14370 nodes of type "cluster"
+   |     0.09s Sorting 1198 nodes of type "document"
+   |     0.11s Sorting 2615 nodes of type "face"
+   |     0.13s Sorting 25641 nodes of type "line"
+   |     0.18s Sorting 71767 nodes of type "word"
+   |     0.29s Max node = 306241
+   |     0.29s OK
+   |     0.00s reassigning feature values ...
+   |      |     0.36s node feature "after" with 189721 nodes
+   |      |     0.40s node feature "atf" with 189721 nodes
+   |      |     0.45s node feature "atfpost" with 13817 nodes
+   |      |     0.46s node feature "atfpre" with 13136 nodes
+   |      |     0.47s node feature "col" with 275 nodes
+   |      |     0.47s node feature "collated" with 13 nodes
+   |      |     0.47s node feature "combined" with 2 nodes
+   |      |     0.47s node feature "comment" with 931 nodes
+   |      |     0.47s node feature "damage" with 9249 nodes
+   |      |     0.47s node feature "exclamation" with 95 nodes
+   |      |     0.47s node feature "face" with 2615 nodes
+   |      |     0.47s node feature "fraction" with 107 nodes
+   |      |     0.47s node feature "givengrapheme" with 99 nodes
+   |      |     0.47s node feature "grapheme" with 10827 nodes
+   |      |     0.48s node feature "lang" with 1195 nodes
+   |      |     0.48s node feature "language" with 189721 nodes
+   |      |     0.52s node feature "ln" with 24712 nodes
+   |      |     0.53s node feature "object" with 2615 nodes
+   |      |     0.53s node feature "pnumber" with 1198 nodes
+   |      |     0.53s node feature "reading" with 178894 nodes
+   |      |     0.58s node feature "repeat" with 1900 nodes
+   |      |     0.58s node feature "srcLn" with 28525 nodes
+   |      |     0.59s node feature "srcLnNum" with 28525 nodes
+   |      |     0.60s node feature "srcfile" with 28525 nodes
+   |      |     0.61s node feature "super" with 6412 nodes
+   |      |     0.61s node feature "translation@en" with 134 nodes
+   |      |     0.61s node feature "type" with 205020 nodes
+   |      |     0.67s node feature "uafter" with 189721 nodes
+   |      |     0.71s node feature "uncertain" with 1647 nodes
+   |      |     0.71s node feature "unicode" with 180032 nodes
+   |     0.47s OK
+  0.00s Exporting 31 node and 1 edge and 1 config features to /Users/dirk/github/Nino-cunei/oldbabylonian/tf/0.3:
+  0.00s VALIDATING oslots feature
+  0.03s maxSlot=     190650
+  0.03s maxNode=     306241
+  0.05s OK: oslots is valid
+
