@@ -19,18 +19,21 @@ run your own programs off-line, and publish your work in online notebooks.
 Corpus
 ------
 
-This repo contains transliterations of Old Babylonian documents (1900-1600
-BC).
+This repo contains transliterations of Old Babylonian letters (1900-1600 BC).
 
 The data is obtained from [CDLI](https://cdli.ucla.edu), the Cuneiform Digital
 Library Initiative.
 
-See also [about](docs/about.md) and [images](docs/images.md)
+See also
+[about](docs/about.md)
+and
+[transcription](docs/transcription.md).
 
 Software
 --------
 
-The main processing tool is [Text-Fabric](docs/textfabric.md). It is instrumental to
+The main processing tool is [Text-Fabric](https://github.com/annotation/text-fabric/).
+It is instrumental to
 turn the analysis of ancient data into computing narratives.
 
 The ecosystem is Python and Jupyter notebooks.
@@ -52,6 +55,8 @@ This repo is joint work of
     at the
     [University of Birmingham](https://www.birmingham.ac.uk/schools/historycultures/departments/caha/index.aspx)
 
+**To come:**
+
 **N.B.:** Releases of this repo have been archived at [Zenodo](https://zenodo.org).
 Click the DOI badge to be taken to the archive. There you find ways to cite this work.
 
@@ -60,9 +65,9 @@ Status
 
 This is **work in progress!**
 
-*   2018-02-28 A dedicated TF app for Old Babylonian.
+*   2018-02-28 A dedicated TF app for Old Babylonian letters.
     encoding into ATF can be reproduced exactly from the TF source.
 *   2018-02-26 Text-Fabric data generated, and throughly checked.
-*   2018-01-25 First discussion of converting the Old Babylonian corpus when Dirk was visiting
+*   2018-01-25 First discussion of converting the Old Babylonian letter corpus when Dirk was visiting
     Cale in Birmingham.
 

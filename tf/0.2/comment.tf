@@ -1,992 +1,980 @@
 @node
 @converters=Cale Johnson, Dirk Roorda
-@description=$ comment to line or inline comment to slot ($ and $) 
+@description=$ comment to line or inline comment to slot ($ and $)
 @editor=Cale Johnson et. al.
 @institute=CDL
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-26T18:11:46Z
+@dateWritten=2019-02-27T10:31:16Z
 
-120371	blank space
-122776	blank space
-230814	rest broken
+120361	blank space
+122766	blank space
+230802	rest broken
 beginning broken
-230856	rest missing
-230923	blank space
+230844	rest missing
+230911	blank space
 blank space
-230954	beginning broken
-230969	rest broken
+230942	beginning broken
+230957	rest broken
 beginning broken
-230986	rest broken
+230974	rest broken
 beginning broken
-230999	beginning broken
-231005	rest broken
+230987	beginning broken
+230993	rest broken
 beginning broken
-231010	rest broken
-231209	rest broken
+230998	rest broken
+231197	rest broken
 beginning broken
-231274	single ruling
-231284	blank space
-231375	rest broken
-231424	single ruling
-231437	rest broken
-231497	single ruling
-231550	single ruling
-231653	rest broken
-231843	single ruling
-231950	single ruling
-232007	at least 2 lines broken
-232029	rest broken
-232375	blank space
-232476	beginning broken
-232526	beginning broken
-232547	broken
-232660	beginning broken
-232680	rest broken
+231262	single ruling
+231272	blank space
+231363	rest broken
+231412	single ruling
+231425	rest broken
+231485	single ruling
+231538	single ruling
+231641	rest broken
+231831	single ruling
+231938	single ruling
+231995	at least 2 lines broken
+232017	rest broken
+232363	blank space
+232464	beginning broken
+232514	beginning broken
+232535	broken
+232648	beginning broken
+232668	rest broken
 beginning broken
-232696	rest broken
-232750	blank
+232684	rest broken
+232738	blank
 beginning broken
-232781	single ruling
-232897	rest broken
-232910	rest broken
+232769	single ruling
+232885	rest broken
+232898	rest broken
 beginning broken
-232919	single ruling
-232933	rest broken
-232948	rest broken
-233185	rest broken
-233217	rest broken
-233279	illegible
+232907	single ruling
+232921	rest broken
+232936	rest broken
+233173	rest broken
+233205	rest broken
+233267	illegible
 illegible
-233298	single ruling
-233346	single ruling
-233388	rest broken
-233435	single ruling
-233448	single ruling
-233460	blank space
+233286	single ruling
+233334	single ruling
+233376	rest broken
+233423	single ruling
+233436	single ruling
+233448	blank space
+233491	single ruling
 233503	single ruling
-233515	single ruling
-233522	rest broken
+233510	rest broken
 beginning broken
-233624	single ruling
-233668	rest broken
-233708	2-3 lines broken
-233719	beginning broken
-233736	rest broken
-233860	blank space
-233946	single ruling
-233951	(uninscribed)
-233993	beginning broken
-234006	rest broken
+233612	single ruling
+233656	rest broken
+233696	2-3 lines broken
+233707	beginning broken
+233724	rest broken
+233848	blank space
+233934	single ruling
+233939	(uninscribed)
+233981	beginning broken
+233994	rest broken
 beginning broken
-234020	rest broken
-234074	single ruling
-234087	single ruling
-234107	single ruling
-234115	rest broken
+234008	rest broken
+234062	single ruling
+234075	single ruling
+234095	single ruling
+234103	rest broken
 blank space
-234226	illegible
+234214	illegible
 illegible
-234257	beginning broken
-234293	broken
+234245	beginning broken
+234281	broken
 illegible
+234292	beginning broken
 234304	beginning broken
-234316	beginning broken
-234339	beginning broken
-234352	rest broken
+234327	beginning broken
+234340	rest broken
 blank space
-234385	rest broken
-234393	beginning broken
-234403	single ruling
+234373	rest broken
+234381	beginning broken
+234391	single ruling
 blank space
-234417	single ruling
+234405	single ruling
 blank space
 illegible
-234428	rest broken
+234416	rest broken
 beginning broken
-234453	single ruling
-234462	rest broken
+234441	single ruling
+234450	rest broken
 beginning broken
 blank space
-234501	blank space
+234489	blank space
 broken
 illegible
-234681	broken
+234669	broken
 broken
 broken
-234711	beginning broken
-234741	rest broken
-234798	single ruling
+234699	beginning broken
+234729	rest broken
+234786	single ruling
 blank space
 blank space
-234851	rest broken
+234839	rest broken
 beginning broken
-234909	rest broken
+234897	rest broken
 beginning broken
-234923	beginning broken
-234936	rest broken
+234911	beginning broken
+234924	rest broken
 beginning broken
-234942	single ruling
+234930	single ruling
 beginning broken
-234952	rest broken
+234940	rest broken
 beginning broken
-234957	single ruling
-235010	single ruling
+234945	single ruling
+234998	single ruling
 beginning broken
-235026	rest broken
-235029	broken
+235014	rest broken
+235017	broken
 beginning broken
-235036	rest broken
-235054	rest broken
+235024	rest broken
+235042	rest broken
 beginning broken
-235077	illegible
-235086	rest broken
+235065	illegible
+235074	rest broken
 blank space
-235098	single ruling
-235102	single ruling
-235153	about 5 lines broken
-235165	1 line erased
-235174	blank space
+235086	single ruling
+235090	single ruling
+235141	about 5 lines broken
+235153	1 line erased
+235162	blank space
 blank space
-235193	single ruling
-235203	5-6 lines broken
-235251	single ruling
-blank space
-blank space
-235265	single ruling
+235181	single ruling
+235191	5-6 lines broken
+235239	single ruling
 blank space
 blank space
-235286	single ruling
-235307	rest broken
+235253	single ruling
+blank space
+blank space
+235274	single ruling
+235295	rest broken
 beginning broken
-235333	single ruling
-235351	rest broken
+235321	single ruling
+235339	rest broken
 beginning broken
-235362	single ruling
-235385	single ruling
-235404	about 3 lines broken
-235431	single ruling
-235444	single ruling
-235459	single ruling
+235350	single ruling
+235373	single ruling
+235392	about 3 lines broken
+235419	single ruling
+235432	single ruling
+235447	single ruling
+235462	single ruling
 235474	single ruling
-235486	single ruling
-235488	single ruling
-235513	single ruling
-235539	2-3 lines broken
-235569	rest broken
-235625	single ruling
-235639	single ruling
-235694	single ruling
-235709	single ruling
-235740	single ruling
-235766	single ruling
-235788	single ruling
-235801	single ruling
-235821	single ruling
-235832	single ruling
-235848	blank space
-235861	single ruling
-235875	single ruling
-235889	rest broken
-235930	single ruling
-235962	single ruling
+235476	single ruling
+235501	single ruling
+235527	2-3 lines broken
+235557	rest broken
+235613	single ruling
+235627	single ruling
+235682	single ruling
+235697	single ruling
+235728	single ruling
+235754	single ruling
+235776	single ruling
+235789	single ruling
+235809	single ruling
+235820	single ruling
+235836	blank space
+235849	single ruling
+235863	single ruling
+235877	rest broken
+235918	single ruling
+235950	single ruling
 beginning broken
-235992	rest broken
-236009	single ruling
-236022	single ruling
+235980	rest broken
+235997	single ruling
+236010	single ruling
 blank space
-236069	rest broken
+236057	rest broken
 beginning broken
-236074	single ruling
-236087	blank space
+236062	single ruling
+236075	blank space
 blank space
-236099	single ruling
+236087	single ruling
 blank space
-236126	single ruling
-236134	single ruling
-236158	single ruling
-236187	beginning broken
-236206	rest broken
-236233	single ruling
-236244	rest broken
+236114	single ruling
+236122	single ruling
+236146	single ruling
+236175	beginning broken
+236194	rest broken
+236221	single ruling
+236232	rest broken
 beginning broken
-236253	rest broken
-236264	rest broken
+236241	rest broken
+236252	rest broken
 beginning broken
-236275	single ruling
-236288	single ruling
-236308	single ruling
-236331	single ruling
-236357	single ruling
+236263	single ruling
+236276	single ruling
+236296	single ruling
+236319	single ruling
+236345	single ruling
+236368	single ruling
 236380	single ruling
-236392	single ruling
-236405	rest broken
+236393	rest broken
 beginning broken
-236420	beginning broken
-236460	0-2 lines broken
-236491	single ruling
-236528	single ruling
-236544	single ruling
-236564	single ruling
-236591	single ruling
-236667	single ruling
-236682	single ruling
-236697	single ruling
+236408	beginning broken
+236448	0-2 lines broken
+236479	single ruling
+236516	single ruling
+236532	single ruling
+236552	single ruling
+236579	single ruling
+236655	single ruling
+236670	single ruling
+236685	single ruling
 blank space
-236707	single ruling
-236724	single ruling
-236766	single ruling
-236805	broken
-236871	single ruling
-236885	single ruling
-236914	single ruling
-236929	single ruling
-236992	rest broken
-237053	single ruling
-237076	single ruling
-237090	rest broken
+236695	single ruling
+236712	single ruling
+236754	single ruling
+236793	broken
+236859	single ruling
+236873	single ruling
+236902	single ruling
+236917	single ruling
+236980	rest broken
+237041	single ruling
+237064	single ruling
+237078	rest broken
 beginning broken
-237103	single ruling
-237123	single ruling
-237191	single ruling
-237202	rest broken
+237091	single ruling
+237111	single ruling
+237179	single ruling
+237190	rest broken
 beginning broken
-237215	single ruling
-237219	rest broken
+237203	single ruling
+237207	rest broken
 beginning broken
-237239	rest broken
+237227	rest broken
 beginning broken
-237245	single ruling
-237269	single ruling
-237288	rest broken
+237233	single ruling
+237257	single ruling
+237276	rest broken
 beginning broken
-237306	single ruling
-237348	beginning broken
-237369	rest broken
-237371	beginning broken
+237294	single ruling
+237336	beginning broken
+237357	rest broken
+237359	beginning broken
+237373	rest broken
 237385	rest broken
-237397	rest broken
 beginning broken
-237405	single ruling
+237393	single ruling
 blank space
-237408	(uninscribed)
+237396	(uninscribed)
 beginning broken
 blank space
 (uninscribed)
-237416	beginning broken
-237426	single ruling
-237436	rest broken
+237404	beginning broken
+237414	single ruling
+237424	rest broken
 beginning broken
-237462	rest broken
-237523	about 3 lines broken
-237537	illegible
+237450	rest broken
+237511	about 3 lines broken
+237525	illegible
 blank space
-237559	single ruling
-237572	single ruling
-237627	2-3 lines broken
-237673	rest broken
+237547	single ruling
+237560	single ruling
+237615	2-3 lines broken
+237661	rest broken
 beginning broken
-237708	beginning broken
-237728	rest broken
-237747	rest broken
+237696	beginning broken
+237716	rest broken
+237735	rest broken
 beginning broken
-237775	rest broken
-237803	single ruling
-237816	rest broken
+237763	rest broken
+237791	single ruling
+237804	rest broken
 beginning broken
-237826	single ruling
-237883	rest broken
+237814	single ruling
+237871	rest broken
 beginning broken
-237890	single ruling
+237878	single ruling
 beginning broken
-237914	rest broken
+237902	rest broken
 beginning broken
-237950	rest broken
-237971	single ruling
-237981	single ruling
+237938	rest broken
+237959	single ruling
+237969	single ruling
 blank space
 broken
 blank space
-238003	rest broken
-238016	rest broken
+237991	rest broken
+238004	rest broken
 beginning broken
-238023	single ruling
-238066	single ruling
-238081	rest broken
-238095	2 lines broken
-238097	single ruling
+238011	single ruling
+238054	single ruling
+238069	rest broken
+238083	2 lines broken
+238085	single ruling
 blank space
-238114	broken
-238131	single ruling
-238158	single ruling
-238182	single ruling
-238197	rest broken
+238102	broken
+238119	single ruling
+238146	single ruling
+238170	single ruling
+238185	rest broken
 beginning broken
-238207	single ruling
-238220	rest broken
+238195	single ruling
+238208	rest broken
 beginning broken
-238226	single ruling
-238238	rest broken
+238214	single ruling
+238226	rest broken
 beginning broken
 blank space
-238260	single ruling
+238248	single ruling
 beginning broken
-238275	rest broken
+238263	rest broken
 broken
-238325	single ruling
-238330	single ruling
+238313	single ruling
+238318	single ruling
 blank space
 blank space
-238344	rest broken
+238332	rest broken
 beginning broken
-238360	broken
+238348	broken
 blank space
 (uninscribed)
-238379	single ruling
-238390	single ruling
-238395	rest broken
+238367	single ruling
+238378	single ruling
+238383	rest broken
 beginning broken
-238417	rest broken
-238428	beginning broken
+238405	rest broken
+238416	beginning broken
+238423	single ruling
 238435	single ruling
-238447	single ruling
-238451	single ruling
-238473	single ruling
-238483	single ruling
-238492	single ruling
-238543	about 2 lines broken
-238559	rest broken
+238439	single ruling
+238461	single ruling
+238471	single ruling
+238480	single ruling
+238531	about 2 lines broken
+238547	rest broken
 beginning broken
-238566	single ruling
-238577	single ruling
-238580	single ruling
-238590	single ruling
-238600	single ruling
-238646	rest broken
-238656	beginning broken
+238554	single ruling
+238565	single ruling
+238568	single ruling
+238578	single ruling
+238588	single ruling
+238634	rest broken
+238644	beginning broken
 blank space
-238677	single ruling
-238694	single ruling
-238703	rest broken
+238665	single ruling
+238682	single ruling
+238691	rest broken
 beginning broken
-238712	single ruling
-238726	single ruling
+238700	single ruling
+238714	single ruling
 illegible
-238741	single ruling
+238729	single ruling
 beginning broken
-238756	rest broken
-238774	rest broken
+238744	rest broken
+238762	rest broken
 beginning broken
-238793	single ruling
-238813	single ruling
-238821	broken
-238831	broken
-238840	single ruling
-238847	3 lines broken
-238850	single ruling
-238869	single ruling
-238879	single ruling
-238884	single ruling
-238894	rest broken
+238781	single ruling
+238801	single ruling
+238809	broken
+238819	broken
+238828	single ruling
+238835	3 lines broken
+238838	single ruling
+238857	single ruling
+238867	single ruling
+238872	single ruling
+238882	rest broken
 beginning broken
-238901	single ruling
-238919	single ruling
+238889	single ruling
+238907	single ruling
 beginning broken
-238951	rest broken
-239020	single ruling
-239088	rest broken
+238939	rest broken
+239008	single ruling
+239076	rest broken
 beginning broken
-239092	double ruling
-239099	rest broken
+239080	double ruling
+239087	rest broken
 beginning broken
-239103	single ruling
-239110	single ruling
-239119	rest broken
+239091	single ruling
+239098	single ruling
+239107	rest broken
 beginning broken
-239148	1 line blank
+239136	1 line blank
 single ruling
-239157	rest broken
+239145	rest broken
 beginning broken
-239160	single ruling
-239167	rest broken
+239148	single ruling
+239155	rest broken
 beginning broken
-239180	beginning broken
-239196	rest broken
-239211	single ruling
+239168	beginning broken
+239184	rest broken
+239199	single ruling
 blank space
-239219	rest broken
+239207	rest broken
 beginning broken
-239225	single ruling
-239230	rest broken
+239213	single ruling
+239218	rest broken
 beginning broken
-239234	single ruling
-239238	rest broken
+239222	single ruling
+239226	rest broken
 beginning broken
 blank space
-239249	blank space
+239237	blank space
 beginning broken
-239265	rest broken
-239275	single ruling
-239286	beginning broken
-239291	single ruling
+239253	rest broken
+239263	single ruling
+239274	beginning broken
+239279	single ruling
 1 line erased
-239298	rest broken
-239309	rest broken
+239286	rest broken
+239297	rest broken
 beginning broken
-239426	rest broken
+239414	rest broken
 broken
 beginning broken
-239437	rest broken
-239503	blank space
+239425	rest broken
+239491	blank space
 blank space
-239545	rest broken
+239533	rest broken
 broken
-239579	rest broken
+239567	rest broken
 beginning broken
-239633	single ruling
+239621	single ruling
 (needs to be added)
-239671	rest missing
-239718	blank space
+239659	rest missing
+239706	blank space
 blank space
-239732	blank space
-239913	blank space
-242066	rest broken
+239720	blank space
+239901	blank space
+242054	rest broken
 beginning broken
-242122	rest broken
+242110	rest broken
 beginning broken
-242183	blank space
-242200	blank space
-242222	blank space
-242257	blank space
-242273	blank space
-242290	blank space
-242298	blank space
+242171	blank space
+242188	blank space
+242210	blank space
+242245	blank space
+242261	blank space
+242278	blank space
+242286	blank space
 blank space
-242308	rest broken
+242296	rest broken
 beginning broken
-242314	blank space
-242322	blank space
+242302	blank space
+242310	blank space
 blank space
-242341	blank space
-242356	blank space
-242369	rest broken
+242329	blank space
+242344	blank space
+242357	rest broken
 beginning broken
-242493	blank space
-242537	blank space
-242552	blank space
-242644	blank space
-242689	blank space
-242775	about 1-2 lines broken
-242816	(uninscribed)
-242891	blank space
-242921	blank space
+242481	blank space
+242525	blank space
+242540	blank space
+242632	blank space
+242677	blank space
+242763	about 1-2 lines broken
+242804	(uninscribed)
+242879	blank space
+242909	blank space
 blank space
-242929	blank space
+242917	blank space
 blank space
-242938	blank space
-242945	blank space
+242926	blank space
+242933	blank space
 blank space
-243035	blank space
-243063	blank space
-243088	blank space
-243176	blank space
-243200	blank space
-243211	blank space
-243235	rest blank
-243292	rest blank
-243301	rest broken
+243023	blank space
+243051	blank space
+243076	blank space
+243164	blank space
+243188	blank space
+243199	blank space
+243223	rest blank
+243280	rest blank
+243289	rest broken
 beginning broken
-243317	rest broken
-243456	rest blank
-243511	rest broken
+243305	rest broken
+243444	rest blank
+243499	rest broken
 beginning broken
-243516	rest blank
-243611	rest broken
+243504	rest blank
+243599	rest broken
 beginning broken
-243622	rest broken
-243697	beginning broken
-243712	rest blank
+243610	rest broken
+243685	beginning broken
+243700	rest blank
 beginning broken
-243734	rest broken
-243766	rest broken
-243783	rest blank
-243810	rest broken
+243722	rest broken
+243754	rest broken
+243771	rest blank
+243798	rest broken
 beginning broken
-244011	rest broken
-244047	rest broken
-244143	word (li-ba-al-li-t,u2-ka) divided over two lines
-244175	rest broken
-244415	seal impression
-244430	word (i-li-ka-am) divided over two lines
-244461	rest broken
-244646	broken
-244681	rest broken
+243999	rest broken
+244035	rest broken
+244162	rest broken
+244402	seal impression
+244447	rest broken
+244632	broken
+244667	rest broken
 beginning broken
-244733	beginning broken
-244760	2 lines broken
-244793	rest broken
-244889	1 line destroyed
-244897	2 lines destroyed
-245352	rest broken
-245384	rest broken
-245575	beginning destroyed
-245620	beginning destroyed
-245624	reading i-ba-al-lu-ut, proposed by Von Soden BiOr 23 55
-245627	reading szi-'i-it-sa3 proposed by Von Soden BiOr 23 55
-245631	reading tu-ut-t,i-bi-ma following Von Soden BiOr 23 55
-245644	reading ma-s,a-ra-am proposed by Von Soden BiOr 23 55
-245646	reading a-hu-ki propsed by Von Soden BiOr 23 55
-245648	reading ki-i ne-em-szi-ma propsed by Von Soden BiOr 23 55
-245653	reconstruction of this line propsed by Von Soden BiOr 23 55
-245659	beginning destroyed
-245682	rest destroyed
-245686	beginning destroyed
-245698	beginning destroyed
-245732	rest destroyed
+244719	beginning broken
+244746	2 lines broken
+244779	rest broken
+244875	1 line destroyed
+244883	2 lines destroyed
+245338	rest broken
+245370	rest broken
+245561	beginning destroyed
+245606	beginning destroyed
+245638	beginning destroyed
+245661	rest destroyed
+245665	beginning destroyed
+245677	beginning destroyed
+245711	rest destroyed
 beginning destroyed
-245743	beginning destroyed
-245773	beginning broken
-245794	rest broken
+245722	beginning destroyed
+245752	beginning broken
+245773	rest broken
 beginning broken
-245819	lower edge broken
-245896	reading szu-ku-si propsed by Von Soden BiOr 23 55
-245961	rest unreadable
-246004	rest missing
+245798	lower edge broken
+245939	rest unreadable
+245982	rest missing
 beginning missing
-246035	in original -mi-li2-
-246329	rest broken off
-246349	2 lines broken
-246383	rest broken off
-246386	broken
+246013	in original -mi-li2-
+246307	rest broken off
+246327	2 lines broken
+246361	rest broken off
+246364	broken
 4 lines broken
-246428	single ruling
-246482	rest broken
-246516	rest broken
+246406	single ruling
+246460	rest broken
+246494	rest broken
 blank space
-246534	beginning broken
-246550	rest broken
+246512	beginning broken
+246528	rest broken
 beginning broken
-246724	rest broken
+246702	rest broken
 beginning broken
-246790	blank space
-246807	rest broken
+246768	blank space
+246785	rest broken
 beginning broken
-246913	blank space
-246932	blank space
-246945	blank space
-246969	blank space
-246981	blank space
+246891	blank space
+246910	blank space
+246923	blank space
+246947	blank space
+246959	blank space
 blank space
-247005	blank space broken
-247016	rest broken
+246983	blank space broken
+246994	rest broken
 beginning broken
-247049	rest broken
+247027	rest broken
 blank space
-247060	rest broken
+247038	rest broken
 blank space
-247072	rest broken
+247050	rest broken
 beginning broken
-247090	rest broken
+247068	rest broken
 beginning broken
-247157	blank space
-247171	rest broken
+247135	blank space
+247149	rest broken
 beginning broken
-247181	blank space
-247212	blank space
-247256	blank space
-247284	blank space
-247292	blank space
+247159	blank space
+247190	blank space
+247234	blank space
+247262	blank space
+247270	blank space
 blank space
-247303	blank space
+247281	blank space
 blank space
-247366	blank space
-247376	blank space
-247392	blank space
-247407	blank space
-247420	about 3 lines broken
+247344	blank space
+247354	blank space
+247370	blank space
+247385	blank space
+247398	about 3 lines broken
 about 3 lines broken
-247457	blank space
-247480	blank space
-247500	blank space
-247577	blank space
-247614	blank space
-247646	rest broken
+247435	blank space
+247458	blank space
+247478	blank space
+247555	blank space
+247592	blank space
+247624	rest broken
 beginning broken
-247652	blank space
-247664	rest broken
-247671	rest broken
-247729	blank space
-247789	blank space
-247841	rest broken
+247630	blank space
+247642	rest broken
+247649	rest broken
+247707	blank space
+247767	blank space
+247819	rest broken
 beginning broken
-247850	blank space
-247869	rest broken
+247828	blank space
+247847	rest broken
 beginning broken
-247876	blank space
-247888	blank space
-247906	blank space
-248015	blank space
-248029	rest broken
+247854	blank space
+247866	blank space
+247884	blank space
+247993	blank space
+248007	rest broken
 beginning broken
-248035	blank space
-248055	rest broken
+248013	blank space
+248033	rest broken
 beginning broken
-248085	rest broken
-248112	blank space
-248129	rest broken
+248063	rest broken
+248090	blank space
+248107	rest broken
 beginning broken
-248139	blank space
-248166	blank space
-248209	blank space
-248229	blank space
-248252	blank space
-248258	rest broken
-248293	(ATF deleted, = P384863)
+248117	blank space
+248144	blank space
+248187	blank space
+248207	blank space
+248230	blank space
+248236	rest broken
+248271	(ATF deleted, = P384863)
 1-3 lines broken
-248301	single ruling
-248371	single ruling
-248391	single ruling
-248395	single ruling
-248415	about 6 lines broken
+248279	single ruling
+248349	single ruling
+248369	single ruling
+248373	single ruling
+248393	about 6 lines broken
 about 6 lines broken
-248440	blank space
-248487	rest broken
+248418	blank space
+248465	rest broken
 beginning broken
-248561	blank space
+248539	blank space
 blank space
-248568	broken
-248579	broken
-248610	at least 2 lines broken
-248620	blank space
-248646	blank space
+248546	broken
+248557	broken
+248588	at least 2 lines broken
+248598	blank space
+248624	blank space
 blank space
-248729	blank space
-248781	beginning broken
-248799	2 lines broken
-248820	blank space
-248962	rest broken
+248707	blank space
+248759	beginning broken
+248777	2 lines broken
+248798	blank space
+248940	rest broken
 broken
-249121	rest broken
+249099	rest broken
 beginning broken
-249173	rest broken
+249151	rest broken
 beginning broken
-249228	rest broken
-249287	rest broken
+249206	rest broken
+249265	rest broken
 beginning broken
-249328	2-3 lines broken
-249348	rest broken
-249389	2 lines broken
+249306	2-3 lines broken
+249326	rest broken
+249367	2 lines broken
 2 lines broken
-249488	rest broken
+249466	rest broken
 beginning broken
-249516	rest broken
+249494	rest broken
 beginning broken
-249604	single ruling
-249619	blank space
+249582	single ruling
+249597	blank space
+249621	blank space
+249631	blank space
+blank space
 249643	blank space
-249653	blank space
-blank space
-249665	blank space
-249676	blank space
-249690	blank space
-249711	blank space
-249742	rest broken
+249654	blank space
+249668	blank space
+249689	blank space
+249720	rest broken
 beginning broken
 blank space
-249793	blank space
-249811	blank space
-249829	rest broken
+249771	blank space
+249789	blank space
+249807	rest broken
 beginning broken
-249860	blank space
-250125	blank space
-250153	blank space
-250171	blank space
-250186	blank space
-250228	blank space
-250353	about 1 line broken
+249838	blank space
+250103	blank space
+250131	blank space
+250149	blank space
+250164	blank space
+250206	blank space
+250331	about 1 line broken
 about 1 line broken
-250442	rest broken
+250420	rest broken
 beginning broken
-250766	about 4-5 lines broken
+250744	about 4-5 lines broken
 about 4-5 lines broken
-250769	blank space
-250815	blank space
-251038	rest broken
+250747	blank space
+250793	blank space
+251016	rest broken
 broken
 broken
 broken
-251048	blank space
+251026	blank space
 seal impression
-251065	rest broken
+251043	rest broken
 beginning broken
-251073	blank space
-251082	seal impression
-251135	blank space
-251144	blank space
-251153	blank space
-251169	blank space
-251186	blank space
-251241	blank space
-251262	blank space
-251288	blank space
-251354	blank space
-251394	blank space
-251403	blank space
-251488	8 lines of traces
-251492	2 lines missing
+251051	blank space
+251060	seal impression
+251113	blank space
+251122	blank space
+251131	blank space
+251147	blank space
+251164	blank space
+251219	blank space
+251240	blank space
+251266	blank space
+251332	blank space
+251372	blank space
+251381	blank space
+251466	8 lines of traces
+251470	2 lines missing
+251556	blank space
 251578	blank space
-251600	blank space
-251673	blank space
-251686	blank space
-251694	blank space
-251697	blank space
-251711	blank space
+251651	blank space
+251664	blank space
+251672	blank space
+251675	blank space
+251689	blank space
 2-3 lines broken
-251722	rest broken
+251700	rest broken
 about 8 lines broken
-251735	about 3 lines broken
-251769	rest broken
+251713	about 3 lines broken
+251747	rest broken
 beginning broken
-251780	blank space
+251758	blank space
 blank space
-251800	blank space
-251817	blank space
+251778	blank space
+251795	blank space
+251811	blank space
 251833	blank space
-251855	blank space
-251916	blank space
+251894	blank space
 beginning broken
-251935	rest broken
-251948	rest broken
-beginning broken
-blank space
-251964	rest broken
+251913	rest broken
+251926	rest broken
 beginning broken
 blank space
-251982	blank space
+251942	rest broken
 beginning broken
-252003	rest broken
-252019	blank space
-252038	blank space
-252061	blank space
-252069	blank space
+blank space
+251960	blank space
+beginning broken
+251981	rest broken
+251997	blank space
+252016	blank space
+252039	blank space
+252047	blank space
 seal impression
+252061	blank space
+broken
+beginning broken
+252070	blank space
 252083	blank space
-broken
 beginning broken
-252092	blank space
-252105	blank space
+252108	1-2 lines broken
+252130	blank space
+252139	blank space
+252146	rest broken
 beginning broken
-252130	1-2 lines broken
-252152	blank space
-252161	blank space
-252168	rest broken
+252165	broken
 beginning broken
-252187	broken
+252181	rest broken
+252193	rest broken
 beginning broken
-252203	rest broken
-252215	rest broken
+252200	rest broken
+252209	rest broken
 beginning broken
-252222	rest broken
-252231	rest broken
+252220	rest broken
 beginning broken
-252242	rest broken
+252228	rest broken
+252234	rest broken
 beginning broken
-252250	rest broken
-252256	rest broken
-beginning broken
+252258	blank space
 252280	blank space
-252302	blank space
-252308	rest broken
+252286	rest broken
 beginning broken
-252316	blank space
-252363	rest broken
+252294	blank space
+252341	rest broken
 broken
-252385	blank space
-252404	blank space
-252440	0-1 line broken
-252444	beginning broken
-252461	rest broken
-252515	broken
-252531	rest broken
+252363	blank space
+252382	blank space
+252418	0-1 line broken
+252422	beginning broken
+252439	rest broken
+252493	broken
+252509	rest broken
 blank space
-252542	rest broken
+252520	rest broken
 beginning broken
-252558	rest broken
+252536	rest broken
 blank space
-252593	0-2 lines broken
-252603	rest broken
+252571	0-2 lines broken
+252581	rest broken
 beginning broken
-252640	broken
-252662	blank space
-252681	rest broken
+252618	broken
+252640	blank space
+252659	rest broken
 beginning broken
-252698	blank space
-252709	rest broken
+252676	blank space
+252687	rest broken
 beginning broken
-252714	blank space
+252692	blank space
 broken
-252775	illegible
-252786	blank space
+252753	illegible
+252764	blank space
 blank space
+252825	rest broken
+beginning broken
+252828	beginning broken
+252838	rest broken
 252847	rest broken
 beginning broken
-252850	beginning broken
-252860	rest broken
-252869	rest broken
-beginning broken
-252891	blank space
+252869	blank space
 blank space
-252911	blank space
-252954	single ruling
+252889	blank space
+252932	single ruling
 blank space
-252983	blank space
-252993	blank space
-253003	rest broken
+252961	blank space
+252971	blank space
+252981	rest broken
 beginning broken
-253011	blank space
-253052	broken
+252989	blank space
+253030	broken
 beginning broken
-253127	blank space
-253145	blank space
-253162	blank space
-253212	blank space
-253221	rest broken
+253105	blank space
+253123	blank space
+253140	blank space
+253190	blank space
+253199	rest broken
 beginning broken
-253238	blank space
+253216	blank space
+253227	rest broken
+broken
+253242	blank space
 253249	rest broken
-broken
+beginning broken
+253253	broken
 253264	blank space
-253271	rest broken
-beginning broken
-253275	broken
-253286	blank space
-253296	blank space
-253426	blank space
+253274	blank space
+253404	blank space
 blank space
-253439	rest broken
-253458	blank space
-253465	rest broken
+253417	rest broken
+253436	blank space
+253443	rest broken
 beginning broken
-253495	blank space
-253519	blank space
-253566	blank space
-253593	rest broken
+253473	blank space
+253497	blank space
+253544	blank space
+253571	rest broken
 blank space
-253637	blank space
-253664	broken
-253677	broken
-253753	about 2 lines broken
-253802	blank space
-253819	blank space
-253916	blank space
-253933	blank space
+253615	blank space
+253642	broken
+253655	broken
+253731	about 2 lines broken
+253780	blank space
+253797	blank space
+253894	blank space
+253911	blank space
 beginning broken
-253950	rest broken
-253968	rest broken
+253928	rest broken
+253946	rest broken
 beginning broken
-254038	blank space
-254059	blank space
-254145	blank space
-254222	blank space
-254271	blank space
-254316	rest broken
+254016	blank space
+254037	blank space
+254123	blank space
+254200	blank space
+254249	blank space
+254294	rest broken
 beginning broken
-254333	rest broken
+254311	rest broken
 beginning broken
-254346	rest broken
+254324	rest broken
 beginning broken
-254375	blank space
-254404	beginning broken
+254353	blank space
+254382	beginning broken
+254395	rest broken
+254401	beginning broken
 254417	rest broken
-254423	beginning broken
-254439	rest broken
-254474	blank space
-254537	blank space
-254605	blank space
-254619	blank space
+254452	blank space
+254515	blank space
+254583	blank space
+254597	blank space
 beginning broken
-254631	rest broken
+254609	rest broken
 beginning broken
-254639	rest broken
-254660	blank space
-254677	beginning broken
-254700	rest broken
-254722	blank space
-254776	blank space
-254875	blank space
-254886	rest broken
+254617	rest broken
+254638	blank space
+254655	beginning broken
+254678	rest broken
+254700	blank space
+254754	blank space
+254853	blank space
+254864	rest broken
 beginning broken
-254895	blank space
+254873	blank space
 beginning broken
-254905	rest broken
+254883	rest broken
 beginning broken
-254913	rest broken
-255031	blank space
+254891	rest broken
+255009	blank space
 beginning broken
-255069	rest broken
-255098	blank space
-255110	blank space
-255129	blank space
-255146	rest broken
+255047	rest broken
+255076	blank space
+255088	blank space
+255107	blank space
+255124	rest broken
 beginning broken
-255157	blank space
-255168	blank space
+255135	blank space
+255146	blank space
 beginning broken
-255217	rest broken
-255283	rest broken
+255195	rest broken
+255261	rest broken
 beginning broken
-255335	blank space
-255348	blank space
-255403	beginning broken
-255423	rest broken
-255477	blank space
-255516	blank space
-255576	beginning broken
-255590	rest broken
-255603	rest broken
-255610	rest broken
+255313	blank space
+255326	blank space
+255381	beginning broken
+255401	rest broken
+255455	blank space
+255494	blank space
+255554	beginning broken
+255568	rest broken
+255581	rest broken
+255588	rest broken
 beginning broken
-255618	rest broken
+255596	rest broken
 beginning broken
-255627	rest broken
+255605	rest broken
 broken
 beginning broken
-255637	rest broken
-255646	rest broken
+255615	rest broken
+255624	rest broken
 beginning broken
-255780	blank space
-256248	rest broken
-256353	reading la-mi! proposed by Von Soden BiOr 39 590
-256362	rest broken
-256373	reading la us2-su2-ka-tim proposed by Von Soden BiOr 39 590
-256461	rest broken
-256531	rest blank
-256563	1 line effaced
-256622	blank
-256687	rest uninscribed
-256923	rest blank
+255758	blank space
+256226	rest broken
+256339	rest broken
+256437	rest broken
+256507	rest blank
+256539	1 line effaced
+256598	blank
+256663	rest uninscribed
+256899	rest blank
 blank
-256980	rest of obverse and reverse not inscribed
-257060	rest not inscribed
-257071	rest not inscribed
-257081	rest not inscribed
-257110	rest broken off and not inscribed
-257121	rest blank
-257151	one line missing
-257435	reverse not inscribed
-257619	beginning missing
-257673	rest missing
-257754	rest missing
-257840	at least 1 line missing
-257855	1 line missing
-258008	ruling
-258023	ruling
-258037	reverse not inscribed
-258041	ruling
-258044	ruling
-258068	single ruling
-258080	ruling, reverse not inscribed
-258100	single ruling
-258126	ruling
-258148	single ruling
+256956	rest of obverse and reverse not inscribed
+257036	rest not inscribed
+257047	rest not inscribed
+257057	rest not inscribed
+257086	rest broken off and not inscribed
+257097	rest blank
+257127	one line missing
+257411	reverse not inscribed
+257595	beginning missing
+257649	rest missing
+257730	rest missing
+257816	at least 1 line missing
+257831	1 line missing
+257984	ruling
+257999	ruling
+258013	reverse not inscribed
+258017	ruling
+258020	ruling
+258044	single ruling
+258056	ruling, reverse not inscribed
+258076	single ruling
+258102	ruling
+258124	single ruling

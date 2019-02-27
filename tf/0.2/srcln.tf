@@ -6,9 +6,9 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-26T18:11:46Z
+@dateWritten=2019-02-27T10:31:17Z
 
-226681	&P509373 = AbB 01, 059
+226669	&P509373 = AbB 01, 059
 &P509374 = AbB 01, 060
 &P509375 = CT 43, 094
 &P509376 = AbB 01, 102
@@ -17470,7 +17470,6 @@ $ rest broken
 2. qi2-bi2-ma
 3. um-ma {disz}e-ri-zum-ma-tum-ma
 4. _{d}utu_ u3 _{d}inanna_ da-ri-SZU _u4_-mi li-[ba]-al-li-t,u2-ka a-wi-le-e
-# word (li-ba-al-li-t,u2-ka) divided over two lines
 5. ta-as2-ki-pa-am-ma at-ta-a
 6. a-la-kam-ma le-ma-at
 7. a-wi-lu-u2 ka-ta-a-ma
@@ -17757,7 +17756,6 @@ $ seal impression
 3. ti-de-e ki-ma _e2-gal_
 4. u2-tar-ru-ni a-wi-lam
 5. szu-ka-ab-ta i-li-ka-am s,i-bu-su e-<pe2>-sza-am
-# word (i-li-ka-am) divided over two lines
 6. u2-ul e-li-i DISZ ki-ma
 7. s,i-bu-su te9-te9-ep-szu
 8. a-na szi-bu-ti a-wa-ta-ka
@@ -18951,14 +18949,11 @@ $ beginning destroyed
 1'. [...] x ku?-bu-nu-[...]
 2'. i-na ma-ah-ri-im 1(disz) _gin2 ku3-babbar_ u2-sza-bi#-[...]
 3'. um-ma a-na-ku-ma a-na mu-hi-sza i-ba-al?-[lu-ut,]
-# reading i-ba-al-lu-ut, proposed by Von Soden BiOr 23 55
 4'. li-re-di s,u2-ba-tam li-il-ta-ba-asz-ma
 5'. a-na ia-a-szi-im szi-'i-it!-sa3 li-sza-bi-lam
-# reading szi-'i-it-sa3 proposed by Von Soden BiOr 23 55
 6'. at-ti a-na pi2-i ta-am-la-ak ni-szi te-te-ep-szi
 7'. ma-ha? i-na-an-na 1(disz) 1/2(disz) _ninda_ sza ta-asz-pu-ri-im
 8'. a-sza-ri-isz-ma wa-sza-ba-am tu-ut-t,i-bi-ma
-# reading tu-ut-t,i-bi-ma following Von Soden BiOr 23 55
 9'. a-na ia-a-szi 1(disz) 1/2(disz) _ninda_ sza sza-ka-nim im?
 10'. a#-li na-ma-na-ag?-bi?-id?-a-[x x x]
 11'. be-el-ti ia-a-ti an-ni-ki-a-am-ma
@@ -18971,16 +18966,12 @@ $ beginning destroyed
 4'. wa-ar-ki-ta-am x x a-na ia-a-szi <<a-na>>
 5'. a-na mi-ni-ia sza# u2-sza-bi-la-ki-im-ma
 6'. ma!-s,a!-ra-am sza-ni-a-am-ma ta-as,-s,a-ab-ti
-# reading ma-s,a-ra-am proposed by Von Soden BiOr 23 55
 7'. bi-it-ki a-na-ku a-hu!-ki u3 ma-ra-at-ki
-# reading a-hu-ki propsed by Von Soden BiOr 23 55
 8'. i-na li-ib-bi ki-i ne-em?-szi-ma
-# reading ki-i ne-em-szi-ma propsed by Von Soden BiOr 23 55
 9'. 1(u) ku-ru-ma-ta#-am a-na ia-a-szi ta-sza-ka-an
 10'. szum-ma ku-ru-ma-ta-am ta!-sza-ka-nim
 11'. [...] i-nu-ma an-ni-ki-a-am asz-ba-at-i
 12'. x x x x sza s,u2-ba-ti-ki u3 pa-ar-<szi>-gi-[ki]
-# reconstruction of this line propsed by Von Soden BiOr 23 55
 13'. [...] mi-ma
 14'. [...] x
 1. x i-na-sza-ar {disz}a-bu-x-[...]
@@ -19223,7 +19214,6 @@ $ lower edge broken
 9. i-na u2-ma a-na ta-ak-lu-tim
 10. ta-sza-pa-ra-am
 11. i-na pa-ni szu!-ku-si
-# reading szu-ku-si propsed by Von Soden BiOr 23 55
 12. ta-sza-t,a-ra-an-ni
 13. a-wa-ta-am ki-a-am#
 14. asz#-pu-ra-kum#
@@ -29680,7 +29670,6 @@ $ rest broken
 1. it#-ti ma-ri# _{d}[suen]_ x SZA x
 2. 1(disz) _sila3 i3-gu-la_ le-qi2-a-am
 1. la-mi!(UL) ta-ba-at,-t,i-il
-# reading la-mi! proposed by Von Soden BiOr 39 590
 1. a-na {d}a-nu-mu-ba-li-it, qi2-bi2-ma
 2. um-ma e2-a-_an-dul3_-szu-ma
 3. _{d}utu_ li-ba-al-li-it,-ka
@@ -29700,7 +29689,6 @@ $ rest broken
 8. a-na-ku u3 ka-ti sa3-ar-ra-a-ti ni-ta-u2
 9. [x-x] a#-na# mi#-ID-DI it-ti sza la i-du-ku-nu-ti
 10. a#-wa#-a-tim la us2-su2-ka-tim du-ub-ba
-# reading la us2-su2-ka-tim proposed by Von Soden BiOr 39 590
 11. [it-ti]-ia# a#-ma#-a#-tim ta-da-ab-bu-ba
 12. [x x] _gu4_ sza qa2-ti-ku-nu u3 _sag-ir3_
 13. [i-na] pa-ni-ti# asz-ta-na-ap-pa-ra-ku-nu-szi-im-ma

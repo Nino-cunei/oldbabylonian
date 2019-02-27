@@ -6,9 +6,9 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-26T18:11:46Z
+@dateWritten=2019-02-27T10:31:16Z
 
-226681	AbB
+226669	AbB
 AbB
 CT
 AbB
@@ -744,7 +744,7 @@ CT
 CT
 CT
 abb
-227418	JCS
+227406	JCS
 LFBD
 LIH
 LIH

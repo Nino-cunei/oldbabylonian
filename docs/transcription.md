@@ -14,10 +14,20 @@ Conversion from ATF to TF
 -------------------------
 
 Below is a description of document transcriptions in
-[ATF](http://oracc.museum.upenn.edu/doc/help/editinginatf/primer/inlinetutorial/index.html)
+ATF (see below)
 and an account how we transform them into
 [Text-Fabric](https://annotation.github.io/text-fabric/) format by means of
 [tfFromAtf.py](../programs/tfFromAtf.py).
+
+There are various pages with documentation on ATF at the ORACC site, notably:
+
+* [CDLI ATF Primer](http://oracc.museum.upenn.edu/doc/help/editinginatf/cdliatf/index.html)
+* [Structure Tutorial](http://oracc.museum.upenn.edu/doc/help/editinginatf/primer/structuretutorial/index.html)
+* [Inline Tutorial](http://oracc.museum.upenn.edu/doc/help/editinginatf/primer/inlinetutorial/index.html)
+
+One of the observations during conversion of this corpus from ATF to TF is, that the match between patterns 
+described in the docs and the patterns seen in the sources is often difficult to make, and not always
+perfect.
 
 The Text-Fabric model views the text as a series of atomic units, called
 *slots*. In this corpus [*signs*](#sign) are the slots.
@@ -71,8 +81,8 @@ type | examples | description
 `ellipsis` | `...` | representation of an unknown number of missing signs
 `grapheme` | `ARAD2` `GAN2` | sign given as a grapheme (uppercase)
 `empty` | `$ blank space` `# reading la-mi! proposed by Von Soden` | empty sign to fill a comment or meta line
-`complex` | `szu!(LI)` `isx(USZ)` | cimplex sign with reading, operator and given grapheme
-`comment` | `($ blank space $)` | comment sign to represent an inline comment
+`complex` | `szu!(LI)` `isx(USZ)` | complex sign with reading, operator and given grapheme
+`comment` | `($ blank space $)` | comment sign to represent an *inline* comment
 
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
@@ -83,19 +93,22 @@ feature | values | in ATF | description
 **collated** | `1` | `_8(gesz2)*` | indicates the presence of the *collated* flag `*`
 **comment** | `blank space` | `($ blank space $)` | value of an inline comment; for such a comment a sign of type `comment` has been constructed; the `atf` feature of such a sign contains the full comment, including the delimiters `($` and `$)`
 **damage** | `1` | `isz-ta#-a-lu` | indicates the presence of the *damage* flag `#`
-**det** | `1` | `{d}suen` | indicates whether the sign is a determinative gloss, marked by being within braces `{` and `}`
+**det** | `1` | `{d}suen` `asza5{a-sza3}` | indicates whether the sign is a determinative gloss, marked by being within braces `{ }`
+**excised** | `1` | `<<ma>>` `<<ip-pa-ar-ra-as>>` | whether a sign is excised by the editor, marked by being within double angle brackets  `<< >>`
 **fraction** | `5/6` | `5/6(disz)` | the fraction part of a numeral
 **givengrapheme** | `LI` `USZ` | `szu!(LI)` `isx(USZ)` | the grapheme supplied between brackets after a reading in a complex sign
 **grapheme** | `ARAD2` `GAN2` | idem | the grapheme name of a [*sign*](#sign) when its atf is capitalized
 **langalt** | `1` | `_{d}suen_` | whether the sign is in the alternate language in this corpus *Sumerian*. See also the document feature `lang`. ATF marks alternate language by enclosing signs in `_` ... `_`
+**missing** | `1` | `[ki-im]` | whether a sign is missing, marked by being within square brackets  `[ ]`
 **operator** | `!` `x` | `szu!(LI)` `isx(USZ)` | the type of operator in a complex sign
 **question** | `1` | `DU6~b?` | indicates the presence of the *question* flag `?`
 **reading** | `suen` | idem | reading (lowercase) of a sign; the sign may be simple or complex
 **remarkable** | `1` | `lam!` | indicates the presence of the *remarkable* flag `!`
 **repeat** | `5` | `5(disz) ` | marks repetition of a grapheme in a numeric sign 
+**supplied** | `1` | `<pa>` `i-ba-<asz-szi>` | whether a sign is supplied by the editor, marked by being within angle brackets  `< >`
 **type** | | | type of sign, see table above
 **uafter** | ` ` `:` `.` `/` `+` | | what comes after a sign before the next sign when represented with unicode characters
-**uncertain** | `1` | `[x (x)]` `[li-(il)-li]` | whether a sign is in an uncertainty cluster `( )`
+**uncertain** | `1` | `[x (x)]` `[li-(il)-li]` | whether a sign is uncertain, marked by being within brackets  `( )`
 **unicode** | | | reading or grapheme of a sign represented as unicode characters
 
 Node type [*word*](#word)
@@ -117,12 +130,15 @@ The type of a cluster is stored in the feature `type`.
 
 type | examples | description
 ------- | ------ | ------
-`alternate` | `_  _` | alternate language
-`determinative` | `{ }` | gloss, determinative
+`langalt` | `_  _` | alternate language
+`det` | `{ }` | gloss, determinative
 `uncertain` | `( )` | uncertain
-`missing` | `[ ]` | uncertain
-`supplied` | `<< >>` | supplied in order to get a reading
-`excised` | `< >` | excised in order to get a reading
+`missing` | `[ ]` | missing
+`supplied` | `< >` | supplied by the editor in order to get a reading
+`excised` | `<< >>` | excised by the editor in order to get a reading
+
+Each cluster induces a sign feature with the same name as the type of the cluster,
+which gets value 1 precisely when the sign is in that cluster.
 
 Node type [*line*](#line)
 -------------------------
@@ -132,10 +148,11 @@ Subdivision of a containing [*face*](#face).
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
 **col** | `1` | `@column 1` | number of the column in which the line occurs; without prime, see also `primecol`
+**comment** | `rest broken` | `$ rest broken` | the contents of a structural comment (starting with `$`); such a line has a single empty slot
 **ln** | `1` `$` `#` | `1. [a-na]` `$ rest broken` `# reading la-mi! proposed by Von Soden` | ATF line number of a transcription line; for comment lines it is `$`, for meta lines it is `#`; without prime, see also `primeln`
-**meta** | `1` | `# reading la-mi! proposed by Von Soden` | if the line is a comment, whether it is a meta line (starting with `#`) or a structural comment (starting with `$`)
 **primecol** | `1'` | whether the column number has a prime `'` | 
 **primeln** | `1'` | whether the line number has a prime `'` | 
+**remarks** | `reading la-mi! proposed by Von Soden` | `# reading la-mi! proposed by Von Soden` | the contents of a remark targetedto the ocntents of a transcription line; the `remark` feature is present on the line that is being commented; multiple remark lines will be joined with a newline
 **srcLn** |  |  | the literal text in the transcription at the start of the object; see [source data](#source-data)
 **srcLnNum** |  |  | the line number of the transcription line at the start of the object; see [source data](#source-data)
 **trans** | `1` | | indicates whether a line has a translation (in the form of a following meta line (`#`))

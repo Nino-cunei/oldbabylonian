@@ -6,9 +6,9 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-26T18:11:46Z
+@dateWritten=2019-02-27T10:31:17Z
 
-248259	To Šamaš-ḫazir
+248237	To Šamaš-ḫazir
 speak,
 thus Hammurapi:
 Ilī-ippalsam, the shepherd,
@@ -42,7 +42,7 @@ to Ilī-ippalsam, the shepherd,
 give!
 Further, a report regarding this litigation
 send here!
-250319	To Nūr-Šamaš
+250297	To Nūr-Šamaš
 speak!
 Thus Šamaš-nāṣir;
 may Šamaš and Marduk keep you well!
@@ -65,7 +65,7 @@ lives speak!
 he should dig up for me and send them here.
 Further: a ram for ...
 that I mentioned to you, send here!
-250770	To Zinu
+250748	To Zinu
 speak,
 thus Iddin-Sin:
 May Shamash, Marduk, and Ninshubur
@@ -96,7 +96,7 @@ adopted him,
 yet although as to him,
 his mother loves him,
 you, you do not really love me.
-257489	To Dadâ
+257465	To Dadâ
 and Sîn-uselli
 speak,
 thus Šēp-Sîn:

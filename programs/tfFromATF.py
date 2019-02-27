@@ -74,16 +74,13 @@ flagging = {
 flagStr = ''.join(flagging)
 
 clusterChars = (
-    ('┌', '┐', '_', '_', 'alternate'),
-    ('◀', '▶', '{', '}', 'determinative'),
+    ('┌', '┐', '_', '_', 'langalt'),
+    ('◀', '▶', '{', '}', 'det'),
     ('∈', '∋', '(', ')', 'uncertain'),
     ('〖', '〗', '[', ']', 'missing'),
-    ('«', '»', '<<', '>>', 'supplied'),
-    ('⊂', '⊃', '<', '>', 'excised'),
+    ('«', '»', '<<', '>>', 'excised'),
+    ('⊂', '⊃', '<', '>', 'supplied'),
 )
-(langCabB, langCabE) = clusterChars[0][0:2]
-(braceCabB, braceCabE) = clusterChars[1][0:2]
-(bracketCabB, bracketCabE) = clusterChars[2][0:2]
 
 clusterCharsB = {x[0] for x in clusterChars}
 clusterCharsE = {x[1] for x in clusterChars}
@@ -176,6 +173,7 @@ bC = r'\)'
 
 insaneRe = re.compile(r'''[^0-9a-zA-Z$(){}\[\]<>.,:=$#&@"'?!/+*| _-]''')
 transRe = re.compile(r'''^([0-9a-zA-Z']+)\.\s+(.+)$''')
+translationRe = re.compile(r'''^tr\.([^:]+):\s*(.*)''')
 collectionRe = re.compile(r'''^(\S+)\s+([0-9]+)\s*,?\s*([^&+]*)(?:[&+]|$)''')
 commentRe = re.compile(r'∈\$(.*?)\$∋''')
 numeralBackRe = re.compile(f'''(n|(?:[0-9]+(?:{div}[0-9]+)?))∈([^∋]+)∋''')
@@ -216,16 +214,12 @@ otext = {
 }
 
 intFeatures = set('''
-    langalt
-    meta
     primeln
     primecol
-    det
-    uncertain
     srcLnNum
     trans
     volume
-'''.strip().split()) | set(flagging.values())
+'''.strip().split()) | set(flagging.values()) | set(clusterType.values())
 
 featureMeta = {
     'after': {
@@ -253,19 +247,22 @@ featureMeta = {
         'description': 'collection of a document',
     },
     'comment': {
-        'description': '$ comment to line or inline comment to slot ($ and $) ',
+        'description': '$ comment to line or inline comment to slot ($ and $)',
     },
     'damage': {
         'description': 'whether a sign is damaged',
     },
     'det': {
-        'description': 'whether a sign is a determinative (between braces)',
+        'description': 'whether a sign is a determinative gloss - between braces { }',
     },
     'docnote': {
         'description': 'additional remarks in the document identification',
     },
     'docnumber': {
         'description': 'number of a document within a collection-volume',
+    },
+    'excised': {
+        'description': 'whether a sign is excised - between double angle brackets << >>',
     },
     'face': {
         'description': 'full name of a face including the enclosing object',
@@ -283,13 +280,16 @@ featureMeta = {
         'description': 'language of a document',
     },
     'langalt': {
-        'description': '1 if a sign is in the alternate language (i.e. Sumerian)',
+        'description': (
+            '1 if a sign is in the alternate language (i.e. Sumerian)'
+            ' - between underscores _ _'
+        ),
     },
     'ln': {
         'description': 'ATF line number, may be $ or #, without prime',
     },
-    'meta': {
-        'description': 'whether a comment is meta (#) as opposed to structural ($)',
+    'missing': {
+        'description': 'whether a sign is missing - between square brackets [ ]',
     },
     'object': {
         'description': 'name of an object of a document',
@@ -312,6 +312,9 @@ featureMeta = {
     'reading': {
         'description': 'reading of a sign',
     },
+    'remarks': {
+        'description': '# comment to line',
+    },
     'remarkable': {
         'description': 'whether a sign is remarkable (!)',
     },
@@ -327,6 +330,9 @@ featureMeta = {
     'srcLnNum': {
         'description': 'line number in source file',
     },
+    'supplied': {
+        'description': 'whether a sign is supplied - between angle brackets < >',
+    },
     'trans': {
         'description': 'whether a line has a translation',
     },
@@ -340,7 +346,7 @@ featureMeta = {
         'description': 'what comes after a sign when represented as unicode (space)',
     },
     'uncertain': {
-        'description': 'whether a sign is between brackets ()',
+        'description': 'whether a sign is uncertain - between brackets ( )',
     },
     'unicode': {
         'description': 'unicode representation of a sign, based on reading and grapheme',
@@ -582,6 +588,7 @@ def director(cv):
   curLine = None
   recentTrans = None
   curCluster = collections.defaultdict(list)
+  clusterStatus = {typ: False for typ in clusterType}
   curSign = None
   skip = False
 
@@ -702,6 +709,15 @@ def director(cv):
     if len(line) > 1 and line[1] == ' ':
       commentInsert(meta=True)
       return
+    match = translationRe.match(lineInfo)
+    if match:
+      lang = match.group(1)
+      trans = match.group(2)
+      if not curLine:
+        errors[f'meta: translation outside line'][src].add((i, line, pNum, lineInfo))
+        return
+      cv.feature(curLine, **{'trans': 1, f'translation@{lang}': trans})
+      return
 
     if lineInfo.startswith('atf:l'):
       errors[f'meta: no space after atf:'][src].add((i, line, pNum, None))
@@ -719,11 +735,6 @@ def director(cv):
         errors[f'meta: spurious ='][src].add((i, line, pNum, f'"{value}" => "{newValue}"'))
         value = newValue
       cv.feature(curDocument, **{key: value})
-    elif fields[0] == 'tr.en:':
-      if not curLine:
-        errors[f'meta: translation outside line'][src].add((i, line, pNum, lineInfo))
-        return
-      cv.feature(curLine, **{'trans': 1, 'translation@en': fields[1]})
     else:
       errors[f'meta: unknown kind'][src].add((i, line, pNum, fields[0]))
       return
@@ -828,24 +839,33 @@ def director(cv):
   def commentInsert(meta=False):
     nonlocal curLine
 
-    lineEnd()
-    curLine = cv.node('line')
-    emptySlot = cv.slot()
-    cv.feature(emptySlot, type='empty')
-
     comment = line[1:].strip()
     if not meta and comment not in COMMENTS and not COMMENT_RE.match(comment):
       warnings[f'comment: unrecognized'][src].add((i, line, pNum, comment))
-    cv.feature(
-        curLine,
-        comment=comment,
-        ln='#' if meta else '$',
-        srcfile=src,
-        srcLnNum=i,
-        srcLn=line,
-    )
+
     if meta:
-      cv.feature(curLine, meta=1)
+      if transLine is None:
+        errors[f'comment: # line without preceding transcription line'][src].add(
+            (i, line, pNum, comment)
+        )
+      else:
+        prevRemarks = cv.get('remarks', transLine)
+        combinedRemarks = f'{prevRemarks}\n{comment}' if prevRemarks else comment
+        cv.feature(transLine, remarks=combinedRemarks)
+    else:
+      lineEnd()
+      curLine = cv.node('line')
+      emptySlot = cv.slot()
+      cv.feature(emptySlot, type='empty')
+      cv.feature(
+          curLine,
+          ln='$',
+          comment=comment,
+          srcfile=src,
+          srcLnNum=i,
+          srcLn=line,
+      )
+
     if recentColumn is not None:
       cv.feature(curLine, col=recentColumn)
 
@@ -930,9 +950,8 @@ def director(cv):
 
     curWord = None
 
-    inAlt = 0
-    inBrace = False
-    inBracket = False
+    for typ in clusterStatus:
+      clusterStatus[typ] = False
 
     if wHyphenBRe.search(recentTrans):
       errors[f'line: words starting with -'][src].add((i, line, pNum, None))
@@ -953,9 +972,6 @@ def director(cv):
 
     def clusterChar(before):
       nonlocal part
-      nonlocal inAlt
-      nonlocal inBrace
-      nonlocal inBracket
 
       brackets = ''
 
@@ -975,39 +991,31 @@ def director(cv):
           if refChar in clusterCharsB:
             cab = refChar
             cob = clusterAtf[cab]
+            ctp = clusterType[cab]
             if before:
               brackets += cab
             else:
               brackets = cab + brackets
 
-            if cab == langCabB:
-              inAlt = 1
-            elif cab == braceCabB:
-              inBrace = True
-            elif cab == bracketCabB:
-              inBracket = True
+            clusterStatus[ctp] = True
 
             cNode = cv.node('cluster')
 
             curCluster[cab].append(cNode)
 
-            cv.feature(cNode, type=clusterType[cab])
+            cv.feature(cNode, type=ctp)
           elif refChar in clusterCharsE:
             cae = refChar
             cab = clusterAtfB[cae]
             coe = clusterAtf[cae]
             cob = clusterAtf[cab]
+            ctp = clusterType[cab]
             if before:
               brackets += cae
             else:
               brackets = cae + brackets
 
-            if cae == langCabE:
-              inAlt = 0
-            elif cae == braceCabE:
-              inBrace = False
-            elif cae == bracketCabE:
-              inBracket = False
+            clusterStatus[ctp] = False
 
             for cNode in curCluster[cab]:
               cv.terminate(cNode)
@@ -1043,12 +1051,10 @@ def director(cv):
 
       curSign = cv.slot()
 
-      if inAlt:
-        cv.feature(curSign, langalt=inAlt)
-      if inBrace:
-        cv.feature(curSign, det=1)
-      if inBracket:
-        cv.feature(curSign, uncertain=1)
+      for typ in clusterStatus:
+        if clusterStatus[typ]:
+          cv.feature(curSign, **{typ: 1})
+
   # sub director: adding data to a sign node
 
     def doFlags():
@@ -1335,6 +1341,8 @@ def director(cv):
     path = f'{IN_DIR}/{src}.txt'
     print(f'Reading source {src}')
 
+    transLine = None
+
     with open(path) as fh:
       i = 0
       for line in fh:
@@ -1349,6 +1357,7 @@ def director(cv):
 
         if isDoc:
           if len(line) > 1 and line[1] == 'P':
+            transLine = None
             documentStart()
           else:
             errors[f'atf: stray & replaced by $'][src].add((i, line, pNum, None))
@@ -1406,6 +1415,7 @@ def director(cv):
         recentTrans = withGraphemeBackRe.sub(bracketBackRepl, recentTrans)
 
         lineStart(ln)
+        transLine = curLine
         lineData()
 
       documentEnd()

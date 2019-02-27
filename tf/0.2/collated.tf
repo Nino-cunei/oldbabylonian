@@ -1,21 +1,21 @@
 @node
 @converters=Cale Johnson, Dirk Roorda
-@description=whether a sign is collated
+@description=whether a sign is collated (*)
 @editor=Cale Johnson et. al.
 @institute=CDL
 @name=AbB Old Babylonian Cuneiform
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-26T18:11:46Z
+@dateWritten=2019-02-27T10:31:16Z
 
-192254	1
-194335	1
+192242	1
+194323	1
 1
 1
 1
-194344	1
+194332	1
 1
-194958	1
+194946	1
 1
 1
 1

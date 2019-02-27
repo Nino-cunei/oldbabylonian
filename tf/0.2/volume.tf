@@ -6,9 +6,9 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-26T18:11:47Z
+@dateWritten=2019-02-27T10:31:17Z
 
-226681	01
+226669	01
 01
 43
 01
@@ -744,7 +744,7 @@
 52
 52
 7
-227418	23
+227406	23
 03
 001
 002
