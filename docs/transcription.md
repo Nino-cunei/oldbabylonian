@@ -332,17 +332,13 @@ Empty signs may also have been generated as the result of faulty inputs.
 The conversion program detects these errors and issues messages about them.
 The current run of the conversion has not detected such empty signs.
 
-#### Flags ####
+### Flags ###
 
 *Signs* may have *flags*.
 In transcription they show up as a special trailing character.
 Flags code for signs that are damaged, questionable (in their reading), remarkable, or collated.
 
-##### Collated #####
-
-Flag `*`.
-
-Collected as **collated** = `1`
+#### collated `*` ####
 
 Example:
 
@@ -350,35 +346,27 @@ Example:
 
 Here the numeral `8(gesz2)` is collated.
 
-##### Remarkable #####
+#### remarkable `!` ####
 
-Flag `!`.
-
-A bare `!` is collected as **remarkable** = `1`
+Only if the `!` is not followed by `(GGG)`
 
 Example:
 
     8. a-di isz!-ti i-na-an-na
 
-Here `isz` is remarkable.
+Here the reading `isz` is remarkable.
 
-##### Question #####
+#### question `?` ####
 
-Flag `?`.
-
-Questionable identification, collected as **question** = `1`.
+Questionable identification.
 
 Example:
 
     6. sza a-na ti?-bi a-bi-ka be-li szu-um-szu
 
-Here `ti` is questionable.
+Here the reading `ti` is questionable.
 
-##### Damage #####
-
-Flag `#`.
-
-Collected as **damage** = `1`
+#### damage `#` ####
 
 Example:
 
