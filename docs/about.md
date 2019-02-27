@@ -35,8 +35,9 @@ Provenance
 ----------
 
 We have downloaded transliterations and images from the **Cuneiform Digital
-Library Initiative** [CDLI](https://cdli.ucla.edu). They have a rich source of
-data, available to the public, visible on their website, and large portions are
+Library Initiative** [CDLI](https://cdli.ucla.edu).
+It has compiled a rich source of
+data, available to the public, visible on its website, and large portions are
 conveniently downloadable. We are indebted to the creators and maintainers of
 the CDLI website.
 

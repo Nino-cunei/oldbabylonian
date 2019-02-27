@@ -6,7 +6,7 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T10:31:17Z
+@dateWritten=2019-02-27T12:43:52Z
 
 248237	To Šamaš-ḫazir
 speak,

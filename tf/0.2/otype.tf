@@ -5,7 +5,7 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T10:31:16Z
+@dateWritten=2019-02-27T12:43:51Z
 
 1-203219	sign
 203220-226668	cluster

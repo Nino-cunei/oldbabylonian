@@ -1,12 +1,12 @@
 @node
 @converters=Cale Johnson, Dirk Roorda
-@description=repeat of a numeral
+@description=repeat of a numeral; the value n (unknown) is represented as -1
 @editor=Cale Johnson et. al.
 @institute=CDL
 @name=AbB Old Babylonian Cuneiform
-@valueType=str
+@valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T10:31:17Z
+@dateWritten=2019-02-27T12:43:51Z
 
 77	2
 112	7
@@ -504,6 +504,7 @@
 48658	2
 49039	2
 49866	2
+50077	-1
 50084	4
 50523	1
 50726	1
@@ -1621,6 +1622,7 @@
 158389	1
 158488	1
 158533	2
+158822	-1
 159378	1
 159621	3
 159784	1
@@ -1866,6 +1868,7 @@
 186613	4
 187028	4
 187497	6
+-1
 187506	3
 3
 187980	1

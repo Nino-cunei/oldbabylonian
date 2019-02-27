@@ -144,6 +144,7 @@ Node type [*line*](#line)
 -------------------------
 
 Subdivision of a containing [*face*](#face).
+Corresponds to a transcription or comment line in the source data.
 
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
@@ -152,29 +153,30 @@ feature | values | in ATF | description
 **ln** | `1` `$` `#` | `1. [a-na]` `$ rest broken` `# reading la-mi! proposed by Von Soden` | ATF line number of a transcription line; for comment lines it is `$`, for meta lines it is `#`; without prime, see also `primeln`
 **primecol** | `1'` | whether the column number has a prime `'` | 
 **primeln** | `1'` | whether the line number has a prime `'` | 
-**remarks** | `reading la-mi! proposed by Von Soden` | `# reading la-mi! proposed by Von Soden` | the contents of a remark targetedto the ocntents of a transcription line; the `remark` feature is present on the line that is being commented; multiple remark lines will be joined with a newline
-**srcLn** |  |  | the literal text in the transcription at the start of the object; see [source data](#source-data)
-**srcLnNum** |  |  | the line number of the transcription line at the start of the object; see [source data](#source-data)
+**remarks** | `reading la-mi! proposed by Von Soden` | `# reading la-mi! proposed by Von Soden` | the contents of a remark targetedto the contents of a transcription line; the `remark` feature is present on the line that is being commented; multiple remark lines will be joined with a newline
+**srcLn** | `1. [a-na x]-da-a-a`| idem | see [source data](#source-data)
+**srcLnNum** | 29908 | not represented | see [source data](#source-data)
 **trans** | `1` | | indicates whether a line has a translation (in the form of a following meta line (`#`))
 **translation@en** | `was given (lit. sealed) to me—` | `#tr.en: was given (lit. sealed) to me—` | English translation in the form of a meta line (`#`)
 
 Node type [*face*](#face)
 -------------------------
 
-One of the sides of a [*document*](#document).
+One of the sides of an *object* belonging to a document [*document*](#document).
+In most cases, the object is a *tablet*, but it can also be an *envelope*, or yet an other kind of object. 
 
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
 **face** | `obverse` `reverse` `seal 1` `envelope - seal 1` | `@obverse` `@reverse` `@seal 1` | type of face, if on an object different from a tablet, the type of object is prepended
 **object** | `tablet` `envelope` | `@tablet` `@envelope` | object on which a face is situated; seals are not objects but faces
-**srcLn** |  |  | the literal text in the transcription at the start of the object; see [source data](#source-data)
-**srcLnNum** |  |  | the line number of the transcription line at the start of the object; see [source data](#source-data)
+**srcLn** | `@obverse` | idem | see [source data](#source-data)
+**srcLnNum** | 29907 | not represented | see [source data](#source-data)
 
 Node type [*document*](#document)
 -----------------------------
 
 The main entity of which the corpus is composed, representing the transcription
-of a complete clay document.
+of all objects associated with it.
 
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
@@ -183,23 +185,31 @@ feature | values | in ATF | description
 **docnumber** | `059` | `&P509373 = AbB 01, 059` | the identification of a [*document*](#document) as number within a collection - volume
 **lang** | `akk` `sux` |  | the language the document is written in. `akk` = *Akkadian*, `sux` = *Sumerian*. See the sign feature `langalt` for the language of smaller portions of the document
 **pnumber** | `P509373` | `&P509373 = AbB 01, 059` | the P-number identification of a [*document*](#document)
-**srcfile** |  |  | the source file name of the document, see [source data](#source-data)
-**srcLn** |  |  | the literal text in the transcription at the start of the object; see [source data](#source-data)
-**srcLnNum** |  |  | the line number of the transcription line at the start of the object; see [source data](#source-data)
+**srcfile** | AbB-primary or AbB-secondary | not represented | see [source data](#source-data)
+**srcLn** | `&P494060 = AbB 14, 226` | idem | see [source data](#source-data)
+**srcLnNum** | 29904 | not represented | see [source data](#source-data)
 **volume** | `01` | `&P509373 = AbB 01, 059` | the volume of a [*document*](#document) as number within a collection
 
 Source data
 ===========
 
 All nodes that correspond directly to a line in the corpus, also get features by
-which you can retrieve the original transcription:
+which you can retrieve the original transcription.
 
-*   **srcfile** the name of the source file, is either `AbB-primary` or `AbB-secondary`;
+For documents and faces the line refers to the source line where the encoding starts.
+
+*   **srcfile** the name of the source file, it does not occur as such in the source data;
 *   **srcLn** the literal contents of the line in the source;
-*   **srcLnNum** the line number of the corresponding line in the source file.
+*   **srcLnNum** the line number of the corresponding line in the source file,
+    not the ATF line number, but *n* as in the *n*-th line in the file,
+    it does not occur as such in the source data. 
 
 Slots
 =====
+
+Slots are the textual positions. They can be occupied by individual signs or inline comments `($ ccc $)`.
+We have inserted empty slots on comment lines (starting with `$`) in order to anchor these lines at the right
+place in the text sequence.
 
 We discuss the node types we are going to construct. A node type corresponds to
 a textual object. Some node types will be marked as a section level.
@@ -209,20 +219,51 @@ Sign
 
 This is the basic unit of writing.
 
-**The node type [*sign*](#sign) is our slot type in Text-Fabric.**
+**The node type [*sign*](#sign) is our slot type in the Text-Fabric representation of this corpus.**
 
-### Signs in general ###
+All signs have the features **atf**, **atfpre**, **atfpost** and **after**.
 
-The defining trait of a sign is its *reading* and/or optinally its *grapheme*.
+Together they are the building blocks by which the complete original ATF sequence for that sign
+can be reconstructed:
+
+    atfpre + atf + atfpost + after
+
+*atf* contains the encoding of the sign itself, including possible flags.
+
+*atfpre* and *atfpost* contain the bracketing characters before and after the sign.
+
+*after* contains the linking characters with the next sign, usually a `-` or a ` `.
+
+For analytical purposes, there is a host of other features on signs, depending on the type of sign.
+
+### Simple signs ###
+
+The defining trait of a sign is its *reading* and/or optionally its *grapheme*.
 
 We will collect the name string of a sign, without variants and flags, and store
 it in the sign feature **reading** if it is lowercase, and **grapheme** if it is uppercase.
 
-Signs may be *augmented* with
+The *type* of such signs is `reading` or `grapheme`. 
 
-*   flags
+Simple signs may be *augmented* with *flags* (see below).
 
-### Repeats and fractions ###
+### Unknown signs ###
+
+The letters `x` and `X` in isolation stand for an unknown signs.
+
+The *type* of such signs is `unknown`. 
+
+If the value is `x`, it will stored in **reading**, if it is `X` in **grapheme**. 
+
+### Ellipsis ###
+
+The value `...`stands for an unknown number of missing signs.
+
+The *type* of such signs is `ellipsis`. 
+
+The **grapheme** feature will be filled with `...`. 
+
+### Numerals: repeats and fractions ###
 
 Signs, especially those with a numeric meaning, may be repeated.
 
@@ -232,63 +273,106 @@ Numeric signs may also be preceded with a *fraction*:
 
     5/6(disz)
 
-We store the integral number before the brackets in a feature called **repeat**,
-and the fraction in the feature called *fraction*.
+We store the integral number before the brackets in the feature **repeat**,
+and the fraction in the feature **fraction**.
 
 If the repeat is `n`, it means that a number is missing.
+We store it as `repeat` = `-1`, so repeats always have an integer value.
 
-In a numeral, within the brackets you find the *reading* or *grapheme*.
+In a numeral, within the brackets you find the **reading** or **grapheme**,
+depending on whether it is lowercase or uppercase..
+
+Numeral signs have type `numeral`.
 
 After the closing bracket the numeral may be augmented with *flags*.
 
-# AFTER THIS POINT MORE REWORKING HAS TO BE DONE
+### Complex signs: operators ###
 
-### Ordinary signs ###
+There are two constructs that have the same shape, but not the same meaning.
+Both lead to a complex sign.
 
-An example of an ordinary sign is
+Correction:
 
-    GAN2
+    szu!(LI)
 
-### Missing signs ###
+Operator (`x`):
 
-This notation denotes missing signs.
+    isx(USZ)
 
-    [...]
+In both cases we see a **reading**, followed by an **operator** (`!` or `x`),
+followed by a **grapheme**.
 
-In the syntax of transcriptions, this is a one-element [*cluster*](#cluster),
-bracketed with `[ ]`, with a special sign in it `...`, meaning: one or more
-missing graphemes.
+The type of such signs is `complex`.
 
-We treat the `...` sign as a single sign `…`, and we treat the cluster as any
-other cluster.
+The grapheme might be quite complex: an expression with or without surrounding `| |`,
+and with operators `.` inside.
+We have not broken down these graphemes in our conversion, they are stored as is in **grapheme**.
 
-### Type ###
+### Comment signs ###
 
-Not everything we see in the transcription as graphemes is a proper grapheme.
-That is why we also have a feature **type** that makes it easy to detect what is
-the case.
+Within a transcription line, you might encounter expressions of the form `($` *ccc* `$)`.
 
-TF | ATF | type | explanation
---- | --- | ---- | -----------
-`` \| *not present* \| `empty` \| these are signs inserted by the conversion where it was needed to fit the model of Text-Fabric |  |  | 
-`…` | `...` | `ellipsis` | one or more missing signs
-`X` | `X` | `unknown` | an unknown sign
-`N01` | `N01` | `numeral` | a numeral, usually as a repeat: `7(N01)`. A single `N` is also treated as a numeral.
-`GISZ` | `GISZ` | `ideograph` | an ordinary grapheme
+These are *inline* comments, not to be confused with structural line comments (`$` lines)
+or other line comments (`#` lines) which occupy a line of their own.
+
+Such comments will be converted to single signs, of type `comment`, and the comment itself
+goes into the feature **comment**. 
+
+The comment, surrounded by the `($ $)` goes into the feature **atf**.
+
+### Empty signs ###
+
+Empty signs have been artificially added to comment lines (`$` lines) in order to 
+anchor them to the textual sequence.
+
+The type of such signs is `empty` and they have no other features.
+The comment text of the line goes into the feature **comment** of the line, not of the sign.
+
+Empty signs may also have been generated as the result of faulty inputs.
+The conversion program detects these errors and issues messages about them.
+The current run of the conversion has not detected such empty signs.
 
 #### Flags ####
 
-Outer [*quads*](#quad) and *signs* may have *flags*. Sub-*quads* do not have
-them. In transcription they show up as a special trailing character. Flags code
-for things like damage, uncertainty, and correction.
+*Signs* may have *flags*.
+In transcription they show up as a special trailing character.
+Flags code for signs that are damaged, questionable (in their reading), remarkable, or collated.
 
-##### Collation #####
+##### Collated #####
 
 Flag `*`.
 
 Collected as **collated** = `1`
 
-Not encountered yet.
+Example:
+
+  5. _8(gesz2)* sze gur_ i-ib-szu-u2
+
+Here the numeral `8(gesz2)` is collated.
+
+##### Remarkable #####
+
+Flag `!`.
+
+A bare `!` is collected as **remarkable** = `1`
+
+Example:
+
+    8. a-di isz!-ti i-na-an-na
+
+Here `isz` is remarkable.
+
+##### Question #####
+
+Flag `?`.
+
+Questionable identification, collected as **question** = `1`.
+
+Example:
+
+    6. sza a-na ti?-bi a-bi-ka be-li szu-um-szu
+
+Here `ti` is questionable.
 
 ##### Damage #####
 
@@ -298,42 +382,9 @@ Collected as **damage** = `1`
 
 Example:
 
-    1.  1(N48) 7(N34) 3(N14) , BARA2~a#
+    10. _ma2_ a-na ra-ka-ab s,u2-ha-ar-tim#
 
-##### Question #####
-
-Flag `?` Unsure identification.
-
-Collected as **question** = `1`.
-
-Example:
-
-    1.  1(N45) 8(N14)# , X SZE~a MA2?
-
-##### Correction #####
-
-Flag `!` or `!(` *written* `)`
-
-A bare `!` is collected as **remarkable** = `1`
-
-The full form indicates that the sign has been corrected (like in Hebrew
-*ketiv/qere*).
-
-The sign between the brackets is what is written (ketiv), the sign before the
-`!` is the corrected form (qere).
-
-Collected as **written** = *written*. In this case, we do not set the
-**remarkable** feature to `1`.
-
-Example:
-
-    5.  1(N01) , NAM2 URU~a1!(GURUSZ~a)?
-
-Note that flags on a numeral are written within the brackets.
-
-There may be multiple flags:
-
-    1.  1(N48) 7(N34) 3(N14) , BARA2~a#
+Here the reading `tim` is damaged.
 
 The other nodes
 ===============
@@ -341,133 +392,102 @@ The other nodes
 Cluster
 -------
 
-One or more [*quads*](#quad) may be bracketed by `( )` or by `[ ]` or by `< >`:
+One or more [*signs*](#sign) may be bracketed by `_ _` or by `( )` or by `[ ]` or by `< >` or by `<< >>`:
 together they form a *cluster*.
 
-    2.c. , (|GIR3~cxSZE3|# NUN~a# [...])a
+Each pair of boundary signs marks a cluster of a certain type.
+This type is stored in the feature **type**.
 
-    3.  [...] , [MU |ZATU714xHI@g~a|]
+Clusters are not be nested in clusters of the same type.
 
-    4.b1. <7(N14) , GAN2>
+Clusters of one type in general do not respect the boundaries of clusters of other types.
 
-Note that a cluster may contain just one [*quad*](#quad).
+Clusters do not cross line boundaries.
 
-### Missing signs ###
+Clusters may contain just one [*sign*](#sign).
 
-Clusters with `[ ]` indicate that there are missing signs here.
+In Text-Fabric, cluster nodes are linked to the signs it contains.
+So, if `c` is a cluster, you can get its signs by 
 
-Collected in a feature **type** = `[`
+    L.d(c, otype='sign')
 
-### Supplied signs ###
+More over, every type of cluster corresponds to a numerical feature on signs with the same name
+as that type.
+It has value `1` for those signs that are inside a cluster of that type and no value otherwise.
 
-Clusters with `< >` indicate that these signs have been supplied in order to
-make sense.
+### langalt `_ _` ###
 
-Collected in the feature **type** = `supplied`
+Marks a switch to the alternate language.
+In this corpus, the documents are mainly in Akkadian (`akk`). The alternate language is Sumerian (`sux`).
 
-Comments
---------
+### det `{ }` ###
 
-Lines starting with `$` or `#` are *comments* to the current object
-([*document*](#document), [*face*](#face), [*column*](#column), or [*line*](#line).
+Marks a glosses of the determinative kind.
 
-Lines starting with `@object` are comments to the current object.
+### uncertain `( )` ###
 
-    &P002718 = ATU 3, pl. 078, W 17729,cn+
-    #version: 0.1
-    #atf: lang qpc
+Marks uncertain readings.
 
-and
+### missing `[ ]` ###
 
-    4.  1(N01) , [...]
-    $ rest broken
-    @column 3
-    $ beginning broken
+Marks missing signs.
 
-Comments are a separate node type. They get one slot with an empty grapheme to
-anchor them to the text.
+### excised `<< >>` ###
 
-The type of comment is stored in the feature **type**:
+Marks signs that have been excised by the editor in order to arrive at a reading.
 
-transcription | **type** feature | description
-------------- | ---------------- | -----------
-`$` | `ruling` | a rule like marking on the document
-`#` | `meta` | metadata
-`@object` | `object` | object description
+### supplied `< >` ###
 
-The line number and the text on the line are collected in features **srcLnNum**
-and **srcLn** respectively.
+Marks signs that have been supplied by the editor in order to arrive at a reading
 
-There is also an edge feature **comments**, with edges going from the object to
-its *comments* nodes.
+Word
+----
 
-By using
+Words are sequences of signs joined by `-` or occasionally `:` or `/`.
+Words themselves are separated by spaces ` `.
 
-    E.comments.f(t)
-
-we get the list of *comments* nodes to document node `t` in a straigthforward way;
-this list does not contain the *comments* to the *faces*, *columns*, *lines* of
-the *document*.
-
-Likewise, by using
-
-    E.comments.t(c)
-
-we get the object to which *comment* `c` is targeted.
+They have only one feature: **atf**, which contains the original ATF source,
+including cluster characters that are glued to the word or occur inside it.
 
 Line
 ----
 
-A node of type *line* corresponds to an undivided line or to all
-[*cases*](#case) whose numbers start with the same decimal number.
+A node of type *line* corresponds to a numbered line with transcribed
+material or to a line with a structural comment (which starts with `$`).
 
-**This node type is section level 3.**
+Lines that start with a `#` are comments to the previous line or metadata to the document.
+Their contents are turned into document and line features, but they do not give rise
+to line nodes.
 
-If we encounter a line without a preceding [*column*](#column) specifier we
-proceed as if we have seen a `@column 0`.
+Lines get a column number from preceding `@column i` lines (if any), and this gets stored in 
+**col**.
 
-The **number** of a line is always a single number, without a hierarchical
-structure.
+There is no node type corresponding to columns.
 
-If a line is terminal, i.e. undivided, we give it a feature **terminal** with
-value `1`, otherwise we do not assign the feature **terminal**.
+The ATF number at the start of the line goes into **ln**, without the `.`.
 
+If primes `'` are present on column numbers and line numbers, they will not get stored on
+**col** and **ln**, but instead the features **primcol** and **primeln** will receive a `1`.
 
-Column
-------
+The number of the line in the source file is stored in **srcLnNum**,
+the unmodified contents of the line, including the ATF line number goes into **srcLn**.
 
-[*Lines*](#line) are grouped into *columns*.
+If the line is a structural comment (`$`), the contents of the line goes into **comment**.
 
-*Columns* are marked by lines like
+If a line has a comment in the form of one or more following lines that start with `# `,
+then these lines will be joined with newlines and collectively go into **remarks**.
 
-    @column number
+If a line has a translation, say in English, marked by a following line starting with 
+`#tr.en:`, then the contents of the translation will be added to **translation@en**.
 
-A node of type *column* corresponds to the material after the *column* specifier
-and before the next next *column* specifier or the end of a [*face*](#face) or
-[*document*](#document).
-
-**This node type is section level 2.**
-
-The number of a column is stored in the feature **number**. However, this number
-is not suitable as a section number, because a *document* may have multiple faces
-(which we do not take as a section level), and each of the faces restart the
-*column* numbering.
-
-We add a feature **fullNumber** to columns, filled with the type of the face
-(see below) and the column **number**, separated by a `:`.
-
-There might be a prime `'` after the number, but before the last `.` If present,
-it indicates that the number does not count objects on the document in its
-original state, but in its present state. If the document is damaged, material is
-missing, and the missing items are not numbered.
-
-In the presence of a prime, we add a feature **prime** with value `1` and we
-remove the prime from the *column* number.
+If a line has any translation at all, in whatever language, the feature **trans** becomes `1`.
 
 Face
 ----
 
-[*Columns*](#column) are grouped into [*faces*](#face).
+**This node type is section level 2**
+
+[*Lines*](#line) are grouped into [*faces*](#face).
 
 *Faces* are marked by lines like
 
@@ -477,83 +497,77 @@ or
 
     @reverse
 
-There are a few other possibilities:
+or
 
-    @bottom
-    @left
-    @top
-    @surface identifier
-    @seal identifier
+    @seal 1
+
+There are a few other possibilities, such as:
+
+    @left edge
+    @upper edge
 
 A node of type *face* corresponds to the material after a *face* specifier and
-before the next *face* specifier or the end of a [*document*](#document).
+before the next *face* specifier or the end of an object or [*document*](#document).
 
-**This node type is not a section level!**
+Note that *objects*, such as *tablets*, *envelopes* and *eyestones* are also 
+marked by `@` lines.
+Whenever the object is not a tablet, the type of object will prepended to the name of the face:
 
-We make a feature **type** for this node type, which contains the name of the
-*face*, e.g. `obverse`, `reverse`.
+The obverse of an envelope is
 
-We also make a feature **identifier**, which contains the identifier if the
-**type** is `surface` or `seal`.
+    @envelope - obverse
 
-`@seal` is never followed by linguistic content.
+whereas
 
-If there are columns outside a *face*, we act as if we have seen a `@noface`,
-i.e. we insert a *face* with the name `noface`.
+    @obverse
+
+is the obverse of a tablet.
+
+Seals are faces, not objects.
+
+The resulting face type is stored in the feature **face**.
+
+The object on which a face resides, goes to the feature **object**.
+
+Faces also have features **srcLn** and **srcLnNum**, like lines.
+In this cases, they refer to the line where a face starts.
 
 Document
 ------
 
-[*Faces*](#face) are grouped into *documents*.
-
-*Tablets* are marked by lines like
-
-    @document
-
-Sometimes this line sometimes missing. The surest sign of the beginning of a
-*document* is a line like
-
-    &P002174 = ATU 6, pl. 48, W 14731,?4
-
-Here we collect `P002174` as the **pnumber** of the *document*, and
-`ATU 6, pl. 48, W 14731,?4` as the document **name**.
-
-We also add the name of the corpus as a feature **period**.
-
-A node of type *document* corresponds to the material after a *document* specifier
-and before the next *document* specifier.
-
 **This node type is section level 1.**
 
-Our corpora are just sets of *documents*. The position of a particular document in
+[*Faces*](#face) are grouped into *documents*.
+
+*Documents* are started by lines like
+
+    &P510635 = AbB 12, 112
+
+Here we collect
+
+* `P002174` as the **pnumber** of the *document*,
+* `AbB` as the **collection**,
+* `12` as the **volume**,
+* `112` as the **docnumber**
+
+If this line has irregular content, we put the irregular material into **docnote**:
+
+* `&P497776 = Fs Landsberger 235`
+  * **collection**, **volume**, **docnumber** undefined;
+  * **docnote** = `Fs Landsberger 235`
+* `&P479394 = CT 33, pl. 26, BM 097405`
+  * **collection** = `CT`
+  * **volume** = `33`
+  * **docnumber** = `26`
+  * **docnote** = `BM 097405`
+
+We also add the name of the source file as a feature **srcfile**,
+with possible values:
+
+* `AbB-primary` for documents whose primary publication is `AbB` ;
+* `AbB-secondary` for documents whose secondary publication(s) has `AbB` .
+
+This corpus is just a set of *documents*. The position of a particular document in
 the whole set is not meaningful. The main identification of documents is by their
-**pnumber** (in this case *P number*), not by any sequence number within the
-corpus.
-
-We also added the feature **excavation**, containing the excavation number(s) of
-the document. These numbers are given in the full source files as metadata; they
-are not in the pure transcription files on which the rest of the conversion is
-based.
-
-Subsequent lines starting with `#` or `@object` are treated as
-[*comments*](#comment).
-
-Empty objects
-=============
-
-If objects such as [*tablets*](#document), [*faces*](#face), [*columns*](#column),
-[*lines*](#line), and [*comments*](#comment) lack textual material, they will
-not have slots. This is incompatible with the Text-Fabric model, where all nodes
-must be anchored to the slots. We will take care that if textual material is
-missing, we insert a special [*sign*](#sign). This is a sign with **grapheme** =
-`''`, the empty string.
-
-Not that quite a few of the empty [*signs*](#sign) we thus create, are for
-[*comments*](#comment). These are the only [*signs*](#sign) that do not occur
-within [*quads*](#quad).
-
-Warning
-=======
-
-In order to produce transcribed text you cannot rely on features of slots alone.
-Every node type introduces bits of syntax in the transcription.
+**pnumber**,
+not by any sequence number within the corpus.

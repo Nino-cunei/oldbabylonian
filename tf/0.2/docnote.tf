@@ -6,7 +6,7 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T10:31:16Z
+@dateWritten=2019-02-27T12:43:51Z
 
 227096	pp. 980191 no. 1
 227162	Bu 1888-05-12, 200

@@ -216,6 +216,7 @@ otext = {
 intFeatures = set('''
     primeln
     primecol
+    repeat
     srcLnNum
     trans
     volume
@@ -319,7 +320,7 @@ featureMeta = {
         'description': 'whether a sign is remarkable (!)',
     },
     'repeat': {
-        'description': 'repeat of a numeral',
+        'description': 'repeat of a numeral; the value n (unknown) is represented as -1',
     },
     'srcfile': {
         'description': 'source file name of a document',
@@ -1115,7 +1116,8 @@ def director(cv):
         cv.feature(curSign, type='numeral')
         if quantity == 'n':
           fraction = None
-          repeat = None
+          repeat = -1
+          cv.feature(curSign, repeat=repeat)
         elif div in quantity:
           fraction = transUnEsc(quantity)
           repeat = None
