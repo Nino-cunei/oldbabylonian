@@ -6,7 +6,7 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T12:43:52Z
+@dateWritten=2019-02-28T14:56:58Z
 
 226669	01
 01

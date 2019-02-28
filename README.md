@@ -8,7 +8,7 @@
 Nino-cunei
 ==========
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.167956619.svg)](https://doi.org/10.5281/zenodo.2579207)
 
 Proto-cuneiform corpora in Text-Fabric
 --------------------------------------

@@ -49,8 +49,8 @@ Every node is linked to a subset of slots by
 Nodes can be annotated with features. See the table below.
 
 Text-Fabric supports up to three customizable section levels.
-In this corpus we use only two:
-[*document*](#document) and [*face*](#face).
+In this corpus we use:
+[*document*](#document) and [*face*](#face) and [*line*](#line).
 
 Other docs
 ----------
@@ -87,6 +87,8 @@ type | examples | description
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
 **after** | `-` ` ` `:` `.` `/` `+` | `ha:a-am` `a-di ma-di` | what comes after a sign before the next sign
+**aftere** | `␣` | | in those cases where two signs are adjacent
+**afteru** | ` ` `:` `.` `/` `+` | | what comes after a sign before the next sign when represented with unicode characters
 **atf** | `qa2` `ARAD2` `5/6(disz)` `ba?!(GESZ)` | idem | full atf of a sign, also complex signs, with flags but without clustering characters
 **atfpost** | `}_` | `{ki}_` | clustering characters attached at the end of a sign
 **atfpre** | `{` | `{ki}_` | clustering characters attached at the start of a sign
@@ -96,8 +98,7 @@ feature | values | in ATF | description
 **det** | `1` | `{d}suen` `asza5{a-sza3}` | indicates whether the sign is a determinative gloss, marked by being within braces `{ }`
 **excised** | `1` | `<<ma>>` `<<ip-pa-ar-ra-as>>` | whether a sign is excised by the editor, marked by being within double angle brackets  `<< >>`
 **fraction** | `5/6` | `5/6(disz)` | the fraction part of a numeral
-**givengrapheme** | `LI` `USZ` | `szu!(LI)` `isx(USZ)` | the grapheme supplied between brackets after a reading in a complex sign
-**grapheme** | `ARAD2` `GAN2` | idem | the grapheme name of a [*sign*](#sign) when its atf is capitalized
+**grapheme** | `ARAD2` `GAN2` `LI` `USZ` | `ARAD2` `GAN2` `szu!(LI)` `isx(USZ)` | the grapheme name of a [*sign*](#sign) when its atf is capitalized or when the grapheme is shown between brackets after an operator
 **langalt** | `1` | `_{d}suen_` | whether the sign is in the alternate language in this corpus *Sumerian*. See also the document feature `lang`. ATF marks alternate language by enclosing signs in `_` ... `_`
 **missing** | `1` | `[ki-im]` | whether a sign is missing, marked by being within square brackets  `[ ]`
 **operator** | `!` `x` | `szu!(LI)` `isx(USZ)` | the type of operator in a complex sign
@@ -105,9 +106,9 @@ feature | values | in ATF | description
 **reading** | `suen` | idem | reading (lowercase) of a sign; the sign may be simple or complex
 **remarkable** | `1` | `lam!` | indicates the presence of the *remarkable* flag `!`
 **repeat** | `5` | `5(disz) ` | marks repetition of a grapheme in a numeric sign 
+**sym** | | | essential parts of a sign, composed of **reading**, **grapheme**, **repeat**, **fraction**, **operator**, also defined for words
 **supplied** | `1` | `<pa>` `i-ba-<asz-szi>` | whether a sign is supplied by the editor, marked by being within angle brackets  `< >`
 **type** | | | type of sign, see table above
-**uafter** | ` ` `:` `.` `/` `+` | | what comes after a sign before the next sign when represented with unicode characters
 **uncertain** | `1` | `[x (x)]` `[li-(il)-li]` | whether a sign is uncertain, marked by being within brackets  `( )`
 **unicode** | | | reading or grapheme of a sign represented as unicode characters
 
@@ -151,6 +152,7 @@ feature | values | in ATF | description
 **col** | `1` | `@column 1` | number of the column in which the line occurs; without prime, see also `primecol`
 **comment** | `rest broken` | `$ rest broken` | the contents of a structural comment (starting with `$`); such a line has a single empty slot
 **ln** | `1` `$` `#` | `1. [a-na]` `$ rest broken` `# reading la-mi! proposed by Von Soden` | ATF line number of a transcription line; for comment lines it is `$`, for meta lines it is `#`; without prime, see also `primeln`
+**lnno** | | | combination of **col**, **primecol**, **ln**, **primeln** to identify a line
 **primecol** | `1'` | whether the column number has a prime `'` | 
 **primeln** | `1'` | whether the line number has a prime `'` | 
 **remarks** | `reading la-mi! proposed by Von Soden` | `# reading la-mi! proposed by Von Soden` | the contents of a remark targetedto the contents of a transcription line; the `remark` feature is present on the line that is being commented; multiple remark lines will be joined with a newline
@@ -440,6 +442,8 @@ including cluster characters that are glued to the word or occur inside it.
 Line
 ----
 
+**This node type is section level 3**
+
 A node of type *line* corresponds to a numbered line with transcribed
 material or to a line with a structural comment (which starts with `$`).
 
@@ -559,3 +563,14 @@ This corpus is just a set of *documents*. The position of a particular document 
 the whole set is not meaningful. The main identification of documents is by their
 **pnumber**,
 not by any sequence number within the corpus.
+
+Text formats
+=============
+
+The following text formats are defined (you can also list them with `T.formats`).
+
+format | description
+--- | ---
+text-orig-full | the full atf, including flags and cluster characters
+text-orig-plain | the essential bits: readings, graphemes, repeats, fractions, operators, no clusters, flags, inline comments
+text-unicode-full | unicode characters, hyphens are suppressed

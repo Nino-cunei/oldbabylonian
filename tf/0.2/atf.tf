@@ -6,7 +6,7 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T12:43:50Z
+@dateWritten=2019-02-28T14:56:56Z
 
 a
 na

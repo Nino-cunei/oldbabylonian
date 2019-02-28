@@ -15,7 +15,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '0.2'
+VERSION_TF = '0.3'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -74,12 +74,12 @@ flagging = {
 flagStr = ''.join(flagging)
 
 clusterChars = (
-    ('┌', '┐', '_', '_', 'langalt'),
     ('◀', '▶', '{', '}', 'det'),
     ('∈', '∋', '(', ')', 'uncertain'),
     ('〖', '〗', '[', ']', 'missing'),
     ('«', '»', '<<', '>>', 'excised'),
     ('⊂', '⊃', '<', '>', 'supplied'),
+    ('┌', '┐', '_', '_', 'langalt'),
 )
 
 clusterCharsB = {x[0] for x in clusterChars}
@@ -206,11 +206,10 @@ generic = {
 
 otext = {
     'fmt:text-orig-full': '{atfpre}{atf}{atfpost}{after}',
-    'fmt:text-ling-full': '{atfpre}{reading/grapheme}{atfpost}{after}',
-    'fmt:text-graph-full': '{atfpre}{givengrapheme/grapheme/reading}{atfpost}{after}',
-    'fmt:text-uni-full': '{atfpre}{unicode}{atfpost}{uafter}',
-    'sectionFeatures': 'pnumber,face',
-    'sectionTypes': 'document,face',
+    'fmt:text-orig-plain': '{sym}{after/aftere}',
+    'fmt:text-unicode-full': '{unicode}{afteru}',
+    'sectionFeatures': 'pnumber,face,lnno',
+    'sectionTypes': 'document,face,line',
 }
 
 intFeatures = set('''
@@ -224,7 +223,13 @@ intFeatures = set('''
 
 featureMeta = {
     'after': {
-        'description': 'what comes after a sign (- or space)',
+        'description': 'what comes after a sign or word (- or space)',
+    },
+    'aftere': {
+        'description': 'fill character between two adjacent signs',
+    },
+    'afteru': {
+        'description': 'what comes after a sign when represented as unicode (space)',
     },
     'atf': {
         'description': (
@@ -268,11 +273,11 @@ featureMeta = {
     'face': {
         'description': 'full name of a face including the enclosing object',
     },
+    'flags': {
+        'description': 'sequence of flags after a sign',
+    },
     'fraction': {
         'description': 'fraction of a numeral',
-    },
-    'givengrapheme': {
-        'description': 'grapheme given in transcription by !() or x()',
     },
     'grapheme': {
         'description': 'grapheme of a sign',
@@ -288,6 +293,9 @@ featureMeta = {
     },
     'ln': {
         'description': 'ATF line number, may be $ or #, without prime',
+    },
+    'lnno': {
+        'description': 'ATF line number, may be $ or #, with prime; column number prepended',
     },
     'missing': {
         'description': 'whether a sign is missing - between square brackets [ ]',
@@ -322,6 +330,9 @@ featureMeta = {
     'repeat': {
         'description': 'repeat of a numeral; the value n (unknown) is represented as -1',
     },
+    'sym': {
+        'description': 'essential part of a sign or of a word',
+    },
     'srcfile': {
         'description': 'source file name of a document',
     },
@@ -342,9 +353,6 @@ featureMeta = {
     },
     'type': {
         'description': 'name of a type of cluster or kind of sign',
-    },
-    'uafter': {
-        'description': 'what comes after a sign when represented as unicode (space)',
     },
     'uncertain': {
         'description': 'whether a sign is uncertain - between brackets ( )',
@@ -586,6 +594,7 @@ def director(cv):
   recentObject = None
   curFace = None
   recentColumn = None
+  recentComment = 0
   curLine = None
   recentTrans = None
   curCluster = collections.defaultdict(list)
@@ -773,12 +782,14 @@ def director(cv):
   def objectSet(typ):
     nonlocal recentObject
     nonlocal recentColumn
+    nonlocal recentComment
 
     if typ is None:
       errors[f'structure: object without type'][src].add((i, line, pNum, None))
 
     faceEnd()
     recentColumn = None
+    recentComment = 0
     recentObject = typ
 
   # sub director: setting up a face node
@@ -808,6 +819,7 @@ def director(cv):
 
   def faceEnd():
     nonlocal recentColumn
+    nonlocal recentComment
     nonlocal curFace
 
     if curFace is None:
@@ -815,6 +827,7 @@ def director(cv):
 
     lineEnd()
     recentColumn = None
+    recentComment = 0
     cv.terminate(curFace)
     if not cv.linked(curFace):
       errors[f'structure: face empty'][src].add((i, line, pNum, None))
@@ -824,12 +837,14 @@ def director(cv):
 
   def columnSet(number):
     nonlocal recentColumn
+    nonlocal recentComment
 
     if number is None:
       errors[f'structure: column without number'][src].add((i, line, pNum, None))
 
     lineEnd()
     recentColumn = number
+    recentComment = 0
 
   # sub director: setting up a comment line
 
@@ -838,6 +853,7 @@ def director(cv):
   # The comment it self is a feature of the line node.
 
   def commentInsert(meta=False):
+    nonlocal recentComment
     nonlocal curLine
 
     comment = line[1:].strip()
@@ -855,12 +871,17 @@ def director(cv):
         cv.feature(transLine, remarks=combinedRemarks)
     else:
       lineEnd()
+      lnno = f'${chr(ord("a") + recentComment)}'
+      recentComment += 1
+      if recentColumn:
+        lnno = f'{recentColumn}:{lnno}'
       curLine = cv.node('line')
       emptySlot = cv.slot()
       cv.feature(emptySlot, type='empty')
       cv.feature(
           curLine,
           ln='$',
+          lnno=lnno,
           comment=comment,
           srcfile=src,
           srcLnNum=i,
@@ -882,6 +903,19 @@ def director(cv):
     lineEnd()
     curLine = cv.node('line')
 
+    lnno = ln
+    if recentColumn:
+      lnno = f'{recentColumn}:{ln}'
+    cv.feature(curLine, lnno=lnno)
+
+    if recentColumn is not None:
+      hasPrimeCol = "'" in recentColumn
+      col = recentColumn.replace("'", '') if hasPrimeCol else recentColumn
+      cv.feature(curLine, col=col)
+
+      if hasPrimeCol:
+        cv.feature(curLine, primecol=1)
+
     hasPrimeLn = "'" in ln
     if hasPrimeLn:
       ln = ln.replace("'", '')
@@ -895,14 +929,6 @@ def director(cv):
     )
     if hasPrimeLn:
       cv.feature(curLine, primeln=1)
-
-    if recentColumn is not None:
-      hasPrimeCol = "'" in recentColumn
-      col = recentColumn.replace("'", '') if hasPrimeCol else recentColumn
-      cv.feature(curLine, col=col)
-
-      if hasPrimeCol:
-        cv.feature(curLine, primecol=1)
 
     recentTrans = recentTrans.strip() + ' '
 
@@ -1062,27 +1088,33 @@ def director(cv):
       nonlocal part
 
       lPart = len(part)
+      flags = ''
       for i in range(lPart):
         refChar = part[-1]
         if refChar in flagging:
           mf = flagging[refChar]
           cv.feature(curSign, **{mf: 1})
           part = part[0:-1]
+          flags = refChar + flags
         else:
           break
+      return flags
 
-    def signData(clusterBefore, clusterAfter, after):
+    def signData(clusterBefore, clusterAfter, after, aftere):
       nonlocal curSign
       nonlocal part
 
+      sym = None
       origPart = part
 
-      uafter = None if after == '-' else after
+      afteru = None if after == '-' else after
 
       if after:
         cv.feature(curSign, after=after)
-      if uafter:
-        cv.feature(curSign, uafter=uafter)
+      if aftere:
+        cv.feature(curSign, aftere=aftere)
+      if afteru:
+        cv.feature(curSign, afteru=afteru)
 
       if clusterBefore:
         cv.feature(
@@ -1098,108 +1130,157 @@ def director(cv):
       if not part:
         cv.feature(curSign, type='empty')
         errors['sign: empty (in cluster)'][src].add((i, line, pNum, transUnEsc(origPart)))
-        return
+        return sym
 
       if part.startswith('├') and part.endswith('┤'):
         commentIndex = int(part[1:-1])
         comment = commentNotes[commentIndex]
-        cv.feature(curSign, type='comment', comment=comment, atf=f'($ {comment} $)')
-        return
-
-      cv.feature(curSign, atf=transUnEsc(part))
-
-      match = numeralRe.match(part)
-      if match:
-        quantity = match.group(1)
-        part = match.group(2)
-        doFlags()
-        cv.feature(curSign, type='numeral')
-        if quantity == 'n':
-          fraction = None
-          repeat = -1
-          cv.feature(curSign, repeat=repeat)
-        elif div in quantity:
-          fraction = transUnEsc(quantity)
-          repeat = None
-          cv.feature(curSign, fraction=fraction)
-        else:
-          repeat = int(quantity)
-          fraction = None
-          cv.feature(curSign, repeat=repeat)
-
-        part = transUnEsc(part)
-        unicode = (
-            uni(part, None)
-            if repeat is None and fraction is None else
-            uni(part, None) * repeat
-            if repeat is not None else
-            uni(part, fraction)
-        )
-
-        if part.islower():
-          cv.feature(curSign, reading=part, unicode=unicode)
-        else:
-          cv.feature(curSign, grapheme=part, unicode=unicode)
-        return
-
-      match = withGraphemeRe.search(part)
-      if match:
-        part = match.group(1)
-        operator = match.group(2)
-        doFlags()
-        grapheme = match.group(3)
-
-        part = transUnEsc(part)
-        grapheme = transUnEsc(grapheme)
-        operator = transUnEsc(operator)
-
+        commentRep = f'($ {comment} $)'
         cv.feature(
             curSign,
-            type='complex',
-            reading=part,
-            givengrapheme=grapheme,
-            operator=operator,
-            unicode=uni(part, grapheme),
+            type='comment',
+            comment=comment,
+            unicode=commentRep,
+            atf=commentRep,
+            sym=f'${comment}$'
         )
-        return
+        return sym
 
-      doFlags()
+      reading = None
+      grapheme = None
 
-      if part == '':
-        errors['sign: empty (after flags)'][src].add((i, line, pNum, transUnEsc(origPart)))
-        cv.feature(curSign, type='empty')
-        return
+      partRep = transUnEsc(part)
+      cv.feature(curSign, atf=partRep)
 
-      if part == ellips:
-        typ = 'ellipsis'
-        part = transUnEsc(part)
-        cv.feature(curSign, type=typ, grapheme=part)
-        return
+      flags = doFlags()
+      partRep = transUnEsc(part)
+      if flags:
+        cv.feature(curSign, flags=flags)
 
-      if part in unknownSet:
-        typ = 'unknown'
-        part = transUnEsc(part)
-        cv.feature(curSign, type=typ)
+      fallenThrough = False
+
+      for x in [1]:
+        match = numeralRe.match(part)
+        if match:
+          quantity = match.group(1)
+          part = match.group(2)
+          partRep = transUnEsc(part)
+          if partRep.islower():
+            reading = partRep
+          else:
+            grapheme = partRep
+
+          cv.feature(curSign, type='numeral')
+          if quantity == 'n':
+            fraction = None
+            repeat = -1
+            sym = f'n{partRep}'
+            cv.feature(curSign, repeat=repeat)
+          elif div in quantity:
+            fraction = transUnEsc(quantity)
+            repeat = None
+            sym = f'{fraction}{partRep}'
+            cv.feature(curSign, fraction=fraction)
+          else:
+            repeat = int(quantity)
+            fraction = None
+            sym = f'{repeat}{partRep}'
+            cv.feature(curSign, repeat=repeat)
+
+          unicode = (
+              uni(part, None)
+              if repeat is None and fraction is None else
+              uni(part, None) * repeat
+              if repeat is not None else
+              uni(part, fraction)
+          )
+          cv.feature(curSign, unicode=unicode)
+          break
+
+        match = withGraphemeRe.search(part)
+        if match:
+          part = match.group(1)
+          operator = match.group(2)
+          grapheme = match.group(3)
+          flags = doFlags()
+          if flags:
+            cv.feature(curSign, flags=flags)
+
+          partRep = transUnEsc(part)
+          grapheme = transUnEsc(grapheme)
+          operator = transUnEsc(operator)
+
+          reading = partRep
+          op = '=' if operator == '!' else times if operator == 'x' else operator
+          sym = f'{reading}{op}{grapheme}'
+
+          unicode = uni(partRep, grapheme)
+          cv.feature(
+              curSign,
+              type='complex',
+              operator=operator,
+              unicode=unicode,
+              sym=sym,
+          )
+          break
+
+        if part == '':
+          errors['sign: empty (after flags)'][src].add((i, line, pNum, transUnEsc(origPart)))
+          cv.feature(curSign, type='empty')
+          break
+
+        if part == ellips:
+          cv.feature(curSign, type='ellipsis')
+          grapheme = partRep
+          sym = ellips
+          break
+
+        if part in unknownSet:
+          cv.feature(curSign, type='unknown')
+          if partRep.islower():
+            reading = partRep
+          else:
+            grapheme = partRep
+          break
+
         if part.islower():
-          cv.feature(curSign, reading=part)
-        else:
-          cv.feature(curSign, grapheme=part)
-        return
+          reading = partRep
+          unicode = uni(partRep, None)
+          cv.feature(curSign, type='reading', unicode=unicode)
+          break
 
-      if part.islower():
-        part = transUnEsc(part)
-        cv.feature(curSign, type='reading', reading=part, unicode=uni(part, None))
-        return
+        if part.isupper():
+          grapheme = partRep
+          unicode = uni(None, partRep)
+          cv.feature(curSign, type='grapheme', unicode=unicode)
+          break
 
-      if part.isupper():
-        part = transUnEsc(part)
-        cv.feature(curSign, type='grapheme', grapheme=part, unicode=uni(None, part))
-        return
+        fallenThrough = True
 
-      part = transUnEsc(part)
-      cv.feature(curSign, type='other', grapheme=part, unicode=uni(None, part))
-      msg = 'mixed case' if part.isalnum() else 'strange grapheme'
-      errors[f'sign: {msg}'][src].add((i, line, pNum, transUnEsc(origPart)))
+      if fallenThrough:
+        grapheme = partRep
+        cv.feature(curSign, type='other', unicode=uni(None, partRep))
+        msg = 'mixed case' if part.isalnum() else 'strange grapheme'
+        errors[f'sign: {msg}'][src].add((i, line, pNum, transUnEsc(origPart)))
+
+      if part != '':
+        if sym is None:
+          sym = partRep
+        if sym:
+          cv.feature(curSign, sym=sym)
+
+        clusterClasses = []
+        for (cab, cae, cob, coe, ctp) in clusterChars:
+          if cv.get(ctp, curSign):
+            clusterClasses.append(ctp)
+        clusterClasses = ' '.join(clusterClasses)
+
+        if reading:
+          cv.feature(curSign, reading=reading)
+        if grapheme:
+          cv.feature(curSign, grapheme=grapheme)
+
+      return sym
 
     def getParts(word):
       origWord = word
@@ -1316,17 +1397,26 @@ def director(cv):
 
       parts = getParts(word)
       lParts = len(parts)
+      sym = ''
+
+      after = None
 
       for p in range(len(parts)):
-        (part, after) = parts[p]
+        (part, afterPart) = parts[p]
 
         cAtfStart = clusterChar(True)
         signStart()
         cAtfEnd = clusterChar(False)
-        after += (
+        after = afterPart + (
             ' ' if p == lParts - 1 and w != lWords - 1 else ''
         )
-        signData(cAtfStart, cAtfEnd, after)
+        aftere = '␣' if p < lParts - 1 and afterPart == '' else None
+        symPart = signData(cAtfStart, cAtfEnd, after, aftere)
+        sym += f'{symPart}{after or "␣"}'
+      if sym:
+        cv.feature(curWord, sym=sym.strip('␣ -'))
+      if after:
+        cv.feature(curWord, after=after)
 
       cv.terminate(curWord)
       if not cv.linked(curWord):

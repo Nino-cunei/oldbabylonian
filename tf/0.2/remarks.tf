@@ -6,7 +6,7 @@
 @name=AbB Old Babylonian Cuneiform
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-02-27T12:43:51Z
+@dateWritten=2019-02-28T14:56:57Z
 
 244130	word (li-ba-al-li-t,u2-ka) divided over two lines
 244416	word (i-li-ka-am) divided over two lines
