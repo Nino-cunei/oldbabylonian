@@ -28,8 +28,13 @@ Corpus
 
 We have chosen the
 [Old Babylonian letters (AbB)](http://cdli.ox.ac.uk/wiki/doku.php?id=old_babylonian_letters)
-(1900-1600 BC) as a starting corpus for testing our approach. This is
+(1900-1600 BC) as the second corpus for testing our approach. This is
 *cuneiform* corpus of ca. 1300 documents (tablets and envelopes) with legible inscriptions.
+
+The first cuneiform corpus that we have brought into Text-Fabric is the
+proto-cuneiform
+[Uruk](https://github.com/Nino-cunei/uruk/blob/master/docs/about.md)
+corpus.
 
 Provenance
 ----------
