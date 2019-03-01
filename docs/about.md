@@ -59,7 +59,7 @@ The downloaded files contain metadata and transliterations.
 
 Currently, we are using the transliterations only.
 
-We have a [specification](docs/transcription.md) of the transcription format and
+We have a [specification](transcription.md) of the transcription format and
 how we model the text in Text-Fabric.
 
 We have checked the conversion from the ATF transliterations to Text-Fabric
