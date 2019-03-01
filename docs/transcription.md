@@ -151,7 +151,8 @@ feature | values | in ATF | description
 ------- | ------ | ------ | -----------
 **col** | `1` | `@column 1` | number of the column in which the line occurs; without prime, see also `primecol`
 **comment** | `rest broken` | `$ rest broken` | the contents of a structural comment (starting with `$`); such a line has a single empty slot
-**ln** | `1` `$` `#` | `1. [a-na]` `$ rest broken` `# reading la-mi! proposed by Von Soden` | ATF line number of a transcription line; for comment lines it is `$`, for meta lines it is `#`; without prime, see also `primeln`
+**ln** | `1` | `1. [a-na]` | ATF line number of a numbered transcription line; without prime, see also `primeln`; see also **lnc**
+**lnc** | `$a` `$b` | `$ rest broken` | ATF line number of a comment line (`$`); the value `$` plus `a`, `b` etc., every new column restarts this numbering; see also `ln`
 **lnno** | | | combination of **col**, **primecol**, **ln**, **primeln** to identify a line
 **primecol** | `1'` | whether the column number has a prime `'` | 
 **primeln** | `1'` | whether the line number has a prime `'` | 

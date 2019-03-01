@@ -15,7 +15,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '0.3'
+VERSION_TF = '0.4'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -213,6 +213,8 @@ otext = {
 }
 
 intFeatures = set('''
+    ln
+    col
     primeln
     primecol
     repeat
@@ -292,7 +294,10 @@ featureMeta = {
         ),
     },
     'ln': {
-        'description': 'ATF line number, may be $ or #, without prime',
+        'description': 'ATF line number of a numbered line, without prime',
+    },
+    'lnc': {
+        'description': 'ATF line identification of a comment line ($)',
     },
     'lnno': {
         'description': 'ATF line number, may be $ or #, with prime; column number prepended',
@@ -880,7 +885,7 @@ def director(cv):
       cv.feature(emptySlot, type='empty')
       cv.feature(
           curLine,
-          ln='$',
+          lnc='$',
           lnno=lnno,
           comment=comment,
           srcfile=src,
