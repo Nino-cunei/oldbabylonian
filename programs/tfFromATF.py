@@ -15,7 +15,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '0.4'
+VERSION_TF = '1.0'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -32,8 +32,15 @@ OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 
 #  CHARACTERS
 
+MAPPING_FIXES = {
+    'd': 'dingir',
+}
+
 prime = "'"
 ellips = '…'
+liga = '␣'
+adjacent = '⁼'
+excl = '¡'
 
 emphatic = {
     's,': 'ş',
@@ -58,9 +65,7 @@ def divRepl(match):
   return f'{match.group(1)}{div}{match.group(2)}'
 
 
-times = '×'
-excl = '¡'
-graphemeStr = f'{times}{excl}'
+graphemeStr = f'{liga}{excl}'
 operatorStr = '.+/:'
 operatorSet = set(operatorStr)
 
@@ -130,7 +135,7 @@ def clusterCheck(text):
 def transEsc(text):
   text = divRe.sub(divRepl, text)
   text = text.replace('...', ellips)
-  text = text.replace('x(', f'{times}(')
+  text = text.replace('x(', f'{liga}(')
   text = text.replace('!(', f'{excl}(')
   for (exp, abb) in emphatic.items():
     text = text.replace(exp, abb)
@@ -148,16 +153,10 @@ def transUnEsc(text):
   for (exp, abb) in emphatic.items():
     text = text.replace(abb, exp)
   text = text.replace(excl, '!')
-  text = text.replace(times, 'x')
+  text = text.replace(liga, 'x')
   text = text.replace(ellips, '...')
   text = text.replace(div, '/')
   return text
-
-
-def makeAscii(r):
-  for (rin, rout) in transAscii.items():
-    r = r.replace(rin, rout)
-  return r.lower()
 
 
 clusterA = re.escape(''.join(clusterCharsA))
@@ -192,6 +191,46 @@ cHyphenERe = re.compile(f'-([{clusterE}]+)')
 cFlagRe = re.compile(f'[{clusterA}]([{flagStr}]+)[{clusterA}]')
 inlineCommentRe = re.compile(r'''^├[^┤]*┤$''')
 
+transUni = {
+    'h,': 'ḫ',
+    'H,': 'Ḫ',
+    'j,': 'ŋ',
+    'J,': 'Ŋ',
+    's,': 'ṣ',
+    'S,': 'Ṣ',
+    "s'": ':',
+    "S'": ':',
+    't,': 'ṭ',
+    'T,': 'Ṭ',
+    'sz': 'š',
+    'SZ': 'Š',
+    'x2': 'ₓ',
+    'X2': 'ₓ',
+    "'": ':',
+    '0': '₀',
+    '1': '₁',
+    '2': '₂',
+    '3': '₃',
+    '4': '₄',
+    '5': '₅',
+    '6': '₆',
+    '7': '₇',
+    '8': '₈',
+    '9': '₉',
+}
+
+
+def nice(text):
+  for (a, r) in transUni.items():
+    text = text.replace(a, r)
+  return text
+
+
+def makeAscii(text):
+  for (a, r) in transUni.items():
+    text = text.replace(r, a)
+  return text
+
 
 # TF CONFIGURATION
 
@@ -207,7 +246,8 @@ generic = {
 otext = {
     'fmt:text-orig-full': '{atfpre}{atf}{atfpost}{after}',
     'fmt:text-orig-plain': '{sym}{after/aftere}',
-    'fmt:text-unicode-full': '{unicode}{afteru}',
+    'fmt:text-orig-rich': '{symr}{after}',
+    'fmt:text-orig-unicode': '{symu}{afteru}',
     'sectionFeatures': 'pnumber,face,lnno',
     'sectionTypes': 'document,face,line',
 }
@@ -284,6 +324,12 @@ featureMeta = {
     'grapheme': {
         'description': 'grapheme of a sign',
     },
+    'graphemer': {
+        'description': 'grapheme of a sign using non-ascii characters',
+    },
+    'graphemeu': {
+        'description': 'grapheme of a sign using cuneiform unicode characters',
+    },
     'lang': {
         'description': 'language of a document',
     },
@@ -311,6 +357,12 @@ featureMeta = {
     'operator': {
         'description': 'the ! or x in a !() or x() construction',
     },
+    'operatorr': {
+        f'description': 'the ! or x in a !() or x() construction, represented as =, {liga}',
+    },
+    'operatoru': {
+        f'description': 'the ! or x in a !() or x() construction, represented as =, {liga}',
+    },
     'pnumber': {
         'description': 'P number of a document',
     },
@@ -326,6 +378,12 @@ featureMeta = {
     'reading': {
         'description': 'reading of a sign',
     },
+    'readingr': {
+        'description': 'reading of a sign using non-ascii characters',
+    },
+    'readingu': {
+        'description': 'reading of a sign using cuneiform unicode characters',
+    },
     'remarks': {
         'description': '# comment to line',
     },
@@ -337,6 +395,12 @@ featureMeta = {
     },
     'sym': {
         'description': 'essential part of a sign or of a word',
+    },
+    'symr': {
+        'description': 'essential part of a sign or of a word using non-ascii characters',
+    },
+    'symu': {
+        'description': 'essential part of a sign or of a word using cuneiform unicode characters',
     },
     'srcfile': {
         'description': 'source file name of a document',
@@ -362,9 +426,6 @@ featureMeta = {
     'uncertain': {
         'description': 'whether a sign is uncertain - between brackets ( )',
     },
-    'unicode': {
-        'description': 'unicode representation of a sign, based on reading and grapheme',
-    },
     'volume': {
         'description': 'volume of a document within a collection',
     },
@@ -372,14 +433,6 @@ featureMeta = {
 
 
 # ATF INTERPRETATION
-
-transUni = {
-    'sz': 'š',
-    's,': 'ṣ',
-    "s'": 'ś',
-    't,': 'ṭ',
-    'h,': 'ḫ',
-}
 
 transAscii = {rout.upper(): rin for (rin, rout) in transUni.items()}
 
@@ -546,6 +599,23 @@ def getMapping():
     for value in values:
       valueAscii = makeAscii(value)
       mapping[valueAscii].add(uniStr)
+      mapping[valueAscii.lower()].add(uniStr)
+      mapping[valueAscii.upper()].add(uniStr)
+
+  # apply a list of fixes
+
+  for (r, rSub) in MAPPING_FIXES.items():
+    previous = mapping.get(r, None)
+    correction = mapping.get(rSub, None)
+    term = 'added' if previous is None else 'replaced'
+
+    if correction is None:
+      print(f'MAPPING ERROR: "{r}" = "{rSub}" not {term} because "{rSub}" is not mapped')
+    else:
+      mapping[r] = mapping[rSub]
+      mapping[r.lower()] = mapping[rSub.lower()]
+      mapping[r.upper()] = mapping[rSub.upper()]
+      print(f'MAPPING INFO: "{r}" = "{rSub}" = {mapping[rSub]}" {term}')
 
   print(f'{len(mapping)} distinct values in table')
 
@@ -617,13 +687,8 @@ def director(cv):
 
   # sub director: setting up a document node
 
-  def uni(reading, grapheme, sep=''):
-    uReading = '|'.join(mapping.get(reading, (reading,))) if reading is not None else ''
-    uGrapheme = '|'.join(mapping.get(grapheme, (grapheme,))) if grapheme is not None else ''
-    result = uReading
-    if grapheme:
-      result += f'{sep}({uGrapheme})'
-    return result
+  def uni(asciiStr):
+    return '|'.join(mapping.get(asciiStr, (asciiStr,))) if asciiStr is not None else ''
 
   def documentStart():
     # we build nodes for documents, faces, lines
@@ -882,12 +947,20 @@ def director(cv):
         lnno = f'{recentColumn}:{lnno}'
       curLine = cv.node('line')
       emptySlot = cv.slot()
-      cv.feature(emptySlot, type='empty')
+      commentRep = f'$ {comment}'
+      cv.feature(
+          emptySlot,
+          type='commentline',
+          comment=comment,
+          atf=commentRep,
+          sym=commentRep,
+          symr=commentRep,
+          symu=commentRep,
+      )
       cv.feature(
           curLine,
           lnc='$',
           lnno=lnno,
-          comment=comment,
           srcfile=src,
           srcLnNum=i,
           srcLn=line,
@@ -1110,6 +1183,8 @@ def director(cv):
       nonlocal part
 
       sym = None
+      symR = None
+      symU = None
       origPart = part
 
       afteru = None if after == '-' else after
@@ -1135,7 +1210,7 @@ def director(cv):
       if not part:
         cv.feature(curSign, type='empty')
         errors['sign: empty (in cluster)'][src].add((i, line, pNum, transUnEsc(origPart)))
-        return sym
+        return (sym, symR, symU)
 
       if part.startswith('├') and part.endswith('┤'):
         commentIndex = int(part[1:-1])
@@ -1145,20 +1220,29 @@ def director(cv):
             curSign,
             type='comment',
             comment=comment,
-            unicode=commentRep,
             atf=commentRep,
-            sym=f'${comment}$'
+            sym=commentRep,
+            symr=commentRep,
+            symu=commentRep,
         )
-        return sym
+        symR = sym
+        symU = sym
+        return (sym, symR, symU)
 
       reading = None
+      readingR = None
+      readingU = None
       grapheme = None
+      graphemeR = None
+      graphemeU = None
 
       partRep = transUnEsc(part)
       cv.feature(curSign, atf=partRep)
 
       flags = doFlags()
       partRep = transUnEsc(part)
+      partRepR = nice(partRep)
+      partRepU = uni(partRep)
       if flags:
         cv.feature(curSign, flags=flags)
 
@@ -1170,36 +1254,46 @@ def director(cv):
           quantity = match.group(1)
           part = match.group(2)
           partRep = transUnEsc(part)
+          partRepR = nice(partRep)
+          partRepU = uni(partRep)
           if partRep.islower():
             reading = partRep
+            readingR = partRepR
+            readingU = partRepU
           else:
             grapheme = partRep
+            graphemeR = partRepR
+            graphemeU = partRepU
 
-          cv.feature(curSign, type='numeral')
           if quantity == 'n':
             fraction = None
             repeat = -1
-            sym = f'n{partRep}'
+            sym = f'n({partRep})'
+            symR = f'n({partRepR})'
+            symU = f'n({partRepU})'
             cv.feature(curSign, repeat=repeat)
           elif div in quantity:
             fraction = transUnEsc(quantity)
             repeat = None
-            sym = f'{fraction}{partRep}'
+            sym = f'{fraction}({partRep})'
+            symR = f'{fraction}({partRepR})'
+            symU = f'{fraction}({partRepU})'
             cv.feature(curSign, fraction=fraction)
           else:
             repeat = int(quantity)
             fraction = None
-            sym = f'{repeat}{partRep}'
+            sym = f'{repeat}({partRep})'
+            symR = f'{repeat}({partRepR})'
+            symU = f'{partRepU * repeat}'
             cv.feature(curSign, repeat=repeat)
 
-          unicode = (
-              uni(part, None)
-              if repeat is None and fraction is None else
-              uni(part, None) * repeat
-              if repeat is not None else
-              uni(part, fraction)
+          cv.feature(
+              curSign,
+              type='numeral',
+              sym=sym,
+              symr=symR,
+              symu=symU,
           )
-          cv.feature(curSign, unicode=unicode)
           break
 
         match = withGraphemeRe.search(part)
@@ -1212,20 +1306,30 @@ def director(cv):
             cv.feature(curSign, flags=flags)
 
           partRep = transUnEsc(part)
+          partRepR = nice(partRep)
+          partRepU = uni(partRep)
           grapheme = transUnEsc(grapheme)
+          graphemeR = nice(grapheme)
+          graphemeU = uni(grapheme)
           operator = transUnEsc(operator)
 
           reading = partRep
-          op = '=' if operator == '!' else times if operator == 'x' else operator
-          sym = f'{reading}{op}{grapheme}'
+          readingR = partRepR
+          readingU = partRepU
+          op = '=' if operator == '!' else liga if operator == 'x' else operator
+          sym = f'{reading}{operator}{grapheme}'
+          symR = f'{readingR}{op}{graphemeR}'
+          symU = f'{readingU}{op}{graphemeU}'
 
-          unicode = uni(partRep, grapheme)
           cv.feature(
               curSign,
               type='complex',
               operator=operator,
-              unicode=unicode,
+              operatorr=op,
+              operatoru=op,
               sym=sym,
+              symr=symR,
+              symu=symU,
           )
           break
 
@@ -1237,42 +1341,56 @@ def director(cv):
         if part == ellips:
           cv.feature(curSign, type='ellipsis')
           grapheme = partRep
-          sym = ellips
+          graphemeR = partRepR
+          graphemeU = partRepU
+          sym = '...'
+          symR = ellips
+          symU = ellips
           break
 
         if part in unknownSet:
           cv.feature(curSign, type='unknown')
           if partRep.islower():
             reading = partRep
+            readingR = partRepR
+            readingU = partRepU
           else:
             grapheme = partRep
+            graphemeR = partRepR
+            graphemeU = partRepU
           break
 
         if part.islower():
           reading = partRep
-          unicode = uni(partRep, None)
-          cv.feature(curSign, type='reading', unicode=unicode)
+          readingR = partRepR
+          readingU = partRepU
+          cv.feature(curSign, type='reading')
           break
 
         if part.isupper():
           grapheme = partRep
-          unicode = uni(None, partRep)
-          cv.feature(curSign, type='grapheme', unicode=unicode)
+          graphemeR = partRepR
+          graphemeU = partRepU
+          cv.feature(curSign, type='grapheme')
           break
 
         fallenThrough = True
 
       if fallenThrough:
         grapheme = partRep
-        cv.feature(curSign, type='other', unicode=uni(None, partRep))
+        graphemeR = partRepR
+        graphemeU = partRepU
+        cv.feature(curSign, type='other')
         msg = 'mixed case' if part.isalnum() else 'strange grapheme'
         errors[f'sign: {msg}'][src].add((i, line, pNum, transUnEsc(origPart)))
 
       if part != '':
         if sym is None:
           sym = partRep
+          symR = partRepR
+          symU = partRepU
         if sym:
-          cv.feature(curSign, sym=sym)
+          cv.feature(curSign, sym=sym, symr=symR, symu=symU)
 
         clusterClasses = []
         for (cab, cae, cob, coe, ctp) in clusterChars:
@@ -1281,11 +1399,11 @@ def director(cv):
         clusterClasses = ' '.join(clusterClasses)
 
         if reading:
-          cv.feature(curSign, reading=reading)
+          cv.feature(curSign, reading=reading, readingr=readingR, readingu=readingU)
         if grapheme:
-          cv.feature(curSign, grapheme=grapheme)
+          cv.feature(curSign, grapheme=grapheme, graphemer=graphemeR, graphemeu=graphemeU)
 
-      return sym
+      return (sym, symR, symU)
 
     def getParts(word):
       origWord = word
@@ -1403,6 +1521,8 @@ def director(cv):
       parts = getParts(word)
       lParts = len(parts)
       sym = ''
+      symR = ''
+      symU = ''
 
       after = None
 
@@ -1415,11 +1535,19 @@ def director(cv):
         after = afterPart + (
             ' ' if p == lParts - 1 and w != lWords - 1 else ''
         )
-        aftere = '␣' if p < lParts - 1 and afterPart == '' else None
-        symPart = signData(cAtfStart, cAtfEnd, after, aftere)
-        sym += f'{symPart}{after or "␣"}'
+        afteru = afterPart.replace('-', '')
+        aftere = adjacent if p < lParts - 1 and afterPart == '' else None
+        (symPart, symPartR, symPartU) = signData(cAtfStart, cAtfEnd, after, aftere)
+        sym += f'{symPart}{after or adjacent}'
+        symR += f'{symPartR}{after}'
+        symU += f'{symPartU}{afteru}'
       if sym:
-        cv.feature(curWord, sym=sym.strip('␣ -'))
+        cv.feature(
+            curWord,
+            sym=sym.strip(f'{adjacent} -'),
+            symr=symR.strip(' -'),
+            symu=symU.strip(' '),
+        )
       if after:
         cv.feature(curWord, after=after)
 

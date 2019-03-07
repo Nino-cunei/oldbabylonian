@@ -80,9 +80,10 @@ type | examples | description
 `numeral` | `5(disz)` `5/6(disz)`  | a numeral, either with a repeat or with a fraction
 `ellipsis` | `...` | representation of an unknown number of missing signs
 `grapheme` | `ARAD2` `GAN2` | sign given as a grapheme (uppercase)
-`empty` | `$ blank space` `# reading la-mi! proposed by Von Soden` | empty sign to fill a comment or meta line
+`empty` | | empty sign, usually due to an input or conversion error
 `complex` | `szu!(LI)` `isx(USZ)` | complex sign with reading, operator and given grapheme
 `comment` | `($ blank space $)` | comment sign to represent an *inline* comment
+`commentline` | `$ rest broken` | comment sign to represent a *line* comment; such a sign is the only sign of a comment line
 
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
@@ -93,24 +94,23 @@ feature | values | in ATF | description
 **atfpost** | `}_` | `{ki}_` | clustering characters attached at the end of a sign
 **atfpre** | `{` | `{ki}_` | clustering characters attached at the start of a sign
 **collated** | `1` | `_8(gesz2)*` | indicates the presence of the *collated* flag `*`
-**comment** | `blank space` | `($ blank space $)` | value of an inline comment; for such a comment a sign of type `comment` has been constructed; the `atf` feature of such a sign contains the full comment, including the delimiters `($` and `$)`
+**comment** | `blank space` `rest broken` | `($ blank space $)` `$ rest broken` | value of a comment; the comment may come from an inline comment, then the sign type is `comment`; or from a line comment, then the sign type is `commentline`
 **damage** | `1` | `isz-ta#-a-lu` | indicates the presence of the *damage* flag `#`
 **det** | `1` | `{d}suen` `asza5{a-sza3}` | indicates whether the sign is a determinative gloss, marked by being within braces `{ }`
 **excised** | `1` | `<<ma>>` `<<ip-pa-ar-ra-as>>` | whether a sign is excised by the editor, marked by being within double angle brackets  `<< >>`
 **fraction** | `5/6` | `5/6(disz)` | the fraction part of a numeral
-**grapheme** | `ARAD2` `GAN2` `LI` `USZ` | `ARAD2` `GAN2` `szu!(LI)` `isx(USZ)` | the grapheme name of a [*sign*](#sign) when its atf is capitalized or when the grapheme is shown between brackets after an operator
+**grapheme** **graphemer** **graphemeu** | `ARAD2` `GAN2` `LI` `USZ` | `ARAD2` `GAN2` `szu!(LI)` `isx(USZ)` | the grapheme name of a [*sign*](#sign) when its atf is capitalized or when the grapheme is shown between brackets after an operator; the **-r** variant uses accented letters; the **-u** variant uses cuneiform unicode
 **langalt** | `1` | `_{d}suen_` | whether the sign is in the alternate language in this corpus *Sumerian*. See also the document feature `lang`. ATF marks alternate language by enclosing signs in `_` ... `_`
 **missing** | `1` | `[ki-im]` | whether a sign is missing, marked by being within square brackets  `[ ]`
-**operator** | `!` `x` | `szu!(LI)` `isx(USZ)` | the type of operator in a complex sign
+**operator** **operatorr** **operatoru** | `!` `x` | `szu!(LI)` `isx(USZ)` | the type of operator in a complex sign; the **-r** and **-u** versions represent them as `=` and `␣` 
 **question** | `1` | `DU6~b?` | indicates the presence of the *question* flag `?`
-**reading** | `suen` | idem | reading (lowercase) of a sign; the sign may be simple or complex
+**reading** **readingr** **readingu** | `suen` | idem | reading (lowercase) of a sign; the sign may be simple or complex; the **-r** variant uses accented letters; the **-u** variant uses cuneiform unicode
 **remarkable** | `1` | `lam!` | indicates the presence of the *remarkable* flag `!`
 **repeat** | `5` | `5(disz) ` | marks repetition of a grapheme in a numeric sign 
-**sym** | | | essential parts of a sign, composed of **reading**, **grapheme**, **repeat**, **fraction**, **operator**, also defined for words
+**sym** **symr** **symu** | | | essential parts of a sign, composed of **reading**, **grapheme**, **repeat**, **fraction**, **operator**, also defined for words; the **-r** variant uses accented letters; the **-u** variant uses cuneiform unicode
 **supplied** | `1` | `<pa>` `i-ba-<asz-szi>` | whether a sign is supplied by the editor, marked by being within angle brackets  `< >`
 **type** | | | type of sign, see table above
 **uncertain** | `1` | `[x (x)]` `[li-(il)-li]` | whether a sign is uncertain, marked by being within brackets  `( )`
-**unicode** | | | reading or grapheme of a sign represented as unicode characters
 
 Node type [*word*](#word)
 -------------------------
@@ -150,7 +150,6 @@ Corresponds to a transcription or comment line in the source data.
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
 **col** | `1` | `@column 1` | number of the column in which the line occurs; without prime, see also `primecol`
-**comment** | `rest broken` | `$ rest broken` | the contents of a structural comment (starting with `$`); such a line has a single empty slot
 **ln** | `1` | `1. [a-na]` | ATF line number of a numbered transcription line; without prime, see also `primeln`; see also **lnc**
 **lnc** | `$a` `$b` | `$ rest broken` | ATF line number of a comment line (`$`); the value `$` plus `a`, `b` etc., every new column restarts this numbering; see also `ln`
 **lnno** | | | combination of **col**, **primecol**, **ln**, **primeln** to identify a line
@@ -211,8 +210,9 @@ Slots
 =====
 
 Slots are the textual positions. They can be occupied by individual signs or inline comments `($ ccc $)`.
-We have inserted empty slots on comment lines (starting with `$`) in order to anchor these lines at the right
-place in the text sequence.
+We have inserted empty slots on comment lines (starting with `$`)
+in order to anchor these lines at the right
+place in the text sequence and to store the comment itself in the feature `comment`.
 
 We discuss the node types we are going to construct. A node type corresponds to
 a textual object. Some node types will be marked as a section level.
@@ -323,17 +323,18 @@ goes into the feature **comment**.
 
 The comment, surrounded by the `($ $)` goes into the feature **atf**.
 
-### Empty signs ###
-
-Empty signs have been artificially added to comment lines (`$` lines) in order to 
+### Commentline signs ###
+Commentline signs have been artificially added to comment lines (`$` lines) in order to 
 anchor them to the textual sequence.
 
-The type of such signs is `empty` and they have no other features.
-The comment text of the line goes into the feature **comment** of the line, not of the sign.
+The comment text of the line goes into the feature **comment** of the single commentline
+sign of that line. It also goes to features `sym`, `symr`, `symu` and `atf`.
 
-Empty signs may also have been generated as the result of faulty inputs.
+### Empty signs ###
+
+Empty signs may have been generated as the result of faulty inputs.
 The conversion program detects these errors and issues messages about them.
-The current run of the conversion has not detected such empty signs.
+The current run of the conversion has not detected empty signs.
 
 ### Flags ###
 
@@ -465,7 +466,8 @@ If primes `'` are present on column numbers and line numbers, they will not get 
 The number of the line in the source file is stored in **srcLnNum**,
 the unmodified contents of the line, including the ATF line number goes into **srcLn**.
 
-If the line is a structural comment (`$`), the contents of the line goes into **comment**.
+If the line is a structural comment (`$`), the contents of the line goes into
+the **comment** feature of its sole sign, a sign of type `commentline`.
 
 If a line has a comment in the form of one or more following lines that start with `# `,
 then these lines will be joined with newlines and collectively go into **remarks**.
