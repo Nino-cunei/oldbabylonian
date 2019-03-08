@@ -574,12 +574,17 @@ The following text formats are defined (you can also list them with `T.formats`)
 
 format | kind | description
 --- | --- | ---
-`text-orig-full` | pure plain text | the full atf, including flags and cluster characters
-`text-orig-plain` | pure plain text | the essential bits: readings, graphemes, repeats, fractions, operators, no clusters, flags, inline comments
-`text-orig-rich` | pure plain text | as `text-orig-plain` but with accented characters
-`text-orig-unicode` | pure plain text | as `text-orig-plain` but with cuneiform unicode characters, hyphens are suppressed
-`layout-orig-rich` | text with layout | as `text-orig-rich` but the flag and cluster information is visible in layout
-`layout-orig-unicode` | text with layout | as `text-orig-unicode` but the flag and cluster information is visible in layout
+`text-orig-full` | plain | the full atf, including flags and cluster characters
+`text-orig-plain` | plain | the essential bits: readings, graphemes, repeats, fractions, operators, no clusters, flags, inline comments
+`text-orig-rich` | plain | as `text-orig-plain` but with accented characters
+`text-orig-unicode` | plain | as `text-orig-plain` but with cuneiform unicode characters, hyphens are suppressed
+`layout-orig-rich` | layout | as `text-orig-rich` but the flag and cluster information is visible in layout
+`layout-orig-unicode` | layout | as `text-orig-unicode` but the flag and cluster information is visible in layout
+
+The formats with `text` result in strings that are plain text, without additional formatting.
+
+The formats with `layout` result in pieces html with css-styles; the richness of layout enables us to code more information
+in the plain representation, e.g. blurry characters when signs are damaged or uncertain.
 
 See also the 
 [showcases](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/oldbabylonian/display.ipynb).
