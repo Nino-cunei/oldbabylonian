@@ -581,3 +581,6 @@ format | kind | description
 `layout-orig-rich` | text with layout | as `text-orig-rich` but the flag and cluster information is visible in layout
 `layout-orig-unicode` | text with layout | as `text-orig-unicode` but the flag and cluster information is visible in layout
 
+See also the 
+[showcases](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/oldbabylonian/display.ipynb).
+
