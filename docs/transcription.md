@@ -88,7 +88,7 @@ type | examples | description
 feature | values | in ATF | description
 ------- | ------ | ------ | -----------
 **after** | `-` ` ` `:` `.` `/` `+` | `ha:a-am` `a-di ma-di` | what comes after a sign before the next sign
-**aftere** | `␣` | | in those cases where two signs are adjacent
+**afterr** | `␣` | | what comes after a sign before the next sign when represented with rich characters; in those cases where two signs are adjacent ␣ is inserted
 **afteru** | ` ` `:` `.` `/` `+` | | what comes after a sign before the next sign when represented with unicode characters
 **atf** | `qa2` `ARAD2` `5/6(disz)` `ba?!(GESZ)` | idem | full atf of a sign, also complex signs, with flags but without clustering characters
 **atfpost** | `}_` | `{ki}_` | clustering characters attached at the end of a sign

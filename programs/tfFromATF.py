@@ -15,7 +15,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '1.0'
+VERSION_TF = '1.0.1'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -245,8 +245,8 @@ generic = {
 
 otext = {
     'fmt:text-orig-full': '{atfpre}{atf}{atfpost}{after}',
-    'fmt:text-orig-plain': '{sym}{after/aftere}',
-    'fmt:text-orig-rich': '{symr}{after}',
+    'fmt:text-orig-plain': '{sym}{afterr}',
+    'fmt:text-orig-rich': '{symr}{afterr}',
     'fmt:text-orig-unicode': '{symu}{afteru}',
     'sectionFeatures': 'pnumber,face,lnno',
     'sectionTypes': 'document,face,line',
@@ -267,8 +267,11 @@ featureMeta = {
     'after': {
         'description': 'what comes after a sign or word (- or space)',
     },
-    'aftere': {
-        'description': 'fill character between two adjacent signs',
+    'afterr': {
+        'description': (
+            'what comes after a sign or word (- or space); '
+            'between adjacent signs a ␣ is inserted'
+        ),
     },
     'afteru': {
         'description': 'what comes after a sign when represented as unicode (space)',
@@ -1178,7 +1181,7 @@ def director(cv):
           break
       return flags
 
-    def signData(clusterBefore, clusterAfter, after, aftere):
+    def signData(clusterBefore, clusterAfter, after, afterr):
       nonlocal curSign
       nonlocal part
 
@@ -1191,8 +1194,8 @@ def director(cv):
 
       if after:
         cv.feature(curSign, after=after)
-      if aftere:
-        cv.feature(curSign, aftere=aftere)
+      if afterr:
+        cv.feature(curSign, afterr=afterr)
       if afteru:
         cv.feature(curSign, afteru=afteru)
 
@@ -1535,9 +1538,9 @@ def director(cv):
         after = afterPart + (
             ' ' if p == lParts - 1 and w != lWords - 1 else ''
         )
+        afterr = adjacent if p < lParts - 1 and afterPart == '' else after
         afteru = afterPart.replace('-', '')
-        aftere = adjacent if p < lParts - 1 and afterPart == '' else None
-        (symPart, symPartR, symPartU) = signData(cAtfStart, cAtfEnd, after, aftere)
+        (symPart, symPartR, symPartU) = signData(cAtfStart, cAtfEnd, after, afterr)
         sym += f'{symPart}{after or adjacent}'
         symR += f'{symPartR}{after}'
         symU += f'{symPartU}{afteru}'
