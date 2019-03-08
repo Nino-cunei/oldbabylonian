@@ -572,8 +572,12 @@ Text formats
 
 The following text formats are defined (you can also list them with `T.formats`).
 
-format | description
---- | ---
-text-orig-full | the full atf, including flags and cluster characters
-text-orig-plain | the essential bits: readings, graphemes, repeats, fractions, operators, no clusters, flags, inline comments
-text-unicode-full | unicode characters, hyphens are suppressed
+format | kind | description
+--- | --- | ---
+`text-orig-full` | pure plain text | the full atf, including flags and cluster characters
+`text-orig-plain` | pure plain text | the essential bits: readings, graphemes, repeats, fractions, operators, no clusters, flags, inline comments
+`text-orig-rich` | pure plain text | as `text-orig-plain` but with accented characters
+`text-orig-unicode` | pure plain text | as `text-orig-plain` but with cuneiform unicode characters, hyphens are suppressed
+`layout-orig-rich` | text with layout | as `text-orig-rich` but the flag and cluster information is visible in layout
+`layout-orig-unicode` | text with layout | as `text-orig-unicode` but the flag and cluster information is visible in layout
+
