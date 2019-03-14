@@ -55,7 +55,14 @@ This repo is joint work of
     at the
     [University of Birmingham](https://www.birmingham.ac.uk/schools/historycultures/departments/caha/index.aspx)
 
-**To come:**
+### Acknowledgements
+
+* [Audey Hussein](https://www.linkedin.com/in/audayhussein/?originalSubdomain=ca)
+  helped with the mapping from readings to cuneiform unicode;
+* [Martijn Kokken](https://openaccess.leidenuniv.nl/handle/1887/45073)
+  transcribed many tablets in the corpus, provided helpful feedback;
+* [Alba de Ridder](https://openaccess.leidenuniv.nl/handle/1887/68350)
+  transcribed many tablets in the corpus, provided helpful feedback.
 
 **N.B.:** Releases of this repo have been archived at [Zenodo](https://zenodo.org).
 Click the DOI badge to be taken to the archive. There you find ways to cite this work.

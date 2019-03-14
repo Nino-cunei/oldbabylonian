@@ -15,7 +15,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '1.0.1'
+VERSION_TF = '1.0.2'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -35,6 +35,11 @@ OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 MAPPING_FIXES = {
     'd': 'dingir',
 }
+MAPPING_ADDITIONS = {
+    'ha': None,
+}
+
+UNMAPPABLE = {'x', 'X', '...'}
 
 prime = "'"
 ellips = '…'
@@ -661,12 +666,27 @@ def checkSane(line):
   return (insaneRep, lineMsg, line)
 
 
+def convert():
+  cv = getConverter()
+
+  return cv.walk(
+      director,
+      slotType,
+      otext=otext,
+      generic=generic,
+      intFeatures=intFeatures,
+      featureMeta=featureMeta,
+      generateTf=generateTf,
+  )
+
+
 # DIRECTOR
 
 def director(cv):
 
   sources = getSources()
   mapping = getMapping()
+  unmapped = collections.Counter()
 
   curDocument = None
   recentObject = None
@@ -691,7 +711,14 @@ def director(cv):
   # sub director: setting up a document node
 
   def uni(asciiStr):
-    return '|'.join(mapping.get(asciiStr, (asciiStr,))) if asciiStr is not None else ''
+    if asciiStr is None:
+      return ''
+    uniChars = mapping.get(asciiStr, None)
+    if uniChars is None:
+      if asciiStr not in UNMAPPABLE:
+        unmapped[asciiStr] += 1
+      uniChars = (asciiStr,)
+    return '|'.join(uniChars)
 
   def documentStart():
     # we build nodes for documents, faces, lines
@@ -1245,7 +1272,6 @@ def director(cv):
       flags = doFlags()
       partRep = transUnEsc(part)
       partRepR = nice(partRep)
-      partRepU = uni(partRep)
       if flags:
         cv.feature(curSign, flags=flags)
 
@@ -1335,6 +1361,8 @@ def director(cv):
               symu=symU,
           )
           break
+
+        partRepU = uni(partRep)
 
         if part == '':
           errors['sign: empty (after flags)'][src].add((i, line, pNum, transUnEsc(origPart)))
@@ -1652,24 +1680,17 @@ def director(cv):
 
   print(f'\n{len(pNums)} documents in corpus')
 
+  if unmapped:
+    print(f'WARNING: {len(unmapped)} unmapped tokens')
+    for (token, amount) in sorted(
+        unmapped.items(),
+        key=lambda x: (-x[1], x[0]),
+    ):
+      print(f'\t{token:<15} {amount:>5} x')
   if warnings:
     showDiags(warnings, 'WARNING')
   if errors:
     showDiags(errors, 'ERROR')
-
-
-def convert():
-  cv = getConverter()
-
-  return cv.walk(
-      director,
-      slotType,
-      otext=otext,
-      generic=generic,
-      intFeatures=intFeatures,
-      featureMeta=featureMeta,
-      generateTf=generateTf,
-  )
 
 
 # TF LOADING (to test the generated TF)
