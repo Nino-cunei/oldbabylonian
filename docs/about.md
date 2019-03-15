@@ -57,7 +57,7 @@ page, we have chosen `Download all text`.
 
 The downloaded files contain metadata and transliterations.
 
-Currently, we are using the transliterations only.
+We use a dozen or so of the metadata fields, but the focus is on the transliterations.
 
 We have a [specification](transcription.md) of the transcription format and
 how we model the text in Text-Fabric.

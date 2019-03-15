@@ -214,6 +214,23 @@ feature | values | in ATF | description
 **srcLnNum** | 29904 | not represented | see [source data](#source-data)
 **volume** | `01` | `&P509373 = AbB 01, 059` | the volume of a [*document*](#document) as number within a collection
 
+We also store a bunch of the metadata fields that preced the transliterations in the source
+files:
+
+feature | from metadata field | description
+------- | ------ | ------
+author | Author(s) | author 
+pubdate | Publication date | publication date 
+museumname | Collection | museum name 
+museumcode | Museum no. | museum code 
+excavation | Excavation no. | excavation number 
+period | Period | period indication 
+material | Material | material indication 
+genre | Genre | genre 
+subgenre | Sub-genre | sub-genre 
+transcriber | ATF source | person who did the encoding into ATF 
+ARK | UCLA Library ARK | persistent identifier of type ARK 
+
 Source data
 ===========
 

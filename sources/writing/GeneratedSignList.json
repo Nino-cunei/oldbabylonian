@@ -879,7 +879,7 @@
 			[
                 "NUNDUM", "KAxNUN", "NUMDU", "NUMDUM", "NUMDUN", "NUNDU", "NUNDUN"
             ]
-        },
+        }str
         "SU6": {
             "signName": "SU6",
             "signNumber": 32,

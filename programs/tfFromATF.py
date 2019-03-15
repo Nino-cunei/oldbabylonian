@@ -2,7 +2,6 @@ import sys
 import os
 import re
 import collections
-import json
 from unicodedata import name as uname
 from shutil import rmtree
 from glob import glob
@@ -19,10 +18,10 @@ VERSION_TF = '1.0.2'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
-WRITING_DIR = f'{REPO_DIR}/sources/writing'
+CHAR_DIR = f'{REPO_DIR}/characters'
 
-SIGN_FILE = 'GeneratedSignList.json'
-SIGN_PATH = f'{WRITING_DIR}/{SIGN_FILE}'
+MAPPING_FILE = 'mapping.tsv'
+MAPPING_PATH = f'{CHAR_DIR}/{MAPPING_FILE}'
 
 IN_DIR = f'{TRANS_DIR}/{VERSION_SRC}'
 
@@ -31,13 +30,6 @@ OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 
 
 #  CHARACTERS
-
-MAPPING_FIXES = {
-    'd': 'dingir',
-}
-MAPPING_ADDITIONS = {
-    'ha': None,
-}
 
 UNMAPPABLE = {'x', 'X', '...'}
 
@@ -237,6 +229,21 @@ def makeAscii(text):
   return text
 
 
+META_FIELDS = {
+    'Author(s)': ('author', 'str'),
+    'Publication date': ('pubdate', 'str'),
+    'Collection': ('museumname', 'str'),
+    'Museum no.': ('museumcode', 'str'),
+    'Excavation no.': ('excavation', 'str'),
+    'Period': ('period', 'str'),
+    'Material': ('material', 'str'),
+    'Genre': ('genre', 'str'),
+    'Sub-genre': ('subgenre', 'str'),
+    'ATF source': ('transcriber', 'str'),
+    'UCLA Library ARK': ('ARK', 'str'),
+}
+
+
 # TF CONFIGURATION
 
 slotType = 'sign'
@@ -257,16 +264,21 @@ otext = {
     'sectionTypes': 'document,face,line',
 }
 
-intFeatures = set('''
-    ln
-    col
-    primeln
-    primecol
-    repeat
-    srcLnNum
-    trans
-    volume
-'''.strip().split()) | set(flagging.values()) | set(clusterType.values())
+intFeatures = (
+    set('''
+        ln
+        col
+        primeln
+        primecol
+        repeat
+        srcLnNum
+        trans
+        volume
+    '''.strip().split()) |
+    set(flagging.values()) |
+    set(clusterType.values()) |
+    {x[1][0] for x in META_FIELDS.items() if x[1][1] == 'int'}
+)
 
 featureMeta = {
     'after': {
@@ -437,6 +449,39 @@ featureMeta = {
     'volume': {
         'description': 'volume of a document within a collection',
     },
+    'author': {
+        'description': 'author from metadata field "Author(s)"',
+    },
+    'pubdate': {
+        'description': 'publication date from metadata field "Publication date"',
+    },
+    'museumname': {
+        'description': 'museum name from metadata field "Collection"',
+    },
+    'museumcode': {
+        'description': 'museum code from metadata field "Museum no."',
+    },
+    'excavation': {
+        'description': 'excavation number from metadata field "Excavation no."',
+    },
+    'period': {
+        'description': 'period indication from metadata field "Period"',
+    },
+    'material': {
+        'description': 'material indication from metadata field "Material"',
+    },
+    'genre': {
+        'description': 'genre from metadata field "Genre"',
+    },
+    'subgenre': {
+        'description': 'genre from metadata field "Sub-genre"',
+    },
+    'transcriber': {
+        'description': 'person who did the encoding into ATF from metadata field "ATF source"',
+    },
+    'ARK': {
+        'description': 'persistent identifier of type ARK from metadata field "UCLA Library ARK"',
+    },
 }
 
 
@@ -594,39 +639,13 @@ def showDiags(diags, kind, batch=20):
 # SET UP CONVERSION
 
 def getMapping():
-  with open(SIGN_PATH) as fh:
-    signs = json.load(fh)['signs']
+  mapping = {}
+  with open(MAPPING_PATH) as fh:
+    for line in fh:
+      (k, v) = line.strip().split('\t', 1)
+      mapping[k] = v
 
-  print(f'{len(signs)} signs in the json sign file')
-
-  mapping = collections.defaultdict(set)
-
-  for (sign, signInfo) in signs.items():
-    uniStr = signInfo['signCunei']
-    values = signInfo['values']
-    for value in values:
-      valueAscii = makeAscii(value)
-      mapping[valueAscii].add(uniStr)
-      mapping[valueAscii.lower()].add(uniStr)
-      mapping[valueAscii.upper()].add(uniStr)
-
-  # apply a list of fixes
-
-  for (r, rSub) in MAPPING_FIXES.items():
-    previous = mapping.get(r, None)
-    correction = mapping.get(rSub, None)
-    term = 'added' if previous is None else 'replaced'
-
-    if correction is None:
-      print(f'MAPPING ERROR: "{r}" = "{rSub}" not {term} because "{rSub}" is not mapped')
-    else:
-      mapping[r] = mapping[rSub]
-      mapping[r.lower()] = mapping[rSub.lower()]
-      mapping[r.upper()] = mapping[rSub.upper()]
-      print(f'MAPPING INFO: "{r}" = "{rSub}" = {mapping[rSub]}" {term}')
-
-  print(f'{len(mapping)} distinct values in table')
-
+  print(f'{len(mapping)} tokens in the character mapping')
   return mapping
 
 
@@ -699,6 +718,7 @@ def director(cv):
   clusterStatus = {typ: False for typ in clusterType}
   curSign = None
   skip = False
+  curMeta = {}
 
   i = 0
   pNum = None
@@ -717,8 +737,8 @@ def director(cv):
     if uniChars is None:
       if asciiStr not in UNMAPPABLE:
         unmapped[asciiStr] += 1
-      uniChars = (asciiStr,)
-    return '|'.join(uniChars)
+      uniChars = asciiStr
+    return uniChars
 
   def documentStart():
     # we build nodes for documents, faces, lines
@@ -747,6 +767,10 @@ def director(cv):
     pNums[pNum] = (src, i)
 
     sys.stderr.write(f'{src:<15} : {i:>4} : {pNum:<20}\r')
+
+    if curMeta:
+      cv.feature(curDocument, **curMeta)
+      curMeta.clear()
 
     cv.feature(
         curDocument,
@@ -1281,39 +1305,43 @@ def director(cv):
         match = numeralRe.match(part)
         if match:
           quantity = match.group(1)
-          part = match.group(2)
-          partRep = transUnEsc(part)
-          partRepR = nice(partRep)
-          partRepU = uni(partRep)
-          if partRep.islower():
-            reading = partRep
-            readingR = partRepR
-            readingU = partRepU
+          qpart = match.group(2)
+          qpartRep = transUnEsc(qpart)
+          qpartRepR = nice(qpartRep)
+          qpartRepU = uni(qpartRep)
+          if qpartRep.islower():
+            reading = qpartRep
+            readingR = qpartRepR
+            readingU = qpartRepU
           else:
-            grapheme = partRep
-            graphemeR = partRepR
-            graphemeU = partRepU
+            grapheme = qpartRep
+            graphemeR = qpartRepR
+            graphemeU = qpartRepU
 
           if quantity == 'n':
             fraction = None
             repeat = -1
-            sym = f'n({partRep})'
-            symR = f'n({partRepR})'
-            symU = f'n({partRepU})'
+            sym = f'n({qpartRep})'
+            symR = f'n({qpartRepR})'
+            symU = f'n({qpartRepU})'
             cv.feature(curSign, repeat=repeat)
           elif div in quantity:
             fraction = transUnEsc(quantity)
             repeat = None
-            sym = f'{fraction}({partRep})'
-            symR = f'{fraction}({partRepR})'
-            symU = f'{fraction}({partRepU})'
+            sym = f'{fraction}({qpartRep})'
+            symR = f'{fraction}({qpartRepR})'
+            partRep = transUnEsc(part)
+            partRepU = uni(partRep)
+            symU = partRepU
             cv.feature(curSign, fraction=fraction)
           else:
             repeat = int(quantity)
             fraction = None
             sym = f'{repeat}({partRep})'
             symR = f'{repeat}({partRepR})'
-            symU = f'{partRepU * repeat}'
+            partRep = transUnEsc(part)
+            partRepU = uni(partRep)
+            symU = partRepU
             cv.feature(curSign, repeat=repeat)
 
           cv.feature(
@@ -1346,6 +1374,7 @@ def director(cv):
           readingR = partRepR
           readingU = partRepU
           op = '=' if operator == '!' else liga if operator == 'x' else operator
+          opR = op.replace('x', 'ₓ')
           sym = f'{reading}{operator}{grapheme}'
           symR = f'{readingR}{op}{graphemeR}'
           symU = f'{readingU}{op}{graphemeU}'
@@ -1354,7 +1383,7 @@ def director(cv):
               curSign,
               type='complex',
               operator=operator,
-              operatorr=op,
+              operatorr=opR,
               operatoru=op,
               sym=sym,
               symr=symR,
@@ -1604,9 +1633,26 @@ def director(cv):
       for line in fh:
         i += 1
 
+        if not line:
+          continue
+
         line = line.strip()
 
-        if not line or line[0].isupper():
+        if not line:
+          continue
+
+        if line[0].isupper():
+          metaParts = line.split(':', 1)
+          if len(metaParts) == 1:
+            continue
+          (metaKey, metaValue) = metaParts
+          metaFeature = META_FIELDS.get(metaKey, None)
+          if not metaFeature:
+            continue
+          metaValue = metaValue.strip()
+          if not metaValue:
+            continue
+          curMeta[metaFeature[0]] = metaValue
           continue
 
         isDoc = line.startswith('&')
