@@ -14,7 +14,7 @@ BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
 VERSION_SRC = '0.2'
-VERSION_TF = '1.0.2'
+VERSION_TF = '1.0.3'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -28,7 +28,14 @@ IN_DIR = f'{TRANS_DIR}/{VERSION_SRC}'
 TF_DIR = f'{REPO_DIR}/tf'
 OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 
+# SOURCE FIXES
 
+SRC_FIXES = dict(
+    bub='dub',
+    umi='um i',
+    ura='ra',
+    szii='szi',
+)
 #  CHARACTERS
 
 UNMAPPABLE = {'x', 'X', '...'}
@@ -1701,6 +1708,12 @@ def director(cv):
         if isNumbered:
           ln = isNumbered.group(1)
           recentTrans = isNumbered.group(2)
+          for (pat, rep) in SRC_FIXES.items():
+            newRecentTrans = recentTrans.replace(pat, rep)
+            if newRecentTrans != recentTrans:
+              warnings[f'source fix: {pat} => {rep}'][src].add((i, line, pNum, None))
+              recentTrans = newRecentTrans
+
         else:
           errors[f'line: not numbered'][src].add((i, line, pNum, None))
           ln = ''
@@ -1727,12 +1740,15 @@ def director(cv):
   print(f'\n{len(pNums)} documents in corpus')
 
   if unmapped:
+    total = 0
     print(f'WARNING: {len(unmapped)} unmapped tokens')
     for (token, amount) in sorted(
         unmapped.items(),
         key=lambda x: (-x[1], x[0]),
     ):
+      total += amount
       print(f'\t{token:<15} {amount:>5} x')
+    print(f'\t{"Total unmapped":<15} {total:>5} x')
   if warnings:
     showDiags(warnings, 'WARNING')
   if errors:
