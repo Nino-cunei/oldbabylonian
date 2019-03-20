@@ -13,8 +13,8 @@ from tf.convert.walker import CV
 BASE = os.path.expanduser('~/github')
 ORG = 'Nino-cunei'
 REPO = 'oldbabylonian'
-VERSION_SRC = '0.2'
-VERSION_TF = '1.0.3'
+VERSION_SRC = '0.3'
+VERSION_TF = '1.0.4'
 REPO_DIR = f'{BASE}/{ORG}/{REPO}'
 
 TRANS_DIR = f'{REPO_DIR}/sources/cdli/transcriptions'
@@ -28,17 +28,9 @@ IN_DIR = f'{TRANS_DIR}/{VERSION_SRC}'
 TF_DIR = f'{REPO_DIR}/tf'
 OUT_DIR = f'{TF_DIR}/{VERSION_TF}'
 
-# SOURCE FIXES
-
-SRC_FIXES = dict(
-    bub='dub',
-    umi='um i',
-    ura='ra',
-    szii='szi',
-)
 #  CHARACTERS
 
-UNMAPPABLE = {'x', 'X', '...'}
+UNMAPPABLE = {'x', 'X', 'n', 'N', '...'}
 
 prime = "'"
 ellips = '…'
@@ -51,7 +43,7 @@ emphatic = {
     't,': 'ţ',
 }
 
-unknownStr = 'xX'
+unknownStr = 'xXnN'
 unknownSet = set(unknownStr)
 
 lowerLetterStr = 'abcdefghijklmnopqrstuvwyz' + ''.join(emphatic.values())
@@ -657,12 +649,6 @@ def getMapping():
 
 
 def getSources():
-  if os.path.exists(OUT_DIR):
-    rmtree(OUT_DIR)
-  os.makedirs(OUT_DIR, exist_ok=True)
-
-# list all sources
-
   return tuple(
       os.path.splitext(os.path.basename(f))[0]
       for f in glob(f'{IN_DIR}/*.txt')
@@ -693,6 +679,11 @@ def checkSane(line):
 
 
 def convert():
+  if generateTf:
+    if os.path.exists(OUT_DIR):
+      rmtree(OUT_DIR)
+    os.makedirs(OUT_DIR, exist_ok=True)
+
   cv = getConverter()
 
   return cv.walk(
@@ -1708,11 +1699,6 @@ def director(cv):
         if isNumbered:
           ln = isNumbered.group(1)
           recentTrans = isNumbered.group(2)
-          for (pat, rep) in SRC_FIXES.items():
-            newRecentTrans = recentTrans.replace(pat, rep)
-            if newRecentTrans != recentTrans:
-              warnings[f'source fix: {pat} => {rep}'][src].add((i, line, pNum, None))
-              recentTrans = newRecentTrans
 
         else:
           errors[f'line: not numbered'][src].add((i, line, pNum, None))

@@ -98,7 +98,7 @@ There are several types of sign, stored in the feature `type`.
 type | examples | description
 ------- | ------ | ------
 `reading` | `ma` `qa2` | normal sign with a reading (lowercase)
-`unknown` | `x` | representation of an unknown sign
+`unknown` | `x` `n` | representation of an unknown sign, the `n` stands for an unknown numeral
 `numeral` | `5(disz)` `5/6(disz)`  | a numeral, either with a repeat or with a fraction
 `ellipsis` | `...` | representation of an unknown number of missing signs
 `grapheme` | `ARAD2` `GAN2` | sign given as a grapheme (uppercase)
@@ -291,11 +291,16 @@ Simple signs may be *augmented* with *flags* (see below).
 
 ### Unknown signs ###
 
-The letters `x` and `X` in isolation stand for an unknown signs.
+The letters `x` and `X`, `n` and `N` in isolation stand for an unknown signs.
 
 The *type* of such signs is `unknown`. 
 
-If the value is `x`, it will stored in **reading**, if it is `X` in **grapheme**. 
+If the value is `x` or `n`, it will stored in **reading**, if it is `X` or `N` in **grapheme**.
+
+The `x` and `X` stand for completely unknown signs, the `n` and `N` stand for unknown signs
+of which it is known that they are numerals.
+
+**N.B:** See under numerals below, where `n` plays a slightly different role.
 
 ### Ellipsis ###
 
@@ -318,7 +323,8 @@ Numeric signs may also be preceded with a *fraction*:
 We store the integral number before the brackets in the feature **repeat**,
 and the fraction in the feature **fraction**.
 
-If the repeat is `n`, it means that a number is missing.
+If the repeat is `n`, it means that the amount of repetition is uncertain
+or that a repetition is missing.
 We store it as `repeat` = `-1`, so repeats always have an integer value.
 
 In a numeral, within the brackets you find the **reading** or **grapheme**,
