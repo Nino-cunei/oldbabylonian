@@ -545,7 +545,7 @@ COMMENT_PATTERN = r'''
               \s+
               lines?
           )
-          | rest | obverse | reverse | seal |
+          | rest | obverse | reverse | seal | lower edge |
           (?:
               beginning
               (?: \s+ lines?)?
