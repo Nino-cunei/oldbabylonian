@@ -8,11 +8,11 @@
 Nino-cunei
 ==========
 
-[![sha](sha.png) Software Heritage Archive](https://archive.softwareheritage.org/browse/origin/https://github.com/nino-cunei/oldbabylonian/)
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/nino-cunei/oldbabylonian/)](https://archive.softwareheritage.org/browse/origin/https://github.com/nino-cunei/oldbabylonian/)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.167956619.svg)](https://doi.org/10.5281/zenodo.2579207)
 
-Proto-cuneiform corpora in Text-Fabric
+Cuneiform corpora in Text-Fabric
 --------------------------------------
 
 This repo is a research environment for the study of cuneiform tablets. You can
