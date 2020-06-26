@@ -1,4 +1,5 @@
 	'i
+	...
 	A
 	AB
 	AD
@@ -245,6 +246,7 @@
 	bum
 	bun2
 	bur
+	bur'u
 1	bur'u
 2	bur'u
 3	bur'u
@@ -398,11 +400,13 @@
 	gesz
 1	gesz
 9	gesz
+	gesz'u
 1	gesz'u
 2	gesz'u
 3	gesz'u
 4	gesz'u
 7	gesz'u
+	gesz2
 1	gesz2
 2	gesz2
 3	gesz2
@@ -627,6 +631,7 @@
 	musz
 	musz5
 	muszen
+	n
 	na
 	na4
 	nag2
@@ -793,6 +798,7 @@
 	szam3
 	szandana
 	szar
+	szar2
 1	szar2
 2	szar2
 	szara2
@@ -942,6 +948,7 @@
 	we
 	wi
 	wu
+	x
 	yi
 	za
 	za3

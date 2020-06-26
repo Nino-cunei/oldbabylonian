@@ -29,7 +29,7 @@ Library Initiative.
 See also
 [about](docs/about.md)
 and
-[transcription](docs/transcription.md).
+[transcription](https://github.com/Nino-cunei/tfFromAtf/blob/master/docs/transcription.md).
 
 Software
 --------
@@ -77,6 +77,6 @@ This is **work in progress!**
 *   2018-02-28 A dedicated TF app for Old Babylonian letters.
     encoding into ATF can be reproduced exactly from the TF source.
 *   2018-02-26 Text-Fabric data generated, and throughly checked.
-*   2018-01-25 First discussion of converting the Old Babylonian letter corpus when Dirk was visiting
-    Cale in Birmingham.
+*   2018-01-25 First discussion of converting the Old Babylonian letter corpus
+    when Dirk was visiting Cale in Birmingham.
 

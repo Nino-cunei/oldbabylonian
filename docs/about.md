@@ -36,6 +36,9 @@ proto-cuneiform
 [Uruk](https://github.com/Nino-cunei/uruk/blob/master/docs/about.md)
 corpus.
 
+Later we have added the cuneiform
+OldAssyrian](https://github.com/Nino-cunei/oldassyrian/blob/master/docs/about.md) corpus.
+
 Provenance
 ----------
 
@@ -59,8 +62,9 @@ The downloaded files contain metadata and transliterations.
 
 We use a dozen or so of the metadata fields, but the focus is on the transliterations.
 
-We have a [specification](transcription.md) of the transcription format and
-how we model the text in Text-Fabric.
+We have a
+[specification](https://github.com/Nino-cunei/tfFromAtf/blob/master/docs/transcription.md)
+of the transcription format and how we model the text in Text-Fabric.
 
 We have checked the conversion from the ATF transliterations to Text-Fabric
 thoroughly.
