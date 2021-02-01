@@ -21,7 +21,8 @@ aggregating, let alone higher level tasks such as clustering, colocation, and
 other statistical operations.
 
 That is why we have converted the transliterations to an other format,
-Text-Fabric, which is optimized for processing, adding data and sharing it.
+[Text-Fabric](https://github.com/annotation/text-fabric)
+, which is optimized for processing, adding data and sharing it.
 
 Corpus
 ------
