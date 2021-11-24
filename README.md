@@ -5,21 +5,18 @@
 <img src="docs/images/dans.png" align="right" width="100"/>
 </div>
 
-Nino-cunei
-==========
+# Nino-cunei
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/nino-cunei/oldbabylonian/)](https://archive.softwareheritage.org/browse/origin/https://github.com/nino-cunei/oldbabylonian/)
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.167956619.svg)](https://doi.org/10.5281/zenodo.2579207)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-Cuneiform corpora in Text-Fabric
---------------------------------------
+# Cuneiform corpora in Text-Fabric
 
 This repo is a research environment for the study of cuneiform tablets. You can
 run your own programs off-line, and publish your work in online notebooks.
 
-Corpus
-------
+# Corpus
 
 This repo contains transliterations of Old Babylonian letters (1900-1600 BC).
 
@@ -31,8 +28,7 @@ See also
 and
 [transcription](https://github.com/Nino-cunei/tfFromAtf/blob/master/docs/transcription.md).
 
-Software
---------
+# Software
 
 The main processing tool is [Text-Fabric](https://github.com/annotation/text-fabric/).
 It is instrumental to
@@ -40,18 +36,14 @@ turn the analysis of ancient data into computing narratives.
 
 The ecosystem is Python and Jupyter notebooks.
 
-Getting started
-===============
+# Getting started
 
 Start with the
 [tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/oldbabylonian/start.ipynb).
 
-Authors
-=======
+# Authors
 
-This repo is joint work of
-
-*   [Dirk Roorda](https://www.linkedin.com/in/dirkroorda/) at
+*   [Dirk Roorda](https://github.com/dirkroorda) at
     [DANS](https://www.dans.knaw.nl)
 *   [J. Cale Johnson](https://www.birmingham.ac.uk/staff/profiles/caha/johnson-cale.aspx)
     at the
@@ -69,10 +61,7 @@ This repo is joint work of
 **N.B.:** Releases of this repo have been archived at [Zenodo](https://zenodo.org).
 Click the DOI badge to be taken to the archive. There you find ways to cite this work.
 
-Status
-------
-
-This is **work in progress!**
+# Status
 
 *   2018-02-28 A dedicated TF app for Old Babylonian letters.
     encoding into ATF can be reproduced exactly from the TF source.
