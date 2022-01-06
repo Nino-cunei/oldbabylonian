@@ -1,0 +1,54 @@
+apiVersion: 3
+dataDisplay:
+  showVerseInTuple: true
+  textFormats:
+    layout-orig-rich:
+      method: layoutRich
+      style: trans
+    layout-orig-unicode:
+      method: layoutUnicode
+      style: orig
+    text-orig-full:
+      style: source
+    text-orig-plain:
+      style: trans
+    text-orig-rich:
+      style: trans
+    text-orig-unicode:
+      style: orig
+docs:
+  charText: mapping from readings to UNICODE
+  charUrl: 'https://nbviewer.jupyter.org/github/Nino-cunei/tfFromAtf/blob/master/programs/mapReadings.ipynb'
+  docPage: about
+  featureBase: 'https://github.com/Nino-cunei/tfFromAtf/blob/master/docs/transcription{docExt}'
+  featurePage: ''
+interfaceDefaults:
+  lineNumbers: false
+provenanceSpec:
+  corpus: 'Old Babylonian Letters 1900-1600: Cuneiform tablets'
+  doi: 10.5281/zenodo.2579207
+  version: 1.0.6
+  webBase: https://cdli.ucla.edu
+  webHint: Show this document on CDLI
+  webUrl: '{webBase}/search/search_results.php?SearchMode=Text&ObjectID=<1>'
+typeDisplay:
+  cluster:
+    stretch: false
+    label: '{type}'
+  document:
+    featuresBare: collection volume docnumber docnote
+    lineNumber: srcLnNum
+  face:
+    featuresBare: object
+    lineNumber: srcLnNum
+  line:
+    features: remarks translation@en
+    lineNumber: srcLnNum
+  sign:
+    features: collated remarkable question damage det uncertain missing excised supplied
+      langalt comment remarks repeat fraction operator grapheme
+  word:
+    base: true
+    label: true
+    wrap: false
+writing: akk

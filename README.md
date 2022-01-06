@@ -39,7 +39,7 @@ The ecosystem is Python and Jupyter notebooks.
 # Getting started
 
 Start with the
-[tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/oldbabylonian/start.ipynb).
+[tutorial](https://nbviewer.jupyter.org/github/Nino-cunei/oldbabylonian/blob/master/tutorial/start.ipynb).
 
 # Authors
 

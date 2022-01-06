@@ -1,0 +1,90 @@
+.pnum {
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #444444;
+}
+.op {
+    padding:  0.5em 0.1em 0.1em 0.1em;
+    margin: 0.8em 0.1em 0.1em 0.1em;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+}
+.period {
+    font-family: monospace;
+    font-size: medium;
+    font-weight: bold;
+    color: #0000bb;
+}
+.comment {
+    color: #7777dd;
+    font-family: monospace;
+    font-size: small;
+}
+.operator {
+    color: #ff77ff;
+    font-size: large;
+}
+/* LANGUAGE: superscript and subscript */
+
+/* cluster */
+.det {
+    vertical-align: super;
+}
+/* cluster */
+.langalt {
+    vertical-align: sub;
+}
+/* REDACTIONAL: line over or under  */
+
+/* flag */
+.collated {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* cluster */
+.excised {
+    color: #dd0000;
+    text-decoration: line-through;
+}
+/* cluster */
+.supplied {
+    color: #0000ff;
+    text-decoration: overline;
+}
+/* flag */
+.remarkable {
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+/* UNSURE: italic*/
+
+/* cluster */
+.uncertain {
+    font-style: italic
+}
+/* flag */
+.question {
+    font-weight: bold;
+    font-style: italic
+}
+
+/* BROKEN: text-shadow */
+
+/* cluster */
+.missing {
+    color: #999999;
+    text-shadow: #bbbbbb 1px 1px;
+}
+/* flag */
+.damage {
+    font-weight: bold;
+    color: #999999;
+    text-shadow: #bbbbbb 1px 1px;
+}
+.empty {
+  color: #ff0000;
+}
+
