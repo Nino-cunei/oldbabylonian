@@ -8,7 +8,9 @@
 # Nino-cunei
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/nino-cunei/oldbabylonian/)](https://archive.softwareheritage.org/browse/origin/https://github.com/nino-cunei/oldbabylonian/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.167956619.svg)](https://doi.org/10.5281/zenodo.2579207)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3909507.svg)](https://doi.org/10.5281/zenodo.3909507)
+
+
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 # Cuneiform corpora in Text-Fabric
