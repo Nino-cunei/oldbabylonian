@@ -53,7 +53,7 @@ Start with the
 
 ### Acknowledgements
 
-* [Audey Hussein](https://www.linkedin.com/in/audayhussein/?originalSubdomain=ca)
+* [Auday Hussein](https://www.linkedin.com/in/audayhussein/?originalSubdomain=ca)
   helped with the mapping from readings to cuneiform unicode;
 * [Martijn Kokken](https://openaccess.leidenuniv.nl/handle/1887/45073)
   transcribed many tablets in the corpus, provided helpful feedback;
@@ -67,7 +67,7 @@ Click the DOI badge to be taken to the archive. There you find ways to cite this
 
 *   2018-02-28 A dedicated TF app for Old Babylonian letters.
     encoding into ATF can be reproduced exactly from the TF source.
-*   2018-02-26 Text-Fabric data generated, and throughly checked.
+*   2018-02-26 Text-Fabric data generated, and thoroughly checked.
 *   2018-01-25 First discussion of converting the Old Babylonian letter corpus
     when Dirk was visiting Cale in Birmingham.
 

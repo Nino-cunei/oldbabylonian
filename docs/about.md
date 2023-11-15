@@ -12,7 +12,7 @@ Cuneiform tablets
 
 Cuneiform tablets have been photographed, and transliterated
 in [ATF](http://oracc.museum.upenn.edu/doc/help/editinginatf/cdliatf/index.html)
-files, in which the marks on a tablet are represented by ascii characters.
+files, in which the marks on a tablet are represented by ASCII characters.
 
 While the ATF descriptions preserve an awesome amount of precise information
 about the marks that are visible in the clay and their spatial structure, it is
